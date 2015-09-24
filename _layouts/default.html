@@ -1,79 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{page.title}} &middot; Frederick Solt</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
 
-    <link href="web/bootstrap.min.css" rel="stylesheet">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700'
-      rel='stylesheet' type='text/css'>
-  </head>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
 
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section hero">
     <div class="container">
-
-      <div class="masthead">
-
-        <h3 class="muted"><a href="/">Frederick Solt</a> </h3>
-        <hr>
-      </div>
-
       <div class="row">
-        <div class="col-xs-12 col-sm-3" id="nav">
-
-        <nav>
-      		<ul>
-          		<li><a href="/">Home</a></li>
-  	        	<li><a href="/swiid">The SWIID</a></li>
-          		<li><a href="/res/res">Research on Inequality</a></li>
-          		<li><a href="/res/add_res">Additional Research</a></li>
-          		<li><a href="/teach">Teaching</a></li>
-          		<li><a href="/blog">Blog</a></li>
-          		<li><a href="/cv">CV</a></li>
-      		</ul>
-		    </nav>
-
-          <hr>
+        <div class="four columns sidebar">
+          <h1>Frederick Solt</h1>
+          <p style = "text-align: center">
+            <a href="mailto:frederick-solt@uiowa.edu">frederick-solt@uiowa.edu</a></br>
+            
+          </p>
+                <ul class = "menu">
+                  <li class = "menu"><a href="/">About</a></li>
+                  <li class = "menu"><a href="/swiid">The SWIID</a></li>
+                  <li class = "menu"><a href="/res/res">Research on Inequality</a></li>
+                  <li class = "menu"><a href="/res/add_res">Other Research</a></li>
+                  <li class = "menu"><a href="/teach">Teaching</a></li>
+                  <li class = "menu"><a href="/teach">Blog</a></li>
+                  <li class = "menu"><a href="/cv">CV</a></li>
+                  </ul>
+                  <a href="https://twitter.com/fredericksolt" style="font-size: 1.5rem">Twitter</a>
+               | <a href="https://github.com/fsolt" style="font-size: 1.5rem">GitHub</a> </br></br>
+                </div>
+              <div class="eight columns">
+                {{ content }}
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div id="content" class="col-xs-12 col-sm-8 pull-right">
-          {{ content }}
-        </div>
-      </div>
+        </body
+        </html>
 
-      <div class="footer">
-        <hr>
-        <p>&copy; Frederick Solt. Source code 
-          available at <a href="https://github.com/fsolt">github.com/fsolt</a>.  Follow me on <a href="https://twitter.com/fredericksolt">Twitter</a>.  <a href="mailto:frederick-solt@uiowa.edu">Email me</a>.
-        </p>
-      </div>
 
-    </div> <!-- /container -->
-
-  <script src="//code.jquery.com/jquery.js"></script>
-  <script src="bootstrap-3.3.5/js/bootstrap.min.js"></script>
-  <script src="bootstrap-3.3.5/toc.js"></script>
-	<!-- Start of StatCounter Code for Default Guide -->
-	<script type="text/javascript">
-	var sc_project=1915099; 
-	var sc_invisible=1; 
-	var sc_security="da58688a"; 
-	var scJsHost = (("https:" == document.location.protocol) ?
-	"https://secure." : "http://www.");
-	document.write("<sc"+"ript type='text/javascript' src='" +
-	scJsHost+
-	"statcounter.com/counter/counter.js'></"+"script>");
-	</script>
-	<noscript><div class="statcounter"><a title="shopify
-	analytics ecommerce tracking"
-	href="http://statcounter.com/shopify/" target="_blank"><img
-	class="statcounter"
-	src="http://c.statcounter.com/1915099/0/da58688a/1/"
-	alt="shopify analytics ecommerce
-	tracking"></a></div></noscript>
-	<!-- End of StatCounter Code for Default Guide -->
-  </body>
-</html>
+        <!-- End Document
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      </body>
+      </html>
