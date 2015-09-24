@@ -7,3 +7,6 @@ github_username:  fsolt
 
 # Build settings
 markdown: kramdown
+
+# Blog
+permalink: /blog/:year/:month/:day/:title
