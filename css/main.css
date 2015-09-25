@@ -1,13 +1,14 @@
 /* modified from www.getskeleton.com & carlislerainey.github.io*/
   
-  /* Import Fonts
+/* Import Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700'
+      rel='stylesheet' type='text/css'>
 
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .container {
+.container {
     position: relative;
     width: 100%;
     max-width: 960px;
@@ -46,14 +47,14 @@ body {
   font-size: 1.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
   font-weight: 400;
-  font-family: 'Josefin Sans'; Helvetica, sans;
+  font-family: 'Inconsolata', Arial, sans;
   color: rgb(40, 40, 40); }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Josefin Slab', Times, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inconsolata', Arial, sans;
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 600;
