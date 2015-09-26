@@ -22,7 +22,6 @@ More details are available at:
 
 [https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html](https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html)
 
-&nbsp;
 
 ### interplot
 Solt, Frederick and Yue Hu. 2015. interplot: Plot the Coefficients of Variables in Interaction Terms. The Comprehensive R Archive Network (CRAN).
