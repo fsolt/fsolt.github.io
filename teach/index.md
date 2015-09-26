@@ -3,6 +3,8 @@ layout: default
 title: Teaching
 ---
 
+## Teaching
+
 I teach undergraduate and graduate courses on comparative politics and quantitative methods.  Current students should refer to [ICON]("https://icon.uiowa.edu/") for the most up-to-date information on their courses.
 
 ### Fall 2015
