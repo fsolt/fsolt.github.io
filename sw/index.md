@@ -19,7 +19,7 @@ To install:
 
 More details are available at:
 
-https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html
+[https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html](https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html)
 
 &nbsp;
 
