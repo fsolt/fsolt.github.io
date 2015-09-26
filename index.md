@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frederick Solt
+title: Home
 output: html_document
 ---
 
