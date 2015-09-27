@@ -12,7 +12,7 @@ I teach undergraduate and graduate courses on comparative politics and quantitat
 ####POLI 2415: Latin American Politics
 
 ####POLI 7450: The Politics of Economic Inequality
-&nbsp;
+<br />
 
 ### Spring 2016
 
