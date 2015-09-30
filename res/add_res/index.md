@@ -9,7 +9,7 @@ output: html_document
 My broader research interests include comparative political behavior, political economy, and democratization.  Some of my work on these topics can be found below.
 <br /><br />
 
-Kim, Mi-son, and Frederick Solt.  Forthcoming.  "The Dynamics of Party Relabeling: Why Do Parties Change Names?"  _Party Politics_. (Pre-publication copy [available here](/papers/KimSolt2015pre); replication files [available here](http://dx.doi.org/10.7910/DVN/NZQIWM).)
+[Kim, Mi-son, and Frederick Solt.  Forthcoming.  "The Dynamics of Party Relabeling: Why Do Parties Change Names?"  _Party Politics_.](http://ppq.sagepub.com/content/early/2015/09/24/1354068815603240.full.pdf) (Pre-publication copy [available here](/papers/KimSolt2015pre); replication files [available here](http://dx.doi.org/10.7910/DVN/NZQIWM).)
 
 Contrary to longstanding arguments that equate parties with durable, information-rich brand names, relabeling of parties is not rare, and in many countries it is not even very unusual.  This paper provides the first effort to document this neglected phenomenon.  It finds that across European democracies, roughly a third of all parties have relabeled themselves at least once since 1945, and a similar proportion of elections include at least one party running under a new name.  It then presents analyses of why parties change names more frequently in some circumstances, finding support for three explanations derived from the existing literature: parties with longer-standing brands are less likely to shed them, but relabeling is more likely for parties that suffer electoral setbacks and for parties in weaker party systems.  Finally, it presents evidence that the end of Soviet communism made left parties more likely to rename themselves.
 
