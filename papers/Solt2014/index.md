@@ -1,6 +1,6 @@
 ---
 layout: redirect
-title: Solt2014
-loc: ../Solt2014.pdf
+title: Solt2016
+loc: ../Solt2016.pdf
 output: html_document
 ---
