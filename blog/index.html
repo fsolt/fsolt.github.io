@@ -1,10 +1,20 @@
 ---
 layout: default
+title: Blog
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<h2>Working Notes</h2>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">    
+      
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+
+      <div class="entry">
+        {{ post.content}}
+      </div>
+      
+      {% include tweet_this.html %}
+    </article>
+  {% endfor %}
+</div>
