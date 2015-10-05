@@ -1,0 +1,35 @@
+---
+layout: default
+title: SWIID FAQ
+---
+
+<h2>SWIID Frequently Asked Questions</h2>
+<div class="posts">
+  {% for post in site.posts %}
+    <h3>How to . . .</h3>
+    {% if post.categories contains 'sfaq_howto' %}
+    <article class="post">    
+      
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+
+      <div class="entry">
+        {{ post.content}}
+      </div>
+      
+    </article>
+    {% endif %}
+
+    <h3>The SWIID Data</h3>
+    {% if post.categories contains 'sfaq_data' %}
+    <article class="post">    
+      
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+
+      <div class="entry">
+        {{ post.content}}
+      </div>
+      
+    </article>
+    {% endif %}
+  {% endfor %}
+</div>
