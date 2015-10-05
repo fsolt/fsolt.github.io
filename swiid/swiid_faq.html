@@ -5,12 +5,12 @@ title: SWIID FAQ
 
 <h2>SWIID Frequently Asked Questions</h2>
 <div class="posts">
+<h3>How to . . .</h3>  
   {% for post in site.posts %}
-    <h3>How to . . .</h3>
     {% if post.categories contains 'sfaq_howto' %}
     <article class="post">    
       
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 
       <div class="entry">
         {{ post.content}}
@@ -18,12 +18,14 @@ title: SWIID FAQ
       
     </article>
     {% endif %}
+  {% endfor %}
 
-    <h3>The SWIID Data</h3>
+<h3>The SWIID Data</h3>
+  {% for post in site.posts %}
     {% if post.categories contains 'sfaq_data' %}
     <article class="post">    
       
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 
       <div class="entry">
         {{ post.content}}
