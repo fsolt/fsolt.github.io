@@ -3,9 +3,10 @@ layout: default
 title: Blog
 ---
 
-<h2>Working Notes</h2>
+<h2>Updates and Working Notes</h2>
 <div class="posts">
   {% for post in site.posts %}
+    {% if post.categories contains 'note' or post.categories contains 'update'%}
     <article class="post">    
       
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
@@ -15,5 +16,6 @@ title: Blog
       </div>
       
     </article>
+    {% endif %}
   {% endfor %}
 </div>
