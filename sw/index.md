@@ -7,7 +7,7 @@ output: html_document
 ## Software
 
 ### dotwhisker
-Solt, Frederick and Yue Hu. 2015. dotwhisker: Dot-and-Whisker Plots of Regression Results. The Comprehensive R Archive Network (CRAN). 
+Solt, Frederick, and Yue Hu. 2015. dotwhisker: Dot-and-Whisker Plots of Regression Results. The Comprehensive R Archive Network (CRAN). 
 
 [![CRAN version](http://www.r-pkg.org/badges/version/dotwhisker)](https://cran.r-project.org/web/packages/dotwhisker/index.html) ![](http://cranlogs.r-pkg.org/badges/grand-total/dotwhisker)
 
@@ -24,7 +24,7 @@ More details are available at:
 
 
 ### interplot
-Solt, Frederick and Yue Hu. 2015. interplot: Plot the Coefficients of Variables in Interaction Terms. The Comprehensive R Archive Network (CRAN).
+Solt, Frederick, and Yue Hu. 2015. interplot: Plot the Coefficients of Variables in Interaction Terms. The Comprehensive R Archive Network (CRAN).
 
 [![CRAN version](http://www.r-pkg.org/badges/version/interplot)](https://cran.r-project.org/web/packages/interplot/index.html) ![](http://cranlogs.r-pkg.org/badges/grand-total/interplot)
 
