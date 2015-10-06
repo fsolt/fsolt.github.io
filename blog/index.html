@@ -10,7 +10,7 @@ title: Blog
     <article class="post">    
       
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-
+      <h5>{{ post.date | date: "%A, %-d %B %Y" }}</h5>
       <div class="entry">
         {{ post.content}}
       </div>
