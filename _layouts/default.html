@@ -1,78 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>{{ page.title }} &middot; Frederick Solt</title>
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-
-</head>
-<body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <section class="header">
-      <h1 class="title"><a href="/">Frederick Solt</a></h1> 
-      <h3>Income Inequality and Its Consequences, Comparative Political Behavior, and Public Opinion</h3>
-     </section>
-    </div>
-
-  <div class="section hero">
+  {% include head.html %}
+  <body>
     <div class="container">
       <div class="row">
-        <div class="three columns sidebar">
-          <hr align="left">
-                <li class = "menu"><a href="/">Home</a></li>
-                <li class = "menu"><a href="/swiid">The SWIID</a></li>
-                <li class = "menu"><a href="/res/res">Research on Inequality</a></li>
-                <li class = "menu"><a href="/res/add_res">Other Research</a></li>
-                <li class = "menu"><a href="/teach">Teaching</a></li>
-                <li class = "menu"><a href="/sw">Published Software</a></li>
-                <li class = "menu"><a href="/blog">Updates and Notes</a></li>
-                <li class = "menu"><a href="/cv">CV</a></li>
-              <hr align="left">
-              <li class = "menu"><a href="mailto:frederick-solt@uiowa.edu">Email</a> | <a href="https://twitter.com/fredericksolt">Twitter</a> | <a style="font-size: 1.6rem" href="https://github.com/fsolt">GitHub</a></li>
-                </div>
-              <div class="nine columns">
-                {{ content }}
-              </div>
-            </div>
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            {% include sidebar.html %}
           </div>
         </div>
-  </div>
-        </body
-        </html>
-	<!-- Start of StatCounter Code for Default Guide -->
-	<script type="text/javascript">
-	var sc_project=1915099; 
-	var sc_invisible=1; 
-	var sc_security="da58688a"; 
-	var scJsHost = (("https:" == document.location.protocol) ?
-	"https://secure." : "http://www.");
-	document.write("<sc"+"ript type='text/javascript' src='" +
-	scJsHost+
-	"statcounter.com/counter/counter.js'></"+"script>");
-	</script>
-	<noscript><div class="statcounter"><a title="shopify
-	analytics ecommerce tracking"
-	href="http://statcounter.com/shopify/" target="_blank"><img
-	class="statcounter"
-	src="http://c.statcounter.com/1915099/0/da58688a/1/"
-	alt="shopify analytics ecommerce
-	tracking"></a></div></noscript>
-	<!-- End of StatCounter Code for Default Guide -->
-
-        <!-- End Document
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      </body>
-      </html>
+        <div class="col-md-8" role="main">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include statcounter.html %}
+  </body>
+</html>

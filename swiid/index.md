@@ -13,8 +13,8 @@ Cross-national research on the causes and consequences of income inequality has 
 
 There are two ways of using the SWIID.  To directly compare up to four countries in estimated levels and trends of (a) inequality in net (post-tax, post-transfer) income, (b) inequality in market (pre-tax, pre-transfer) income, (c) absolute redistribution (market-income inequality minus net-income inequality), or (d) relative redistribution (market-income inequality minus net-income inequality, divided by market-income inequality), or to compare several of these measures in a single country, use the SWIID web app below.  To use the SWIID in statistical analyses, datasets formatted for use in Stata and R are available for download.
 
-<a class="button button-primary" href="swiid_downloads.html">Download SWIID Version 5.0</a>
-<a class="button button-primary" href="swiid_faq.html">Frequently Asked Questions</a>
+<a class="button" href="swiid_downloads.html">Download SWIID Version 5.0</a>
+<a class="button" href="swiid_faq.html">Frequently Asked Questions</a>
 
 <iframe src="https://fsolt.shinyapps.io/SWIIDweb" style="border: none; width: 990px; height: 500px"></iframe>
 

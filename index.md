@@ -4,6 +4,6 @@ title: Home
 output: html_document
 ---
 
-##About Me
+##About
 
 I am an assistant professor in the [Department of Political Science](http://clas.uiowa.edu/polisci/) at the [University of Iowa](http://www.uiowa.edu).  My interests include comparative political behavior and political economy from a cross-national perspective; much of my research focuses on understanding how---and why---the extent of economic inequality in a country shapes the attitudes and behavior of the people who live there.  I also created and maintain the Standardized World Income Inequality Database (SWIID), which provides the most-comparable data available on income inequality for broadly cross-national research.  Please use the links at left to find out more about the SWIID, my research on the consequences of economic inequality, my work on other topics in comparative politics and political sociology, the courses I teach, and my CV.
