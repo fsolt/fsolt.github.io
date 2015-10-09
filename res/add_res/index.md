@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Other Research
+title: Additional Research
 output: html_document
 ---
 
