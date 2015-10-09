@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Use dotwhisker for your APSA slides!"
-date:   2015-03-27 10:15
+date:   2015-07-30 10:15
 categories: note dotwhisker r
 ---
 
