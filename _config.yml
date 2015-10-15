@@ -8,6 +8,7 @@ baseurl: ""
 twitter_username: fredericksolt
 github_username:  fsolt
 
+
 # Where things are
 source:      .
 destination: ./_site
