@@ -19,7 +19,7 @@ permalink: /blog/:year/:month/:day/:title
 
 # Conversion
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 lsi: false
 
 # Markdown Processors
