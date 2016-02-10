@@ -9,21 +9,21 @@ I teach undergraduate and graduate courses on comparative politics and quantitat
 
 ### Fall 2015
 
-######POLI 2415: Latin American Politics
+###### POLI 2415: Latin American Politics
 
-######POLI 7450: The Politics of Economic Inequality
+###### POLI 7450: The Politics of Economic Inequality
 <br />
 
 ### Spring 2016
 
-######POLI 1400: Introduction to Comparative Politics
+###### POLI 1400: Introduction to Comparative Politics
 
-######POLI 3450: The Politics of Economic Inequality
+###### POLI 3450: The Politics of Economic Inequality
 <br />
 
 ### Fall 2016
 
-######POLI 2415: Latin American Politics
+###### POLI 2415: Latin American Politics
 
-######POLI 7002/7450: Computational Methods for Comparative Politics
+###### POLI 7002/7450: Computational Methods for Comparative Politics
 
