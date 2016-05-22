@@ -1,6 +1,6 @@
 ---
 layout: redirect
 title: Solt CV
-loc: SoltCV_201510.pdf
+loc: SoltCV_201605.pdf
 output: html_document
 ---
