@@ -6,6 +6,8 @@ output: html_document
 
 ## Software
 
+### Visualization
+
 ### dotwhisker
 Solt, Frederick, and Yue Hu. 2015. dotwhisker: Dot-and-Whisker Plots of Regression Results. The Comprehensive R Archive Network (CRAN). 
 
@@ -40,3 +42,56 @@ To install:
 More details are available at:
 
 [http://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html](http://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html)
+
+
+### Reproducible Data Retrieval
+
+### icpsrdata
+Solt, Frederick, and Kellen Gracey.  2016. icpsrdata: Reproducible Data Retrieval from the ICPSR Archive. The Comprehensive R Archive Network (CRAN).
+
+[![CRAN version](http://www.r-pkg.org/badges/version/icpsrdata)](https://cran.r-project.org/package=icpsrdata) 
+![](http://cranlogs.r-pkg.org/badges/grand-total/icpsrdata)
+![](http://cranlogs.r-pkg.org/badges/icpsrdata?color=orange)
+[![Travis-CI Build Status](https://travis-ci.org/fsolt/icpsrdata.svg?branch=master)](https://travis-ci.org/fsolt/icpsrdata)
+
+`icpsrdata` is an R package that provides reproducible, programmatic access to datasets stored in the [Inter-university Consortium for Political and Social Research archive](http://www.icpsr.umich.edu).
+
+
+To install:
+
+* the latest released version: `install.packages("icpsrdata")`
+* the latest development version:
+
+```R
+if (!require(ghit)) install.packages("ghit")
+ghit::install_github("fsolt/icpsrdata")
+```
+Note that `icpsrdata` depends on the Firefox browser; if you don't already have it installed on your machine, [get it here](https://www.mozilla.org/firefox).
+
+For more details, check out [the vignette](https://cran.r-project.org/web/packages/icpsrdata/vignettes/icpsrdata-vignette.html).
+
+
+### pewdata
+Solt, Frederick. 2016. pewdata: Reproducible Retrieval of Pew Research Center Datasets. The Comprehensive R Archive Network (CRAN).
+
+[![CRAN version](http://www.r-pkg.org/badges/version/pewdata)](https://cran.r-project.org/package=pewdata) 
+![](http://cranlogs.r-pkg.org/badges/grand-total/pewdata) 
+![](http://cranlogs.r-pkg.org/badges/pewdata?color=orange)
+[![Travis-CI Build Status](https://travis-ci.org/fsolt/pewdata.svg?branch=master)](https://travis-ci.org/fsolt/pewdata)
+
+`pewdata` is an R package that provides reproducible, programmatic access to survey datasets from the [Pew Research Center](http://www.pewresearch.org).
+
+To install:
+
+* the latest released version: `install.packages("pewdata")`
+* the latest development version: 
+
+```R
+if (!require(ghit)) install.packages("ghit")
+ghit::install_github("fsolt/pewdata")
+```
+Note that `pewdata` depends on the Firefox browser; if you don't already have it installed on your machine, [get it here](https://www.mozilla.org/firefox).
+
+For more details, check out [the vignette](https://cran.r-project.org/web/packages/pewdata/vignettes/pewdata-vignette.html).
+
+
