@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "`icpsrdata` makes your ICPSR downloads reproducible!"
+title:  "icpsrdata makes your ICPSR downloads reproducible!"
 date:   2016-05-20 22:00:01
 categories: note icpsrdata r
 ---
