@@ -1,6 +1,6 @@
 ---
 layout: redirect
 title: Solt2016
-loc: http://onlinelibrary.wiley.com/doi/10.1111/ssqu.12295/abstract
+loc: ../Solt2016.pdf
 output: html_document
 ---
