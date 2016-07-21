@@ -5,11 +5,11 @@ date:   2015-10-05 17:14:01
 categories: sfaq_howto
 ---
 
-As of Version 5.0, the SWIID is distributed only pre-formatted for use with the tools for analyzing multiply-imputed data in Stata or R. This is meant to "set the default" in a way that encourages researchers to take into account the uncertainty in the SWIID estimates; this uncertainty is considerable in many developing countries. This decision does mean, however, that one will have to take the extra step of summarizing the multiple imputations when they aren’t needed, e.g., for graphing, or when doing analyses that the multiple-imputation tools can’t handle (though in such circumstances, one should limit one’s sample to those observations with relatively small standard errors; see [Solt 2009](../papers/Solt2009), 238).
+Since Version 5.0, the SWIID is distributed only pre-formatted for use with the tools for analyzing multiply-imputed data in Stata or R. This is meant to "set the default" in a way that encourages researchers to take into account the uncertainty in the SWIID estimates; this uncertainty is considerable in many developing countries. This decision does mean, however, that one will have to take the extra step of summarizing the multiple imputations when they aren’t needed, e.g., for graphing, or when doing analyses that the multiple-imputation tools can’t handle (though in such circumstances, one should limit one’s sample to those observations with relatively small standard errors; see [Solt 2009](../papers/Solt2009), 238).
 
 In Stata:
 
-    use SWIIDv5_0.dta, clear
+    use SWIIDv5_1.dta, clear
     // Summarize the dataset
     keep country year _*
     
@@ -33,27 +33,36 @@ In Stata:
 
 In R: 
 
-    load("SWIIDv5_0.RData")
     library(dplyr)
     library(stringr)
     library(ggplot2)
     
-    # Summarize the dataset
-    swiid.summary <- swiid %>% do.call(rbind, .) %>% 
-      group_by(country, year) %>% 
-      summarize_each(funs(mean, sd)) %>% ungroup
-    names(swiid.summary) <- str_replace(names(swiid.summary), "_mean", "")
-    names(swiid.summary) <- str_replace(names(swiid.summary), "_sd", "_se")
+    # Load the SWIID
+    load("../SWIIDv5_1.RData")
+    
+    # Summarize the SWIID
+    swiid_summary <- swiid %>% 
+        bind_rows() %>% 
+        group_by(country, year) %>% 
+        summarize_all(funs(mean, sd)) %>%
+        ungroup() %>% 
+        rename_(.dots=setNames(names(.), 
+                               str_replace(names(.), "_mean", ""))) %>% 
+        rename_(.dots=setNames(names(.), 
+                               str_replace(names(.), "_sd", "_se")))
+    
+    # Plot SWIID gini_net estimates for the United States
+    swiid_summary %>% 
+        filter(country == "United States") %>% 
+        ggplot(aes(x=year, y=gini_net)) + 
+        geom_line() +
+        geom_ribbon(aes(ymin = gini_net-1.96*gini_net_se,
+                        ymax = gini_net+1.96*gini_net_se, 
+                        linetype=NA), alpha = .25) +
+        scale_x_continuous(breaks=seq(1960, 2015, 5)) +
+        theme_bw() + 
+        labs(x = "Year", 
+             y = "SWIID Gini Index, Net Income",
+             title = "Income Inequality in the United States")
 
-    # A silly example
-    swiid.summary.2010S <- swiid.summary %>% 
-      mutate(name_length = str_length(country),
-             first_letter = str_sub(country, 1, 1)) %>% 
-      filter(year==2010 & first_letter=="S")
-
-    # A scatter plot with 95% confidence intervals
-    ggplot(swiid.summary.2010S) + 
-      geom_pointrange(aes(x=name_length, y=gini_net, 
-      ymin=gini_net - 2*gini_net_se, ymax = gini_net + 2*gini_net_se)) +
-      theme_bw() + theme(legend.position="none")
       
