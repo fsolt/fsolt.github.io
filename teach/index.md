@@ -25,7 +25,7 @@ I teach undergraduate and graduate courses on comparative politics and quantitat
 
 ###### POLI 2415: Latin American Politics
 
-###### POLI 7002/7450: Computational Methods for Comparative Politics
+###### [POLI 7002/7450: Computational Methods for Comparative Politics](http://cmcr-class.github.io)
 <br />
 
 ### Spring 2017
