@@ -66,13 +66,12 @@ To install:
 if (!require(ghit)) install.packages("ghit")
 ghit::install_github("fsolt/icpsrdata")
 ```
-Note that `icpsrdata` depends on the Firefox browser; if you don't already have it installed on your machine, [get it here](https://www.mozilla.org/firefox).
 
 For more details, check out [the vignette](https://cran.r-project.org/web/packages/icpsrdata/vignettes/icpsrdata-vignette.html).
 
 
 ### pewdata
-Solt, Frederick. 2016. pewdata: Reproducible Retrieval of Pew Research Center Datasets. The Comprehensive R Archive Network (CRAN).
+Solt, Frederick, and Yue Hu. 2016. pewdata: Reproducible Retrieval of Pew Research Center Datasets. The Comprehensive R Archive Network (CRAN).
 
 [![CRAN version](http://www.r-pkg.org/badges/version/pewdata)](https://cran.r-project.org/package=pewdata) 
 ![](http://cranlogs.r-pkg.org/badges/grand-total/pewdata) 
@@ -90,7 +89,6 @@ To install:
 if (!require(ghit)) install.packages("ghit")
 ghit::install_github("fsolt/pewdata")
 ```
-Note that `pewdata` depends on the Firefox browser; if you don't already have it installed on your machine, [get it here](https://www.mozilla.org/firefox).
 
 For more details, check out [the vignette](https://cran.r-project.org/web/packages/pewdata/vignettes/pewdata-vignette.html).
 
