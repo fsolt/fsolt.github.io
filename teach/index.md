@@ -32,5 +32,5 @@ I teach undergraduate and graduate courses on comparative politics and quantitat
 
 ###### POLI 1400: Introduction to Comparative Politics
 
-###### POLI 7450: Comparative Political Behavior
+###### POLI 7450: Comparative Public Opinion
 <br />
