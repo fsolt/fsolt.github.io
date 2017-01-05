@@ -18,10 +18,12 @@ Solt, Frederick, and Yue Hu. 2015. dotwhisker: Dot-and-Whisker Plots of Regressi
 
 To install:
 
-* the latest released version: 
-```r
+* the latest released version:
+
+```R
 install.packages("dotwhisker")
 ```
+
 * the latest development version: `devtools::install_github("fsolt/dotwhisker")`.
 
 More details are available at:
