@@ -18,13 +18,8 @@ Solt, Frederick, and Yue Hu. 2015. dotwhisker: Dot-and-Whisker Plots of Regressi
 
 To install:
 
-* the latest released version:
-
-```R
-install.packages("dotwhisker")
-```
-
-* the latest development version: `devtools::install_github("fsolt/dotwhisker")`.
+* the latest released version: `install.packages("dotwhisker")`.
+* the latest development version: `ghit::install_github("fsolt/dotwhisker")`.
 
 More details are available at:
 
@@ -42,7 +37,7 @@ Solt, Frederick, and Yue Hu. 2015. interplot: Plot the Coefficients of Variables
 To install:
 
 * the latest released version: `install.packages("interplot")`.
-* the latest development version: `devtools::install_github("sammo3182/interplot")`.
+* the latest development version: `ghit::install_github("sammo3182/interplot")`.
 
 More details are available at:
 
@@ -65,12 +60,7 @@ Solt, Frederick, and Kellen Gracey.  2016. icpsrdata: Reproducible Data Retrieva
 To install:
 
 * the latest released version: `install.packages("icpsrdata")`
-* the latest development version:
-
-```R
-if (!require(ghit)) install.packages("ghit")
-ghit::install_github("fsolt/icpsrdata")
-```
+* the latest development version: `ghit::install_github("fsolt/icpsrdata")`
 
 For more details, check out [the vignette](https://cran.r-project.org/web/packages/icpsrdata/vignettes/icpsrdata-vignette.html).
 
@@ -88,12 +78,7 @@ Solt, Frederick, and Yue Hu. 2016. pewdata: Reproducible Retrieval of Pew Resear
 To install:
 
 * the latest released version: `install.packages("pewdata")`
-* the latest development version: 
-
-```R
-if (!require(ghit)) install.packages("ghit")
-ghit::install_github("fsolt/pewdata")
-```
+* the latest development version: `ghit::install_github("fsolt/pewdata")`
 
 For more details, check out [the vignette](https://cran.r-project.org/web/packages/pewdata/vignettes/pewdata-vignette.html).
 
