@@ -46,6 +46,32 @@ More details are available at:
 
 ### Reproducible Data Retrieval
 
+### ropercenter
+Solt, Frederick.  2017.  ropercenter: Reproducible Data Retrieval from the Roper Center Data Archive.  The Comprehensive R Archive Network (CRAN).
+
+[![CRAN version](http://www.r-pkg.org/badges/version/ropercenter)](https://cran.r-project.org/package=icpsrdata) 
+![](http://cranlogs.r-pkg.org/badges/grand-total/ropercenter) 
+![](http://cranlogs.r-pkg.org/badges/ropercenter?color=orange)
+[![Travis-CI Build Status](https://travis-ci.org/fsolt/ropercenter.svg?branch=master)](https://travis-ci.org/fsolt/ropercenter)
+
+The `ropercenter` package provides programmatic, reproducible access to Roper Center datasets from within R for [registered users](https://ropercenter.cornell.edu/make-personalized-account/) at the Roper Center's [member institutions](https://ropercenter.cornell.edu/list-of-members/). 
+
+
+To install:
+
+* the latest released version: `install.packages("ropercenter")`
+* the latest development version:
+
+```R
+if (!require(ghit)) install.packages("ghit")
+ghit::install_github("fsolt/ropercenter")
+```
+
+For more details, check out [the vignette](https://cran.r-project.org/package=ropercenter/vignettes/ropercenter-vignette.html).
+
+Please recall that by using Roper Center services, you accept the Center's [Terms and Conditions](https://ropercenter.cornell.edu/CFIDE/cf/action/registration/termsAndConditions.cfm).
+
+
 ### icpsrdata
 Solt, Frederick, and Kellen Gracey.  2016. icpsrdata: Reproducible Data Retrieval from the ICPSR Archive. The Comprehensive R Archive Network (CRAN).
 
