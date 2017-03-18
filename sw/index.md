@@ -56,16 +56,10 @@ Solt, Frederick.  2017.  ropercenter: Reproducible Data Retrieval from the Roper
 
 The `ropercenter` package provides programmatic, reproducible access to Roper Center datasets from within R for [registered users](https://ropercenter.cornell.edu/make-personalized-account/) at the Roper Center's [member institutions](https://ropercenter.cornell.edu/list-of-members/). 
 
-
 To install:
 
 * the latest released version: `install.packages("ropercenter")`
-* the latest development version:
-
-```R
-if (!require(ghit)) install.packages("ghit")
-ghit::install_github("fsolt/ropercenter")
-```
+* the latest development version: `ghit::install_github("fsolt/ropercenter")`
 
 For more details, check out [the vignette](https://cran.r-project.org/package=ropercenter/vignettes/ropercenter-vignette.html).
 
@@ -82,13 +76,14 @@ Solt, Frederick, and Kellen Gracey.  2016. icpsrdata: Reproducible Data Retrieva
 
 `icpsrdata` is an R package that provides reproducible, programmatic access to datasets stored in the [Inter-university Consortium for Political and Social Research archive](http://www.icpsr.umich.edu).
 
-
 To install:
 
 * the latest released version: `install.packages("icpsrdata")`
 * the latest development version: `ghit::install_github("fsolt/icpsrdata")`
 
 For more details, check out [the vignette](https://cran.r-project.org/web/packages/icpsrdata/vignettes/icpsrdata-vignette.html).
+
+Please recall that by using ICPSR's services, you accept its [Terms and Conditions](http://www.icpsr.umich.edu/cgi-bin/terms?path=ICPSR&study=0001).
 
 
 ### pewdata
@@ -108,4 +103,5 @@ To install:
 
 For more details, check out [the vignette](https://cran.r-project.org/web/packages/pewdata/vignettes/pewdata-vignette.html).
 
+Please note that by downloading data from the Pew Research Center, you accept the Center's [Terms and Conditions](http://www.people-press.org/category/datasets/?download=20060061#Legal).
 
