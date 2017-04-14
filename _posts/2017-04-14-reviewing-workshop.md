@@ -1,25 +1,25 @@
 ---
-title: "Notes from a grad-student workshop on writing peer reviews"
+title: "Notes for Those New to Writing Peer Reviews"
 author: "Frederick Solt"
 date: "April 14, 2017"
 output: html_document
 ---
 
-I get asked to do a lot of reviews: at the beginning of this semester, I got 7 requests within two or three weeks.  I used to always say yes, but doing 35 or 40 reviews a year just took too much time: when I was first starting out, I'd take like 6 or 8 hours on each, but even I pretty quickly got down to 4 or so.  Nowadays it's might be a touch less, spread over two days: I like to give the paper a close read on one day, while taking notes and maybe doing a bit of research, and then to write up my review the next day, after my thoughts have had a chance to percolate.  
+Today we had a workshop for our graduate students on writing peer reviews.  Here are my notes on my contribution:
 
-Anyway, now I have a two-per-month rule, which I sometimes break: I took 4 out of those 7 requests back in January.
+I get asked to do a lot of reviews.  At the beginning of this semester, I got seven requests within two or three weeks.  I used to always say yes, but doing 35 or 40 reviews a year just took too much time: when I was first starting out, I'd take something like six or eight hours on each, but that pretty quickly got down to four or so.  Nowadays it might even be a touch less, spread over two days. I like to give the paper a close read on one day, while taking notes and maybe doing a bit of research.  Then the next day, I write up my review, after my thoughts have had a chance to percolate.  Anyway, now I have a two-per-month rule, though I sometimes break it: I took 4 out of those 7 requests back in January.
 
-I always start my reviews with a quick summary of the piece, but as reviewers, our focus should be on Theory, Data, and Method.  For top journals, the old saw is that the standard is New Theory, New Data, New Method--choose any two--but regardless of journal, for a work to make a contribution, it has to be sound--not new, just sound--on all three.  A couple of quick notes on each:
+I always start my reviews with a quick summary of the piece, but as reviewers, our focus should be on theory, data, and method.  For the big-three journals, the old saw is that the standard is "new theory, new data, new method--choose any two," but regardless of the journal that has asked you to review, for a work to make a contribution, it has to be sound--not new, just sound--on all three.  Here are a couple of quick notes on each, mostly of the points I find myself most often making:
 
-* Theory: if you think that the authors--and I've settled on always writing reviews with the assumption that the piece is co-authored and the appropriate pronoun is "they"--if you think the authors have overlooked some plausible rival theory, be sure to explain and include specific citations. You don't have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. 
+1. Theory: if you think that the authors<a href="#note1" id="note1ref"><sup>1</sup></a> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don't have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. 
 
-Reviews aren't the place to develop your own new rival theory.  If you're really tempted to do so, plan instead on responding to this paper when it comes out in print.
+Reviews aren't the place to develop your own new rival theory.  If you're _really_ tempted to do so, plan instead on responding to this paper when it comes out in print.
 
-* Data: do the authors take advantage of all available data?  Probably not--we can't all look at everything all the time--but if they've neglected obvious things: using, say, just that oddball third wave of the WVS instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so.  Of course, if they use some source and you know that there's other, better data available, point that out to them.
+1. Data: do the authors take advantage of all available data?  Probably not---we can't all look at everything all the time--but if they've neglected obvious things: using, say, just that oddball third wave of the WVS instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so.  Of course, if they use some source and you know that there's other, better data available, point that out to them.
 
-* Methods: are the methods appropriate?  Judge the methods on their own terms: NOT, oh, this study uses survey data, so none of this is causal! OR this study just reports an experiment, so it has no external validity!
+1. Methods: are the methods appropriate?  Judge the methods on their own terms: NOT, oh, this study uses survey data, so none of this is causal! OR this study just reports an experiment, so it has no external validity!
 
-Are interaction terms properly constructed and interpreted?  There's software that makes this easy. Recommend it by name: `grinter` for Stata and `interplot` for R.  Include cites to Braumoeller's (2004) _IO_ article and/or Brambor, Clark, and Golder (2006) in _PA_.
+Are interaction terms properly constructed and interpreted?  There's software that makes this easy. Recommend it by name. I always say, "There's [`grinter` for Stata](http://myweb.uiowa.edu/fboehmke/methods.html) and [`interplot` for R](https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html)."  Include cites to [Braumoeller's (2004) _IO_ article](https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8) and/or [Brambor, Clark, and Golder (2006) in _PA_](http://www.jstor.org/stable/25791835), too.
 
 Are the included controls appropriate?  Do the authors include controls that are plausibly causally downstream from their IVs?  That shouldn't be done.
 
@@ -41,3 +41,5 @@ Finally and above all: take a considerate, *helpful* tone.  Research is hard, an
 Political Methodologist 23(1), Special Issue on Peer Review, especially Nyhan's "Checklist Manifesto"
 
 check #BeReviewer1 on Twitter, and be sure to read [Thomas Leeper's manifesto that started it all](http://thomasleeper.com/2016/08/be-reviewer-one/)
+
+<a id="note1" href="#note1ref"><sup>1</sup></a> I've settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore "they."
