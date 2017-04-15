@@ -1,8 +1,8 @@
 ---
+layout: post
 title: "Notes for Those New to Writing Peer Reviews"
-author: "Frederick Solt"
-date: "April 14, 2017"
-output: html_document
+date: 2017-04-14 14:27:31
+categories: note
 ---
 
 Today we had a workshop for our graduate students on writing peer reviews.  Here are the notes I spoke from:
