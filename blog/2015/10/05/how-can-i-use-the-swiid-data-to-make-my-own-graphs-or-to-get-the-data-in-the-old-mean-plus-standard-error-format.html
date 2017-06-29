@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> How can I use the SWIID data to make my own graphs? Or to get the data in the old mean-plus-standard-error format? &middot; Frederick Solt </title>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="../../../../css/flatly-bootstrap.css"> 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../../css/custom.css">
+  <link rel="stylesheet" href="../../../../css/academicons.css">
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="../../../../">Frederick Solt</a></h1>
+<h5></h5>
+
+<ul class="nav nav-list sidebar-nav">
+  <li><a href="../../../../">Home</a></li>
+  <li><a href="../../../../swiid">The SWIID</a></li>
+  <li><a href="../../../../res/res">Research on Inequality</a></li>
+  <li><a href="../../../../res/add_res">Additional Research</a></li>
+  <li><a href="../../../../teach">Teaching</a></li>
+  <li><a href="../../../../sw">Published Software</a></li>
+  <li><a href="../../../../blog">Blog</a></li>
+  <li><a href="../../../../cv">CV</a></li>
+</ul>
+
+<ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+    <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai fa-lg ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h3>How can I use the SWIID data to make my own graphs? Or to get the data in the old mean-plus-standard-error format?</h3>
+<span class="date">Monday, 5 October 2015</span>
+
+<div class="post">
+  <p>Since Version 5.0, the SWIID is distributed only pre-formatted for use with the tools for analyzing multiply-imputed data in Stata or R. This is meant to &ldquo;set the default&rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates; this uncertainty is considerable in many developing countries. This decision does mean, however, that one will have to take the extra step of summarizing the multiple imputations when they aren’t needed, e.g., for graphing, or when doing analyses that the multiple-imputation tools can’t handle (though in such circumstances, one should limit one’s sample to those observations with relatively small standard errors; see <a href="../papers/Solt2009">Solt 2009</a>, 238).</p>
+
+<p>In Stata:</p>
+
+<pre><code>use SWIIDv5_1.dta, clear
+// Summarize the dataset
+keep country year _*
+
+foreach v in gini_net gini_market rel_red abs_red {
+    egen `v' = rowmean(_*`v')
+    egen `v'_se = rowsd(_*`v')
+    gen `v'_95ub = `v' + 1.96*`v'_se
+    gen `v'_95lb = `v' - 1.96*`v'_se
+}
+drop _*
+sort country year
+
+// A silly example
+gen name_length = length(country)
+gen first_letter = substr(country, 1, 1)
+keep if year==2010 &amp; first_letter==&quot;S&quot; /*2010 for Senegal, Serbia, . . .*/
+
+// A scatterplot with 95% confidence intervals
+twoway rspike gini_net_95ub gini_net_95lb name_length, lstyle(ci) || ///
+    scatter gini_net name_length, msize(small) legend(order(2 &quot;SWIID Net-Income Inequality&quot;)) 
+</code></pre>
+
+<p>In R:</p>
+
+<pre><code class="language-R">library(dplyr)
+library(stringr)
+library(ggplot2)
+
+# Load the SWIID
+load(&quot;../SWIIDv5_1.RData&quot;)
+
+# Summarize the SWIID
+swiid_summary &lt;- swiid %&gt;% 
+    bind_rows() %&gt;% 
+    group_by(country, year) %&gt;% 
+    summarize_all(funs(mean, sd)) %&gt;%
+    ungroup() %&gt;% 
+    rename_(.dots=setNames(names(.), 
+                           str_replace(names(.), &quot;_mean&quot;, &quot;&quot;))) %&gt;% 
+    rename_(.dots=setNames(names(.), 
+                           str_replace(names(.), &quot;_sd&quot;, &quot;_se&quot;)))
+
+# Plot SWIID gini_net estimates for the United States
+swiid_summary %&gt;% 
+    filter(country == &quot;United States&quot;) %&gt;% 
+    ggplot(aes(x=year, y=gini_net)) + 
+    geom_line() +
+    geom_ribbon(aes(ymin = gini_net-1.96*gini_net_se,
+                    ymax = gini_net+1.96*gini_net_se, 
+                    linetype=NA), alpha = .25) +
+    scale_x_continuous(breaks=seq(1960, 2015, 5)) +
+    theme_bw() + 
+    labs(x = &quot;Year&quot;, 
+         y = &quot;SWIID Gini Index, Net Income&quot;,
+         title = &quot;Income Inequality in the United States&quot;)
+</code></pre>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics ecommerce tracking"
+href="http://statcounter.com/shopify/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/1915099/0/da58688a/1/"
+alt="shopify analytics ecommerce
+tracking"></a></div></noscript>
+
+  </body>
+</html>

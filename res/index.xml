@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Res on Frederick Solt</title>
+    <link>/res.html</link>
+    <description>Recent content in Res on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/res/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Additional Research</title>
+      <link>/res/add_res/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/res/add_res/</guid>
+      <description>Additional Research My broader research interests include comparative political behavior, political economy, and democratization. Some of my work on these topics can be found below. Kim, Mi-son, and Frederick Solt. Forthcoming. &amp;ldquo;The Dynamics of Party Relabeling: Why Do Parties Change Names?&amp;rdquo; Party Politics. (Pre-publication copy available here; replication files available here.)
+Contrary to longstanding arguments that equate parties with durable, information-rich brand names, relabeling of parties is not rare, and in many countries it is not even very unusual.</description>
+    </item>
+    
+    <item>
+      <title>Research on Inequality</title>
+      <link>/res/res/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/res/res/</guid>
+      <description>Research on Inequality Ritter, Michael, and Frederick Solt. Forthcoming. &amp;ldquo;Economic Inequality and Campaign Participation.&amp;rdquo; Social Science Quarterly. (Pre-print available here; revision history available here. Appendices.)
+Objective. How does economic inequality shape participation in political campaigns? Previous research has found that higher inequality makes people of all incomes less likely to participate in politics, consistent with relative power theory, which holds that greater inequality enables wealthier citizens to more fully reshape the political landscape to their own advantage.</description>
+    </item>
+    
+  </channel>
+</rss>

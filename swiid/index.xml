@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swiids on Frederick Solt</title>
+    <link>/swiid.html</link>
+    <description>Recent content in Swiids on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/swiid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SWIID Downloads</title>
+      <link>/swiid/swiid_downloads.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/swiid/swiid_downloads.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWIID Frequently Asked Questions</title>
+      <link>/swiid/swiid_faq.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/swiid/swiid_faq.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The SWIID</title>
+      <link>/swiid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/swiid/</guid>
+      <description>SWIID The Standardized World Income Inequality Database Cross-national research on the causes and consequences of income inequality has been hindered by the limitations of the existing inequality datasets: greater coverage across countries and over time has been available from these sources only at the cost of significantly reduced comparability across observations. The goal of the Standardized World Income Inequality Database (SWIID) is to meet the needs of those engaged in broadly cross-national research by maximizing the comparability of income inequality data while maintaining the widest possible coverage across countries and over time.</description>
+    </item>
+    
+  </channel>
+</rss>

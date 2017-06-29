@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sfaq_howto on Frederick Solt</title>
+    <link>/tags/sfaq_howto.html</link>
+    <description>Recent content in Sfaq_howto on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Oct 2015 06:32:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sfaq_howto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wait, how can I download the data again?</title>
+      <link>/blog/2015/10/06/wait-how-can-i-download-the-data-again.html</link>
+      <pubDate>Tue, 06 Oct 2015 06:32:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/06/wait-how-can-i-download-the-data-again.html</guid>
+      <description>First, click on this link. Scroll down past the description until you see a list of files. The dataset is the SWIIDv5_1.zip file, which is the first one labeled &amp;ldquo;2. Data&amp;rdquo; (see the screenshot below). Clicking on the big rectangular button labeled &amp;ldquo;Download&amp;rdquo; on the right side of this line will download the file.</description>
+    </item>
+    
+    <item>
+      <title>How can I use the SWIID data to make my own graphs? Or to get the data in the old mean-plus-standard-error format?</title>
+      <link>/blog/2015/10/05/how-can-i-use-the-swiid-data-to-make-my-own-graphs-or-to-get-the-data-in-the-old-mean-plus-standard-error-format.html</link>
+      <pubDate>Mon, 05 Oct 2015 17:14:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-can-i-use-the-swiid-data-to-make-my-own-graphs-or-to-get-the-data-in-the-old-mean-plus-standard-error-format.html</guid>
+      <description>Since Version 5.0, the SWIID is distributed only pre-formatted for use with the tools for analyzing multiply-imputed data in Stata or R. This is meant to &amp;ldquo;set the default&amp;rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates; this uncertainty is considerable in many developing countries. This decision does mean, however, that one will have to take the extra step of summarizing the multiple imputations when they aren’t needed, e.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m using an older version of Stata, and it won’t open the file. How can I use the SWIID?</title>
+      <link>/blog/2015/10/05/im-using-an-older-version-of-stata-and-it-wont-open-the-file.-how-can-i-use-the-swiid.html</link>
+      <pubDate>Mon, 05 Oct 2015 05:28:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/im-using-an-older-version-of-stata-and-it-wont-open-the-file.-how-can-i-use-the-swiid.html</guid>
+      <description>Stata 13 introduced a new file format which older versions of Stata can’t open. Fortunately, there’s an easy fix: the use13 command. In the command window, first type ssc install use13 to install it. Then you can type use13 SWIIDv5_0.dta, clear to load the SWIID data.
+Update: Version 5.1 is saved in the older file format, so this shouldn&amp;rsquo;t be a problem anymore.</description>
+    </item>
+    
+    <item>
+      <title>How can I merge my other data into the SWIID using country codes?</title>
+      <link>/blog/2015/10/05/how-can-i-merge-my-other-data-into-the-swiid-using-country-codes.html</link>
+      <pubDate>Mon, 05 Oct 2015 05:26:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-can-i-merge-my-other-data-into-the-swiid-using-country-codes.html</guid>
+      <description>First, add whatever country codes are needed to the SWIID data: there are routines for both Stata (kountry; type findit kountry in Stata’s command window to install) and R (countrycode, on CRAN) to generate many commonly used country codes. Then follow the instructions for merging data into the SWIID found in the &amp;ldquo;Using the SWIID.pdf&amp;rdquo; file included in the data download.</description>
+    </item>
+    
+    <item>
+      <title>How can I use the SWIID data with Stata’s time-series operators?</title>
+      <link>/blog/2015/10/05/how-can-i-use-the-swiid-data-with-statas-time-series-operators.html</link>
+      <pubDate>Mon, 05 Oct 2015 03:19:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-can-i-use-the-swiid-data-with-statas-time-series-operators.html</guid>
+      <description>To use Stata’s time-series operators (l. , f. , d. , etc.), you must first declare the time and panel variables using tsset , but the SWIID is already mi set , so tsset won’t work. Run the following before merging the rest of your data (called my_data.dta in this example) into the SWIID:
+use SWIIDv5_1.dta, clear egen cc = group(country) mi tsset cc year merge 1:1 country year using &amp;quot;my_data.</description>
+    </item>
+    
+  </channel>
+</rss>

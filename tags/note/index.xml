@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on Frederick Solt</title>
+    <link>/tags/note.html</link>
+    <description>Recent content in Note on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Apr 2017 14:27:31 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes for Those New to Writing Peer Reviews</title>
+      <link>/blog/2017/04/14/notes-for-those-new-to-writing-peer-reviews.html</link>
+      <pubDate>Fri, 14 Apr 2017 14:27:31 +0000</pubDate>
+      
+      <guid>/blog/2017/04/14/notes-for-those-new-to-writing-peer-reviews.html</guid>
+      <description>Today we had a workshop for our graduate students on writing peer reviews. Here are the notes I spoke from:
+I get asked to do a lot of reviews. At the beginning of this semester, I got seven requests within two or three weeks. I used to always say yes, but doing 35 or 40 reviews a year just took too much time. When I was first starting out, I&amp;rsquo;d take something like six or eight hours on each review, though that pretty quickly got down to four or so.</description>
+    </item>
+    
+    <item>
+      <title>icpsrdata makes your ICPSR downloads reproducible!</title>
+      <link>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</link>
+      <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</guid>
+      <description>If you download data from the Inter-university Consortium for Political and Social Research archive archive, you can make your research reproducible with the icpsrdata package, now available on CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Try pewdata!</title>
+      <link>/blog/2016/05/13/try-pewdata.html</link>
+      <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/13/try-pewdata.html</guid>
+      <description>If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available on CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Use dotwhisker for your APSA slides!</title>
+      <link>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</link>
+      <pubDate>Thu, 30 Jul 2015 10:15:01 +0000</pubDate>
+      
+      <guid>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</guid>
+      <description>With the APSA coming up, and in the interest of minimizing the number of times we hear &amp;ldquo;sorry, I know you won&amp;rsquo;t really be able to see these regression coefficients,&amp;rdquo; I thought I&amp;rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of Kastellec and Leoni&amp;rsquo;s (2007) Perspectives article quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post.</description>
+    </item>
+    
+    <item>
+      <title>Now on CRAN: interplot</title>
+      <link>/blog/2015/06/26/now-on-cran-interplot.html</link>
+      <pubDate>Fri, 26 Jun 2015 09:40:01 +0000</pubDate>
+      
+      <guid>/blog/2015/06/26/now-on-cran-interplot.html</guid>
+      <description>Hu Yue and I just published interplot on CRAN, our first R package. interplot makes graphing the coefficients of variables in interaction terms easy. It outputs ggplot objects, so further customization is simple. Check out the vignette and give it a try!</description>
+    </item>
+    
+    <item>
+      <title>Inequality in China</title>
+      <link>/blog/2015/03/27/inequality-in-china.html</link>
+      <pubDate>Fri, 27 Mar 2015 10:40:01 +0000</pubDate>
+      
+      <guid>/blog/2015/03/27/inequality-in-china.html</guid>
+      <description>A new working paper by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world. Here&amp;rsquo;s a graph of SWIIDv5.0 data that illustrates their point.</description>
+    </item>
+    
+    <item>
+      <title>My talk at the UN</title>
+      <link>/blog/2013/09/29/my-talk-at-the-un.html</link>
+      <pubDate>Sun, 29 Sep 2013 11:45:01 +0000</pubDate>
+      
+      <guid>/blog/2013/09/29/my-talk-at-the-un.html</guid>
+      <description>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Division of the United Nations&amp;rsquo; Department of Economic and Social Affairs. I had some great conversations and got lots of useful feedback. Slides for the talk can be found here.</description>
+    </item>
+    
+    <item>
+      <title>Using the SWIID Standard Errors</title>
+      <link>/blog/2010/06/20/using-the-swiid-standard-errors.html</link>
+      <pubDate>Sun, 20 Jun 2010 12:05:01 +0000</pubDate>
+      
+      <guid>/blog/2010/06/20/using-the-swiid-standard-errors.html</guid>
+      <description>Incorporating the standard errors in the SWIID estimates into one&amp;rsquo;s analyses is the right thing to do, but it is not a trivial exercise. I myself have left it out of some work where I felt the model was already maxed out on complexity (though in such cases, I advise at least excluding observations with particularly large errors). The short story is that one generates a bunch of Monte Carlo simulations of the SWIID data from the estimates and standard errors, then analyses each simulation, then combines the results of the multiple analyses as one would in a multiple-imputation setup (this should be easier to do with Stata 11&amp;rsquo;s new multiple-imputation tools, but I won&amp;rsquo;t get my copy of Stata 11 until the fall&amp;ndash;oh well).</description>
+    </item>
+    
+  </channel>
+</rss>

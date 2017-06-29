@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icpsrdata on Frederick Solt</title>
+    <link>/tags/icpsrdata.html</link>
+    <description>Recent content in Icpsrdata on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 May 2016 22:00:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/icpsrdata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>icpsrdata makes your ICPSR downloads reproducible!</title>
+      <link>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</link>
+      <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</guid>
+      <description>If you download data from the Inter-university Consortium for Political and Social Research archive archive, you can make your research reproducible with the icpsrdata package, now available on CRAN.</description>
+    </item>
+    
+  </channel>
+</rss>

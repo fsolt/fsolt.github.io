@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Update on Frederick Solt</title>
+    <link>/tags/update.html</link>
+    <description>Recent content in Update on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jul 2016 01:12:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SWIID Version 5.1 is available!</title>
+      <link>/blog/2016/07/21/swiid-version-5.1-is-available.html</link>
+      <pubDate>Thu, 21 Jul 2016 01:12:01 +0000</pubDate>
+      
+      <guid>/blog/2016/07/21/swiid-version-5.1-is-available.html</guid>
+      <description>Version 5.1 of the SWIID is now available! It revises and updates the SWIID&amp;rsquo;s source data and estimates. It also includes expanded training modules explaining how to take into account the uncertainty in the estimates in both R and Stata.
+As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Wins NSF Support!</title>
+      <link>/blog/2015/08/10/swiid-wins-nsf-support.html</link>
+      <pubDate>Mon, 10 Aug 2015 10:40:01 +0000</pubDate>
+      
+      <guid>/blog/2015/08/10/swiid-wins-nsf-support.html</guid>
+      <description>The National Science Foundation has awarded three years of support to update and improve the SWIID! Yay!</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 5.0 is available!</title>
+      <link>/blog/2014/10/02/swiid-version-5.0-is-available.html</link>
+      <pubDate>Thu, 02 Oct 2014 10:40:01 +0000</pubDate>
+      
+      <guid>/blog/2014/10/02/swiid-version-5.0-is-available.html</guid>
+      <description>Version 5.0 of the SWIID is now available, and it is a major update. A new article of record (currently available as a working paper while under peer review) reviews the problem of comparability in cross-national income inequality data, explains how the SWIID addresses the issue, assesses the SWIID&amp;rsquo;s performance in comparison to the available alternatives, and explains how to use the SWIID data in cross-national analyses.
+The new version also marks the debut of the SWIID web application.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 4.0 is available!</title>
+      <link>/blog/2013/09/30/swiid-version-4.0-is-available.html</link>
+      <pubDate>Mon, 30 Sep 2013 14:04:01 +0000</pubDate>
+      
+      <guid>/blog/2013/09/30/swiid-version-4.0-is-available.html</guid>
+      <description>Version 4.0 of the SWIID is now available here. Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version provides even better estimates of income inequality in countries around the world than in previous versions.
+This version introduces two other improvements. First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates. The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one&amp;rsquo;s analyses.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 3.1 now available!</title>
+      <link>/blog/2012/01/02/swiid-version-3.1-now-available.html</link>
+      <pubDate>Mon, 02 Jan 2012 09:56:01 +0000</pubDate>
+      
+      <guid>/blog/2012/01/02/swiid-version-3.1-now-available.html</guid>
+      <description>Version 3.1 of the SWIID is now available here. The primary difference introduced in Version 3.1 is that the data on which the SWIID is based have again been expanded. Now nearly 4500 Gini observations are added to those collected in the UNU-WIDER data, and for many countries the available data extend to 2010. Also, I made one semantic change: to try to avoid confusion among those who neglect to read about the data they use, the series on pre-tax, pre-transfer inequality is now labeled gini_market rather than gini_gross.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 3.0 is now available!</title>
+      <link>/blog/2010/07/11/swiid-version-3.0-is-now-available.html</link>
+      <pubDate>Sun, 11 Jul 2010 16:46:01 +0000</pubDate>
+      
+      <guid>/blog/2010/07/11/swiid-version-3.0-is-now-available.html</guid>
+      <description>Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.
+The data on which the SWIID is based have been expanded. I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID. As before, these data are available in the replication materials for those who are interested. Major sources for these data include the World Bank&amp;rsquo;s Povcalnet, the Socio-Economic Database for Latin America, Branko Milanovic&amp;rsquo;s World Income Distribution data (&amp;ldquo;All the Ginis&amp;rdquo;), and the ILO&amp;rsquo;s Household Income and Expenditure Statistics, but a multitude of national statistical offices and other sources were also consulted.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 2.0</title>
+      <link>/blog/2009/07/31/swiid-version-2.0.html</link>
+      <pubDate>Fri, 31 Jul 2009 08:21:01 +0000</pubDate>
+      
+      <guid>/blog/2009/07/31/swiid-version-2.0.html</guid>
+      <description>Version 2.0 of the SWIID is now available, and it is a major upgrade. It introduces two important changes from Version 1.1 (the version described in the SSQ article). First, I collected a large number (1500+) of Gini observations that are excluded from the WIID with an eye towards addressing some of the thinner spots in the SWIID&amp;rsquo;s underlying data. Second, I rewrote several parts of the missing-data algorithm. The key change is a switch from multilevel to (flat) linear regression modeling for the imputation of conversion ratios between the 21 categories of available Gini data.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 1.1</title>
+      <link>/blog/2008/10/12/swiid-version-1.1.html</link>
+      <pubDate>Sun, 12 Oct 2008 14:07:01 +0000</pubDate>
+      
+      <guid>/blog/2008/10/12/swiid-version-1.1.html</guid>
+      <description>So much for version control. With apologies to v1.0 users, Version 1.1 is the SWIID as reported in &amp;ldquo;Standardizing the World Income Inequality Database.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 1.0</title>
+      <link>/blog/2008/09/13/swiid-version-1.0.html</link>
+      <pubDate>Sat, 13 Sep 2008 13:34:01 +0000</pubDate>
+      
+      <guid>/blog/2008/09/13/swiid-version-1.0.html</guid>
+      <description>&amp;ldquo;Standardizing the World Income Inequality Database&amp;rdquo; has been accepted for publication in the Social Science Quarterly. Version 0.9 of the SWIID is now released as Version 1.0 without modification.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 0.9</title>
+      <link>/blog/2008/08/05/swiid-version-0.9.html</link>
+      <pubDate>Tue, 05 Aug 2008 11:05:01 +0000</pubDate>
+      
+      <guid>/blog/2008/08/05/swiid-version-0.9.html</guid>
+      <description>The SWIID is currently undergoing peer review for publication.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sfaq_data on Frederick Solt</title>
+    <link>/tags/sfaq_data.html</link>
+    <description>Recent content in Sfaq_data on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Oct 2015 12:31:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sfaq_data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How is Germany treated in the SWIID? Where’s East Germany?</title>
+      <link>/blog/2015/10/05/how-is-germany-treated-in-the-swiid-wheres-east-germany.html</link>
+      <pubDate>Mon, 05 Oct 2015 12:31:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-is-germany-treated-in-the-swiid-wheres-east-germany.html</guid>
+      <description>As in the LIS, Germany is West Germany only before 1991 and (united) Germany from that point forward. The SWIID includes no estimates for East Germany; I just haven’t found much to include in the source data. If you know of a source for East German Ginis, email me with the details, and I’ll be happy to get it into the next version.</description>
+    </item>
+    
+    <item>
+      <title>What about Russia and the rest of the former Soviet Union? Yugoslavia? Czechoslovakia? Pakistan? Sudan? Ethiopia? Why are there estimates for successor states before they actually existed?</title>
+      <link>/blog/2015/10/05/what-about-russia-and-the-rest-of-the-former-soviet-union-yugoslavia-czechoslovakia-pakistan-sudan-ethiopia-why-are-there-estimates-for-successor-states-before-they-actually-existed.html</link>
+      <pubDate>Mon, 05 Oct 2015 11:18:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/what-about-russia-and-the-rest-of-the-former-soviet-union-yugoslavia-czechoslovakia-pakistan-sudan-ethiopia-why-are-there-estimates-for-successor-states-before-they-actually-existed.html</guid>
+      <description>For countries that have undergone partition, the SWIID estimates for a given year include all of the origin country&amp;rsquo;s then-current territories. This means that for dates before partition, all of the once united territory is included: estimates for Sudan before 2011, for example, include present-day South Sudan.
+Where Ginis are available from before the breakup for the territory of successor states, these Ginis have been standardized like anything else in the source data (the SWIID routine does not make any effort to incorporate information from the origin state into estimates for the successor state).</description>
+    </item>
+    
+    <item>
+      <title>The estimates for Ruritania, among others, have changed since the previous version. Why is that?</title>
+      <link>/blog/2015/10/05/the-estimates-for-ruritania-among-others-have-changed-since-the-previous-version.-why-is-that.html</link>
+      <pubDate>Mon, 05 Oct 2015 10:53:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/the-estimates-for-ruritania-among-others-have-changed-since-the-previous-version.-why-is-that.html</guid>
+      <description>There are three reasons why estimates change from one version of the SWIID to the next. The first reason is revisions to the Luxembourg Income Study. As the LIS serves as the standard for SWIID estimates, when Ginis from the LIS change, the SWIID estimates change as well.
+The second reason for changes is the addition of more source data for the country. Each new version of the SWIID includes new source data both for (a) years that were not previously available, and (b) earlier years from sources I&amp;rsquo;ve discovered since the last update.</description>
+    </item>
+    
+  </channel>
+</rss>

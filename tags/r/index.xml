@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Frederick Solt</title>
+    <link>/tags/r.html</link>
+    <description>Recent content in R on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 May 2016 22:00:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>icpsrdata makes your ICPSR downloads reproducible!</title>
+      <link>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</link>
+      <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</guid>
+      <description>If you download data from the Inter-university Consortium for Political and Social Research archive archive, you can make your research reproducible with the icpsrdata package, now available on CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Try pewdata!</title>
+      <link>/blog/2016/05/13/try-pewdata.html</link>
+      <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/13/try-pewdata.html</guid>
+      <description>If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available on CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Use dotwhisker for your APSA slides!</title>
+      <link>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</link>
+      <pubDate>Thu, 30 Jul 2015 10:15:01 +0000</pubDate>
+      
+      <guid>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</guid>
+      <description>With the APSA coming up, and in the interest of minimizing the number of times we hear &amp;ldquo;sorry, I know you won&amp;rsquo;t really be able to see these regression coefficients,&amp;rdquo; I thought I&amp;rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of Kastellec and Leoni&amp;rsquo;s (2007) Perspectives article quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post.</description>
+    </item>
+    
+    <item>
+      <title>Now on CRAN: interplot</title>
+      <link>/blog/2015/06/26/now-on-cran-interplot.html</link>
+      <pubDate>Fri, 26 Jun 2015 09:40:01 +0000</pubDate>
+      
+      <guid>/blog/2015/06/26/now-on-cran-interplot.html</guid>
+      <description>Hu Yue and I just published interplot on CRAN, our first R package. interplot makes graphing the coefficients of variables in interaction terms easy. It outputs ggplot objects, so further customization is simple. Check out the vignette and give it a try!</description>
+    </item>
+    
+  </channel>
+</rss>

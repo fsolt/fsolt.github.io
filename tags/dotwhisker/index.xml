@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dotwhisker on Frederick Solt</title>
+    <link>/tags/dotwhisker.html</link>
+    <description>Recent content in Dotwhisker on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Jul 2015 10:15:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/dotwhisker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Use dotwhisker for your APSA slides!</title>
+      <link>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</link>
+      <pubDate>Thu, 30 Jul 2015 10:15:01 +0000</pubDate>
+      
+      <guid>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</guid>
+      <description>With the APSA coming up, and in the interest of minimizing the number of times we hear &amp;ldquo;sorry, I know you won&amp;rsquo;t really be able to see these regression coefficients,&amp;rdquo; I thought I&amp;rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of Kastellec and Leoni&amp;rsquo;s (2007) Perspectives article quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post.</description>
+    </item>
+    
+  </channel>
+</rss>

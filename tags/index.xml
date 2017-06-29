@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Frederick Solt</title>
+    <link>/tags.html</link>
+    <description>Recent content in Tags on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Jul 2015 10:15:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dotwhisker</title>
+      <link>/tags/dotwhisker.html</link>
+      <pubDate>Thu, 30 Jul 2015 10:15:01 +0000</pubDate>
+      
+      <guid>/tags/dotwhisker.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icpsrdata</title>
+      <link>/tags/icpsrdata.html</link>
+      <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
+      
+      <guid>/tags/icpsrdata.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interplot</title>
+      <link>/tags/interplot.html</link>
+      <pubDate>Fri, 26 Jun 2015 09:40:01 +0000</pubDate>
+      
+      <guid>/tags/interplot.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Note</title>
+      <link>/tags/note.html</link>
+      <pubDate>Fri, 14 Apr 2017 14:27:31 +0000</pubDate>
+      
+      <guid>/tags/note.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pewdata</title>
+      <link>/tags/pewdata.html</link>
+      <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
+      
+      <guid>/tags/pewdata.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r.html</link>
+      <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
+      
+      <guid>/tags/r.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sfaq_data</title>
+      <link>/tags/sfaq_data.html</link>
+      <pubDate>Mon, 05 Oct 2015 12:31:01 +0000</pubDate>
+      
+      <guid>/tags/sfaq_data.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sfaq_howto</title>
+      <link>/tags/sfaq_howto.html</link>
+      <pubDate>Tue, 06 Oct 2015 06:32:01 +0000</pubDate>
+      
+      <guid>/tags/sfaq_howto.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swiid</title>
+      <link>/tags/swiid.html</link>
+      <pubDate>Thu, 21 Jul 2016 01:12:01 +0000</pubDate>
+      
+      <guid>/tags/swiid.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <link>/tags/update.html</link>
+      <pubDate>Thu, 21 Jul 2016 01:12:01 +0000</pubDate>
+      
+      <guid>/tags/update.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

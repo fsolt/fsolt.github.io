@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pewdata on Frederick Solt</title>
+    <link>/tags/pewdata.html</link>
+    <description>Recent content in Pewdata on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 May 2016 05:28:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/pewdata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Try pewdata!</title>
+      <link>/blog/2016/05/13/try-pewdata.html</link>
+      <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/13/try-pewdata.html</guid>
+      <description>If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available on CRAN.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frederick Solt</title>
+    <link>/</link>
+    <description>Recent content on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Apr 2017 14:27:31 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notes for Those New to Writing Peer Reviews</title>
+      <link>/blog/2017/04/14/notes-for-those-new-to-writing-peer-reviews.html</link>
+      <pubDate>Fri, 14 Apr 2017 14:27:31 +0000</pubDate>
+      
+      <guid>/blog/2017/04/14/notes-for-those-new-to-writing-peer-reviews.html</guid>
+      <description>Today we had a workshop for our graduate students on writing peer reviews. Here are the notes I spoke from:
+I get asked to do a lot of reviews. At the beginning of this semester, I got seven requests within two or three weeks. I used to always say yes, but doing 35 or 40 reviews a year just took too much time. When I was first starting out, I&amp;rsquo;d take something like six or eight hours on each review, though that pretty quickly got down to four or so.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 5.1 is available!</title>
+      <link>/blog/2016/07/21/swiid-version-5.1-is-available.html</link>
+      <pubDate>Thu, 21 Jul 2016 01:12:01 +0000</pubDate>
+      
+      <guid>/blog/2016/07/21/swiid-version-5.1-is-available.html</guid>
+      <description>Version 5.1 of the SWIID is now available! It revises and updates the SWIID&amp;rsquo;s source data and estimates. It also includes expanded training modules explaining how to take into account the uncertainty in the estimates in both R and Stata.
+As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
+    </item>
+    
+    <item>
+      <title>icpsrdata makes your ICPSR downloads reproducible!</title>
+      <link>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</link>
+      <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</guid>
+      <description>If you download data from the Inter-university Consortium for Political and Social Research archive archive, you can make your research reproducible with the icpsrdata package, now available on CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Try pewdata!</title>
+      <link>/blog/2016/05/13/try-pewdata.html</link>
+      <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
+      
+      <guid>/blog/2016/05/13/try-pewdata.html</guid>
+      <description>If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available on CRAN.</description>
+    </item>
+    
+    <item>
+      <title>Wait, how can I download the data again?</title>
+      <link>/blog/2015/10/06/wait-how-can-i-download-the-data-again.html</link>
+      <pubDate>Tue, 06 Oct 2015 06:32:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/06/wait-how-can-i-download-the-data-again.html</guid>
+      <description>First, click on this link. Scroll down past the description until you see a list of files. The dataset is the SWIIDv5_1.zip file, which is the first one labeled &amp;ldquo;2. Data&amp;rdquo; (see the screenshot below). Clicking on the big rectangular button labeled &amp;ldquo;Download&amp;rdquo; on the right side of this line will download the file.</description>
+    </item>
+    
+    <item>
+      <title>How can I use the SWIID data to make my own graphs? Or to get the data in the old mean-plus-standard-error format?</title>
+      <link>/blog/2015/10/05/how-can-i-use-the-swiid-data-to-make-my-own-graphs-or-to-get-the-data-in-the-old-mean-plus-standard-error-format.html</link>
+      <pubDate>Mon, 05 Oct 2015 17:14:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-can-i-use-the-swiid-data-to-make-my-own-graphs-or-to-get-the-data-in-the-old-mean-plus-standard-error-format.html</guid>
+      <description>Since Version 5.0, the SWIID is distributed only pre-formatted for use with the tools for analyzing multiply-imputed data in Stata or R. This is meant to &amp;ldquo;set the default&amp;rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates; this uncertainty is considerable in many developing countries. This decision does mean, however, that one will have to take the extra step of summarizing the multiple imputations when they aren’t needed, e.</description>
+    </item>
+    
+    <item>
+      <title>How is Germany treated in the SWIID? Where’s East Germany?</title>
+      <link>/blog/2015/10/05/how-is-germany-treated-in-the-swiid-wheres-east-germany.html</link>
+      <pubDate>Mon, 05 Oct 2015 12:31:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-is-germany-treated-in-the-swiid-wheres-east-germany.html</guid>
+      <description>As in the LIS, Germany is West Germany only before 1991 and (united) Germany from that point forward. The SWIID includes no estimates for East Germany; I just haven’t found much to include in the source data. If you know of a source for East German Ginis, email me with the details, and I’ll be happy to get it into the next version.</description>
+    </item>
+    
+    <item>
+      <title>What about Russia and the rest of the former Soviet Union? Yugoslavia? Czechoslovakia? Pakistan? Sudan? Ethiopia? Why are there estimates for successor states before they actually existed?</title>
+      <link>/blog/2015/10/05/what-about-russia-and-the-rest-of-the-former-soviet-union-yugoslavia-czechoslovakia-pakistan-sudan-ethiopia-why-are-there-estimates-for-successor-states-before-they-actually-existed.html</link>
+      <pubDate>Mon, 05 Oct 2015 11:18:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/what-about-russia-and-the-rest-of-the-former-soviet-union-yugoslavia-czechoslovakia-pakistan-sudan-ethiopia-why-are-there-estimates-for-successor-states-before-they-actually-existed.html</guid>
+      <description>For countries that have undergone partition, the SWIID estimates for a given year include all of the origin country&amp;rsquo;s then-current territories. This means that for dates before partition, all of the once united territory is included: estimates for Sudan before 2011, for example, include present-day South Sudan.
+Where Ginis are available from before the breakup for the territory of successor states, these Ginis have been standardized like anything else in the source data (the SWIID routine does not make any effort to incorporate information from the origin state into estimates for the successor state).</description>
+    </item>
+    
+    <item>
+      <title>The estimates for Ruritania, among others, have changed since the previous version. Why is that?</title>
+      <link>/blog/2015/10/05/the-estimates-for-ruritania-among-others-have-changed-since-the-previous-version.-why-is-that.html</link>
+      <pubDate>Mon, 05 Oct 2015 10:53:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/the-estimates-for-ruritania-among-others-have-changed-since-the-previous-version.-why-is-that.html</guid>
+      <description>There are three reasons why estimates change from one version of the SWIID to the next. The first reason is revisions to the Luxembourg Income Study. As the LIS serves as the standard for SWIID estimates, when Ginis from the LIS change, the SWIID estimates change as well.
+The second reason for changes is the addition of more source data for the country. Each new version of the SWIID includes new source data both for (a) years that were not previously available, and (b) earlier years from sources I&amp;rsquo;ve discovered since the last update.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m using an older version of Stata, and it won’t open the file. How can I use the SWIID?</title>
+      <link>/blog/2015/10/05/im-using-an-older-version-of-stata-and-it-wont-open-the-file.-how-can-i-use-the-swiid.html</link>
+      <pubDate>Mon, 05 Oct 2015 05:28:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/im-using-an-older-version-of-stata-and-it-wont-open-the-file.-how-can-i-use-the-swiid.html</guid>
+      <description>Stata 13 introduced a new file format which older versions of Stata can’t open. Fortunately, there’s an easy fix: the use13 command. In the command window, first type ssc install use13 to install it. Then you can type use13 SWIIDv5_0.dta, clear to load the SWIID data.
+Update: Version 5.1 is saved in the older file format, so this shouldn&amp;rsquo;t be a problem anymore.</description>
+    </item>
+    
+    <item>
+      <title>How can I merge my other data into the SWIID using country codes?</title>
+      <link>/blog/2015/10/05/how-can-i-merge-my-other-data-into-the-swiid-using-country-codes.html</link>
+      <pubDate>Mon, 05 Oct 2015 05:26:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-can-i-merge-my-other-data-into-the-swiid-using-country-codes.html</guid>
+      <description>First, add whatever country codes are needed to the SWIID data: there are routines for both Stata (kountry; type findit kountry in Stata’s command window to install) and R (countrycode, on CRAN) to generate many commonly used country codes. Then follow the instructions for merging data into the SWIID found in the &amp;ldquo;Using the SWIID.pdf&amp;rdquo; file included in the data download.</description>
+    </item>
+    
+    <item>
+      <title>How can I use the SWIID data with Stata’s time-series operators?</title>
+      <link>/blog/2015/10/05/how-can-i-use-the-swiid-data-with-statas-time-series-operators.html</link>
+      <pubDate>Mon, 05 Oct 2015 03:19:01 +0000</pubDate>
+      
+      <guid>/blog/2015/10/05/how-can-i-use-the-swiid-data-with-statas-time-series-operators.html</guid>
+      <description>To use Stata’s time-series operators (l. , f. , d. , etc.), you must first declare the time and panel variables using tsset , but the SWIID is already mi set , so tsset won’t work. Run the following before merging the rest of your data (called my_data.dta in this example) into the SWIID:
+use SWIIDv5_1.dta, clear egen cc = group(country) mi tsset cc year merge 1:1 country year using &amp;quot;my_data.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Wins NSF Support!</title>
+      <link>/blog/2015/08/10/swiid-wins-nsf-support.html</link>
+      <pubDate>Mon, 10 Aug 2015 10:40:01 +0000</pubDate>
+      
+      <guid>/blog/2015/08/10/swiid-wins-nsf-support.html</guid>
+      <description>The National Science Foundation has awarded three years of support to update and improve the SWIID! Yay!</description>
+    </item>
+    
+    <item>
+      <title>Use dotwhisker for your APSA slides!</title>
+      <link>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</link>
+      <pubDate>Thu, 30 Jul 2015 10:15:01 +0000</pubDate>
+      
+      <guid>/blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html</guid>
+      <description>With the APSA coming up, and in the interest of minimizing the number of times we hear &amp;ldquo;sorry, I know you won&amp;rsquo;t really be able to see these regression coefficients,&amp;rdquo; I thought I&amp;rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of Kastellec and Leoni&amp;rsquo;s (2007) Perspectives article quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post.</description>
+    </item>
+    
+    <item>
+      <title>Now on CRAN: interplot</title>
+      <link>/blog/2015/06/26/now-on-cran-interplot.html</link>
+      <pubDate>Fri, 26 Jun 2015 09:40:01 +0000</pubDate>
+      
+      <guid>/blog/2015/06/26/now-on-cran-interplot.html</guid>
+      <description>Hu Yue and I just published interplot on CRAN, our first R package. interplot makes graphing the coefficients of variables in interaction terms easy. It outputs ggplot objects, so further customization is simple. Check out the vignette and give it a try!</description>
+    </item>
+    
+    <item>
+      <title>Inequality in China</title>
+      <link>/blog/2015/03/27/inequality-in-china.html</link>
+      <pubDate>Fri, 27 Mar 2015 10:40:01 +0000</pubDate>
+      
+      <guid>/blog/2015/03/27/inequality-in-china.html</guid>
+      <description>A new working paper by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world. Here&amp;rsquo;s a graph of SWIIDv5.0 data that illustrates their point.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 5.0 is available!</title>
+      <link>/blog/2014/10/02/swiid-version-5.0-is-available.html</link>
+      <pubDate>Thu, 02 Oct 2014 10:40:01 +0000</pubDate>
+      
+      <guid>/blog/2014/10/02/swiid-version-5.0-is-available.html</guid>
+      <description>Version 5.0 of the SWIID is now available, and it is a major update. A new article of record (currently available as a working paper while under peer review) reviews the problem of comparability in cross-national income inequality data, explains how the SWIID addresses the issue, assesses the SWIID&amp;rsquo;s performance in comparison to the available alternatives, and explains how to use the SWIID data in cross-national analyses.
+The new version also marks the debut of the SWIID web application.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 4.0 is available!</title>
+      <link>/blog/2013/09/30/swiid-version-4.0-is-available.html</link>
+      <pubDate>Mon, 30 Sep 2013 14:04:01 +0000</pubDate>
+      
+      <guid>/blog/2013/09/30/swiid-version-4.0-is-available.html</guid>
+      <description>Version 4.0 of the SWIID is now available here. Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version provides even better estimates of income inequality in countries around the world than in previous versions.
+This version introduces two other improvements. First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates. The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one&amp;rsquo;s analyses.</description>
+    </item>
+    
+    <item>
+      <title>My talk at the UN</title>
+      <link>/blog/2013/09/29/my-talk-at-the-un.html</link>
+      <pubDate>Sun, 29 Sep 2013 11:45:01 +0000</pubDate>
+      
+      <guid>/blog/2013/09/29/my-talk-at-the-un.html</guid>
+      <description>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Division of the United Nations&amp;rsquo; Department of Economic and Social Affairs. I had some great conversations and got lots of useful feedback. Slides for the talk can be found here.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 3.1 now available!</title>
+      <link>/blog/2012/01/02/swiid-version-3.1-now-available.html</link>
+      <pubDate>Mon, 02 Jan 2012 09:56:01 +0000</pubDate>
+      
+      <guid>/blog/2012/01/02/swiid-version-3.1-now-available.html</guid>
+      <description>Version 3.1 of the SWIID is now available here. The primary difference introduced in Version 3.1 is that the data on which the SWIID is based have again been expanded. Now nearly 4500 Gini observations are added to those collected in the UNU-WIDER data, and for many countries the available data extend to 2010. Also, I made one semantic change: to try to avoid confusion among those who neglect to read about the data they use, the series on pre-tax, pre-transfer inequality is now labeled gini_market rather than gini_gross.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 3.0 is now available!</title>
+      <link>/blog/2010/07/11/swiid-version-3.0-is-now-available.html</link>
+      <pubDate>Sun, 11 Jul 2010 16:46:01 +0000</pubDate>
+      
+      <guid>/blog/2010/07/11/swiid-version-3.0-is-now-available.html</guid>
+      <description>Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.
+The data on which the SWIID is based have been expanded. I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID. As before, these data are available in the replication materials for those who are interested. Major sources for these data include the World Bank&amp;rsquo;s Povcalnet, the Socio-Economic Database for Latin America, Branko Milanovic&amp;rsquo;s World Income Distribution data (&amp;ldquo;All the Ginis&amp;rdquo;), and the ILO&amp;rsquo;s Household Income and Expenditure Statistics, but a multitude of national statistical offices and other sources were also consulted.</description>
+    </item>
+    
+    <item>
+      <title>Using the SWIID Standard Errors</title>
+      <link>/blog/2010/06/20/using-the-swiid-standard-errors.html</link>
+      <pubDate>Sun, 20 Jun 2010 12:05:01 +0000</pubDate>
+      
+      <guid>/blog/2010/06/20/using-the-swiid-standard-errors.html</guid>
+      <description>Incorporating the standard errors in the SWIID estimates into one&amp;rsquo;s analyses is the right thing to do, but it is not a trivial exercise. I myself have left it out of some work where I felt the model was already maxed out on complexity (though in such cases, I advise at least excluding observations with particularly large errors). The short story is that one generates a bunch of Monte Carlo simulations of the SWIID data from the estimates and standard errors, then analyses each simulation, then combines the results of the multiple analyses as one would in a multiple-imputation setup (this should be easier to do with Stata 11&amp;rsquo;s new multiple-imputation tools, but I won&amp;rsquo;t get my copy of Stata 11 until the fall&amp;ndash;oh well).</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 2.0</title>
+      <link>/blog/2009/07/31/swiid-version-2.0.html</link>
+      <pubDate>Fri, 31 Jul 2009 08:21:01 +0000</pubDate>
+      
+      <guid>/blog/2009/07/31/swiid-version-2.0.html</guid>
+      <description>Version 2.0 of the SWIID is now available, and it is a major upgrade. It introduces two important changes from Version 1.1 (the version described in the SSQ article). First, I collected a large number (1500+) of Gini observations that are excluded from the WIID with an eye towards addressing some of the thinner spots in the SWIID&amp;rsquo;s underlying data. Second, I rewrote several parts of the missing-data algorithm. The key change is a switch from multilevel to (flat) linear regression modeling for the imputation of conversion ratios between the 21 categories of available Gini data.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 1.1</title>
+      <link>/blog/2008/10/12/swiid-version-1.1.html</link>
+      <pubDate>Sun, 12 Oct 2008 14:07:01 +0000</pubDate>
+      
+      <guid>/blog/2008/10/12/swiid-version-1.1.html</guid>
+      <description>So much for version control. With apologies to v1.0 users, Version 1.1 is the SWIID as reported in &amp;ldquo;Standardizing the World Income Inequality Database.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 1.0</title>
+      <link>/blog/2008/09/13/swiid-version-1.0.html</link>
+      <pubDate>Sat, 13 Sep 2008 13:34:01 +0000</pubDate>
+      
+      <guid>/blog/2008/09/13/swiid-version-1.0.html</guid>
+      <description>&amp;ldquo;Standardizing the World Income Inequality Database&amp;rdquo; has been accepted for publication in the Social Science Quarterly. Version 0.9 of the SWIID is now released as Version 1.0 without modification.</description>
+    </item>
+    
+    <item>
+      <title>SWIID Version 0.9</title>
+      <link>/blog/2008/08/05/swiid-version-0.9.html</link>
+      <pubDate>Tue, 05 Aug 2008 11:05:01 +0000</pubDate>
+      
+      <guid>/blog/2008/08/05/swiid-version-0.9.html</guid>
+      <description>The SWIID is currently undergoing peer review for publication.</description>
+    </item>
+    
+    <item>
+      <title>Additional Research</title>
+      <link>/res/add_res/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/res/add_res/</guid>
+      <description>Additional Research My broader research interests include comparative political behavior, political economy, and democratization. Some of my work on these topics can be found below. Kim, Mi-son, and Frederick Solt. Forthcoming. &amp;ldquo;The Dynamics of Party Relabeling: Why Do Parties Change Names?&amp;rdquo; Party Politics. (Pre-publication copy available here; replication files available here.)
+Contrary to longstanding arguments that equate parties with durable, information-rich brand names, relabeling of parties is not rare, and in many countries it is not even very unusual.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>About I am an associate professor in the Department of Political Science at the University of Iowa. My interests include comparative political behavior and political economy from a cross-national perspective; I am also interested in computational methods for cross-national research. Much of my work focuses on understanding how&amp;mdash;and why&amp;mdash;the extent of economic inequality in a country shapes the attitudes and behavior of the people who live there. I also created and maintain the Standardized World Income Inequality Database (SWIID), which provides the most-comparable data available on income inequality for broadly cross-national research.</description>
+    </item>
+    
+    <item>
+      <title>HuberSolt2004</title>
+      <link>/papers/hubersolt2004/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/hubersolt2004/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KimSolt2015</title>
+      <link>/papers/kimsolt2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/kimsolt2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KimSolt2015_pre</title>
+      <link>/papers/kimsolt2015_pre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/kimsolt2015_pre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research on Inequality</title>
+      <link>/res/res/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/res/res/</guid>
+      <description>Research on Inequality Ritter, Michael, and Frederick Solt. Forthcoming. &amp;ldquo;Economic Inequality and Campaign Participation.&amp;rdquo; Social Science Quarterly. (Pre-print available here; revision history available here. Appendices.)
+Objective. How does economic inequality shape participation in political campaigns? Previous research has found that higher inequality makes people of all incomes less likely to participate in politics, consistent with relative power theory, which holds that greater inequality enables wealthier citizens to more fully reshape the political landscape to their own advantage.</description>
+    </item>
+    
+    <item>
+      <title>SSCC2007</title>
+      <link>/papers/sscc2007/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/sscc2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWIID Downloads</title>
+      <link>/swiid/swiid_downloads.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/swiid/swiid_downloads.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWIID Frequently Asked Questions</title>
+      <link>/swiid/swiid_faq.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/swiid/swiid_faq.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWIID_UN_Talk</title>
+      <link>/papers/swiid_un_talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/swiid_un_talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/sw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sw/</guid>
+      <description>Software Visualization dotwhisker Solt, Frederick, and Yue Hu. 2015. dotwhisker: Dot-and-Whisker Plots of Regression Results. The Comprehensive R Archive Network (CRAN).
+ dotwhisker is an R package for quickly and easily generating dot-and-whisker plots of regression results, either directly from model objects or from tidy data frames. It provides a convenient way to create highly customizable plots for presenting and comparing statistics. It can be used to plot coefficients or other estimates (e.</description>
+    </item>
+    
+    <item>
+      <title>Solt CV</title>
+      <link>/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2001</title>
+      <link>/papers/solt2001/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2001/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2003</title>
+      <link>/papers/solt2003/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2003/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2004BJPS</title>
+      <link>/papers/solt2004bjps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2004bjps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2004LARR</title>
+      <link>/papers/solt2004larr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2004larr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2006a</title>
+      <link>/papers/solt2006a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2006a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2008</title>
+      <link>/papers/solt2008/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2009</title>
+      <link>/papers/solt2009/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2009pre</title>
+      <link>/papers/solt2009pre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2009pre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2010</title>
+      <link>/papers/solt2010/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2011</title>
+      <link>/papers/solt2011/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2012</title>
+      <link>/papers/solt2012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2014a</title>
+      <link>/papers/solt2014a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2014a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2015a</title>
+      <link>/papers/solt2015a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2015a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2015a_pre</title>
+      <link>/papers/solt2015a_pre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2015a_pre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2015b</title>
+      <link>/papers/solt2015b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2015b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2015b_pre</title>
+      <link>/papers/solt2015b_pre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2015b_pre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2016</title>
+      <link>/papers/solt2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solt2016_pre</title>
+      <link>/papers/solt2016_pre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solt2016_pre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoltHabelGrant2011</title>
+      <link>/papers/solthabelgrant2011/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/solthabelgrant2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soltetal2014</title>
+      <link>/papers/soltetal2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/soltetal2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soltetal2016a</title>
+      <link>/papers/soltetal2016a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/soltetal2016a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teach/</guid>
+      <description>Teaching I teach undergraduate and graduate courses on comparative politics and quantitative methods. Current students should refer to [ICON](&amp;ldquo;https://icon.uiowa.edu/&amp;quot;) for the most up-to-date information on their courses.
+Fall 2015 POLI 2415: Latin American Politics POLI 7450: The Politics of Economic Inequality 
+Spring 2016 POLI 1400: Introduction to Comparative Politics POLI 3450: The Politics of Economic Inequality 
+Fall 2016 POLI 2415: Latin American Politics POLI 7002&amp;frasl;7450: Computational Methods for Comparative Politics</description>
+    </item>
+    
+    <item>
+      <title>The SWIID</title>
+      <link>/swiid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/swiid/</guid>
+      <description>SWIID The Standardized World Income Inequality Database Cross-national research on the causes and consequences of income inequality has been hindered by the limitations of the existing inequality datasets: greater coverage across countries and over time has been available from these sources only at the cost of significantly reduced comparability across observations. The goal of the Standardized World Income Inequality Database (SWIID) is to meet the needs of those engaged in broadly cross-national research by maximizing the comparability of income inequality data while maintaining the widest possible coverage across countries and over time.</description>
+    </item>
+    
+    <item>
+      <title>Updates and Working Notes</title>
+      <link>/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

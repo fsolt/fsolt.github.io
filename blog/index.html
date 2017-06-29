@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> Updates and Working Notes &middot; Frederick Solt </title>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="../css/flatly-bootstrap.css"> 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../css/academicons.css">
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="../">Frederick Solt</a></h1>
+<h5></h5>
+
+<ul class="nav nav-list sidebar-nav">
+  <li><a href="../">Home</a></li>
+  <li><a href="../swiid">The SWIID</a></li>
+  <li><a href="../res/res">Research on Inequality</a></li>
+  <li><a href="../res/add_res">Additional Research</a></li>
+  <li><a href="../teach">Teaching</a></li>
+  <li><a href="../sw">Published Software</a></li>
+  <li><a href="../blog">Blog</a></li>
+  <li><a href="../cv">CV</a></li>
+</ul>
+
+<ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+    <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai fa-lg ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h1>Updates and Working Notes</h1>
+
+<ul>
+  
+    
+
+        <h3><a href="../blog/2017/04/14/notes-for-those-new-to-writing-peer-reviews.html">Notes for Those New to Writing Peer Reviews</a></h3>
+        <h5>Friday, 14 April 2017</h5>
+      <div class="entry">
+        <p>Today we had a workshop for our graduate students on writing peer reviews.  Here are the notes I spoke from:</p>
+
+<p>I get asked to do a lot of reviews.  At the beginning of this semester, I got seven requests within two or three weeks.  I used to always say yes, but doing 35 or 40 reviews a year just took too much time.  When I was first starting out, I&rsquo;d take something like six or eight hours on each review, though that pretty quickly got down to four or so.  Nowadays it might even be a touch less, spread over two days. I like to give the paper a close read on one day, while taking notes and maybe doing a bit of research.  Then the next day, I write up my review, after my thoughts have had a chance to percolate.  Anyway, now I have a two-per-month rule to protect my time, though I sometimes break it: I took four out of those seven requests back in January.</p>
+
+<p>I always start my reviews with a quick summary of the piece, but as reviewers, our focus should be on theory, data, and method.  For the big-three journals, the old saw is that the standard is &ldquo;new theory, new data, new method&mdash;choose any two,&rdquo; but regardless of the journal that has asked you to review, for a work to make a contribution, it has to be sound&mdash;not new, not super-great, just sound&mdash;on all three.  Here are a couple of quick notes on each, mostly of the points I find myself most often making:</p>
+
+<ol>
+<li><p>Theory: if you think that the authors<a href="#note1" id="note1ref"><sup>1</sup></a> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don&rsquo;t have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. Reviews aren&rsquo;t the place to develop your own new rival theory.  If you&rsquo;re <em>really</em> tempted to do so, plan instead on responding to this paper when it comes out in print.</p></li>
+
+<li><p>Data: do the authors take advantage of all available data?  Probably not&mdash;we can&rsquo;t all look at everything all the time&mdash;but if they&rsquo;ve neglected obvious things: using, for example, just that oddball third wave of <a href="http://worldvaluessurvey.org">the WVS</a> instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so.  Of course, if they use some source and you know that there&rsquo;s other, better data available, point that out to them.</p></li>
+
+<li><p>Methods: First, are the methods appropriate?  In answering this, you have to judge the methods on their own terms: <a href="https://twitter.com/PoliticalApe13/status/820390342759419910">NOT, oh, this study uses survey data, so tells us nothing about causality! OR this study just reports an experiment, so it has no external validity!</a></p>
+
+<ul>
+<li><p>Are interaction terms properly constructed and interpreted?<a href="#note2" id="note2ref"><sup>2</sup></a>  There&rsquo;s software that makes this super-easy. Recommend it by name: &ldquo;There&rsquo;s <a href="http://myweb.uiowa.edu/fboehmke/methods.html"><code>grinter</code> for Stata</a> and <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html"><code>interplot</code> for R</a>.&rdquo;  Include cites to <a href="https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8">Braumoeller&rsquo;s (2004) <em>IO</em> article</a> and/or <a href="http://www.jstor.org/stable/25791835">Brambor, Clark, and Golder (2006) in <em>PA</em></a>, too.</p></li>
+
+<li><p>Are the included controls appropriate?  Do the authors include controls that are plausibly causally downstream from their IVs?  <a href="https://books.google.com/books?id=lV3DIdV0F9AC&amp;printsec=frontcover&amp;dq=gelman+and+hill&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjZyJHgoqXTAhWF6oMKHRS2Ay8Q6AEIJDAA#v=onepage&amp;q=messes+up&amp;f=false">That messes up results.</a> Include citations. Conversely, do they <em>exclude</em> variables that would plausibly confound the relationship between the IV and the DV?  It&rsquo;s not enough to say that &ldquo;oh, they didn&rsquo;t control for X.&rdquo;  You have to explain why including X as a control is important.  And again, include citations.  You should also suggest a source of data for X.  Btw, at least in my book, omitting a control&mdash;even one you&rsquo;re totally sure is a source of spuriousness&mdash;is an R&amp;R-able offense, not one that condemns the perpetrating manuscript to rejection.  Give the authors a chance to show you you&rsquo;re mistaken on this.</p></li>
+
+<li><p>Are the coefficients and statistical significance interpreted correctly?  <a href="http://www.jstor.org/stable/2669316">Are the quantities of substantive interest, such as predicted probabilities, estimated and plotted?</a>  With their associated uncertainty?</p></li>
+
+<li><p>Can any included tables be made into graphs?  Probably, so be specific about what you have in mind, cite to <a href="www.jstor.org/stable/20446574">Kastellec and Leoni&rsquo;s (2007) <em>Perspectives</em> article</a>, and maybe even give the <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html"><code>dotwhisker</code> package</a> a shout-out if you think it&rsquo;d help.</p></li>
+</ul></li>
+
+<li><p>Note what you&rsquo;re NOT evaluating: the results themselves.  Don&rsquo;t filter on statistical significance: we need to avoid contributing <a href="http://www.jstor.org/stable/25791658">to publication bias</a> and the pressure way too many people apparently feel <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">to p-hack their way to publication</a>.  And this should go without saying, but be sure to check your own presuppositions about what the results &lsquo;should&rsquo; show at the door.</p>
+
+<ul>
+<li><p>Nor the question asked. Don&rsquo;t suggest that authors &ldquo;reframe&rdquo; their work around some similar (or not so similar) question. Don&rsquo;t say that the question just isn&rsquo;t important enough for the AJPS.<a href="#note3" id="note3ref"><sup>3</sup></a> If you&rsquo;ve been in my classes, you&rsquo;ve probably had me push you to ask <em>important</em> questions; you know I totally think that&rsquo;s a big deal.  But as a reviewer, as Justin Esarey <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf">argued in the <em>TPM</em> Special Issue on Peer Review</a>, deciding whether the question asked was sufficiently important for publication isn&rsquo;t your job.  That&rsquo;s for the editor maybe, but really it is for us all as a discipline, as readers.</p></li>
+
+<li><p>Nor typos, grammar, or citation formatting.  If it&rsquo;s <em>really, really</em> bad, I&rsquo;ll point out that it&rsquo;s something the author should be sure to work on.  But <a href="https://twitter.com/thosjleeper/status/849726360922849280">don&rsquo;t send in a bunch of line edits</a>.  I <em>will</em> always note if I see that cited works are not included in the bibliography.  BibTeX is your friend, people!</p></li>
+</ul></li>
+</ol>
+
+<p>Finally and above all: take a considerate, <em>helpful</em> tone.  Research is hard, and the peer-review process is difficult and frustrating for all of us.  Contribute to the collective good by pitching your comments in a constructive tone that you would be happy to read in reviews of your own work.  In other words, <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a>.<a href="#note4" id="note4ref"><sup>4</sup></a>  Even if just about everything is going to need to be redone before the manuscript has any shot at publication&mdash;and you know, sometimes it really does&mdash;write that in a sympathetic way, remembering that there&rsquo;s another person who will read your words about their work.  And always find at least one good quality of the paper to highlight.  Be sure to return to that point at the end of your review.</p>
+
+<hr />
+
+<p><a id="note1" href="#note1ref"><sup>1</sup></a> I&rsquo;ve settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore &ldquo;they.&rdquo;</p>
+
+<p><a id="note2" href="#note2ref"><sup>2</sup></a> This is point number one on <a href="https://twitter.com/BrendanNyhan">Brendan Nyhan</a>&rsquo;s &ldquo;Checklist Manifesto for Peer Review&rdquo; in <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf"><em>The Political Methodologist</em>&rsquo;s Special Issue on Peer Review</a>.  Read the whole issue!</p>
+
+<p><a id="note3" href="#note3ref"><sup>3</sup></a> OTOH, you <em>should</em> <a href="https://twitter.com/DToshkov/status/826705971124830209">give people credit when they take on hard questions</a> with less-than-ideal data and methods if those data and methods are (approximately) the best available.</p>
+
+<p><a id="note4" href="#note4ref"><sup>4</sup></a> Not that jerk, <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a>.  In addition to checking out <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a> on Twitter, you should also be sure to read <a href="https://twitter.com/thosjleeper">Thomas Leeper</a>&rsquo;s <a href="http://thomasleeper.com/2016/08/be-reviewer-one/">manifesto that started it all</a>.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2016/07/21/swiid-version-5.1-is-available.html">SWIID Version 5.1 is available!</a></h3>
+        <h5>Thursday, 21 July 2016</h5>
+      <div class="entry">
+        <p>Version 5.1 of the SWIID is <a href="../swiid/swiid_downloads.html">now available</a>!  It revises and updates the SWIID&rsquo;s source data and estimates.  It also includes expanded training modules explaining how to take into account the uncertainty in the estimates in both R and Stata.</p>
+
+<p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html">icpsrdata makes your ICPSR downloads reproducible!</a></h3>
+        <h5>Friday, 20 May 2016</h5>
+      <div class="entry">
+        <p>If you download data from the <a href="http://www.icpsr.umich.edu">Inter-university Consortium for Political and Social Research archive</a> archive, you can make your research reproducible with the <a href="https://cran.r-project.org/web/packages/icpsrdata/index.html"><code>icpsrdata</code> package, now available on CRAN</a>.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2016/05/13/try-pewdata.html">Try pewdata!</a></h3>
+        <h5>Friday, 13 May 2016</h5>
+      <div class="entry">
+        <p>If you use <a href="http://www.pewresearch.org">Pew Research Center</a> surveys, you can make your research reproducible with the <a href="https://cran.r-project.org/web/packages/pewdata/index.html"><code>pewdata</code> package now available on CRAN</a>.</p>
+
+      </div>
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+
+        <h3><a href="../blog/2015/08/10/swiid-wins-nsf-support.html">SWIID Wins NSF Support!</a></h3>
+        <h5>Monday, 10 August 2015</h5>
+      <div class="entry">
+        <p>The National Science Foundation <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746">has awarded three years of support</a> to update and improve the SWIID!  Yay!</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2015/07/30/use-dotwhisker-for-your-apsa-slides.html">Use dotwhisker for your APSA slides!</a></h3>
+        <h5>Thursday, 30 July 2015</h5>
+      <div class="entry">
+        <p>With the APSA coming up, and in the interest of minimizing the number of times we hear &ldquo;sorry, I know you won&rsquo;t really be able to see these regression coefficients,&rdquo; I thought I&rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of <a href="http://dx.doi.org/10.1017/S1537592707072209">Kastellec and Leoni&rsquo;s (2007) <em>Perspectives</em> article</a> quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post. I hope you&rsquo;ll find it useful, and if you have any suggestions for us, that you&rsquo;ll file an issue at <a href="https://github.com/fsolt/dotwhisker">https://github.com/fsolt/dotwhisker</a>, tweet to me @fredericksolt, or just send me an email <a href="mailto:frederick-solt@uiowa.edu">frederick-solt@uiowa.edu</a>.</p>
+
+<p><img class="imageStyle" alt="Download" src="http://fsolt.org/blog/dotwhisker1.jpg" width="650"/></p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2015/06/26/now-on-cran-interplot.html">Now on CRAN: interplot</a></h3>
+        <h5>Friday, 26 June 2015</h5>
+      <div class="entry">
+        <p>Hu Yue and I just published <a href="https://cran.r-project.org/web/packages/interplot"><code>interplot</code> on CRAN</a>, our first R package.  <code>interplot</code> makes graphing the coefficients of variables in interaction terms easy.  It outputs <code>ggplot</code> objects, so further customization is simple.  Check out <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html">the vignette</a> and give it a try!</p>
+
+<p><img class="imageStyle" alt="Download" src="http://fsolt.org/blog/interplot1.png" width="600"/></p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2015/03/27/inequality-in-china.html">Inequality in China</a></h3>
+        <h5>Friday, 27 March 2015</h5>
+      <div class="entry">
+        <p>A <a href="http://www.imf.org/external/pubs/ft/wp/2015/wp1568.pdf">new working paper</a> by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world.  Here&rsquo;s a graph of SWIIDv5.0 data that illustrates their point.</p>
+
+<p><img class="imageStyle" alt="Download" src="http://fsolt.org/swiid/china.jpg" width="760" height="450"/></p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2014/10/02/swiid-version-5.0-is-available.html">SWIID Version 5.0 is available!</a></h3>
+        <h5>Thursday, 2 October 2014</h5>
+      <div class="entry">
+        <p>Version 5.0 of the SWIID is <a href="../swiid/swiid_downloads.html">now available</a>, and it is a major update.  A new article of record (currently available as a working paper while under peer review) reviews the problem of comparability in cross-national income inequality data, explains how the SWIID addresses the issue, assesses the SWIID&rsquo;s performance in comparison to the available alternatives, and explains how to use the SWIID data in cross-national analyses.</p>
+
+<p>The new version also marks the debut of the SWIID web application.  The web application allows users to graph the SWIID estimates of any of net-income income, market-income inequality, relative redistribution, or absolute redistribution in as many as four countries or to compare these measures within a single country.  Its output can be downloaded with a click for use in reports or articles.  I hope that it will be of particular value to policymakers, journalists, students, and others who need to make straightforward comparisons of levels and trends in income inequality.</p>
+
+<p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2013/09/30/swiid-version-4.0-is-available.html">SWIID Version 4.0 is available!</a></h3>
+        <h5>Monday, 30 September 2013</h5>
+      <div class="entry">
+        <p>Version 4.0 of the SWIID is now available <a href="../swiid/swiid_downloads.html">here</a>.  Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version provides even better estimates of income inequality in countries around the world than in previous versions.</p>
+
+<p>This version introduces two other improvements.  First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates.  The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one&rsquo;s analyses.  Fortunately, there are now tools in Stata and R that make it quite straightforward to analyze data that is measured with error, and this version of the SWIID includes files that are pre-formatted for use with these tools.  The file &ldquo;Using the SWIID.pdf&rdquo;, which is also included in the data download, explains how.  Some additional examples of using the SWIID with Stata&rsquo;s <code>mi estimate</code> command prefix can be found towards the end of the slides posted <a href="../papers/SWIID_UN_Talk" rel="self">here</a>.<br /><br />Second, I&rsquo;ve received several requests for measures of top income share, so in this version I am including estimates of the top 1 percent&rsquo;s share (the variable share1), standardized to the data provided in the <a href="http://topincomes.g-mond.parisschoolofeconomics.eu" rel="self">World Top Incomes Database</a>: Country-years included in that dataset are reproduced without modification in the SWIID, and comparable figures for other country-years are estimated using the SWIID&rsquo;s custom multiple-imputation algorithm.  Like all inequality datasets, Top Incomes has tradeoffs&mdash;among other things, the share of pre-tax, pre-transfer income reported on tax returns by the richest filers may not be of much theoretical interest to many investigators&mdash;but the additional estimates the SWIID provides may prove to be useful to some.</p>
+
+<p>I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2013/09/29/my-talk-at-the-un.html">My talk at the UN</a></h3>
+        <h5>Sunday, 29 September 2013</h5>
+      <div class="entry">
+        <p>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the <a href="http://www.un.org/en/development/desa/policy/index.shtml" rel="self">Development Policy and Analysis Division</a> of the United Nations&rsquo; Department of Economic and Social Affairs.  I had some great conversations and got lots of useful feedback.  Slides for the talk can be found <a href="../papers/SWIID_UN_Talk" rel="self">here</a>.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2012/01/02/swiid-version-3.1-now-available.html">SWIID Version 3.1 now available!</a></h3>
+        <h5>Monday, 2 January 2012</h5>
+      <div class="entry">
+        <p>Version 3.1 of the SWIID is now available <a href="swiid_downloads.html">here</a>. The primary difference introduced in Version 3.1 is that the data on which the SWIID is based have again been expanded. Now nearly 4500 Gini observations are added to those collected in the UNU-WIDER data, and for many countries the available data extend to 2010. Also, I made one semantic change: to try to avoid confusion among those who neglect to read about the data they use, the series on pre-tax, pre-transfer inequality is now labeled <code>gini_market</code> rather than <code>gini_gross</code>. Otherwise, very small revisions were made to the SWIID routine from Version 3.0. As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2010/07/11/swiid-version-3.0-is-now-available.html">SWIID Version 3.0 is now available!</a></h3>
+        <h5>Sunday, 11 July 2010</h5>
+      <div class="entry">
+        <p>Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.</p>
+
+<p>The data on which the SWIID is based have been expanded.  I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID.  As before, these data are available in the replication materials for those who are interested.  Major sources for these data include the <a href="http://iresearch.worldbank.org/PovcalNet/povcalSvy.html" rel="self">World Bank&rsquo;s Povcalnet</a>, the <a href="http://www.depeco.econo.unlp.edu.ar/sedlac/eng/index.php" rel="self">Socio-Economic Database for Latin America</a>, <a href="http://go.worldbank.org/9VCQW66LA0" rel="self">Branko Milanovic&rsquo;s World Income Distribution data (&ldquo;All the Ginis&rdquo;)</a>, and the <a href="http://laborsta.ilo.org/" rel="self">ILO&rsquo;s Household Income and Expenditure Statistics</a>, but a multitude of national statistical offices and other sources were also consulted.</p>
+
+<p>The SWIID also now incorporates the University of Texas Inequality Project&rsquo;s <a href="http://utip.gov.utexas.edu/data.html" rel="self">UTIP-UNIDO dataset</a> on differences in pay across industrial sectors.  Across countries and years, these data explain only about half of the variation in net income inequality (and much less of gross income inequality) and so yield predictions with prohibitively large standard errors when employed in this way, but where there was sufficient data available, I used the UTIP data to make within-country loess predictions of both net and gross income inequality that informed the SWIID estimates.</p>
+
+<p>The imputation routine used for generating the SWIID was cleaned up: the code now runs more efficiently, and a few errors were corrected.</p>
+
+<p>Many researchers have asked me about using the SWIID to examine questions of redistribution, so I now include in the dataset the percentage reduction in gross income inequality (that is, the difference between the gross and net income inequality, divided by gross income inequality, multiplied by 100) as an estimate of redistribution (&ldquo;redist&rdquo;) as well as its associated standard error (&ldquo;redist_se&rdquo;).  The standard errors for redistribution are particularly important to take into account, as they can often be quite large relative to the size of the estimates.  Observations for redistribution are omitted for countries for which the source data do not include multiple observations of either net or gross income inequality: in such cases, although the two inequality series each still constitute the most comparable available estimates, the difference between them reflects only information from other countries, and treating it as meaningful independent information about redistribution would be unwise.  Similarly, because the underlying data is often thin in the early years included in the SWIID, redistribution is only reported after 1975 for most of the advanced countries and only after 1985 for most countries in the developing world.</p>
+
+<p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2010/06/20/using-the-swiid-standard-errors.html">Using the SWIID Standard Errors</a></h3>
+        <h5>Sunday, 20 June 2010</h5>
+      <div class="entry">
+        <p>Incorporating the standard errors in the SWIID estimates into one&rsquo;s analyses is the right thing to do, but it is not a trivial exercise.  I myself have left it out of some work where I felt the model was already maxed out on complexity (though in such cases, I advise at least excluding observations with particularly large errors).  The short story is that one generates a bunch of Monte Carlo simulations of the SWIID data from the estimates and standard errors, then analyses each simulation, then combines the results of the multiple analyses as one would in a multiple-imputation setup (this should be easier to do with Stata 11&rsquo;s new multiple-imputation tools, but I won&rsquo;t get my copy of Stata 11 until the fall&ndash;oh well).  The code below does the trick.</p>
+
+<pre><code>**Using the SWIID Standard Errors: An Example**
+//Load SWIID and generate fake data for example
+use &quot;SWIIDv2_0.dta&quot;, clear
+set seed 4533160
+gen x1 = 20*rnormal()
+gen x2 = rnormal()
+gen x3 = 3*rnormal()
+gen y = .03*x1 + 3*x2 + .5*x3 + .05*gini_net + 5 + 20*rnormal()
+reg y x1 x2 x3 gini_net
+
+//Generate ten Monte Carlo simulations of the gini_net series
+egen ccode=group(country)               
+tsset ccode year                        
+set seed 3166                           
+forvalues a = 1/10 {
+    gen e0 = rnormal()
+    quietly tssmooth ma e00 = e0, weight (1 1 &lt;2&gt; 1 1)
+    quietly sum e00
+    quietly gen g`a'=gini_net+e00*(1/r(sd))*gini_net_se
+    drop e0 e00
+}
+
+//Perform analysis using each of the ten simulations, saving the results
+local other_ivs = &quot;x1 x2 x3&quot;        /*to be replaced with your other IVs, that is, not including gini_net or the constant*/
+local n_ivs = 5             /*to be replaced with the number of IVs, now *including* gini_net and the constant*/
+matrix coef = J(`n_ivs', 10, -99)
+matrix se = J(`n_ivs', 10, -99)
+matrix r_sq = J(1, 10, -99)
+forvalues a = 1/10 {
+    quietly reg y `other_ivs' g`a'  /*to be replaced with your analysis*/   
+    matrix coef[1,`a'] = e(b)'
+    matrix A = e(V)
+    forvalues b = 1/`n_ivs' {
+            matrix se[`b', `a'] = (A[`b',`b'])
+    }
+    matrix r_sq[1, `a'] = e(r2)
+}       
+
+local cases = e(N)
+
+svmat coef, names(coef)
+svmat se, names(se)
+svmat r_sq, names(r_sq)
+
+
+//Display results across all simulations
+egen coef_all = rowmean(coef1-coef10)
+
+gen ss_all = 0
+forvalues a = 1/10 {
+    quietly replace ss_all = ss_all + (coef`a'-coef_all)^2
+}
+egen se_all = rowmean(se1-se10)
+replace se_all = se_all + (((1+(1/10)) * ((1/9) * ss_all))) /*Total variance, per Rubin (1987)*/
+replace se_all = (se_all)^.5 /*Total standard error*/
+
+gen t_all = coef_all/se_all
+gen p_all = 2*normal(-abs(t_all))
+
+egen r_sq_all = rowmean(r_sq1-r_sq10)
+
+gen vars = &quot; &quot; in 1/`n_ivs'
+local i = 0
+foreach iv in `other_ivs' &quot;Inequality&quot; &quot;Constant&quot; {
+    local i = `i'+1
+    replace vars = &quot;`iv'&quot; in `i'
+}
+mkmat coef_all se_all p_all if coef_all~=., matrix(res_all) rownames(vars)
+matrix list res_all, format(%9.3f)
+quietly sum r_sq_all
+local r2 = round(`r(mean)', .001)
+di &quot;R-sq = `r2'&quot;
+di &quot;N = `cases'&quot;
+</code></pre>
+
+<p>Please feel free to drop me an email if you have any questions or comments.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2009/07/31/swiid-version-2.0.html">SWIID Version 2.0</a></h3>
+        <h5>Friday, 31 July 2009</h5>
+      <div class="entry">
+        <p>Version 2.0 of the SWIID is now available, and it is a major upgrade. It introduces two important changes from Version 1.1 (the version described in the <em>SSQ</em> article). First, I collected a large number (1500+) of Gini observations that are excluded from the WIID with an eye towards addressing some of the thinner spots in the SWIID&rsquo;s underlying data. Second, I rewrote several parts of the missing-data algorithm. The key change is a switch from multilevel to (flat) linear regression modeling for the imputation of conversion ratios between the 21 categories of available Gini data. Given the patterns of missingness in the data, complete pooling (as occurs in a flat linear regression) proved superior to partial pooling (as occurs in multilevel modeling). The result, along with some minor improvements in coverage, is considerably smaller standard errors in the Gini index estimates, particularly in Latin America and Africa, than in Version 1.1. All SWIID users are encouraged to use these new data in their work.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2008/10/12/swiid-version-1.1.html">SWIID Version 1.1</a></h3>
+        <h5>Sunday, 12 October 2008</h5>
+      <div class="entry">
+        <p>So much for version control. With apologies to v1.0 users, Version 1.1 is the SWIID as reported in &ldquo;Standardizing the World Income Inequality Database.&rdquo;</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2008/09/13/swiid-version-1.0.html">SWIID Version 1.0</a></h3>
+        <h5>Saturday, 13 September 2008</h5>
+      <div class="entry">
+        <p>&ldquo;Standardizing the World Income Inequality Database&rdquo; has been accepted for publication in the Social Science Quarterly. Version 0.9 of the SWIID is now released as Version 1.0 without modification.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="../blog/2008/08/05/swiid-version-0.9.html">SWIID Version 0.9</a></h3>
+        <h5>Tuesday, 5 August 2008</h5>
+      <div class="entry">
+        <p>The SWIID is currently undergoing peer review for publication.</p>
+
+      </div>
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics ecommerce tracking"
+href="http://statcounter.com/shopify/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/1915099/0/da58688a/1/"
+alt="shopify analytics ecommerce
+tracking"></a></div></noscript>
+
+  </body>
+</html>
