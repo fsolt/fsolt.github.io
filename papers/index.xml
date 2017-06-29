@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Papers on Frederick Solt</title>
-    <link>/papers.html</link>
+    <link>/papers/</link>
     <description>Recent content in Papers on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
