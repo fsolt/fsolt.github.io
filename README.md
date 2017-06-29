@@ -1,2 +1,0 @@
-# fsolt.github.io
-homepage
