@@ -4,7 +4,7 @@
 
   
   <meta charset="utf-8">
-  <title> R &middot; Frederick Solt </title>
+  <title> SWIID Version 2.0 &middot; Frederick Solt </title>
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -137,35 +137,13 @@
         <div class="col-md-8" role="main">
 
 
+<h3>SWIID Version 2.0</h3>
+<span class="date">Friday, 31 July 2009</span>
 
-<h1>R</h1>
+<div class="post">
+  <p>Version 2.0 of the SWIID is now available, and it is a major upgrade. It introduces two important changes from Version 1.1 (the version described in the <em>SSQ</em> article). First, I collected a large number (1500+) of Gini observations that are excluded from the WIID with an eye towards addressing some of the thinner spots in the SWIID&rsquo;s underlying data. Second, I rewrote several parts of the missing-data algorithm. The key change is a switch from multilevel to (flat) linear regression modeling for the imputation of conversion ratios between the 21 categories of available Gini data. Given the patterns of missingness in the data, complete pooling (as occurs in a flat linear regression) proved superior to partial pooling (as occurs in multilevel modeling). The result, along with some minor improvements in coverage, is considerably smaller standard errors in the Gini index estimates, particularly in Latin America and Africa, than in Version 1.1. All SWIID users are encouraged to use these new data in their work.</p>
 
-
-
-
-<ul>
-  
-  <li>
-    <span class="date">2016/05/20</span>
-    <a href="/blog/2016/05/20/icpsrdata.html">icpsrdata makes your ICPSR downloads reproducible!</a>
-  </li>
-  
-  <li>
-    <span class="date">2016/05/13</span>
-    <a href="/blog/2016/05/13/pewdata.html">Try pewdata!</a>
-  </li>
-  
-  <li>
-    <span class="date">2015/07/30</span>
-    <a href="/blog/2015/07/30/dotwhisker-for-apsa.html">Use dotwhisker for your APSA slides!</a>
-  </li>
-  
-  <li>
-    <span class="date">2015/06/26</span>
-    <a href="/blog/2015/06/26/now-on-cran-interplot.html">Now on CRAN: interplot</a>
-  </li>
-  
-</ul>
+</div>
 
         </div>
       </div>

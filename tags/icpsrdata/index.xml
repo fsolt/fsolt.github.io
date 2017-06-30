@@ -13,10 +13,10 @@
     
     <item>
       <title>icpsrdata makes your ICPSR downloads reproducible!</title>
-      <link>http://fsolt.org/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</link>
+      <link>http://fsolt.org/blog/2016/05/20/icpsrdata.html</link>
       <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2016/05/20/icpsrdata-makes-your-icpsr-downloads-reproducible.html</guid>
+      <guid>http://fsolt.org/blog/2016/05/20/icpsrdata.html</guid>
       <description>If you download data from the Inter-university Consortium for Political and Social Research archive archive, you can make your research reproducible with the icpsrdata package, now available on CRAN.</description>
     </item>
     
