@@ -98,10 +98,10 @@ The second reason for changes is the addition of more source data for the countr
     
     <item>
       <title>I&#39;m using an older version of Stata, and it won’t open the file. How can I use the SWIID?</title>
-      <link>http://fsolt.org/blog/2015/10/05/im-using-an-older-version-of-stata-and-it-wont-open-the-file.-how-can-i-use-the-swiid.html</link>
+      <link>http://fsolt.org/blog/2015/10/05/not-a-stata-file.html</link>
       <pubDate>Mon, 05 Oct 2015 05:28:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2015/10/05/im-using-an-older-version-of-stata-and-it-wont-open-the-file.-how-can-i-use-the-swiid.html</guid>
+      <guid>http://fsolt.org/blog/2015/10/05/not-a-stata-file.html</guid>
       <description>Stata 13 introduced a new file format which older versions of Stata can’t open. Fortunately, there’s an easy fix: the use13 command. In the command window, first type ssc install use13 to install it. Then you can type use13 SWIIDv5_0.dta, clear to load the SWIID data.
 Update: Version 5.1 is saved in the older file format, so this shouldn&amp;rsquo;t be a problem anymore.</description>
     </item>
