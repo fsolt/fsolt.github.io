@@ -13,10 +13,10 @@
     
     <item>
       <title>Try pewdata!</title>
-      <link>http://fsolt.org/blog/2016/05/13/try-pewdata.html</link>
+      <link>http://fsolt.org/blog/2016/05/13/Try-pewdata.html</link>
       <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2016/05/13/try-pewdata.html</guid>
+      <guid>http://fsolt.org/blog/2016/05/13/Try-pewdata.html</guid>
       <description>If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available on CRAN.</description>
     </item>
     
