@@ -168,6 +168,10 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/papers/hubersolt2014/</loc>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/tags/icpsrdata.html</loc>
     <lastmod>2016-05-20T22:00:01+00:00</lastmod>
     <priority>0</priority>
@@ -180,8 +184,21 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/papers/kimsolt2015/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/kimsolt2015_pre/</loc>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/tags/note.html</loc>
     <lastmod>2017-04-14T14:27:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers.html</loc>
     <priority>0</priority>
   </url>
   
@@ -213,11 +230,19 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/papers/sscc2007/</loc>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/swiid/swiid_downloads.html</loc>
   </url>
   
   <url>
     <loc>http://fsolt.org/swiid/swiid_faq.html</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/swiid_un_talk/</loc>
   </url>
   
   <url>
@@ -238,6 +263,90 @@
   
   <url>
     <loc>http://fsolt.org/cv/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2001/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2003/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2004bjps/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2004larr/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2006a/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2008/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2009/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2009pre/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2010/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2011/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2012/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2014a/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2015a/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2015a_pre/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2015b/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2015b_pre/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2016/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solt2016_pre/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/solthabelgrant2011/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/soltetal2014/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/soltetal2016a/</loc>
   </url>
   
   <url>
