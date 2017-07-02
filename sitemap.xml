@@ -3,399 +3,404 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://fsolt.org/blog/2017/04/14/reviewing-workshop.html</loc>
+    <loc>/blog/2017/06/30/the-swiid-source-data.html</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2017/04/14/reviewing-workshop.html</loc>
     <lastmod>2017-04-14T14:27:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2016/07/21/swiid-version-5_1.html</loc>
+    <loc>/blog/2016/07/21/swiid-version-5_1.html</loc>
     <lastmod>2016-07-21T01:12:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2016/05/20/icpsrdata.html</loc>
+    <loc>/blog/2016/05/20/icpsrdata.html</loc>
     <lastmod>2016-05-20T22:00:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2016/05/13/pewdata.html</loc>
+    <loc>/blog/2016/05/13/pewdata.html</loc>
     <lastmod>2016-05-13T05:28:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/06/download-swiid.html</loc>
+    <loc>/blog/2015/10/06/download-swiid.html</loc>
     <lastmod>2015-10-06T06:32:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/05/mean-and-std-err.html</loc>
+    <loc>/blog/2015/10/05/mean-and-std-err.html</loc>
     <lastmod>2015-10-05T17:14:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/05/germany.html</loc>
+    <loc>/blog/2015/10/05/germany.html</loc>
     <lastmod>2015-10-05T12:31:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/05/partition-and-successors.html</loc>
+    <loc>/blog/2015/10/05/partition-and-successors.html</loc>
     <lastmod>2015-10-05T11:18:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/05/changes-between-versions.html</loc>
+    <loc>/blog/2015/10/05/changes-between-versions.html</loc>
     <lastmod>2015-10-05T10:53:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/05/not-a-stata-file.html</loc>
+    <loc>/blog/2015/10/05/not-a-stata-file.html</loc>
     <lastmod>2015-10-05T05:28:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/05/country-codes.html</loc>
+    <loc>/blog/2015/10/05/country-codes.html</loc>
     <lastmod>2015-10-05T05:26:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/10/05/stata-time-series.html</loc>
+    <loc>/blog/2015/10/05/stata-time-series.html</loc>
     <lastmod>2015-10-05T03:19:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/08/10/nsf-swiid.html</loc>
+    <loc>/blog/2015/08/10/nsf-swiid.html</loc>
     <lastmod>2015-08-10T10:40:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/07/30/dotwhisker-for-apsa.html</loc>
+    <loc>/blog/2015/07/30/dotwhisker-for-apsa.html</loc>
     <lastmod>2015-07-30T10:15:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot.html</loc>
+    <loc>/blog/2015/06/26/now-on-cran-interplot.html</loc>
     <lastmod>2015-06-26T09:40:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2015/03/27/imf-china.html</loc>
+    <loc>/blog/2015/03/27/imf-china.html</loc>
     <lastmod>2015-03-27T10:40:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2014/10/02/swiid-version-5_0.html</loc>
+    <loc>/blog/2014/10/02/swiid-version-5_0.html</loc>
     <lastmod>2014-10-02T10:40:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2013/09/30/swiid-version-4_0.html</loc>
+    <loc>/blog/2013/09/30/swiid-version-4_0.html</loc>
     <lastmod>2013-09-30T14:04:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2013/09/29/my-un-talk.html</loc>
+    <loc>/blog/2013/09/29/my-un-talk.html</loc>
     <lastmod>2013-09-29T11:45:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2012/01/02/swiid-version-3_1.html</loc>
+    <loc>/blog/2012/01/02/swiid-version-3_1.html</loc>
     <lastmod>2012-01-02T09:56:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2010/07/11/swiid-version-3_0.html</loc>
+    <loc>/blog/2010/07/11/swiid-version-3_0.html</loc>
     <lastmod>2010-07-11T16:46:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2010/06/20/using-swiid-ses.html</loc>
+    <loc>/blog/2010/06/20/using-swiid-ses.html</loc>
     <lastmod>2010-06-20T12:05:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2009/07/31/swiid-version-2_0.html</loc>
+    <loc>/blog/2009/07/31/swiid-version-2_0.html</loc>
     <lastmod>2009-07-31T08:21:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2008/10/12/swiid-version-1_1.html</loc>
+    <loc>/blog/2008/10/12/swiid-version-1_1.html</loc>
     <lastmod>2008-10-12T14:07:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2008/09/13/swiid-version-1_0.html</loc>
+    <loc>/blog/2008/09/13/swiid-version-1_0.html</loc>
     <lastmod>2008-09-13T13:34:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/2008/08/05/swiid-version-0_9.html</loc>
+    <loc>/blog/2008/08/05/swiid-version-0_9.html</loc>
     <lastmod>2008-08-05T11:05:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fsolt.org/res/add_res/</loc>
+    <loc>/res/add_res/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog.html</loc>
+    <loc>/blog.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/categories.html</loc>
+    <loc>/categories.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/cv.html</loc>
+    <loc>/cv.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/dotwhisker.html</loc>
+    <loc>/tags/dotwhisker.html</loc>
     <lastmod>2015-07-30T10:15:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/</loc>
-    <lastmod>2017-04-14T14:27:31+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/hubersolt2014/</loc>
+    <loc>/papers/hubersolt2014/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/icpsrdata.html</loc>
+    <loc>/tags/icpsrdata.html</loc>
     <lastmod>2016-05-20T22:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/interplot.html</loc>
+    <loc>/tags/interplot.html</loc>
     <lastmod>2015-06-26T09:40:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/kimsolt2015/</loc>
+    <loc>/papers/kimsolt2015/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/kimsolt2015_pre/</loc>
+    <loc>/papers/kimsolt2015_pre/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/note.html</loc>
-    <lastmod>2017-04-14T14:27:31+00:00</lastmod>
+    <loc>/tags/note.html</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers.html</loc>
+    <loc>/papers.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/pewdata.html</loc>
+    <loc>/tags/pewdata.html</loc>
     <lastmod>2016-05-13T05:28:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/post.html</loc>
-    <lastmod>2017-04-14T14:27:31+00:00</lastmod>
+    <loc>/post.html</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/r.html</loc>
-    <lastmod>2016-05-20T22:00:01+00:00</lastmod>
+    <loc>/tags/r.html</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/res.html</loc>
+    <loc>/res.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/res/res/</loc>
+    <loc>/res/res/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/sscc2007/</loc>
+    <loc>/papers/sscc2007/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/swiid/swiid_downloads.html</loc>
+    <loc>/swiid/swiid_downloads.html</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/swiid/swiid_faq.html</loc>
+    <loc>/swiid/swiid_faq.html</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/swiid_un_talk/</loc>
+    <loc>/papers/swiid_un_talk/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/sfaq_data.html</loc>
+    <loc>/tags/sfaq_data.html</loc>
     <lastmod>2015-10-05T12:31:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/sfaq_howto.html</loc>
+    <loc>/tags/sfaq_howto.html</loc>
     <lastmod>2015-10-06T06:32:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/sw/</loc>
+    <loc>/sw/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/cv/</loc>
+    <loc>/cv/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2001/</loc>
+    <loc>/papers/solt2001/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2003/</loc>
+    <loc>/papers/solt2003/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2004bjps/</loc>
+    <loc>/papers/solt2004bjps/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2004larr/</loc>
+    <loc>/papers/solt2004larr/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2006a/</loc>
+    <loc>/papers/solt2006a/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2008/</loc>
+    <loc>/papers/solt2008/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2009/</loc>
+    <loc>/papers/solt2009/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2009pre/</loc>
+    <loc>/papers/solt2009pre/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2010/</loc>
+    <loc>/papers/solt2010/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2011/</loc>
+    <loc>/papers/solt2011/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2012/</loc>
+    <loc>/papers/solt2012/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2014a/</loc>
+    <loc>/papers/solt2014a/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2015a/</loc>
+    <loc>/papers/solt2015a/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2015a_pre/</loc>
+    <loc>/papers/solt2015a_pre/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2015b/</loc>
+    <loc>/papers/solt2015b/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2015b_pre/</loc>
+    <loc>/papers/solt2015b_pre/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2016/</loc>
+    <loc>/papers/solt2016/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2016_pre/</loc>
+    <loc>/papers/solt2016_pre/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solthabelgrant2011/</loc>
+    <loc>/papers/solthabelgrant2011/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/soltetal2014/</loc>
+    <loc>/papers/soltetal2014/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/soltetal2016a/</loc>
+    <loc>/papers/soltetal2016a/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/soltetal2017/</loc>
+    <loc>/papers/soltetal2017/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/swiid.html</loc>
-    <lastmod>2016-07-21T01:12:01+00:00</lastmod>
+    <loc>/tags/swiid.html</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/swiid.html</loc>
+    <loc>/swiid.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/sw.html</loc>
+    <loc>/sw.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags.html</loc>
+    <loc>/tags.html</loc>
     <lastmod>2015-07-30T10:15:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/teach.html</loc>
+    <loc>/teach.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/teach/</loc>
+    <loc>/teach/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/swiid/</loc>
+    <loc>/swiid/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/update.html</loc>
+    <loc>/tags/update.html</loc>
     <lastmod>2016-07-21T01:12:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/</loc>
+    <loc>/blog/</loc>
   </url>
   
 </urlset>
