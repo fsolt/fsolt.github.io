@@ -142,6 +142,11 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/blog.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/categories.html</loc>
     <priority>0</priority>
   </url>
@@ -392,6 +397,10 @@
     <loc>http://fsolt.org/tags/update.html</loc>
     <lastmod>2016-07-21T01:12:01+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/blog/</loc>
   </url>
   
 </urlset>
