@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The SWIID Source Data</title>
+      <link>http://fsolt.org/blog/2017/07/14/the-swiid-source-data.html</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2017/07/14/the-swiid-source-data.html</guid>
+      <description>library(tidyverse) swiid_source &amp;lt;- read_csv(&amp;quot;https://raw.githubusercontent.com/fsolt/swiid/master/data/swiid_source.csv&amp;quot;)  I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality1 for as many countries and years as possible and&amp;ndash;given the primary goal of maximizing spatial and temporal coverage&amp;ndash;these estimates are as comparable as the available data allow. The dataset has been used widely by academics, journalists, and policymakers.</description>
+    </item>
     
     <item>
       <title>The SWIID Source Data</title>
