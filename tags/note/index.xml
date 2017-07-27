@@ -17,23 +17,7 @@
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://fsolt.org/blog/2017/07/14/the-swiid-source-data.html</guid>
-      <description>---
-title: The SWIID Source Data
-author: Frederick Solt
-date: &#39;2017-07-14&#39;
-tags:
-  - note
-  - r
-  - swiid
-slug: the-swiid-source-data
-bibliography: ~/Library/texmf/bibtex/bib/FSLibrary.bib
-csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
-fig_height: 4 
----
-
-
-
-I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality^[I think the clearest explanation of the Gini index is that it is half the average difference in income between all pairs of units---say, households---as a percentage of the mean income across households.</description>
+      <description>I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality1 for as many countries and years as possible and–given the primary goal of maximizing spatial and temporal coverage–these estimates are as comparable as the available data allow. The dataset has been used widely by academics, journalists, and policymakers. It’s been successful way beyond all my hopes.</description>
     </item>
     
     <item>
