@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>SWIID Version 6.0 is available!</title>
+      <link>http://fsolt.org/blog/2017/07/27/swiid-version-6_0.html</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2017/07/27/swiid-version-6_0.html</guid>
+      <description>Version 6.0 of the SWIID is now available! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting now done using #rstats and Stan.
+As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
+    </item>
+    
+    <item>
       <title>The SWIID Source Data</title>
       <link>http://fsolt.org/blog/2017/07/27/the-swiid-source-data.html</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
