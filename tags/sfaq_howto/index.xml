@@ -21,12 +21,12 @@
     </item>
     
     <item>
-      <title>How can I use the SWIID data to make my own graphs? Or to get the data in the old mean-plus-standard-error format?</title>
+      <title>How can I use the SWIID data to make my own graphs?</title>
       <link>http://fsolt.org/blog/2015/10/05/mean-and-std-err.html</link>
       <pubDate>Mon, 05 Oct 2015 17:14:01 +0000</pubDate>
       
       <guid>http://fsolt.org/blog/2015/10/05/mean-and-std-err.html</guid>
-      <description>Since Version 5.0, the SWIID is distributed only pre-formatted for use with the tools for analyzing multiply-imputed data in Stata or R. This is meant to &amp;ldquo;set the default&amp;rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates; this uncertainty is considerable in many developing countries. This decision does mean, however, that one will have to take the extra step of summarizing the multiple imputations when they aren’t needed, e.</description>
+      <description>The SWIID download contains files pre-formatted for use with the tools for analyzing multiply-imputed data and other data measured with uncertainty in Stata (swiid6_0.dta) or R (swiid6_0). This is meant to &amp;ldquo;set the default&amp;rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates. This uncertainty is considerable in many developing countries, and the tools available in both software packages can now handle pretty much any analysis one may desire (for details, read the documents R_swiid.</description>
     </item>
     
     <item>
