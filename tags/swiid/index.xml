@@ -6,19 +6,10 @@
     <description>Recent content in Swiid on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/tags/swiid/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>The SWIID Source Data</title>
-      <link>http://fsolt.org/blog/2017/07/28/the-swiid-source-data.html</link>
-      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://fsolt.org/blog/2017/07/28/the-swiid-source-data.html</guid>
-      <description>I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality1 for as many countries and years as possible and–given the primary goal of maximizing spatial and temporal coverage–these estimates are as comparable as the available data allow. The dataset has been used widely by academics, journalists, and policymakers. It’s been successful way beyond all my hopes.</description>
-    </item>
     
     <item>
       <title>SWIID Version 6.0 is available!</title>
