@@ -27,7 +27,7 @@
       
       <guid>http://fsolt.org/blog/2017/07/27/swiid-version-6_0.html</guid>
       <description>Version 6.0 of the SWIID is now available! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting now done using #rstats and Stan.
-As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
+## Warning: package &#39;dplyr&#39; was built under R version 3.4.2 As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
     </item>
     
     <item>
