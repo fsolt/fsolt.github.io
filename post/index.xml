@@ -6,19 +6,10 @@
     <description>Recent content in Posts on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Oct 2017 10:19:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Why doesn&#39;t the SWIID include estimates for redistribution for all countries and years?</title>
-      <link>http://fsolt.org/blog/2017/10/29/redistribution-observations.html</link>
-      <pubDate>Sun, 29 Oct 2017 10:19:01 +0000</pubDate>
-      
-      <guid>http://fsolt.org/blog/2017/10/29/redistribution-observations.html</guid>
-      <description>Although the SWIID includes estimates of disposable income inequality and market income inequality for all of its country-year observations, it does not provide as many estimates of absolute and relative redistribution, even though these could easily be calculated from gini_disp and gini_mkt. The reason has to do with the source data employed to generate the SWIID estimates: redistribution estimates are provided only in countries for which there is source data available on both the distribution of market income and the distribution of disposable income or consumption.</description>
-    </item>
     
     <item>
       <title>SWIID Version 6.1 is available!</title>
@@ -134,6 +125,15 @@ Where Ginis are available from before the breakup for the territory of successor
       <guid>http://fsolt.org/blog/2015/10/05/changes-between-versions.html</guid>
       <description>There are three reasons why estimates change from one version of the SWIID to the next. The first reason is revisions to the Luxembourg Income Study. As the LIS serves as the standard for SWIID estimates, when Ginis from the LIS change, the SWIID estimates change as well.
 The second reason for changes is the addition of more source data for the country. Each new version of the SWIID includes new source data both for (a) years that were not previously available, and (b) earlier years from sources I&amp;rsquo;ve discovered since the last update.</description>
+    </item>
+    
+    <item>
+      <title>Why doesn&#39;t the SWIID include estimates for redistribution for all countries and years?</title>
+      <link>http://fsolt.org/blog/2015/10/05/redistribution-observations.html</link>
+      <pubDate>Mon, 05 Oct 2015 10:52:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2015/10/05/redistribution-observations.html</guid>
+      <description>Although the SWIID includes estimates of disposable income inequality and market income inequality for all of its country-year observations, it does not provide as many estimates of absolute and relative redistribution, even though these could easily be calculated from gini_disp and gini_mkt. The reason has to do with the source data employed to generate the SWIID estimates: redistribution estimates are provided only in countries for which there is source data available on both the distribution of market income and the distribution of disposable income or consumption.</description>
     </item>
     
     <item>
