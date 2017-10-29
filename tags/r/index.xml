@@ -6,10 +6,22 @@
     <description>Recent content in R on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SWIID Version 6.1 is available!</title>
+      <link>http://fsolt.org/blog/2017/10/27/swiid-version-6_0.html</link>
+      <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2017/10/27/swiid-version-6_0.html</guid>
+      <description>Version 6.1 of the SWIID is now available! Building on the end-to-end revision accomplished in Version 6.0 last July, this new release:
+ incorporates in its source data 280 new Ginis, including newly available LIS data on Canada and Lithuania;
+ includes estimates of disposable income inequality for 83 new country-years;
+ expands estimates of market income inequality to all country-years (version 6.0 only estimated market income inequality for countries included in the LIS, about a third of the total country-years);</description>
+    </item>
     
     <item>
       <title>The SWIID Source Data</title>
@@ -27,7 +39,7 @@
       
       <guid>http://fsolt.org/blog/2017/07/27/swiid-version-6_0.html</guid>
       <description>Version 6.0 of the SWIID is now available! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting now done using #rstats and Stan.
-## Warning: package &#39;dplyr&#39; was built under R version 3.4.2 As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
+As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
     </item>
     
     <item>
