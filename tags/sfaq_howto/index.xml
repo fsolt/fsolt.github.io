@@ -54,8 +54,8 @@ Update: Version 5.1 is saved in the older file format, so this shouldn&amp;rsquo
       <pubDate>Mon, 05 Oct 2015 03:19:01 +0000</pubDate>
       
       <guid>http://fsolt.org/blog/2015/10/05/stata-time-series.html</guid>
-      <description>To use Stata’s time-series operators (l. , f. , d. , etc.), you must first declare the time and panel variables using tsset , but the SWIID is already mi set , so tsset won’t work. Run the following before merging the rest of your data (called my_data.dta in this example) into the SWIID:
-use SWIIDv5_1.dta, clear egen cc = group(country) mi tsset cc year merge 1:1 country year using &amp;quot;my_data.</description>
+      <description>To use Stata’s time-series operators (l. , f. , d. , etc.), you must first declare the time and panel variables using tsset, but the SWIID is already mi set, so tsset won’t work. Run the following before merging the rest of your data (called my_data.dta in this example) into the SWIID:
+use SWIIDv5_1.dta, clear egen cc = group(country) mi tsset cc year merge 1:1 country year using &amp;quot;my_data.dta&amp;quot;, keep(match master)  Now you’ll be able to use l.</description>
     </item>
     
   </channel>

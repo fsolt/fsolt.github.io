@@ -265,7 +265,7 @@ swiid_summary %&gt;%
 
         <h3><a href="/blog/2015/10/05/stata-time-series.html">How can I use the SWIID data with Stata’s time-series operators?</a></h3>
       <div class="entry">
-        <p>To use Stata’s time-series operators (<code>l.</code> , <code>f.</code> , <code>d.</code> , etc.), you must first declare the time and panel variables using tsset , but the SWIID is already mi set , so tsset won’t work. Run the following before merging the rest of your data (called <code>my_data.dta</code> in this example) into the SWIID:</p>
+        <p>To use Stata’s time-series operators (<code>l.</code> , <code>f.</code> , <code>d.</code> , etc.), you must first declare the time and panel variables using <code>tsset</code>, but the SWIID is already <code>mi set</code>, so <code>tsset</code> won’t work. Run the following before merging the rest of your data (called <code>my_data.dta</code> in this example) into the SWIID:</p>
 
 <pre><code>use SWIIDv5_1.dta, clear
 egen cc = group(country)  
