@@ -6,10 +6,22 @@
     <description>Recent content in Swiid on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/tags/swiid/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SWIID Version 6.2 is available!</title>
+      <link>http://fsolt.org/blog/2018/03/24/swiid-version-6_2.html</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2018/03/24/swiid-version-6_2.html</guid>
+      <description>Version 6.2 of the SWIID is now available! Building on the end-to-end revision accomplished in Version 6.0 last July and the update Version 6.1 last October, this new release:
+ incorporates in its source data 560 new Ginis, including newly available LIS data on China, Germany, Paraguay, Taiwan, the United States, and Uruguay;
+ includes estimates of market and disposable income inequality for 27 new country-years;
+ calculates estimates of absolute and relative redistribution for one additional country, Latvia, for a total of sixty-seven—all of the countries for which there is source data available on both the distribution of market income and the distribution of disposable income or consumption.</description>
+    </item>
     
     <item>
       <title>SWIID Version 6.1 is available!</title>
