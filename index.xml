@@ -6,10 +6,22 @@
     <description>Recent content on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SWIID Version 7.0 is available!</title>
+      <link>http://fsolt.org/blog/2018/07/24/swiid-version-7_0.html</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2018/07/24/swiid-version-7_0.html</guid>
+      <description>Version 7.0 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:
+ adds to its source data 623 new Ginis since version 6.2, including newly available LIS data on Chile, Germany, Hungary, Poland, and Israel; and
+ includes estimates of market and disposable income inequality for 79 more country-years than version 6.2.
+  For more details, you can check out the all the R and Stan code used to generate the estimates in the SWIID GitHub repository.</description>
+    </item>
     
     <item>
       <title>SWIID Version 6.2 is available!</title>
@@ -305,15 +317,6 @@ The data on which the SWIID is based have been expanded. I have collected anothe
       
       <guid>http://fsolt.org/blog/2008/08/05/swiid-version-0_9.html</guid>
       <description>The SWIID is currently undergoing peer review for publication.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://fsolt.org/blog/1/01/01.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fsolt.org/blog/1/01/01.html</guid>
-      <description>SWIID Version 6.2 is available!       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>

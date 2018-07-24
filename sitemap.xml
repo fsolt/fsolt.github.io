@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://fsolt.org/blog/2018/07/24/swiid-version-7_0.html</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/blog/2018/03/26/swiid-version-6_2.html</loc>
     <lastmod>2018-03-26T00:00:00+00:00</lastmod>
   </url>
@@ -158,10 +163,6 @@
   </url>
   
   <url>
-    <loc>http://fsolt.org/blog/1/01/01.html</loc>
-  </url>
-  
-  <url>
     <loc>http://fsolt.org/res/add_res/</loc>
   </url>
   
@@ -188,7 +189,7 @@
   
   <url>
     <loc>http://fsolt.org/</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -222,7 +223,7 @@
   
   <url>
     <loc>http://fsolt.org/tags/note.html</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -239,13 +240,13 @@
   
   <url>
     <loc>http://fsolt.org/post.html</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://fsolt.org/tags/r.html</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -384,7 +385,7 @@
   
   <url>
     <loc>http://fsolt.org/tags/swiid.html</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
