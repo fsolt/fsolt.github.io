@@ -163,6 +163,10 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/swiid/swiid_source.html</loc>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/res/add_res/</loc>
   </url>
   
@@ -185,6 +189,10 @@
     <loc>http://fsolt.org/tags/dotwhisker.html</loc>
     <lastmod>2015-07-30T10:15:01+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/swiid/swiid_source.html</loc>
   </url>
   
   <url>
