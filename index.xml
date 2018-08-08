@@ -335,8 +335,7 @@ Contrary to longstanding arguments that equate parties with durable, information
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://fsolt.org/swiid/swiid_source.html</guid>
-      <description>Exploring the SWIID Source Data The SWIID&amp;rsquo;s income inequality estimates are based on thousands of reported Gini indices from hundreds of published sources. To explore these source data, choose a country; click on a series in the plot to display only that series in the table. Links to the original sources can be found in the table. The entire source dataset is also available as a spreadsheet.
- Powered by RStudio.</description>
+      <description>Exploring the SWIID Source Data The SWIID&amp;rsquo;s income inequality estimates are based on thousands of reported Gini indices from hundreds of published sources. To explore these source data, choose a country; click on a series in the plot to display only that series in the table. Links to the original sources can be found in the table. The entire source dataset is also available as a spreadsheet. If you spot any problems, or better still, know of sources I might have missed, please let me know.</description>
     </item>
     
     <item>
