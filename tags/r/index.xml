@@ -6,20 +6,20 @@
     <description>Recent content in R on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SWIID Version 7.0 is available!</title>
-      <link>http://fsolt.org/blog/2018/07/24/swiid-version-7_0.html</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <title>SWIID Version 7.1 is available!</title>
+      <link>http://fsolt.org/blog/2018/08/14/swiid-version-7_1.html</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2018/07/24/swiid-version-7_0.html</guid>
-      <description>Version 7.0 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:
- adds to its source data 623 new Ginis since version 6.2, including newly available LIS data on Chile, Germany, Hungary, Poland, and Israel; and
- includes estimates of market and disposable income inequality for 79 more country-years than version 6.2.
+      <guid>http://fsolt.org/blog/2018/08/14/swiid-version-7_1.html</guid>
+      <description>Version 7.1 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:
+ adds to its source data 627 new Ginis since version 6.2, including newly available LIS data on Chile, Germany, Hungary, Poland, and Israel; and
+ includes estimates of market and disposable income inequality for 80 more country-years than version 6.2.
   For more details, you can check out the all the R and Stan code used to generate the estimates in the SWIID GitHub repository.</description>
     </item>
     
