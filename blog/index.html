@@ -234,7 +234,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3   -.9596956    .6081912  -1.655627  -.5301432</code></pre>
+##            a |         3    .0877408    1.151885  -1.182911   1.063541</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -265,7 +265,7 @@ auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 </div>
 <div id="summing-up" class="section level2">
 <h2>Summing Up</h2>
-<p>Moving parts of your work from Stata to R is totally feasible. Lots of people (for example, in the thread that touched this post off, <a href="https://twitter.com/SteveRogersinfo/status/1029444547930148866">Steve Rodgers</a>) really want to take advantage of the superior graphics capabilities of R, especially the <code>ggplot</code> ecosystem, even while sticking to Stata for most of their work. Once your feet are wet, you may then decide R’s many other benefits (the free part, the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it’s in Stata, the way <a href="https://www.rstudio.com">RStudio</a> makes it dead easy to do reproducible research by generating <a href="https://rmarkdown.rstudio.com">dynamic documents</a> and maintaining <a href="http://happygitwithr.com">version control</a>, and, once again, the free part) make switching over all the way to be worth the additional marginal effort. Or you may not.</p>
+<p>Moving parts of your work from Stata to R is totally feasible. Lots of people (for example, in the thread that touched this post off, <a href="https://twitter.com/SteveRogersinfo/status/1029444547930148866">Steve Rodgers</a>) really want to take advantage of the superior graphics capabilities of R, especially the <code>ggplot</code> ecosystem, even while sticking to Stata for most of their work. Once your feet are wet, you may then decide R’s many other benefits (the free part, the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it’s in Stata, the way <a href="https://www.rstudio.com">RStudio</a> makes it dead easy to do reproducible research through <a href="https://rmarkdown.rstudio.com">dynamic documents</a> and <a href="http://happygitwithr.com">version control</a>, and, once again, the free part) make switching over all the way to be worth the additional marginal effort. Or you may not.</p>
 <p>I completed the transition in three or four years, at my own pace: when I felt comfortable moving another chunk of my workflow over to R, I did, but not before. If I were doing it over right now, with <a href="https://www.tidyverse.org">the tidyverse packages</a> dramatically reducing the slope of the learning curve, I might move faster, but there’s no rush, really. Do what works for you.</p>
 </div>
 <div id="additional-notes" class="section level2">
