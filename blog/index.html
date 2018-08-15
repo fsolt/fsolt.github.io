@@ -170,7 +170,7 @@
 <div id="running-r-from-stata" class="section level2">
 <h2>Running R from Stata</h2>
 <p>The trick to running R from within your do-file is first to save the data you want to pass to R, then call the <code>.R</code> file with the commands you want to run in R (the “R script”), then—if necessary—reload the R output into Stata.</p>
-<p>While it’s also possible to use Stata’s <code>shell</code> command to run an R script (for illustrative purposes, let’s pretend it’s called <code>my_script.R</code>), the <code>rsource</code> command makes it particularly easy. Install it as follows:</p>
+<p>While it’s also possible to use Stata’s <code>shell</code> command to run an R script (for illustrative purposes, let’s pretend it’s called <code>my_script.R</code>), <a href="https://www.imperial.ac.uk/people/r.newson">Roger Newson</a>’s <code>rsource</code> module makes it particularly easy. Install it as follows:</p>
 <pre><code> ssc install rsource, replace</code></pre>
 <p>Unfortunately, the information <code>rsource</code> needs about your R installation is a bit different depending on your OS, but once installed, adding this platform-independent code to your do-file will run the script:</p>
 <pre><code>if &quot;`c(os)&#39;&quot;==&quot;MacOSX&quot; | &quot;`c(os)&#39;&quot;==&quot;UNIX&quot; {
@@ -213,7 +213,7 @@ END_OF_R
 </div>
 <div id="running-stata-from-r" class="section level2">
 <h2>Running Stata from R</h2>
-<p>So maybe you’ve gotten to the point where you spend more of your time in R than in Stata, but there’s still a few parts of your work that you just want (or need!) to keep in Stata. Running a do-file (<code>my_do_file.do</code>) from inside your R script is easy with the <code>RStata</code> package:</p>
+<p>So maybe you’ve gotten to the point where you spend more of your time in R than in Stata, but there’s still a few parts of your work that you just want (or need!) to keep in Stata. Running a do-file (<code>my_do_file.do</code>) from inside your R script is easy with <a href="https://github.com/lbraglia">Luca Braglia</a>’s <code>RStata</code> package:</p>
 <pre class="r"><code>if (!require(RStata)) install.packages(&quot;RStata&quot;); library(RStata) # this will install RStata if not already installed
 
 stata(&quot;my_do_file.do&quot;, 
@@ -234,7 +234,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    .1614061    1.567612  -1.604414   1.389018</code></pre>
+##            a |         3   -.4823497    .9538334  -1.039294   .6190185</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
