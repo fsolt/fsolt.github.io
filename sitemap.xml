@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://fsolt.org/blog/2018/08/15/switch-to-r.html</loc>
+    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/blog/2018/08/14/swiid-version-7_1.html</loc>
     <lastmod>2018-08-14T00:00:00+00:00</lastmod>
   </url>
@@ -163,6 +168,10 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/swiid/</loc>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/res/add_res/</loc>
   </url>
   
@@ -193,7 +202,7 @@
   
   <url>
     <loc>http://fsolt.org/</loc>
-    <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -227,7 +236,7 @@
   
   <url>
     <loc>http://fsolt.org/tags/note.html</loc>
-    <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -244,13 +253,13 @@
   
   <url>
     <loc>http://fsolt.org/post.html</loc>
-    <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://fsolt.org/tags/r.html</loc>
-    <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

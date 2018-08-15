@@ -6,10 +6,19 @@
     <description>Recent content on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Switch Your Workflow from Stata to R, One Bit at a Time</title>
+      <link>http://fsolt.org/blog/2018/08/15/switch-to-r.html</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2018/08/15/switch-to-r.html</guid>
+      <description>A recent exchange on Twitter reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R.</description>
+    </item>
     
     <item>
       <title>SWIID Version 7.1 is available!</title>
@@ -317,6 +326,15 @@ The data on which the SWIID is based have been expanded. I have collected anothe
       
       <guid>http://fsolt.org/blog/2008/08/05/swiid-version-0_9.html</guid>
       <description>The SWIID is currently undergoing peer review for publication.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://fsolt.org/swiid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/swiid/</guid>
+      <description>The SWIID       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>
