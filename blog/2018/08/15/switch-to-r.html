@@ -197,18 +197,10 @@ library(tidyverse);     # collection of all-around useful R packages
 library(haven);         # for importing Stata datasets
 library(dotwhisker);    # easy and beautiful regression plots, imho
 
-auto_results &lt;- read_dta(&quot;~/Desktop/R_Stata/auto_results.dta&quot;) %&gt;% 
-    rename(term = var,
-    estimate = coef,
-    std.error = stderr) %&gt;% 
-    filter(term != &quot;_cons&quot;);
-dwplot(auto_results);
-ggsave(&quot;~/Desktop/R_Stata/auto_results.png&quot;, width = 2, height = 1.5);
-
 END_OF_R
 </code></pre>
 <div class="figure">
-<img src="/post/2018-08-15-switch-to-r_files/auto_results.png" />
+<img src="/post/2018-08-15-switch-to-r_files/auto_results.png" width="400" height="400" />
 
 </div>
 </div>
@@ -235,7 +227,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3   -.3857794    1.087328  -1.030461   .8696057</code></pre>
+##            a |         3    .7743707    .9634284  -.0174121   1.847022</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
