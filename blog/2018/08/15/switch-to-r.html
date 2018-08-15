@@ -165,7 +165,7 @@
 <span class="date">Wednesday, 15 August 2018</span>
 
 <div class="post">
-  <p>A <a href="https://twitter.com/RyanDEnos/status/1029443132084105221">recent exchange on Twitter</a> reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R. Then as now, there were specific things R could do that Stata couldn’t.[^Then, for me, it was multiple imputation, parallel computation, <span class="citation">(and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Leoni 2007)</span>(<a href="https://www.princeton.edu/~jkastell/tables2graphs.html" class="uri">https://www.princeton.edu/~jkastell/tables2graphs.html</a>) (on this last, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but I’d say even longer. That’s not what I want to get into in this post, though.] But how to get those advantages without throwing out my hard-earned skills and starting over as a complete n00b? The answer was: a little bit at a time.</p>
+  <p>A <a href="https://twitter.com/RyanDEnos/status/1029443132084105221">recent exchange on Twitter</a> reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R. Then as now, there were specific things R could do that Stata couldn’t.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> Now my list is different, but I’d say even longer. That’s not what I want to get into in this post, though.] But how to get those advantages without throwing out my hard-earned skills and starting over as a complete n00b? The answer was: a little bit at a time.</p>
 <p>Fortunately, it’s not difficult to switch back and forth within a given project, so you can start bringing some R to your Stata-based workflow while leaving it mostly intact. Then, if and when you find yourself doing more in R than in Stata, you can flip and start using Stata from within R.</p>
 <p>So, <a href="https://cloud.r-project.org">install R</a> and let’s get you started.</p>
 <div id="running-r-from-stata" class="section level2">
@@ -180,7 +180,7 @@
 else {  // windows
     rsource using my_script.R, rpath(`&quot;c:\r\R-3.5.1\bin\Rterm.exe&quot;&#39;) roptions(`&quot;--vanilla&quot;&#39;)  // change version number, if necessary
 }</code></pre>
-<p>Of course, you could choose to skip the whole if-else and just include the line that runs on <em>your</em> machine, but that’s not doing any favors to your collaborators or anyone else trying to reproduce your results. You might also just prefer to specify the <code>rpath</code> and <code>roptions</code> in your profile do-file,[^See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.] but again, then you’ll need to let others know to do the same or they won’t be able to run your do-file.</p>
+<p>Of course, you could choose to skip the whole if-else and just include the line that runs on <em>your</em> machine, but that’s not doing any favors to your collaborators or anyone else trying to reproduce your results. You might also just prefer to specify the <code>rpath</code> and <code>roptions</code> in your profile do-file,<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> but again, then you’ll need to let others know to do the same or they won’t be able to run your do-file.</p>
 <p>Note, too, that if you don’t have much R code to run, it might be easiest to just keep it in your do-file rather than using a separate script. You can do this using the <code>terminator</code> option to <code>rsource</code>, though a downside to this approach is that it doesn’t allow you to if-else the <code>rsource</code> command by your OS. In the do-file below, I also use the <code>regsave</code> module to save my results to pass them to R; install it using <code>ssc install regsave, replace</code>.</p>
 <pre><code>clear
 set more off
@@ -224,7 +224,7 @@ stata(&quot;my_do_file.do&quot;,
 <pre><code>options(&quot;RStata.StataPath&quot; = &quot;/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp&quot;)
 options(&quot;RStata.StataVersion&quot; = 13)</code></pre>
 <p>Since Stata isn’t free and open-source, it’s even more likely that others will have different setups anyway, so this may make the most sense. Be sure to comment your code to clue people in, though.</p>
-<p>If you just want to use a single Stata command <code>RStata::stata</code>[^In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.] will do that for you, too, with no need for a do-file. From the <a href="https://www.rdocumentation.org/packages/RStata/versions/1.1.1">RStata package documentation</a>:</p>
+<p>If you just want to use a single Stata command <code>RStata::stata</code><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> will do that for you, too, with no need for a do-file. From the <a href="https://www.rdocumentation.org/packages/RStata/versions/1.1.1">RStata package documentation</a>:</p>
 <pre class="r"><code>library(&quot;RStata&quot;)
 # remember to set RStata.StataPath &amp; RStata.StataVersion in your .Rprofile first!  See https://www.rdocumentation.org/packages/RStata/
 
@@ -235,7 +235,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    .0505795    .4977887  -.5136102   .4278642</code></pre>
+##            a |         3    -.698937    .5610272  -1.132696  -.0653545</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -297,10 +297,15 @@ auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <div id="ref-Ismay2018">
 <p>Ismay, Chester, and Albert Y. Kim. 2018. “Modern Dive: An Introduction to Statistical and Data Sciences via R.” <a href="https://moderndive.com/" class="uri">https://moderndive.com/</a>.</p>
 </div>
-<div id="ref-Kastellec2007">
-<p>Kastellec, Jonathan P., and Eduardo L. Leoni. 2007. “Using Graphs Instead of Tables in Political Science.” <em>Perspectives on Politics</em> 5(4): 755–71.</p>
 </div>
 </div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3">↩</a></p></li>
+</ol>
 </div>
 
 </div>
