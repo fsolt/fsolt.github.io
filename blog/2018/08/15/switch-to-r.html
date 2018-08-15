@@ -203,13 +203,13 @@ auto_results &lt;- read_dta(&quot;~/Desktop/R_Stata/auto_results.dta&quot;) %&gt
     std.error = stderr) %&gt;% 
     filter(term != &quot;_cons&quot;);
 dwplot(auto_results);
-ggsave(&quot;~/Desktop/R_Stata/auto_results.png&quot;, width = 5.5, height = 4);
+ggsave(&quot;~/Desktop/R_Stata/auto_results.png&quot;, width = 2, height = 1.5);
 
 END_OF_R
 </code></pre>
 <div class="figure">
-<img src="/post/2018-08-15-switch-to-r_files/auto_results.png" alt="cool dotwhisker plot" />
-<p class="caption">cool dotwhisker plot</p>
+<img src="/post/2018-08-15-switch-to-r_files/auto_results.png" />
+
 </div>
 </div>
 <div id="running-stata-from-r" class="section level2">
@@ -235,7 +235,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    -.698937    .5610272  -1.132696  -.0653545</code></pre>
+##            a |         3    .0967649    1.317522  -.8074511   1.608429</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
