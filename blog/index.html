@@ -234,7 +234,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    1.173602    1.204173   .4711912   2.564037</code></pre>
+##            a |         3    1.007152    1.210408  -.3682979   1.909797</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -273,6 +273,7 @@ auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <ul>
 <li><a href="http://johnricco.github.io/2016/06/14/stata-dplyr/">This post by John Ricco</a> describing how to translate Stata data cleaning commands to the <code>dplyr</code> idiom will likely be helpful to those new to tidyverse-style R and wanting to move quickly.</li>
 <li>I also ran across the <a href="http://www.haghish.com/resources/pdf/Haghish_Rcall.pdf">Rcall package</a> while writing this up, but I haven’t tried it. You may find it useful.</li>
+<li>OTOH, <a href="https://dss.princeton.edu/training/RStata.pdf">these 2010 slides by Oscar Torres-Reyna</a> were definitely useful to me back in the day, but as they pre-date both the tidyverse and RStudio—the wonders of which really cannot be overstated—they’re now more likely to cause you unnecessary confusion than help you if you’re a new switcher. Better to steer clear.</li>
 <li>Great complete treatments on how to do stuff in R:
 <ul>
 <li><a href="https://moderndive.com">Modern Dive</a>, by Chester Ismay and Albert Y. Kim</li>
@@ -280,6 +281,7 @@ auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <li>A bit older, but I still love Winston Chang’s <a href="http://www.cookbook-r.com">Cookbook for R</a> as a reference, especially the <a href="http://www.cookbook-r.com/Graphs/">Graphs chapter</a></li>
 </ul></li>
 <li><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio’s Cheat Sheets</a> are also great references.</li>
+<li>When you’re ready to take the step to using R more than Stata, you’ll want to get fully set up on <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a>, which provides a front end for running R and can integrate with git and GitHub for version control (you will want this). The best resource that I’ve found for this process is <a href="http://happygitwithr.com">Jenny Bryan’s Happy Git and GitHub for the UseR</a>.</li>
 <li>The R community on <a href="https://stackoverflow.com">StackOverflow</a> is full of helpful people. As your Google-fu develops, you’ll find that links to StackOverflow are most likely to get you where you need to go.</li>
 <li>There are <em>so many</em> fantastic <a href="https://twitter.com/search?q=%23rstats">#rstats</a> (dozens? hundreds?) follows on Twitter. With apologies to the—seriously—hundreds of others who’ve taught me tons of stuff over the years, I’m going to grit my teeth and rec just five to get you started: <a href="https://twitter.com/dataandme">Mara Averick</a>, <a href="https://twitter.com/JennyBryan">Jenny Bryan</a>, <a href="https://twitter.com/drob">David Robinson</a>, <a href="https://twitter.com/juliasilge">Julia Silge</a>, and <a href="https://twitter.com/hadleywickham">Hadley Wickham</a>.</li>
 </ul>
