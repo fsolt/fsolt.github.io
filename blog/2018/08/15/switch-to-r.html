@@ -235,7 +235,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3   -.2364363    1.002482  -1.393997   .3454169</code></pre>
+##            a |         3    1.173602    1.204173   .4711912   2.564037</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -276,9 +276,9 @@ auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <li>I also ran across the <a href="http://www.haghish.com/resources/pdf/Haghish_Rcall.pdf">Rcall package</a> while writing this up, but I haven’t tried it. You may find it useful.</li>
 <li>Great complete treatments on how to do stuff in R:
 <ul>
-<li><a href="https://moderndive.com">Modern Dive, by Chester Ismay and Albert Y. Kim</a></li>
-<li><a href="http://r4ds.had.co.nz">R for Data Science, by Hadley Wickham and Garrett Grolemund</a></li>
-<li>Maybe a bit dated, I suppose, but I still love Winston Chang’s <a href="http://www.cookbook-r.com">Cookbook for R</a> as a reference, especially the <a href="http://www.cookbook-r.com/Graphs/">Graphs chapter</a></li>
+<li><a href="https://moderndive.com">Modern Dive</a>, by Chester Ismay and Albert Y. Kim</li>
+<li><a href="http://r4ds.had.co.nz">R for Data Science</a>, by Hadley Wickham and Garrett Grolemund</li>
+<li>A bit older, but I still love Winston Chang’s <a href="http://www.cookbook-r.com">Cookbook for R</a> as a reference, especially the <a href="http://www.cookbook-r.com/Graphs/">Graphs chapter</a></li>
 </ul></li>
 <li><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio’s Cheat Sheets</a> are also great references.</li>
 <li>The R community on <a href="https://stackoverflow.com">StackOverflow</a> is full of helpful people. As your Google-fu develops, you’ll find that links to StackOverflow are most likely to get you where you need to go.</li>
@@ -297,12 +297,18 @@ auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <div id="ref-Ismay2018">
 <p>Ismay, Chester, and Albert Y. Kim. 2018. “Modern Dive: An Introduction to Statistical and Data Sciences via R.” <a href="https://moderndive.com/" class="uri">https://moderndive.com/</a>.</p>
 </div>
+<div id="ref-Kastellec2007">
+<p>Kastellec, Jonathan P., and Eduardo L. Leoni. 2007. “Using Graphs Instead of Tables in Political Science.” <em>Perspectives on Politics</em> 5(4): 755–71.</p>
+</div>
+<div id="ref-Wickham2017">
+<p>Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’Reilly. <a href="http://r4ds.had.co.nz" class="uri">http://r4ds.had.co.nz</a>.</p>
+</div>
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but I’d say even longer. That’s not what I want to get into in this post, though.<a href="#fnref1">↩</a></p></li>
+<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1">↩</a></p></li>
 <li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2">↩</a></p></li>
 <li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3">↩</a></p></li>
 </ol>
