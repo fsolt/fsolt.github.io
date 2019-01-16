@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Frederick Solt</title>
+    <link>http://fsolt.org/blog.html</link>
+    <description>Recent content in Blogs on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://fsolt.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updates and Working Notes</title>
+      <link>http://fsolt.org/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
