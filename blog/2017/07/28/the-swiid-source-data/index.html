@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> The SWIID Source Data &middot; Frederick Solt </title>
+  
+  
+    <title>The SWIID Source Data &middot; Frederick Solt</title>
+    <meta property="og:title" content="The SWIID Source Data &middot; Frederick Solt">
+    <meta property="og:type" content="article">
+    
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="http://fsolt.org/img/fsolt.jpeg">
+      
+      
+      
+      <meta property="description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+      <meta property="og:description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+    
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="/css/flatly-bootstrap.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/academicons.css">
+  
+
+
+
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="/">Frederick Solt</a></h1>
+<h5>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</h5>
+
+
+<aside>
+    <div id="sidebar" class="sidebar nav-list sidebar-nav span 2">
+        
+        <ul style="list-style: none; padding-left:0;" class="sidebar-menu">
+          
+          
+ 
+            <li>
+            <a href="/">
+                
+                <span>Home</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/swiid/">
+                
+                <span>The SWIID</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/res/">
+                
+                <span>Research on Inequality</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/add_res/">
+                
+                <span>Additional Research</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/teach/">
+                
+                <span>Teaching</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/sw/">
+                
+                <span>Published Software</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/blog/">
+                
+                <span>Blog</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/cv/">
+                
+                <span>CV</span>
+            </a>
+          </li>
+          
+        </ul>
+        
+        <ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+    </div>
+</aside>
+
+
+
+
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h3>The SWIID Source Data</h3>
+<span class="date">Friday, 28 July 2017</span>
+
+<div class="post">
+  
+
+
+<p><em>Friday, 27 October 2017: Updated with information on the source data for SWIID Version 6.1</em></p>
+<p>I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> for as many countries and years as possible and—given the primary goal of maximizing spatial and temporal coverage—these estimates are as comparable as the available data allow. The dataset has been used widely by academics, journalists, and policymakers. It’s been successful way beyond all my hopes.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> I’ve been <a href="http://fsolt.org/swiid/swiid_downloads.html">adding to it, revising it, improving on it</a> pretty much the entire time since its launch. Now, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746">with the support of the NSF</a>, I am scrapping all of that work and starting fresh. From scratch.</p>
+<p>This is the first in a series of posts on how I did it. It focuses on an unheralded but foundational part of the SWIID project, the source data. The basic idea behind the SWIID is to start with the data that has been most carefully picked over to ensure its utmost cross-national comparability: the data of the fantastic <a href="http://www.lisdatacenter.org">Luxembourg Income Study</a>. I’ve heard that generating a single country-year of LIS data takes an average of ten person-months of work. <em>That’s</em> dedication to comparability. ❤️ But the flipside of maximizing comparability is that the LIS’s coverage is pretty sparse: it includes fewer than 300 country-years at last count.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> To address this weakness, the SWIID routine estimates the relationships between Gini indices based on the LIS and all of the other Ginis available for the same country-years, then uses these relationships to estimate what the LIS Gini <em>would be</em> in country-years not included in the LIS but available from other sources.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> The critical first step to making this work is getting <em>a lot</em> of other, non-LIS Ginis. I call these other Ginis the SWIID’s source data. Over the years, I and my research assistants built up a big spreadsheet of data collected from international organizations, national statistical offices, and scholarly books and articles. But it seemed like whenever I checked over these source data, I would find that at least a few figures had been recently revised, or their source was seemingly no longer available, or (worst of all) they evidently had been entered incorrectly. So again: it’s time to start over from scratch.</p>
+<p>To be included in the SWIID’s source data, observations need to encompass the entire population of a country without regard to age, location,<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> or employment status.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> They need to have an identifiable welfare definition and equivalence scale (more on these below). Finally, because I want to be able to direct users to sources they can easily peruse themselves, observations need to be available online.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
+<p>Hand-entering data is tedious and error-prone work, so I <a href="https://github.com/fsolt/swiid/blob/master/R/data_setup.R">automated as much of the process of data collection</a> as practicable. Most international organizations and a few national statistical offices use APIs that facilitate downloading their data, and often the <a href="https://twitter.com/search?q=%23rstats">#rstats</a> community has built R packages using these APIs to make the task even easier. I took as much advantage of these resources as possible.<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> In the absence of an API, I scripted downloads of any available spreadsheets, preferring clean csv files to excel-formatted ones. If there was no spreadsheet, but data were available in pdf files, I automated downloading these files and then used <a href="http://thomasleeper.com">Thomas Leeper</a>’s <a href="https://github.com/ropensci/tabulizer"><code>tabulizer</code> package</a> to read the tables into R. In the absence of a file to download, I scripted the process of scraping the data from the web. Still, for a variety of reasons, a source’s data may have been consigned to being entered in a <a href="https://github.com/fsolt/swiid/blob/master/data-raw/article_data/fs_added_data.csv">separate spreadsheet</a>. Many sources contain just a handful or fewer observations, making the payoff to the often laborious process of data cleaning too small to justify the effort. Some sources–including most academic articles–are behind paywalls, making reproducibility a hassle anyway (though I still often used tabulizer to read the data from the pdf before cutting-and-pasting it into the spreadsheet). Some sources, like books, or the .doc file(!) generated annually by <a href="http://www.msd.govt.nz/about-msd-and-our-work/publications-resources/monitoring/household-incomes/index.html">New Zealand’s Ministry of Social Development</a>, cannot be read straight into R. Finally, at least <a href="https://wdronline.worldbank.org/bitstream/handle/10986/9269/wps4007.pdf?sequence=1">one source</a> contains crucial information encoded in the typeface(!!) of its tables, information lost when the tables are scanned into R. All of the entries in this spreadsheet were checked repeatedly for errors,<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> and I excluded repeated reports of the exact same observation from different sources. In the end, I was able to automate the collection of more than three quarters of the source data and a much higher percentage of the series that will be updated or are subject to revision, facilitating incorporating these changes in future versions.</p>
+<p>The resulting dataset comprises 15499(!) Gini coefficients from 2922 country-years in 195 countries or territories, making the coverage of the SWIID source data broader than that of any other income inequality dataset. This isn’t surprising given that, with the exceptions of the <a href="https://www.wider.unu.edu/database/world-income-inequality-database-wiid34">WIID</a> (which, since it provides no original data, isn’t drawn on at all anymore) and the <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets">All the Ginis</a> database (which provides little original data, and so isn’t drawn on much), the SWIID source data incorporates all of the data in these other datasets.</p>
+<p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/data_by_coverage-1.png" width="672" /></p>
+<p>So, let’s check out what the source data look like. There is much more data available about the income distribution in some countries than in others. Which countries are most data-rich? The plot below shows the top dozen countries by the count of observations. Canada, by virtue of the excellent <a href="http://www.statcan.gc.ca">Statistics Canada</a> as well as longstanding membership in the OECD and LIS, has 736 observations, many more than any other country. The United Kingdom and United States are next, followed by an interesting mix of countries from around the world with not surprisingly a sizable European representation. All are members of the LIS. On the other hand, eleven countries have only a single observation.</p>
+<p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_country-1.png" width="672" /></p>
+<p>As we’ll see in later posts in this series, observations for the same country in the same year, but with different welfare definitions and equivalence scales or from different sources, are important to generating the SWIID’s cross-nationally comparable estimates. Still, we might be interested to know which countries have the most coverage of the years in the SWIID’s current 57-year timeframe, from 1960 to 2016, because the SWIID’s inequality estimates for countries with fewer country-year observations will include more interpolated values, which in turn will have more uncertainty.</p>
+<p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/years_by_country-1.png" width="672" /></p>
+<p>The source data includes observations for Sweden and the United Kingdom in all but one of these years and for the United States in all but six. Argentina—a country not included in the LIS—makes the top 12, with 41 country-year observations. The median country has observations in just eleven different country-years.</p>
+<p>We can also get a sense of the available inequality data by turning the question around and asking about coverage across countries over time. There are observations for 122 countries in 2005. Coverage is relatively good in the years from 2000 to 2014, at least 80 countries per year, before dropping to 88 countries for 2015 and just 73 for last year. Country coverage is pretty thin each year through the 1960s and 1970s and still isn’t all that great until the late 1980s.<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></p>
+<p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/countries_by_year-1.png" width="672" /></p>
+<p>Earlier I mentioned that to be included in the SWIID source data observations need to have an identifiable welfare definition and equivalence scale. A welfare definition is an answer to the question, this Gini measures the distribution of what? The four welfare definitions employed in the SWIID source data are market income, gross income, disposable income, and consumption. Market income is defined as amount of money coming into the household, excluding any government cash or near-cash benefits, the so-called ‘pre-tax, pre-transfer income.’<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> Gross income is the sum of market income and government transfer payments; it is ‘pre-tax, post-transfer income.’ Disposable income, in turn, is gross income minus direct taxes: ‘post-tax, post-transfer income.’<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a> Consumption does not refer to the money coming into the household at all but rather to the money going out.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a> In the source data, Ginis of disposable income are much more common than those using other welfare definitions.</p>
+<p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_wd-1.png" width="672" /></p>
+<p>Equivalence scales are the ways in which the size and composition of a household is incorporated into the calculation of its members’ welfare. On the one hand, these factors can simply be ignored, with all households with the same amount of income or consumption treated as if they enjoy the same level of welfare, regardless of their size. One can improve on this household ‘scale’<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a> by dividing the household’s income by its number of members, that is, by using a per capita scale. But a household of two members and an income of \$100,000 is better off than one with a single member and \$50,000 due to economies of scale—that’s a big reason why people look for roommates. There are a variety of ways to try to account for these economies by calculating the number of “equivalent adults” in the household. Of the most commonly used adult-equivalent scales, the square-root scale is the most straightforward: one simply divides the household income by the square root of the number of members. The “OECD-modified” scale for the number of adult equivalents (<a href="http://www.oecd.org/eco/growth/OECD-Note-EquivalenceScales.pdf">which the OECD itself actually never used</a>) counts the first adult as 1, all other adults as .5, and each child as .3. And there are plenty of other adult-equivalent scales, from the “old OECD” scale (1 for the first adult, 0.7 for each additional adult, and 0.5 for each child) to caloric-requirement-based scales (which are actually very nearly per capita, as it turns out) to a number of country-specific scales. In previous versions of the SWIID, all adult-equivalent scales were considered a single category. Now, the square-root scale and the OECD-modified scale have both been split out, leaving the remaining catch-all adult-equivalent category much smaller.</p>
+<p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_es-1.png" width="672" /></p>
+<p>Differences in the welfare definition and the equivalence scale employed constitute the biggest source of incomparability across observations in the source data, and all twenty of the possible combinations are represented. I’ll take up how we get from these incomparable observations to the SWIID estimates in the next post. In the meantime, if you’d like to see the source data, you can <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">download it from here</a>.</p>
+<p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_wdes-1.png" width="672" /></p>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-Jesuit2010">
+<p>Jesuit, David K., and Vincent A. Mahler. 2010. “Comparing Government Redistribution Across Countries: The Problem of Second-Order Effects.” <em>Social Science Quarterly</em> 91(5): 1390–1404.</p>
+</div>
+<div id="ref-Morgan2013">
+<p>Morgan, Jana, and Nathan J. Kelly. 2013. “Market Inequality and Redistribution in Latin America and the Caribbean.” <em>Journal of Politics</em> 75(3): 672–85.</p>
+</div>
+<div id="ref-Solt2016">
+<p>Solt, Frederick. 2016. “The Standardized World Income Inequality Database.” <em>Social Science Quarterly</em> 97(5): 1267–81.</p>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>I think the clearest explanation of the Gini index is that it is half the average difference in income between all pairs of units—say, households—as a percentage of the mean income of those units. Okay, I said “clearest,” not necessarily “clear.” Anyway, it has a theoretical range of 0 (all households have the same income) to 100 (one household has all the income and the rest have none), but Ginis below 20 or above 60 are rare in the real world. There are good reasons to prefer other measures of inequality, and there are many options, but the Gini is by far the most widely available.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>At the time, those hopes were admittedly concerned mostly with getting <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a> off my back so I could publish a <a href="http://fsolt.org/papers/solt2011">series</a> <a href="http://fsolt.org/papers/solthabelgrant2011">of</a> <a href="http://fsolt.org/papers/solt2012">manuscripts</a> I had on how the context of inequality is related to people’s political attitudes.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Which is what #Reviewer2 always complained about. R2: Shouldn’t you include <a href="https://en.wikipedia.org/wiki/Ruritania#In_academia">Ruritania and Megalomania</a> in your sample, given the broad applicability of your theory? Me: Yes, sure, but like I wrote in the paper, there’s no LIS data for those countries, and the other available data just isn’t comparable. R2: Well then, I recommend rejection. Me: Grr.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>If you’re thinking, “hey, multiple imputation for missing data,” cool, that’s what I was thinking too. If you’re thinking of <a href="https://projects.fivethirtyeight.com/congress-generic-ballot-polls/">poll aggregators and house effects</a>, yep, it’s very similar. If you’re thinking of inequality as a latent variable, with a number of indicators of varying discrimination, that also works. If you’re thinking you need to look at some cat gifs right about meow, <a href="https://giphy.com/search/cat">click here</a>.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>The requirement for complete territorial coverage was relaxed for minor deviations such as data on Portugal that excludes Madeira and the Azores. It was relaxed somewhat further for early series that covered only the urban population of three highly urbanized countries: Uruguay, Argentina, and South Korea. The general rule, however, is that data is excluded if it measures the income distribution of only urban or rural populations, or of only selected cities, or some other such incomplete territory.<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>This last requirement is new; it means nearly 600 observations on the distribution of wages across employed individuals that were included in the source data of previous versions of the SWIID are now excluded. Between the lack of information on those out of the workforce and on how workers formed households, these data weren’t very strongly related to the LIS anyway.<a href="#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p>For scholarly articles, I preferred DOIs or JSTOR stable URLs, but if those were unavailable I used the publisher website or another repository. For books, I provide the link to the relevant page in Google Books. There were <a href="https://books.google.com/books?id=zaL4CGdjOkUC">two</a> <a href="https://books.google.com/books?id=_aapAgAAQBAJ">books</a> that I decided I had to include for which Google Books wouldn’t show the relevant pages (at least not to me); in those two cases, the links I provide just go to the entire volume. I confirmed that the cited pages can be found using Amazon’s “Look Inside” feature, so I consider my “must be available online” rule only badly bent rather than completely broken.<a href="#fnref7" class="footnote-back">↩</a></p></li>
+<li id="fn8"><p>Although the sources with APIs were relatively few, they contained the most data: nearly half of the observations were collected this way.<a href="#fnref8" class="footnote-back">↩</a></p></li>
+<li id="fn9"><p>Which, of course, is not to say that they are error-free. If you spot any problems, or better still, know of sources I might have missed, <em>please</em> <a href="https://github.com/fsolt/swiid/issues/6">let me know</a>!<a href="#fnref9" class="footnote-back">↩</a></p></li>
+<li id="fn10"><p>This is partly a result of my decision to insist on sources that are available online, but it’s just as well: so little information is available about many of the so-excluded observations on that era that I find it hard to have much confidence in them.<a href="#fnref10" class="footnote-back">↩</a></p></li>
+<li id="fn11"><p>It’s important, though, to not think of the distribution of market income as ‘pre-government.’ Beyond taxes and transfers, governments seeking to shape the distribution of income have a wide array of ‘market-conditioning’ or ‘predistribution’ policy options, with minimum wage regulation and labor policy two obvious examples <span class="citation">(see, e.g., Morgan and Kelly 2013)</span>. Further, even taxes and transfers can profoundly shape the distribution of <em>market</em> income through ‘second-order effects.’ Where robust public pension programs exist, for example, people save less for retirement, leaving many of the elderly without market income in old age and so raising the level of market-income inequality <span class="citation">(see, e.g., Jesuit and Mahler 2010)</span>.<a href="#fnref11" class="footnote-back">↩</a></p></li>
+<li id="fn12"><p>Note that disposable income still does not take into account, on the one hand, indirect taxes like sales taxes and VAT, or, on the other, public services and indirect government transfers such as price subsidies. There is very little information available about the distribution of such ‘final income,’ pretty much only that generated by the <a href="http://www.commitmentoequity.org">Commitment to Equity Institute</a>, so I exclude it from the SWIID source data at least for the time being.<a href="#fnref12" class="footnote-back">↩</a></p></li>
+<li id="fn13"><p>In previous versions of the SWIID, market and gross income were treated as a single welfare definition, and I am glad to finally be able to split them apart <span class="citation">(c.f., Solt 2016, 1272)</span>. The consumption welfare definition <em>might</em> now be the most heterogeneous within the SWIID source data, varying considerably in whether and how observations treat expenditures on durable goods. Another source of differences within a single welfare definition is the extent to which nonmonetary income—such as the value of food grown for the household’s own consumption or of housing that the owner occupies—is included. The SWIID source data include the variable <code>monetary</code> that indicates whether any nonmonetary income is taken into account, but at present this information is not incorporated into the classification of welfare definitions.<a href="#fnref13" class="footnote-back">↩</a></p></li>
+<li id="fn14"><p>Scare quotes because, strictly speaking, nothing is being scaled at all; it’s simply treating the household as the unit of analysis.<a href="#fnref14" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https:/statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/1915099/0/da58688a/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+
+  </body>
+</html>

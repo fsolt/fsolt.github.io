@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> How can I use the SWIID data to make my own graphs? &middot; Frederick Solt </title>
+  
+  
+    <title>How can I use the SWIID data to make my own graphs? &middot; Frederick Solt</title>
+    <meta property="og:title" content="How can I use the SWIID data to make my own graphs? &middot; Frederick Solt">
+    <meta property="og:type" content="article">
+    
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="http://fsolt.org/img/fsolt.jpeg">
+      
+      
+      
+      <meta property="description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+      <meta property="og:description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+    
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="/css/flatly-bootstrap.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/academicons.css">
+  
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="/">Frederick Solt</a></h1>
+<h5>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</h5>
+
+
+<aside>
+    <div id="sidebar" class="sidebar nav-list sidebar-nav span 2">
+        
+        <ul style="list-style: none; padding-left:0;" class="sidebar-menu">
+          
+          
+ 
+            <li>
+            <a href="/">
+                
+                <span>Home</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/swiid/">
+                
+                <span>The SWIID</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/res/">
+                
+                <span>Research on Inequality</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/add_res/">
+                
+                <span>Additional Research</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/teach/">
+                
+                <span>Teaching</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/sw/">
+                
+                <span>Published Software</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/blog/">
+                
+                <span>Blog</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/cv/">
+                
+                <span>CV</span>
+            </a>
+          </li>
+          
+        </ul>
+        
+        <ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+    </div>
+</aside>
+
+
+
+
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h3>How can I use the SWIID data to make my own graphs?</h3>
+<span class="date">Monday, 5 October 2015</span>
+
+<div class="post">
+  <p>The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/11992">SWIID download</a> contains files pre-formatted for use with the tools for analyzing multiply-imputed data and other data measured with uncertainty in Stata (<code>swiid6_0.dta</code>) or R (<code>swiid6_0</code>). This is meant to &ldquo;set the default&rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates.  This uncertainty is considerable in many developing countries, and the tools available in both software packages can now handle pretty much any analysis one may desire (for details, read the documents <code>R_swiid.pdf</code> and <code>stata_swiid.pdf</code> in the SWIID download). But this format does not lend itself to graphing.  For this purpose, use the <code>swiid6_0_summary.csv</code> file, which presents the SWIID estimates in mean-plus-standard-error summary format.</p>
+
+<p>In Stata:</p>
+
+<pre><code> import delimited &quot;swiid6_0_summary.csv&quot;, clear
+ 
+// Calculate the bounds of the 95% uncertainty intervals
+gen gini_disp_95ub = gini_disp + 1.96*gini_disp_se
+gen gini_disp_95lb = gini_disp - 1.96*gini_disp_se
+
+// A silly example
+gen name_length = length(country)
+gen first_letter = substr(country, 1, 1)
+keep if year==2010 &amp; first_letter==&quot;S&quot; /*2010 for Senegal, Serbia, . . .*/
+
+// A scatterplot with 95% confidence intervals
+twoway rspike gini_net_95ub gini_net_95lb name_length, lstyle(ci) || ///
+    scatter gini_net name_length, msize(small) legend(order(2 &quot;SWIID Net-Income Inequality&quot;)) 
+</code></pre>
+
+<p>In R:</p>
+
+<pre><code class="language-R">library(tidyverse)
+
+# Load the SWIID
+load(&quot;swiid6_0.rda&quot;)
+
+# Plot SWIID gini_disp estimates for the United States
+swiid_summary %&gt;% 
+    filter(country == &quot;United States&quot;) %&gt;% 
+    ggplot(aes(x=year, y=gini_disp)) + 
+    geom_line() +
+    geom_ribbon(aes(ymin = gini_disp-1.96*gini_disp_se,
+                    ymax = gini_disp+1.96*gini_disp_se, 
+                    linetype=NA), alpha = .25) +
+    scale_x_continuous(breaks=seq(1960, 2015, 5)) +
+    theme_bw() + 
+    labs(x = &quot;Year&quot;, 
+         y = &quot;SWIID Gini Index, Disposable Income&quot;,
+         title = &quot;Income Inequality in the United States&quot;)
+
+# Plot SWIID gini_net estimates for the United States
+swiid_summary %&gt;% 
+    filter(country == &quot;United States&quot;) %&gt;% 
+    ggplot(aes(x=year, y=gini_net)) + 
+    geom_line() +
+    geom_ribbon(aes(ymin = gini_net-1.96*gini_net_se,
+                    ymax = gini_net+1.96*gini_net_se, 
+                    linetype=NA), alpha = .25) +
+    scale_x_continuous(breaks=seq(1960, 2015, 5)) +
+    theme_bw() + 
+    labs(x = &quot;Year&quot;, 
+         y = &quot;SWIID Gini Index, Net Income&quot;,
+         title = &quot;Income Inequality in the United States&quot;)
+</code></pre>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https:/statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/1915099/0/da58688a/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+
+  </body>
+</html>

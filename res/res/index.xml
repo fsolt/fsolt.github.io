@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Inequality on Frederick Solt</title>
+    <link>http://fsolt.org/res/res/</link>
+    <description>Recent content in Research on Inequality on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://fsolt.org/res/res/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

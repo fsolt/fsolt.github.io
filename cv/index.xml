@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cvs on Frederick Solt</title>
-    <link>http://fsolt.org/cv.html</link>
-    <description>Recent content in Cvs on Frederick Solt</description>
+    <title>Solt CV on Frederick Solt</title>
+    <link>http://fsolt.org/cv/</link>
+    <description>Recent content in Solt CV on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="http://fsolt.org/cv/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Solt CV</title>
-      <link>http://fsolt.org/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fsolt.org/cv/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> SWIID Version 3.0 is now available! &middot; Frederick Solt </title>
+  
+  
+    <title>SWIID Version 3.0 is now available! &middot; Frederick Solt</title>
+    <meta property="og:title" content="SWIID Version 3.0 is now available! &middot; Frederick Solt">
+    <meta property="og:type" content="article">
+    
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="http://fsolt.org/img/fsolt.jpeg">
+      
+      
+      
+      <meta property="description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+      <meta property="og:description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+    
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="/css/flatly-bootstrap.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/academicons.css">
+  
+
+
+
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="/">Frederick Solt</a></h1>
+<h5>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</h5>
+
+
+<aside>
+    <div id="sidebar" class="sidebar nav-list sidebar-nav span 2">
+        
+        <ul style="list-style: none; padding-left:0;" class="sidebar-menu">
+          
+          
+ 
+            <li>
+            <a href="/">
+                
+                <span>Home</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/swiid/">
+                
+                <span>The SWIID</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/res/">
+                
+                <span>Research on Inequality</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/add_res/">
+                
+                <span>Additional Research</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/teach/">
+                
+                <span>Teaching</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/sw/">
+                
+                <span>Published Software</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/blog/">
+                
+                <span>Blog</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/cv/">
+                
+                <span>CV</span>
+            </a>
+          </li>
+          
+        </ul>
+        
+        <ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+    </div>
+</aside>
+
+
+
+
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h3>SWIID Version 3.0 is now available!</h3>
+<span class="date">Sunday, 11 July 2010</span>
+
+<div class="post">
+  <p>Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.</p>
+
+<p>The data on which the SWIID is based have been expanded.  I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID.  As before, these data are available in the replication materials for those who are interested.  Major sources for these data include the <a href="http://iresearch.worldbank.org/PovcalNet/povcalSvy.html" rel="self">World Bank&rsquo;s Povcalnet</a>, the <a href="http://www.depeco.econo.unlp.edu.ar/sedlac/eng/index.php" rel="self">Socio-Economic Database for Latin America</a>, <a href="http://go.worldbank.org/9VCQW66LA0" rel="self">Branko Milanovic&rsquo;s World Income Distribution data (&ldquo;All the Ginis&rdquo;)</a>, and the <a href="http://laborsta.ilo.org/" rel="self">ILO&rsquo;s Household Income and Expenditure Statistics</a>, but a multitude of national statistical offices and other sources were also consulted.</p>
+
+<p>The SWIID also now incorporates the University of Texas Inequality Project&rsquo;s <a href="http://utip.gov.utexas.edu/data.html" rel="self">UTIP-UNIDO dataset</a> on differences in pay across industrial sectors.  Across countries and years, these data explain only about half of the variation in net income inequality (and much less of gross income inequality) and so yield predictions with prohibitively large standard errors when employed in this way, but where there was sufficient data available, I used the UTIP data to make within-country loess predictions of both net and gross income inequality that informed the SWIID estimates.</p>
+
+<p>The imputation routine used for generating the SWIID was cleaned up: the code now runs more efficiently, and a few errors were corrected.</p>
+
+<p>Many researchers have asked me about using the SWIID to examine questions of redistribution, so I now include in the dataset the percentage reduction in gross income inequality (that is, the difference between the gross and net income inequality, divided by gross income inequality, multiplied by 100) as an estimate of redistribution (&ldquo;redist&rdquo;) as well as its associated standard error (&ldquo;redist_se&rdquo;).  The standard errors for redistribution are particularly important to take into account, as they can often be quite large relative to the size of the estimates.  Observations for redistribution are omitted for countries for which the source data do not include multiple observations of either net or gross income inequality: in such cases, although the two inequality series each still constitute the most comparable available estimates, the difference between them reflects only information from other countries, and treating it as meaningful independent information about redistribution would be unwise.  Similarly, because the underlying data is often thin in the early years included in the SWIID, redistribution is only reported after 1975 for most of the advanced countries and only after 1985 for most countries in the developing world.</p>
+
+<p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https:/statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/1915099/0/da58688a/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+
+  </body>
+</html>

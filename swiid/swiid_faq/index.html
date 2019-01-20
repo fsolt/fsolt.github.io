@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> SWIID Frequently Asked Questions &middot; Frederick Solt </title>
+  
+  
+    <title>SWIID Frequently Asked Questions &middot; Frederick Solt</title>
+    <meta property="og:title" content="SWIID Frequently Asked Questions &middot; Frederick Solt">
+    <meta property="og:type" content="article">
+    
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="http://fsolt.org/img/fsolt.jpeg">
+      
+      
+      
+      <meta property="description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+      <meta property="og:description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+    
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="/css/flatly-bootstrap.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/academicons.css">
+  
+
+
+
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="/">Frederick Solt</a></h1>
+<h5>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</h5>
+
+
+<aside>
+    <div id="sidebar" class="sidebar nav-list sidebar-nav span 2">
+        
+        <ul style="list-style: none; padding-left:0;" class="sidebar-menu">
+          
+          
+ 
+            <li>
+            <a href="/">
+                
+                <span>Home</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/swiid/">
+                
+                <span>The SWIID</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/res/">
+                
+                <span>Research on Inequality</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/add_res/">
+                
+                <span>Additional Research</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/teach/">
+                
+                <span>Teaching</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/sw/">
+                
+                <span>Published Software</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/blog/">
+                
+                <span>Blog</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/cv/">
+                
+                <span>CV</span>
+            </a>
+          </li>
+          
+        </ul>
+        
+        <ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+    </div>
+</aside>
+
+
+
+
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h2>SWIID Frequently Asked Questions</h2>
+
+<h3>How to . . .</h3>  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/06/download-swiid/">Wait, how can I download the data again?</a></h3>
+      <div class="entry">
+        <p>First, click on <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/11992" target="_blank">this link</a>. Scroll down past the description until you see a list of files. The dataset is a .zip file, the first one labeled &ldquo;2. Data&rdquo; (see the screenshot below). Clicking on the big rectangular button labeled &ldquo;Download&rdquo; on the right side of this line will download the file.</p>
+
+<p><img class="imageStyle" alt="Download" src="http://fsolt.org/swiid/swiid_download.png" width="780" height="590"/></p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/mean-and-std-err/">How can I use the SWIID data to make my own graphs?</a></h3>
+      <div class="entry">
+        <p>The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/11992">SWIID download</a> contains files pre-formatted for use with the tools for analyzing multiply-imputed data and other data measured with uncertainty in Stata (<code>swiid6_0.dta</code>) or R (<code>swiid6_0</code>). This is meant to &ldquo;set the default&rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates.  This uncertainty is considerable in many developing countries, and the tools available in both software packages can now handle pretty much any analysis one may desire (for details, read the documents <code>R_swiid.pdf</code> and <code>stata_swiid.pdf</code> in the SWIID download). But this format does not lend itself to graphing.  For this purpose, use the <code>swiid6_0_summary.csv</code> file, which presents the SWIID estimates in mean-plus-standard-error summary format.</p>
+
+<p>In Stata:</p>
+
+<pre><code> import delimited &quot;swiid6_0_summary.csv&quot;, clear
+ 
+// Calculate the bounds of the 95% uncertainty intervals
+gen gini_disp_95ub = gini_disp + 1.96*gini_disp_se
+gen gini_disp_95lb = gini_disp - 1.96*gini_disp_se
+
+// A silly example
+gen name_length = length(country)
+gen first_letter = substr(country, 1, 1)
+keep if year==2010 &amp; first_letter==&quot;S&quot; /*2010 for Senegal, Serbia, . . .*/
+
+// A scatterplot with 95% confidence intervals
+twoway rspike gini_net_95ub gini_net_95lb name_length, lstyle(ci) || ///
+    scatter gini_net name_length, msize(small) legend(order(2 &quot;SWIID Net-Income Inequality&quot;)) 
+</code></pre>
+
+<p>In R:</p>
+
+<pre><code class="language-R">library(tidyverse)
+
+# Load the SWIID
+load(&quot;swiid6_0.rda&quot;)
+
+# Plot SWIID gini_disp estimates for the United States
+swiid_summary %&gt;% 
+    filter(country == &quot;United States&quot;) %&gt;% 
+    ggplot(aes(x=year, y=gini_disp)) + 
+    geom_line() +
+    geom_ribbon(aes(ymin = gini_disp-1.96*gini_disp_se,
+                    ymax = gini_disp+1.96*gini_disp_se, 
+                    linetype=NA), alpha = .25) +
+    scale_x_continuous(breaks=seq(1960, 2015, 5)) +
+    theme_bw() + 
+    labs(x = &quot;Year&quot;, 
+         y = &quot;SWIID Gini Index, Disposable Income&quot;,
+         title = &quot;Income Inequality in the United States&quot;)
+
+# Plot SWIID gini_net estimates for the United States
+swiid_summary %&gt;% 
+    filter(country == &quot;United States&quot;) %&gt;% 
+    ggplot(aes(x=year, y=gini_net)) + 
+    geom_line() +
+    geom_ribbon(aes(ymin = gini_net-1.96*gini_net_se,
+                    ymax = gini_net+1.96*gini_net_se, 
+                    linetype=NA), alpha = .25) +
+    scale_x_continuous(breaks=seq(1960, 2015, 5)) +
+    theme_bw() + 
+    labs(x = &quot;Year&quot;, 
+         y = &quot;SWIID Gini Index, Net Income&quot;,
+         title = &quot;Income Inequality in the United States&quot;)
+</code></pre>
+
+      </div>
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/not-a-stata-file/">I&#39;m using an older version of Stata, and it won’t open the file. How can I use the SWIID?</a></h3>
+      <div class="entry">
+        <p>Stata 13 introduced a new file format which older versions of Stata can’t open. Fortunately, there’s an easy fix: the <code>use13</code> command. In the command window, first type <code>ssc install use13</code> to install it. Then you can type <code>use13 SWIIDv5_0.dta, clear</code> to load the SWIID data.</p>
+
+<p><em>Update:</em>  Version 5.1 is saved in the older file format, so this shouldn&rsquo;t be a problem anymore.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/country-codes/">How can I merge my other data into the SWIID using country codes?</a></h3>
+      <div class="entry">
+        <p>First, add whatever country codes are needed to the SWIID data: there are routines for both Stata (<a href="http://www.stata-journal.com/article.html?article=dm0038">kountry</a>; type <code>findit kountry</code> in Stata’s command window to install) and R (<a href="http://cran.r-project.org/web/packages/countrycode/countrycode.pdf">countrycode</a>, on CRAN) to generate many commonly used country codes. Then follow the instructions for merging data into the SWIID found in the &ldquo;Using the SWIID.pdf&rdquo; file included in the data download.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/stata-time-series/">How can I use the SWIID data with Stata’s time-series operators?</a></h3>
+      <div class="entry">
+        <p>To use Stata’s time-series operators (<code>l.</code> , <code>f.</code> , <code>d.</code> , etc.), you must first declare the time and panel variables using <code>tsset</code>, but the SWIID is already <code>mi set</code>, so <code>tsset</code> won’t work. Run the following before merging the rest of your data (called <code>my_data.dta</code> in this example) into the SWIID:</p>
+
+<pre><code>use SWIIDv5_1.dta, clear
+egen cc = group(country)  
+mi tsset cc year
+merge 1:1 country year using &quot;my_data.dta&quot;, keep(match master) 
+</code></pre>
+
+<p>Now you’ll be able to use <code>l.</code> and the rest of Stata’s time-series operators.</p>
+
+      </div>
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+<br />
+<h3>The SWIID Data</h3>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/germany/">How is Germany treated in the SWIID? Where’s East Germany?</a></h3>
+      <div class="entry">
+        <p>As in <a href="http://www.lisdatacenter.org">the LIS</a>, Germany is West Germany only before 1991 and (united) Germany from that point forward. The SWIID includes no estimates for East Germany; I just haven’t found much to include in the source data. If you know of a source for East German Ginis, <a href="mailto:frederick-solt@uiowa.edu">email me</a> with the details, and I’ll be happy to get it into the next version.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/partition-and-successors/">What about Russia and the rest of the former Soviet Union? Yugoslavia? Czechoslovakia? Pakistan? Sudan? Ethiopia? Why are there estimates for successor states before they actually existed?</a></h3>
+      <div class="entry">
+        <p>For countries that have undergone partition, the SWIID estimates for a given year include all of the origin country&rsquo;s then-current territories.  This means that for dates before partition, all of the once united territory is included: estimates for Sudan before 2011, for example, include present-day South Sudan.</p>
+
+<p>Where Ginis are available from before the breakup for the territory of successor states, these Ginis have been standardized like anything else in the source data (the SWIID routine does not make any effort to incorporate information from the origin state into estimates for the successor state).  For example, the estimates for Russia for dates before the breakup of the Soviet Union are for the territories of the USSR that would become Russia after the breakup; there are similar pre-breakup data available for many FSU states, the Czech Republic and Slovakia, and the successor states of the former Yugoslavia.  The resulting estimates are available for use when appropriate, that is, to match the conventions of the other data one may be employing.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/changes-between-versions/">The estimates for Ruritania, among others, have changed since the previous version. Why is that?</a></h3>
+      <div class="entry">
+        <p>There are three reasons why estimates change from one version of the SWIID to the next. The first reason is revisions to the <a href="http://www.lisdatacenter.org/our-data/lis-database/documentation/data-revisions-notes/">Luxembourg Income Study</a>.  As the LIS serves as the standard for SWIID estimates, when Ginis from the LIS change, the SWIID estimates change as well.</p>
+
+<p>The second reason for changes is the addition of more source data for the country. Each new version of the SWIID includes new source data both for (a) years that were not previously available, and (b) earlier years from sources I&rsquo;ve discovered since the last update. Adding more source data for a country, particularly when previously available data was scant, holds the potential that the estimates will change.</p>
+
+<p>The third, least obvious reason for changes is the availability of more raw data for other countries. The SWIID estimates for many countries that a relatively data-poor depend at least in part on information from other countries in their region or, for some developing countries, even on other developing countries in other regions (see Figure 4 and discussion in <a href="../papers/Solt2016">Solt 2016</a>). This means that, given the scarcity of data on <a href="https://en.wikipedia.org/wiki/Ruritania#In_academia">Ruritania</a>, more data&mdash;especially more LIS data&mdash;for other countries in Ruritania’s region can lead to substantial changes in the estimates for Ruritania.</p>
+
+      </div>
+
+    
+  
+    
+
+        <h3><a href="/blog/2015/10/05/redistribution-observations/">Why doesn&#39;t the SWIID include estimates for redistribution for all countries and years?</a></h3>
+      <div class="entry">
+        <p>Although the SWIID includes estimates of disposable income inequality and market income inequality for all of its country-year observations, it does not provide as many estimates of absolute and relative redistribution, even though these <em>could</em> easily be calculated from <code>gini_disp</code> and <code>gini_mkt</code>.  The reason has to do with the <a href="/swiid/swiid_source/">source data</a> employed to generate the SWIID estimates: redistribution estimates are provided only in countries for which there is source data available on both the distribution of market income and the distribution of disposable income or consumption. For other countries, the figures provided for market and disposable income inequality each represent the best estimate possible for each concept given the available source data, but both estimates are based on the <em>same</em> observations in the source data, and the difference between them reflects only information derived from other countries (see <a href="http://fsolt.org/papers/solt2016">Solt 2016</a>, 1274-1275 (<a href="http://fsolt.org/papers/solt2016_pre">page 12 in the pre-print</a>)). It would therefore be a mistake to treat this difference as indicative of the redistributive effect of the country&rsquo;s taxes and transfers.</p>
+
+      </div>
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https:/statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/1915099/0/da58688a/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+
+  </body>
+</html>

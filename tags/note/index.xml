@@ -2,30 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on Frederick Solt</title>
-    <link>http://fsolt.org/tags/note.html</link>
+    <link>http://fsolt.org/tags/note/</link>
     <description>Recent content in Note on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/tags/note/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Using Cross-Validation to Evaluate the Comparability of the SWIID&#39;s Estimates</title>
+      <link>http://fsolt.org/blog/2019/01/16/cross-validation-for-swiid/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2019/01/16/cross-validation-for-swiid/</guid>
+      <description>From its origins now over ten years ago, the goal of the Standardized World Income Inequality Database has been to provide estimates of income inequality for as many countries and years as possible while ensuring that these estimates are as comparable as the available data allow. That is to say, the SWIID’s first prority is breadth of coverage, and its second is comparability. The starting point for the SWIID estimates is a dataset with the complementary priorities: the Luxembourg Income Study, which aims to maximize comparability and, given that primary concern, to include as many countries and years as possible.</description>
+    </item>
+    
+    <item>
       <title>How to Switch Your Workflow from Stata to R, One Bit at a Time</title>
-      <link>http://fsolt.org/blog/2018/08/15/switch-to-r.html</link>
+      <link>http://fsolt.org/blog/2018/08/15/switch-to-r/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2018/08/15/switch-to-r.html</guid>
+      <guid>http://fsolt.org/blog/2018/08/15/switch-to-r/</guid>
       <description>A recent exchange on Twitter reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R.</description>
     </item>
     
     <item>
       <title>SWIID Version 7.1 is available!</title>
-      <link>http://fsolt.org/blog/2018/08/14/swiid-version-7_1.html</link>
+      <link>http://fsolt.org/blog/2018/08/14/swiid-version-7_1/</link>
       <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2018/08/14/swiid-version-7_1.html</guid>
+      <guid>http://fsolt.org/blog/2018/08/14/swiid-version-7_1/</guid>
       <description>Version 7.1 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:
  adds to its source data 627 new Ginis since version 6.2, including newly available LIS data on Chile, Germany, Hungary, Poland, and Israel; and
  includes estimates of market and disposable income inequality for 80 more country-years than version 6.2.
@@ -34,10 +43,10 @@
     
     <item>
       <title>SWIID Version 6.2 is available!</title>
-      <link>http://fsolt.org/blog/2018/03/26/swiid-version-6_2.html</link>
+      <link>http://fsolt.org/blog/2018/03/26/swiid-version-6_2/</link>
       <pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2018/03/26/swiid-version-6_2.html</guid>
+      <guid>http://fsolt.org/blog/2018/03/26/swiid-version-6_2/</guid>
       <description>Version 6.2 of the SWIID is now available! Building on the end-to-end revision accomplished in Version 6.0 last July and the update Version 6.1 last October, this new release:
  incorporates in its source data 560 new Ginis, including newly available LIS data on China, Germany, Paraguay, Taiwan, the United States, and Uruguay;
  includes estimates of market and disposable income inequality for 27 new country-years;
@@ -46,10 +55,10 @@
     
     <item>
       <title>SWIID Version 6.1 is available!</title>
-      <link>http://fsolt.org/blog/2017/10/27/swiid-version-6_1.html</link>
+      <link>http://fsolt.org/blog/2017/10/27/swiid-version-6_1/</link>
       <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2017/10/27/swiid-version-6_1.html</guid>
+      <guid>http://fsolt.org/blog/2017/10/27/swiid-version-6_1/</guid>
       <description>Version 6.1 of the SWIID is now available! Building on the end-to-end revision accomplished in Version 6.0 last July, this new release:
  incorporates in its source data 280 new Ginis, including newly available LIS data on Canada and Lithuania;
  includes estimates of disposable income inequality for 83 new country-years;
@@ -58,94 +67,94 @@
     
     <item>
       <title>The SWIID Source Data</title>
-      <link>http://fsolt.org/blog/2017/07/28/the-swiid-source-data.html</link>
+      <link>http://fsolt.org/blog/2017/07/28/the-swiid-source-data/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2017/07/28/the-swiid-source-data.html</guid>
+      <guid>http://fsolt.org/blog/2017/07/28/the-swiid-source-data/</guid>
       <description>Friday, 27 October 2017: Updated with information on the source data for SWIID Version 6.1
-I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality1 for as many countries and years as possible and—given the primary goal of maximizing spatial and temporal coverage—these estimates are as comparable as the available data allow. The dataset has been used widely by academics, journalists, and policymakers.</description>
+I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality1 for as many countries and years as possible and—given the primary goal of maximizing spatial and temporal coverage—these estimates are as comparable as the available data allow.</description>
     </item>
     
     <item>
       <title>SWIID Version 6.0 is available!</title>
-      <link>http://fsolt.org/blog/2017/07/27/swiid-version-6_0.html</link>
+      <link>http://fsolt.org/blog/2017/07/27/swiid-version-6_0/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2017/07/27/swiid-version-6_0.html</guid>
+      <guid>http://fsolt.org/blog/2017/07/27/swiid-version-6_0/</guid>
       <description>Version 6.0 of the SWIID is now available! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting now done using #rstats and Stan.
-## Warning: package &amp;#39;dplyr&amp;#39; was built under R version 3.5.1 As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
+As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
     </item>
     
     <item>
       <title>Notes for Those New to Writing Peer Reviews</title>
-      <link>http://fsolt.org/blog/2017/04/14/reviewing-workshop.html</link>
+      <link>http://fsolt.org/blog/2017/04/14/reviewing-workshop/</link>
       <pubDate>Fri, 14 Apr 2017 14:27:31 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2017/04/14/reviewing-workshop.html</guid>
+      <guid>http://fsolt.org/blog/2017/04/14/reviewing-workshop/</guid>
       <description>Today we had a workshop for our graduate students on writing peer reviews. Here are the notes I spoke from:
 I get asked to do a lot of reviews. At the beginning of this semester, I got seven requests within two or three weeks. I used to always say yes, but doing 35 or 40 reviews a year just took too much time. When I was first starting out, I&amp;rsquo;d take something like six or eight hours on each review, though that pretty quickly got down to four or so.</description>
     </item>
     
     <item>
       <title>icpsrdata makes your ICPSR downloads reproducible!</title>
-      <link>http://fsolt.org/blog/2016/05/20/icpsrdata.html</link>
+      <link>http://fsolt.org/blog/2016/05/20/icpsrdata/</link>
       <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2016/05/20/icpsrdata.html</guid>
+      <guid>http://fsolt.org/blog/2016/05/20/icpsrdata/</guid>
       <description>If you download data from the Inter-university Consortium for Political and Social Research archive archive, you can make your research reproducible with the icpsrdata package, now available on CRAN.</description>
     </item>
     
     <item>
       <title>Try pewdata!</title>
-      <link>http://fsolt.org/blog/2016/05/13/pewdata.html</link>
+      <link>http://fsolt.org/blog/2016/05/13/pewdata/</link>
       <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2016/05/13/pewdata.html</guid>
+      <guid>http://fsolt.org/blog/2016/05/13/pewdata/</guid>
       <description>If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available on CRAN.</description>
     </item>
     
     <item>
       <title>Use dotwhisker for your APSA slides!</title>
-      <link>http://fsolt.org/blog/2015/07/30/dotwhisker-for-apsa.html</link>
+      <link>http://fsolt.org/blog/2015/07/30/dotwhisker-for-apsa/</link>
       <pubDate>Thu, 30 Jul 2015 10:15:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2015/07/30/dotwhisker-for-apsa.html</guid>
+      <guid>http://fsolt.org/blog/2015/07/30/dotwhisker-for-apsa/</guid>
       <description>With the APSA coming up, and in the interest of minimizing the number of times we hear &amp;ldquo;sorry, I know you won&amp;rsquo;t really be able to see these regression coefficients,&amp;rdquo; I thought I&amp;rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of Kastellec and Leoni&amp;rsquo;s (2007) Perspectives article quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post.</description>
     </item>
     
     <item>
       <title>Now on CRAN: interplot</title>
-      <link>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot.html</link>
+      <link>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot/</link>
       <pubDate>Fri, 26 Jun 2015 09:40:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot.html</guid>
+      <guid>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot/</guid>
       <description>Hu Yue and I just published interplot on CRAN, our first R package. interplot makes graphing the coefficients of variables in interaction terms easy. It outputs ggplot objects, so further customization is simple. Check out the vignette and give it a try!</description>
     </item>
     
     <item>
       <title>Inequality in China</title>
-      <link>http://fsolt.org/blog/2015/03/27/imf-china.html</link>
+      <link>http://fsolt.org/blog/2015/03/27/imf-china/</link>
       <pubDate>Fri, 27 Mar 2015 10:40:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2015/03/27/imf-china.html</guid>
+      <guid>http://fsolt.org/blog/2015/03/27/imf-china/</guid>
       <description>A new working paper by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world. Here&amp;rsquo;s a graph of SWIIDv5.0 data that illustrates their point.</description>
     </item>
     
     <item>
       <title>My talk at the UN</title>
-      <link>http://fsolt.org/blog/2013/09/29/my-un-talk.html</link>
+      <link>http://fsolt.org/blog/2013/09/29/my-un-talk/</link>
       <pubDate>Sun, 29 Sep 2013 11:45:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2013/09/29/my-un-talk.html</guid>
+      <guid>http://fsolt.org/blog/2013/09/29/my-un-talk/</guid>
       <description>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Division of the United Nations&amp;rsquo; Department of Economic and Social Affairs. I had some great conversations and got lots of useful feedback. Slides for the talk can be found here.</description>
     </item>
     
     <item>
       <title>Using the SWIID Standard Errors</title>
-      <link>http://fsolt.org/blog/2010/06/20/using-swiid-ses.html</link>
+      <link>http://fsolt.org/blog/2010/06/20/using-swiid-ses/</link>
       <pubDate>Sun, 20 Jun 2010 12:05:01 +0000</pubDate>
       
-      <guid>http://fsolt.org/blog/2010/06/20/using-swiid-ses.html</guid>
+      <guid>http://fsolt.org/blog/2010/06/20/using-swiid-ses/</guid>
       <description>Incorporating the standard errors in the SWIID estimates into one&amp;rsquo;s analyses is the right thing to do, but it is not a trivial exercise. I myself have left it out of some work where I felt the model was already maxed out on complexity (though in such cases, I advise at least excluding observations with particularly large errors). The short story is that one generates a bunch of Monte Carlo simulations of the SWIID data from the estimates and standard errors, then analyses each simulation, then combines the results of the multiple analyses as one would in a multiple-imputation setup (this should be easier to do with Stata 11&amp;rsquo;s new multiple-imputation tools, but I won&amp;rsquo;t get my copy of Stata 11 until the fall&amp;ndash;oh well).</description>
     </item>
     

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> How to Switch Your Workflow from Stata to R, One Bit at a Time &middot; Frederick Solt </title>
+  
+  
+    <title>How to Switch Your Workflow from Stata to R, One Bit at a Time &middot; Frederick Solt</title>
+    <meta property="og:title" content="How to Switch Your Workflow from Stata to R, One Bit at a Time &middot; Frederick Solt">
+    <meta property="og:type" content="article">
+    
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="http://fsolt.org/img/fsolt.jpeg">
+      
+      
+      
+      <meta property="description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+      <meta property="og:description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+    
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="/css/flatly-bootstrap.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/academicons.css">
+  
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="/">Frederick Solt</a></h1>
+<h5>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</h5>
+
+
+<aside>
+    <div id="sidebar" class="sidebar nav-list sidebar-nav span 2">
+        
+        <ul style="list-style: none; padding-left:0;" class="sidebar-menu">
+          
+          
+ 
+            <li>
+            <a href="/">
+                
+                <span>Home</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/swiid/">
+                
+                <span>The SWIID</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/res/">
+                
+                <span>Research on Inequality</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/add_res/">
+                
+                <span>Additional Research</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/teach/">
+                
+                <span>Teaching</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/sw/">
+                
+                <span>Published Software</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/blog/">
+                
+                <span>Blog</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/cv/">
+                
+                <span>CV</span>
+            </a>
+          </li>
+          
+        </ul>
+        
+        <ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+    </div>
+</aside>
+
+
+
+
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h3>How to Switch Your Workflow from Stata to R, One Bit at a Time</h3>
+<span class="date">Wednesday, 15 August 2018</span>
+
+<div class="post">
+  
+
+
+<p>A <a href="https://twitter.com/RyanDEnos/status/1029443132084105221">recent exchange on Twitter</a> reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R. Then as now, there were specific things R could do that Stata couldn’t.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> But how to get those advantages without throwing out my hard-earned skills and starting over as a complete n00b? The answer was: a little bit at a time.</p>
+<p>Fortunately, it’s not difficult to switch back and forth within a given project, so you can start bringing some R to your Stata-based workflow while leaving it mostly intact. Then, if and when you find yourself doing more in R than in Stata, you can flip and start using Stata from within R.</p>
+<p>So, <a href="https://cloud.r-project.org">install R</a> and let’s get you started.</p>
+<div id="running-r-from-stata" class="section level2">
+<h2>Running R from Stata</h2>
+<p>The trick to running R from within your do-file is first to save the data you want to pass to R, then call the <code>.R</code> file with the commands you want to run in R (the “R script”), then—if necessary—reload the R output into Stata.</p>
+<p>While it’s also possible to use Stata’s <code>shell</code> command to run an R script (for illustrative purposes, let’s pretend it’s called <code>my_script.R</code>), <a href="https://www.imperial.ac.uk/people/r.newson">Roger Newson</a>’s <code>rsource</code> module makes it particularly easy. Install it as follows:</p>
+<pre><code> ssc install rsource, replace</code></pre>
+<p>Unfortunately, the information <code>rsource</code> needs about your R installation is a bit different depending on your OS, but once installed, adding this platform-independent code to your do-file will run the script:</p>
+<pre><code>if &quot;`c(os)&#39;&quot;==&quot;MacOSX&quot; | &quot;`c(os)&#39;&quot;==&quot;UNIX&quot; {
+    rsource using my_script.R, rpath(&quot;/usr/local/bin/R&quot;) roptions(`&quot;--vanilla&quot;&#39;)
+}
+else {  // windows
+    rsource using my_script.R, rpath(`&quot;c:\r\R-3.5.1\bin\Rterm.exe&quot;&#39;) roptions(`&quot;--vanilla&quot;&#39;)  // change version number, if necessary
+}</code></pre>
+<p>Of course, you could choose to skip the whole if-else and just include the line that runs on <em>your</em> machine, but that’s not doing any favors to your collaborators or anyone else trying to reproduce your results. You might also just prefer to specify the <code>rpath</code> and <code>roptions</code> in your profile do-file,<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> but again, then you’ll need to let others know to do the same or they won’t be able to run your do-file.</p>
+<p>Note, too, that if you don’t have much R code to run, it might be easiest to just keep it in your do-file rather than using a separate script. You can do this using the <code>terminator</code> option to <code>rsource</code>, though a downside to this approach is that it doesn’t allow you to if-else the <code>rsource</code> command by your OS. In the do-file below, I also use the <code>regsave</code> module to save my results to pass them to R; install it using <code>ssc install regsave, replace</code>.</p>
+<pre><code>clear
+set more off
+
+sysuse auto, clear
+gen wt = weight/1000
+regress mpg wt displacement foreign trunk headroom length
+regsave using &quot;~/Desktop/R_Stata/auto_results.dta&quot;, replace
+
+rsource, terminator(END_OF_R) rpath(&quot;/usr/local/bin/R&quot;) roptions(`&quot;--vanilla&quot;&#39;)
+// rsource using my_script.R, rpath(`&quot;c:\r\R-3.5.1\bin\Rterm.exe&quot;&#39;) roptions(`&quot;--vanilla&quot;&#39;)  // use this line instead if you run a windows box
+
+library(tidyverse);     # collection of all-around useful R packages
+library(haven);         # for importing Stata datasets
+library(dotwhisker);    # easy and beautiful regression plots, imho
+
+auto_results &lt;- read_dta(&quot;~/Desktop/R_Stata/auto_results.dta&quot;) %&gt;% 
+    rename(term = var,
+    estimate = coef,
+    std.error = stderr) %&gt;% 
+    filter(term != &quot;_cons&quot;);
+dwplot(auto_results);
+ggsave(&quot;~/Desktop/R_Stata/auto_results.png&quot;, width = 5, height = 4);
+
+END_OF_R
+</code></pre>
+<p><img src="/post/2018-08-15-switch-to-r_files/auto_results.png" width="500" height="400" /></p>
+</div>
+<div id="running-stata-from-r" class="section level2">
+<h2>Running Stata from R</h2>
+<p>So maybe you’ve gotten to the point where you spend more of your time in R than in Stata, but there’s still a few parts of your work that you just want (or need!) to keep in Stata. Running a do-file (<code>my_do_file.do</code>) from inside your R script is easy with <a href="https://github.com/lbraglia">Luca Braglia</a>’s <code>RStata</code> package:</p>
+<pre class="r"><code>if (!require(RStata)) install.packages(&quot;RStata&quot;); library(RStata) # this will install RStata if not already installed
+
+stata(&quot;my_do_file.do&quot;, 
+      stata.path = &quot;/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp&quot;, # yours probably differs: use the chooseStataBin() command on windows or linux machines; on Macs, right click on the Stata app, select &quot;Show Package Contents&quot;, then see what&#39;s in the Contents/MacOS/ directory
+      stata.version = 13)  # again, specify what _you_ have</code></pre>
+<p>On this side as well, it’s possible to set the arguments just once, in your <code>.Rprofile</code> file. In my case, these two lines do the trick:</p>
+<pre><code>options(&quot;RStata.StataPath&quot; = &quot;/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp&quot;)
+options(&quot;RStata.StataVersion&quot; = 13)</code></pre>
+<p>Since Stata isn’t free and open-source, it’s even more likely that others will have different setups anyway, so this may make the most sense. Be sure to comment your code to clue people in, though.</p>
+<p>If you just want to use a single Stata command <code>RStata::stata</code><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> will do that for you, too, with no need for a do-file. From the <a href="https://www.rdocumentation.org/packages/RStata/versions/1.1.1">RStata package documentation</a>:</p>
+<pre class="r"><code>library(&quot;RStata&quot;)
+# remember to set RStata.StataPath &amp; RStata.StataVersion in your .Rprofile first!  See https://www.rdocumentation.org/packages/RStata/
+
+## Data input to Stata
+x &lt;- data.frame(a = rnorm(3), b = letters[1:3])
+stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
+<pre><code>## . sum a
+## 
+##     Variable |       Obs        Mean    Std. Dev.       Min        Max
+## -------------+--------------------------------------------------------
+##            a |         3   -.3562684    .0685083  -.4336659  -.3034062</code></pre>
+<pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
+auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
+<pre><code>## . sysuse auto
+## (1978 Automobile Data)</code></pre>
+<pre class="r"><code>head(auto)</code></pre>
+<pre><code>##            make price mpg rep78 headroom trunk weight length turn
+## 1   AMC Concord  4099  22     3      2.5    11   2930    186   40
+## 2     AMC Pacer  4749  17     3      3.0    11   3350    173   40
+## 3    AMC Spirit  3799  22    NA      3.0    12   2640    168   35
+## 4 Buick Century  4816  20     3      4.5    16   3250    196   40
+## 5 Buick Electra  7827  15     4      4.0    20   4080    222   43
+## 6 Buick LeSabre  5788  18     3      4.0    21   3670    218   43
+##   displacement gear_ratio  foreign
+## 1          121       3.58 Domestic
+## 2          258       2.53 Domestic
+## 3          121       3.08 Domestic
+## 4          196       2.93 Domestic
+## 5          350       2.41 Domestic
+## 6          231       2.73 Domestic</code></pre>
+<pre class="r"><code>## Data input/output
+(y &lt;- stata(&quot;replace a = 2&quot;, data.in = x, data.out = TRUE))</code></pre>
+<pre><code>## . replace a = 2
+## (3 real changes made)</code></pre>
+<pre><code>##   a b
+## 1 2 a
+## 2 2 b
+## 3 2 c</code></pre>
+<p>And you can embed several Stata commands in your R code as well:</p>
+<pre class="r"><code>data &lt;- data.frame(y = rnorm(100), x1 = rnorm(100), x2 = rnorm(100))
+stata(&quot;
+    sum y x1 x2
+    reg y x1 x2
+    &quot;, data.in = data)</code></pre>
+<pre><code>## . 
+## .     sum y x1 x2
+## 
+##     Variable |       Obs        Mean    Std. Dev.       Min        Max
+## -------------+--------------------------------------------------------
+##            y |       100    .2970892    .9165861  -2.355741   2.345277
+##           x1 |       100    .0433094    .9128016  -1.965591   2.032435
+##           x2 |       100    -.049881    .9722849  -2.053646    2.83353
+## .     reg y x1 x2
+## 
+##       Source |       SS       df       MS              Number of obs =     100
+## -------------+------------------------------           F(  2,    97) =    0.92
+##        Model |  1.54443332     2  .772216662           Prob &gt; F      =  0.4029
+##     Residual |  81.6284406    97  .841530316           R-squared     =  0.0186
+## -------------+------------------------------           Adj R-squared = -0.0017
+##        Total |   83.172874    99   .84013004           Root MSE      =  .91735
+## 
+## ------------------------------------------------------------------------------
+##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
+## -------------+----------------------------------------------------------------
+##           x1 |  -.0714383   .1011676    -0.71   0.482     -.272228    .1293513
+##           x2 |   -.105824   .0949783    -1.11   0.268    -.2943295    .0826816
+##        _cons |   .2949046   .0919745     3.21   0.002     .1123607    .4774484
+## ------------------------------------------------------------------------------
+## .</code></pre>
+</div>
+<div id="summing-up" class="section level2">
+<h2>Summing Up</h2>
+<p>Moving parts of your work from Stata to R is totally feasible. Lots of people (for example, in the thread that touched this post off, <a href="https://twitter.com/SteveRogersinfo/status/1029444547930148866">Steve Rodgers</a>) really want to take advantage of the superior graphics capabilities of R, especially the <code>ggplot</code> ecosystem, even while sticking to Stata for most of their work. Once your feet are wet, you may then decide R’s many other benefits (the free part, the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it’s in Stata, the way <a href="https://www.rstudio.com">RStudio</a> makes it dead easy to do reproducible research through <a href="https://rmarkdown.rstudio.com">dynamic documents</a> and <a href="http://happygitwithr.com">version control</a>, and, once again, the free part) make switching over all the way to be worth the additional marginal effort. Or you may not.</p>
+<p>I completed the transition in three or four years, at my own pace: when I felt comfortable moving another chunk of my workflow over to R, I did, but not before. If I were doing it over right now, with <a href="https://www.tidyverse.org">the tidyverse packages</a> dramatically reducing the slope of the learning curve, I might move faster, but there’s no rush, really. Do what works for you.</p>
+</div>
+<div id="additional-notes" class="section level2">
+<h2>Additional Notes</h2>
+<ul>
+<li><a href="http://johnricco.github.io/2016/06/14/stata-dplyr/">This post by John Ricco</a> describing how to translate Stata data cleaning commands to the <code>dplyr</code> idiom will likely be helpful to those new to tidyverse-style R and wanting to move quickly.</li>
+<li>I also ran across the <a href="http://www.haghish.com/resources/pdf/Haghish_Rcall.pdf">Rcall package</a> while writing this up, but I haven’t tried it. You may find it useful.</li>
+<li>OTOH, <a href="https://dss.princeton.edu/training/RStata.pdf">these 2010 slides by Oscar Torres-Reyna</a> were definitely useful to me back in the day, but as they pre-date both the tidyverse and RStudio—the wonders of which really cannot be overstated—they’re now more likely to cause you unnecessary confusion than help you if you’re a new switcher. Better to steer clear.</li>
+<li>Great complete treatments on how to do stuff in R:
+<ul>
+<li><a href="https://moderndive.com">Modern Dive</a>, by Chester Ismay and Albert Y. Kim</li>
+<li><a href="http://r4ds.had.co.nz">R for Data Science</a>, by Hadley Wickham and Garrett Grolemund</li>
+<li>A bit older, but I still love Winston Chang’s <a href="http://www.cookbook-r.com">Cookbook for R</a> as a reference, especially the <a href="http://www.cookbook-r.com/Graphs/">Graphs chapter</a></li>
+</ul></li>
+<li><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio’s Cheat Sheets</a> are also great references.</li>
+<li>When you’re ready to take the step to using R more than Stata, you’ll want to get fully set up on <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a>, which provides a front end for running R and can integrate with git and GitHub for version control (you will want this). The best resource that I’ve found for this process is <a href="http://happygitwithr.com">Jenny Bryan’s Happy Git and GitHub for the UseR</a>.</li>
+<li>The R community on <a href="https://stackoverflow.com">StackOverflow</a> is full of helpful people. As your Google-fu develops, you’ll find that links to StackOverflow are most likely to get you where you need to go.</li>
+<li>There are <em>so many</em> fantastic <a href="https://twitter.com/search?q=%23rstats">#rstats</a> (dozens? hundreds?) follows on Twitter. With apologies to the—seriously—hundreds of others who’ve taught me tons of stuff over the years, I’m going to grit my teeth and rec just five to get you started: <a href="https://twitter.com/dataandme">Mara Averick</a>, <a href="https://twitter.com/JennyBryan">Jenny Bryan</a>, <a href="https://twitter.com/drob">David Robinson</a>, <a href="https://twitter.com/juliasilge">Julia Silge</a>, and <a href="https://twitter.com/hadleywickham">Hadley Wickham</a>.</li>
+</ul>
+</div>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-Bryan2018">
+<p>Bryan, Jenny. 2018. “Happy Git and Github for the useR.” <a href="http://happygitwithr.com/">http://happygitwithr.com/</a>.</p>
+</div>
+<div id="ref-Chang2015">
+<p>Chang, Winston. “Cookbook for R.” <a href="http://www.cookbook-r.com">http://www.cookbook-r.com</a>.</p>
+</div>
+<div id="ref-Ismay2018">
+<p>Ismay, Chester, and Albert Y. Kim. 2018. “Modern Dive: An Introduction to Statistical and Data Sciences via R.” <a href="https://moderndive.com/">https://moderndive.com/</a>.</p>
+</div>
+<div id="ref-Kastellec2007">
+<p>Kastellec, Jonathan P., and Eduardo L. Leoni. 2007. “Using Graphs Instead of Tables in Political Science.” <em>Perspectives on Politics</em> 5(4): 755–71.</p>
+</div>
+<div id="ref-Wickham2017">
+<p>Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’Reilly. <a href="http://r4ds.had.co.nz">http://r4ds.had.co.nz</a>.</p>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https:/statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/1915099/0/da58688a/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+
+  </body>
+</html>

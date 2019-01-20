@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <meta charset="utf-8">
+  <title> Using the SWIID Standard Errors &middot; Frederick Solt </title>
+  
+  
+    <title>Using the SWIID Standard Errors &middot; Frederick Solt</title>
+    <meta property="og:title" content="Using the SWIID Standard Errors &middot; Frederick Solt">
+    <meta property="og:type" content="article">
+    
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="http://fsolt.org/img/fsolt.jpeg">
+      
+      
+      
+      <meta property="description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+      <meta property="og:description" content="Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion">
+    
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="stylesheet" href="/css/flatly-bootstrap.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/academicons.css">
+  
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="sidebar affix bs-docs-sidebar" role="complementary">
+            <h1 id="site-title"><a href="/">Frederick Solt</a></h1>
+<h5>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</h5>
+
+
+<aside>
+    <div id="sidebar" class="sidebar nav-list sidebar-nav span 2">
+        
+        <ul style="list-style: none; padding-left:0;" class="sidebar-menu">
+          
+          
+ 
+            <li>
+            <a href="/">
+                
+                <span>Home</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/swiid/">
+                
+                <span>The SWIID</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/res/">
+                
+                <span>Research on Inequality</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/res/add_res/">
+                
+                <span>Additional Research</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/teach/">
+                
+                <span>Teaching</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/sw/">
+                
+                <span>Published Software</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/blog/">
+                
+                <span>Blog</span>
+            </a>
+          </li>
+          
+ 
+            <li>
+            <a href="/cv/">
+                
+                <span>CV</span>
+            </a>
+          </li>
+          
+        </ul>
+        
+        <ul class="list-inline">
+  <li>
+    <a href="mailto:frederick-solt@uiowa.edu">
+      <i class="fa fa-fw fa-envelope-o"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/fredericksolt">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://github.com/fsolt">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </li>
+</ul>
+    </div>
+</aside>
+
+
+
+
+
+<hr class="hidden-md hidden-lg">
+
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+
+
+<h3>Using the SWIID Standard Errors</h3>
+<span class="date">Sunday, 20 June 2010</span>
+
+<div class="post">
+  <p>Incorporating the standard errors in the SWIID estimates into one&rsquo;s analyses is the right thing to do, but it is not a trivial exercise.  I myself have left it out of some work where I felt the model was already maxed out on complexity (though in such cases, I advise at least excluding observations with particularly large errors).  The short story is that one generates a bunch of Monte Carlo simulations of the SWIID data from the estimates and standard errors, then analyses each simulation, then combines the results of the multiple analyses as one would in a multiple-imputation setup (this should be easier to do with Stata 11&rsquo;s new multiple-imputation tools, but I won&rsquo;t get my copy of Stata 11 until the fall&ndash;oh well).  The code below does the trick.</p>
+
+<pre><code>**Using the SWIID Standard Errors: An Example**
+//Load SWIID and generate fake data for example
+use &quot;SWIIDv2_0.dta&quot;, clear
+set seed 4533160
+gen x1 = 20*rnormal()
+gen x2 = rnormal()
+gen x3 = 3*rnormal()
+gen y = .03*x1 + 3*x2 + .5*x3 + .05*gini_net + 5 + 20*rnormal()
+reg y x1 x2 x3 gini_net
+
+//Generate ten Monte Carlo simulations of the gini_net series
+egen ccode=group(country)               
+tsset ccode year                        
+set seed 3166                           
+forvalues a = 1/10 {
+    gen e0 = rnormal()
+    quietly tssmooth ma e00 = e0, weight (1 1 &lt;2&gt; 1 1)
+    quietly sum e00
+    quietly gen g`a'=gini_net+e00*(1/r(sd))*gini_net_se
+    drop e0 e00
+}
+
+//Perform analysis using each of the ten simulations, saving the results
+local other_ivs = &quot;x1 x2 x3&quot;        /*to be replaced with your other IVs, that is, not including gini_net or the constant*/
+local n_ivs = 5             /*to be replaced with the number of IVs, now *including* gini_net and the constant*/
+matrix coef = J(`n_ivs', 10, -99)
+matrix se = J(`n_ivs', 10, -99)
+matrix r_sq = J(1, 10, -99)
+forvalues a = 1/10 {
+    quietly reg y `other_ivs' g`a'  /*to be replaced with your analysis*/   
+    matrix coef[1,`a'] = e(b)'
+    matrix A = e(V)
+    forvalues b = 1/`n_ivs' {
+            matrix se[`b', `a'] = (A[`b',`b'])
+    }
+    matrix r_sq[1, `a'] = e(r2)
+}       
+
+local cases = e(N)
+
+svmat coef, names(coef)
+svmat se, names(se)
+svmat r_sq, names(r_sq)
+
+
+//Display results across all simulations
+egen coef_all = rowmean(coef1-coef10)
+
+gen ss_all = 0
+forvalues a = 1/10 {
+    quietly replace ss_all = ss_all + (coef`a'-coef_all)^2
+}
+egen se_all = rowmean(se1-se10)
+replace se_all = se_all + (((1+(1/10)) * ((1/9) * ss_all))) /*Total variance, per Rubin (1987)*/
+replace se_all = (se_all)^.5 /*Total standard error*/
+
+gen t_all = coef_all/se_all
+gen p_all = 2*normal(-abs(t_all))
+
+egen r_sq_all = rowmean(r_sq1-r_sq10)
+
+gen vars = &quot; &quot; in 1/`n_ivs'
+local i = 0
+foreach iv in `other_ivs' &quot;Inequality&quot; &quot;Constant&quot; {
+    local i = `i'+1
+    replace vars = &quot;`iv'&quot; in `i'
+}
+mkmat coef_all se_all p_all if coef_all~=., matrix(res_all) rownames(vars)
+matrix list res_all, format(%9.3f)
+quietly sum r_sq_all
+local r2 = round(`r(mean)', .001)
+di &quot;R-sq = `r2'&quot;
+di &quot;N = `cases'&quot;
+</code></pre>
+
+<p>Please feel free to drop me an email if you have any questions or comments.</p>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+<script type="text/javascript">
+var sc_project=1915099; 
+var sc_invisible=1; 
+var sc_security="da58688a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https:/statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/1915099/0/da58688a/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+
+  </body>
+</html>

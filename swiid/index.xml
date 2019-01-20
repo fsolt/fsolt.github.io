@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Swiids on Frederick Solt</title>
-    <link>http://fsolt.org/swiid.html</link>
-    <description>Recent content in Swiids on Frederick Solt</description>
+    <title>The SWIID on Frederick Solt</title>
+    <link>http://fsolt.org/swiid/</link>
+    <description>Recent content in The SWIID on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,48 +11,30 @@
     
     
     <item>
-      <title></title>
-      <link>http://fsolt.org/swiid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fsolt.org/swiid/</guid>
-      <description>The SWIID       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
-    </item>
-    
-    <item>
       <title>Exploring the SWIID Source Data</title>
-      <link>http://fsolt.org/swiid/swiid_source.html</link>
+      <link>http://fsolt.org/swiid/swiid_source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/swiid/swiid_source.html</guid>
+      <guid>http://fsolt.org/swiid/swiid_source/</guid>
       <description>Exploring the SWIID Source Data The SWIID&amp;rsquo;s income inequality estimates are based on thousands of reported Gini indices from hundreds of published sources. To explore these source data, choose a country; click on a series in the plot to display only that series in the table. Links to the original sources can be found in the table. The entire source dataset is also available as a spreadsheet. If you spot any problems, or better still, know of sources I might have missed, please let me know.</description>
     </item>
     
     <item>
       <title>SWIID Downloads</title>
-      <link>http://fsolt.org/swiid/swiid_downloads.html</link>
+      <link>http://fsolt.org/swiid/swiid_downloads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/swiid/swiid_downloads.html</guid>
+      <guid>http://fsolt.org/swiid/swiid_downloads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SWIID Frequently Asked Questions</title>
-      <link>http://fsolt.org/swiid/swiid_faq.html</link>
+      <link>http://fsolt.org/swiid/swiid_faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/swiid/swiid_faq.html</guid>
+      <guid>http://fsolt.org/swiid/swiid_faq/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>The SWIID</title>
-      <link>http://fsolt.org/swiid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fsolt.org/swiid/</guid>
-      <description>SWIID The Standardized World Income Inequality Database Cross-national research on the causes and consequences of income inequality has been hindered by the limitations of the existing inequality datasets: greater coverage across countries and over time has been available from these sources only at the cost of significantly reduced comparability across observations. The goal of the Standardized World Income Inequality Database (SWIID) is to meet the needs of those engaged in broadly cross-national research by maximizing the comparability of income inequality data while maintaining the widest possible coverage across countries and over time.</description>
     </item>
     
   </channel>
