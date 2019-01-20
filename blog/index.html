@@ -280,7 +280,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    .1039267    1.277401   -.665745   1.578468</code></pre>
+##            a |         3    .2739074    .2174613   .0229442   .4066361</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -319,24 +319,24 @@ stata(&quot;
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            y |       100   -.0373377    1.070495  -2.495665   2.348302
-##           x1 |       100    -.154676    .8956279  -3.472415   2.262914
-##           x2 |       100    .0168669    1.041599  -2.879633   2.807499
+##            y |       100    .0297808    1.108306  -3.038833   2.618986
+##           x1 |       100    .1286593    1.001509  -2.920755   1.952623
+##           x2 |       100    .1200257    1.128587  -3.145769   2.691647
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    0.31
-##        Model |   .72989407     2  .364947035           Prob &gt; F      =  0.7312
-##     Residual |  112.720137    97  1.16206327           R-squared     =  0.0064
-## -------------+------------------------------           Adj R-squared = -0.0141
-##        Total |  113.450031    99  1.14595991           Root MSE      =   1.078
+## -------------+------------------------------           F(  2,    97) =    0.19
+##        Model |  .468576542     2  .234288271           Prob &gt; F      =  0.8292
+##     Residual |  121.137376    97  1.24883892           R-squared     =  0.0039
+## -------------+------------------------------           Adj R-squared = -0.0167
+##        Total |  121.605952    99  1.22834295           Root MSE      =  1.1175
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.0646772   .1223459    -0.53   0.598       -.3075    .1781455
-##           x2 |  -.0697403   .1052002    -0.66   0.509    -.2785336    .1390531
-##        _cons |  -.0461654   .1094159    -0.42   0.674    -.2633258    .1709949
+##           x1 |   .0009197   .1124647     0.01   0.993    -.2222915    .2241309
+##           x2 |   -.061015   .0998013    -0.61   0.542    -.2590929    .1370628
+##        _cons |   .0369858    .113204     0.33   0.745    -.1876927    .2616644
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -483,7 +483,7 @@ stata(&quot;
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/countries_by_year-1.png" width="672" /></p>
 <p>Earlier I mentioned that to be included in the SWIID source data observations need to have an identifiable welfare definition and equivalence scale. A welfare definition is an answer to the question, this Gini measures the distribution of what? The four welfare definitions employed in the SWIID source data are market income, gross income, disposable income, and consumption. Market income is defined as amount of money coming into the household, excluding any government cash or near-cash benefits, the so-called ‘pre-tax, pre-transfer income.’<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> Gross income is the sum of market income and government transfer payments; it is ‘pre-tax, post-transfer income.’ Disposable income, in turn, is gross income minus direct taxes: ‘post-tax, post-transfer income.’<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a> Consumption does not refer to the money coming into the household at all but rather to the money going out.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a> In the source data, Ginis of disposable income are much more common than those using other welfare definitions.</p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_wd-1.png" width="672" /></p>
-<p>Equivalence scales are the ways in which the size and composition of a household is incorporated into the calculation of its members’ welfare. On the one hand, these factors can simply be ignored, with all households with the same amount of income or consumption treated as if they enjoy the same level of welfare, regardless of their size. One can improve on this household ‘scale’<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a> by dividing the household’s income by its number of members, that is, by using a per capita scale. But a household of two members and an income of \$100,000 is better off than one with a single member and \$50,000 due to economies of scale—that’s a big reason why people look for roommates. There are a variety of ways to try to account for these economies by calculating the number of “equivalent adults” in the household. Of the most commonly used adult-equivalent scales, the square-root scale is the most straightforward: one simply divides the household income by the square root of the number of members. The “OECD-modified” scale for the number of adult equivalents (<a href="http://www.oecd.org/eco/growth/OECD-Note-EquivalenceScales.pdf">which the OECD itself actually never used</a>) counts the first adult as 1, all other adults as .5, and each child as .3. And there are plenty of other adult-equivalent scales, from the “old OECD” scale (1 for the first adult, 0.7 for each additional adult, and 0.5 for each child) to caloric-requirement-based scales (which are actually very nearly per capita, as it turns out) to a number of country-specific scales. In previous versions of the SWIID, all adult-equivalent scales were considered a single category. Now, the square-root scale and the OECD-modified scale have both been split out, leaving the remaining catch-all adult-equivalent category much smaller.</p>
+<p>Equivalence scales are the ways in which the size and composition of a household is incorporated into the calculation of its members’ welfare. On the one hand, these factors can simply be ignored, with all households with the same amount of income or consumption treated as if they enjoy the same level of welfare, regardless of their size. One can improve on this household ‘scale’<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a> by dividing the household’s income by its number of members, that is, by using a per capita scale. But a household of two members and an income of $100,000 is better off than one with a single member and $50,000 due to economies of scale—that’s a big reason why people look for roommates. There are a variety of ways to try to account for these economies by calculating the number of “equivalent adults” in the household. Of the most commonly used adult-equivalent scales, the square-root scale is the most straightforward: one simply divides the household income by the square root of the number of members. The “OECD-modified” scale for the number of adult equivalents (<a href="http://www.oecd.org/eco/growth/OECD-Note-EquivalenceScales.pdf">which the OECD itself actually never used</a>) counts the first adult as 1, all other adults as .5, and each child as .3. And there are plenty of other adult-equivalent scales, from the “old OECD” scale (1 for the first adult, 0.7 for each additional adult, and 0.5 for each child) to caloric-requirement-based scales (which are actually very nearly per capita, as it turns out) to a number of country-specific scales. In previous versions of the SWIID, all adult-equivalent scales were considered a single category. Now, the square-root scale and the OECD-modified scale have both been split out, leaving the remaining catch-all adult-equivalent category much smaller.</p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_es-1.png" width="672" /></p>
 <p>Differences in the welfare definition and the equivalence scale employed constitute the biggest source of incomparability across observations in the source data, and all twenty of the possible combinations are represented. I’ll take up how we get from these incomparable observations to the SWIID estimates in the next post. In the meantime, if you’d like to see the source data, you can <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">download it from here</a>.</p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_wdes-1.png" width="672" /></p>
