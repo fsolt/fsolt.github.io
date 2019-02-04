@@ -126,21 +126,27 @@
       <i class="fa fa-fw fa-envelope-o"></i>
     </a>
   </li>
+
   <li> 
     <a href="https://twitter.com/fredericksolt">
       <i class="fa fa-lg fa-twitter"></i>
     </a>
   </li>
+
+
   <li> 
     <a href="https://github.com/fsolt">
+
       <i class="fa fa-lg fa-github"></i>
     </a>
   </li>
+
   <li> 
     <a href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ">
       <i class="ai ai-google-scholar"></i>
     </a>
   </li>
+
 </ul>
     </div>
 </aside>
@@ -280,7 +286,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    .5738428    .4274878   .2484107   1.057987</code></pre>
+##            a |         3    .3488714    1.769801   -1.39435   2.144106</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -319,24 +325,24 @@ stata(&quot;
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            y |       100     .025043    .9397132  -1.874757   2.352127
-##           x1 |       100    .0992654    1.015759  -2.565535   2.324983
-##           x2 |       100    .0528374    1.018654  -2.104864   2.583984
+##            y |       100   -.1117731    .9954242  -2.342031   2.849774
+##           x1 |       100    .0684378     .925914  -2.592304   2.273902
+##           x2 |       100    -.060106    .8872737  -2.782253   2.242018
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    0.44
-##        Model |  .789186032     2  .394593016           Prob &gt; F      =  0.6442
-##     Residual |  86.6338356    97  .893132326           R-squared     =  0.0090
-## -------------+------------------------------           Adj R-squared = -0.0114
-##        Total |  87.4230216    99  .883060825           Root MSE      =  .94506
+## -------------+------------------------------           F(  2,    97) =    0.89
+##        Model |  1.76391236     2  .881956181           Prob &gt; F      =  0.4148
+##     Residual |  96.3321587    97  .993115039           R-squared     =  0.0180
+## -------------+------------------------------           Adj R-squared = -0.0023
+##        Total |  98.0960711    99  .990869405           Root MSE      =  .99655
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |   .0730631   .0935097     0.78   0.437    -.1125278    .2586541
-##           x2 |   .0491527    .093244     0.53   0.599    -.1359108    .2342162
-##        _cons |   .0151933   .0950909     0.16   0.873     -.173536    .2039225
+##           x1 |  -.1106627   .1087421    -1.02   0.311    -.3264856    .1051602
+##           x2 |   .1089555   .1134777     0.96   0.339    -.1162663    .3341773
+##        _cons |  -.0976507    .100217    -0.97   0.332    -.2965537    .1012523
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -349,6 +355,7 @@ stata(&quot;
 <h2>Additional Notes</h2>
 <ul>
 <li><a href="http://johnricco.github.io/2016/06/14/stata-dplyr/">This post by John Ricco</a> describing how to translate Stata data cleaning commands to the <code>dplyr</code> idiom will likely be helpful to those new to tidyverse-style R and wanting to move quickly.</li>
+<li><a href="http://www.matthieugomez.com/statar/">Matthieu Gomez’s R for Stata Users</a> is a more detailed phrasebook that will also be useful to new switchers (H/T <a href="https://twitter.com/arthurhcyip">Arthur Yip</a>).<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></li>
 <li>I also ran across the <a href="http://www.haghish.com/resources/pdf/Haghish_Rcall.pdf">Rcall package</a> while writing this up, but I haven’t tried it. You may find it useful.</li>
 <li>OTOH, <a href="https://dss.princeton.edu/training/RStata.pdf">these 2010 slides by Oscar Torres-Reyna</a> were definitely useful to me back in the day, but as they pre-date both the tidyverse and RStudio—the wonders of which really cannot be overstated—they’re now more likely to cause you unnecessary confusion than help you if you’re a new switcher. Better to steer clear.</li>
 <li>Great complete treatments on how to do stuff in R:
@@ -389,6 +396,7 @@ stata(&quot;
 <li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1" class="footnote-back">↩</a></p></li>
 <li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2" class="footnote-back">↩</a></p></li>
 <li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>Arthur also recommends vikjam’s <a href="https://github.com/vikjam/mostly-harmless-replication">Mostly Harmless Replication</a>, which replicates most of the figures and tables of <a href="http://www.mostlyharmlesseconometrics.com/">Mostly Harmless Econometrics</a> in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.<a href="#fnref4" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
 
