@@ -286,7 +286,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3   -.0792564    .9669375  -1.174348   .6568337</code></pre>
+##            a |         3    .6987227    .4820558    .229193   1.192397</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -325,24 +325,24 @@ stata(&quot;
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            y |       100   -.0249497    1.009838  -2.778206   3.288707
-##           x1 |       100    .0655783     .908559   -1.67669   2.383131
-##           x2 |       100    .0194186    .9762909   -2.71266   2.283137
+##            y |       100    .0444018     1.00766  -3.025665    2.42207
+##           x1 |       100    .0298344    .9658896  -2.395568   2.140102
+##           x2 |       100    .0094207    .9258922  -2.763645   2.742484
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    1.99
-##        Model |  3.97418315     2  1.98709157           Prob &gt; F      =  0.1426
-##     Residual |  96.9832362    97  .999827177           R-squared     =  0.0394
-## -------------+------------------------------           Adj R-squared =  0.0196
-##        Total |  100.957419    99  1.01977191           Root MSE      =  .99991
+## -------------+------------------------------           F(  2,    97) =    0.28
+##        Model |  .585476642     2  .292738321           Prob &gt; F      =  0.7533
+##     Residual |  99.9369295    97  1.03027762           R-squared     =  0.0058
+## -------------+------------------------------           Adj R-squared = -0.0147
+##        Total |  100.522406    99  1.01537784           Root MSE      =   1.015
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.2129569   .1106608    -1.92   0.057    -.4325878    .0066741
-##           x2 |   .0596774   .1029835     0.58   0.564    -.1447163    .2640711
-##        _cons |  -.0121433   .1002699    -0.12   0.904    -.2111512    .1868647
+##           x1 |  -.0497333   .1059951    -0.47   0.640    -.2601041    .1606376
+##           x2 |  -.0606269   .1105739    -0.55   0.585    -.2800855    .1588318
+##        _cons |   .0464567   .1015544     0.46   0.648    -.1551008    .2480141
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -475,7 +475,7 @@ stata(&quot;
         
 
 
-<p><em>Friday, 27 October 2017: Updated with information on the source data for SWIID Version 6.1</em></p>
+<p><em>Saturday, 9 February 2019: Updated with information on the source data for SWIID Version 8.0</em></p>
 <p>I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> for as many countries and years as possible and—given the primary goal of maximizing spatial and temporal coverage—these estimates are as comparable as the available data allow. The dataset has been used widely by academics, journalists, and policymakers. It’s been successful way beyond all my hopes.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> I’ve been <a href="/swiid/swiid_downloads/">adding to it, revising it, improving on it</a> pretty much the entire time since its launch. Now, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746">with the support of the NSF</a>, I am scrapping all of that work and starting fresh. From scratch.</p>
 <p>This is the first in a series of posts on how I did it. It focuses on an unheralded but foundational part of the SWIID project, the source data. The basic idea behind the SWIID is to start with the data that has been most carefully picked over to ensure its utmost cross-national comparability: the data of the fantastic <a href="http://www.lisdatacenter.org">Luxembourg Income Study</a>. I’ve heard that generating a single country-year of LIS data takes an average of ten person-months of work. <em>That’s</em> dedication to comparability. ❤️ But the flipside of maximizing comparability is that the LIS’s coverage is pretty sparse: it includes fewer than 300 country-years at last count.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> To address this weakness, the SWIID routine estimates the relationships between Gini indices based on the LIS and all of the other Ginis available for the same country-years, then uses these relationships to estimate what the LIS Gini <em>would be</em> in country-years not included in the LIS but available from other sources.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> The critical first step to making this work is getting <em>a lot</em> of other, non-LIS Ginis. I call these other Ginis the SWIID’s source data. Over the years, I and my research assistants built up a big spreadsheet of data collected from international organizations, national statistical offices, and scholarly books and articles. But it seemed like whenever I checked over these source data, I would find that at least a few figures had been recently revised, or their source was seemingly no longer available, or (worst of all) they evidently had been entered incorrectly. So again: it’s time to start over from scratch.</p>
 <p>To be included in the SWIID’s source data, observations need to encompass the entire population of a country without regard to age, location,<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> or employment status.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> They need to have an identifiable welfare definition and equivalence scale (more on these below). Finally, because I want to be able to direct users to sources they can easily peruse themselves, observations need to be available online.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
