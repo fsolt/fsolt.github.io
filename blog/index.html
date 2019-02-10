@@ -286,7 +286,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    .5719495    .6877034   .1438598    1.36521</code></pre>
+##            a |         3    1.088498    .5440134   .5283813   1.614834</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -325,24 +325,24 @@ stata(&quot;
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            y |       100    .0966573    .9245845  -2.257889   2.190301
-##           x1 |       100    .0025177    .9864062  -3.617433   1.972854
-##           x2 |       100    .0061403    .9406198  -2.566082   2.622246
+##            y |       100     .024209     1.01668  -2.521584   2.409209
+##           x1 |       100   -.0021027    .9783951   -1.86865   1.867744
+##           x2 |       100   -.0073818    .8789423  -1.979771   2.098829
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    0.89
-##        Model |  1.53163606     2  .765818029           Prob &gt; F      =  0.4124
-##     Residual |  83.0991581    97  .856692352           R-squared     =  0.0181
-## -------------+------------------------------           Adj R-squared = -0.0021
-##        Total |  84.6307942    99  .854856507           Root MSE      =  .92558
+## -------------+------------------------------           F(  2,    97) =    0.49
+##        Model |  1.02284304     2  .511421519           Prob &gt; F      =  0.6143
+##     Residual |  101.307417    97  1.04440636           R-squared     =  0.0100
+## -------------+------------------------------           Adj R-squared = -0.0104
+##        Total |   102.33026    99  1.03363899           Root MSE      =   1.022
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |   .1243148   .0943199     1.32   0.191    -.0628841    .3115138
-##           x2 |   -.020021   .0989111    -0.20   0.840    -.2163322    .1762902
-##        _cons |   .0964672     .09256     1.04   0.300    -.0872388    .2801732
+##           x1 |   .0538934   .1098387     0.49   0.625     -.164106    .2718928
+##           x2 |   .1180769    .122267     0.97   0.337    -.1245893    .3607431
+##        _cons |    .025194    .102201     0.25   0.806    -.1776468    .2280348
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -484,7 +484,7 @@ stata(&quot;
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/data_by_coverage-1.png" width="672" /></p>
 <p>So, let’s check out what the source data look like. There is much more data available about the income distribution in some countries than in others. Which countries are most data-rich? The plot below shows the top dozen countries by the count of observations. Canada, by virtue of the excellent <a href="http://www.statcan.gc.ca">Statistics Canada</a> as well as longstanding membership in the OECD and LIS, has 736 observations, many more than any other country. The United Kingdom, Germany, and the United States are next, followed by an interesting mix of countries from around the world with not surprisingly a sizable European representation. All are members of the LIS. On the other hand, eleven countries have only a single observation.</p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_country-1.png" width="672" /></p>
-<p>As we’ll see in later posts in this series, observations for the same country in the same year, but with different welfare definitions and equivalence scales or from different sources, are important to generating the SWIID’s cross-nationally comparable estimates. Still, we might be interested to know which countries have the most coverage of the years in the SWIID’s current 57-year timeframe, from 1960 to 2016, because the SWIID’s inequality estimates for countries with fewer country-year observations will include more interpolated values, which in turn will have more uncertainty.</p>
+<p>As we’ll see in later posts in this series, observations for the same country in the same year, but with different welfare definitions and equivalence scales or from different sources, are important to generating the SWIID’s cross-nationally comparable estimates. Still, we might be interested to know which countries have the most coverage of the years in the SWIID’s current 57-year timeframe, from 1960 to 2017, because the SWIID’s inequality estimates for countries with fewer country-year observations will include more interpolated values, which in turn will have more uncertainty.</p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/years_by_country-1.png" width="672" /></p>
 <p>The source data includes observations for Sweden and the United Kingdom in all but one of these years and for the United States in all but six. Argentina—a country not included in the LIS—makes the top 12, with 41 country-year observations. The median country has observations in just eleven different country-years.</p>
 <p>We can also get a sense of the available inequality data by turning the question around and asking about coverage across countries over time. There are observations for 123 countries in 2005. Coverage is relatively good in the years from 2000 to 2014, at least 80 countries per year, before dropping to 90 countries for 2015 and just 74 for last year. Country coverage is pretty thin each year through the 1960s and 1970s and still isn’t all that great until the late 1980s.<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></p>
