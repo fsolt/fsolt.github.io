@@ -286,7 +286,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    1.088498    .5440134   .5283813   1.614834</code></pre>
+##            a |         3   -.1915583    1.092696  -1.432956   .6245459</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -325,24 +325,24 @@ stata(&quot;
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            y |       100     .024209     1.01668  -2.521584   2.409209
-##           x1 |       100   -.0021027    .9783951   -1.86865   1.867744
-##           x2 |       100   -.0073818    .8789423  -1.979771   2.098829
+##            y |       100    .0992035    .9349314  -2.165571    2.36003
+##           x1 |       100    .1497915    .9657107  -2.280344   2.442805
+##           x2 |       100    .0426746     .965133  -2.630807    2.62721
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    0.49
-##        Model |  1.02284304     2  .511421519           Prob &gt; F      =  0.6143
-##     Residual |  101.307417    97  1.04440636           R-squared     =  0.0100
-## -------------+------------------------------           Adj R-squared = -0.0104
-##        Total |   102.33026    99  1.03363899           Root MSE      =   1.022
+## -------------+------------------------------           F(  2,    97) =    0.91
+##        Model |  1.59803363     2  .799016815           Prob &gt; F      =  0.4049
+##     Residual |  84.9375372    97  .875644713           R-squared     =  0.0185
+## -------------+------------------------------           Adj R-squared = -0.0018
+##        Total |  86.5355708    99  .874096675           Root MSE      =  .93576
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |   .0538934   .1098387     0.49   0.625     -.164106    .2718928
-##           x2 |   .1180769    .122267     0.97   0.337    -.1245893    .3607431
-##        _cons |    .025194    .102201     0.25   0.806    -.1776468    .2280348
+##           x1 |  -.0247719   .0974115    -0.25   0.800    -.2181067    .1685629
+##           x2 |  -.1287269   .0974698    -1.32   0.190    -.3221775    .0647236
+##        _cons |   .1084075   .0947835     1.14   0.256    -.0797116    .2965265
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -486,8 +486,8 @@ stata(&quot;
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_country-1.png" width="672" /></p>
 <p>As we’ll see in later posts in this series, observations for the same country in the same year, but with different welfare definitions and equivalence scales or from different sources, are important to generating the SWIID’s cross-nationally comparable estimates. Still, we might be interested to know which countries have the most coverage of the years in the SWIID’s current 57-year timeframe, from 1960 to 2017, because the SWIID’s inequality estimates for countries with fewer country-year observations will include more interpolated values, which in turn will have more uncertainty.</p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/years_by_country-1.png" width="672" /></p>
-<p>The source data includes observations for Sweden and the United Kingdom in all but one of these years and for the United States in all but six. Argentina—a country not included in the LIS—makes the top 12, with 41 country-year observations. The median country has observations in just eleven different country-years.</p>
-<p>We can also get a sense of the available inequality data by turning the question around and asking about coverage across countries over time. There are observations for 123 countries in 2005. Coverage is relatively good in the years from 2000 to 2014, at least 80 countries per year, before dropping to 90 countries for 2015 and just 74 for last year. Country coverage is pretty thin each year through the 1960s and 1970s and still isn’t all that great until the late 1980s.<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></p>
+<p>The source data includes observations for Sweden and the United Kingdom in all but one of these years and for the United States in all but five. Iran and Argentina—two countries not included in the LIS—make the top 12, with 43 and 42 country-year observations respectively. The median country has observations in <code>swiid_source %&gt;% count(country) %&gt;% pull(n) %&gt;% median()</code> different country-years.</p>
+<p>We can also get a sense of the available inequality data by turning the question around and asking about coverage across countries over time. There are observations for 123 countries in 2005. Coverage is relatively good in the years from 2000 to 2014, at least 80 countries per year, before dropping to 74 countries for 2016 and just 25 for 2017. Country coverage is pretty thin each year through the 1960s and 1970s and still isn’t all that great until the late 1980s.<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/countries_by_year-1.png" width="672" /></p>
 <p>Earlier I mentioned that to be included in the SWIID source data observations need to have an identifiable welfare definition and equivalence scale. A welfare definition is an answer to the question, this Gini measures the distribution of what? The four welfare definitions employed in the SWIID source data are market income, gross income, disposable income, and consumption. Market income is defined as amount of money coming into the household, excluding any government cash or near-cash benefits, the so-called ‘pre-tax, pre-transfer income.’<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> Gross income is the sum of market income and government transfer payments; it is ‘pre-tax, post-transfer income.’ Disposable income, in turn, is gross income minus direct taxes: ‘post-tax, post-transfer income.’<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a> Consumption does not refer to the money coming into the household at all but rather to the money going out.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a> In the source data, Ginis of disposable income are much more common than those using other welfare definitions.</p>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/obs_by_wd-1.png" width="672" /></p>
