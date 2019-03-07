@@ -306,7 +306,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    -.054862    .3863424  -.4161005    .352452</code></pre>
+##            a |         3   -.6652411    .3874738  -.9638951  -.2274001</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -345,24 +345,24 @@ stata(&quot;
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            y |       100   -.1213651    1.030868   -2.44453   2.578284
-##           x1 |       100   -.0913307    .9524503  -1.985417   2.746863
-##           x2 |       100    .0913655    .9358917  -2.037399   2.336748
+##            y |       100    .1275733    .9059518  -2.336649   2.534546
+##           x1 |       100    .0976787    1.059996  -2.540629   3.169035
+##           x2 |       100    .0543127    1.032291  -2.282538   2.923191
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    0.57
-##        Model |  1.22235826     2  .611179131           Prob &gt; F      =  0.5673
-##     Residual |  103.983738    97   1.0719973           R-squared     =  0.0116
-## -------------+------------------------------           Adj R-squared = -0.0088
-##        Total |  105.206096    99  1.06268784           Root MSE      =  1.0354
+## -------------+------------------------------           F(  2,    97) =    0.66
+##        Model |  1.08936904     2  .544684519           Prob &gt; F      =  0.5196
+##     Residual |  80.1647419    97  .826440638           R-squared     =  0.0134
+## -------------+------------------------------           Adj R-squared = -0.0069
+##        Total |   81.254111    99  .820748596           Root MSE      =  .90909
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.0628762   .1126748    -0.56   0.578    -.2865044     .160752
-##           x2 |   .1168743   .1146683     1.02   0.311    -.1107105    .3444592
-##        _cons |  -.1377859   .1048254    -1.31   0.192    -.3458353    .0702635
+##           x1 |  -.0622898   .0871581    -0.71   0.477    -.2352745    .1106948
+##           x2 |   .0700488   .0894973     0.78   0.436    -.1075786    .2476761
+##        _cons |   .1298531   .0915029     1.42   0.159    -.0517548     .311461
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -501,6 +501,50 @@ stata(&quot;
 <p>To be included in the SWIID’s source data, observations need to encompass the entire population of a country without regard to age, location,<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> or employment status.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> They need to have an identifiable welfare definition and equivalence scale (more on these below). Finally, because I want to be able to direct users to sources they can easily peruse themselves, observations need to be available online.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
 <p>Hand-entering data is tedious and error-prone work, so I <a href="https://github.com/fsolt/swiid/blob/master/R/data_setup.R">automated as much of the process of data collection</a> as practicable. Most international organizations and a few national statistical offices use APIs that facilitate downloading their data, and often the <a href="https://twitter.com/search?q=%23rstats">#rstats</a> community has built R packages using these APIs to make the task even easier. I took as much advantage of these resources as possible.<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> In the absence of an API, I scripted downloads of any available spreadsheets, preferring clean csv files to excel-formatted ones. If there was no spreadsheet, but data were available in pdf files, I automated downloading these files and then used <a href="http://thomasleeper.com">Thomas Leeper</a>’s <a href="https://github.com/ropensci/tabulizer"><code>tabulizer</code> package</a> to read the tables into R. In the absence of a file to download, I scripted the process of scraping the data from the web. Still, for a variety of reasons, a source’s data may have been consigned to being entered in a <a href="https://github.com/fsolt/swiid/raw/master/data-raw/fs_added_data.csv">separate spreadsheet</a>. Many sources contain just a handful or fewer observations, making the payoff to the often laborious process of data cleaning too small to justify the effort. Some sources–including most academic articles–are behind paywalls, making reproducibility a hassle anyway (though I still often used tabulizer to read the data from the pdf before cutting-and-pasting it into the spreadsheet). Finally, at least <a href="https://wdronline.worldbank.org/bitstream/handle/10986/9269/wps4007.pdf?sequence=1">one source</a> contains crucial information encoded in the typeface(!!) of its tables, information lost when the tables are scanned into R. All of the entries in this spreadsheet were checked repeatedly for errors,<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> and I excluded repeated reports of the exact same observation from different sources. In the end, I was able to automate the collection of more than three quarters of the source data and a much higher percentage of the series that will be updated or are subject to revision, facilitating incorporating these changes in future versions.</p>
 <p>The resulting dataset comprises 15549(!) Gini coefficients from 2951 country-years in 196 countries or territories, making the coverage of the SWIID source data broader than that of any other income inequality dataset. This isn’t surprising given that, with the exceptions of the <a href="https://www.wider.unu.edu/database/world-income-inequality-database-wiid4">WIID</a> (which, since it provides no original data, isn’t drawn on at all anymore) and the <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets">All the Ginis</a> database (which provides little original data, and so isn’t drawn on much), the SWIID source data incorporates all of the data in these other datasets.</p>
+<pre class="r"><code>atg_cy &lt;- haven::read_dta(here::here(&quot;../swiid/data-raw/atg.dta&quot;)) %&gt;% 
+    select(country, year, starts_with(&quot;gini&quot;)) %&gt;% 
+    mutate(has_gini = rowMeans(select(., starts_with(&quot;gini&quot;)), na.rm = TRUE)) %&gt;% 
+    filter(has_gini &gt; 0) %&gt;% 
+    count(country, year) %&gt;% 
+    nrow()
+
+wider_cy &lt;- readxl::read_excel(here::here(&quot;../swiid/dev/WIID_19Dec2018.xlsx&quot;)) %&gt;% 
+    filter(areacovr == &quot;All&quot; &amp; popcovr == &quot;All&quot; &amp; areacovr == &quot;All&quot; &amp;
+               !is.na(gini_reported) &amp;
+               !is.na(resource) &amp;
+               !is.na(scale) &amp;
+               !(resource == &quot;Earnings&quot;)) %&gt;% 
+    select(country, year, gini_reported, source, resource, scale, everything()) %&gt;% 
+    count(country, year) %&gt;% 
+    nrow()
+
+ss_cy &lt;- swiid_source %&gt;%
+    count(country, year) %&gt;%
+    nrow()
+
+datasets &lt;- c(&quot;Eurostat&quot;, &quot;OECD&quot;, &quot;SEDLAC&quot;, &quot;LISSY&quot;, &quot;CEPALStat&quot;, &quot;World Bank Povcalnet&quot;)
+    
+swiid_source %&gt;% 
+    count(source1, country, year) %&gt;%
+    count(source1) %&gt;% 
+    filter(source1 %in% datasets) %&gt;%
+    names()</code></pre>
+<pre><code>## [1] &quot;source1&quot; &quot;n&quot;</code></pre>
+<pre class="r"><code>cy_coverage &lt;- swiid_source %&gt;% 
+    count(source1, country, year) %&gt;%
+    count(source1) %&gt;% 
+    filter(source1 %in% datasets) %&gt;% 
+    mutate(source1 = recode(source1, LISSY = &quot;LIS&quot;, &quot;World Bank Povcalnet&quot; = &quot;Povcalnet&quot;)) %&gt;% 
+    bind_rows(tibble(source1 = c(&quot;WIID&quot;, &quot;All the Ginis&quot;, &quot;SWIID Source&quot;),
+                     nn = c(wider_cy, atg_cy, ss_cy))) %&gt;% 
+    arrange(desc(nn))
+
+ggplot(cy_coverage, aes(forcats::fct_reorder(source1, nn, .desc = TRUE), nn)) +
+    geom_bar(stat=&quot;identity&quot;) +
+    theme_bw() +
+    theme(axis.title.x = element_blank()) +  
+    ylab(&quot;Country-Years&quot;) +
+    ggtitle(&quot;Income Inequality Datasets by Country-Years Covered&quot;)</code></pre>
 <pre><code>## Warning: Removed 6 rows containing missing values (position_stack).</code></pre>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/data_by_coverage-1.png" width="672" /></p>
 <p>So, let’s check out what the source data look like. There is much more data available about the income distribution in some countries than in others. Which countries are most data-rich? The plot below shows the top dozen countries by the count of observations. Canada, by virtue of the excellent <a href="http://www.statcan.gc.ca">Statistics Canada</a> as well as longstanding membership in the OECD and LIS, has 736 observations, many more than any other country. The United Kingdom, Germany, and the United States are next, followed by an interesting mix of countries from around the world with not surprisingly a sizable European representation. All are members of the LIS. On the other hand, eleven countries have only a single observation.</p>

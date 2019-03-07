@@ -180,6 +180,50 @@
 <p>To be included in the SWIID’s source data, observations need to encompass the entire population of a country without regard to age, location,<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> or employment status.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> They need to have an identifiable welfare definition and equivalence scale (more on these below). Finally, because I want to be able to direct users to sources they can easily peruse themselves, observations need to be available online.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
 <p>Hand-entering data is tedious and error-prone work, so I <a href="https://github.com/fsolt/swiid/blob/master/R/data_setup.R">automated as much of the process of data collection</a> as practicable. Most international organizations and a few national statistical offices use APIs that facilitate downloading their data, and often the <a href="https://twitter.com/search?q=%23rstats">#rstats</a> community has built R packages using these APIs to make the task even easier. I took as much advantage of these resources as possible.<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> In the absence of an API, I scripted downloads of any available spreadsheets, preferring clean csv files to excel-formatted ones. If there was no spreadsheet, but data were available in pdf files, I automated downloading these files and then used <a href="http://thomasleeper.com">Thomas Leeper</a>’s <a href="https://github.com/ropensci/tabulizer"><code>tabulizer</code> package</a> to read the tables into R. In the absence of a file to download, I scripted the process of scraping the data from the web. Still, for a variety of reasons, a source’s data may have been consigned to being entered in a <a href="https://github.com/fsolt/swiid/raw/master/data-raw/fs_added_data.csv">separate spreadsheet</a>. Many sources contain just a handful or fewer observations, making the payoff to the often laborious process of data cleaning too small to justify the effort. Some sources–including most academic articles–are behind paywalls, making reproducibility a hassle anyway (though I still often used tabulizer to read the data from the pdf before cutting-and-pasting it into the spreadsheet). Finally, at least <a href="https://wdronline.worldbank.org/bitstream/handle/10986/9269/wps4007.pdf?sequence=1">one source</a> contains crucial information encoded in the typeface(!!) of its tables, information lost when the tables are scanned into R. All of the entries in this spreadsheet were checked repeatedly for errors,<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> and I excluded repeated reports of the exact same observation from different sources. In the end, I was able to automate the collection of more than three quarters of the source data and a much higher percentage of the series that will be updated or are subject to revision, facilitating incorporating these changes in future versions.</p>
 <p>The resulting dataset comprises 15549(!) Gini coefficients from 2951 country-years in 196 countries or territories, making the coverage of the SWIID source data broader than that of any other income inequality dataset. This isn’t surprising given that, with the exceptions of the <a href="https://www.wider.unu.edu/database/world-income-inequality-database-wiid4">WIID</a> (which, since it provides no original data, isn’t drawn on at all anymore) and the <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets">All the Ginis</a> database (which provides little original data, and so isn’t drawn on much), the SWIID source data incorporates all of the data in these other datasets.</p>
+<pre class="r"><code>atg_cy &lt;- haven::read_dta(here::here(&quot;../swiid/data-raw/atg.dta&quot;)) %&gt;% 
+    select(country, year, starts_with(&quot;gini&quot;)) %&gt;% 
+    mutate(has_gini = rowMeans(select(., starts_with(&quot;gini&quot;)), na.rm = TRUE)) %&gt;% 
+    filter(has_gini &gt; 0) %&gt;% 
+    count(country, year) %&gt;% 
+    nrow()
+
+wider_cy &lt;- readxl::read_excel(here::here(&quot;../swiid/dev/WIID_19Dec2018.xlsx&quot;)) %&gt;% 
+    filter(areacovr == &quot;All&quot; &amp; popcovr == &quot;All&quot; &amp; areacovr == &quot;All&quot; &amp;
+               !is.na(gini_reported) &amp;
+               !is.na(resource) &amp;
+               !is.na(scale) &amp;
+               !(resource == &quot;Earnings&quot;)) %&gt;% 
+    select(country, year, gini_reported, source, resource, scale, everything()) %&gt;% 
+    count(country, year) %&gt;% 
+    nrow()
+
+ss_cy &lt;- swiid_source %&gt;%
+    count(country, year) %&gt;%
+    nrow()
+
+datasets &lt;- c(&quot;Eurostat&quot;, &quot;OECD&quot;, &quot;SEDLAC&quot;, &quot;LISSY&quot;, &quot;CEPALStat&quot;, &quot;World Bank Povcalnet&quot;)
+    
+swiid_source %&gt;% 
+    count(source1, country, year) %&gt;%
+    count(source1) %&gt;% 
+    filter(source1 %in% datasets) %&gt;%
+    names()</code></pre>
+<pre><code>## [1] &quot;source1&quot; &quot;n&quot;</code></pre>
+<pre class="r"><code>cy_coverage &lt;- swiid_source %&gt;% 
+    count(source1, country, year) %&gt;%
+    count(source1) %&gt;% 
+    filter(source1 %in% datasets) %&gt;% 
+    mutate(source1 = recode(source1, LISSY = &quot;LIS&quot;, &quot;World Bank Povcalnet&quot; = &quot;Povcalnet&quot;)) %&gt;% 
+    bind_rows(tibble(source1 = c(&quot;WIID&quot;, &quot;All the Ginis&quot;, &quot;SWIID Source&quot;),
+                     nn = c(wider_cy, atg_cy, ss_cy))) %&gt;% 
+    arrange(desc(nn))
+
+ggplot(cy_coverage, aes(forcats::fct_reorder(source1, nn, .desc = TRUE), nn)) +
+    geom_bar(stat=&quot;identity&quot;) +
+    theme_bw() +
+    theme(axis.title.x = element_blank()) +  
+    ylab(&quot;Country-Years&quot;) +
+    ggtitle(&quot;Income Inequality Datasets by Country-Years Covered&quot;)</code></pre>
 <pre><code>## Warning: Removed 6 rows containing missing values (position_stack).</code></pre>
 <p><img src="/post/2017-07-28-the-swiid-source-data_files/figure-html/data_by_coverage-1.png" width="672" /></p>
 <p>So, let’s check out what the source data look like. There is much more data available about the income distribution in some countries than in others. Which countries are most data-rich? The plot below shows the top dozen countries by the count of observations. Canada, by virtue of the excellent <a href="http://www.statcan.gc.ca">Statistics Canada</a> as well as longstanding membership in the OECD and LIS, has 736 observations, many more than any other country. The United Kingdom, Germany, and the United States are next, followed by an interesting mix of countries from around the world with not surprisingly a sizable European representation. All are members of the LIS. On the other hand, eleven countries have only a single observation.</p>
