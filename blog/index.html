@@ -199,10 +199,10 @@
 <p>Still, that sense may be biased by the exact observations that happened to be assigned to each set. We can reduce this bias by performing the process repeatedly: this is <em>k</em>-fold cross-validation. The available data are divided into some number <em>k</em> groups. One at a time, each of the <em>k</em> groups is treated as the testing data, with all other groups forming the training data for estimating the model. The model’s performance is then evaluated by considering how well it predicts <em>all</em> of the groups, and because every observation is included in the testing data at some point, the process allows us to check whether and for which observations the model is doing particularly poorly.</p>
 <p>To provide a first assessment of the SWIID’s ability to predict the LIS, I randomly assigned the available LIS observations into groups of three, with an added check to ensure that no group included two observations from the same country.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> (Because the SWIID routine relies only on relationships observed within-country for the countries included in the LIS, the check that only a single observation from a country be assigned to the test data at a time means that the exact size of the group doesn’t really matter.)<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> The figure below plots the difference between the SWIID prediction generated from this <em>k</em>-fold cross-validation and the LIS data for each country-year included in the LIS. Observations for which the 95% credible interval for this difference includes zero are gray; those for which it doesn’t are highlighted in blue.</p>
 <p><img src="/post/2019-01-16-cross-validation-for-swiid_files/figure-html/kfold_output-1.png" width="672" /></p>
-<p>The results show that the SWIID does a very good job of predicting the LIS: the 95% credible interval for the difference between the two includes zero for 92% of these observations. The point estimates for these differences are generally small, with 86% less than 2 Gini points and 62% less than a single Gini point. It’s true that there are a few observations for which the estimated difference is quite large–on the far left of the plot, the SWIID routine underestimated the LIS Gini for Hungary in 1991 by 6 <span class="math inline">\(\pm\)</span> 4 points, and on the extreme right the SWIID routine overestimated that for Guatemala in 2014 by 7 <span class="math inline">\(\pm\)</span> 4 points–but there doesn’t really seem to me to be much pattern in which countries and years are estimated poorly.</p>
+<p>The results show that the SWIID does a very good job of predicting the LIS: the 95% credible interval for the difference between the two includes zero for 92% of these observations. The point estimates for these differences are generally small, with 85% less than 2 Gini points and 62% less than a single Gini point. It’s true that there are a few observations for which the estimated difference is quite large–on the far left of the plot, the SWIID routine underestimated the LIS Gini for Hungary in 1991 by 6 <span class="math inline">\(\pm\)</span> 4 points, and on the extreme right the SWIID routine overestimated that for Guatemala in 2014 by 7 <span class="math inline">\(\pm\)</span> 4 points–but there doesn’t really seem to me to be much pattern in which countries and years are estimated poorly.</p>
 <p>This test, though, really only assesses how well the SWIID predicts LIS-comparable inequality figures in years without LIS data in the (now fifty) countries that are <em>included in the LIS</em>. We can get a better sense of how well the SWIID does predicting countries not covered by the LIS with another cross-validation that, one country at a time, excludes <em>all</em> of the LIS observations for that country. The results of just such a test are plotted below.</p>
 <p><img src="/post/2019-01-16-cross-validation-for-swiid_files/figure-html/kfold_output_by_country-1.png" width="672" /></p>
-<p>Overall, the plot looks very similar to the one above. With each country’s entire run of LIS data taking a turn being excluded, the 95% credible interval for the difference between the resulting SWIID estimate and the excluded LIS data contains zero 91% of the time. And here, too, most of the point estimates for these differences are small: 74% are less than 2 Gini points, and 52% are less than one Gini point.</p>
+<p>Overall, the plot looks very similar to the one above. With each country’s entire run of LIS data taking a turn being excluded, the 95% credible interval for the difference between the resulting SWIID estimate and the excluded LIS data contains zero 91% of the time. And here, too, most of the point estimates for these differences are small: 76% are less than 2 Gini points, and 51% are less than one Gini point.</p>
 <p>This analysis, though, does point to a few rough spots in need of future attention. The first appears on the far left of the plot above. There we find that the largest difference is for the sole country-year for Egypt in the LIS–for 2012–which the SWIID routine underestimates by 16(!) <span class="math inline">\(\pm\)</span> 6 Gini points. Egypt is currently the only country in the LIS with just a single country-year observation; given that excluding the one observation is equivalent to excluding all of the country’s observations, I skipped omitting it in the first cross-validation. LIS researchers <a href="https://www.wider.unu.edu/sites/default/files/Publications/Working-paper/PDF/wp2018-149.pdf">Checchi et al. report</a> in a footnote that Egyptian income surveys before 2012 did not include any questions to capture self-employment income, and it’s also true that most of the available Ginis for Egypt are based on the distribution of consumption expenditure, which sometimes only loosely track those for the distribution of income (see, e.g., India). These factors, however, are present in many non-LIS countries as well, so I’ll continue working to come up with ways to improve the SWIID routine for such cases.</p>
 <p>The second is that there are two other countries for which the 95% credible interval for the differences between the LIS data and the SWIID routine’s estimates for those countries when all of their LIS data are excluded does not contain zero in <em>any</em> of the country’s observations: Brazil and Peru. For Brazil, the cross-validation’s estimates of the country’s four LIS observations are all too high—by 2.5 <span class="math inline">\(\pm\)</span> 2.0 Gini points to 3.7 <span class="math inline">\(\pm\)</span> 2.1 Gini points. The cross-validation’s estimates for Peru’s four LIS observations, on the other hand, are all too low—by between 5.0 <span class="math inline">\(\pm\)</span> 2.9 and 5.4 <span class="math inline">\(\pm\)</span> 3.0 Gini points. So there is some room for improvement here too, and I’ll keep working on it also.</p>
 <p>All in all, though, these <em>k</em>-fold cross-validation exercises show that the SWIID does a very good job of predicting the LIS, which inspires confidence that the SWIID is indeed maximizing the comparability of income inequality data across countries and over time.</p>
@@ -306,7 +306,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            a |         3    .0086477    .9228345  -1.026655   .7447832</code></pre>
+##            a |         3    .2696464    1.098835  -.9990099   .9219011</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -345,24 +345,24 @@ stata(&quot;
 ## 
 ##     Variable |       Obs        Mean    Std. Dev.       Min        Max
 ## -------------+--------------------------------------------------------
-##            y |       100    .0613503      .96479  -2.129139   3.194052
-##           x1 |       100   -.0912194    1.035336  -3.108819   2.063537
-##           x2 |       100   -.2148564    1.023588  -2.659547   2.485997
+##            y |       100    .1506444     1.08604  -2.544748   2.471626
+##           x1 |       100   -.0593024    1.072055  -3.274673   2.830322
+##           x2 |       100    .0678264    .9302777  -2.596557   2.398365
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    0.46
-##        Model |  .866654914     2  .433327457           Prob &gt; F      =  0.6324
-##     Residual |  91.2844951    97  .941077269           R-squared     =  0.0094
-## -------------+------------------------------           Adj R-squared = -0.0110
-##        Total |  92.1511501    99  .930819697           Root MSE      =  .97009
+## -------------+------------------------------           F(  2,    97) =    1.51
+##        Model |   3.5273881     2  1.76369405           Prob &gt; F      =  0.2259
+##     Residual |   113.24146    97  1.16743773           R-squared     =  0.0302
+## -------------+------------------------------           Adj R-squared =  0.0102
+##        Total |  116.768848    99  1.17948332           Root MSE      =  1.0805
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |   .0147578   .0946682     0.16   0.876    -.1731324     .202648
-##           x2 |  -.0917222   .0957548    -0.96   0.341    -.2817691    .0983246
-##        _cons |   .0429894    .099359     0.43   0.666    -.1542107    .2401896
+##           x1 |  -.1667361   .1022252    -1.63   0.106    -.3696247    .0361526
+##           x2 |  -.0960259   .1178046    -0.82   0.417    -.3298355    .1377836
+##        _cons |   .1472696   .1084524     1.36   0.178    -.0679784    .3625176
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
