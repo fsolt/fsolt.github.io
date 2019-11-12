@@ -316,9 +316,9 @@ merge 1:1 country year using &quot;my_data.dta&quot;, keep(match master)
   
     
 
-        <h3><a href="/blog/2015/10/05/file-format/">I have imported the swiid_summary.csv file and data for some countries seem to be given in different &#34;units&#34;---for example, for Afghanistan in 2008, gini_disp is 313 and gini_mkt is 33. How can I interpret these data?</a></h3>
+        <h3><a href="/blog/2015/10/05/csv-format/">I imported the swiid_summary.csv file, and the data for some countries seem to be given in different units; for example, for Afghanistan in 2008, `gini_disp` is 313 and `gini_mkt` is 33. How can I interpret these data?</a></h3>
       <div class="entry">
-        <p>The issue is that the swiid_summary.csv file is saved using U.S. <a href="https://en.wikipedia.org/wiki/Comma-separated_values">csv conventions</a>, that is, with a dot marking the decimal and a comma separating values.  If you are in a locale that observes different conventions&mdash;many countries use commas to indicate the decimal and semicolons to separate values&mdash;your software&rsquo;s default settings may not read the data correctly.  Be sure to specify the decimal marker and value delimiter appropriately when loading the file.</p>
+        <p>The issue here is that the swiid_summary.csv file is saved using <a href="https://en.wikipedia.org/wiki/Comma-separated_values">RFC 4180 csv conventions</a>, that is, with a dot marking the decimal and a comma separating values.  If you are in a locale that observes different conventions&mdash;many countries use commas to indicate the decimal and semicolons to separate values&mdash;your software&rsquo;s default settings may not read the data correctly.  Be sure to specify the decimal marker and value delimiter appropriately when loading the file: all SWIID values are Gini indices and so fall between zero and one hundred.</p>
 
       </div>
 
