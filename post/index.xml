@@ -221,6 +221,15 @@ use SWIIDv5_1.dta, clear egen cc = group(country) mi tsset cc year merge 1:1 cou
     </item>
     
     <item>
+      <title>I have imported the swiid_summary.csv file and data for some countries seem to be given in different &#34;units&#34;---for example, for Afghanistan in 2008, gini_disp is 313 and gini_mkt is 33. How can I interpret these data?</title>
+      <link>http://fsolt.org/blog/2015/10/05/file-format/</link>
+      <pubDate>Mon, 05 Oct 2015 03:18:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2015/10/05/file-format/</guid>
+      <description>The issue is that the swiid_summary.csv file is saved using U.S. csv conventions, that is, with a dot marking the decimal and a comma separating values. If you are in a locale that observes different conventions&amp;mdash;many countries use commas to indicate the decimal and semicolons to separate values&amp;mdash;your software&amp;rsquo;s default settings may not read the data correctly. Be sure to specify the decimal marker and value delimiter appropriately when loading the file.</description>
+    </item>
+    
+    <item>
       <title>SWIID Wins NSF Support!</title>
       <link>http://fsolt.org/blog/2015/08/10/nsf-swiid/</link>
       <pubDate>Mon, 10 Aug 2015 10:40:01 +0000</pubDate>
