@@ -221,7 +221,7 @@ use SWIIDv5_1.dta, clear egen cc = group(country) mi tsset cc year merge 1:1 cou
     </item>
     
     <item>
-      <title>I imported the swiid_summary.csv file, and the data for some countries seem to be given in different units; for example, for Afghanistan in 2008, `gini_disp` is 313 and `gini_mkt` is 33. How can I interpret these data?</title>
+      <title>I imported the swiid_summary.csv file, and the data for some countries seem to be given in different units; for example, in one country, gini_disp is 313 and gini_mkt is 33. How can I interpret these data?</title>
       <link>http://fsolt.org/blog/2015/10/05/csv-format/</link>
       <pubDate>Mon, 05 Oct 2015 03:18:01 +0000</pubDate>
       
