@@ -171,11 +171,11 @@
 <span class="date">Monday, 5 October 2015</span>
 
 <div class="post">
-  <p>The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/11992">SWIID download</a> contains files pre-formatted for use with the tools for analyzing multiply-imputed data and other data measured with uncertainty in Stata (<code>swiid6_0.dta</code>) or R (<code>swiid6_0</code>). This is meant to &ldquo;set the default&rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates.  This uncertainty is considerable in many developing countries, and the tools available in both software packages can now handle pretty much any analysis one may desire (for details, read the documents <code>R_swiid.pdf</code> and <code>stata_swiid.pdf</code> in the SWIID download). But this format does not lend itself to graphing.  For this purpose, use the <code>swiid6_0_summary.csv</code> file, which presents the SWIID estimates in mean-plus-standard-error summary format.</p>
+  <p>The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/11992">SWIID download</a> contains files pre-formatted for use with the tools for analyzing multiply-imputed data and other data measured with uncertainty in Stata (<code>swiid8_2.dta</code>) or R (<code>swiid8_2.rda</code>). This is meant to &ldquo;set the default&rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates.  This uncertainty is considerable in many developing countries, and the tools available in both software packages can now handle pretty much any analysis one may desire (for details, read the documents <code>R_swiid.pdf</code> and <code>stata_swiid.pdf</code> in the SWIID download). But this format does not lend itself to graphing.  For this purpose, use the <code>swiid8_2_summary.csv</code> file, which presents the SWIID estimates in mean-plus-standard-error summary format.</p>
 
 <p>In Stata:</p>
 
-<pre><code> import delimited &quot;swiid6_0_summary.csv&quot;, clear
+<pre><code> import delimited &quot;swiid8_2_summary.csv&quot;, clear
  
 // Calculate the bounds of the 95% uncertainty intervals
 gen gini_disp_95ub = gini_disp + 1.96*gini_disp_se
@@ -196,7 +196,7 @@ twoway rspike gini_net_95ub gini_net_95lb name_length, lstyle(ci) || ///
 <pre><code class="language-R">library(tidyverse)
 
 # Load the SWIID
-load(&quot;swiid6_0.rda&quot;)
+load(&quot;swiid8_2.rda&quot;)
 
 # Plot SWIID gini_disp estimates for the United States
 swiid_summary %&gt;% 

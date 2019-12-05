@@ -150,7 +150,7 @@ As always, I encourage users of the SWIID to email me with their comments, quest
       <pubDate>Mon, 05 Oct 2015 17:14:01 +0000</pubDate>
       
       <guid>http://fsolt.org/blog/2015/10/05/mean-and-std-err/</guid>
-      <description>The SWIID download contains files pre-formatted for use with the tools for analyzing multiply-imputed data and other data measured with uncertainty in Stata (swiid6_0.dta) or R (swiid6_0). This is meant to &amp;ldquo;set the default&amp;rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates. This uncertainty is considerable in many developing countries, and the tools available in both software packages can now handle pretty much any analysis one may desire (for details, read the documents R_swiid.</description>
+      <description>The SWIID download contains files pre-formatted for use with the tools for analyzing multiply-imputed data and other data measured with uncertainty in Stata (swiid8_2.dta) or R (swiid8_2.rda). This is meant to &amp;ldquo;set the default&amp;rdquo; in a way that encourages researchers to take into account the uncertainty in the SWIID estimates. This uncertainty is considerable in many developing countries, and the tools available in both software packages can now handle pretty much any analysis one may desire (for details, read the documents R_swiid.</description>
     </item>
     
     <item>
