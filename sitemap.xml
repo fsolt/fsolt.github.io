@@ -1,6 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://fsolt.org/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/note/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/post/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/r/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/swiid/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/blog/2020/05/19/swiid-version-8_3/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>http://fsolt.org/blog/2019/02/28/swiid-version-8_0/</loc>
@@ -53,13 +88,33 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/tags/update/</loc>
+    <lastmod>2016-07-21T01:12:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/icpsrdata/</loc>
+    <lastmod>2016-05-20T22:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/blog/2016/05/20/icpsrdata/</loc>
     <lastmod>2016-05-20T22:00:01+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://fsolt.org/tags/pewdata/</loc>
+    <lastmod>2016-05-13T05:28:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/blog/2016/05/13/pewdata/</loc>
     <lastmod>2016-05-13T05:28:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/sfaq_howto/</loc>
+    <lastmod>2015-10-06T06:32:01+00:00</lastmod>
   </url>
   
   <url>
@@ -74,6 +129,11 @@
   
   <url>
     <loc>http://fsolt.org/blog/2015/10/05/germany/</loc>
+    <lastmod>2015-10-05T12:31:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/sfaq_data/</loc>
     <lastmod>2015-10-05T12:31:01+00:00</lastmod>
   </url>
   
@@ -118,8 +178,18 @@
   </url>
   
   <url>
+    <loc>http://fsolt.org/tags/dotwhisker/</loc>
+    <lastmod>2015-07-30T10:15:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://fsolt.org/blog/2015/07/30/dotwhisker-for-apsa/</loc>
     <lastmod>2015-07-30T10:15:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/tags/interplot/</loc>
+    <lastmod>2015-06-26T09:40:01+00:00</lastmod>
   </url>
   
   <url>
@@ -188,13 +258,6 @@
   
   <url>
     <loc>http://fsolt.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/dotwhisker/</loc>
-    <lastmod>2015-07-30T10:15:01+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -202,24 +265,7 @@
   </url>
   
   <url>
-    <loc>http://fsolt.org/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://fsolt.org/papers/hubersolt2004/</loc>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/icpsrdata/</loc>
-    <lastmod>2016-05-20T22:00:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/interplot/</loc>
-    <lastmod>2015-06-26T09:40:01+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -231,37 +277,11 @@
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/note/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://fsolt.org/papers/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/pewdata/</loc>
-    <lastmod>2016-05-13T05:28:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/post/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/r/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://fsolt.org/res/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -270,34 +290,6 @@
   
   <url>
     <loc>http://fsolt.org/papers/rittersolt2019/</loc>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/papers/sscc2007/</loc>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/swiid/swiid_downloads/</loc>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/swiid/swiid_faq/</loc>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/papers/swiid_un_talk/</loc>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/sfaq_data/</loc>
-    <lastmod>2015-10-05T12:31:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/sfaq_howto/</loc>
-    <lastmod>2015-10-06T06:32:01+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -381,11 +373,11 @@
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solt2019/</loc>
+    <loc>http://fsolt.org/papers/solt2020/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/papers/solthabelgrant2011/</loc>
+    <loc>http://fsolt.org/papers/solt2020_pre/</loc>
   </url>
   
   <url>
@@ -401,15 +393,23 @@
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/swiid/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://fsolt.org/papers/solthabelgrant2011/</loc>
   </url>
   
   <url>
-    <loc>http://fsolt.org/tags/</loc>
-    <lastmod>2015-07-30T10:15:01+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://fsolt.org/papers/sscc2007/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/swiid/swiid_downloads/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/swiid/swiid_faq/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fsolt.org/papers/swiid_un_talk/</loc>
   </url>
   
   <url>
@@ -418,12 +418,6 @@
   
   <url>
     <loc>http://fsolt.org/swiid/</loc>
-  </url>
-  
-  <url>
-    <loc>http://fsolt.org/tags/update/</loc>
-    <lastmod>2016-07-21T01:12:01+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

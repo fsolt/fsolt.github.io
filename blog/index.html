@@ -167,6 +167,38 @@
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+      <h3><a href="/blog/2020/05/19/swiid-version-8_3/">SWIID Version 8.3 is available!</a></h3>
+      <h5>Tuesday, 19 May 2020</h5>
+    <div class="entry">
+        
+
+
+<p>Version 8.3 of the SWIID is <a href="/swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 925 new Ginis since version 8.2, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2019-winter-data-release/">Chile, Denmark, Germany, Mexico, Peru, Slovenia,</a> <a href="http://www.lisdatacenter.org/news-and-events/2020-spring-data-release/">Belgium, Canada, the Czech Republic, Italy, and—for the first time—Palestine</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 188 more country-years than version 8.2.</p></li>
+</ul>
+<p><img src="/post/2020-05-18-swiid-version-8-3-is-available_files/figure-html/plot-1.png" width="672" /></p>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+    </div>
+    
+  
+
+  
+
+  
+
       <h3><a href="/blog/2019/02/28/swiid-version-8_0/">SWIID Version 8.0 is available!</a></h3>
       <h5>Thursday, 28 February 2019</h5>
     <div class="entry">
@@ -220,10 +252,10 @@
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Still, even for the LIS perfect comparability has given way to the desire to cover more middle-income countries. <a href="https://www.lisdatacenter.org/newsletter/nl-2018-8-h-2/">Teresa Munzi and Andrej Cupak recently wrote</a> about the difficulties the LIS team encountered including middle-income countries due to the greater importance of non-monetary and self-employment income as well as the differences in direct taxation and social security contributions in these countries in comparison to high-income countries. Despite these issues, the LIS remains the most comparable income inequality data available.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>For the initial kernel of this idea, I remain grateful to participants in the Expert Group Meeting on Reducing Inequalities in the Context of Sustainable Development, Department of Economic and Social Affairs, United Nations, New York, October 24–25, 2013.<a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>The goal of this exercise is really to assess how well the SWIID works within the LIS countries, so Egypt 2012, the only LIS observation for that country, is excluded from the analysis. This is because holding out that observation makes Egypt a <em>non</em>-LIS country. What happens when the SWIID is used to predict all of a country’s LIS observations at once is discussed below.<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>My experiments with groups sized from just one observation each up to six observations each confirmed this. Three observations per group struck a nice balance between the time it takes to randomly generate the groups (which increases with group size because it becomes more likely for a group to be rejected for containing two observations from a single country) and the demand the work puts on <a href="https://wiki.uiowa.edu/display/hpcdocs/Argon+Cluster">UI’s high performance computing cluster</a> (which increases with the number of groups–which is also the number of times the SWIID routine is re-run). I probably don’t really need to worry about the latter, but whatever—like I said, it doesn’t actually matter.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>Still, even for the LIS perfect comparability has given way to the desire to cover more middle-income countries. <a href="https://www.lisdatacenter.org/newsletter/nl-2018-8-h-2/">Teresa Munzi and Andrej Cupak recently wrote</a> about the difficulties the LIS team encountered including middle-income countries due to the greater importance of non-monetary and self-employment income as well as the differences in direct taxation and social security contributions in these countries in comparison to high-income countries. Despite these issues, the LIS remains the most comparable income inequality data available.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>For the initial kernel of this idea, I remain grateful to participants in the Expert Group Meeting on Reducing Inequalities in the Context of Sustainable Development, Department of Economic and Social Affairs, United Nations, New York, October 24–25, 2013.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>The goal of this exercise is really to assess how well the SWIID works within the LIS countries, so Egypt 2012, the only LIS observation for that country, is excluded from the analysis. This is because holding out that observation makes Egypt a <em>non</em>-LIS country. What happens when the SWIID is used to predict all of a country’s LIS observations at once is discussed below.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>My experiments with groups sized from just one observation each up to six observations each confirmed this. Three observations per group struck a nice balance between the time it takes to randomly generate the groups (which increases with group size because it becomes more likely for a group to be rejected for containing two observations from a single country) and the demand the work puts on <a href="https://wiki.uiowa.edu/display/hpcdocs/Argon+Cluster">UI’s high performance computing cluster</a> (which increases with the number of groups–which is also the number of times the SWIID routine is re-run). I probably don’t really need to worry about the latter, but whatever—like I said, it doesn’t actually matter.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -304,28 +336,28 @@ x &lt;- data.frame(a = rnorm(3), b = letters[1:3])
 stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 <pre><code>## . sum a
 ## 
-##     Variable |       Obs        Mean    Std. Dev.       Min        Max
-## -------------+--------------------------------------------------------
-##            a |         3    .0157619    .6048126  -.3437544   .7140365</code></pre>
+##     Variable |        Obs        Mean    Std. Dev.       Min        Max
+## -------------+---------------------------------------------------------
+##            a |          3    .1229093    .1445732   .0158901   .2873765</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
 ## (1978 Automobile Data)</code></pre>
 <pre class="r"><code>head(auto)</code></pre>
-<pre><code>##            make price mpg rep78 headroom trunk weight length turn
-## 1   AMC Concord  4099  22     3      2.5    11   2930    186   40
-## 2     AMC Pacer  4749  17     3      3.0    11   3350    173   40
-## 3    AMC Spirit  3799  22    NA      3.0    12   2640    168   35
-## 4 Buick Century  4816  20     3      4.5    16   3250    196   40
-## 5 Buick Electra  7827  15     4      4.0    20   4080    222   43
-## 6 Buick LeSabre  5788  18     3      4.0    21   3670    218   43
-##   displacement gear_ratio  foreign
-## 1          121       3.58 Domestic
-## 2          258       2.53 Domestic
-## 3          121       3.08 Domestic
-## 4          196       2.93 Domestic
-## 5          350       2.41 Domestic
-## 6          231       2.73 Domestic</code></pre>
+<pre><code>##            make price mpg rep78 headroom trunk weight length turn displacement
+## 1   AMC Concord  4099  22     3      2.5    11   2930    186   40          121
+## 2     AMC Pacer  4749  17     3      3.0    11   3350    173   40          258
+## 3    AMC Spirit  3799  22    NA      3.0    12   2640    168   35          121
+## 4 Buick Century  4816  20     3      4.5    16   3250    196   40          196
+## 5 Buick Electra  7827  15     4      4.0    20   4080    222   43          350
+## 6 Buick LeSabre  5788  18     3      4.0    21   3670    218   43          231
+##   gear_ratio  foreign
+## 1       3.58 Domestic
+## 2       2.53 Domestic
+## 3       3.08 Domestic
+## 4       2.93 Domestic
+## 5       2.41 Domestic
+## 6       2.73 Domestic</code></pre>
 <pre class="r"><code>## Data input/output
 (y &lt;- stata(&quot;replace a = 2&quot;, data.in = x, data.out = TRUE))</code></pre>
 <pre><code>## . replace a = 2
@@ -343,26 +375,26 @@ stata(&quot;
 <pre><code>## . 
 ## .     sum y x1 x2
 ## 
-##     Variable |       Obs        Mean    Std. Dev.       Min        Max
-## -------------+--------------------------------------------------------
-##            y |       100   -.2265245    .9279628  -2.140921   3.456609
-##           x1 |       100    .0235107    .9654566  -2.089315   2.085599
-##           x2 |       100   -.1990955    1.054259  -2.800112   1.768455
+##     Variable |        Obs        Mean    Std. Dev.       Min        Max
+## -------------+---------------------------------------------------------
+##            y |        100    .0258361    .9648434  -2.568967   2.463058
+##           x1 |        100     .141226    .9406417   -2.21647   2.417482
+##           x2 |        100    .0368805    1.085392  -2.716206   2.950652
 ## .     reg y x1 x2
 ## 
-##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    1.25
-##        Model |  2.14131244     2  1.07065622           Prob &gt; F      =  0.2912
-##     Residual |  83.1090619    97  .856794452           R-squared     =  0.0251
-## -------------+------------------------------           Adj R-squared =  0.0050
-##        Total |  85.2503743    99  .861114892           Root MSE      =  .92563
+##       Source |       SS           df       MS      Number of obs   =       100
+## -------------+----------------------------------   F(2, 97)        =      0.68
+##        Model |  1.28189288         2  .640946438   Prob &gt; F        =    0.5070
+##     Residual |  90.8794657        97  .936901708   R-squared       =    0.0139
+## -------------+----------------------------------   Adj R-squared   =   -0.0064
+##        Total |  92.1613586        99  .930922814   Root MSE        =    .96794
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.0224969   .0970207    -0.23   0.817    -.2150562    .1700624
-##           x2 |   .1403954   .0888485     1.58   0.117    -.0359443     .316735
-##        _cons |  -.1980435   .0943158    -2.10   0.038    -.3852343   -.0108527
+##           x1 |    .075302   .1046113     0.72   0.473    -.1323225    .2829264
+##           x2 |  -.0728165   .0906601    -0.80   0.424    -.2527518    .1071188
+##        _cons |    .017887   .0980476     0.18   0.856    -.1767103    .2124844
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -413,10 +445,10 @@ stata(&quot;
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>Arthur also recommends vikjam’s <a href="https://github.com/vikjam/mostly-harmless-replication">Mostly Harmless Replication</a>, which replicates most of the figures and tables of <a href="http://www.mostlyharmlesseconometrics.com/">Mostly Harmless Econometrics</a> in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Arthur also recommends vikjam’s <a href="https://github.com/vikjam/mostly-harmless-replication">Mostly Harmless Replication</a>, which replicates most of the figures and tables of <a href="http://www.mostlyharmlesseconometrics.com/">Mostly Harmless Econometrics</a> in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -532,20 +564,20 @@ stata(&quot;
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>I think the clearest explanation of the Gini index is that it is half the average difference in income between all pairs of units—say, households—as a percentage of the mean income of those units. Okay, I said “clearest,” not necessarily “clear.” Anyway, it has a theoretical range of 0 (all households have the same income) to 100 (one household has all the income and the rest have none), but Ginis below 20 or above 60 are rare in the real world. There are good reasons to prefer other measures of inequality, and there are many options, but the Gini is by far the most widely available.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>At the time, those hopes were admittedly concerned mostly with getting <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a> off my back so I could publish a <a href="/papers/solt2011">series</a> <a href="/papers/solthabelgrant2011">of</a> <a href="/papers/solt2012">manuscripts</a> I had on how the context of inequality is related to people’s political attitudes.<a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>Which is what #Reviewer2 always complained about. R2: Shouldn’t you include <a href="https://en.wikipedia.org/wiki/Ruritania#In_academia">Ruritania and Megalomania</a> in your sample, given the broad applicability of your theory? Me: Yes, sure, but like I wrote in the paper, there’s no LIS data for those countries, and the other available data just isn’t comparable. R2: Well then, I recommend rejection. Me: Grr.<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>If you’re thinking, “hey, multiple imputation for missing data,” cool, that’s what I was thinking too. If you’re thinking of <a href="https://projects.fivethirtyeight.com/congress-generic-ballot-polls/">poll aggregators and house effects</a>, yep, it’s very similar. If you’re thinking of inequality as a latent variable, with a number of indicators of varying discrimination, that also works. If you’re thinking you need to look at some cat gifs right about meow, <a href="https://giphy.com/search/cat">click here</a>.<a href="#fnref4" class="footnote-back">↩</a></p></li>
-<li id="fn5"><p>The requirement for complete territorial coverage was relaxed for minor deviations such as data on Portugal that excludes Madeira and the Azores. It was relaxed somewhat further for early series that covered only the urban population of three highly urbanized countries: Uruguay, Argentina, and South Korea. The general rule, however, is that data is excluded if it measures the income distribution of only urban or rural populations, or of only selected cities, or some other such incomplete territory.<a href="#fnref5" class="footnote-back">↩</a></p></li>
-<li id="fn6"><p>This last requirement is new; it means nearly 600 observations on the distribution of wages across employed individuals that were included in the source data of previous versions of the SWIID are now excluded. Between the lack of information on those out of the workforce and on how workers formed households, these data weren’t very strongly related to the LIS anyway.<a href="#fnref6" class="footnote-back">↩</a></p></li>
-<li id="fn7"><p>For scholarly articles, I preferred DOIs or JSTOR stable URLs, but if those were unavailable I used the publisher website or another repository. For books, I provide the link to the relevant page in Google Books. There were <a href="https://books.google.com/books?id=zaL4CGdjOkUC">two</a> <a href="https://books.google.com/books?id=_aapAgAAQBAJ">books</a> that I decided I had to include for which Google Books wouldn’t show the relevant pages (at least not to me); in those two cases, the links I provide just go to the entire volume. I confirmed that the cited pages can be found using Amazon’s “Look Inside” feature, so I consider my “must be available online” rule only badly bent rather than completely broken.<a href="#fnref7" class="footnote-back">↩</a></p></li>
-<li id="fn8"><p>Although the sources with APIs were relatively few, they contained the most data: nearly half of the observations were collected this way.<a href="#fnref8" class="footnote-back">↩</a></p></li>
-<li id="fn9"><p>Which, of course, is not to say that they are error-free. If you spot any problems, or better still, know of sources I might have missed, <em>please</em> <a href="https://github.com/fsolt/swiid/issues/6">let me know</a>!<a href="#fnref9" class="footnote-back">↩</a></p></li>
-<li id="fn10"><p>This is partly a result of my decision to insist on sources that are available online, but it’s just as well: so little information is available about many of the so-excluded observations on that era that I find it hard to have much confidence in them.<a href="#fnref10" class="footnote-back">↩</a></p></li>
-<li id="fn11"><p>It’s important, though, to not think of the distribution of market income as ‘pre-government.’ Beyond taxes and transfers, governments seeking to shape the distribution of income have a wide array of ‘market-conditioning’ or ‘predistribution’ policy options, with minimum wage regulation and labor policy two obvious examples <span class="citation">(see, e.g., Morgan and Kelly 2013)</span>. Further, even taxes and transfers can profoundly shape the distribution of <em>market</em> income through ‘second-order effects.’ Where robust public pension programs exist, for example, people save less for retirement, leaving many of the elderly without market income in old age and so raising the level of market-income inequality <span class="citation">(see, e.g., Jesuit and Mahler 2010)</span>.<a href="#fnref11" class="footnote-back">↩</a></p></li>
-<li id="fn12"><p>Note that disposable income still does not take into account, on the one hand, indirect taxes like sales taxes and VAT, or, on the other, public services and indirect government transfers such as price subsidies. There is very little information available about the distribution of such ‘final income,’ pretty much only that generated by the <a href="http://www.commitmentoequity.org">Commitment to Equity Institute</a>, so I exclude it from the SWIID source data at least for the time being.<a href="#fnref12" class="footnote-back">↩</a></p></li>
-<li id="fn13"><p>In previous versions of the SWIID, market and gross income were treated as a single welfare definition, and I am glad to finally be able to split them apart <span class="citation">(c.f., Solt 2016, 1272)</span>. The consumption welfare definition <em>might</em> now be the most heterogeneous within the SWIID source data, varying considerably in whether and how observations treat expenditures on durable goods. Another source of differences within a single welfare definition is the extent to which nonmonetary income—such as the value of food grown for the household’s own consumption or of housing that the owner occupies—is included. The SWIID source data include the variable <code>monetary</code> that indicates whether any nonmonetary income is taken into account, but at present this information is not incorporated into the classification of welfare definitions.<a href="#fnref13" class="footnote-back">↩</a></p></li>
-<li id="fn14"><p>Scare quotes because, strictly speaking, nothing is being scaled at all; it’s simply treating the household as the unit of analysis.<a href="#fnref14" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>I think the clearest explanation of the Gini index is that it is half the average difference in income between all pairs of units—say, households—as a percentage of the mean income of those units. Okay, I said “clearest,” not necessarily “clear.” Anyway, it has a theoretical range of 0 (all households have the same income) to 100 (one household has all the income and the rest have none), but Ginis below 20 or above 60 are rare in the real world. There are good reasons to prefer other measures of inequality, and there are many options, but the Gini is by far the most widely available.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>At the time, those hopes were admittedly concerned mostly with getting <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a> off my back so I could publish a <a href="/papers/solt2011">series</a> <a href="/papers/solthabelgrant2011">of</a> <a href="/papers/solt2012">manuscripts</a> I had on how the context of inequality is related to people’s political attitudes.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Which is what #Reviewer2 always complained about. R2: Shouldn’t you include <a href="https://en.wikipedia.org/wiki/Ruritania#In_academia">Ruritania and Megalomania</a> in your sample, given the broad applicability of your theory? Me: Yes, sure, but like I wrote in the paper, there’s no LIS data for those countries, and the other available data just isn’t comparable. R2: Well then, I recommend rejection. Me: Grr.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>If you’re thinking, “hey, multiple imputation for missing data,” cool, that’s what I was thinking too. If you’re thinking of <a href="https://projects.fivethirtyeight.com/congress-generic-ballot-polls/">poll aggregators and house effects</a>, yep, it’s very similar. If you’re thinking of inequality as a latent variable, with a number of indicators of varying discrimination, that also works. If you’re thinking you need to look at some cat gifs right about meow, <a href="https://giphy.com/search/cat">click here</a>.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>The requirement for complete territorial coverage was relaxed for minor deviations such as data on Portugal that excludes Madeira and the Azores. It was relaxed somewhat further for early series that covered only the urban population of three highly urbanized countries: Uruguay, Argentina, and South Korea. The general rule, however, is that data is excluded if it measures the income distribution of only urban or rural populations, or of only selected cities, or some other such incomplete territory.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p>This last requirement is new; it means nearly 600 observations on the distribution of wages across employed individuals that were included in the source data of previous versions of the SWIID are now excluded. Between the lack of information on those out of the workforce and on how workers formed households, these data weren’t very strongly related to the LIS anyway.<a href="#fnref6" class="footnote-back">↩︎</a></p></li>
+<li id="fn7"><p>For scholarly articles, I preferred DOIs or JSTOR stable URLs, but if those were unavailable I used the publisher website or another repository. For books, I provide the link to the relevant page in Google Books. There were <a href="https://books.google.com/books?id=zaL4CGdjOkUC">two</a> <a href="https://books.google.com/books?id=_aapAgAAQBAJ">books</a> that I decided I had to include for which Google Books wouldn’t show the relevant pages (at least not to me); in those two cases, the links I provide just go to the entire volume. I confirmed that the cited pages can be found using Amazon’s “Look Inside” feature, so I consider my “must be available online” rule only badly bent rather than completely broken.<a href="#fnref7" class="footnote-back">↩︎</a></p></li>
+<li id="fn8"><p>Although the sources with APIs were relatively few, they contained the most data: nearly half of the observations were collected this way.<a href="#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn9"><p>Which, of course, is not to say that they are error-free. If you spot any problems, or better still, know of sources I might have missed, <em>please</em> <a href="https://github.com/fsolt/swiid/issues/6">let me know</a>!<a href="#fnref9" class="footnote-back">↩︎</a></p></li>
+<li id="fn10"><p>This is partly a result of my decision to insist on sources that are available online, but it’s just as well: so little information is available about many of the so-excluded observations on that era that I find it hard to have much confidence in them.<a href="#fnref10" class="footnote-back">↩︎</a></p></li>
+<li id="fn11"><p>It’s important, though, to not think of the distribution of market income as ‘pre-government.’ Beyond taxes and transfers, governments seeking to shape the distribution of income have a wide array of ‘market-conditioning’ or ‘predistribution’ policy options, with minimum wage regulation and labor policy two obvious examples <span class="citation">(see, e.g., Morgan and Kelly 2013)</span>. Further, even taxes and transfers can profoundly shape the distribution of <em>market</em> income through ‘second-order effects.’ Where robust public pension programs exist, for example, people save less for retirement, leaving many of the elderly without market income in old age and so raising the level of market-income inequality <span class="citation">(see, e.g., Jesuit and Mahler 2010)</span>.<a href="#fnref11" class="footnote-back">↩︎</a></p></li>
+<li id="fn12"><p>Note that disposable income still does not take into account, on the one hand, indirect taxes like sales taxes and VAT, or, on the other, public services and indirect government transfers such as price subsidies. There is very little information available about the distribution of such ‘final income,’ pretty much only that generated by the <a href="http://www.commitmentoequity.org">Commitment to Equity Institute</a>, so I exclude it from the SWIID source data at least for the time being.<a href="#fnref12" class="footnote-back">↩︎</a></p></li>
+<li id="fn13"><p>In previous versions of the SWIID, market and gross income were treated as a single welfare definition, and I am glad to finally be able to split them apart <span class="citation">(c.f., Solt 2016, 1272)</span>. The consumption welfare definition <em>might</em> now be the most heterogeneous within the SWIID source data, varying considerably in whether and how observations treat expenditures on durable goods. Another source of differences within a single welfare definition is the extent to which nonmonetary income—such as the value of food grown for the household’s own consumption or of housing that the owner occupies—is included. The SWIID source data include the variable <code>monetary</code> that indicates whether any nonmonetary income is taken into account, but at present this information is not incorporated into the classification of welfare definitions.<a href="#fnref13" class="footnote-back">↩︎</a></p></li>
+<li id="fn14"><p>Scare quotes because, strictly speaking, nothing is being scaled at all; it’s simply treating the household as the unit of analysis.<a href="#fnref14" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -575,48 +607,50 @@ stata(&quot;
       <h5>Friday, 14 April 2017</h5>
     <div class="entry">
         <p>Today we had a workshop for our graduate students on writing peer reviews.  Here are the notes I spoke from:</p>
-
 <p>I get asked to do a lot of reviews.  At the beginning of this semester, I got seven requests within two or three weeks.  I used to always say yes, but doing 35 or 40 reviews a year just took too much time.  When I was first starting out, I&rsquo;d take something like six or eight hours on each review, though that pretty quickly got down to four or so.  Nowadays it might even be a touch less, spread over two days. I like to give the paper a close read on one day, while taking notes and maybe doing a bit of research.  Then the next day, I write up my review, after my thoughts have had a chance to percolate.  Anyway, now I have a two-per-month rule to protect my time, though I sometimes break it: I took four out of those seven requests back in January.</p>
-
 <p>I always start my reviews with a quick summary of the piece, but as reviewers, our focus should be on theory, data, and method.  For the big-three journals, the old saw is that the standard is &ldquo;new theory, new data, new method&mdash;choose any two,&rdquo; but regardless of the journal that has asked you to review, for a work to make a contribution, it has to be sound&mdash;not new, not super-great, just sound&mdash;on all three.  Here are a couple of quick notes on each, mostly of the points I find myself most often making:</p>
-
 <ol>
-<li><p>Theory: if you think that the authors<a href="#note1" id="note1ref"><sup>1</sup></a> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don&rsquo;t have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. Reviews aren&rsquo;t the place to develop your own new rival theory.  If you&rsquo;re <em>really</em> tempted to do so, plan instead on responding to this paper when it comes out in print.</p></li>
-
-<li><p>Data: do the authors take advantage of all available data?  Probably not&mdash;we can&rsquo;t all look at everything all the time&mdash;but if they&rsquo;ve neglected obvious things: using, for example, just that oddball third wave of <a href="http://worldvaluessurvey.org">the WVS</a> instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so.  Of course, if they use some source and you know that there&rsquo;s other, better data available, point that out to them.</p></li>
-
-<li><p>Methods: First, are the methods appropriate?  In answering this, you have to judge the methods on their own terms: <a href="https://twitter.com/PoliticalApe13/status/820390342759419910">NOT, oh, this study uses survey data, so tells us nothing about causality! OR this study just reports an experiment, so it has no external validity!</a></p>
-
-<ul>
-<li><p>Are interaction terms properly constructed and interpreted?<a href="#note2" id="note2ref"><sup>2</sup></a>  There&rsquo;s software that makes this super-easy. Recommend it by name: &ldquo;There&rsquo;s <a href="http://myweb.uiowa.edu/fboehmke/methods.html"><code>grinter</code> for Stata</a> and <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html"><code>interplot</code> for R</a>.&rdquo;  Include cites to <a href="https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8">Braumoeller&rsquo;s (2004) <em>IO</em> article</a> and/or <a href="http://www.jstor.org/stable/25791835">Brambor, Clark, and Golder (2006) in <em>PA</em></a>, too.</p></li>
-
-<li><p>Are the included controls appropriate?  Do the authors include controls that are plausibly causally downstream from their IVs?  <a href="https://books.google.com/books?id=lV3DIdV0F9AC&amp;printsec=frontcover&amp;dq=gelman+and+hill&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjZyJHgoqXTAhWF6oMKHRS2Ay8Q6AEIJDAA#v=onepage&amp;q=messes+up&amp;f=false">That messes up results.</a> Include citations. Conversely, do they <em>exclude</em> variables that would plausibly confound the relationship between the IV and the DV?  It&rsquo;s not enough to say that &ldquo;oh, they didn&rsquo;t control for X.&rdquo;  You have to explain why including X as a control is important.  And again, include citations.  You should also suggest a source of data for X.  Btw, at least in my book, omitting a control&mdash;even one you&rsquo;re totally sure is a source of spuriousness&mdash;is an R&amp;R-able offense, not one that condemns the perpetrating manuscript to rejection.  Give the authors a chance to show you you&rsquo;re mistaken on this.</p></li>
-
-<li><p>Are the coefficients and statistical significance interpreted correctly?  <a href="http://www.jstor.org/stable/2669316">Are the quantities of substantive interest, such as predicted probabilities, estimated and plotted?</a>  With their associated uncertainty?</p></li>
-
-<li><p>Can any included tables be made into graphs?  Probably, so be specific about what you have in mind, cite to <a href="http://www.jstor.org/stable/20446574">Kastellec and Leoni&rsquo;s (2007) <em>Perspectives</em> article</a>, and maybe even give the <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html"><code>dotwhisker</code> package</a> a shout-out if you think it&rsquo;d help.</p></li>
-</ul></li>
-
-<li><p>Note what you&rsquo;re NOT evaluating: the results themselves.  Don&rsquo;t filter on statistical significance: we need to avoid contributing <a href="http://www.jstor.org/stable/25791658">to publication bias</a> and the pressure way too many people apparently feel <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">to p-hack their way to publication</a>.  And this should go without saying, but be sure to check your own presuppositions about what the results &lsquo;should&rsquo; show at the door.</p>
-
-<ul>
-<li><p>Nor the question asked. Don&rsquo;t suggest that authors &ldquo;reframe&rdquo; their work around some similar (or not so similar) question. Don&rsquo;t say that the question just isn&rsquo;t important enough for the AJPS.<a href="#note3" id="note3ref"><sup>3</sup></a> If you&rsquo;ve been in my classes, you&rsquo;ve probably had me push you to ask <em>important</em> questions; you know I totally think that&rsquo;s a big deal.  But as a reviewer, as Justin Esarey <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf">argued in the <em>TPM</em> Special Issue on Peer Review</a>, deciding whether the question asked was sufficiently important for publication isn&rsquo;t your job.  That&rsquo;s for the editor maybe, but really it is for us all as a discipline, as readers.</p></li>
-
-<li><p>Nor typos, grammar, or citation formatting.  If it&rsquo;s <em>really, really</em> bad, I&rsquo;ll point out that it&rsquo;s something the author should be sure to work on.  But <a href="https://twitter.com/thosjleeper/status/849726360922849280">don&rsquo;t send in a bunch of line edits</a>.  I <em>will</em> always note if I see that cited works are not included in the bibliography.  BibTeX is your friend, people!</p></li>
-</ul></li>
+<li>
+<p>Theory: if you think that the authors<!-- raw HTML omitted --><!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted --> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don&rsquo;t have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. Reviews aren&rsquo;t the place to develop your own new rival theory.  If you&rsquo;re <em>really</em> tempted to do so, plan instead on responding to this paper when it comes out in print.</p>
+</li>
+<li>
+<p>Data: do the authors take advantage of all available data?  Probably not&mdash;we can&rsquo;t all look at everything all the time&mdash;but if they&rsquo;ve neglected obvious things: using, for example, just that oddball third wave of <a href="http://worldvaluessurvey.org">the WVS</a> instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so.  Of course, if they use some source and you know that there&rsquo;s other, better data available, point that out to them.</p>
+</li>
+<li>
+<p>Methods: First, are the methods appropriate?  In answering this, you have to judge the methods on their own terms: <a href="https://twitter.com/PoliticalApe13/status/820390342759419910">NOT, oh, this study uses survey data, so tells us nothing about causality! OR this study just reports an experiment, so it has no external validity!</a></p>
+</li>
 </ol>
-
-<p>Finally and above all: take a considerate, <em>helpful</em> tone.  Research is hard, and the peer-review process is difficult and frustrating for all of us.  Contribute to the collective good by pitching your comments in a constructive tone that you would be happy to read in reviews of your own work.  In other words, <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a>.<a href="#note4" id="note4ref"><sup>4</sup></a>  Even if just about everything is going to need to be redone before the manuscript has any shot at publication&mdash;and you know, sometimes it really does&mdash;write that in a sympathetic way, remembering that there&rsquo;s another person who will read your words about their work.  And always find at least one good quality of the paper to highlight.  Be sure to return to that point at the end of your review.</p>
-
-<hr />
-
-<p><a id="note1" href="#note1ref"><sup>1</sup></a> I&rsquo;ve settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore &ldquo;they.&rdquo;</p>
-
-<p><a id="note2" href="#note2ref"><sup>2</sup></a> This is point number one on <a href="https://twitter.com/BrendanNyhan">Brendan Nyhan</a>&rsquo;s &ldquo;Checklist Manifesto for Peer Review&rdquo; in <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf"><em>The Political Methodologist</em>&rsquo;s Special Issue on Peer Review</a>.  Read the whole issue!</p>
-
-<p><a id="note3" href="#note3ref"><sup>3</sup></a> OTOH, you <em>should</em> <a href="https://twitter.com/DToshkov/status/826705971124830209">give people credit when they take on hard questions</a> with less-than-ideal data and methods if those data and methods are (approximately) the best available.</p>
-
-<p><a id="note4" href="#note4ref"><sup>4</sup></a> Not that jerk, <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a>.  In addition to checking out <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a> on Twitter, you should also be sure to read <a href="https://twitter.com/thosjleeper">Thomas Leeper</a>&rsquo;s <a href="http://thomasleeper.com/2016/08/be-reviewer-one/">manifesto that started it all</a>.</p>
+<ul>
+<li>
+<p>Are interaction terms properly constructed and interpreted?<!-- raw HTML omitted --><!-- raw HTML omitted -->2<!-- raw HTML omitted --><!-- raw HTML omitted -->  There&rsquo;s software that makes this super-easy. Recommend it by name: &ldquo;There&rsquo;s <a href="http://myweb.uiowa.edu/fboehmke/methods.html"><code>grinter</code> for Stata</a> and <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html"><code>interplot</code> for R</a>.&rdquo;  Include cites to <a href="https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8">Braumoeller&rsquo;s (2004) <em>IO</em> article</a> and/or <a href="http://www.jstor.org/stable/25791835">Brambor, Clark, and Golder (2006) in <em>PA</em></a>, too.</p>
+</li>
+<li>
+<p>Are the included controls appropriate?  Do the authors include controls that are plausibly causally downstream from their IVs?  <a href="https://books.google.com/books?id=lV3DIdV0F9AC&amp;printsec=frontcover&amp;dq=gelman+and+hill&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjZyJHgoqXTAhWF6oMKHRS2Ay8Q6AEIJDAA#v=onepage&amp;q=messes+up&amp;f=false">That messes up results.</a> Include citations. Conversely, do they <em>exclude</em> variables that would plausibly confound the relationship between the IV and the DV?  It&rsquo;s not enough to say that &ldquo;oh, they didn&rsquo;t control for X.&rdquo;  You have to explain why including X as a control is important.  And again, include citations.  You should also suggest a source of data for X.  Btw, at least in my book, omitting a control&mdash;even one you&rsquo;re totally sure is a source of spuriousness&mdash;is an R&amp;R-able offense, not one that condemns the perpetrating manuscript to rejection.  Give the authors a chance to show you you&rsquo;re mistaken on this.</p>
+</li>
+<li>
+<p>Are the coefficients and statistical significance interpreted correctly?  <a href="http://www.jstor.org/stable/2669316">Are the quantities of substantive interest, such as predicted probabilities, estimated and plotted?</a>  With their associated uncertainty?</p>
+</li>
+<li>
+<p>Can any included tables be made into graphs?  Probably, so be specific about what you have in mind, cite to <a href="http://www.jstor.org/stable/20446574">Kastellec and Leoni&rsquo;s (2007) <em>Perspectives</em> article</a>, and maybe even give the <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html"><code>dotwhisker</code> package</a> a shout-out if you think it&rsquo;d help.</p>
+</li>
+</ul>
+<ol start="4">
+<li>Note what you&rsquo;re NOT evaluating: the results themselves.  Don&rsquo;t filter on statistical significance: we need to avoid contributing <a href="http://www.jstor.org/stable/25791658">to publication bias</a> and the pressure way too many people apparently feel <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">to p-hack their way to publication</a>.  And this should go without saying, but be sure to check your own presuppositions about what the results &lsquo;should&rsquo; show at the door.</li>
+</ol>
+<ul>
+<li>
+<p>Nor the question asked. Don&rsquo;t suggest that authors &ldquo;reframe&rdquo; their work around some similar (or not so similar) question. Don&rsquo;t say that the question just isn&rsquo;t important enough for the AJPS.<!-- raw HTML omitted --><!-- raw HTML omitted -->3<!-- raw HTML omitted --><!-- raw HTML omitted --> If you&rsquo;ve been in my classes, you&rsquo;ve probably had me push you to ask <em>important</em> questions; you know I totally think that&rsquo;s a big deal.  But as a reviewer, as Justin Esarey <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf">argued in the <em>TPM</em> Special Issue on Peer Review</a>, deciding whether the question asked was sufficiently important for publication isn&rsquo;t your job.  That&rsquo;s for the editor maybe, but really it is for us all as a discipline, as readers.</p>
+</li>
+<li>
+<p>Nor typos, grammar, or citation formatting.  If it&rsquo;s <em>really, really</em> bad, I&rsquo;ll point out that it&rsquo;s something the author should be sure to work on.  But <a href="https://twitter.com/thosjleeper/status/849726360922849280">don&rsquo;t send in a bunch of line edits</a>.  I <em>will</em> always note if I see that cited works are not included in the bibliography.  BibTeX is your friend, people!</p>
+</li>
+</ul>
+<p>Finally and above all: take a considerate, <em>helpful</em> tone.  Research is hard, and the peer-review process is difficult and frustrating for all of us.  Contribute to the collective good by pitching your comments in a constructive tone that you would be happy to read in reviews of your own work.  In other words, <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a>.<!-- raw HTML omitted --><!-- raw HTML omitted -->4<!-- raw HTML omitted --><!-- raw HTML omitted -->  Even if just about everything is going to need to be redone before the manuscript has any shot at publication&mdash;and you know, sometimes it really does&mdash;write that in a sympathetic way, remembering that there&rsquo;s another person who will read your words about their work.  And always find at least one good quality of the paper to highlight.  Be sure to return to that point at the end of your review.</p>
+<hr>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted --> I&rsquo;ve settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore &ldquo;they.&rdquo;</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->2<!-- raw HTML omitted --><!-- raw HTML omitted --> This is point number one on <a href="https://twitter.com/BrendanNyhan">Brendan Nyhan</a>&lsquo;s &ldquo;Checklist Manifesto for Peer Review&rdquo; in <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf"><em>The Political Methodologist</em>&lsquo;s Special Issue on Peer Review</a>.  Read the whole issue!</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->3<!-- raw HTML omitted --><!-- raw HTML omitted --> OTOH, you <em>should</em> <a href="https://twitter.com/DToshkov/status/826705971124830209">give people credit when they take on hard questions</a> with less-than-ideal data and methods if those data and methods are (approximately) the best available.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->4<!-- raw HTML omitted --><!-- raw HTML omitted --> Not that jerk, <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a>.  In addition to checking out <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a> on Twitter, you should also be sure to read <a href="https://twitter.com/thosjleeper">Thomas Leeper</a>&lsquo;s <a href="http://thomasleeper.com/2016/08/be-reviewer-one/">manifesto that started it all</a>.</p>
 
     </div>
     
@@ -628,11 +662,14 @@ stata(&quot;
       <h5>Thursday, 21 July 2016</h5>
     <div class="entry">
         <p>Version 5.1 of the SWIID is <a href="/swiid/swiid_downloads/">now available</a>!  It revises and updates the SWIID&rsquo;s source data and estimates.  It also includes expanded training modules explaining how to take into account the uncertainty in the estimates in both R and Stata.</p>
-
 <p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
 
     </div>
     
+  
+
+  
+
   
 
   
@@ -644,6 +681,8 @@ stata(&quot;
 
     </div>
     
+  
+
   
 
   
@@ -679,6 +718,10 @@ stata(&quot;
 
   
 
+  
+
+  
+
       <h3><a href="/blog/2015/08/10/nsf-swiid/">SWIID Wins NSF Support!</a></h3>
       <h5>Monday, 10 August 2015</h5>
     <div class="entry">
@@ -690,15 +733,18 @@ stata(&quot;
 
   
 
+  
+
       <h3><a href="/blog/2015/07/30/dotwhisker-for-apsa/">Use dotwhisker for your APSA slides!</a></h3>
       <h5>Thursday, 30 July 2015</h5>
     <div class="entry">
         <p>With the APSA coming up, and in the interest of minimizing the number of times we hear &ldquo;sorry, I know you won&rsquo;t really be able to see these regression coefficients,&rdquo; I thought I&rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of <a href="http://dx.doi.org/10.1017/S1537592707072209">Kastellec and Leoni&rsquo;s (2007) <em>Perspectives</em> article</a> quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post. I hope you&rsquo;ll find it useful, and if you have any suggestions for us, that you&rsquo;ll file an issue at <a href="https://github.com/fsolt/dotwhisker">https://github.com/fsolt/dotwhisker</a>, tweet to me @fredericksolt, or just send me an email <a href="mailto:frederick-solt@uiowa.edu">frederick-solt@uiowa.edu</a>.</p>
-
-<p><img class="imageStyle" alt="Download" src="/blog/dotwhisker1.jpg" width="650"/></p>
+<!-- raw HTML omitted -->
 
     </div>
     
+  
+
   
 
   
@@ -707,8 +753,7 @@ stata(&quot;
       <h5>Friday, 26 June 2015</h5>
     <div class="entry">
         <p>Hu Yue and I just published <a href="https://cran.r-project.org/web/packages/interplot"><code>interplot</code> on CRAN</a>, our first R package.  <code>interplot</code> makes graphing the coefficients of variables in interaction terms easy.  It outputs <code>ggplot</code> objects, so further customization is simple.  Check out <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html">the vignette</a> and give it a try!</p>
-
-<p><img class="imageStyle" alt="Download" src="/blog/interplot1.png" width="600"/></p>
+<!-- raw HTML omitted -->
 
     </div>
     
@@ -720,8 +765,7 @@ stata(&quot;
       <h5>Friday, 27 March 2015</h5>
     <div class="entry">
         <p>A <a href="http://www.imf.org/external/pubs/ft/wp/2015/wp1568.pdf">new working paper</a> by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world.  Here&rsquo;s a graph of SWIIDv5.0 data that illustrates their point.</p>
-
-<p><img class="imageStyle" alt="Download" src="/swiid/china.jpg" width="760" height="450"/></p>
+<!-- raw HTML omitted -->
 
     </div>
     
@@ -733,9 +777,7 @@ stata(&quot;
       <h5>Thursday, 2 October 2014</h5>
     <div class="entry">
         <p>Version 5.0 of the SWIID is <a href="/swiid/swiid_downloads/">now available</a>, and it is a major update.  A new article of record (currently available as a working paper while under peer review) reviews the problem of comparability in cross-national income inequality data, explains how the SWIID addresses the issue, assesses the SWIID&rsquo;s performance in comparison to the available alternatives, and explains how to use the SWIID data in cross-national analyses.</p>
-
 <p>The new version also marks the debut of the SWIID web application.  The web application allows users to graph the SWIID estimates of any of net-income income, market-income inequality, relative redistribution, or absolute redistribution in as many as four countries or to compare these measures within a single country.  Its output can be downloaded with a click for use in reports or articles.  I hope that it will be of particular value to policymakers, journalists, students, and others who need to make straightforward comparisons of levels and trends in income inequality.</p>
-
 <p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
 
     </div>
@@ -748,9 +790,7 @@ stata(&quot;
       <h5>Monday, 30 September 2013</h5>
     <div class="entry">
         <p>Version 4.0 of the SWIID is now available <a href="../swiid/swiid_downloads.html">here</a>.  Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version provides even better estimates of income inequality in countries around the world than in previous versions.</p>
-
-<p>This version introduces two other improvements.  First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates.  The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one&rsquo;s analyses.  Fortunately, there are now tools in Stata and R that make it quite straightforward to analyze data that is measured with error, and this version of the SWIID includes files that are pre-formatted for use with these tools.  The file &ldquo;Using the SWIID.pdf&rdquo;, which is also included in the data download, explains how.  Some additional examples of using the SWIID with Stata&rsquo;s <code>mi estimate</code> command prefix can be found towards the end of the slides posted <a href="../papers/swiid_un_talk" rel="self">here</a>.<br /><br />Second, I&rsquo;ve received several requests for measures of top income share, so in this version I am including estimates of the top 1 percent&rsquo;s share (the variable share1), standardized to the data provided in the <a href="http://topincomes.g-mond.parisschoolofeconomics.eu" rel="self">World Top Incomes Database</a>: Country-years included in that dataset are reproduced without modification in the SWIID, and comparable figures for other country-years are estimated using the SWIID&rsquo;s custom multiple-imputation algorithm.  Like all inequality datasets, Top Incomes has tradeoffs&mdash;among other things, the share of pre-tax, pre-transfer income reported on tax returns by the richest filers may not be of much theoretical interest to many investigators&mdash;but the additional estimates the SWIID provides may prove to be useful to some.</p>
-
+<p>This version introduces two other improvements.  First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates.  The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one’s analyses.  Fortunately, there are now tools in Stata and R that make it quite straightforward to analyze data that is measured with error, and this version of the SWIID includes files that are pre-formatted for use with these tools.  The file &ldquo;Using the SWIID.pdf&rdquo;, which is also included in the data download, explains how.  Some additional examples of using the SWIID with Stata&rsquo;s <code>mi estimate</code> command prefix can be found towards the end of the slides posted <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.<!-- raw HTML omitted --><!-- raw HTML omitted -->Second, I&rsquo;ve received several requests for measures of top income share, so in this version I am including estimates of the top 1 percent&rsquo;s share (the variable share1), standardized to the data provided in the <!-- raw HTML omitted -->World Top Incomes Database<!-- raw HTML omitted -->: Country-years included in that dataset are reproduced without modification in the SWIID, and comparable figures for other country-years are estimated using the SWIID&rsquo;s custom multiple-imputation algorithm.  Like all inequality datasets, Top Incomes has tradeoffs&mdash;among other things, the share of pre-tax, pre-transfer income reported on tax returns by the richest filers may not be of much theoretical interest to many investigators&mdash;but the additional estimates the SWIID provides may prove to be useful to some.</p>
 <p>I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
 
     </div>
@@ -762,7 +802,7 @@ stata(&quot;
       <h3><a href="/blog/2013/09/29/my-un-talk/">My talk at the UN</a></h3>
       <h5>Sunday, 29 September 2013</h5>
     <div class="entry">
-        <p>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the <a href="http://www.un.org/en/development/desa/policy/index.shtml" rel="self">Development Policy and Analysis Division</a> of the United Nations&rsquo; Department of Economic and Social Affairs.  I had some great conversations and got lots of useful feedback.  Slides for the talk can be found <a href="/papers/swiid_un_talk" rel="self">here</a>.</p>
+        <p>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the <!-- raw HTML omitted -->Development Policy and Analysis Division<!-- raw HTML omitted --> of the United Nations&rsquo; Department of Economic and Social Affairs.  I had some great conversations and got lots of useful feedback.  Slides for the talk can be found <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.</p>
 
     </div>
     
@@ -785,15 +825,10 @@ stata(&quot;
       <h5>Sunday, 11 July 2010</h5>
     <div class="entry">
         <p>Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.</p>
-
-<p>The data on which the SWIID is based have been expanded.  I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID.  As before, these data are available in the replication materials for those who are interested.  Major sources for these data include the <a href="http://iresearch.worldbank.org/PovcalNet/povcalSvy.html" rel="self">World Bank&rsquo;s Povcalnet</a>, the <a href="http://www.depeco.econo.unlp.edu.ar/sedlac/eng/index.php" rel="self">Socio-Economic Database for Latin America</a>, <a href="http://go.worldbank.org/9VCQW66LA0" rel="self">Branko Milanovic&rsquo;s World Income Distribution data (&ldquo;All the Ginis&rdquo;)</a>, and the <a href="http://laborsta.ilo.org/" rel="self">ILO&rsquo;s Household Income and Expenditure Statistics</a>, but a multitude of national statistical offices and other sources were also consulted.</p>
-
-<p>The SWIID also now incorporates the University of Texas Inequality Project&rsquo;s <a href="http://utip.gov.utexas.edu/data.html" rel="self">UTIP-UNIDO dataset</a> on differences in pay across industrial sectors.  Across countries and years, these data explain only about half of the variation in net income inequality (and much less of gross income inequality) and so yield predictions with prohibitively large standard errors when employed in this way, but where there was sufficient data available, I used the UTIP data to make within-country loess predictions of both net and gross income inequality that informed the SWIID estimates.</p>
-
+<p>The data on which the SWIID is based have been expanded.  I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID.  As before, these data are available in the replication materials for those who are interested.  Major sources for these data include the <!-- raw HTML omitted -->World Bank&rsquo;s Povcalnet<!-- raw HTML omitted -->, the <!-- raw HTML omitted -->Socio-Economic Database for Latin America<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Branko Milanovic&rsquo;s World Income Distribution data (&ldquo;All the Ginis&rdquo;)<!-- raw HTML omitted -->, and the <!-- raw HTML omitted -->ILO&rsquo;s Household Income and Expenditure Statistics<!-- raw HTML omitted -->, but a multitude of national statistical offices and other sources were also consulted.</p>
+<p>The SWIID also now incorporates the University of Texas Inequality Project&rsquo;s <!-- raw HTML omitted -->UTIP-UNIDO dataset<!-- raw HTML omitted --> on differences in pay across industrial sectors.  Across countries and years, these data explain only about half of the variation in net income inequality (and much less of gross income inequality) and so yield predictions with prohibitively large standard errors when employed in this way, but where there was sufficient data available, I used the UTIP data to make within-country loess predictions of both net and gross income inequality that informed the SWIID estimates.</p>
 <p>The imputation routine used for generating the SWIID was cleaned up: the code now runs more efficiently, and a few errors were corrected.</p>
-
-<p>Many researchers have asked me about using the SWIID to examine questions of redistribution, so I now include in the dataset the percentage reduction in gross income inequality (that is, the difference between the gross and net income inequality, divided by gross income inequality, multiplied by 100) as an estimate of redistribution (&ldquo;redist&rdquo;) as well as its associated standard error (&ldquo;redist_se&rdquo;).  The standard errors for redistribution are particularly important to take into account, as they can often be quite large relative to the size of the estimates.  Observations for redistribution are omitted for countries for which the source data do not include multiple observations of either net or gross income inequality: in such cases, although the two inequality series each still constitute the most comparable available estimates, the difference between them reflects only information from other countries, and treating it as meaningful independent information about redistribution would be unwise.  Similarly, because the underlying data is often thin in the early years included in the SWIID, redistribution is only reported after 1975 for most of the advanced countries and only after 1985 for most countries in the developing world.</p>
-
+<p>Many researchers have asked me about using the SWIID to examine questions of redistribution, so I now include in the dataset the percentage reduction in gross income inequality (that is, the difference between the gross and net income inequality, divided by gross income inequality, multiplied by 100) as an estimate of redistribution (“redist”) as well as its associated standard error (“redist_se”).  The standard errors for redistribution are particularly important to take into account, as they can often be quite large relative to the size of the estimates.  Observations for redistribution are omitted for countries for which the source data do not include multiple observations of either net or gross income inequality: in such cases, although the two inequality series each still constitute the most comparable available estimates, the difference between them reflects only information from other countries, and treating it as meaningful independent information about redistribution would be unwise.  Similarly, because the underlying data is often thin in the early years included in the SWIID, redistribution is only reported after 1975 for most of the advanced countries and only after 1985 for most countries in the developing world.</p>
 <p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
 
     </div>
@@ -806,7 +841,6 @@ stata(&quot;
       <h5>Sunday, 20 June 2010</h5>
     <div class="entry">
         <p>Incorporating the standard errors in the SWIID estimates into one&rsquo;s analyses is the right thing to do, but it is not a trivial exercise.  I myself have left it out of some work where I felt the model was already maxed out on complexity (though in such cases, I advise at least excluding observations with particularly large errors).  The short story is that one generates a bunch of Monte Carlo simulations of the SWIID data from the estimates and standard errors, then analyses each simulation, then combines the results of the multiple analyses as one would in a multiple-imputation setup (this should be easier to do with Stata 11&rsquo;s new multiple-imputation tools, but I won&rsquo;t get my copy of Stata 11 until the fall&ndash;oh well).  The code below does the trick.</p>
-
 <pre><code>**Using the SWIID Standard Errors: An Example**
 //Load SWIID and generate fake data for example
 use &quot;SWIIDv2_0.dta&quot;, clear
@@ -818,9 +852,9 @@ gen y = .03*x1 + 3*x2 + .5*x3 + .05*gini_net + 5 + 20*rnormal()
 reg y x1 x2 x3 gini_net
 
 //Generate ten Monte Carlo simulations of the gini_net series
-egen ccode=group(country)               
-tsset ccode year                        
-set seed 3166                           
+egen ccode=group(country)				
+tsset ccode year						
+set seed 3166							
 forvalues a = 1/10 {
     gen e0 = rnormal()
     quietly tssmooth ma e00 = e0, weight (1 1 &lt;2&gt; 1 1)
@@ -830,20 +864,20 @@ forvalues a = 1/10 {
 }
 
 //Perform analysis using each of the ten simulations, saving the results
-local other_ivs = &quot;x1 x2 x3&quot;        /*to be replaced with your other IVs, that is, not including gini_net or the constant*/
-local n_ivs = 5             /*to be replaced with the number of IVs, now *including* gini_net and the constant*/
+local other_ivs = &quot;x1 x2 x3&quot;		/*to be replaced with your other IVs, that is, not including gini_net or the constant*/
+local n_ivs = 5				/*to be replaced with the number of IVs, now *including* gini_net and the constant*/
 matrix coef = J(`n_ivs', 10, -99)
 matrix se = J(`n_ivs', 10, -99)
 matrix r_sq = J(1, 10, -99)
 forvalues a = 1/10 {
-    quietly reg y `other_ivs' g`a'  /*to be replaced with your analysis*/   
+    quietly reg y `other_ivs' g`a'	/*to be replaced with your analysis*/	
     matrix coef[1,`a'] = e(b)'
     matrix A = e(V)
     forvalues b = 1/`n_ivs' {
             matrix se[`b', `a'] = (A[`b',`b'])
     }
     matrix r_sq[1, `a'] = e(r2)
-}       
+}		
 
 local cases = e(N)
 
@@ -881,7 +915,6 @@ local r2 = round(`r(mean)', .001)
 di &quot;R-sq = `r2'&quot;
 di &quot;N = `cases'&quot;
 </code></pre>
-
 <p>Please feel free to drop me an email if you have any questions or comments.</p>
 
     </div>
@@ -930,30 +963,6 @@ di &quot;N = `cases'&quot;
 
     </div>
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
   

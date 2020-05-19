@@ -239,28 +239,28 @@ x &lt;- data.frame(a = rnorm(3), b = letters[1:3])
 stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 <pre><code>## . sum a
 ## 
-##     Variable |       Obs        Mean    Std. Dev.       Min        Max
-## -------------+--------------------------------------------------------
-##            a |         3    .0157619    .6048126  -.3437544   .7140365</code></pre>
+##     Variable |        Obs        Mean    Std. Dev.       Min        Max
+## -------------+---------------------------------------------------------
+##            a |          3    .1229093    .1445732   .0158901   .2873765</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
 ## (1978 Automobile Data)</code></pre>
 <pre class="r"><code>head(auto)</code></pre>
-<pre><code>##            make price mpg rep78 headroom trunk weight length turn
-## 1   AMC Concord  4099  22     3      2.5    11   2930    186   40
-## 2     AMC Pacer  4749  17     3      3.0    11   3350    173   40
-## 3    AMC Spirit  3799  22    NA      3.0    12   2640    168   35
-## 4 Buick Century  4816  20     3      4.5    16   3250    196   40
-## 5 Buick Electra  7827  15     4      4.0    20   4080    222   43
-## 6 Buick LeSabre  5788  18     3      4.0    21   3670    218   43
-##   displacement gear_ratio  foreign
-## 1          121       3.58 Domestic
-## 2          258       2.53 Domestic
-## 3          121       3.08 Domestic
-## 4          196       2.93 Domestic
-## 5          350       2.41 Domestic
-## 6          231       2.73 Domestic</code></pre>
+<pre><code>##            make price mpg rep78 headroom trunk weight length turn displacement
+## 1   AMC Concord  4099  22     3      2.5    11   2930    186   40          121
+## 2     AMC Pacer  4749  17     3      3.0    11   3350    173   40          258
+## 3    AMC Spirit  3799  22    NA      3.0    12   2640    168   35          121
+## 4 Buick Century  4816  20     3      4.5    16   3250    196   40          196
+## 5 Buick Electra  7827  15     4      4.0    20   4080    222   43          350
+## 6 Buick LeSabre  5788  18     3      4.0    21   3670    218   43          231
+##   gear_ratio  foreign
+## 1       3.58 Domestic
+## 2       2.53 Domestic
+## 3       3.08 Domestic
+## 4       2.93 Domestic
+## 5       2.41 Domestic
+## 6       2.73 Domestic</code></pre>
 <pre class="r"><code>## Data input/output
 (y &lt;- stata(&quot;replace a = 2&quot;, data.in = x, data.out = TRUE))</code></pre>
 <pre><code>## . replace a = 2
@@ -278,26 +278,26 @@ stata(&quot;
 <pre><code>## . 
 ## .     sum y x1 x2
 ## 
-##     Variable |       Obs        Mean    Std. Dev.       Min        Max
-## -------------+--------------------------------------------------------
-##            y |       100   -.2265245    .9279628  -2.140921   3.456609
-##           x1 |       100    .0235107    .9654566  -2.089315   2.085599
-##           x2 |       100   -.1990955    1.054259  -2.800112   1.768455
+##     Variable |        Obs        Mean    Std. Dev.       Min        Max
+## -------------+---------------------------------------------------------
+##            y |        100    .0258361    .9648434  -2.568967   2.463058
+##           x1 |        100     .141226    .9406417   -2.21647   2.417482
+##           x2 |        100    .0368805    1.085392  -2.716206   2.950652
 ## .     reg y x1 x2
 ## 
-##       Source |       SS       df       MS              Number of obs =     100
-## -------------+------------------------------           F(  2,    97) =    1.25
-##        Model |  2.14131244     2  1.07065622           Prob &gt; F      =  0.2912
-##     Residual |  83.1090619    97  .856794452           R-squared     =  0.0251
-## -------------+------------------------------           Adj R-squared =  0.0050
-##        Total |  85.2503743    99  .861114892           Root MSE      =  .92563
+##       Source |       SS           df       MS      Number of obs   =       100
+## -------------+----------------------------------   F(2, 97)        =      0.68
+##        Model |  1.28189288         2  .640946438   Prob &gt; F        =    0.5070
+##     Residual |  90.8794657        97  .936901708   R-squared       =    0.0139
+## -------------+----------------------------------   Adj R-squared   =   -0.0064
+##        Total |  92.1613586        99  .930922814   Root MSE        =    .96794
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.0224969   .0970207    -0.23   0.817    -.2150562    .1700624
-##           x2 |   .1403954   .0888485     1.58   0.117    -.0359443     .316735
-##        _cons |  -.1980435   .0943158    -2.10   0.038    -.3852343   -.0108527
+##           x1 |    .075302   .1046113     0.72   0.473    -.1323225    .2829264
+##           x2 |  -.0728165   .0906601    -0.80   0.424    -.2527518    .1071188
+##        _cons |    .017887   .0980476     0.18   0.856    -.1767103    .2124844
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -348,10 +348,10 @@ stata(&quot;
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>Arthur also recommends vikjam’s <a href="https://github.com/vikjam/mostly-harmless-replication">Mostly Harmless Replication</a>, which replicates most of the figures and tables of <a href="http://www.mostlyharmlesseconometrics.com/">Mostly Harmless Econometrics</a> in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Arthur also recommends vikjam’s <a href="https://github.com/vikjam/mostly-harmless-replication">Mostly Harmless Replication</a>, which replicates most of the figures and tables of <a href="http://www.mostlyharmlesseconometrics.com/">Mostly Harmless Econometrics</a> in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 

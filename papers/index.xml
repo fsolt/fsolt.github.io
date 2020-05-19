@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Papers on Frederick Solt</title>
@@ -43,24 +43,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://fsolt.org/papers/rittersolt2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SSCC2007</title>
-      <link>http://fsolt.org/papers/sscc2007/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fsolt.org/papers/sscc2007/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SWIID_UN_Talk</title>
-      <link>http://fsolt.org/papers/swiid_un_talk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://fsolt.org/papers/swiid_un_talk/</guid>
       <description></description>
     </item>
     
@@ -227,20 +209,20 @@
     </item>
     
     <item>
-      <title>Solt2019</title>
-      <link>http://fsolt.org/papers/solt2019/</link>
+      <title>Solt2020</title>
+      <link>http://fsolt.org/papers/solt2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/papers/solt2019/</guid>
+      <guid>http://fsolt.org/papers/solt2020/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SoltHabelGrant2011</title>
-      <link>http://fsolt.org/papers/solthabelgrant2011/</link>
+      <title>Solt2020_pre</title>
+      <link>http://fsolt.org/papers/solt2020_pre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://fsolt.org/papers/solthabelgrant2011/</guid>
+      <guid>http://fsolt.org/papers/solt2020_pre/</guid>
       <description></description>
     </item>
     
@@ -268,6 +250,33 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://fsolt.org/papers/soltetal2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoltHabelGrant2011</title>
+      <link>http://fsolt.org/papers/solthabelgrant2011/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/papers/solthabelgrant2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSCC2007</title>
+      <link>http://fsolt.org/papers/sscc2007/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/papers/sscc2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWIID_UN_Talk</title>
+      <link>http://fsolt.org/papers/swiid_un_talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/papers/swiid_un_talk/</guid>
       <description></description>
     </item>
     

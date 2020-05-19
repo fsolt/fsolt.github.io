@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Frederick Solt</title>
@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SWIID Version 8.3 is available!</title>
+      <link>http://fsolt.org/blog/2020/05/19/swiid-version-8_3/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2020/05/19/swiid-version-8_3/</guid>
+      <description>Version 8.3 of the SWIID is now available! This new release:
+ adds to its source data 925 new Ginis since version 8.2, including newly available LIS data on Chile, Denmark, Germany, Mexico, Peru, Slovenia, Belgium, Canada, the Czech Republic, Italy, and—for the first time—Palestine; and
+ includes estimates of market and disposable income inequality for 188 more country-years than version 8.2.
+  For more details, you can check out the all the R and Stan code used to generate the estimates in the SWIID GitHub repository.</description>
+    </item>
     
     <item>
       <title>SWIID Version 8.0 is available!</title>
@@ -282,7 +294,7 @@ The new version also marks the debut of the SWIID web application.</description>
       
       <guid>http://fsolt.org/blog/2013/09/30/swiid-version-4_0/</guid>
       <description>Version 4.0 of the SWIID is now available here. Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version provides even better estimates of income inequality in countries around the world than in previous versions.
-This version introduces two other improvements. First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates. The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one&amp;rsquo;s analyses.</description>
+This version introduces two other improvements. First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates. The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one’s analyses.</description>
     </item>
     
     <item>
@@ -291,7 +303,7 @@ This version introduces two other improvements. First, many users have had troub
       <pubDate>Sun, 29 Sep 2013 11:45:01 +0000</pubDate>
       
       <guid>http://fsolt.org/blog/2013/09/29/my-un-talk/</guid>
-      <description>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Division of the United Nations&amp;rsquo; Department of Economic and Social Affairs. I had some great conversations and got lots of useful feedback. Slides for the talk can be found here.</description>
+      <description>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Divisionof the United Nations&amp;rsquo; Department of Economic and Social Affairs. I had some great conversations and got lots of useful feedback. Slides for the talk can be found here.</description>
     </item>
     
     <item>

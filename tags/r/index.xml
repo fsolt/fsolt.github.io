@@ -1,15 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Frederick Solt</title>
+    <title>r on Frederick Solt</title>
     <link>http://fsolt.org/tags/r/</link>
-    <description>Recent content in R on Frederick Solt</description>
+    <description>Recent content in r on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://fsolt.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SWIID Version 8.3 is available!</title>
+      <link>http://fsolt.org/blog/2020/05/19/swiid-version-8_3/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2020/05/19/swiid-version-8_3/</guid>
+      <description>Version 8.3 of the SWIID is now available! This new release:
+ adds to its source data 925 new Ginis since version 8.2, including newly available LIS data on Chile, Denmark, Germany, Mexico, Peru, Slovenia, Belgium, Canada, the Czech Republic, Italy, and—for the first time—Palestine; and
+ includes estimates of market and disposable income inequality for 188 more country-years than version 8.2.
+  For more details, you can check out the all the R and Stan code used to generate the estimates in the SWIID GitHub repository.</description>
+    </item>
     
     <item>
       <title>SWIID Version 8.0 is available!</title>

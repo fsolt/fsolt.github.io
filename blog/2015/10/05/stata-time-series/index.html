@@ -172,13 +172,11 @@
 
 <div class="post">
   <p>To use Stata’s time-series operators (<code>l.</code> , <code>f.</code> , <code>d.</code> , etc.), you must first declare the time and panel variables using <code>tsset</code>, but the SWIID is already <code>mi set</code>, so <code>tsset</code> won’t work. Run the following before merging the rest of your data (called <code>my_data.dta</code> in this example) into the SWIID:</p>
-
 <pre><code>use SWIIDv5_1.dta, clear
 egen cc = group(country)  
 mi tsset cc year
 merge 1:1 country year using &quot;my_data.dta&quot;, keep(match master) 
 </code></pre>
-
 <p>Now you’ll be able to use <code>l.</code> and the rest of Stata’s time-series operators.</p>
 
 </div>
