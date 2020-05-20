@@ -338,7 +338,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |        Obs        Mean    Std. Dev.       Min        Max
 ## -------------+---------------------------------------------------------
-##            a |          3    -.448285    1.035663  -1.130013   .7434803</code></pre>
+##            a |          3     .393771    .4523236   .0774071   .9118585</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -377,24 +377,24 @@ stata(&quot;
 ## 
 ##     Variable |        Obs        Mean    Std. Dev.       Min        Max
 ## -------------+---------------------------------------------------------
-##            y |        100    .1205947    .9668632  -2.832613   2.114251
-##           x1 |        100   -.1056506    .9440698   -2.30744   2.286171
-##           x2 |        100   -.0239945    1.085965  -2.146824   2.807472
+##            y |        100   -.0950369    1.064128  -2.854174   2.449826
+##           x1 |        100   -.0474045    .9444036  -2.655442    2.63021
+##           x2 |        100    .0823822    1.079549  -2.541307   3.128122
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS           df       MS      Number of obs   =       100
 ## -------------+----------------------------------   F(2, 97)        =      0.41
-##        Model |    .7728544         2    .3864272   Prob &gt; F        =    0.6658
-##     Residual |  91.7747606        97  .946131553   R-squared       =    0.0084
-## -------------+----------------------------------   Adj R-squared   =   -0.0121
-##        Total |   92.547615        99  .934824394   Root MSE        =    .97269
+##        Model |  .945233066         2  .472616533   Prob &gt; F        =    0.6632
+##     Residual |  111.159328        97  1.14597245   R-squared       =    0.0084
+## -------------+----------------------------------   Adj R-squared   =   -0.0120
+##        Total |  112.104561        99   1.1323693   Root MSE        =    1.0705
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.0560341   .1035548    -0.54   0.590    -.2615616    .1494934
-##           x2 |   .0655856    .090024     0.73   0.468    -.1130871    .2442584
-##        _cons |   .1162484   .0979044     1.19   0.238    -.0780648    .3105615
+##           x1 |  -.0035324   .1154221    -0.03   0.976    -.2326134    .2255486
+##           x2 |   .0909577   .1009728     0.90   0.370    -.1094453    .2913606
+##        _cons |  -.1026976   .1075801    -0.95   0.342    -.3162144    .1108191
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -611,7 +611,7 @@ stata(&quot;
 <p>I always start my reviews with a quick summary of the piece, but as reviewers, our focus should be on theory, data, and method.  For the big-three journals, the old saw is that the standard is &ldquo;new theory, new data, new method&mdash;choose any two,&rdquo; but regardless of the journal that has asked you to review, for a work to make a contribution, it has to be sound&mdash;not new, not super-great, just sound&mdash;on all three.  Here are a couple of quick notes on each, mostly of the points I find myself most often making:</p>
 <ol>
 <li>
-<p>Theory: if you think that the authors<!-- raw HTML omitted --><!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted --> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don&rsquo;t have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. Reviews aren&rsquo;t the place to develop your own new rival theory.  If you&rsquo;re <em>really</em> tempted to do so, plan instead on responding to this paper when it comes out in print.</p>
+<p>Theory: if you think that the authors<a href="#note1" id="note1ref"><sup>1</sup></a> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don&rsquo;t have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. Reviews aren&rsquo;t the place to develop your own new rival theory.  If you&rsquo;re <em>really</em> tempted to do so, plan instead on responding to this paper when it comes out in print.</p>
 </li>
 <li>
 <p>Data: do the authors take advantage of all available data?  Probably not&mdash;we can&rsquo;t all look at everything all the time&mdash;but if they&rsquo;ve neglected obvious things: using, for example, just that oddball third wave of <a href="http://worldvaluessurvey.org">the WVS</a> instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so.  Of course, if they use some source and you know that there&rsquo;s other, better data available, point that out to them.</p>
@@ -622,7 +622,7 @@ stata(&quot;
 </ol>
 <ul>
 <li>
-<p>Are interaction terms properly constructed and interpreted?<!-- raw HTML omitted --><!-- raw HTML omitted -->2<!-- raw HTML omitted --><!-- raw HTML omitted -->  There&rsquo;s software that makes this super-easy. Recommend it by name: &ldquo;There&rsquo;s <a href="http://myweb.uiowa.edu/fboehmke/methods.html"><code>grinter</code> for Stata</a> and <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html"><code>interplot</code> for R</a>.&rdquo;  Include cites to <a href="https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8">Braumoeller&rsquo;s (2004) <em>IO</em> article</a> and/or <a href="http://www.jstor.org/stable/25791835">Brambor, Clark, and Golder (2006) in <em>PA</em></a>, too.</p>
+<p>Are interaction terms properly constructed and interpreted?<a href="#note2" id="note2ref"><sup>2</sup></a>  There&rsquo;s software that makes this super-easy. Recommend it by name: &ldquo;There&rsquo;s <a href="http://myweb.uiowa.edu/fboehmke/methods.html"><code>grinter</code> for Stata</a> and <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html"><code>interplot</code> for R</a>.&rdquo;  Include cites to <a href="https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8">Braumoeller&rsquo;s (2004) <em>IO</em> article</a> and/or <a href="http://www.jstor.org/stable/25791835">Brambor, Clark, and Golder (2006) in <em>PA</em></a>, too.</p>
 </li>
 <li>
 <p>Are the included controls appropriate?  Do the authors include controls that are plausibly causally downstream from their IVs?  <a href="https://books.google.com/books?id=lV3DIdV0F9AC&amp;printsec=frontcover&amp;dq=gelman+and+hill&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjZyJHgoqXTAhWF6oMKHRS2Ay8Q6AEIJDAA#v=onepage&amp;q=messes+up&amp;f=false">That messes up results.</a> Include citations. Conversely, do they <em>exclude</em> variables that would plausibly confound the relationship between the IV and the DV?  It&rsquo;s not enough to say that &ldquo;oh, they didn&rsquo;t control for X.&rdquo;  You have to explain why including X as a control is important.  And again, include citations.  You should also suggest a source of data for X.  Btw, at least in my book, omitting a control&mdash;even one you&rsquo;re totally sure is a source of spuriousness&mdash;is an R&amp;R-able offense, not one that condemns the perpetrating manuscript to rejection.  Give the authors a chance to show you you&rsquo;re mistaken on this.</p>
@@ -639,18 +639,18 @@ stata(&quot;
 </ol>
 <ul>
 <li>
-<p>Nor the question asked. Don&rsquo;t suggest that authors &ldquo;reframe&rdquo; their work around some similar (or not so similar) question. Don&rsquo;t say that the question just isn&rsquo;t important enough for the AJPS.<!-- raw HTML omitted --><!-- raw HTML omitted -->3<!-- raw HTML omitted --><!-- raw HTML omitted --> If you&rsquo;ve been in my classes, you&rsquo;ve probably had me push you to ask <em>important</em> questions; you know I totally think that&rsquo;s a big deal.  But as a reviewer, as Justin Esarey <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf">argued in the <em>TPM</em> Special Issue on Peer Review</a>, deciding whether the question asked was sufficiently important for publication isn&rsquo;t your job.  That&rsquo;s for the editor maybe, but really it is for us all as a discipline, as readers.</p>
+<p>Nor the question asked. Don&rsquo;t suggest that authors &ldquo;reframe&rdquo; their work around some similar (or not so similar) question. Don&rsquo;t say that the question just isn&rsquo;t important enough for the AJPS.<a href="#note3" id="note3ref"><sup>3</sup></a> If you&rsquo;ve been in my classes, you&rsquo;ve probably had me push you to ask <em>important</em> questions; you know I totally think that&rsquo;s a big deal.  But as a reviewer, as Justin Esarey <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf">argued in the <em>TPM</em> Special Issue on Peer Review</a>, deciding whether the question asked was sufficiently important for publication isn&rsquo;t your job.  That&rsquo;s for the editor maybe, but really it is for us all as a discipline, as readers.</p>
 </li>
 <li>
 <p>Nor typos, grammar, or citation formatting.  If it&rsquo;s <em>really, really</em> bad, I&rsquo;ll point out that it&rsquo;s something the author should be sure to work on.  But <a href="https://twitter.com/thosjleeper/status/849726360922849280">don&rsquo;t send in a bunch of line edits</a>.  I <em>will</em> always note if I see that cited works are not included in the bibliography.  BibTeX is your friend, people!</p>
 </li>
 </ul>
-<p>Finally and above all: take a considerate, <em>helpful</em> tone.  Research is hard, and the peer-review process is difficult and frustrating for all of us.  Contribute to the collective good by pitching your comments in a constructive tone that you would be happy to read in reviews of your own work.  In other words, <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a>.<!-- raw HTML omitted --><!-- raw HTML omitted -->4<!-- raw HTML omitted --><!-- raw HTML omitted -->  Even if just about everything is going to need to be redone before the manuscript has any shot at publication&mdash;and you know, sometimes it really does&mdash;write that in a sympathetic way, remembering that there&rsquo;s another person who will read your words about their work.  And always find at least one good quality of the paper to highlight.  Be sure to return to that point at the end of your review.</p>
+<p>Finally and above all: take a considerate, <em>helpful</em> tone.  Research is hard, and the peer-review process is difficult and frustrating for all of us.  Contribute to the collective good by pitching your comments in a constructive tone that you would be happy to read in reviews of your own work.  In other words, <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a>.<a href="#note4" id="note4ref"><sup>4</sup></a>  Even if just about everything is going to need to be redone before the manuscript has any shot at publication&mdash;and you know, sometimes it really does&mdash;write that in a sympathetic way, remembering that there&rsquo;s another person who will read your words about their work.  And always find at least one good quality of the paper to highlight.  Be sure to return to that point at the end of your review.</p>
 <hr>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted --> I&rsquo;ve settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore &ldquo;they.&rdquo;</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted -->2<!-- raw HTML omitted --><!-- raw HTML omitted --> This is point number one on <a href="https://twitter.com/BrendanNyhan">Brendan Nyhan</a>&lsquo;s &ldquo;Checklist Manifesto for Peer Review&rdquo; in <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf"><em>The Political Methodologist</em>&lsquo;s Special Issue on Peer Review</a>.  Read the whole issue!</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted -->3<!-- raw HTML omitted --><!-- raw HTML omitted --> OTOH, you <em>should</em> <a href="https://twitter.com/DToshkov/status/826705971124830209">give people credit when they take on hard questions</a> with less-than-ideal data and methods if those data and methods are (approximately) the best available.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted -->4<!-- raw HTML omitted --><!-- raw HTML omitted --> Not that jerk, <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a>.  In addition to checking out <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a> on Twitter, you should also be sure to read <a href="https://twitter.com/thosjleeper">Thomas Leeper</a>&lsquo;s <a href="http://thomasleeper.com/2016/08/be-reviewer-one/">manifesto that started it all</a>.</p>
+<p><a id="note1" href="#note1ref"><sup>1</sup></a> I&rsquo;ve settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore &ldquo;they.&rdquo;</p>
+<p><a id="note2" href="#note2ref"><sup>2</sup></a> This is point number one on <a href="https://twitter.com/BrendanNyhan">Brendan Nyhan</a>&lsquo;s &ldquo;Checklist Manifesto for Peer Review&rdquo; in <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf"><em>The Political Methodologist</em>&lsquo;s Special Issue on Peer Review</a>.  Read the whole issue!</p>
+<p><a id="note3" href="#note3ref"><sup>3</sup></a> OTOH, you <em>should</em> <a href="https://twitter.com/DToshkov/status/826705971124830209">give people credit when they take on hard questions</a> with less-than-ideal data and methods if those data and methods are (approximately) the best available.</p>
+<p><a id="note4" href="#note4ref"><sup>4</sup></a> Not that jerk, <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a>.  In addition to checking out <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a> on Twitter, you should also be sure to read <a href="https://twitter.com/thosjleeper">Thomas Leeper</a>&lsquo;s <a href="http://thomasleeper.com/2016/08/be-reviewer-one/">manifesto that started it all</a>.</p>
 
     </div>
     
@@ -739,7 +739,7 @@ stata(&quot;
       <h5>Thursday, 30 July 2015</h5>
     <div class="entry">
         <p>With the APSA coming up, and in the interest of minimizing the number of times we hear &ldquo;sorry, I know you won&rsquo;t really be able to see these regression coefficients,&rdquo; I thought I&rsquo;d point R users to dotwhisker, a package UI Ph.D. student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of <a href="http://dx.doi.org/10.1017/S1537592707072209">Kastellec and Leoni&rsquo;s (2007) <em>Perspectives</em> article</a> quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post. I hope you&rsquo;ll find it useful, and if you have any suggestions for us, that you&rsquo;ll file an issue at <a href="https://github.com/fsolt/dotwhisker">https://github.com/fsolt/dotwhisker</a>, tweet to me @fredericksolt, or just send me an email <a href="mailto:frederick-solt@uiowa.edu">frederick-solt@uiowa.edu</a>.</p>
-<!-- raw HTML omitted -->
+<img class="imageStyle" alt="Download" src="/blog/dotwhisker1.jpg" width="650"/>
 
     </div>
     
@@ -753,7 +753,7 @@ stata(&quot;
       <h5>Friday, 26 June 2015</h5>
     <div class="entry">
         <p>Hu Yue and I just published <a href="https://cran.r-project.org/web/packages/interplot"><code>interplot</code> on CRAN</a>, our first R package.  <code>interplot</code> makes graphing the coefficients of variables in interaction terms easy.  It outputs <code>ggplot</code> objects, so further customization is simple.  Check out <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html">the vignette</a> and give it a try!</p>
-<!-- raw HTML omitted -->
+<img class="imageStyle" alt="Download" src="/blog/interplot1.png" width="600"/>
 
     </div>
     
@@ -765,7 +765,7 @@ stata(&quot;
       <h5>Friday, 27 March 2015</h5>
     <div class="entry">
         <p>A <a href="http://www.imf.org/external/pubs/ft/wp/2015/wp1568.pdf">new working paper</a> by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world.  Here&rsquo;s a graph of SWIIDv5.0 data that illustrates their point.</p>
-<!-- raw HTML omitted -->
+<img class="imageStyle" alt="Download" src="/swiid/china.jpg" width="760" height="450"/>
 
     </div>
     
@@ -790,7 +790,7 @@ stata(&quot;
       <h5>Monday, 30 September 2013</h5>
     <div class="entry">
         <p>Version 4.0 of the SWIID is now available <a href="../swiid/swiid_downloads.html">here</a>.  Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version provides even better estimates of income inequality in countries around the world than in previous versions.</p>
-<p>This version introduces two other improvements.  First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates.  The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one’s analyses.  Fortunately, there are now tools in Stata and R that make it quite straightforward to analyze data that is measured with error, and this version of the SWIID includes files that are pre-formatted for use with these tools.  The file &ldquo;Using the SWIID.pdf&rdquo;, which is also included in the data download, explains how.  Some additional examples of using the SWIID with Stata&rsquo;s <code>mi estimate</code> command prefix can be found towards the end of the slides posted <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.<!-- raw HTML omitted --><!-- raw HTML omitted -->Second, I&rsquo;ve received several requests for measures of top income share, so in this version I am including estimates of the top 1 percent&rsquo;s share (the variable share1), standardized to the data provided in the <!-- raw HTML omitted -->World Top Incomes Database<!-- raw HTML omitted -->: Country-years included in that dataset are reproduced without modification in the SWIID, and comparable figures for other country-years are estimated using the SWIID&rsquo;s custom multiple-imputation algorithm.  Like all inequality datasets, Top Incomes has tradeoffs&mdash;among other things, the share of pre-tax, pre-transfer income reported on tax returns by the richest filers may not be of much theoretical interest to many investigators&mdash;but the additional estimates the SWIID provides may prove to be useful to some.</p>
+<p>This version introduces two other improvements.  First, many users have had trouble making appropriate use of the standard errors associated with the SWIID estimates.  The uncertainty, however, can sometimes be substantial, making it crucial to incorporate in one’s analyses.  Fortunately, there are now tools in Stata and R that make it quite straightforward to analyze data that is measured with error, and this version of the SWIID includes files that are pre-formatted for use with these tools.  The file &ldquo;Using the SWIID.pdf&rdquo;, which is also included in the data download, explains how.  Some additional examples of using the SWIID with Stata&rsquo;s <code>mi estimate</code> command prefix can be found towards the end of the slides posted <a href="../papers/swiid_un_talk" rel="self">here</a>.<br /><br />Second, I&rsquo;ve received several requests for measures of top income share, so in this version I am including estimates of the top 1 percent&rsquo;s share (the variable share1), standardized to the data provided in the <a href="http://topincomes.g-mond.parisschoolofeconomics.eu" rel="self">World Top Incomes Database</a>: Country-years included in that dataset are reproduced without modification in the SWIID, and comparable figures for other country-years are estimated using the SWIID&rsquo;s custom multiple-imputation algorithm.  Like all inequality datasets, Top Incomes has tradeoffs&mdash;among other things, the share of pre-tax, pre-transfer income reported on tax returns by the richest filers may not be of much theoretical interest to many investigators&mdash;but the additional estimates the SWIID provides may prove to be useful to some.</p>
 <p>I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
 
     </div>
@@ -802,7 +802,7 @@ stata(&quot;
       <h3><a href="/blog/2013/09/29/my-un-talk/">My talk at the UN</a></h3>
       <h5>Sunday, 29 September 2013</h5>
     <div class="entry">
-        <p>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the <!-- raw HTML omitted -->Development Policy and Analysis Division<!-- raw HTML omitted --> of the United Nations&rsquo; Department of Economic and Social Affairs.  I had some great conversations and got lots of useful feedback.  Slides for the talk can be found <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.</p>
+        <p>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the <a href="http://www.un.org/en/development/desa/policy/index.shtml" rel="self">Development Policy and Analysis Division</a> of the United Nations&rsquo; Department of Economic and Social Affairs.  I had some great conversations and got lots of useful feedback.  Slides for the talk can be found <a href="/papers/swiid_un_talk" rel="self">here</a>.</p>
 
     </div>
     
@@ -825,8 +825,8 @@ stata(&quot;
       <h5>Sunday, 11 July 2010</h5>
     <div class="entry">
         <p>Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.</p>
-<p>The data on which the SWIID is based have been expanded.  I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID.  As before, these data are available in the replication materials for those who are interested.  Major sources for these data include the <!-- raw HTML omitted -->World Bank&rsquo;s Povcalnet<!-- raw HTML omitted -->, the <!-- raw HTML omitted -->Socio-Economic Database for Latin America<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Branko Milanovic&rsquo;s World Income Distribution data (&ldquo;All the Ginis&rdquo;)<!-- raw HTML omitted -->, and the <!-- raw HTML omitted -->ILO&rsquo;s Household Income and Expenditure Statistics<!-- raw HTML omitted -->, but a multitude of national statistical offices and other sources were also consulted.</p>
-<p>The SWIID also now incorporates the University of Texas Inequality Project&rsquo;s <!-- raw HTML omitted -->UTIP-UNIDO dataset<!-- raw HTML omitted --> on differences in pay across industrial sectors.  Across countries and years, these data explain only about half of the variation in net income inequality (and much less of gross income inequality) and so yield predictions with prohibitively large standard errors when employed in this way, but where there was sufficient data available, I used the UTIP data to make within-country loess predictions of both net and gross income inequality that informed the SWIID estimates.</p>
+<p>The data on which the SWIID is based have been expanded.  I have collected another 2100 Gini observations (in addition to the 1500 added in v2.0), again with special attention to addressing the thinner spots in the WIID.  As before, these data are available in the replication materials for those who are interested.  Major sources for these data include the <a href="http://iresearch.worldbank.org/PovcalNet/povcalSvy.html" rel="self">World Bank&rsquo;s Povcalnet</a>, the <a href="http://www.depeco.econo.unlp.edu.ar/sedlac/eng/index.php" rel="self">Socio-Economic Database for Latin America</a>, <a href="http://go.worldbank.org/9VCQW66LA0" rel="self">Branko Milanovic&rsquo;s World Income Distribution data (&ldquo;All the Ginis&rdquo;)</a>, and the <a href="http://laborsta.ilo.org/" rel="self">ILO&rsquo;s Household Income and Expenditure Statistics</a>, but a multitude of national statistical offices and other sources were also consulted.</p>
+<p>The SWIID also now incorporates the University of Texas Inequality Project&rsquo;s <a href="http://utip.gov.utexas.edu/data.html" rel="self">UTIP-UNIDO dataset</a> on differences in pay across industrial sectors.  Across countries and years, these data explain only about half of the variation in net income inequality (and much less of gross income inequality) and so yield predictions with prohibitively large standard errors when employed in this way, but where there was sufficient data available, I used the UTIP data to make within-country loess predictions of both net and gross income inequality that informed the SWIID estimates.</p>
 <p>The imputation routine used for generating the SWIID was cleaned up: the code now runs more efficiently, and a few errors were corrected.</p>
 <p>Many researchers have asked me about using the SWIID to examine questions of redistribution, so I now include in the dataset the percentage reduction in gross income inequality (that is, the difference between the gross and net income inequality, divided by gross income inequality, multiplied by 100) as an estimate of redistribution (“redist”) as well as its associated standard error (“redist_se”).  The standard errors for redistribution are particularly important to take into account, as they can often be quite large relative to the size of the estimates.  Observations for redistribution are omitted for countries for which the source data do not include multiple observations of either net or gross income inequality: in such cases, although the two inequality series each still constitute the most comparable available estimates, the difference between them reflects only information from other countries, and treating it as meaningful independent information about redistribution would be unwise.  Similarly, because the underlying data is often thin in the early years included in the SWIID, redistribution is only reported after 1975 for most of the advanced countries and only after 1985 for most countries in the developing world.</p>
 <p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
