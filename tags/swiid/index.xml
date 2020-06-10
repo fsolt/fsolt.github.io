@@ -97,7 +97,7 @@ I have been producing the Standardized World Income Inequality Database for near
       
       <guid>http://fsolt.org/blog/2017/07/27/swiid-version-6_0/</guid>
       <description>Version 6.0 of the SWIID is now available! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting now done using #rstats and Stan.
-As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
+## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 3.6.2 ## Warning: package &amp;#39;tibble&amp;#39; was built under R version 3.6.2 ## Warning: package &amp;#39;dplyr&amp;#39; was built under R version 3.6.2 As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</description>
     </item>
     
     <item>
