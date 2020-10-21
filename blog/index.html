@@ -177,6 +177,31 @@
 
   
 
+      <h3><a href="/blog/2020/10/21/swiid-version-9_0/">SWIID Version 9.0 is available!</a></h3>
+      <h5>Wednesday, 21 October 2020</h5>
+    <div class="entry">
+        
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Version 9.0 of the SWIID is <a href="/swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 947 new Ginis since version 8.3, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2020-summer-data-release/">Greece, Lithuania, Russia, South Africa, the United States,</a> <a href="https://www.lisdatacenter.org/news-and-events/2020-autumn-data-splash/">Ireland, Panama, and Switzerland</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 72 more country-years than version 8.3;</p></li>
+<li><p>and, justifying the whole-number revision, it incorporates the <a href="http://www.lisdatacenter.org/wps/techwps/9.pdf">LIS’ new guidance on topcoding</a> (and so minimizes the extent to which income inequality is underestimated). Yay!</p></li>
+</ul>
+<p><img src="/post/2020-10-21-swiid-version-9-0-is-available_files/figure-html/plot-1.png" width="672" /></p>
+<p><img src="/post/2020-10-21-swiid-version-9-0-is-available_files/figure-html/highest-1.png" width="672" /></p>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+    </div>
+    
+  
+
+  
+
+  
+
       <h3><a href="/blog/2020/10/19/swiid-version-9_0/">SWIID Version 9.0 is available!</a></h3>
       <h5>Monday, 19 October 2020</h5>
     <div class="entry">
@@ -196,8 +221,6 @@
 
     </div>
     
-  
-
   
 
   
@@ -365,7 +388,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |        Obs        Mean    Std. Dev.       Min        Max
 ## -------------+---------------------------------------------------------
-##            a |          3   -.1646716    .3810818  -.5053491   .2468672</code></pre>
+##            a |          3    -.069025    .6885236  -.7946973   .5750843</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -404,24 +427,24 @@ stata(&quot;
 ## 
 ##     Variable |        Obs        Mean    Std. Dev.       Min        Max
 ## -------------+---------------------------------------------------------
-##            y |        100    .0082157    .9102219  -1.922301   2.199621
-##           x1 |        100   -.0178625    1.030866  -2.938745   2.381542
-##           x2 |        100    .0560372     1.01693  -2.454966   2.627965
+##            y |        100    .0143003    .9296258  -2.409222   1.873514
+##           x1 |        100   -.0153011    1.060061   -2.50497   2.518734
+##           x2 |        100     .115143    .9826089  -2.236862   3.284843
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS           df       MS      Number of obs   =       100
-## -------------+----------------------------------   F(2, 97)        =      3.56
-##        Model |  5.61145326         2  2.80572663   Prob &gt; F        =    0.0322
-##     Residual |  76.4104254        97  .787736344   R-squared       =    0.0684
-## -------------+----------------------------------   Adj R-squared   =    0.0492
-##        Total |  82.0218787        99  .828503825   Root MSE        =    .88755
+## -------------+----------------------------------   F(2, 97)        =      0.79
+##        Model |  1.37236286         2  .686181431   Prob &gt; F        =    0.4565
+##     Residual |  84.1838522        97  .867874765   R-squared       =    0.0160
+## -------------+----------------------------------   Adj R-squared   =   -0.0042
+##        Total |   85.556215        99  .864204192   Root MSE        =     .9316
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.0640318    .086756    -0.74   0.462    -.2362184    .1081547
-##           x2 |  -.2203117   .0879449    -2.51   0.014    -.3948579   -.0457654
-##        _cons |   .0194176   .0889109     0.22   0.828     -.157046    .1958812
+##           x1 |  -.1110473   .0886242    -1.25   0.213    -.2869417    .0648471
+##           x2 |   .0199529   .0956098     0.21   0.835    -.1698061    .2097119
+##        _cons |   .0103037   .0938309     0.11   0.913    -.1759246     .196532
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
