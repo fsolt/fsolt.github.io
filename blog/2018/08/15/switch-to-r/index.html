@@ -172,6 +172,7 @@
 
 <div class="post">
   
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
 <p>A <a href="https://twitter.com/RyanDEnos/status/1029443132084105221">recent exchange on Twitter</a> reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R. Then as now, there were specific things R could do that Stata couldn’t.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> But how to get those advantages without throwing out my hard-earned skills and starting over as a complete n00b? The answer was: a little bit at a time.</p>
@@ -241,7 +242,7 @@ stata(&quot;sum a&quot;, data.in = x)                         </code></pre>
 ## 
 ##     Variable |        Obs        Mean    Std. Dev.       Min        Max
 ## -------------+---------------------------------------------------------
-##            a |          3   -.2494121     .510953  -.8389369   .0658041</code></pre>
+##            a |          3   -.1646716    .3810818  -.5053491   .2468672</code></pre>
 <pre class="r"><code>## Data output from Stata (e.g., obtain &#39;auto&#39; dataset)
 auto &lt;- stata(&quot;sysuse auto&quot;, data.out = TRUE)</code></pre>
 <pre><code>## . sysuse auto
@@ -280,24 +281,24 @@ stata(&quot;
 ## 
 ##     Variable |        Obs        Mean    Std. Dev.       Min        Max
 ## -------------+---------------------------------------------------------
-##            y |        100    .1708518    .9150338  -1.963006   2.993516
-##           x1 |        100    .1383756     1.03343  -2.098807   2.330735
-##           x2 |        100    .1581571    .9950414  -2.912338   2.478151
+##            y |        100    .0082157    .9102219  -1.922301   2.199621
+##           x1 |        100   -.0178625    1.030866  -2.938745   2.381542
+##           x2 |        100    .0560372     1.01693  -2.454966   2.627965
 ## .     reg y x1 x2
 ## 
 ##       Source |       SS           df       MS      Number of obs   =       100
-## -------------+----------------------------------   F(2, 97)        =      0.07
-##        Model |  .118263367         2  .059131683   Prob &gt; F        =    0.9331
-##     Residual |  82.7731424        97  .853331364   R-squared       =    0.0014
-## -------------+----------------------------------   Adj R-squared   =   -0.0192
-##        Total |  82.8914057        99  .837286926   Root MSE        =    .92376
+## -------------+----------------------------------   F(2, 97)        =      3.56
+##        Model |  5.61145326         2  2.80572663   Prob &gt; F        =    0.0322
+##     Residual |  76.4104254        97  .787736344   R-squared       =    0.0684
+## -------------+----------------------------------   Adj R-squared   =    0.0492
+##        Total |  82.0218787        99  .828503825   Root MSE        =    .88755
 ## 
 ## ------------------------------------------------------------------------------
 ##            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 ## -------------+----------------------------------------------------------------
-##           x1 |  -.0335614   .0901688    -0.37   0.711    -.2125215    .1453987
-##           x2 |   .0023045   .0936475     0.02   0.980    -.1835599    .1881689
-##        _cons |   .1751314   .0942164     1.86   0.066     -.011862    .3621249
+##           x1 |  -.0640318    .086756    -0.74   0.462    -.2362184    .1081547
+##           x2 |  -.2203117   .0879449    -2.51   0.014    -.3948579   -.0457654
+##        _cons |   .0194176   .0889109     0.22   0.828     -.157046    .1958812
 ## ------------------------------------------------------------------------------
 ## .</code></pre>
 </div>
@@ -327,7 +328,7 @@ stata(&quot;
 </div>
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>
-<div id="refs" class="references">
+<div id="refs" class="references hanging-indent">
 <div id="ref-Bryan2018">
 <p>Bryan, Jenny. 2018. “Happy Git and Github for the useR.” <a href="http://happygitwithr.com/">http://happygitwithr.com/</a>.</p>
 </div>
