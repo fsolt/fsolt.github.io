@@ -5,10 +5,6 @@
     <link>http://fsolt.org/sw/</link>
     <description>Recent content in Software on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://fsolt.org/sw/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://fsolt.org/sw/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

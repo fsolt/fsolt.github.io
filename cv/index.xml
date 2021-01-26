@@ -5,10 +5,6 @@
     <link>http://fsolt.org/cv/</link>
     <description>Recent content in Solt CV on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://fsolt.org/cv/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://fsolt.org/cv/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

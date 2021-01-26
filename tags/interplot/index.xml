@@ -6,11 +6,7 @@
     <description>Recent content in interplot on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2015 09:40:01 +0000</lastBuildDate>
-    
-	<atom:link href="http://fsolt.org/tags/interplot/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 26 Jun 2015 09:40:01 +0000</lastBuildDate><atom:link href="http://fsolt.org/tags/interplot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Now on CRAN: interplot</title>
       <link>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot/</link>

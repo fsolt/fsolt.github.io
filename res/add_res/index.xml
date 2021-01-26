@@ -5,10 +5,6 @@
     <link>http://fsolt.org/res/add_res/</link>
     <description>Recent content in Additional Research on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://fsolt.org/res/add_res/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://fsolt.org/res/add_res/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
