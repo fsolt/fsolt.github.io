@@ -187,11 +187,11 @@ egen ccode=group(country)
 tsset ccode year						
 set seed 3166							
 forvalues a = 1/10 {
-    gen e0 = rnormal()
-    quietly tssmooth ma e00 = e0, weight (1 1 &lt;2&gt; 1 1)
-    quietly sum e00
-    quietly gen g`a'=gini_net+e00*(1/r(sd))*gini_net_se
-    drop e0 e00
+	gen e0 = rnormal()
+	quietly tssmooth ma e00 = e0, weight (1 1 &lt;2&gt; 1 1)
+	quietly sum e00
+	quietly gen g`a'=gini_net+e00*(1/r(sd))*gini_net_se
+	drop e0 e00
 }
 
 //Perform analysis using each of the ten simulations, saving the results
@@ -201,13 +201,13 @@ matrix coef = J(`n_ivs', 10, -99)
 matrix se = J(`n_ivs', 10, -99)
 matrix r_sq = J(1, 10, -99)
 forvalues a = 1/10 {
-    quietly reg y `other_ivs' g`a'	/*to be replaced with your analysis*/	
-    matrix coef[1,`a'] = e(b)'
-    matrix A = e(V)
-    forvalues b = 1/`n_ivs' {
-            matrix se[`b', `a'] = (A[`b',`b'])
-    }
-    matrix r_sq[1, `a'] = e(r2)
+	quietly reg y `other_ivs' g`a'	/*to be replaced with your analysis*/	
+	matrix coef[1,`a'] = e(b)'
+	matrix A = e(V)
+	forvalues b = 1/`n_ivs' {
+			matrix se[`b', `a'] = (A[`b',`b'])
+	}
+	matrix r_sq[1, `a'] = e(r2)
 }		
 
 local cases = e(N)
@@ -222,7 +222,7 @@ egen coef_all = rowmean(coef1-coef10)
 
 gen ss_all = 0
 forvalues a = 1/10 {
-    quietly replace ss_all = ss_all + (coef`a'-coef_all)^2
+	quietly replace ss_all = ss_all + (coef`a'-coef_all)^2
 }
 egen se_all = rowmean(se1-se10)
 replace se_all = se_all + (((1+(1/10)) * ((1/9) * ss_all))) /*Total variance, per Rubin (1987)*/
@@ -236,8 +236,8 @@ egen r_sq_all = rowmean(r_sq1-r_sq10)
 gen vars = &quot; &quot; in 1/`n_ivs'
 local i = 0
 foreach iv in `other_ivs' &quot;Inequality&quot; &quot;Constant&quot; {
-    local i = `i'+1
-    replace vars = &quot;`iv'&quot; in `i'
+	local i = `i'+1
+	replace vars = &quot;`iv'&quot; in `i'
 }
 mkmat coef_all se_all p_all if coef_all~=., matrix(res_all) rownames(vars)
 matrix list res_all, format(%9.3f)
