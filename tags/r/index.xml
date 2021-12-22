@@ -6,7 +6,18 @@
     <description>Recent content in r on Frederick Solt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://fsolt.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://fsolt.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SWIID Version 9.2 is available!</title>
+      <link>http://fsolt.org/blog/2021/12/22/swiid-version-9_2/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2021/12/22/swiid-version-9_2/</guid>
+      <description>Version 9.2 of the SWIID is now available! This new release:
+ adds to its source data 3834 new Ginis since version 9.1, including newly available LIS data on Egypt, Germany, Lithuania, Mexico, the Netherlands, Russia, Slovenia, Spain, the United States, Georgia, Switzerland, Australia, Austria, Colombia, Paraguay, Polad, Russia (yes, again!), and Vietnam; and
+ includes estimates of market and disposable income inequality for 121 more country-years than version 9.</description>
+    </item>
+    
     <item>
       <title>SWIID Version 9.0 is available!</title>
       <link>http://fsolt.org/blog/2020/10/21/swiid-version-9_0/</link>
