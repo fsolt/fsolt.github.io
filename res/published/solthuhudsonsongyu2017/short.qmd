@@ -1,0 +1,32 @@
+---
+title: "Economic Inequality and Class Consciousness"
+date: 2017-06-30
+cite: >
+  **Solt, Frederick**, Yue Hu, Kevan Hudson, Jungmin Song, and Dong 'Erico' Yu.
+  2017.
+  "Economic Inequality and Class Consciousness."
+  _Journal of Politics_ 79(3):1079-1083.
+author:
+    - name: Frederick Solt
+    - name: Yue Hu
+    - name: Kevan Hudson
+    - name: Jungmin Song
+    - name: Dong 'Erico' Yu
+links:
+    - name: Final Version
+      url: /papers/soltetal2017
+      icon: fas fa-scroll
+    - name: Preprint
+      url: https://osf.io/k4ghw/
+      icon: far fa-file-pdf
+    - name: Code
+      url: https://github.com/fsolt/class_consciousness
+      icon: fa-brands fa-github
+listing:
+    - id: cite
+      contents: "index.qmd"
+      template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - attitudes
+---

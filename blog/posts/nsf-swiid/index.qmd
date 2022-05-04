@@ -1,0 +1,11 @@
+---
+date: "2015-08-10 10:40:01"
+layout: post
+slug: nsf-swiid
+categories:
+- update
+- swiid
+title: SWIID Wins NSF Support!
+---
+
+The National Science Foundation [has awarded three years of support](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746) to update and improve the SWIID!  Yay!

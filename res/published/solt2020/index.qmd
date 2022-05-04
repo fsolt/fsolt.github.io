@@ -1,0 +1,56 @@
+---
+title: "Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database"
+date: 2020-05-03
+cite: >
+  **Frederick Solt**. 
+  2020.
+  "Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database."
+  _Social Science Quarterly_ 101(3):1183-1199.
+author:
+    - name: Frederick Solt
+links:
+    - name: Final version
+      url: "../papers/solt2020"
+      icon: fas fa-scroll
+    - name: Preprint
+      url: "../papers/solt2020_pre"
+      icon: far fa-file-pdf
+    - name: Code
+      url: "https://github.com/fsolt/swiid/tree/master/paper"
+      icon: fa-brands fa-github
+    - name: SWIID Database
+      url: "../swiid/"
+      icon: fa-solid fa-database
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - swiid
+  - inequality
+  - measurement
+---
+
+:::{#cite}
+:::
+
+## Abstract
+
+*Objective:* This article documents wide-ranging revisions to the Standardized World Income Inequality Database (SWIID), which seeks to maximize the comparability of income inequality estimates for the broadest possible coverage of countries and years. *Methods:* Two k-fold cross-validations, by observation and by country, are used to evaluate the SWIID's success in predicting the Luxembourg Income Study (LIS), recognized in the field as setting the standard for comparability. *Results:* The cross-validations indicate that the new SWIID's estimates and their uncertainty are even more accurate than previous versions, extending its advantage in comparability over alternate income inequality datasets. *Conclusion:* Given its superior coverage and comparability, the SWIID remains the optimum source of data for broadly cross-national research on income inequality.
+
+## Important Figure
+
+![Figure 7: k-fold By-Observation Cross-Validation Results](kfold_obs.png){fig-align="center"}
+
+## BibTeX Citation
+
+``` bibtex
+@article{Solt2020,
+    author = {Solt, Frederick},
+    journal = {Social Science Quarterly},
+    number = {3},
+    pages = {1183-1199},
+    title = {Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database},
+    volume = {101},
+    year = {2020}}
+```

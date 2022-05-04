@@ -1,0 +1,46 @@
+---
+title: "Standardizing the World Income Inequality Database"
+date: 2009-06-30
+cite: >
+    **Solt, Frederick**. 2009. "Standardizing the World Income Inequality Database." _Social Science Quarterly_ 90(2):231-242.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: "/papers/solt2009"
+    icon: fas fa-scroll
+  - name: Preprint
+    url: /papers/solt2009pre
+    icon: far fa-file-pdf
+  - name: SWIID Database
+    url: ../../../swiid/
+    icon: fa-solid fa-database
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - swiid
+    - inequality
+    - measurement
+---
+
+:::{#cite}
+:::
+
+## Abstract
+<em>Objective</em>.  Cross-national research on the causes and consequences of income inequality has been hindered by the limitations of existing inequality datasets: greater coverage across countries and over time is available from these sources only at the cost of significantly reduced comparability across observations.  The goal of the Standardized World Income Inequality Database (SWIID) is to overcome these limitations.  <em>Methods</em>.  A custom missing-data algorithm was used to standardize the United Nations University's World Income Inequality Database; data collected by the Luxembourg Income Study served as the standard.  <em>Results</em>.  The SWIID provides comparable Gini indices of gross and net income inequality for 153 countries for as many years as possible from 1960 to the present along with estimates of uncertainty in these statistics.  <em>Conclusions</em>.  By maximizing comparability for the largest possible sample of countries and years, the SWIID is better suited to broadly cross-national research on income inequality than previously available sources. 
+
+## BibTex Citation
+
+```bibtex
+@article{Solt2009,
+	author = {Solt, Frederick},
+	journal = {Social Science Quarterly},
+	keywords = {Inequality},
+	number = {2},
+	pages = {231-242},
+	title = {Standardizing the World Income Inequality Database},
+	volume = {90},
+	year = {2009}}
+```

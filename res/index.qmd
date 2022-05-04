@@ -1,0 +1,28 @@
+---
+listing:
+  - id: published
+    contents: "published/*/index.qmd"
+    template: "../templates/listing-cite.ejs"
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    categories: cloud
+    feed: true
+  - id: working-papers
+    contents: "working-papers/*/index.qmd"
+    template: "../templates/listing-cite.ejs"
+    sort-ui: false
+    filter-ui: false
+    categories: cloud
+    feed: true
+---
+
+## Publications
+
+:::{#published}
+:::
+
+## Working Papers
+
+:::{#working-papers}
+:::

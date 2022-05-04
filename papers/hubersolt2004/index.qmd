@@ -1,0 +1,4 @@
+---
+header-includes: |
+  <meta http-equiv="Refresh" content="0; URL=http://www.jstor.org/pss/1555472">
+---

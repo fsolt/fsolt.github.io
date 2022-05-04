@@ -1,0 +1,111 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 3240
+  resources: 
+    - "*.pdf"
+    
+website:
+  title: "Frederick Solt"
+  image: "fsolt.png"
+  favicon: "fs.png"
+  open-graph: true
+  twitter-card:
+    site: "@fredericksolt"
+  site-url: https://fsolt.org
+  description: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
+  repo-url: https://github.com/fsolt/fsolt_quarto
+  repo-actions: [edit, issue]
+  navbar:
+    background: "#13294B"
+    foreground: "#FFFFFF"
+    logo: fsolt.png
+    title: "Frederick Solt"
+    collapse-below: lg
+    left:
+      - text: "SWIID"
+        file: "/swiid/"
+      - text: "DCPO"
+        file: "https://dcpo.org"
+      - text: "Research"
+        file: "/res/"
+      - text: "Teaching"
+        file: "/teach/"
+      - text: "Software"
+        file: "/sw/"
+      - text: "Blog"
+        file: "/blog/"
+      - text: "CV"
+        file: "/cv/"
+    right:
+      - icon: envelope
+        href: mailto:frederick-solt@uiowa.edu
+      - icon: twitter
+        href: https://twitter.com/fredericksolt
+      - icon: github
+        href: https://github.com/fsolt/
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=PNwjYEAAAAAJ
+  sidebar:
+    style: "docked"
+    border: false
+    title: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
+    contents:
+      - text: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
+        file: "#"
+  # subtitle: string
+  #   contents: 
+  #     - title: ""
+  # sidebar:
+  #   style: "docked"
+  #   tools:
+  #     - icon: envelope
+  #       href: mailto:frederick-solt@uiowa.edu
+  #     - icon: twitter
+  #       href: https://twitter.com/fredericksolt
+  #     - icon: github
+  #       href: https://github.com/fsolt/
+  #     - icon: mortarboard
+  #       href: https://scholar.google.com/citations?user=PNwjYEAAAAAJ
+  #   search: false
+  #   alignment: "center"
+  #   title: "Frederick Solt"
+  #   subtitle: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
+  #   background: "#011C37"
+  #   foreground: "#FFFFFF"
+  #   type: "dark"
+  #   logo: fsolt.png
+  # #   collapse-below: lg
+  #   contents:
+  #     - text: "SWIID"
+  #       file: "/swiid/"
+  #     - text: "DCPO"
+  #       file: "https://dcpo.org"
+  #     - text: "Research"
+  #       file: "/res/"
+  #     - text: "Teaching"
+  #       file: "/teach/"
+  #     - text: "Software"
+  #       file: "/sw/"
+  #     - text: "Blog"
+  #       file: "/blog/"
+  #     - text: "CV"
+  #       file: "/cv/"
+
+format:
+  html:
+    theme:
+      - spacelab
+      - templates/custom.scss
+    code-copy: true
+    code-overflow: wrap
+    code-block-bg: true
+    code-block-border-left: "#7BAFD4"
+    highlight-style: github
+    css: templates/styles.css
+    include-in-header: templates/sc.html
+
+freeze: true
+
+

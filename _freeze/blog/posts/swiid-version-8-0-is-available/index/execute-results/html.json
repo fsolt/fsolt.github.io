@@ -1,0 +1,16 @@
+{
+  "hash": "aa8feef8befb40afb383ef1f224276a2",
+  "result": {
+    "markdown": "---\ntitle: SWIID Version 8.0 is available!\nauthor: Frederick Solt\ndate: '2019-02-28'\nslug: swiid-version-8_0\ncategories:\n  - update\n  - r\n  - swiid\n---\n\nVersion 8.0 of the SWIID is [now available](/swiid/swiid_downloads/)!  In addition to important behind-the-scenes improvements to the estimation routine, this new release:\n\n- adds to [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) 692 new Ginis since version 7.1, including newly available LIS data on [Australia, Georgia, Serbia,](https://www.lisdatacenter.org/news-and-events/2018-fall-data-release/) [Russia, and the United Kingdom](http://www.lisdatacenter.org/news-and-events/2018-winter-data-release/); and\n\n- includes estimates of market and disposable income inequality for 129 more country-years than version 7.1.\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/swiid_v80-1.png){width=672}\n:::\n:::\n\nFor more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid).  As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

@@ -1,0 +1,43 @@
+---
+title: "Successes and Failures of Neoliberalism in Latin America"
+date: 2004-06-30
+cite: >
+    Huber, Evelyne, and **Frederick Solt**. 2004. "Successes and Failures of Neoliberalism in Latin America." _Latin American Research Review_ 39(3):150-164.
+author:
+  - Evelyne Huber
+  - Frederick Solt 
+links:
+  - name: Final version
+    url: "/papers/hubersolt2004"
+    icon: fas fa-scroll
+categories:
+    - inequality
+    - democracy
+    - neoliberalism
+listing:
+  - id: cite
+    contents: "index.qmd"
+    template: "../../../templates/single-cite.ejs"
+# draft: true
+---
+
+:::{#cite}
+:::
+
+{{< meta cite >}}
+
+## Abstract
+Much of the debate about the effects of neoliberal reforms in Latin America has been carried out at a political and ideological level: the image of an overblown and inefficient state that stifles market forces and private initiative has been contrasted with the model of a lean and efficient state that relies on the market to set free productive energies and thus stimulates growth and solves social problems. With this research note, we aim to make a contribution to the emerging empirically based scholarly literature that investigates the effects of neoliberal policy reforms.  We find that, on average, in the Latin American countries neoliberal reforms have failed to put into place policies that firmly advance growth, stability, the reduction of poverty and inequality, and improvements of the human capital base.
+
+## BibTeX Citation
+```bibtex
+@article{HuberSolt2004,
+	author = {Huber, Evelyne and Solt, Frederick},
+	issn = {0023-8791},
+	journal = {Latin American Research Review},
+	number = {3},
+	pages = {150--164},
+	title = {Successes and Failures of Neoliberalism},
+	volume = {39},
+	year = {2004}}
+```

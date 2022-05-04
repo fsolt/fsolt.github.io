@@ -1,0 +1,44 @@
+---
+title: "The Social Origins of Authoritarianism"
+date: 2012-06-30
+cite: >
+    **Solt, Frederick**. 2012. "The Social Origins of Authoritarianism." _Political Research Quarterly_ 65(4):703-713.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: /papers/solt2012
+    icon: fas fa-scroll
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/WQV7PZ
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - attitudes
+---
+
+:::{#cite}
+:::
+
+## Abstract
+Despite much attention to the problematic consequences of authoritarianism, little research focuses on the causes of such unquestioning respect for 'proper' authority. Elaborating on the social learning approach to authoritarianism, this paper argues that economic inequality within countries shapes individuals' feelings towards authority. As differences in condition among members of a society increase, so does the relative power of the wealthy. As a result, regardless of their incomes, individuals' experiences are more likely to lead them to view hierarchical relations as natural and, in turn, to hold greater respect for authority. Multilevel models of authoritarianism in countries around the world over three decades support this relative power theory.
+
+## Important Figure
+![Figure 2: Predicted Probabilities of Authoritarian Responses by Level of Economic Inequality](pp_combined.png)
+
+## BibTeX Citation
+```bibtex
+@article{Solt2012,
+	author = {Solt, Frederick},
+	journal = {Political Research Quarterly},
+	month = {December},
+	number = {4},
+	pages = {703-713},
+	title = {The Social Origins of Authoritarianism},
+	volume = {65},
+	year = {2012}}
+```

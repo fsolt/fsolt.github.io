@@ -1,0 +1,36 @@
+---
+title: "Institutional Effects on Democratic Transitions: Neo-Patrimonial Regimes in Africa, 1989-1994"
+date: 2001-06-30
+cite: >
+    **Solt, Frederick**. 2001. "Institutional Effects on Democratic Transitions: Neo-Patrimonial Regimes in Africa, 1989-1994." _Studies in Comparative International Development_ 36(2):82-91.
+author:
+  - name: Frederick Solt
+links:
+  - name: Final version
+    url: /papers/solt2001
+    icon: fas fa-scroll
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - democracy
+---
+
+:::{#cite}
+:::
+
+## Abstract
+The outcomes of political transitions during the late 1980s and early 1990s varied considerably across sub-Saharan African countries. In their well-received book, Michael Bratton and Nicolas van de Walle (1997) concluded that the differences in sub-Saharan Africa's incumbent neo-patrimonial regimes shaped contingent factors such as political protests and military interventions that were important to transition outcomes, but did not themselves directly influence the success of transitions.  Shortcomings in their statistical analysis, however, cast doubt on this conclusion.  This article presents an ordered logit analysis of Bratton and van de Walle's rich dataset that corrects these flaws. It concludes that institutions did more than merely shape contingent events; they had powerful and independent direct effects on the outcomes of political transitions in the countries of sub-Saharan Africa.
+
+## BibTeX Citation
+```bibtex
+@article{Solt2001,
+	author = {Solt, Frederick},
+	journal = {Studies in Comparative International Development},
+	number = {2},
+	pages = {82-91},
+	title = {Institutional {E}ffects on {D}emocratic {T}ransitions: {N}eo-{P}atrimonial {R}egimes in {A}frica, 1989-1994},
+	volume = {36},
+	year = {2001}}
+```

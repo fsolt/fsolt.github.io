@@ -1,0 +1,38 @@
+---
+title: "Civics or Structure? Revisiting the Origins of Democratic Quality in the Italian Regions"
+date: 2004-06-30
+cite: >
+    **Solt, Frederick**. 2004. "Civics or Structure? Revisiting the Origins of Democratic Quality in the Italian Regions." _British Journal of Political Science_ 34(1):123-135.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: "/papers/solt2004bjps"
+    icon: fas fa-scroll
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - participation
+    - democracy
+---
+
+:::{#cite}
+:::
+
+## Abstract
+What determines the responsiveness and effectiveness of democratic governments in meeting their citizens&rsquo; needs?&nbsp; Based on his 1993 study of the twenty Italian regions, Robert Putnam argued that &lsquo;civic community,&rsquo; a self-reinforcing syndrome of social engagement and political participation, is the explanation.&nbsp; A re-examination of Putnam&rsquo;s data reveals little evidence of such a syndrome, but confirms that where more citizens participate in politics outside of networks of clientelistic exchange, more effective democratic government results.&nbsp; To discern the causes of variation in this self-motivated political participation, I test Putnam's measures of social engagement against aspects of Italian socio-economic structure.&nbsp; Economic development and the historical distribution of land, not social engagement, are found to be powerful predictors of self-motivated political participation and in turn democratic quality.
+
+## BibTeX Citation
+```bibtex
+@article{Solt2004,
+	author = {Solt, Frederick},
+	journal = {British Journal of Political Science},
+	number = {1},
+	pages = {123-135},
+	title = {Civics or {S}tructure? {R}evisiting the {O}rigins of {D}emocratic {Q}uality in the {I}talian {R}egions},
+	volume = {34},
+	year = {2004}}
+```

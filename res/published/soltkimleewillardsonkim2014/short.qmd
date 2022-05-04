@@ -1,0 +1,49 @@
+---
+title: "Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction"
+date: 2014-06-30
+cite: >
+    **Solt, Frederick**, Dongkyu Kim, Kyu Young Lee, Spencer Willardson, and Seokdong Kim. 2014. "Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction." _Research and Politics_ 1(2):1-13.
+author:
+  - name: Frederick Solt
+  - name: Dongkyu Kim
+  - name: Kyu Young Lee
+  - name: Spencer Willardson
+  - name: Seokdong Kim
+links:
+  - name: Final version
+    url: /papers/soltetal2014
+    icon: fas fa-scroll
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/26391
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - democracy
+    - participation
+    - neoliberalism
+---
+
+:::{#cite}
+:::
+
+## Abstract
+Do neoliberal economic reforms in Latin American democracies mobilize citizens to overcome their collective action problems and protest? A recent addition to the scholarship on this crucial question of the relationship of markets and politics, Bellinger and Arce (2011), concludes that economic liberalization does have this effect, working to repoliticize collective actors and reinvigorate democracy. We reexamine the article's analyses and demonstrate that they misinterpret the marginal effect of the variables of theoretical interest. Thus, the article's optimistic claims about the consequences for democracy of economic liberalization in the region are not supported by its own empirical results. It is argued here that its results suggest instead that protests became more common in autocracies when they moved away from markets. Rather than speaking to how people have mobilized to protest against liberal reforms in Latin America's democracies, the work's analyses illuminate only when people protested against the region's dictatorships.
+
+## Important Figure
+
+![Figure 4. Predicted protests over the observed range of liberal economic reform by regime type](fig4.png)
+
+## BibTeX Citation
+```bibtex
+@article{SoltKimLeeWilliardsonKim2014,
+	author = {Solt, Frederick and Kim, Dongkyu and Lee, Kyu Young and Williardson, Spencer and Kim, Seokdong},
+	journal = {Research \& Politics},
+	number = {2},
+	pages = {1-13},
+	title = {Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction},
+	volume = {1},
+	year = {2014}}
+```

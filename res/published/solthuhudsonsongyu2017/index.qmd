@@ -1,0 +1,56 @@
+---
+title: "Economic Inequality and Class Consciousness"
+date: 2017-06-30
+cite: >
+  **Solt, Frederick**, Yue Hu, Kevan Hudson, Jungmin Song, and Dong 'Erico' Yu.
+  2017.
+  "Economic Inequality and Class Consciousness."
+  _Journal of Politics_ 79(3):1079-1083.
+author:
+    - name: Frederick Solt
+    - name: Yue Hu
+    - name: Kevan Hudson
+    - name: Jungmin Song
+    - name: Dong 'Erico' Yu
+links:
+    - name: Final Version
+      url: /papers/soltetal2017
+      icon: fas fa-scroll
+    - name: Preprint
+      url: https://osf.io/k4ghw/
+      icon: far fa-file-pdf
+    - name: Code
+      url: https://github.com/fsolt/class_consciousness
+      icon: fa-brands fa-github
+listing:
+    - id: cite
+      contents: "short.qmd"
+      template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - attitudes
+---
+
+:::{#cite}
+:::
+
+## Abstract
+Do contexts of greater income inequality spur the disadvantaged to achieve a class consciousness vital to contesting the fairness of the economic system and demanding more redistribution?  One prominent recent study, Newman, Johnston, and Lown (2015), argues that simple exposure to higher levels of local income inequality lead low-income people to view the United States as divided into haves and have-nots and to see themselves as among the have-nots, that is, to become more likely to achieve such a class consciousness.  Here, we show that this sanguine conclusion is at best supported only in analyses of the single survey presented in that study.  There is no evidence that higher levels of income inequality produce greater class consciousness among those with low incomes in other similar but neglected surveys.
+
+## Important Figure
+
+![Figure 3: Local Inequality and Self-Identification as a ‘Have-Not’: Results Using All Available Data](t3_pooled.png)
+
+![Figure 4: Conditional Effects of Income and Local Inequality on Self-Identification as a ‘Have-Not’](t3_multi.png)
+
+## BibTeX Citation
+```bibtex
+@article{SoltHuHudsonSongYu2017,
+	author = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},
+	journal = {Journal of Politics},
+	number = {3},
+	pages = {1079-1083},
+	title = {Economic Inequality and Class Consciousness},
+	volume = {79},
+	year = {2017}}
+```

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.305">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Frederick Solt - Using the SWIID Standard Errors</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<link href="../../../fs.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+
+<!-- Default Statcounter code -->
+<script type="text/javascript">
+var sc_project=1915099;
+var sc_invisible=1;
+var sc_security="da58688a";
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async=""></script>
+<!-- End of Statcounter Code -->
+
+
+<link rel="stylesheet" href="../../../templates/styles.css">
+<meta property="og:title" content="Frederick Solt - Using the SWIID Standard Errors">
+<meta property="og:site-name" content="Frederick Solt">
+<meta name="twitter:title" content="Frederick Solt - Using the SWIID Standard Errors">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="docked nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../../index.html">
+    <img src="../../../fsolt.png" alt="">
+    <span class="navbar-title">Frederick Solt</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../swiid/">SWIID</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://dcpo.org">DCPO</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../res/">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../teach/">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../sw/">Software</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog/">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cv/">CV</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:frederick-solt@uiowa.edu"><i class="bi bi-envelope" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/fredericksolt"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/fsolt/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ"><i class="bi bi-mortarboard" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Using the SWIID Standard Errors</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../#" class="sidebar-item-text sidebar-link">Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Using the SWIID Standard Errors</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">note</div>
+    <div class="quarto-category">swiid</div>
+  </div>
+  </div>
+
+
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2010-06-20 12:05:01</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>Incorporating the standard errors in the SWIID estimates into one’s analyses is the right thing to do, but it is not a trivial exercise. I myself have left it out of some work where I felt the model was already maxed out on complexity (though in such cases, I advise at least excluding observations with particularly large errors). The short story is that one generates a bunch of Monte Carlo simulations of the SWIID data from the estimates and standard errors, then analyses each simulation, then combines the results of the multiple analyses as one would in a multiple-imputation setup (this should be easier to do with Stata 11’s new multiple-imputation tools, but I won’t get my copy of Stata 11 until the fall–oh well). The code below does the trick.</p>
+<pre><code>**Using the SWIID Standard Errors: An Example**
+//Load SWIID and generate fake data for example
+use "SWIIDv2_0.dta", clear
+set seed 4533160
+gen x1 = 20*rnormal()
+gen x2 = rnormal()
+gen x3 = 3*rnormal()
+gen y = .03*x1 + 3*x2 + .5*x3 + .05*gini_net + 5 + 20*rnormal()
+reg y x1 x2 x3 gini_net
+
+//Generate ten Monte Carlo simulations of the gini_net series
+egen ccode=group(country)               
+tsset ccode year                        
+set seed 3166                           
+forvalues a = 1/10 {
+    gen e0 = rnormal()
+    quietly tssmooth ma e00 = e0, weight (1 1 &lt;2&gt; 1 1)
+    quietly sum e00
+    quietly gen g`a'=gini_net+e00*(1/r(sd))*gini_net_se
+    drop e0 e00
+}
+
+//Perform analysis using each of the ten simulations, saving the results
+local other_ivs = "x1 x2 x3"        /*to be replaced with your other IVs, that is, not including gini_net or the constant*/
+local n_ivs = 5             /*to be replaced with the number of IVs, now *including* gini_net and the constant*/
+matrix coef = J(`n_ivs', 10, -99)
+matrix se = J(`n_ivs', 10, -99)
+matrix r_sq = J(1, 10, -99)
+forvalues a = 1/10 {
+    quietly reg y `other_ivs' g`a'  /*to be replaced with your analysis*/   
+    matrix coef[1,`a'] = e(b)'
+    matrix A = e(V)
+    forvalues b = 1/`n_ivs' {
+            matrix se[`b', `a'] = (A[`b',`b'])
+    }
+    matrix r_sq[1, `a'] = e(r2)
+}       
+
+local cases = e(N)
+
+svmat coef, names(coef)
+svmat se, names(se)
+svmat r_sq, names(r_sq)
+
+
+//Display results across all simulations
+egen coef_all = rowmean(coef1-coef10)
+
+gen ss_all = 0
+forvalues a = 1/10 {
+    quietly replace ss_all = ss_all + (coef`a'-coef_all)^2
+}
+egen se_all = rowmean(se1-se10)
+replace se_all = se_all + (((1+(1/10)) * ((1/9) * ss_all))) /*Total variance, per Rubin (1987)*/
+replace se_all = (se_all)^.5 /*Total standard error*/
+
+gen t_all = coef_all/se_all
+gen p_all = 2*normal(-abs(t_all))
+
+egen r_sq_all = rowmean(r_sq1-r_sq10)
+
+gen vars = " " in 1/`n_ivs'
+local i = 0
+foreach iv in `other_ivs' "Inequality" "Constant" {
+    local i = `i'+1
+    replace vars = "`iv'" in `i'
+}
+mkmat coef_all se_all p_all if coef_all~=., matrix(res_all) rownames(vars)
+matrix list res_all, format(%9.3f)
+quietly sum r_sq_all
+local r2 = round(`r(mean)', .001)
+di "R-sq = `r2'"
+di "N = `cases'"</code></pre>
+<p>Please feel free to drop me an email if you have any questions or comments.</p>
+
+
+
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,4 @@
+---
+header-includes: |
+  <meta http-equiv="Refresh" content="0; URL=http://link.springer.com/article/10.1007/s10888-015-9308-0">
+---

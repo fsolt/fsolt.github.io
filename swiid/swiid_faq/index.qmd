@@ -1,0 +1,31 @@
+---
+title: "SWIID Frequently Asked Questions"
+listing:
+  - id: how-to
+    contents: "how-to/*.md"
+    type: default
+    sort: "rank"
+    sort-ui: false
+    filter-ui: false
+    max-description-length: 150
+  - id: data
+    contents: "data/*.qmd"
+    type: default
+    sort: "rank"
+    sort-ui: false
+    filter-ui: false
+    max-description-length: 150
+page-layout: full
+---
+
+#### Click on the topic headings to learn more
+
+## How to . . .
+
+:::{#how-to}
+:::
+
+## The SWIID Data
+
+:::{#data}
+:::

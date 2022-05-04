@@ -1,0 +1,21 @@
+<div class="research-page">
+  <% for (const item of items) { %>
+  <li class="project">
+
+  <div class="project-details">
+  <div class="project-content">
+  <p><%= item['cite'] %></p>
+  </div>
+
+  <ul class="project-links">
+  <% for (const link of item['links']) { %>
+  <li class="project-link">
+  <a href="<%= link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %></a>
+  </li>
+  <% } %>
+  </ul>
+  </div>
+
+  </li>
+  <% } %>
+</div>

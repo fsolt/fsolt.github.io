@@ -1,0 +1,53 @@
+---
+title: "Economic Inequality, Relative Power, and Religiosity."
+date: 2011-06-30
+cite: >
+  **Solt, Frederick**, Philip Habel, and J. Tobin Grant. 2011. "Economic Inequality, Relative Power, and Religiosity." _Social Science Quarterly_ 92(2):447-465.
+author:
+  - Frederick Solt
+  - Philip Habel
+  - J. Tobin Grant
+links:
+  - name: Final version
+    url: "/papers/solthabelgrant2011"
+    icon: fas fa-scroll
+  - name: Preprint
+    url: NA
+    icon: far fa-file-pdf
+  - name: Code
+    url: NA
+    icon: fa-brands fa-github
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/27479
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - religiosity
+    - attitudes
+---
+
+:::{#cite}
+:::
+
+## Abstract
+*Objective.* What effect does the extent of economic inequality within a country have on the religiosity of the people who live there? As inequality increases, does religion serve primarily as a source of comfort for the deprived and impoverished or as a tool of social control for the rich and powerful? *Methods.* This article examine these questions with two complementary analyses of inequality and religiosity: a multilevel analysis of countries around the world over two decades and a time-series analysis of the United States over a half-century. *Results.* Economic inequality has a strong positive effect on the religiosity of all members of a society regardless of income. *Conclusions.* These results support relative power theory, which maintains that greater inequality yields more religiosity by increasing the degree to which wealthy people are attracted to religion and have the power to shape the attitudes and beliefs of those with fewer means.
+
+## Important Figure
+
+![Figure 2: Hierarchical Models of Religiosity](Figure2.png)
+
+## BibTeX Citation
+```bibtex
+@article{SoltHabelGrant2011,
+	author = {Solt, Frederick and Habel, Philip and Grant, J. Tobin},
+	journal = {Social Science Quarterly},
+	number = {2},
+	pages = {447--465},
+	title = {Economic Inequality, Relative Power, and Religiosity},
+	volume = {92},
+	year = {2011}}
+```

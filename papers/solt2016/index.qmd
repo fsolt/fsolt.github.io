@@ -1,0 +1,4 @@
+---
+header-includes: |
+  <meta http-equiv="Refresh" content="0; URL=http://onlinelibrary.wiley.com/doi/10.1111/ssqu.12295/abstract">
+---

@@ -1,0 +1,45 @@
+---
+title: "Diversionary Nationalism: Economic Inequality and the Formation of National Pride"
+date: 2011-06-30
+cite: >
+    **Solt, Frederick**. 2011. "Diversionary Nationalism: Economic Inequality and the Formation of National Pride." _Journal of Politics_ 73(3):821-830.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: "/papers/solt2011"
+    icon: fas fa-scroll
+  - name: Dataverse
+    url: http://hdl.handle.net/1902.1/17098
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - attitudes
+---
+
+:::{#cite}
+:::
+
+## Abstract
+What accounts for differences in the extent of nationalist sentiments across countries and over time? One prominent argument is that greater economic inequality prompts states to generate more nationalism as a diversion that discourages their citizens from recognizing economic inequality and mobilizing against it. Several other theories, however, propose different relationships between economic inequality and nationalism. This article provides a first empirical test of whether and how economic inequality is related to nationalism. Multilevel analyses using survey data on nationalist sentiments in countries around the world over a quarter century and data on economic inequality from the Standardized World Income Inequality Database provide powerful support for the diversionary theory of nationalism. This finding is an important contribution to our understanding of nationalism as well as of the political consequences of economic inequality.
+
+## Important Figure
+
+![Figure 1: Nationalism by Income Inequality: Predicted Probabilities](combined.png)
+
+## BibTeX Citation
+```bibtex
+@article{Solt2011,
+	author = {Solt, Frederick},
+	journal = {Journal of Politics},
+	month = {7},
+	number = {3},
+	pages = {821-830},
+	title = {Diversionary Nationalism: Economic Inequality and the Formation of National Pride},
+	volume = {73},
+	year = {2011}}
+```

@@ -1,0 +1,12 @@
+---
+date: "2013-09-29 11:45:01"
+layout: post
+slug: my-un-talk
+categories:
+- note
+- swiid
+title: My talk at the UN
+description: "Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Division of the..."
+---
+
+Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the [Development Policy and Analysis Division](http://www.un.org/en/development/desa/policy/index.shtml) of the United Nations' Department of Economic and Social Affairs. I had some great conversations and got lots of useful feedback. Slides for the talk can be found [here](/papers/swiid_un_talk/).

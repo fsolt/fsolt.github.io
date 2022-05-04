@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Frederick Solt</title>
+<link>https://fsolt.org/res/index.html</link>
+<atom:link href="https://fsolt.org/res/index.xml" rel="self" type="application/rss+xml"/>
+<description>Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
+<image>
+<url>https://fsolt.org/fsolt.png</url>
+<title>Frederick Solt</title>
+<link>https://fsolt.org/res/index.html</link>
+<height>144</height>
+<width>144</width>
+</image>
+<generator>quarto-0.9.305</generator>
+<lastBuildDate>Fri, 01 Apr 2022 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere</title>
+  <dc:creator>Byung-Deuk Woo</dc:creator>
+  <dc:creator>Lindsey A. Goldberg</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.lindsey-allemang-goldberg.com">Lindsey A. Goldberg</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere.” <em>British Journal of Political Science</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../papers/woogoldbergsolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_gender_roles"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="https://doi.org/10.7910/DVN/T3UP6R"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+<li class="project-link">
+<a href="https://dcpo.org/data/pge/"><i class="fa-solid fa-database"></i> PGE Database</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Societal attitudes toward gender roles in the workplace and politics play a central part in theorizing on the difficulty women face in achieving political equality, but shortcomings in the available data have prevented direct examination of many implications of these theories. Drawing on recent advances in latent variable modeling of public opinion and a comprehensive collection of survey data, we present the Public Gender Egalitarianism dataset to address this need: comparable estimates of the public’s attitudes on gender equality in the public sphere across more than one hundred countries over time. These PGE scores are strongly correlated with responses to individual survey items and with women’s rates of participation in the labor force and corporate boards. We expect that the PGE data will become an invaluable source for broadly cross-national and longitudinal research on the causes and consequences of collective attitudes toward gender equality in politics and the economy.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/woogoldbergsolt2022/pge_fig3.png" class="preview-image img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/woogoldbergsolt2022/pge_fig6.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">WooAllemangSolt2022</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Woo, Byung-Deuk, and Goldberg, Lindsey A., and Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">year</span> = {2022},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">doi</span> = {10.31235/osf.io/37dq9},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">month</span> = {Feb},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">publisher</span> = {SocArXiv},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Public {{Gender Egalitarianism}}: {{A Dataset}} of {{Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles}} in the {{Public Sphere}}},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">url</span> = {https://osf.io/preprints/socarxiv/37dq9},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2022}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>dcpo</category>
+  <category>inequality</category>
+  <category>attitudes</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</guid>
+  <pubDate>Fri, 01 Apr 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/woogoldbergsolt2022/pge_fig3.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Democracy, Public Support, and Measurement Uncertainty</title>
+  <dc:creator>Yuehong 'Cassandra' Tai</dc:creator>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/taihusolt2022/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://github.com/Tyhcass/">Tai, Yuehong ‘Cassandra’</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Democracy, Public Support, and Measurement Uncertainty.” <em>American Political Science Review</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="https://osf.io/preprints/socarxiv/y5fdv/"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_dem_mood"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="https://dcpo.org/data/dsd/"><i class="fa-solid fa-database"></i> DSD Database</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Do democratic regimes depend on public support to avoid backsliding? Does public support, in turn, respond thermostatically to changes in democracy? Two prominent recent studies (Claassen 2020a, 2020b) reinvigorated the classic hypothesis on the positive relationship between public support for democracy and regime survival—and challenged its reciprocal counterpart—by using a latent variable approach to measure mass democratic support from cross-national survey data. Both studies, however, used only the point estimates of democratic support; we show that incorporating the concomitant measurement uncertainty into these analyses reveals that there is no support for either study’s conclusion. Efforts to minimize the uncertainty by incorporating additional survey data still fail to yield evidence in support of either hypothesis. These results underscore the need both for more nuanced analyses of the relationships between public support and democracy and for taking measurement uncertainty into account when working with latent variables.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/taihusolt2022/dem_support_fig1.png" class="preview-image img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">TaiHuSolt2022</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;">author</span>={Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;">title</span>={Democracy, Public Support, and Measurement Uncertainty},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;">url</span>={osf.io/preprints/socarxiv/y5fdv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;">doi</span>={10.31235/osf.io/y5fdv},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;">publisher</span>={SocArXiv},</span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;">year</span>={2022},</span>
+<span id="cb1-8">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>dcpo</category>
+  <category>democracy</category>
+  <category>attitudes</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/taihusolt2022/index.html</guid>
+  <pubDate>Fri, 25 Mar 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/taihusolt2022/dem_support_fig1.png" medium="image" type="image/png" height="288" width="144"/>
+</item>
+<item>
+  <title>Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2020/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Frederick Solt</strong>. 2020. “Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database.” <em>Social Science Quarterly</em> 101(3):1183-1199.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../papers/solt2020"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../papers/solt2020_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/swiid/tree/master/paper"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="../swiid/"><i class="fa-solid fa-database"></i> SWIID Database</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><em>Objective:</em> This article documents wide-ranging revisions to the Standardized World Income Inequality Database (SWIID), which seeks to maximize the comparability of income inequality estimates for the broadest possible coverage of countries and years. <em>Methods:</em> Two k-fold cross-validations, by observation and by country, are used to evaluate the SWIID’s success in predicting the Luxembourg Income Study (LIS), recognized in the field as setting the standard for comparability. <em>Results:</em> The cross-validations indicate that the new SWIID’s estimates and their uncertainty are even more accurate than previous versions, extending its advantage in comparability over alternate income inequality datasets. <em>Conclusion:</em> Given its superior coverage and comparability, the SWIID remains the optimum source of data for broadly cross-national research on income inequality.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solt2020/kfold_obs.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2020</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1183-1199},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {101},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2020}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>swiid</category>
+  <category>inequality</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/solt2020/index.html</guid>
+  <pubDate>Sun, 03 May 2020 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solt2020/kfold_obs.png" medium="image" type="image/png" height="89" width="144"/>
+</item>
+<item>
+  <title>Modeling Dynamic Comparative Public Opinion</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/dcpo_article/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://fsolt.org">Frederick Solt</a>. 2020. “Modeling Dynamic Comparative Public Opinion.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="https://osf.io/preprints/socarxiv/d5n9p"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_article"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The study of public opinion in comparative context has been hampered by data that is sparse, that is, unavailable for many countries and years; incomparable, i.e., ostensibly addressing the same issue but generated by different survey items; or, most often, both. Questions of representation and of policy feedback on public opinion, for example, cannot be explored fully from a cross-national perspective without comparable time-series data for many countries that span their respective times of policy adoption. Recent works (Claassen 2019; Caughey, O’Grady, and Warshaw 2019) have introduced a latent variable approach to the study of comparative public opinion that maximizes the information gleaned from available surveys to overcome issues of sparse and incomparable data and allow comparativists to examine the dynamics of public opinion. This paper advances this field of research by presenting a new model and software for estimating latent variables of public opinion from cross-national survey data that yield superior fit and more quantities of theoretical interest than previous works allow.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/dcpo_article/dcpo_article_fig1.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">Solt2020</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;">author</span>={Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;">title</span>={Modeling Dynamic Comparative Public Opinion},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;">year</span>={2020},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;">month</span>={Jan}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;">url</span>={osf.io/preprints/socarxiv/d5n9p},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;">doi</span>={10.31235/osf.io/d5n9p}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>dcpo</category>
+  <category>attitudes</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/working-papers/dcpo_article/index.html</guid>
+  <pubDate>Sun, 12 Jan 2020 06:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/working-papers/dcpo_article/dcpo_article_fig1.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Economic Inequality and Campaign Participation</title>
+  <dc:creator>Michael Ritter</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/rittersolt2019/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+Ritter, Michael, and <strong>Frederick Solt</strong>. 2019. “Economic Inequality and Campaign Participation.” <em>Social Science Quarterly</em> 100(3):678-688
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/rittersolt2019"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="https://osf.io/zzwq2/"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/campaign_participation"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><em>Objective.</em> How does economic inequality shape participation in political campaigns? Previous research has found that higher inequality makes people of all incomes less likely to participate in politics, consistent with relative power theory, which holds that greater inequality enables wealthier citizens to more fully reshape the political landscape to their own advantage. Campaign activities, however, demand more time and money than previously examined forms of participation and so might better conform to the predictions of resource theory, which focuses narrowly on the ramifications of inequality for individuals’ resources. <em>Methods.</em> We combine individual-level data on donations, meeting attendance, and volunteer work for political campaigns with measures of state-level income inequality to construct a series of multilevel models. <em>Results.</em> The analyses reveal that where inequality is higher, campaign participation is lower among individuals of all incomes. <em>Conclusions.</em> Patterns of participation in even resource-intensive campaign activities provide support for the relative power theory.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/rittersolt2019/Fig4.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">RitterSolt2019</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Ritter, Michael and Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">doi</span> = {https://doi.org/10.1111/ssqu.12605},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {678-688},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Campaign Participation},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.12605},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;">volume</span> = {100},</span>
+<span id="cb1-10">    <span class="dt" style="color: #AD0000;">year</span> = {2019}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>participation</category>
+  <guid>https://fsolt.org/res/published/rittersolt2019/index.html</guid>
+  <pubDate>Sun, 30 Jun 2019 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/rittersolt2019/Fig4.png" medium="image" type="image/png" height="60" width="144"/>
+</item>
+<item>
+  <title>The Dynamics of Party Relabeling: Why Do Parties Change Names?</title>
+  <dc:creator>Mi-son Kim</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/kimsolt2017/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party Relabeling: Why Do Parties Change Names?” <em>Party Politics</em> 23(4):437-447.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/kimsolt2017"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/kimsolt2017_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/NZQIWM"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Contrary to longstanding arguments that equate parties with durable, information-rich brand names, relabeling of parties is not rare, and in many countries it is not even very unusual. This paper provides the first effort to document this neglected phenomenon. It finds that across European democracies, roughly a third of all parties have relabeled themselves at least once since 1945, and a similar proportion of elections include at least one party running under a new name. It then presents analyses of why parties change names more frequently in some circumstances, finding support for three explanations derived from the existing literature: parties with longer-standing brands are less likely to shed them, but relabeling is more likely for parties that suffer electoral setbacks and for parties in weaker party systems. Finally, it presents evidence that the end of Soviet communism made left parties more likely to rename themselves.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important Figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/kimsolt2017/sum_plot-1.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Kim2017</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Mi-son Kim and Frederick Solt},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Party Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {437--447},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {The Dynamics of Party Relabeling: Why Do Parties Change Names?},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {23},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2017}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>parties</category>
+  <guid>https://fsolt.org/res/published/kimsolt2017/index.html</guid>
+  <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/kimsolt2017/sum_plot-1.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Economic Inequality and Class Consciousness</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Kevan Hudson</dc:creator>
+  <dc:creator>Jungmin Song</dc:creator>
+  <dc:creator>Dong 'Erico' Yu</dc:creator>
+  <link>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>, Yue Hu, Kevan Hudson, Jungmin Song, and Dong ‘Erico’ Yu. 2017. “Economic Inequality and Class Consciousness.” <em>Journal of Politics</em> 79(3):1079-1083.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/soltetal2017"><i class="fas fa-scroll"></i> Final Version</a>
+</li>
+<li class="project-link">
+<a href="https://osf.io/k4ghw/"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/class_consciousness"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Do contexts of greater income inequality spur the disadvantaged to achieve a class consciousness vital to contesting the fairness of the economic system and demanding more redistribution? One prominent recent study, Newman, Johnston, and Lown (2015), argues that simple exposure to higher levels of local income inequality lead low-income people to view the United States as divided into haves and have-nots and to see themselves as among the have-nots, that is, to become more likely to achieve such a class consciousness. Here, we show that this sanguine conclusion is at best supported only in analyses of the single survey presented in that study. There is no evidence that higher levels of income inequality produce greater class consciousness among those with low incomes in other similar but neglected surveys.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2017/t3_pooled.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2017/t3_multi.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SoltHuHudsonSongYu2017</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Journal of Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1079-1083},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Class Consciousness},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {79},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2017}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>attitudes</category>
+  <guid>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</guid>
+  <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2017/t3_pooled.png" medium="image" type="image/png" height="120" width="144"/>
+</item>
+<item>
+  <title>The Standardized World Income Inequality Database</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2016/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2016. “The Standardized World Income Inequality Database.” <em>Social Science Quarterly</em>. 97(5):1267-1281.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2016"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/solt2016_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/ODB8MK"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+<li class="project-link">
+<a href="../../../swiid/"><i class="fa-solid fa-database"></i> SWIID Database</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><em>Objective.</em> Investigating the causes and consequences of income inequality requires comparable data, but greater cross-national and temporal coverage is generally available only with sharply reduced comparability. The Standardized World Income Inequality Database (SWIID) provide researchers with data that maximize comparability for the broadest possible sample of countries and years. <em>Methods.</em> The SWIID employs a custom missing-data algorithm that minimizes reliance on problematic assumptions by using as much information as possible from proximate years within the same country to estimate inequality statistics for the missing country-years in the Luxembourg Income Study using data drawn from regional collections, national statistical offices, and academic studies. <em>Results.</em> The SWIID provides comparable estimates of the Gini index of net- and market-income inequality for 174 countries for as many years as possible from 1960 to the present, as well as measures of absolute and relative redistribution. <em>Conclusions.</em> As its coverage and comparability far exceed those of alternate datasets, the SWIID is better suited for broadly cross-national research on income inequality than other sources.</p>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2016</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {5},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1267-1281},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {The Standardized World Income Inequality Database},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {97},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2016}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>swiid</category>
+  <category>inequality</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/solt2016/index.html</guid>
+  <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Economic Inequality and Belief in Meritocracy in the United States.</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Kevan Hudson</dc:creator>
+  <dc:creator>Jungmin Song</dc:creator>
+  <dc:creator>Dong 'Erico' Yu</dc:creator>
+  <link>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>, Yue Hu, Kevan Hudson, Jungmin Song, and Dong ‘Erico’ Yu. 2016. “Economic Inequality and Belief in Meritocracy in the United States.” <em>Research &amp; Politics</em> 3(4):1-7.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/soltetal2016a"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/meritocracy"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/YWO87E"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>How does the context of income inequality in which people live affect their belief in meritocracy, the ability to get ahead through hard work? A prominent recent study by Newman, Johnston, and Lown argues that, consistent with the conflict theory, exposure to higher levels of local income inequality leads lower-income people to become more likely to reject—and higher-income people to become more likely to accept—the dominant United States ideology of meritocracy. Here, we show that this conclusion is not supported by the study’s own reported results and that even these results depend on pooling three distinctly different measures of meritocracy into a single analysis. We then demonstrate that analysis of a larger and more representative survey employing a single consistent measure of the dependent variable yields the opposite conclusion. Consistent with the relative power theory, among those with lower incomes, local contexts of greater inequality are associated with more widespread belief that people can get ahead if they are willing to work hard.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important Figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2016/Figure2.jpg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2016/Figure5.jpg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2016b</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Research <span class="ch" style="color: #20794D;">\&amp;</span> Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1-7},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Belief in Meritocracy in the United States},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {3},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2016}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>attitudes</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</guid>
+  <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2016/Figure2.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>On the Assessment and Use of Cross-National Income Inequality Datasets</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2015b/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2015. “On the Assessment and Use of Cross-National Income Inequality Datasets.” <em>Journal of Economic Inequality</em> 13(4):683-691.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2015b"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/solt2015b_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/LJD8CQ"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Researchers should ensure the data they employ are fit for their purpose, and they should maximize the quality of the data they choose. In this paper, I review how this advice applies to broadly cross-national research on income inequality. I demonstrate that the guidance offered in Jenkins (2015) to those pursuing cross-national research runs completely counter to the recommendations found in Atkinson and Brandolini (2001, 2009), the source of the aforementioned advice and the works upon which Jenkins (2015) claims its own is based. I then show how the Standardized World Income Inequality Database (SWIID) incorporates Atkinson and Brandolini’s recommendations to provide the most comparable data available for those engaged in broadly cross-national research on income inequality.</p>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2015a</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Journal of Economic Inequality},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {683-691},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {On the Assessment and Use of Cross-National Income Inequality Datasets},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {13},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2015}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>swiid</category>
+  <category>inequality</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/solt2015b/index.html</guid>
+  <pubDate>Tue, 30 Jun 2015 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Economic Inequality and Nonviolent Protest</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2015a/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2015. “Economic Inequality and Nonviolent Protest.” <em>Social Science Quarterly</em> 96(5):1314-1327.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2015a"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/solt2015a_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/DHP7WF"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><em>Objective.</em> Despite substantial theorizing, the relationship between economic inequality and participation in nonviolent protests has not been satisfactorily examined empirically. <em>Methods.</em> Using multilevel models of data from four waves of the European Social Survey, this article examines whether differences in inequality across countries and over time help explain people’s engagement in peaceful protest. <em>Results.</em> It finds that greater inequality reduces protest participation for all those with incomes below the top quintile. <em>Conclusions.</em> This result provides strong support for the relative power theory of political participation; the predictions of grievance and resource theories regarding inequality’s effects on protest are not supported.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<p><img src="https://fsolt.org/res/published/solt2015a/fig1.png" class="img-fluid" alt="Figure 1: Predicting Nonviolent Protest Activity"> ## BibTeX Citation</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2015</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {5},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1314--1327},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Nonviolent Protest},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {96},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2015}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>participation</category>
+  <guid>https://fsolt.org/res/published/solt2015a/index.html</guid>
+  <pubDate>Thu, 30 Apr 2015 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solt2015a/fig1.png" medium="image" type="image/png" height="172" width="144"/>
+</item>
+<item>
+  <title>Reversing the Arrow? Economic Inequality’s Effect on Religiosity</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2014/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2014. “Reversing the Arrow? Economic Inequality’s Effect on Religiosity.” In <em>Religion and Inequality in America: Research and Theory on Religion’s Role in Stratification</em>, L. Keister and D. Sherkat, eds., Cambridge: Cambridge University Press.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="https://books.google.com/books?id=eBlvAwAAQBAJ&amp;pg=337"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/solt2014_pre/"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/X0AOON"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>As other contributions to this volume document, there is considerable evidence that religious beliefs and practices shape stratification processes, working to maintain and perhaps even increase economic inequality. But what effect does the extent of inequality within a society have on the religiosity of the people who live there? In this chapter, I present time-series cross-sectional analyses of reported attendance at religious services in more than thirty countries over the past half century. These analyses indicate that rising levels of income inequality are soon followed by rising levels of religiosity. These results support relative power theory, which maintains that greater inequality yields more religiosity by increasing the degree to which wealthy people are attracted to religion and have the power to shape the attitudes and beliefs of those with fewer means.</p>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@incollection</span>{<span class="ot" style="color: #003B4F;">Solt2014</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">booktitle</span> = {Religion and Inequality in America: Research and Theory on Religion's Role in Stratification},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">pages</span> = {337-353},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">publisher</span> = {Cambridge University Press},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Reversing the Arrow? Economic Inequality's Effect on Religiosity},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">year</span> = {2014}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>religiosity</category>
+  <category>attitudes</category>
+  <guid>https://fsolt.org/res/published/solt2014/index.html</guid>
+  <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Dongkyu Kim</dc:creator>
+  <dc:creator>Kyu Young Lee</dc:creator>
+  <dc:creator>Spencer Willardson</dc:creator>
+  <dc:creator>Seokdong Kim</dc:creator>
+  <link>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>, Dongkyu Kim, Kyu Young Lee, Spencer Willardson, and Seokdong Kim. 2014. “Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction.” <em>Research and Politics</em> 1(2):1-13.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/soltetal2014"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/26391"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Do neoliberal economic reforms in Latin American democracies mobilize citizens to overcome their collective action problems and protest? A recent addition to the scholarship on this crucial question of the relationship of markets and politics, Bellinger and Arce (2011), concludes that economic liberalization does have this effect, working to repoliticize collective actors and reinvigorate democracy. We reexamine the article’s analyses and demonstrate that they misinterpret the marginal effect of the variables of theoretical interest. Thus, the article’s optimistic claims about the consequences for democracy of economic liberalization in the region are not supported by its own empirical results. It is argued here that its results suggest instead that protests became more common in autocracies when they moved away from markets. Rather than speaking to how people have mobilized to protest against liberal reforms in Latin America’s democracies, the work’s analyses illuminate only when people protested against the region’s dictatorships.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/soltkimleewillardsonkim2014/fig4.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SoltKimLeeWilliardsonKim2014</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Kim, Dongkyu and Lee, Kyu Young and Williardson, Spencer and Kim, Seokdong},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Research <span class="ch" style="color: #20794D;">\&amp;</span> Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1-13},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {1},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2014}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>democracy</category>
+  <category>participation</category>
+  <category>neoliberalism</category>
+  <guid>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</guid>
+  <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/soltkimleewillardsonkim2014/fig4.png" medium="image" type="image/png" height="39" width="144"/>
+</item>
+<item>
+  <title>The Social Origins of Authoritarianism</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2012/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2012. “The Social Origins of Authoritarianism.” <em>Political Research Quarterly</em> 65(4):703-713.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2012"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/WQV7PZ"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Despite much attention to the problematic consequences of authoritarianism, little research focuses on the causes of such unquestioning respect for ‘proper’ authority. Elaborating on the social learning approach to authoritarianism, this paper argues that economic inequality within countries shapes individuals’ feelings towards authority. As differences in condition among members of a society increase, so does the relative power of the wealthy. As a result, regardless of their incomes, individuals’ experiences are more likely to lead them to view hierarchical relations as natural and, in turn, to hold greater respect for authority. Multilevel models of authoritarianism in countries around the world over three decades support this relative power theory.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solt2012/pp_combined.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2012</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Political Research Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">month</span> = {December},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {703-713},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {The Social Origins of Authoritarianism},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {65},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2012}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>attitudes</category>
+  <guid>https://fsolt.org/res/published/solt2012/index.html</guid>
+  <pubDate>Sat, 30 Jun 2012 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solt2012/pp_combined.png" medium="image" type="image/png" height="221" width="144"/>
+</item>
+<item>
+  <title>Diversionary Nationalism: Economic Inequality and the Formation of National Pride</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2011/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2011. “Diversionary Nationalism: Economic Inequality and the Formation of National Pride.” <em>Journal of Politics</em> 73(3):821-830.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2011"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="http://hdl.handle.net/1902.1/17098"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>What accounts for differences in the extent of nationalist sentiments across countries and over time? One prominent argument is that greater economic inequality prompts states to generate more nationalism as a diversion that discourages their citizens from recognizing economic inequality and mobilizing against it. Several other theories, however, propose different relationships between economic inequality and nationalism. This article provides a first empirical test of whether and how economic inequality is related to nationalism. Multilevel analyses using survey data on nationalist sentiments in countries around the world over a quarter century and data on economic inequality from the Standardized World Income Inequality Database provide powerful support for the diversionary theory of nationalism. This finding is an important contribution to our understanding of nationalism as well as of the political consequences of economic inequality.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solt2011/combined.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2011</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Journal of Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">month</span> = {7},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {821-830},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Diversionary Nationalism: Economic Inequality and the Formation of National Pride},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {73},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2011}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>attitudes</category>
+  <guid>https://fsolt.org/res/published/solt2011/index.html</guid>
+  <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solt2011/combined.png" medium="image" type="image/png" height="105" width="144"/>
+</item>
+<item>
+  <title>Economic Inequality, Relative Power, and Religiosity.</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Philip Habel</dc:creator>
+  <dc:creator>J. Tobin Grant</dc:creator>
+  <link>https://fsolt.org/res/published/solthabelgrant2011/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>, Philip Habel, and J. Tobin Grant. 2011. “Economic Inequality, Relative Power, and Religiosity.” <em>Social Science Quarterly</em> 92(2):447-465.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solthabelgrant2011"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="NA"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="NA"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/27479"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><em>Objective.</em> What effect does the extent of economic inequality within a country have on the religiosity of the people who live there? As inequality increases, does religion serve primarily as a source of comfort for the deprived and impoverished or as a tool of social control for the rich and powerful? <em>Methods.</em> This article examine these questions with two complementary analyses of inequality and religiosity: a multilevel analysis of countries around the world over two decades and a time-series analysis of the United States over a half-century. <em>Results.</em> Economic inequality has a strong positive effect on the religiosity of all members of a society regardless of income. <em>Conclusions.</em> These results support relative power theory, which maintains that greater inequality yields more religiosity by increasing the degree to which wealthy people are attracted to religion and have the power to shape the attitudes and beliefs of those with fewer means.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solthabelgrant2011/Figure2.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SoltHabelGrant2011</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Habel, Philip and Grant, J. Tobin},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {447--465},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality, Relative Power, and Religiosity},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {92},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2011}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>religiosity</category>
+  <category>attitudes</category>
+  <guid>https://fsolt.org/res/published/solthabelgrant2011/index.html</guid>
+  <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solthabelgrant2011/Figure2.png" medium="image" type="image/png" height="209" width="144"/>
+</item>
+<item>
+  <title>Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2010/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2010. “Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis.” <em>Political Behavior</em> 32(2):285-301.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2010/"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="http://dx.doi.org/10.7910/DVN/27475"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Nearly a half-century ago, E.E. Schattschneider wrote that the high abstention and large differences between the rates of electoral participation of richer and poorer citizens found in the United States were caused by high levels of economic inequality. Despite increasing inequality and stagnant or declining voting rates since then, Schattschneider’s hypothesis remains largely untested. This article takes advantage of the variation in inequality across states and over time to remedy this oversight. Using a multilevel analysis that combines aspects of state context with individual survey responses in 144 gubernatorial elections, it finds that citizens of states with greater income inequality are less likely to vote and that income inequality increases income bias in the electorate, lending empirical support to Schattschneider’s argument.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important Figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/solt2010/figure1.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<p><img src="https://fsolt.org/res/published/solt2010/figure2.png" class="img-fluid" alt="Figure 2: Estimated Income Bias by Level of Income Inequality"> ## BibTeX Citation</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2010</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Political Behavior},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {285-301},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {32},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2010}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>participation</category>
+  <guid>https://fsolt.org/res/published/solt2010/index.html</guid>
+  <pubDate>Wed, 30 Jun 2010 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/published/solt2010/figure1.png" medium="image" type="image/png" height="104" width="144"/>
+</item>
+<item>
+  <title>Standardizing the World Income Inequality Database</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2009/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2009. “Standardizing the World Income Inequality Database.” <em>Social Science Quarterly</em> 90(2):231-242.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2009"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/solt2009pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="../../../swiid/"><i class="fa-solid fa-database"></i> SWIID Database</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><em>Objective</em>. Cross-national research on the causes and consequences of income inequality has been hindered by the limitations of existing inequality datasets: greater coverage across countries and over time is available from these sources only at the cost of significantly reduced comparability across observations. The goal of the Standardized World Income Inequality Database (SWIID) is to overcome these limitations. <em>Methods</em>. A custom missing-data algorithm was used to standardize the United Nations University’s World Income Inequality Database; data collected by the Luxembourg Income Study served as the standard. <em>Results</em>. The SWIID provides comparable Gini indices of gross and net income inequality for 153 countries for as many years as possible from 1960 to the present along with estimates of uncertainty in these statistics. <em>Conclusions</em>. By maximizing comparability for the largest possible sample of countries and years, the SWIID is better suited to broadly cross-national research on income inequality than previously available sources.</p>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTex Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2009</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">keywords</span> = {Inequality},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {231-242},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Standardizing the World Income Inequality Database},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {90},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2009}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>swiid</category>
+  <category>inequality</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/solt2009/index.html</guid>
+  <pubDate>Tue, 30 Jun 2009 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Economic Inequality and Democratic Political Engagement</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/solt2008/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Solt, Frederick</strong>. 2008. “Economic Inequality and Democratic Political Engagement.” <em>American Journal of Political Science</em> 52(1):48-60. <em>American Journal of Political Science</em> 52(1):48-60.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2008/"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/solt2008_pre/"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>What effect, if any, does the extent of economic inequality in a country have upon the political engagement of its citizens? This study examines this question using data from multiple cross-national surveys of the advanced industrial democracies. It tests the theory that greater inequality increases the relative power of the wealthy to shape politics in their own favor against rival arguments that focus on the effects of inequality on citizens’ objective interests or the resources they have available for political engagement. The analysis demonstrates that higher levels of income inequality powerfully depress political interest, the frequency of political discussion, and participation in elections among all but the most affluent citizens, providing compelling evidence that greater economic inequality yields greater political inequality.</p>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2008</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {American Journal of Political Science},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">month</span> = {January},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {1},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {48-60},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Democratic Political Engagement},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {52},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2008}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>participation</category>
+  <guid>https://fsolt.org/res/published/solt2008/index.html</guid>
+  <pubDate>Mon, 30 Jun 2008 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Public Discussion in the Deliberative System: Does It Make Better Citizens?</title>
+  <dc:creator>Donald Searing</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Pamela Johnston Conover</dc:creator>
+  <dc:creator>Ivor Crewe</dc:creator>
+  <link>https://fsolt.org/res/published/searingsoltconovercrewe2007/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+Searing, Donald, <strong>Frederick Solt</strong>, Pamela Johnston Conover, and Ivor Crewe. 2007. “Public Discussion in the Deliberative System: Does It Make Better Citizens?” <em>British Journal of Political Science</em> 37(4):587-618.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/searingsoltconovercrewe2007"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+</ul>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>In democratic theory, the practice of discussing public affairs has been associated with desirable consequences for citizenship and democracy. We use Anglo-American survey data to examine twelve hypotheses about psychological foundations for four general conditions that such discussions might promote: autonomous citizens, political legitimacy, good representation and democratic communities. Our data combine detailed measures of public discussion with measures of more of its hypothesized civic consequences than have heretofore been available. They also enable us to probe, using specialized samples, causal inferences suggested by our analyses of random samples in our British and American communities. Six of the hypotheses are supported, including at least one regarding each of the four general liberal democratic conditions we investigate.</p>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SearingSoltConoverCrew2007</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Searing, Donald D. and Solt, Frederick and Conover, Pamela Johnston and Crewe, Ivor},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {British Journal of Political Science},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;">month</span> = {October},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {587--618},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Public Discussion in the Deliberative System: Does It Make Better Citizens?},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {37},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2007}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>participation</category>
+  <guid>https://fsolt.org/res/published/searingsoltconovercrewe2007/index.html</guid>
+  <pubDate>Sat, 30 Jun 2007 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

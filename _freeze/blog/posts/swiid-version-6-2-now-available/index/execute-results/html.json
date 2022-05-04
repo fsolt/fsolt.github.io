@@ -1,0 +1,16 @@
+{
+  "hash": "4c4e399d91e8c0c988457b757b9fbbb8",
+  "result": {
+    "markdown": "---\ntitle: SWIID Version 6.2 is available!\nauthor: Frederick Solt\nslug: swiid-version-6_2\ndate: '2018-03-26'\ncategories:\n  - update\n  - r\n  - swiid\nbibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib\ncsl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl\noutput:\n    html_document:\n        self_contained: true\n---\n\nVersion 6.2 of the SWIID is [now available](/swiid/swiid_downloads/)!  Building on the end-to-end revision accomplished in Version 6.0 last July and the update Version 6.1 last October, this new release:\n\n- incorporates in [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) 560 new Ginis, including [newly available LIS data on China, Germany, Paraguay, Taiwan, the United States](http://www.lisdatacenter.org/news-and-events/2018-spring-data-release/), [and Uruguay](http://www.lisdatacenter.org/news-and-events/winter-data-releases/);\n\n- includes estimates of market and disposable income inequality for 27 new country-years;\n\n- calculates estimates of absolute and relative redistribution for one additional country, Latvia, for a total of sixty-seven---all of the countries for which there is source data available [on both the distribution of market income and the distribution of disposable income or consumption](/blog/2015/10/05/redistribution-observations/).\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\nFor more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid).  As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.305">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Frederick Solt">
+<meta name="dcterms.date" content="2019-01-16">
+<meta name="description" content="From its origins now over ten years ago, the goal of the Standardized World Income Inequality Database has been to provide estimates of income inequality for as many countries and years as possible…">
+
+<title>Frederick Solt - Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<link href="../../../fs.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+
+<!-- Default Statcounter code -->
+<script type="text/javascript">
+var sc_project=1915099;
+var sc_invisible=1;
+var sc_security="da58688a";
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async=""></script>
+<!-- End of Statcounter Code -->
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../../templates/styles.css">
+<meta property="og:title" content="Frederick Solt - Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates">
+<meta property="og:description" content="From its origins now over ten years ago, the goal of the Standardized World Income Inequality Database has been to provide estimates of income inequality for as many countries and years as possible...">
+<meta property="og:site-name" content="Frederick Solt">
+<meta name="twitter:title" content="Frederick Solt - Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates">
+<meta name="twitter:description" content="From its origins now over ten years ago, the goal of the Standardized World Income Inequality Database has been to provide estimates of income inequality for as many countries and years as possible...">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="docked nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../../index.html">
+    <img src="../../../fsolt.png" alt="">
+    <span class="navbar-title">Frederick Solt</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../swiid/">SWIID</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://dcpo.org">DCPO</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../res/">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../teach/">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../sw/">Software</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog/">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cv/">CV</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:frederick-solt@uiowa.edu"><i class="bi bi-envelope" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/fredericksolt"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/fsolt/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ"><i class="bi bi-mortarboard" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../#" class="sidebar-item-text sidebar-link">Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">note</div>
+    <div class="quarto-category">r</div>
+    <div class="quarto-category">swiid</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    From its origins now over ten years ago, the goal of the Standardized World Income Inequality Database has been to provide estimates of income inequality for as many countries and years as possible…
+  </div>
+</div>
+
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Frederick Solt </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2019-01-16</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>From its origins now over ten years ago, the goal of the <a href="../../../swiid/">Standardized World Income Inequality Database</a> has been to provide estimates of income inequality for as many countries and years as possible while ensuring that these estimates are as comparable as the available data allow. That is to say, the SWIID’s first priority is breadth of coverage, and its second is comparability. The starting point for the SWIID estimates is a dataset with the complementary priorities: the <a href="https://www.lisdatacenter.org">Luxembourg Income Study</a>, which aims to maximize comparability and, given that primary concern, to include as many countries and years as possible.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Then the SWIID routine estimates the relationships between Gini indices based on the LIS and <a href="../../../blog/2017/07/28/the-swiid-source-data/">all of the other Ginis available</a> for the same country-years, and it uses these relationships to estimate what the LIS Gini <em>would be</em> in country-years not included in the LIS but available from other sources.</p>
+<p>How can we know if the SWIID’s approach works? <a href="../../../papers/solt2016/">In previous work</a>, I provided the most stringent test I could come up with:<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> I examined LIS data on country-years that had been included in previously-released versions of the SWIID. The results were reassuring in some ways–only seven percent of the differences between new LIS and old SWIID observations were statistically significant and larger than two Gini points, a far better record than that achieved by data carefully selected from <a href="https://www.wider.unu.edu/project/wiid-world-income-inequality-database">the UNU-WIDER database</a> or the <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets"><em>All the Ginis</em> dataset</a> adjusted in accordance with <a href="https://www.gc.cuny.edu/CUNY_GC/media/CUNY-Graduate-Center/PDF/Centers/LIS/Milanovic/Description-of-the-dataset_16.pdf">its instructions</a>–but less so in others. Most disappointingly, only 72% of the differences had 95% confidence intervals that included zero, suggesting that the SWIID’s standard errors were often too small. I’ve been working hard on the SWIID’s estimation routine to fix these issues since I conducted that test back in 2014, but the LIS doesn’t release new data frequently enough to allow for continuous testing of these revisions. So, instead, I’ve drawn on a technique developed in data science and machine learning, <em>k</em>-fold cross-validation, to assess the SWIID’s progress.</p>
+<p>To get how <em>k</em>-fold cross-validation works, it helps to first understand the simpler form of cross-validation in which the available data are first divided into two groups of observations: the <em>training</em> set and the <em>testing</em> set. The model parameters are then estimated on only the training set. Finally, these results are used to predict the values of the testing set (that is, again, observations that were not used to estimate the model’s parameters). By comparing the model’s predictions against the test set, we avoid overfitting and get a good sense of how well the model performs in predicting other, as yet unknown, data.</p>
+<p>Still, that sense may be biased by the exact observations that happened to be assigned to each set. We can reduce this bias by performing the process repeatedly: this is <em>k</em>-fold cross-validation. The available data are divided into some number <em>k</em> groups. One at a time, each of the <em>k</em> groups is treated as the testing data, with all other groups forming the training data for estimating the model. The model’s performance is then evaluated by considering how well it predicts <em>all</em> of the groups, and because every observation is included in the testing data at some point, the process allows us to check whether and for which observations the model is doing particularly poorly.</p>
+<p>To provide a first assessment of the SWIID’s ability to predict the LIS, I randomly assigned the available LIS observations into groups of three, with an added check to ensure that no group included two observations from the same country.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> (Because the SWIID routine relies only on relationships observed within-country for the countries included in the LIS, the check that only a single observation from a country be assigned to the test data at a time means that the exact size of the group doesn’t really matter.)<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> The figure below plots the difference between the SWIID prediction generated from this <em>k</em>-fold cross-validation and the LIS data for each country-year included in the LIS. Observations for which the 95% credible interval for this difference includes zero are gray; those for which it doesn’t are highlighted in blue.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/kfold_output-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>The results show that the SWIID does a very good job of predicting the LIS: the 95% credible interval for the difference between the two includes zero for 92% of these observations. The point estimates for these differences are generally small, with 85% less than 2 Gini points and 62% less than a single Gini point. It’s true that there are a few observations for which the estimated difference is quite large–on the far left of the plot, the SWIID routine underestimated the LIS Gini for Hungary in 1991 by 6 <span class="math inline">\(\pm\)</span> 4 points, and on the extreme right the SWIID routine overestimated that for Guatemala in 2014 by 7 <span class="math inline">\(\pm\)</span> 4 points–but there doesn’t really seem to me to be much pattern in which countries and years are estimated poorly.</p>
+<p>This test, though, really only assesses how well the SWIID predicts LIS-comparable inequality figures in years without LIS data in the (now fifty) countries that are <em>included in the LIS</em>. We can get a better sense of how well the SWIID does predicting countries not covered by the LIS with another cross-validation that, one country at a time, excludes <em>all</em> of the LIS observations for that country. The results of just such a test are plotted below.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/kfold_output_by_country-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Overall, the plot looks very similar to the one above. With each country’s entire run of LIS data taking a turn being excluded, the 95% credible interval for the difference between the resulting SWIID estimate and the excluded LIS data contains zero 91% of the time. And here, too, most of the point estimates for these differences are small: 76% are less than 2 Gini points, and 51% are less than one Gini point.</p>
+<p>This analysis, though, does point to a few rough spots in need of future attention. The first appears on the far left of the plot above. There we find that the largest difference is for the sole country-year for Egypt in the LIS–for 2012–which the SWIID routine underestimates by 16(!) <span class="math inline">\(\pm\)</span> 6 Gini points. Egypt is currently the only country in the LIS with just a single country-year observation; given that excluding the one observation is equivalent to excluding all of the country’s observations, I skipped omitting it in the first cross-validation. LIS researchers <a href="https://www.wider.unu.edu/sites/default/files/Publications/Working-paper/PDF/wp2018-149.pdf">Checchi et al.&nbsp;report</a> in a footnote that Egyptian income surveys before 2012 did not include any questions to capture self-employment income, and it’s also true that most of the available Ginis for Egypt are based on the distribution of consumption expenditure, which sometimes only loosely track those for the distribution of income (see, e.g., India). These factors, however, are present in many non-LIS countries as well, so I’ll continue working to come up with ways to improve the SWIID routine for such cases.</p>
+<p>The second is that there are two other countries for which the 95% credible interval for the differences between the LIS data and the SWIID routine’s estimates for those countries when all of their LIS data are excluded does not contain zero in <em>any</em> of the country’s observations: Brazil and Peru. For Brazil, the cross-validation’s estimates of the country’s four LIS observations are all too high—by 2.5 <span class="math inline">\(\pm\)</span> 2.0 Gini points to 3.7 <span class="math inline">\(\pm\)</span> 2.1 Gini points. The cross-validation’s estimates for Peru’s four LIS observations, on the other hand, are all too low—by between 5.0 <span class="math inline">\(\pm\)</span> 2.9 and 5.4 <span class="math inline">\(\pm\)</span> 3.0 Gini points. So there is some room for improvement here too, and I’ll keep working on it also.</p>
+<p>All in all, though, these <em>k</em>-fold cross-validation exercises show that the SWIID does a very good job of predicting the LIS, which inspires confidence that the SWIID is indeed maximizing the comparability of income inequality data across countries and over time.</p>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Checchi2018" class="csl-entry" role="doc-biblioentry">
+Checchi, Daniele, Andrej Cupak, Teresa Munzi, and Janet Gornick. 2018. <span>“Empirical Challenges Comparing Inequality Across Countries: The Case of Middle-Income Countries from the <span>LIS</span> Database.”</span> <em>WIDER Working Paper</em> 2018/149.
+</div>
+<div id="ref-Solt2016" class="csl-entry" role="doc-biblioentry">
+Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Database.”</span> <em>Social Science Quarterly</em> 97(5): 1267–81.
+</div>
+</div></section><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1" role="doc-endnote"><p>Still, even for the LIS perfect comparability has given way to the desire to cover more middle-income countries. <a href="https://www.lisdatacenter.org/newsletter/nl-2018-8-h-2/">Teresa Munzi and Andrej Cupak recently wrote</a> about the difficulties the LIS team encountered including middle-income countries due to the greater importance of non-monetary and self-employment income as well as the differences in direct taxation and social security contributions in these countries in comparison to high-income countries. Despite these issues, the LIS remains the most comparable income inequality data available.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>For the initial kernel of this idea, I remain grateful to participants in the Expert Group Meeting on Reducing Inequalities in the Context of Sustainable Development, Department of Economic and Social Affairs, United Nations, New York, October 24–25, 2013.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>The goal of this exercise is really to assess how well the SWIID works within the LIS countries, so Egypt 2012, the only LIS observation for that country, is excluded from the analysis. This is because holding out that observation makes Egypt a <em>non</em>-LIS country. What happens when the SWIID is used to predict all of a country’s LIS observations at once is discussed below.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>My experiments with groups sized from just one observation each up to six observations each confirmed this. Three observations per group struck a nice balance between the time it takes to randomly generate the groups (which increases with group size because it becomes more likely for a group to be rejected for containing two observations from a single country) and the demand the work puts on <a href="https://wiki.uiowa.edu/display/hpcdocs/Argon+Cluster">UI’s high performance computing cluster</a> (which increases with the number of groups–which is also the number of times the SWIID routine is re-run). I probably don’t really need to worry about the latter, but whatever—like I said, it doesn’t actually matter.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

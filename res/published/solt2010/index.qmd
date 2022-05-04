@@ -1,0 +1,46 @@
+---
+title: "Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis"
+date: 2010-06-30
+cite: >
+    **Solt, Frederick**. 2010. "Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis." _Political Behavior_ 32(2):285-301.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: "/papers/solt2010/"
+    icon: fas fa-scroll
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/27475
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - participation
+---
+
+:::{#cite}
+:::
+
+## Abstract
+Nearly a half-century ago, E.E. Schattschneider wrote that the high abstention and large differences between the rates of electoral participation of richer and poorer citizens found in the United States were caused by high levels of economic inequality. Despite increasing inequality and stagnant or declining voting rates since then, Schattschneider&rsquo;s hypothesis remains largely untested. This article takes advantage of the variation in inequality across states and over time to remedy this oversight. Using a multilevel analysis that combines aspects of state context with individual survey responses in 144 gubernatorial elections, it finds that citizens of states with greater income inequality are less likely to vote and that income inequality increases income bias in the electorate, lending empirical support to Schattschneider's argument.
+
+## Important Figures
+
+![Figure 1: Predicted Probability of Voting by Level of Income Inequality](figure1.png)
+
+![Figure 2: Estimated Income Bias by Level of Income Inequality](figure2.png)
+## BibTeX Citation
+
+```bibtex
+@article{Solt2010,
+	author = {Solt, Frederick},
+	journal = {Political Behavior},
+	number = {2},
+	pages = {285-301},
+	title = {Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis},
+	volume = {32},
+	year = {2010}}
+```

@@ -1,0 +1,45 @@
+---
+title: "Reversing the Arrow? Economic Inequality's Effect on Religiosity"
+date: 2014-06-30
+cite: >
+    **Solt, Frederick**. 2014. "Reversing the Arrow? Economic Inequality's Effect on Religiosity." In _Religion and Inequality in America: Research and Theory on Religion's Role in Stratification_, L. Keister and D. Sherkat, eds., Cambridge: Cambridge University Press.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: https://books.google.com/books?id=eBlvAwAAQBAJ&pg=337
+    icon: fas fa-scroll
+  - name: Preprint
+    url: "/papers/solt2014_pre/"
+    icon: far fa-file-pdf
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/X0AOON
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - religiosity
+    - attitudes
+---
+
+:::{#cite}
+:::
+
+## Abstract
+As other contributions to this volume document, there is considerable evidence that religious beliefs and practices shape stratification processes, working to maintain and perhaps even increase economic inequality.  But what effect does the extent of inequality within a society have on the religiosity of the people who live there?  In this chapter, I present time-series cross-sectional analyses of reported attendance at religious services in more than thirty countries over the past half century.  These analyses indicate that rising levels of income inequality are soon followed by rising levels of religiosity.  These results support relative power theory, which maintains that greater inequality yields more religiosity by increasing the degree to which wealthy people are attracted to religion and have the power to shape the attitudes and beliefs of those with fewer means.
+
+## BibTeX Citation
+```bibtex
+@incollection{Solt2014,
+	author = {Solt, Frederick},
+	booktitle = {Religion and Inequality in America: Research and Theory on Religion's Role in Stratification},
+	pages = {337-353},
+	publisher = {Cambridge University Press},
+	title = {Reversing the Arrow? Economic Inequality's Effect on Religiosity},
+	year = {2014}}
+```
+
+

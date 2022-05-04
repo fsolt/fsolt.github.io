@@ -1,0 +1,6 @@
+---
+rank: 2
+title: How is Germany treated in the SWIID? Where’s East Germany?
+---
+
+As in [the LIS](http://www.lisdatacenter.org), Germany is West Germany only before 1991 and (united) Germany from that point forward. The SWIID includes no estimates for East Germany; I just haven’t found much to include in the source data. If you know of a source for East German Ginis, [email me](mailto:frederick-solt@uiowa.edu) with the details, and I’ll be happy to get it into the next version.

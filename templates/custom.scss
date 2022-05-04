@@ -1,0 +1,2569 @@
+/*-- scss:defaults --*/
+// Colors
+$navbar-hl: #f2791e;
+$link-color: #13294B;
+$link-hover-color: #f2791e;
+$sidebar-color: #7BAFD4;
+$sidebar-hover-color: #7BAFD4;
+
+$text-color: #000000;
+$heading-color: #000000;
+$blockquote-color: #A52C60;
+$blockquote-light: #FFB7CD;
+$inline-code: #7BAFD4;
+$inline-code-bg: #e3e3e3;
+
+$bg-color: #FFFFFF;
+$fg-color: #212121;
+$alt-bg-color: #E0E0E0;
+$alt-fg-color: #000;
+
+$alert-bg-level: -10 !default;
+$alert-border-level: -9 !default;
+$alert-color-level: 6 !default;
+$theme-color-interval: 8% !default;
+
+
+/*-- scss:rules --*/
+
+/* for individual publication pages */
+.research-page {
+    h1 {
+        font-size: 2.6rem;
+        line-height: 1.2;
+        margin-bottom: 1em;
+    }
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    .project-details {
+        background-color: $sidebar-color;
+        border: 1 solid transparent;
+        border-radius: 0.25rem;
+        padding: 1em;
+        font-size: 1.1rem;
+        color: white;
+
+        ul.project-links {
+            padding: 0;
+            margin: 0.75em 0 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        @media (max-width: 48em) {
+            font-size: 0.8rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 0.5em 0.5em 0em 0em;
+            font-size: 1rem;
+        }
+
+        .details {
+            background-color: $link-color;
+            padding-right: 1.5em;
+            border-right: 1 solid transparent;
+            border-radius: 0.25rem;
+
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+/*start quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-rules.scss replacement */
+main {
+  ol ol,
+  ul ul,
+  ol ul,
+  ul ol {
+    margin-bottom: 1em;
+  }
+}
+
+// Grid layout
+body {
+  margin: 0;
+}
+
+// If we're applying display: grid, we're losing our display: border-box
+// behavior, so we need to reset bottom margin for title block
+main.page-columns > header > h1.title {
+  margin-bottom: 0;
+}
+
+@include media-breakpoint-up(lg) {
+  body {
+    .page-columns {
+      @include page-columns-default-wide();
+    }
+  }
+
+  body.fullcontent:not(.floating):not(.docked) {
+    .page-columns {
+      @include page-columns-fullcontent-wide();
+    }
+  }
+
+  body.slimcontent:not(.floating):not(.docked) {
+    .page-columns {
+      @include page-columns-slimcontent-wide();
+    }
+  }
+
+  body.listing:not(.floating):not(.docked) {
+    .page-columns {
+      @include page-columns-listing-wide();
+    }
+  }
+
+  body:not(.floating):not(.docked) {
+    .page-columns.toc-left {
+      @include page-columns-tocleft-wide();
+      .page-columns {
+        @include page-columns-tocleft-wide();
+      }
+    }
+  }
+
+  body.floating {
+    .page-columns {
+      @include page-columns-float-wide();
+    }
+  }
+
+  body.docked {
+    .page-columns {
+      @include page-columns-docked-wide();
+    }
+  }
+
+  body.docked.fullcontent {
+    .page-columns {
+      @include page-columns-docked-fullcontent-wide();
+    }
+  }
+
+  body.floating.fullcontent {
+    .page-columns {
+      @include page-columns-float-fullcontent-wide();
+    }
+  }
+
+  body.docked.slimcontent {
+    .page-columns {
+      @include page-columns-docked-slimcontent-wide();
+    }
+  }
+
+  body.docked.listing {
+    .page-columns {
+      @include page-columns-docked-listing-wide();
+    }
+  }
+
+  body.floating.slimcontent {
+    .page-columns {
+      @include page-columns-float-slimcontent-wide();
+    }
+  }
+
+  body.floating.listing {
+    .page-columns {
+      @include page-columns-float-listing-wide();
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  body {
+    .page-columns {
+      @include page-columns-default-mid();
+    }
+  }
+
+  body.fullcontent:not(.floating):not(.docked) {
+    .page-columns {
+      @include page-columns-fullcontent-mid();
+    }
+  }
+
+  body.slimcontent:not(.floating):not(.docked) {
+    .page-columns {
+      @include page-columns-slimcontent-mid();
+    }
+  }
+
+  body.listing:not(.floating):not(.docked) {
+    .page-columns {
+      @include page-columns-listing-mid();
+    }
+  }
+
+  body:not(.floating):not(.docked) {
+    .page-columns.toc-left {
+      @include page-columns-tocleft-mid();
+      .page-columns {
+        @include page-columns-tocleft-mid(); 
+      }
+    }
+  }
+
+  body.floating {
+    .page-columns {
+      @include page-columns-float-mid();
+    }
+  }
+
+  body.docked {
+    .page-columns {
+      @include page-columns-docked-mid();
+    }
+  }
+
+  body.docked.fullcontent {
+    .page-columns {
+      @include page-columns-docked-fullcontent-mid();
+    }
+  }
+
+  body.floating.fullcontent {
+    .page-columns {
+      @include page-columns-float-fullcontent-mid();
+    }
+  }
+
+  body.docked.slimcontent {
+    .page-columns {
+      @include page-columns-docked-slimcontent-mid();
+    }
+  }
+
+  body.docked.listing {
+    .page-columns {
+      @include page-columns-docked-listing-mid();
+    }
+  }
+
+  body.floating.slimcontent {
+    .page-columns {
+      @include page-columns-float-slimcontent-mid();
+    }
+  }
+
+  body.floating.listing {
+    .page-columns {
+      @include page-columns-float-listing-mid();
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  body,
+  body.fullcontent:not(.floating):not(.docked),
+  body.slimcontent:not(.floating):not(.docked),
+  body.docked,
+  body.docked.slimcontent,
+  body.docked.fullcontent,
+  body.floating,
+  body.floating.slimcontent,
+  body.floating.fullcontent {
+    .page-columns {
+      @include page-columns();
+      @include grid-template-columns-narrow();
+    }
+  }
+
+  body:not(.floating):not(.docked) {
+    .page-columns.toc-left {
+      @include page-columns();
+      @include grid-template-columns-narrow();
+      .page-columns {
+        @include page-columns();
+        @include grid-template-columns-narrow();
+      }  
+    }
+  }
+
+  nav[role="doc-toc"] {
+    display: none;
+  }
+}
+
+// Positions a header, body, and footer in rows
+body,
+.page-row-navigation {
+  grid-template-rows: [page-top] max-content [contents-top] max-content [contents-bottom] max-content [page-bottom];
+}
+
+// Positions contents followed by a region below the content
+// (used for pagination controls)
+.page-rows-contents {
+  grid-template-rows:
+    [content-top] minmax(max-content, 1fr) [content-bottom] minmax(
+      60px,
+      max-content
+    )
+    [page-bottom];
+}
+
+.page-full {
+  grid-column: screen-start / screen-end !important;
+}
+
+.page-columns > * {
+  grid-column: body-content-start / body-content-end;
+}
+
+.page-columns.column-page > * {
+  grid-column: page-start / page-end;
+}
+
+.page-columns.column-page-left > * {
+  grid-column: page-start / body-content-end;
+}
+
+.page-columns.column-page-right > * {
+  grid-column: body-content-start / page-end;
+}
+
+// Automatically creates new rows
+.page-rows {
+  grid-auto-rows: auto;
+}
+
+.header {
+  grid-column: screen-start / screen-end;
+  grid-row: page-top / contents-top;
+}
+
+#quarto-content {
+  padding: 0;
+  grid-column: screen-start / screen-end;
+  grid-row: contents-top / contents-bottom;
+}
+
+body.floating {
+  .sidebar.sidebar-navigation {
+    grid-column: page-start / body-start;
+    grid-row: content-top / page-bottom;
+  }
+}
+
+body.docked {
+  .sidebar.sidebar-navigation {
+    grid-column: screen-start / body-start;
+    grid-row: content-top / page-bottom;
+  }
+}
+
+.sidebar.toc-left {
+  grid-column: page-start / body-start;
+  grid-row: content-top / page-bottom;
+}
+
+.sidebar.margin-sidebar {
+  grid-column: body-end / page-end;
+  grid-row: content-top / page-bottom;
+}
+
+.page-columns .content {
+  grid-column: body-content-start / body-content-end;
+  grid-row: content-top / content-bottom;
+  align-content: flex-start;
+}
+
+.page-columns .page-navigation {
+  grid-column: body-content-start / body-content-end;
+  grid-row: content-bottom / page-bottom;
+}
+
+.page-columns .footer {
+  grid-column: screen-start / screen-end;
+  grid-row: contents-bottom / page-bottom;
+}
+
+.page-columns .column-body {
+  grid-column: body-content-start / body-content-end;
+}
+
+.page-columns .column-body-fullbleed {
+  grid-column: body-start / body-end;
+}
+
+.page-columns .column-body-outset {
+  grid-column: body-start-outset / body-end-outset;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-body-outset-left {
+  grid-column: body-start-outset / body-content-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-body-outset-right {
+  grid-column: body-content-start / body-end-outset;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-page {
+  grid-column: page-start / page-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-page-inset {
+  grid-column: page-start-inset / page-end-inset;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-page-inset-left {
+  grid-column: page-start-inset / body-content-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-page-inset-right {
+  grid-column: body-content-start / page-end-inset;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  figcaption {
+    @include column-spanning-element();
+  }
+}
+
+.page-columns .column-page-left {
+  grid-column: page-start / body-content-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-page-right {
+  grid-column: body-content-start / page-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  figcaption {
+    @include column-spanning-element();
+  }
+}
+
+#quarto-content.page-columns {
+  #quarto-margin-sidebar,
+  #quarto-sidebar {
+    z-index: 1;
+  }
+
+  @include media-breakpoint-down(lg) {
+    #quarto-margin-sidebar.collapse,
+    #quarto-sidebar.collapse {
+      z-index: $zindex-modal;
+    }
+  }
+  
+
+  main.column-page,
+  main.column-page-right,
+  main.column-page-left {
+    z-index: 0;
+  }
+}
+
+.page-columns .column-screen-inset {
+  grid-column: screen-start-inset / screen-end-inset;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-screen-inset-left {
+  grid-column: screen-start-inset / body-content-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-screen-inset-right {
+  grid-column: body-content-start / screen-end-inset;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-screen {
+  grid-column: screen-start / screen-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-screen-left {
+  grid-column: screen-start / body-content-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-screen-right {
+  grid-column: body-content-start / screen-end;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  @include column-spanning-element();
+}
+
+.page-columns .column-screen-inset-shaded {
+  grid-column: screen-start / screen-end;
+  padding: 1em;
+  background: $light;
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+  margin-bottom: 1em;
+}
+
+.zindex-content {
+  z-index: $zindex-pagelayout;
+  transform: translate3d(0, 0, 0);
+}
+
+.zindex-modal {
+  z-index: $zindex-modal;
+  transform: translate3d(0, 0, 0);
+}
+
+.zindex-over-content {
+  z-index: #{$zindex-dropdown - 1};
+  transform: translate3d(0, 0, 0);
+}
+
+img.img-fluid.column-screen,
+img.img-fluid.column-screen-inset-shaded,
+img.img-fluid.column-screen-inset,
+img.img-fluid.column-screen-inset-left,
+img.img-fluid.column-screen-inset-right,
+img.img-fluid.column-screen-left,
+img.img-fluid.column-screen-right {
+  width: 100%;
+}
+
+@include media-breakpoint-up(lg) {
+  .margin-caption,
+  div.aside,
+  aside,
+  .column-margin {
+    grid-column: body-end / page-end !important;
+    z-index: $zindex-pagelayout;
+  }
+
+  .column-sidebar {
+    grid-column: page-start / body-start !important;
+    z-index: $zindex-pagelayout;
+  }
+
+  .column-leftmargin {
+    grid-column: screen-start-inset / body-start !important;
+    z-index: $zindex-pagelayout;
+  }
+
+  .no-row-height {
+    height: 1em;
+    overflow: visible;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .margin-caption,
+  div.aside,
+  aside,
+  .column-margin {
+    grid-column: body-end / page-end !important;
+    z-index: $zindex-pagelayout;
+  }
+
+  .no-row-height {
+    height: 1em;
+    overflow: visible;
+  }
+
+  .page-columns.page-full {
+    overflow: visible;
+  }
+
+  .page-columns.toc-left {
+    .margin-caption,
+    div.aside,
+    aside,
+    .column-margin {
+      grid-column: body-content-start / body-content-end !important;
+      z-index: $zindex-pagelayout;
+      transform: translate3d(0, 0, 0);
+    }
+    .no-row-height {
+      height: initial;
+      overflow: initial;
+    }
+  
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .margin-caption,
+  div.aside,
+  aside,
+  .column-margin {
+    grid-column: body-content-start / body-content-end !important;
+    z-index: $zindex-pagelayout;
+    transform: translate3d(0, 0, 0);
+  }
+  .no-row-height {
+    height: initial;
+    overflow: initial;
+  }
+
+  #quarto-margin-sidebar {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+}
+
+// Panel Grid (custom grid for our panel system)
+.panel-grid {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(24, 1fr);
+  gap: 1em;
+  @include make-cssgrid(24);
+}
+
+// Rest of rules
+body {
+  @if variable-exists(margin-top) {
+    margin-top: $margin-top;
+  }
+  @if variable-exists(margin-bottom) {
+    margin-bottom: $margin-bottom;
+  }
+  @if variable-exists(margin-left) {
+    margin-left: $margin-left;
+  }
+  @if variable-exists(margin-right) {
+    margin-right: $margin-right;
+  }
+}
+
+main {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1, h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1.title {
+  margin-top: 0;
+}
+
+h2 {
+  border-bottom: 1px solid $table-border-color;
+  padding-bottom: 0.5rem;
+}
+
+h3,
+h4 {
+  margin-top: 1.5rem;
+}
+
+.header-section-number {
+  @include body-secondary;
+}
+
+.nav-link.active .header-section-number {
+  color: inherit;
+}
+
+mark {
+  padding: 0em;
+}
+
+.panel-caption,
+caption,
+.figure-caption {
+  font-size: 1rem;
+}
+
+.panel-caption,
+.figure-caption,
+figcaption {
+  @include body-secondary;
+}
+
+.table-caption,
+caption {
+  color: $body-color;
+}
+
+.quarto-layout-cell[data-ref-parent] caption {
+  @include body-secondary;
+}
+
+.column-margin figcaption,
+.margin-caption,
+div.aside,
+aside,
+.column-margin {
+  @include body-secondary;
+  font-size: 0.825rem;
+}
+
+.column-margin.column-container > * {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: block;
+}
+
+.margin-caption > * {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+// Caption and footnotes
+
+// sort out font size
+$code-block-font-size: $small-font-size !default;
+
+// sort out border color
+$code-block-border-left-color: $table-border-color !default;
+@if type_of($code-block-border-left) == color {
+  $code-block-border-left-color: $code-block-border-left;
+}
+
+// sort out background color
+$code-block-bg-color: quarto-color.adjust(
+  $progress-bg,
+  $alpha: $code-block-bg-alpha
+) !default;
+@if type_of($code-block-bg) == color {
+  $code-block-bg-color: $code-block-bg;
+}
+
+// stack layout panels on mobile devices
+@include media-breakpoint-down(md) {
+  .quarto-layout-row {
+    flex-direction: column;
+  }
+}
+
+.tab-content {
+  margin-top: 0px;
+  border-left: $border-color 1px solid;
+  border-right: $border-color 1px solid;
+  border-bottom: $border-color 1px solid;
+  margin-left: 0;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+@include media-breakpoint-down(md) {
+  .layout-sidebar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.panel-sidebar,
+.panel-sidebar .form-control,
+.panel-input,
+.panel-input .form-control,
+.selectize-dropdown {
+  font-size: 0.9rem;
+}
+
+.panel-sidebar .form-control,
+.panel-input .form-control {
+  padding-top: 0.1rem;
+}
+
+.tab-pane div.sourceCode {
+  margin-top: 0px;
+}
+
+.tab-pane > p {
+  padding-top: 1em;
+}
+
+.tab-content > .tab-pane:not(.active) {
+  display: none !important;
+}
+
+div.sourceCode {
+  // Clear code background if is not specified
+  @if $code-block-bg {
+    background-color: $code-block-bg-color;
+    border: 1px solid $code-block-bg-color;
+    border-radius: $border-radius;
+  } @else {
+    background-color: $body-bg !important;
+    border: none;
+    padding: 0;
+  }
+
+  @if variable-exists(code-block-color) {
+    color: $code-block-color;
+  }
+}
+
+@if variable-exists(code-block-color) {
+  div.sourceCode pre.sourceCode {
+    color: $code-block-color;
+  }
+}
+
+pre.sourceCode {
+  background-color: transparent;
+}
+
+pre.sourceCode {
+  // Border
+  @if $code-block-border-left {
+    border-left: $code-block-border-left-size;
+    border-left-style: $code-block-border-left-style;
+    border-left-color: $code-block-border-left-color;
+    padding-left: $code-block-padding-left;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  } @else {
+    border: none;
+  }
+  font-size: $code-block-font-size;
+  overflow: visible !important;
+  @if $code-block-bg {
+    padding: $code-block-bg-padding;
+  }
+}
+
+pre.sourceCode > code.sourceCode {
+  @if not $code-block-bg {
+    padding: 0;
+  }
+}
+
+// no border inside callouts
+.callout pre.sourceCode {
+  padding-left: 0;
+}
+
+div.sourceCode {
+  overflow-y: hidden;
+}
+
+.callout div.sourceCode {
+  margin-left: initial;
+}
+
+// improve treatment of blockquotes
+.blockquote {
+  font-size: inherit;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  @include body-secondary;
+}
+
+.blockquote {
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child {
+    margin-top: 0;
+  }
+}
+
+pre {
+  background-color: initial;
+  padding: initial;
+  border: initial;
+}
+
+// Maps the pandoc 'monobackgroundcolor' to bootstrap
+// Note this only targets code outside of sourceCode blocks
+@if variable-exists(mono-background-color) {
+  p code:not(.sourceCode),
+  li code:not(.sourceCode),
+  kbd,
+  pre:not(.sourceCode),
+  samp {
+    background-color: $mono-background-color;
+    padding: 0.2em;
+  }
+}
+
+// Default padding if background is set
+p code:not(.sourceCode),
+li code:not(.sourceCode) {
+  @if variable-exists(code-bg) {
+    background-color: $code-bg;
+  }
+
+  @if variable-exists(code-padding) {
+    padding: $code-padding;
+  } @else if variable-exists(code-bg) {
+    padding: 0.2em;
+  }
+}
+
+nav p code:not(.sourceCode),
+nav li code:not(.sourceCode) {
+  background-color: transparent;
+  padding: 0;
+}
+
+#quarto-embedded-source-code-modal > .modal-dialog {
+  max-width: 1000px;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+#quarto-embedded-source-code-modal
+  > .modal-dialog
+  > .modal-content
+  > .modal-body {
+  padding: 0;
+}
+
+#quarto-embedded-source-code-modal
+  > .modal-dialog
+  > .modal-content
+  > .modal-body
+  div.sourceCode {
+  margin: 0;
+  padding: 0.2rem 0.2rem;
+  background-color: inherit;
+  border: none;
+}
+
+#quarto-embedded-source-code-modal
+  > .modal-dialog
+  > .modal-content
+  > .modal-header {
+  padding: 0.7rem;
+}
+
+.code-tools-button {
+  font-size: 1rem;
+  padding: 0.15rem 0.15rem;
+  margin-left: 5px;
+  color: $text-muted;
+  background-color: transparent;
+  transition: initial;
+  cursor: pointer;
+}
+
+.code-tools-button > .bi::before {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  content: "";
+  vertical-align: -0.125em;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGB($text-muted)}" viewBox="0 0 16 16"><path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+.code-tools-button:hover > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGB($body-color)}" viewBox="0 0 16 16"><path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/></svg>');
+}
+
+#quarto-embedded-source-code-modal .code-copy-button > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGB($text-muted)}" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/></svg>');
+}
+
+#quarto-embedded-source-code-modal .code-copy-button-checked > .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGB($text-muted)}" viewBox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>');
+}
+
+/* table of contents */
+.sidebar {
+  will-change: top;
+  transition: top 200ms linear;
+  position: sticky;
+  overflow-y: auto;
+  padding-top: 1.2em;
+  max-height: 100vh;
+}
+
+.sidebar.toc-left,
+.sidebar.margin-sidebar {
+  top: 0px;
+  padding-top: 1em;
+}
+
+.sidebar.toc-left,
+.sidebar.margin-sidebar  {
+  &> * {
+    padding-top: .5em;
+  }
+}
+
+.sidebar.quarto-banner-title-block-sidebar {
+  &> * {
+    padding-top: 1.65em;
+  }
+}
+
+.sidebar nav[role="doc-toc"] > h2 {
+  font-size: $toc-font-size;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  font-family: inherit;
+  border-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0px;
+}
+
+.sidebar nav[role="doc-toc"] > ul a {
+  border-left: 1px solid $gray-200;
+  padding-left: 0.6rem;
+}
+
+.sidebar nav[role="doc-toc"] ul {
+  padding-left: 0;
+  list-style: none;
+  font-size: $toc-font-size;
+  font-weight: 300;
+}
+
+.sidebar nav[role="doc-toc"] > ul li a {
+  line-height: 1.1rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  color: inherit;
+}
+
+$toc-indent-depth: 5;
+$indent: 1.2em;
+@for $i from 1 through $toc-indent-depth {
+  $selector-depth: repeat-chars(" ul > li >", $i);
+
+  .sidebar nav[role="doc-toc"] ul > li > #{$selector-depth} a {
+    padding-left: #{$indent * $i};
+  }
+}
+
+.sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
+  border-left: 1px solid $link-color;
+  color: $link-color !important;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  border-left: 1px solid $link-color;
+  color: $link-color !important;
+}
+
+// tweaking default keyboard settings
+kbd,
+.kbd {
+  color: $body-color;
+  background-color: $gray-100;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: $table-border-color;
+}
+
+// tweak pandoc default hanging indent
+div.hanging-indent {
+  margin-left: 1em;
+  text-indent: -1em;
+}
+
+// footnotes/citations
+.citation a,
+.footnote-ref {
+  text-decoration: none;
+}
+.footnotes ol {
+  padding-left: 1em;
+}
+.tippy-content > * {
+  margin-bottom: 0.7em;
+}
+.tippy-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.table a {
+  word-break: break-word;
+}
+
+.table > :not(:first-child) {
+  border-top-width: 1px;
+  border-top-color: $table-border-color;
+}
+
+.table > thead {
+  border-bottom: 1px solid $table-group-separator-color;
+}
+
+.table > tbody {
+  border-top: 1px solid $table-border-color;
+}
+
+@if $code-block-border-left {
+  // Align source code and callout text (not border) with main body text when there is room
+  @include media-breakpoint-up(lg) {
+    // Cards with header
+    .callout:not(.no-icon) {
+      margin-left: add(add(-0.4em, -$callout-border-width), -1px);
+    }
+
+    .callout {
+      margin-left: add(-0.4em, -$callout-border-width);
+    }
+
+    div.sourceCode {
+      margin-left: add(
+        add(-$code-block-padding-left, -$code-block-border-left-size),
+        2px
+      );
+    }
+  }
+}
+
+// Callouts
+
+.callout {
+  margin-top: $callout-margin-top;
+  margin-bottom: $callout-margin-bottom;
+  border-radius: $border-radius;
+}
+
+.callout.callout-style-simple {
+  padding: 0.4em 0.7em;
+  border-left: $callout-border-width solid;
+  border-right: 1px solid $table-border-color;
+  border-top: 1px solid $table-border-color;
+  border-bottom: 1px solid $table-border-color;
+}
+
+.callout.callout-style-default {
+  border-left: $callout-border-width solid;
+  border-right: 1px solid $table-border-color;
+  border-top: 1px solid $table-border-color;
+  border-bottom: 1px solid $table-border-color;
+}
+
+.callout .callout-body-container {
+  flex-grow: 1;
+}
+
+.callout.callout-style-simple .callout-body {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.callout.callout-style-default .callout-body {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.callout.callout-captioned .callout-body {
+  margin-top: 0.2em;
+}
+
+.callout:not(.no-icon).callout-captioned.callout-style-simple .callout-body {
+  padding-left: 1.6em;
+}
+
+.callout.callout-captioned > .callout-header {
+  padding-top: 0.2em;
+  margin-bottom: -0.2em;
+}
+
+.callout.callout-style-simple > div.callout-header {
+  border-bottom: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 75%;
+}
+
+.callout.callout-style-default > div.callout-header {
+  border-bottom: none;
+  font-weight: 600;
+  opacity: 85%;
+  font-size: 0.9rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.callout.callout-style-default div.callout-body {
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.callout > div.callout-header[data-bs-toggle="collapse"] {
+  cursor: pointer;
+}
+
+.callout.callout-style-default .callout-header[aria-expanded="false"],
+.callout.callout-style-default .callout-header[aria-expanded="true"] {
+  padding-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.callout.callout-captioned .callout-body > :last-child:not(.sourceCode),
+.callout.callout-captioned .callout-body > div > :last-child:not(.sourceCode) {
+  margin-bottom: 0.5rem;
+}
+
+.callout:not(.callout-captioned) .callout-body > :last-child,
+.callout:not(.callout-captioned) .callout-body > div > :last-child {
+  margin-bottom: 0.25rem;
+}
+
+$code-block-border-left-color: $table-border-color !default;
+
+.callout.callout-style-simple .callout-icon::before,
+.callout.callout-style-simple .callout-toggle::before {
+  height: 1rem;
+  width: 1rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+.callout.callout-style-default .callout-icon::before,
+.callout.callout-style-default .callout-toggle::before {
+  height: 0.9rem;
+  width: 0.9rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 0.9rem 0.9rem;
+}
+
+.callout.callout-style-default .callout-toggle::before {
+  margin-top: 5px;
+}
+
+.callout .callout-btn-toggle .callout-toggle::before {
+  transition: transform 0.2s linear;
+}
+
+.callout .callout-header[aria-expanded="false"] .callout-toggle::before {
+  transform: rotate(-90deg);
+}
+
+.callout .callout-header[aria-expanded="true"] .callout-toggle::before {
+  transform: none;
+}
+
+.callout.callout-style-simple:not(.no-icon) div.callout-icon-container {
+  padding-top: 0.2em;
+  padding-right: 0.55em;
+}
+
+.callout.callout-style-default:not(.no-icon) div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+.callout.callout-style-default:not(.no-icon) div.callout-caption-container {
+  margin-top: -1px;
+}
+
+.callout.callout-style-default.callout-caution:not(.no-icon)
+  div.callout-icon-container {
+  padding-top: 0.3em;
+  padding-right: 0.35em;
+}
+
+.callout > .callout-header > .callout-icon-container > .no-icon {
+  display: none;
+}
+
+// Default values for callout colors
+$callout-color-note: $blue !default;
+$callout-color-tip: $green !default;
+$callout-color-important: $red !default;
+$callout-color-caution: $orange !default;
+$callout-color-warning: $yellow !default;
+
+// Generate per callout type css to customize their appearance
+// Define the callouts for which we should define styles
+$callouts: (
+  // NOTE
+  "note":
+    (
+      "color": $callout-color-note,
+      "icon":
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>',
+    ),
+  // TIP
+  "tip":
+    (
+      "color": $callout-color-tip,
+      "icon":
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16"><path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/></svg>',
+    ),
+  // WARNING
+  "warning":
+    (
+      "color": $callout-color-warning,
+      "icon":
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/><path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/></svg>',
+    ),
+  // CAUTION
+  "caution":
+    (
+      "color": $callout-color-caution,
+      "icon":
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16"><path d="M9.97 4.88l.953 3.811C10.158 8.878 9.14 9 8 9c-1.14 0-2.159-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.274 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/></svg>',
+    ),
+  // IMPORTANT
+  "important":
+    (
+      "color": $callout-color-important,
+      "icon":
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/></svg>',
+    )
+);
+
+div.callout.callout {
+  border-left-color: $text-muted;
+}
+
+div.callout.callout-style-default > .callout-header {
+  background-color: $text-muted;
+}
+
+@each $name, $info in $callouts {
+  div.callout-#{$name}.callout {
+    border-left-color: shift-color(
+      quarto-map.get($info, "color"),
+      $callout-border-scale
+    );
+  }
+
+  div.callout-#{$name}.callout-style-default > .callout-header {
+    @if (quarto-color.blackness($body-bg) > $code-block-theme-dark-threshhold) {
+      background-color: shift-color(quarto-map.get($info, "color"), 70%);
+    } @else {
+      background-color: shift-color(quarto-map.get($info, "color"), -90%);
+    }
+  }
+
+  $shifted-color: #{shift-color(
+      quarto-map.get($info, "color"),
+      $callout-icon-scale
+    )};
+  $shifted-color-svg: str-replace($shifted-color, "#", "%23");
+
+  div.callout-#{$name}:not(.callout-captioned) .callout-icon::before {
+    background-image: #{"url('data:image/svg+xml," +
+      str-replace(
+        quarto-map.get($info, "icon"),
+        'fill="currentColor"',
+        'style="fill: #{$shifted-color-svg}"'
+      ) +
+      "');"};
+  }
+
+  div.callout-#{$name}.callout-captioned .callout-icon::before {
+    background-image: #{"url('data:image/svg+xml," +
+      str-replace(
+        quarto-map.get($info, "icon"),
+        'fill="currentColor"',
+        'style="fill: #{$shifted-color-svg}"'
+      ) +
+      "');"};
+  }
+
+  div.callout-#{$name} .callout-toggle::before {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGB($body-color)}" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+  }
+}
+
+.quarto-toggle-container {
+  display: flex;
+}
+
+// dark mode
+.navbar .quarto-color-scheme-toggle {
+  @include media-breakpoint-up(lg) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  @include media-breakpoint-down(md) {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.5em;
+  }
+}
+
+.quarto-reader-toggle .bi::before,
+.quarto-color-scheme-toggle .bi::before {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+.navbar-collapse .quarto-color-scheme-toggle {
+  padding-left: 0.6rem;
+  padding-right: 0;
+  margin-top: -12px;
+}
+
+.sidebar-navigation {
+  padding-left: 20px;
+}
+
+.sidebar-navigation .quarto-color-scheme-toggle .bi::before {
+  padding-top: 0.2rem;
+  margin-bottom: -0.2rem;
+}
+
+.sidebar-tools-main .quarto-reader-toggle .bi::before,
+.sidebar-tools-main .quarto-color-scheme-toggle .bi::before {
+  padding-top: 0.2rem;
+  margin-bottom: -0.2rem;
+}
+
+.navbar .quarto-color-scheme-toggle .bi::before {
+  padding-top: 7px;
+  margin-bottom: -7px;
+  padding-left: 2px;
+  margin-right: 2px;
+}
+
+.navbar .quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGBA($navbar-light-color)}" class="bi bi-toggle-off" viewBox="0 0 16 16"><path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/></svg>');
+}
+
+.navbar .quarto-color-scheme-toggle.alternate .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGBA($navbar-light-color)}" class="bi bi-toggle-on" viewBox="0 0 16 16"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>');
+}
+
+.sidebar-navigation .quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGBA(theme-dim($body-color, 10%))}" class="bi bi-toggle-off" viewBox="0 0 16 16"><path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/></svg>');
+}
+
+.sidebar-navigation .quarto-color-scheme-toggle.alternate .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGBA(theme-dim($body-color, 10%))}" class="bi bi-toggle-on" viewBox="0 0 16 16"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>');
+}
+
+// sidebar handling
+.quarto-sidebar-toggle {
+  border-color: $border-color;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  border-top-width: 0px;
+  padding-top: 0px !important;
+}
+
+.quarto-sidebar-toggle-title {
+  cursor: pointer;
+  padding-bottom: 2px;
+  margin-left: 0.25em;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.775em;
+}
+
+#quarto-content {
+  .quarto-sidebar-toggle {
+    background: theme-dim($body-bg, 2%);
+  }
+
+  .quarto-sidebar-toggle-title {
+    color: $body-color;
+  }
+}
+
+.quarto-sidebar-toggle-icon {
+  color: $border-color;
+  margin-right: 0.5em;
+  float: right;
+  transition: transform 0.2s ease;
+}
+
+.quarto-sidebar-toggle-icon::before {
+  padding-top: 5px;
+}
+
+.quarto-sidebar-toggle.expanded .quarto-sidebar-toggle-icon {
+  transform: rotate(-180deg);
+}
+
+.quarto-sidebar-toggle.expanded .quarto-sidebar-toggle-title {
+  border-bottom: solid $border-color 1px;
+}
+
+.quarto-sidebar-toggle-contents {
+  background-color: $body-bg;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 0px !important;
+  transition: max-height 0.5s ease;
+}
+
+.quarto-sidebar-toggle.expanded .quarto-sidebar-toggle-contents {
+  padding-top: 1em;
+  padding-bottom: 10px;
+}
+
+.quarto-sidebar-toggle:not(.expanded) .quarto-sidebar-toggle-contents {
+  padding-top: 0px !important;
+  padding-bottom: 0px;
+}
+
+nav[role="doc-toc"] {
+  z-index: $zindex-sticky;
+}
+
+#quarto-sidebar > *,
+nav[role="doc-toc"] > * {
+  transition: opacity 0.1s ease, border 0.1s ease;
+}
+
+#quarto-sidebar.slow > *,
+nav[role="doc-toc"].slow > * {
+  transition: opacity 0.4s ease, border 0.4s ease;
+}
+
+.quarto-color-scheme-toggle:not(.alternate).top-right .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGBA(theme-dim($body-color, 35%))}" class="bi bi-toggle-off" viewBox="0 0 16 16"><path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/></svg>');
+}
+
+.quarto-color-scheme-toggle.alternate.top-right .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#{colorToRGBA(theme-dim($body-color, 20%))}" class="bi bi-toggle-on" viewBox="0 0 16 16"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>');
+}
+
+// Quarto Appendix Treatment
+#quarto-appendix.default {
+  border-top: 1px solid $border-color;
+}
+
+#quarto-appendix.default {
+  background-color: $body-bg;
+  padding-top: 1.5em;
+  margin-top: 2em;
+  z-index: $zindex-pagelayout;
+
+  .quarto-appendix-heading {
+    margin-top: 0;
+    line-height: 1.4em;
+    font-weight: 600;
+    opacity: 0.9;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  // Remove botoom margin from specific elements
+  .footnotes ol,
+  .footnotes ol li > p:last-of-type,
+  .quarto-appendix-contents > p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .quarto-appendix-secondary-label {
+    margin-bottom: 0.4em;
+  }
+
+  .quarto-appendix-bibtex {
+    font-size: 0.7em;
+    padding: 1em;
+    border: solid 1px $border-color;
+    margin-bottom: 1em;
+  }
+
+  .quarto-appendix-citeas {
+    font-size: 0.9em;
+    padding: 1em;
+    border: solid 1px $border-color;
+    margin-bottom: 1em;
+  }
+
+  .quarto-appendix-heading {
+    font-size: 1em !important;
+  }
+
+  *[role="doc-endnotes"] > ol,
+  .quarto-appendix-contents > *:not(h2) {
+    font-size: 0.9em;
+  }
+
+  section {
+    padding-bottom: 1.5em;
+    *[role="doc-endnotes"],
+    > *:not(a) {
+      opacity: 0.9;
+      word-wrap: break-word;
+    }
+  }
+}
+
+// Quarto title block treatment
+nav.quarto-secondary-nav.color-navbar {
+
+  @if variable-exists(navbar-bg) {
+    background-color: $navbar-bg;
+  }
+
+  @if (variable-exists(navbar-fg)) {
+    color: $navbar-fg;
+  }
+} 
+nav.quarto-secondary-nav.color-navbar h1, 
+nav.quarto-secondary-nav.color-navbar .quarto-btn-toggle {
+  @if (variable-exists(navbar-fg)) {
+    color: $navbar-fg;
+  }    
+}
+
+body.floating,
+body.docked {
+  @include media-breakpoint-down(lg) {
+    .quarto-title-banner,
+    .quarto-title-banner {
+      display: none;
+    }  
+  }  
+}
+
+p.subtitle {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+// This is a sentinel value that renderers can use to determine
+// whether the theme is dark or light
+@if (quarto-color.blackness($body-bg) > $code-block-theme-dark-threshhold) {
+  /*! dark */
+} @else {
+  /*! light */
+}
+
+/*end quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-rules.scss replacement */
+
+
+
+.project-list { /* for publications page */
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 2em;
+        list-style-type: none;
+        li.project {
+            margin-bottom: 2.5em;
+            list-style-type: none;
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    .project-content {
+        .status {
+            font-size: 1rem;
+            font-weight: 250;
+            padding: 0.2em;
+            margin-right: 0.5em;
+        }
+    }
+
+    ul.project-links {
+        margin-bottom: 0;
+    }
+
+    .project-details {
+        margin-bottom: 2rem;
+        background-color: $sidebar-color;
+        font-size: 0.9rem;
+        border: 1 solid transparent;
+        border-radius: 0.25rem;
+
+        @media (max-width: 48em) {
+            font-size: 0.8rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 0.5em 0.5em 0.5em 1em;
+        }
+
+        .details {
+            background-color: $link-color;
+            padding-right: 1.5em;
+            border-right: 1 solid transparent;
+            border-radius: 0.25rem;
+
+            a {
+                color: #FFFFFF;
+            }
+            a:hover {
+                color: $sidebar-color;
+            }
+        }
+    }
+
+    h2 {
+        margin-top: 0;
+        padding-bottom: 0.1em;
+        margin-bottom: 0.3em;
+        font-size: 2rem;
+        border-bottom: #000000 solid 2px;
+    }
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem 0.75rem 3rem;
+    margin-bottom: 1rem;
+    border: 1 solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert:before {
+    position: absolute;
+    font-family: FontAwesome;
+    left: 1rem;
+}
+
+.alert-heading {
+    // Specified to prevent conflicts of changing $headings-color
+    color: inherit;
+}
+
+/*-- scss:mixins --*/
+/*start quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-rules.scss replacement */
+
+@mixin body-secondary {
+  @if variable-exists(body-secondary) {
+    color: $body-secondary;
+  } @else {
+    color: theme-dim($body-color, 25%);
+  }
+}
+
+// Grid Layouts
+
+$grid-screen-inset-padding: 1.5em;
+$grid-sidebar-size: 150px;
+$grid-body-minsize: 500px;
+$grid-body-minsize-slim: 450px;
+$grid-body-maxsize-mid: calc(750px - #{2 * $grid-screen-inset-padding});
+$grid-body-maxsize-float-wide: calc(800px - #{2 * $grid-screen-inset-padding});
+$grid-body-maxsize-docked-wide: calc(
+  1000px - #{2 * $grid-screen-inset-padding}
+);
+$grid-body-maxsize-plain-wide: calc(850px - #{2 * $grid-screen-inset-padding});
+$grid-body-maxsize-listing: calc(1200px - #{2 * $grid-screen-inset-padding});
+
+@mixin page-columns {
+  display: grid;
+  gap: 0;
+}
+
+@mixin column-spanning-element {
+  table {
+    background: $body-bg;
+  }
+}
+
+@mixin grid-template-columns-narrow {
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(
+      0px,
+      1fr
+    )
+    [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+// Floating Grid Definitions
+@mixin page-columns-float-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start] minmax(25px, 50px)
+    [page-start-inset] minmax(50px, 150px)
+    [body-start-outset] minmax(25px, 50px)
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-float-wide
+    )
+    [body-content-end] 1.5em
+    [body-end] minmax(25px, 50px)
+    [body-end-outset] minmax(50px, 150px)
+    [page-end-inset] minmax(25px, 50px)
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-float-slimcontent-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start] 50px
+    [page-start-inset] minmax(50px, 150px)
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize-slim, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(50px, 150px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-float-fullcontent-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start] 50px
+    [page-start-inset] minmax(50px, 150px)
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-float-wide
+    )
+    [body-content-end] 1.5em
+    [body-end body-end-outset page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-float-listing-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start] minmax(25px, 50px)
+    [page-start-inset] minmax(50px, 150px)
+    [body-start-outset] minmax(25px, 50px)
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-float-wide
+    )
+    [body-content-end] 1.5em
+    [body-end] minmax(25px, 50px)
+    [body-end-outset] minmax(50px, 150px)
+    [page-end-inset] minmax(25px, 50px)
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+// medium 976 down
+@mixin page-columns-float-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start page-start-inset body-start-outset body-start] 1em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(75px, 150px)
+    [page-end-inset] 25px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-float-slimcontent-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start page-start-inset body-start-outset body-start] 1em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 35px
+    [body-end-outset] minmax(75px, 145px)
+    [page-end-inset] 35px
+    [page-end] 4fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-float-fullcontent-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start page-start-inset body-start-outset body-start] 1em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-float-wide
+    )
+    [body-content-end] 1.5em
+    [body-end body-end-outset page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-float-listing-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start page-start-inset body-start-outset body-start] 1em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(75px, 150px)
+    [page-end-inset] 25px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+// Docked Grid Definitions
+@mixin page-columns-docked-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start] minmax(50px, 100px)
+    [page-start-inset] $grid-sidebar-size
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-docked-wide
+    )
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(0px, 100px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-docked-slimcontent-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start] minmax(50px, 100px)
+    [page-start-inset] 50px
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize-slim, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(0px, 200px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-docked-fullcontent-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start] minmax(50px, 100px)
+    [page-start-inset] $grid-sidebar-size
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-docked-wide
+    )
+    [body-content-end] 1.5em
+    [body-end body-end-outset page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-docked-listing-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start] minmax(50px, 100px)
+    [page-start-inset] $grid-sidebar-size
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-docked-wide
+    )
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(0px, 100px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-docked-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-mid
+    )
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(25px, 50px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-docked-slimcontent-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-mid
+    )
+    [body-content-end] 1.5em
+    [body-end] 35px
+    [body-end-outset] minmax(75px, 145px)
+    [page-end-inset] 35px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-docked-fullcontent-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-docked-wide
+    )
+    [body-content-end] 1.5em
+    [body-end body-end-outset page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-docked-listing-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-mid
+    )
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(25px, 50px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+// Plain Grid Definitions
+@mixin page-columns-default-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start page-start-inset] 35px
+    [body-start-outset] 35px
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-plain-wide
+    )
+    [body-content-end] 1.5em
+    [body-end] 35px
+    [body-end-outset] minmax(75px, 145px)
+    [page-end-inset] 35px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-default-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset] 5fr
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 35px
+    [body-end-outset] minmax(75px, 145px)
+    [page-end-inset] 35px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+// Full content grid definitions
+@mixin page-columns-fullcontent-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start page-start-inset] 35px
+    [body-start-outset] 35px
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-plain-wide
+    )
+    [body-content-end] 1.5em
+    [body-end] 35px
+    [body-end-outset] 35px
+    [page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-fullcontent-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset] 5fr
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end body-end-outset page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+// Listing content grid definitions
+@mixin page-columns-listing-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start] minmax(50px, 100px)
+    [page-start-inset] 50px
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-listing)
+    [body-content-end] 3em
+    [body-end] 50px
+    [body-end-outset] minmax(0px, 250px)
+    [page-end-inset] 50px
+    [page-end] 1fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-listing-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset] 5fr
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-listing)
+    [body-content-end body-end body-end-outset page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+// Slim content grid definitions
+@mixin page-columns-slimcontent-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start page-start-inset] 35px
+    [body-start-outset] 35px
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(0px, 200px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-slimcontent-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start page-start-inset body-start-outset] 5fr
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 35px
+    [body-end-outset] minmax(75px, 145px)
+    [page-end-inset] 35px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-tocleft-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start] 35px
+    [page-start-inset] minmax(0px, 175px)
+    [body-start-outset] 35px
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize-slim, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(0px, 200px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+@mixin page-columns-tocleft-mid {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset] 5fr
+    [page-start] 35px
+    [page-start-inset] minmax(0px, 145px)
+    [body-start-outset] 35px
+    [body-start] 1.5em
+    [body-content-start] minmax($grid-body-minsize-slim, $grid-body-maxsize-mid)
+    [body-content-end] 1.5em
+    [body-end body-end-outset page-end-inset page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+
+@mixin alert-variant($background, $border, $color) {
+    color: $color;
+    background: $background;
+    border-color: $border;
+
+    hr {
+        border-top-color: darken($border, 5%);
+    }
+
+    .alert-link {
+        color: darken($color, 10%);
+    }
+}
+
+@mixin page-columns-docked-wide {
+  @include page-columns();
+  grid-template-columns:
+    [screen-start] $grid-screen-inset-padding
+    [screen-start-inset page-start] minmax(50px, 100px)
+    [page-start-inset] 50px
+    [body-start-outset] 50px
+    [body-start] 1.5em
+    [body-content-start] minmax(
+      $grid-body-minsize,
+      $grid-body-maxsize-docked-wide
+    )
+    [body-content-end] 1.5em
+    [body-end] 50px
+    [body-end-outset] minmax(0px, 100px)
+    [page-end-inset] 50px
+    [page-end] 5fr
+    [screen-end-inset] $grid-screen-inset-padding
+    [screen-end];
+}
+
+/*-- scss:functions --*/
+@function theme-color($key: "primary") {
+    @return map-get($theme-colors, $key);
+}
+
+@function theme-color-level($color-name: "primary", $level: 0) {
+    $color: theme-color($color-name);
+    $color-base: if($level > 0, #000000, #FFFFFF);
+    $level: abs($level);
+
+    @return mix($color-base, $color, $level * $theme-color-interval);
+}
+
+/*end quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-mixins.scss replacement */
+
+/*start quarto-cli/src/resources/formats/html/bootstrap/dist/scss/mixins/_grid.scss */
+
+// Grid system
+//
+// Generate semantic grid columns with these mixins.
+
+@mixin make-row($gutter: $grid-gutter-width) {
+  --#{$variable-prefix}gutter-x: #{$gutter};
+  --#{$variable-prefix}gutter-y: 0;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  // TODO: Revisit calc order after https://github.com/react-bootstrap/react-bootstrap/issues/6039 is fixed
+  margin-top: calc(-1 * var(--#{$variable-prefix}gutter-y)); // stylelint-disable-line function-disallowed-list
+  margin-right: calc(-.5 * var(--#{$variable-prefix}gutter-x)); // stylelint-disable-line function-disallowed-list
+  margin-left: calc(-.5 * var(--#{$variable-prefix}gutter-x)); // stylelint-disable-line function-disallowed-list
+}
+
+@mixin make-col-ready($gutter: $grid-gutter-width) {
+  // Add box sizing if only the grid is loaded
+  box-sizing: if(variable-exists(include-column-box-sizing) and $include-column-box-sizing, border-box, null);
+  // Prevent columns from becoming too narrow when at smaller grid tiers by
+  // always setting `width: 100%;`. This works because we set the width
+  // later on to override this initial width.
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  width: 100%;
+  max-width: 100%; // Prevent `.col-auto`, `.col` (& responsive variants) from breaking out the grid
+  padding-right: calc(var(--#{$variable-prefix}gutter-x) * .5); // stylelint-disable-line function-disallowed-list
+  padding-left: calc(var(--#{$variable-prefix}gutter-x) * .5); // stylelint-disable-line function-disallowed-list
+  margin-top: var(--#{$variable-prefix}gutter-y);
+}
+
+@mixin make-col($size: false, $columns: $grid-columns) {
+  @if $size {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    width: percentage(divide($size, $columns));
+
+  } @else {
+    flex: 1 1 0;
+    -webkit-flex: 1 1 0;
+    max-width: 100%;
+  }
+}
+
+@mixin make-col-auto() {
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  width: auto;
+}
+
+@mixin make-col-offset($size, $columns: $grid-columns) {
+  $num: divide($size, $columns);
+  margin-left: if($num == 0, 0, percentage($num));
+}
+
+// Row columns
+//
+// Specify on a parent element(e.g., .row) to force immediate children into NN
+// numberof columns. Supports wrapping to new lines, but does not do a Masonry
+// style grid.
+@mixin row-cols($count) {
+  > * {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    width: divide(100%, $count);
+  }
+}
+
+// Framework grid generation
+//
+// Used only by Bootstrap to generate the correct number of grid classes given
+// any value of `$grid-columns`.
+
+@mixin make-grid-columns($columns: $grid-columns, $gutter: $grid-gutter-width, $breakpoints: $grid-breakpoints) {
+  @each $breakpoint in map-keys($breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
+      // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+      .col#{$infix} {
+        flex: 1 0 0%; // Flexbugs #4: https://github.com/philipwalton/flexbugs#flexbug-4
+        -webkit-flex: 1 0 0%; // Flexbugs #4: https://github.com/philipwalton/flexbugs#flexbug-4
+      }
+
+      .row-cols#{$infix}-auto > * {
+        @include make-col-auto();
+      }
+
+      @if $grid-row-columns > 0 {
+        @for $i from 1 through $grid-row-columns {
+          .row-cols#{$infix}-#{$i} {
+            @include row-cols($i);
+          }
+        }
+      }
+
+      .col#{$infix}-auto {
+        @include make-col-auto();
+      }
+
+      @if $columns > 0 {
+        @for $i from 1 through $columns {
+          .col#{$infix}-#{$i} {
+            @include make-col($i, $columns);
+          }
+        }
+
+        // `$columns - 1` because offsetting by the width of an entire row isn't possible
+        @for $i from 0 through ($columns - 1) {
+          @if not ($infix == "" and $i == 0) { // Avoid emitting useless .offset-0
+            .offset#{$infix}-#{$i} {
+              @include make-col-offset($i, $columns);
+            }
+          }
+        }
+      }
+
+      // Gutters
+      //
+      // Make use of `.g-*`, `.gx-*` or `.gy-*` utilities to change spacing between the columns.
+      @each $key, $value in $gutters {
+        .g#{$infix}-#{$key},
+        .gx#{$infix}-#{$key} {
+          --#{$variable-prefix}gutter-x: #{$value};
+        }
+
+        .g#{$infix}-#{$key},
+        .gy#{$infix}-#{$key} {
+          --#{$variable-prefix}gutter-y: #{$value};
+        }
+      }
+    }
+  }
+}
+
+@mixin make-cssgrid($columns: $grid-columns, $breakpoints: $grid-breakpoints) {
+  @each $breakpoint in map-keys($breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
+      @if $columns > 0 {
+        @for $i from 1 through $columns {
+          .g-col#{$infix}-#{$i} {
+            grid-column: auto / span $i;
+          }
+        }
+
+        // Start with `1` because `0` is and invalid value.
+        // Ends with `$columns - 1` because offsetting by the width of an entire row isn't possible.
+        @for $i from 1 through ($columns - 1) {
+          .g-start#{$infix}-#{$i} {
+            grid-column-start: $i;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*end quarto-cli/src/resources/formats/html/bootstrap/dist/scss/mixins/_grid.scss */
+
+
+/*-- scss:rules --*/
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary": #A52C60,
+    "secondary": #495057,
+    "success": #118230,
+    "info": #3093CF,
+    "warning": #EE6A24,
+    "danger": #CF4446,
+    "light": #ced4da,
+    "dark": #000000
+  ),
+  $theme-colors
+);
+
+$alert-icons: () !default;
+$alert-icons: map-merge(
+  (
+    "primary": "\f1ce",  // https://fontawesome.com/icons/circle-notch
+    "secondary": "\f1ce",  // https://fontawesome.com/icons/circle-notch
+    "success": "\f058",  // https://fontawesome.com/icons/check-circle
+    "info": "\f05a",  // https://fontawesome.com/icons/info-circle
+    "warning": "\f071",  // https://fontawesome.com/icons/exclamation-triangle
+    "danger": "\f05e",  // https://fontawesome.com/icons/ban
+    "light": "\f1ce",  // https://fontawesome.com/icons/circle-notch
+    "dark": "\f1ce"  // https://fontawesome.com/icons/circle-notch
+  ),
+  $alert-icons
+);
+
+@each $color, $value in $theme-colors {
+    .alert-#{$color} {
+        @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+    }
+}
+
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+    }
+}
+
+@each $alert, $icon in $alert-icons {
+    .alert-#{$alert}:before {
+        content: $icon;
+    }
+}
+
+.btn-custom {
+  background-color: $link-color;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.btn-custom:hover {
+  background-color: $sidebar-color;
+  color: $link-color;
+}

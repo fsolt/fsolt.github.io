@@ -1,0 +1,36 @@
+---
+title: "Electoral Competition, Legislative Pluralism, and Institutional Development: Evidence from Mexico's States"
+date: 2004-06-30
+cite: >
+    **Solt, Frederick**. 2004. "Electoral Competition, Legislative Pluralism, and Institutional Development: Evidence from Mexico's States." _Latin American Research Review_ 39(1):155-167.
+author:
+  - name: Frederick Solt
+links:
+  - name: Final version
+    url: /papers/solt2004larr
+    icon: fas fa-scroll
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - democracy
+---
+
+:::{#cite}
+:::
+
+## Abstract
+In presidential systems such as those of Latin America, the institutionalization of legislatures as autonomous representative bodies able to constrain executives and check abuses of power is an important aspect of democratization. Drawing on the experiences of Mexico's state governments, this article seeks to explain differences in legislative institutionalization. It argues that pluralism within the legislature, rather than electoral competition in itself, provides the best explanation for institutionalization. A process-tracing analysis of the state legislature of Michoacán supports this argument, and a statistical analysis of Mexico's thirty-one states confirms that pluralism in the electorate does shape legislative pluralism---and so indirectly the extent of pressures for institutionalization---but reveals that differences in electoral law also play an important role.
+
+## BibTeX Citation
+```bibtex
+@article{Solt2004larr,
+	author = {Solt, Frederick},
+	journal = {Latin American Research Review},
+	number = {1},
+	pages = {155--167},
+	title = {Electoral Competition, Legislative Pluralism, and Institutional Development: Evidence from Mexico's States},
+	volume = {39},
+	year = {2004}}
+```

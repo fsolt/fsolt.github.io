@@ -1,0 +1,6 @@
+---
+title: About
+css: templates/index.css
+---
+
+I am an associate professor in the [Department of Political Science](http://clas.uiowa.edu/polisci/) at the [University of Iowa](http://www.uiowa.edu).  My interests include comparative political behavior, comparative public opinion, and political economy from a cross-national perspective; I am also interested in computational methods for cross-national research.  Much of my work focuses on understanding how---and why---the extent of economic inequality in a country shapes the attitudes and behavior of the people who live there.  To provide data for such work and many more topics in the study of income inequality, I created and maintain the Standardized World Income Inequality Database (SWIID), which provides the most-comparable data available on income inequality for broadly cross-national research.  I also lead the Dynamic Comparative Public Opinion (DCPO) Lab.  Please use the links above to find out more about the SWIID; DCPO; my research; the courses I teach; my published software; blogged updates and working notes; and my CV.

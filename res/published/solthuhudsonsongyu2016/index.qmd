@@ -1,0 +1,56 @@
+---
+title: "Economic Inequality and Belief in Meritocracy in the United States."
+date: 2016-06-30
+cite: >
+  **Solt, Frederick**, Yue Hu, Kevan Hudson, Jungmin Song, and Dong 'Erico' Yu.
+    2016. 
+    "Economic Inequality and Belief in Meritocracy in the United States."
+    _Research & Politics_ 3(4):1-7.
+author:
+    - name: Frederick Solt
+    - name: Yue Hu
+    - name: Kevan Hudson
+    - name: Jungmin Song
+    - name: Dong 'Erico' Yu
+links:
+  - name: Final version
+    url: /papers/soltetal2016a
+    icon: fas fa-scroll
+  - name: Code
+    url: https://github.com/fsolt/meritocracy
+    icon: fa-brands fa-github
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/YWO87E
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - inequality
+  - attitudes
+  - measurement
+---
+
+:::{#cite}
+:::
+
+## Abstract
+How does the context of income inequality in which people live affect their belief in meritocracy, the ability to get ahead through hard work? A prominent recent study by Newman, Johnston, and Lown argues that, consistent with the conflict theory, exposure to higher levels of local income inequality leads lower-income people to become more likely to reject—and higher-income people to become more likely to accept—the dominant United States ideology of meritocracy. Here, we show that this conclusion is not supported by the study’s own reported results and that even these results depend on pooling three distinctly different measures of meritocracy into a single analysis. We then demonstrate that analysis of a larger and more representative survey employing a single consistent measure of the dependent variable yields the opposite conclusion. Consistent with the relative power theory, among those with lower incomes, local contexts of greater inequality are associated with more widespread belief that people can get ahead if they are willing to work hard.
+
+## Important Figures
+![Figure 2. Comparing the three measures of rejection of meritocracy pooled by Newman et al. (2015a)](Figure2.jpg)
+
+![Figure 5. Predicted probability of rejecting meritocracy by income and level of inequality](Figure5.jpg)
+
+## BibTeX Citation
+```bibtex
+@article{Solt2016b,
+	author = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},
+	journal = {Research \& Politics},
+	number = {4},
+	pages = {1-7},
+	title = {Economic Inequality and Belief in Meritocracy in the United States},
+	volume = {3},
+	year = {2016}}
+```

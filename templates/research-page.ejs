@@ -1,0 +1,11 @@
+  <% for (const item of items) { %>
+
+    <ul class="project-links">
+    <% for (const link of items['links']) { %>
+    <li class="project-link">
+    <a href="<%= link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %></a>
+    </li>
+    <% } %>
+  </ul>
+
+  <% } %>

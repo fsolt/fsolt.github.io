@@ -1,0 +1,83 @@
+---
+title: "Democracy, Public Support, and Measurement Uncertainty"
+date: 2022-03-25
+cite: >
+  [Tai, Yuehong 'Cassandra'](https://github.com/Tyhcass/),
+  [Yue Hu](https://sammo3182.github.io), and
+  **Frederick Solt**. 
+  Forthcoming.
+  "Democracy, Public Support, and Measurement Uncertainty." 
+  _American Political Science Review_.
+author:
+    - name: Yuehong 'Cassandra' Tai
+    - name: Yue Hu
+    - name: Frederick Solt
+extra: >
+    Presented at the annual meeting of the 
+    Midwest Political Science Association (MPSA), April 2022.
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: "https://osf.io/preprints/socarxiv/y5fdv/"
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dcpo_dem_mood"
+  icon: fa-brands fa-github
+# - name: Data
+#   url: ""
+#   icon: fas fa-table
+- name: DSD Database
+  url: https://dcpo.org/data/dsd/
+  icon: fa-solid fa-database
+status: Forthcoming
+status_class: warning
+status_icon: fa-regular fa-clock
+# #   status: Writing
+# #   status_class: warning
+# #   status_icon: fa-regular fa-pen-to-square
+# #   status: Revising
+# #   status_class: info
+# #   status_icon: fa-solid fa-arrows-rotate
+# #   status: Under review
+# #   status_class: success
+# #   status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  # dcpo attitudes democracy inequality swiid participation
+  - dcpo
+  - democracy
+  - attitudes
+  - measurement
+# draft: true
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Do democratic regimes depend on public support to avoid backsliding? Does public support, in turn, respond thermostatically to changes in democracy? Two prominent recent studies (Claassen 2020a, 2020b) reinvigorated the classic hypothesis on the positive relationship between public support for democracy and regime survival---and challenged its reciprocal counterpart---by using a latent variable approach to measure mass democratic support from cross-national survey data. Both studies, however, used only the point estimates of democratic support; we show that incorporating the concomitant measurement uncertainty into these analyses reveals that there is no support for either study's conclusion. Efforts to minimize the uncertainty by incorporating additional survey data still fail to yield evidence in support of either hypothesis. These results underscore the need both for more nuanced analyses of the relationships between public support and democracy and for taking measurement uncertainty into account when working with latent variables.
+
+## Important Figure
+
+![Figure 1: The Effect of Public Support on Democracy with Uncertainty](dem_support_fig1.png){.preview-image}
+
+
+## BibTeX Citation
+
+```bibtex
+@misc{TaiHuSolt2022,
+ author={Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},
+ title={Democracy, Public Support, and Measurement Uncertainty},
+ url={osf.io/preprints/socarxiv/y5fdv},
+ doi={10.31235/osf.io/y5fdv},
+ publisher={SocArXiv},
+ year={2022},
+}
+```

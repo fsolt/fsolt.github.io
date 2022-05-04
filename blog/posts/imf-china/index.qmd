@@ -1,0 +1,13 @@
+---
+date: "2015-03-27 10:40:01"
+layout: post
+slug: imf-china
+categories:
+- note
+- swiid
+title: Inequality in China
+---
+
+A [new working paper](http://www.imf.org/external/pubs/ft/wp/2015/wp1568.pdf) by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world. Here's a graph of SWIIDv5.0 data that illustrates their point.
+
+![](images/china.jpg){fig-align="center"}

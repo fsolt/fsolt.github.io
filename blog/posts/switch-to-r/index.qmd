@@ -1,0 +1,157 @@
+---
+title: "How to Switch Your Workflow from Stata to R, One Bit at a Time"
+author: "Frederick Solt"
+slug: switch-to-r
+date: '2018-08-15'
+categories:
+  - note
+  - r
+bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
+csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
+nocite: |
+    @Bryan2018, @Ismay2018, @Chang2015, @Kastellec2007, @Wickham2017
+output:
+    html_document:
+        self_contained: true
+---
+
+A [recent exchange on Twitter](https://twitter.com/RyanDEnos/status/1029443132084105221) reminded me of my switch to R from Stata. I'd started grad school in 1999, before R hit 1.0.0, so I'd been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.'s on-campus rep at my university. Still, I'd started dabbling in R. Then as now, there were specific things R could do that Stata couldn't.[^1] But how to get those advantages without throwing out my hard-earned skills and starting over as a complete n00b? The answer was: a little bit at a time.
+
+[^1]: Then, for me, it was multiple imputation, parallel computation, [and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)](https://www.princeton.edu/~jkastell/tables2graphs.html). On this last one, see also [the dotwhisker package](https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html). Now my list is different, but even longer. That's not what I want to get into in this post, though. This post is how, not why.
+
+Fortunately, it's not difficult to switch back and forth within a given project, so you can start bringing some R to your Stata-based workflow while leaving it mostly intact. Then, if and when you find yourself doing more in R than in Stata, you can flip and start using Stata from within R.
+
+So, [install R](https://cloud.r-project.org) and let's get you started.
+
+## Running R from Stata
+
+The trick to running R from within your do-file is first to save the data you want to pass to R, then call the `.R` file with the commands you want to run in R (the "R script"), then---if necessary---reload the R output into Stata.
+
+While it's also possible to use Stata's `shell` command to run an R script (for illustrative purposes, let's pretend it's called `my_script.R`), [Roger Newson](https://www.imperial.ac.uk/people/r.newson)'s `rsource` module makes it particularly easy. Install it as follows:
+
+```{stata eval=FALSE}
+ ssc install rsource, replace
+```
+
+Unfortunately, the information `rsource` needs about your R installation is a bit different depending on your OS, but once installed, adding this platform-independent code to your do-file will run the script:
+
+```{stata eval=FALSE}
+if "`c(os)'"=="MacOSX" | "`c(os)'"=="UNIX" {
+	rsource using my_script.R, rpath("/usr/local/bin/R") roptions(`"--vanilla"')
+}
+else {  // windows
+	rsource using my_script.R, rpath(`"c:\r\R-3.5.1\bin\Rterm.exe"') roptions(`"--vanilla"')  // change version number, if necessary
+}
+```
+
+Of course, you could choose to skip the whole if-else and just include the line that runs on *your* machine, but that's not doing any favors to your collaborators or anyone else trying to reproduce your results. You might also just prefer to specify the `rpath` and `roptions` in your profile do-file,[^2] but again, then you'll need to let others know to do the same or they won't be able to run your do-file.
+
+[^2]: See the technical note to [the help file for rsource](http://fmwww.bc.edu/RePEc/bocode/r/rsource.html) for details.
+
+Note, too, that if you don't have much R code to run, it might be easiest to just keep it in your do-file rather than using a separate script. You can do this using the `terminator` option to `rsource`, though a downside to this approach is that it doesn't allow you to if-else the `rsource` command by your OS. In the do-file below, I also use the `regsave` module to save my results to pass them to R; install it using `ssc install regsave, replace`.
+
+```{stata eval=FALSE}
+clear
+set more off
+
+sysuse auto, clear
+gen wt = weight/1000
+regress mpg wt displacement foreign trunk headroom length
+regsave using "~/Desktop/R_Stata/auto_results.dta", replace
+
+rsource, terminator(END_OF_R) rpath("/usr/local/bin/R") roptions(`"--vanilla"')
+// rsource using my_script.R, rpath(`"c:\r\R-3.5.1\bin\Rterm.exe"') roptions(`"--vanilla"')  // use this line instead if you run a windows box
+
+library(tidyverse);     # collection of all-around useful R packages
+library(haven);         # for importing Stata datasets
+library(dotwhisker);    # easy and beautiful regression plots, imho
+
+auto_results <- read_dta("~/Desktop/R_Stata/auto_results.dta") %>% 
+    rename(term = var,
+    estimate = coef,
+    std.error = stderr) %>% 
+    filter(term != "_cons");
+dwplot(auto_results);
+ggsave("~/Desktop/R_Stata/auto_results.png", width = 5, height = 4);
+
+END_OF_R
+
+```
+
+![](images/auto_results.png){fig-align="center"}
+
+## Running Stata from R
+
+So maybe you've gotten to the point where you spend more of your time in R than in Stata, but there's still a few parts of your work that you just want (or need!) to keep in Stata. Running a do-file (`my_do_file.do`) from inside your R script is easy with [Luca Braglia](https://github.com/lbraglia)'s `RStata` package:
+
+```{r eval=FALSE}
+if (!require(RStata)) install.packages("RStata"); library(RStata) # this will install RStata if not already installed
+
+stata("my_do_file.do", 
+      stata.path = "/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp", # yours probably differs: use the chooseStataBin() command on windows or linux machines; on Macs, right click on the Stata app, select "Show Package Contents", then see what's in the Contents/MacOS/ directory
+      stata.version = 13)  # again, specify what _you_ have
+```
+
+On this side as well, it's possible to set the arguments just once, in your `.Rprofile` file. In my case, these two lines do the trick:
+
+```{r eval=FALSE}
+    options("RStata.StataPath" = "/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp")
+    options("RStata.StataVersion" = 13)
+```
+
+Since Stata isn't free and open-source, it's even more likely that others will have different setups anyway, so this may make the most sense. Be sure to comment your code to clue people in, though.
+
+If you just want to use a single Stata command `RStata::stata`[^3] will do that for you, too, with no need for a do-file. From the [RStata package documentation](https://www.rdocumentation.org/packages/RStata/versions/1.1.1):
+
+[^3]: In the argot (heh), this means the `stata` command in the `RStata` package.
+
+```{r}
+library("RStata")
+# remember to set RStata.StataPath & RStata.StataVersion in your .Rprofile first!  See https://www.rdocumentation.org/packages/RStata/
+
+## Data input to Stata
+x <- data.frame(a = rnorm(3), b = letters[1:3])
+stata("sum a", data.in = x)                         
+
+## Data output from Stata (e.g., obtain 'auto' dataset)
+auto <- stata("sysuse auto", data.out = TRUE)
+head(auto)
+
+## Data input/output
+(y <- stata("replace a = 2", data.in = x, data.out = TRUE))
+```
+
+And you can embed several Stata commands in your R code as well:
+
+```{r}
+data <- data.frame(y = rnorm(100), x1 = rnorm(100), x2 = rnorm(100))
+stata("
+    sum y x1 x2
+    reg y x1 x2
+    ", data.in = data)
+```
+
+## Summing Up
+
+Moving parts of your work from Stata to R is totally feasible. Lots of people (for example, in the thread that touched this post off, [Steve Rodgers](https://twitter.com/SteveRogersinfo/status/1029444547930148866)) really want to take advantage of the superior graphics capabilities of R, especially the `ggplot` ecosystem, even while sticking to Stata for most of their work. Once your feet are wet, you may then decide R's many other benefits (the free part, the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it's in Stata, the way [RStudio](https://www.rstudio.com) makes it dead easy to do reproducible research through [dynamic documents](https://rmarkdown.rstudio.com) and [version control](http://happygitwithr.com), and, once again, the free part) make switching over all the way to be worth the additional marginal effort. Or you may not.
+
+I completed the transition in three or four years, at my own pace: when I felt comfortable moving another chunk of my workflow over to R, I did, but not before. If I were doing it over right now, with [the tidyverse packages](https://www.tidyverse.org) dramatically reducing the slope of the learning curve, I might move faster, but there's no rush, really. Do what works for you.
+
+## Additional Notes
+
+-   [This post by John Ricco](https://web.archive.org/web/20171026174224/http://johnricco.github.io/2016/06/14/stata-dplyr/) describing how to translate Stata data cleaning commands to the `dplyr` idiom will likely be helpful to those new to tidyverse-style R and wanting to move quickly.
+-   [Matthieu Gomez's R for Stata Users](http://www.matthieugomez.com/statar/) is a more detailed phrasebook that will also be useful to new switchers (H/T [Arthur Yip](https://twitter.com/arthurhcyip)).[^4]
+-   I also ran across the [Rcall package](http://www.haghish.com/resources/pdf/Haghish_Rcall.pdf) while writing this up, but I haven't tried it. You may find it useful.
+-   OTOH, [these 2010 slides by Oscar Torres-Reyna](https://dss.princeton.edu/training/RStata.pdf) were definitely useful to me back in the day, but as they pre-date both the tidyverse and RStudio---the wonders of which really cannot be overstated---they're now more likely to cause you unnecessary confusion than help you if you're a new switcher. Better to steer clear.
+-   Great complete treatments on how to do stuff in R:
+    -   [Modern Dive](https://moderndive.com), by Chester Ismay and Albert Y. Kim
+    -   [R for Data Science](http://r4ds.had.co.nz), by Hadley Wickham and Garrett Grolemund
+    -   A bit older, but I still love Winston Chang's [Cookbook for R](http://www.cookbook-r.com) as a reference, especially the [Graphs chapter](http://www.cookbook-r.com/Graphs/)
+-   [RStudio's Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) are also great references.
+-   When you're ready to take the step to using R more than Stata, you'll want to get fully set up on [RStudio](https://www.rstudio.com/products/rstudio/download/), which provides a front end for running R and can integrate with git and GitHub for version control (you will want this). The best resource that I've found for this process is [Jenny Bryan's Happy Git and GitHub for the UseR](http://happygitwithr.com).
+-   The R community on [StackOverflow](https://stackoverflow.com) is full of helpful people. As your Google-fu develops, you'll find that links to StackOverflow are most likely to get you where you need to go.
+-   There are *so many* fantastic [#rstats](https://twitter.com/search?q=%23rstats) (dozens? hundreds?) follows on Twitter. With apologies to the---seriously---hundreds of others who've taught me tons of stuff over the years, I'm going to grit my teeth and rec just five to get you started: [Mara Averick](https://twitter.com/dataandme), [Jenny Bryan](https://twitter.com/JennyBryan), [David Robinson](https://twitter.com/drob), [Julia Silge](https://twitter.com/juliasilge), and [Hadley Wickham](https://twitter.com/hadleywickham).
+
+[^4]: Arthur also recommends vikjam's [Mostly Harmless Replication](https://github.com/vikjam/mostly-harmless-replication), which replicates most of the figures and tables of [Mostly Harmless Econometrics](http://www.mostlyharmlesseconometrics.com/) in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.
+
+## References

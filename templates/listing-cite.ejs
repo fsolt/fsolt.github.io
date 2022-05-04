@@ -1,0 +1,22 @@
+<div class="list project-list">
+  <% for (const item of items) { %>
+  <li class="project" <%= metadataAttrs(item) %>>
+
+  <div class="project-content">
+  <p><% if (item['status_class']) {%><span class="status btn-<%- item['status_class'] %>"><i class="<%- item['status_icon'] %>"></i> <%= item['status'] %></span> <% } %><%= item['cite'] %></p>
+  </div>
+
+  <div class="project-details">
+  <ul class="project-links">
+  <li class="project-link details"><a href="<%- item.path %>"><i class="fas fa-info-circle"></i> Full details »</a></li>
+  <% for (const link of item['links']) { %>
+  <li class="project-link">
+  <a href="<%= link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %></a>
+  </li>
+  <% } %>
+  </ul>
+  </div>
+
+  </li>
+  <% } %>
+</div>

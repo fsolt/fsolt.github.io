@@ -1,0 +1,46 @@
+---
+date: "2017-04-14 14:27:31"
+layout: post
+slug: reviewing-workshop
+categories:
+- note
+title: Notes for Those New to Writing Peer Reviews
+---
+
+Today we had a workshop for our graduate students on writing peer reviews.  Here are the notes I spoke from:
+
+I get asked to do a lot of reviews.  At the beginning of this semester, I got seven requests within two or three weeks.  I used to always say yes, but doing 35 or 40 reviews a year just took too much time.  When I was first starting out, I'd take something like six or eight hours on each review, though that pretty quickly got down to four or so.  Nowadays it might even be a touch less, spread over two days. I like to give the paper a close read on one day, while taking notes and maybe doing a bit of research.  Then the next day, I write up my review, after my thoughts have had a chance to percolate.  Anyway, now I have a two-per-month rule to protect my time, though I sometimes break it: I took four out of those seven requests back in January.
+
+I always start my reviews with a quick summary of the piece, but as reviewers, our focus should be on theory, data, and method.  For the big-three journals, the old saw is that the standard is "new theory, new data, new method---choose any two," but regardless of the journal that has asked you to review, for a work to make a contribution, it has to be sound---not new, not super-great, just sound---on all three.  Here are a couple of quick notes on each, mostly of the points I find myself most often making:
+
+1. Theory: if you think that the authors<a href="#note1" id="note1ref"><sup>1</sup></a> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don't have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. Reviews aren't the place to develop your own new rival theory.  If you're _really_ tempted to do so, plan instead on responding to this paper when it comes out in print.
+
+1. Data: do the authors take advantage of all available data?  Probably not---we can't all look at everything all the time---but if they've neglected obvious things: using, for example, just that oddball third wave of [the WVS](http://worldvaluessurvey.org) instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so.  Of course, if they use some source and you know that there's other, better data available, point that out to them.
+
+1. Methods: First, are the methods appropriate?  In answering this, you have to judge the methods on their own terms: [NOT, oh, this study uses survey data, so tells us nothing about causality! OR this study just reports an experiment, so it has no external validity!](https://twitter.com/PoliticalApe13/status/820390342759419910)
+
+  + Are interaction terms properly constructed and interpreted?<a href="#note2" id="note2ref"><sup>2</sup></a>  There's software that makes this super-easy. Recommend it by name: "There's [`grinter` for Stata](http://myweb.uiowa.edu/fboehmke/methods.html) and [`interplot` for R](https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html)."  Include cites to [Braumoeller's (2004) _IO_ article](https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8) and/or [Brambor, Clark, and Golder (2006) in _PA_](http://www.jstor.org/stable/25791835), too.
+
+  + Are the included controls appropriate?  Do the authors include controls that are plausibly causally downstream from their IVs?  [That messes up results.](https://books.google.com/books?id=lV3DIdV0F9AC&printsec=frontcover&dq=gelman+and+hill&hl=en&sa=X&ved=0ahUKEwjZyJHgoqXTAhWF6oMKHRS2Ay8Q6AEIJDAA#v=onepage&q=messes+up&f=false) Include citations. Conversely, do they *exclude* variables that would plausibly confound the relationship between the IV and the DV?  It's not enough to say that "oh, they didn't control for X."  You have to explain why including X as a control is important.  And again, include citations.  You should also suggest a source of data for X.  Btw, at least in my book, omitting a control---even one you're totally sure is a source of spuriousness---is an R&R-able offense, not one that condemns the perpetrating manuscript to rejection.  Give the authors a chance to show you you're mistaken on this.
+
+  + Are the coefficients and statistical significance interpreted correctly?  [Are the quantities of substantive interest, such as predicted probabilities, estimated and plotted?](http://www.jstor.org/stable/2669316)  With their associated uncertainty?
+
+  + Can any included tables be made into graphs?  Probably, so be specific about what you have in mind, cite to [Kastellec and Leoni's (2007) _Perspectives_ article](http://www.jstor.org/stable/20446574), and maybe even give the [`dotwhisker` package](https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html) a shout-out if you think it'd help.
+
+4. Note what you're NOT evaluating: the results themselves.  Don't filter on statistical significance: we need to avoid contributing [to publication bias](http://www.jstor.org/stable/25791658) and the pressure way too many people apparently feel [to p-hack their way to publication](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf).  And this should go without saying, but be sure to check your own presuppositions about what the results 'should' show at the door.
+
+  + Nor the question asked. Don't suggest that authors "reframe" their work around some similar (or not so similar) question. Don't say that the question just isn't important enough for the AJPS.<a href="#note3" id="note3ref"><sup>3</sup></a> If you've been in my classes, you've probably had me push you to ask _important_ questions; you know I totally think that's a big deal.  But as a reviewer, as Justin Esarey [argued in the _TPM_ Special Issue on Peer Review](https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf), deciding whether the question asked was sufficiently important for publication isn't your job.  That's for the editor maybe, but really it is for us all as a discipline, as readers.
+
+  + Nor typos, grammar, or citation formatting.  If it's *really, really* bad, I'll point out that it's something the author should be sure to work on.  But [don't send in a bunch of line edits](https://twitter.com/thosjleeper/status/849726360922849280).  I *will* always note if I see that cited works are not included in the bibliography.  BibTeX is your friend, people!
+
+Finally and above all: take a considerate, *helpful* tone.  Research is hard, and the peer-review process is difficult and frustrating for all of us.  Contribute to the collective good by pitching your comments in a constructive tone that you would be happy to read in reviews of your own work.  In other words, [#BeReviewer1](https://twitter.com/search?q=%23BeReviewer1&src=tyah).<a href="#note4" id="note4ref"><sup>4</sup></a>  Even if just about everything is going to need to be redone before the manuscript has any shot at publication---and you know, sometimes it really does---write that in a sympathetic way, remembering that there's another person who will read your words about their work.  And always find at least one good quality of the paper to highlight.  Be sure to return to that point at the end of your review.  
+
+------
+
+<a id="note1" href="#note1ref"><sup>1</sup></a> I've settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore "they."
+
+<a id="note2" href="#note2ref"><sup>2</sup></a> This is point number one on [Brendan Nyhan](https://twitter.com/BrendanNyhan)'s "Checklist Manifesto for Peer Review" in [_The Political Methodologist_'s Special Issue on Peer Review](https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf).  Read the whole issue!
+
+<a id="note3" href="#note3ref"><sup>3</sup></a> OTOH, you _should_ [give people credit when they take on hard questions](https://twitter.com/DToshkov/status/826705971124830209) with less-than-ideal data and methods if those data and methods are (approximately) the best available. 
+
+<a id="note4" href="#note4ref"><sup>4</sup></a> Not that jerk, [#Reviewer2](https://twitter.com/search?q=%23reviewer2&src=typd).  In addition to checking out [#BeReviewer1](https://twitter.com/search?q=%23BeReviewer1&src=tyah) on Twitter, you should also be sure to read [Thomas Leeper](https://twitter.com/thosjleeper)'s [manifesto that started it all](http://thomasleeper.com/2016/08/be-reviewer-one/).

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.305">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Frederick Solt">
+<meta name="dcterms.date" content="2018-08-15">
+
+<title>Frederick Solt - How to Switch Your Workflow from Stata to R, One Bit at a Time</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<link href="../../../fs.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+
+<!-- Default Statcounter code -->
+<script type="text/javascript">
+var sc_project=1915099;
+var sc_invisible=1;
+var sc_security="da58688a";
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async=""></script>
+<!-- End of Statcounter Code -->
+
+
+<link rel="stylesheet" href="../../../templates/styles.css">
+<meta property="og:title" content="Frederick Solt - How to Switch Your Workflow from Stata to R, One Bit at a Time">
+<meta property="og:site-name" content="Frederick Solt">
+<meta name="twitter:title" content="Frederick Solt - How to Switch Your Workflow from Stata to R, One Bit at a Time">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="docked nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../../index.html">
+    <img src="../../../fsolt.png" alt="">
+    <span class="navbar-title">Frederick Solt</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../swiid/">SWIID</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://dcpo.org">DCPO</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../res/">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../teach/">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../sw/">Software</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog/">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cv/">CV</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:frederick-solt@uiowa.edu"><i class="bi bi-envelope" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/fredericksolt"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/fsolt/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ"><i class="bi bi-mortarboard" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">How to Switch Your Workflow from Stata to R, One Bit at a Time</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../#" class="sidebar-item-text sidebar-link">Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">How to Switch Your Workflow from Stata to R, One Bit at a Time</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">note</div>
+    <div class="quarto-category">r</div>
+  </div>
+  </div>
+
+
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Frederick Solt </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2018-08-15</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>A <a href="https://twitter.com/RyanDEnos/status/1029443132084105221">recent exchange on Twitter</a> reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R. Then as now, there were specific things R could do that Stata couldn’t.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> But how to get those advantages without throwing out my hard-earned skills and starting over as a complete n00b? The answer was: a little bit at a time.</p>
+<p>Fortunately, it’s not difficult to switch back and forth within a given project, so you can start bringing some R to your Stata-based workflow while leaving it mostly intact. Then, if and when you find yourself doing more in R than in Stata, you can flip and start using Stata from within R.</p>
+<p>So, <a href="https://cloud.r-project.org">install R</a> and let’s get you started.</p>
+<section id="running-r-from-stata" class="level2">
+<h2 class="anchored" data-anchor-id="running-r-from-stata">Running R from Stata</h2>
+<p>The trick to running R from within your do-file is first to save the data you want to pass to R, then call the <code>.R</code> file with the commands you want to run in R (the “R script”), then—if necessary—reload the R output into Stata.</p>
+<p>While it’s also possible to use Stata’s <code>shell</code> command to run an R script (for illustrative purposes, let’s pretend it’s called <code>my_script.R</code>), <a href="https://www.imperial.ac.uk/people/r.newson">Roger Newson</a>’s <code>rsource</code> module makes it particularly easy. Install it as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a> <span class="kw">ssc</span> install rsource, <span class="kw">replace</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Unfortunately, the information <code>rsource</code> needs about your R installation is a bit different depending on your OS, but once installed, adding this platform-independent code to your do-file will run the script:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">if</span> <span class="st">"`c(os)'"</span>==<span class="st">"MacOSX"</span> | <span class="st">"`c(os)'"</span>==<span class="st">"UNIX"</span> {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    rsource <span class="kw">using</span> my_script.R, rpath(<span class="st">"/usr/local/bin/R"</span>) roptions(<span class="st">`"</span>--vanilla<span class="st">"')</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="st">else {  // windows</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="st">    rsource using my_script.R, rpath(`"</span>c:\<span class="fu">r</span>\R-3.5.1\<span class="bn">bin</span>\Rterm.exe<span class="st">"') roptions(`"</span>--vanilla<span class="st">"')  // change version number, if necessary</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Of course, you could choose to skip the whole if-else and just include the line that runs on <em>your</em> machine, but that’s not doing any favors to your collaborators or anyone else trying to reproduce your results. You might also just prefer to specify the <code>rpath</code> and <code>roptions</code> in your profile do-file,<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> but again, then you’ll need to let others know to do the same or they won’t be able to run your do-file.</p>
+<p>Note, too, that if you don’t have much R code to run, it might be easiest to just keep it in your do-file rather than using a separate script. You can do this using the <code>terminator</code> option to <code>rsource</code>, though a downside to this approach is that it doesn’t allow you to if-else the <code>rsource</code> command by your OS. In the do-file below, I also use the <code>regsave</code> module to save my results to pass them to R; install it using <code>ssc install regsave, replace</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">clear</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">set</span> <span class="kw">more</span> <span class="kw">off</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="kw">sysuse</span> auto, <span class="kw">clear</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="kw">gen</span> wt = <span class="kw">weight</span>/1000</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="kw">regress</span> mpg wt displacement foreign trunk headroom <span class="fu">length</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>regsave <span class="kw">using</span> <span class="st">"~/Desktop/R_Stata/auto_results.dta"</span>, <span class="kw">replace</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>rsource, terminator(END_OF_R) rpath(<span class="st">"/usr/local/bin/R"</span>) roptions(<span class="st">`"</span>--vanilla<span class="st">"')</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="st">// rsource using my_script.R, rpath(`"</span>c:\<span class="fu">r</span>\R-3.5.1\<span class="bn">bin</span>\Rterm.exe<span class="st">"') roptions(`"</span>--vanilla<span class="st">"')  // use this line instead if you run a windows box</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="st">library(tidyverse);     # collection of all-around useful R packages</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="st">library(haven);         # for importing Stata datasets</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="st">library(dotwhisker);    # easy and beautiful regression plots, imho</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="st">auto_results &lt;- read_dta("</span>~/Desktop/R_Stata/auto_results.dta<span class="st">") %&gt;% </span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="st">    rename(term = var,</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="st">    estimate = coef,</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="st">    std.error = stderr) %&gt;% </span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="st">    filter(term != "</span>_cons<span class="st">");</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="st">dwplot(auto_results);</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="st">ggsave("</span>~/Desktop/R_Stata/auto_results.png<span class="st">", width = 5, height = 4);</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="st">END_OF_R</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/auto_results.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="running-stata-from-r" class="level2">
+<h2 class="anchored" data-anchor-id="running-stata-from-r">Running Stata from R</h2>
+<p>So maybe you’ve gotten to the point where you spend more of your time in R than in Stata, but there’s still a few parts of your work that you just want (or need!) to keep in Stata. Running a do-file (<code>my_do_file.do</code>) from inside your R script is easy with <a href="https://github.com/lbraglia">Luca Braglia</a>’s <code>RStata</code> package:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(RStata)) <span class="fu">install.packages</span>(<span class="st">"RStata"</span>); <span class="fu">library</span>(RStata) <span class="co"># this will install RStata if not already installed</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">stata</span>(<span class="st">"my_do_file.do"</span>, </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>      <span class="at">stata.path =</span> <span class="st">"/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp"</span>, <span class="co"># yours probably differs: use the chooseStataBin() command on windows or linux machines; on Macs, right click on the Stata app, select "Show Package Contents", then see what's in the Contents/MacOS/ directory</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>      <span class="at">stata.version =</span> <span class="dv">13</span>)  <span class="co"># again, specify what _you_ have</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>On this side as well, it’s possible to set the arguments just once, in your <code>.Rprofile</code> file. In my case, these two lines do the trick:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">options</span>(<span class="st">"RStata.StataPath"</span> <span class="ot">=</span> <span class="st">"/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp"</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">options</span>(<span class="st">"RStata.StataVersion"</span> <span class="ot">=</span> <span class="dv">13</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Since Stata isn’t free and open-source, it’s even more likely that others will have different setups anyway, so this may make the most sense. Be sure to comment your code to clue people in, though.</p>
+<p>If you just want to use a single Stata command <code>RStata::stata</code><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> will do that for you, too, with no need for a do-file. From the <a href="https://www.rdocumentation.org/packages/RStata/versions/1.1.1">RStata package documentation</a>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"RStata"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># remember to set RStata.StataPath &amp; RStata.StataVersion in your .Rprofile first!  See https://www.rdocumentation.org/packages/RStata/</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="do">## Data input to Stata</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">a =</span> <span class="fu">rnorm</span>(<span class="dv">3</span>), <span class="at">b =</span> letters[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">stata</span>(<span class="st">"sum a"</span>, <span class="at">data.in =</span> x)                         </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. sum a
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+           a |          3   -.1888825    .8789378  -1.164719   .5405706</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Data output from Stata (e.g., obtain 'auto' dataset)</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>auto <span class="ot">&lt;-</span> <span class="fu">stata</span>(<span class="st">"sysuse auto"</span>, <span class="at">data.out =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. sysuse auto
+(1978 Automobile Data)</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(auto)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           make price mpg rep78 headroom trunk weight length turn displacement
+1   AMC Concord  4099  22     3      2.5    11   2930    186   40          121
+2     AMC Pacer  4749  17     3      3.0    11   3350    173   40          258
+3    AMC Spirit  3799  22    NA      3.0    12   2640    168   35          121
+4 Buick Century  4816  20     3      4.5    16   3250    196   40          196
+5 Buick Electra  7827  15     4      4.0    20   4080    222   43          350
+6 Buick LeSabre  5788  18     3      4.0    21   3670    218   43          231
+  gear_ratio  foreign
+1       3.58 Domestic
+2       2.53 Domestic
+3       3.08 Domestic
+4       2.93 Domestic
+5       2.41 Domestic
+6       2.73 Domestic</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Data input/output</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>(y <span class="ot">&lt;-</span> <span class="fu">stata</span>(<span class="st">"replace a = 2"</span>, <span class="at">data.in =</span> x, <span class="at">data.out =</span> <span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. replace a = 2
+(3 real changes made)</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  a b
+1 2 a
+2 2 b
+3 2 c</code></pre>
+</div>
+</div>
+<p>And you can embed several Stata commands in your R code as well:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">y =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>), <span class="at">x1 =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>), <span class="at">x2 =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>))</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">stata</span>(<span class="st">"</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="st">    sum y x1 x2</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="st">    reg y x1 x2</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="st">    "</span>, <span class="at">data.in =</span> data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. 
+.     sum y x1 x2
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+           y |        100    .0236265     1.03123  -3.268936    2.58725
+          x1 |        100   -.1016676    1.002768  -2.997756   2.139994
+          x2 |        100    .0404716     .934101  -4.258553   2.231875
+.     reg y x1 x2
+
+      Source |       SS           df       MS      Number of obs   =       100
+-------------+----------------------------------   F(2, 97)        =      2.01
+       Model |  4.19911148         2  2.09955574   Prob &gt; F        =    0.1389
+    Residual |  101.080895        97  1.04207108   R-squared       =    0.0399
+-------------+----------------------------------   Adj R-squared   =    0.0201
+       Total |  105.280006        99   1.0634344   Root MSE        =    1.0208
+
+------------------------------------------------------------------------------
+           y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          x1 |  -.1795877   .1023142    -1.76   0.082    -.3826531    .0234778
+          x2 |  -.1060174   .1098355    -0.97   0.337    -.3240104    .1119756
+       _cons |   .0096589    .102709     0.09   0.925      -.19419    .2135078
+------------------------------------------------------------------------------
+.     </code></pre>
+</div>
+</div>
+</section>
+<section id="summing-up" class="level2">
+<h2 class="anchored" data-anchor-id="summing-up">Summing Up</h2>
+<p>Moving parts of your work from Stata to R is totally feasible. Lots of people (for example, in the thread that touched this post off, <a href="https://twitter.com/SteveRogersinfo/status/1029444547930148866">Steve Rodgers</a>) really want to take advantage of the superior graphics capabilities of R, especially the <code>ggplot</code> ecosystem, even while sticking to Stata for most of their work. Once your feet are wet, you may then decide R’s many other benefits (the free part, the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it’s in Stata, the way <a href="https://www.rstudio.com">RStudio</a> makes it dead easy to do reproducible research through <a href="https://rmarkdown.rstudio.com">dynamic documents</a> and <a href="http://happygitwithr.com">version control</a>, and, once again, the free part) make switching over all the way to be worth the additional marginal effort. Or you may not.</p>
+<p>I completed the transition in three or four years, at my own pace: when I felt comfortable moving another chunk of my workflow over to R, I did, but not before. If I were doing it over right now, with <a href="https://www.tidyverse.org">the tidyverse packages</a> dramatically reducing the slope of the learning curve, I might move faster, but there’s no rush, really. Do what works for you.</p>
+</section>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes">Additional Notes</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20171026174224/http://johnricco.github.io/2016/06/14/stata-dplyr/">This post by John Ricco</a> describing how to translate Stata data cleaning commands to the <code>dplyr</code> idiom will likely be helpful to those new to tidyverse-style R and wanting to move quickly.</li>
+<li><a href="http://www.matthieugomez.com/statar/">Matthieu Gomez’s R for Stata Users</a> is a more detailed phrasebook that will also be useful to new switchers (H/T <a href="https://twitter.com/arthurhcyip">Arthur Yip</a>).<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></li>
+<li>I also ran across the <a href="http://www.haghish.com/resources/pdf/Haghish_Rcall.pdf">Rcall package</a> while writing this up, but I haven’t tried it. You may find it useful.</li>
+<li>OTOH, <a href="https://dss.princeton.edu/training/RStata.pdf">these 2010 slides by Oscar Torres-Reyna</a> were definitely useful to me back in the day, but as they pre-date both the tidyverse and RStudio—the wonders of which really cannot be overstated—they’re now more likely to cause you unnecessary confusion than help you if you’re a new switcher. Better to steer clear.</li>
+<li>Great complete treatments on how to do stuff in R:
+<ul>
+<li><a href="https://moderndive.com">Modern Dive</a>, by Chester Ismay and Albert Y. Kim</li>
+<li><a href="http://r4ds.had.co.nz">R for Data Science</a>, by Hadley Wickham and Garrett Grolemund</li>
+<li>A bit older, but I still love Winston Chang’s <a href="http://www.cookbook-r.com">Cookbook for R</a> as a reference, especially the <a href="http://www.cookbook-r.com/Graphs/">Graphs chapter</a></li>
+</ul></li>
+<li><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio’s Cheat Sheets</a> are also great references.</li>
+<li>When you’re ready to take the step to using R more than Stata, you’ll want to get fully set up on <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a>, which provides a front end for running R and can integrate with git and GitHub for version control (you will want this). The best resource that I’ve found for this process is <a href="http://happygitwithr.com">Jenny Bryan’s Happy Git and GitHub for the UseR</a>.</li>
+<li>The R community on <a href="https://stackoverflow.com">StackOverflow</a> is full of helpful people. As your Google-fu develops, you’ll find that links to StackOverflow are most likely to get you where you need to go.</li>
+<li>There are <em>so many</em> fantastic <a href="https://twitter.com/search?q=%23rstats">#rstats</a> (dozens? hundreds?) follows on Twitter. With apologies to the—seriously—hundreds of others who’ve taught me tons of stuff over the years, I’m going to grit my teeth and rec just five to get you started: <a href="https://twitter.com/dataandme">Mara Averick</a>, <a href="https://twitter.com/JennyBryan">Jenny Bryan</a>, <a href="https://twitter.com/drob">David Robinson</a>, <a href="https://twitter.com/juliasilge">Julia Silge</a>, and <a href="https://twitter.com/hadleywickham">Hadley Wickham</a>.</li>
+</ul>
+</section>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Bryan2018" class="csl-entry" role="doc-biblioentry">
+Bryan, Jenny. 2018. <span>“Happy Git and GitHub for the useR.”</span> <a href="http://happygitwithr.com/">http://happygitwithr.com/</a>.
+</div>
+<div id="ref-Chang2015" class="csl-entry" role="doc-biblioentry">
+Chang, Winston. <span>“Cookbook for r.”</span> <a href="http://www.cookbook-r.com">http://www.cookbook-r.com</a>.
+</div>
+<div id="ref-Ismay2018" class="csl-entry" role="doc-biblioentry">
+Ismay, Chester, and Albert Y. Kim. 2018. <span>“Modern Dive: An Introduction to Statistical and Data Sciences via r.”</span> <a href="https://moderndive.com/">https://moderndive.com/</a>.
+</div>
+<div id="ref-Kastellec2007" class="csl-entry" role="doc-biblioentry">
+Kastellec, Jonathan P., and Eduardo L. Leoni. 2007. <span>“<a href="https://doi.org/10.1017/S1537592707072209">Using Graphs Instead of Tables in Political Science</a>.”</span> <em>Perspectives on Politics</em> 5(4): 755–71.
+</div>
+<div id="ref-Wickham2017" class="csl-entry" role="doc-biblioentry">
+Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’Reilly. <a href="http://r4ds.had.co.nz">http://r4ds.had.co.nz</a>.
+</div>
+</div></section><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1" role="doc-endnote"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Arthur also recommends vikjam’s <a href="https://github.com/vikjam/mostly-harmless-replication">Mostly Harmless Replication</a>, which replicates most of the figures and tables of <a href="http://www.mostlyharmlesseconometrics.com/">Mostly Harmless Econometrics</a> in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

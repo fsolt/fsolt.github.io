@@ -1,0 +1,7 @@
+---
+rank: 4
+title: Why doesn't the SWIID include estimates for redistribution for all countries
+  and years?
+---
+
+Although the SWIID includes estimates of disposable income inequality and market income inequality for all of its country-year observations, it does not provide as many estimates of absolute and relative redistribution, even though these _could_ easily be calculated from `gini_disp` and `gini_mkt`.  The reason has to do with the [source data](/swiid/swiid_source/) employed to generate the SWIID estimates: redistribution estimates are provided only in countries for which there is source data available on both the distribution of market income and the distribution of disposable income or consumption. For other countries, the figures provided for market and disposable income inequality each represent the best estimate possible for each concept given the available source data, but both estimates are based on the _same_ observations in the source data, and the difference between them reflects only information derived from other countries (see [Solt 2016](/papers/solt2016), 1274-1275 ([page 12 in the pre-print](/papers/solt2016_pre))). It would therefore be a mistake to treat this difference as indicative of the redistributive effect of the country's taxes and transfers.

@@ -1,0 +1,61 @@
+---
+title: SWIID Version 8.3 is available!
+author: Frederick Solt
+date: '2020-05-19'
+slug: swiid-version-8_3
+categories:
+  - update
+  - r
+  - swiid
+description: "Version 8.3 of the SWIID is now available! This new release adds to its source data 4759 new Ginis since version 8.2..."
+---
+
+```{r version_comparison, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(rio)
+
+latest <- "swiid8_3.rda"
+previous <- "swiid8_2.rda"
+
+latest_summary <- rio::import(file.path("~/Documents/projects/swiid/data", latest), which = "swiid_summary")
+previous_summary <- rio::import(file.path("~/Documents/projects/swiid/data", previous), which = "swiid_summary")
+
+n_new_cy <- anti_join(latest_summary, previous_summary, by = c("country", "year")) %>% nrow()
+
+latest_source <- rio::import("~/Documents/projects/swiid/data/swiid_source.csv")
+previous_source <- read_csv("https://github.com/fsolt/swiid/raw/f099f92aaf335554844b2af6df77bc5e8db47fd7/data/swiid_source.csv", col_types = "cdddcclcccc")
+
+n_new_ginis <- nrow(latest_source) - nrow(previous_source)
+
+this_version <- latest %>% str_extract_all("\\d") %>% first() %>% paste0(collapse = ".")
+last_version <- previous %>% str_extract_all("\\d") %>% first() %>% paste0(collapse = ".")
+```
+
+Version `r this_version` of the SWIID is [now available](/swiid/swiid_downloads/)! This new release:
+
+-   adds to [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) `r n_new_ginis` new Ginis since version `r last_version`, including newly available LIS data on [Chile, Denmark, Germany, Mexico, Peru, Slovenia,](https://www.lisdatacenter.org/news-and-events/2019-winter-data-release/) [Belgium, Canada, the Czech Republic, Italy, and---for the first time---Palestine](http://www.lisdatacenter.org/news-and-events/2020-spring-data-release/); and
+
+-   includes estimates of market and disposable income inequality for `r n_new_cy` more country-years than version `r last_version`.
+
+```{r plot, echo=FALSE, message=FALSE, warning=FALSE}
+
+
+brics <- latest_summary %>% 
+  filter(country=="Brazil" | country=="Russia" | 
+                 country=="India" | country=="China")
+
+ggplot(data=brics, aes(x=year, y=gini_disp, colour=country)) +
+  geom_line() +
+  theme_bw() +
+  theme(legend.position="none") +    
+  coord_cartesian(xlim = c(1970, 2020), ylim = c(20, 60)) +
+  labs(x = "Year", y = "SWIID Gini Index, Disposable Income") +
+  geom_ribbon(aes(ymin = gini_disp-1.96*gini_disp_se, ymax = gini_disp+1.96*gini_disp_se, 
+                  fill=country, linetype=NA), alpha = .25) +
+    geom_text(aes(1974.5,55,label = "Brazil", colour="Brazil"), size=4.5) +
+    geom_text(aes(1998,46,label = "India", colour="India"), size=4.5) +
+ 	geom_text(aes(1993,24,label = "Russia", colour="Russia"), size=4.5) +
+	geom_text(aes(1980,32,label = "China", colour="China"), size=4.5)
+```
+
+For more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid). As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.

@@ -1,0 +1,14 @@
+---
+date: "2016-05-13 5:28:01"
+layout: post
+slug: pewdata
+categories:
+- note
+- pewdata
+- r
+title: Try pewdata!
+description: "If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available..."
+---
+
+If you use [Pew Research Center](http://www.pewresearch.org) surveys, you can make your research reproducible with the [`pewdata` package now available on CRAN](https://cran.r-project.org/web/packages/pewdata/index.html). 
+

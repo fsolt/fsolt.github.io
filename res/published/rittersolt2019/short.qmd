@@ -1,0 +1,51 @@
+---
+title: "Economic Inequality and Campaign Participation"
+date: 2019-06-30
+cite: >
+    Ritter, Michael, and **Frederick Solt**. 2019. "Economic Inequality and Campaign Participation." _Social Science Quarterly_ 100(3):678-688
+author:
+  - Michael Ritter
+  - Frederick Solt
+links:
+  - name: Final version
+    url: /papers/rittersolt2019
+    icon: fas fa-scroll
+  - name: Preprint
+    url: https://osf.io/zzwq2/
+    icon: far fa-file-pdf
+  - name: Code
+    url: https://github.com/fsolt/campaign_participation
+    icon: fa-brands fa-github
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - participation
+---
+
+:::{#cite}
+:::
+
+## Abstract
+*Objective.* How does economic inequality shape participation in political campaigns? Previous research has found that higher inequality makes people of all incomes less likely to participate in politics, consistent with relative power theory, which holds that greater inequality enables wealthier citizens to more fully reshape the political landscape to their own advantage. Campaign activities, however, demand more time and money than previously examined forms of participation and so might better conform to the predictions of resource theory, which focuses narrowly on the ramifications of inequality for individuals’ resources.  *Methods.* We combine individual-level data on donations, meeting attendance, and volunteer work for political campaigns with measures of state-level income inequality to construct a series of multilevel models.   *Results.* The analyses reveal that where inequality is higher, campaign participation is lower among individuals of all incomes.  *Conclusions.* Patterns of participation in even resource-intensive campaign activities provide support for the relative power theory.
+
+## Important Figure
+
+![Figure 4: Predicted Probability of Campaign Participation by Income and Level of Inequality](Fig4.png)
+
+## BibTeX Citation
+
+```bibtex
+@article{RitterSolt2019,
+	author = {Ritter, Michael and Solt, Frederick},
+	doi = {https://doi.org/10.1111/ssqu.12605},
+	journal = {Social Science Quarterly},
+	number = {3},
+	pages = {678-688},
+	title = {Economic Inequality and Campaign Participation},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.12605},
+	volume = {100},
+	year = {2019}}
+```

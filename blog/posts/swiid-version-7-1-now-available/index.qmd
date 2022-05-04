@@ -1,0 +1,45 @@
+---
+title: SWIID Version 7.1 is available!
+author: Frederick Solt
+slug: swiid-version-7_1
+date: '2018-08-14'
+categories:
+  - update
+  - r
+  - swiid
+bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
+csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
+output:
+    html_document:
+        self_contained: true
+---
+
+Version 7.1 of the SWIID is [now available](/swiid/swiid_downloads/)!  In addition to important behind-the-scenes improvements to the estimation routine, this new release:
+
+- adds to [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) 627 new Ginis since version 6.2, including [newly available LIS data on Chile, Germany, Hungary, Poland, and Israel](http://www.lisdatacenter.org/news-and-events/2018-summer-data-release/); and
+
+- includes estimates of market and disposable income inequality for 80 more country-years than version 6.2.
+
+```{r swiid_v71, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+load("~/Documents/projects/swiid/data/swiid7_1.rda")
+
+brics <- swiid_summary %>% 
+  filter(country=="Brazil" | country=="Russia" | 
+                 country=="India" | country=="China")
+
+ggplot(data=brics, aes(x=year, y=gini_disp, colour=country)) +
+  geom_line() +
+  theme_bw() +
+  theme(legend.position="none") +    
+  coord_cartesian(xlim = c(1975, 2017), ylim = c(20, 60)) +
+  labs(x = "Year", y = "SWIID Gini Index, Disposable Income") +
+  geom_ribbon(aes(ymin = gini_disp-1.96*gini_disp_se, ymax = gini_disp+1.96*gini_disp_se, 
+                  fill=country, linetype=NA), alpha = .25) +
+  geom_text(aes(1977, 56, label = "Brazil", colour="Brazil"), size=4.5) +
+  geom_text(aes(1980, 45, label = "India", colour="India"), size=4.5) +
+  geom_text(aes(1981, 34, label = "China", colour="China"), size=4.5) +
+  geom_text(aes(1992, 30, label = "Russia", colour="Russia"), size=4.5)
+```
+
+For more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid).  As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.

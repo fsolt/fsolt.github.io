@@ -1,0 +1,4 @@
+---
+header-includes: |
+  <meta http-equiv="Refresh" content="0; URL=http://ppq.sagepub.com/content/early/2015/09/24/1354068815603240">
+---

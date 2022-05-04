@@ -1,0 +1,41 @@
+---
+title: "Economic Inequality and Democratic Political Engagement"
+date: 2008-06-30
+cite: >
+    **Solt, Frederick**. 2008. "Economic Inequality and Democratic Political Engagement." _American Journal of Political Science_ 52(1):48-60. _American Journal of Political Science_ 52(1):48-60.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: "/papers/solt2008/"
+    icon: fas fa-scroll
+  - name: Preprint
+    url: "/papers/solt2008_pre/"
+    icon: far fa-file-pdf
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - participation
+---
+
+:::{#cite}
+:::
+
+## Abstract
+What effect, if any, does the extent of economic inequality in a country have upon the political engagement of its citizens? This study examines this question using data from multiple cross-national surveys of the advanced industrial democracies. It tests the theory that greater inequality increases the relative power of the wealthy to shape politics in their own favor against rival arguments that focus on the effects of inequality on citizens' objective interests or the resources they have available for political engagement. The analysis demonstrates that higher levels of income inequality powerfully depress political interest, the frequency of political discussion, and participation in elections among all but the most affluent citizens, providing compelling evidence that greater economic inequality yields greater political inequality.
+
+## BibTeX Citation
+```bibtex
+@article{Solt2008,
+	author = {Solt, Frederick},
+	journal = {American Journal of Political Science},
+	month = {January},
+	number = {1},
+	pages = {48-60},
+	title = {Economic Inequality and Democratic Political Engagement},
+	volume = {52},
+	year = {2008}}
+```

@@ -1,0 +1,47 @@
+---
+title: "The Standardized World Income Inequality Database"
+date: 2016-06-30
+cite: >
+    **Solt, Frederick**. 2016. "The Standardized World Income Inequality Database." _Social Science Quarterly_. 97(5):1267-1281.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: /papers/solt2016
+    icon: fas fa-scroll
+  - name: Preprint
+    url: /papers/solt2016_pre
+    icon: far fa-file-pdf
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/ODB8MK
+    icon: fas fa-table
+  - name: SWIID Database
+    url: ../../../swiid/
+    icon: fa-solid fa-database
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - swiid
+    - inequality
+    - measurement
+---
+
+:::{#cite}
+:::
+
+## Abstract
+*Objective.* Investigating the causes and consequences of income inequality requires comparable data, but greater cross-national and temporal coverage is generally available only with sharply reduced comparability. The Standardized World Income Inequality Database (SWIID) provide researchers with data that maximize comparability for the broadest possible sample of countries and years. *Methods.* The SWIID employs a custom missing-data algorithm that minimizes reliance on problematic assumptions by using as much information as possible from proximate years within the same country to estimate inequality statistics for the missing country-years in the Luxembourg Income Study using data drawn from regional collections, national statistical offices, and academic studies. *Results.* The SWIID provides comparable estimates of the Gini index of net- and market-income inequality for 174 countries for as many years as possible from 1960 to the present, as well as measures of absolute and relative redistribution. *Conclusions.* As its coverage and comparability far exceed those of alternate datasets, the SWIID is better suited for broadly cross-national research on income inequality than other sources.
+
+## BibTeX Citation
+```bibtex
+@article{Solt2016,
+	author = {Solt, Frederick},
+	journal = {Social Science Quarterly},
+	number = {5},
+	pages = {1267-1281},
+	title = {The Standardized World Income Inequality Database},
+	volume = {97},
+	year = {2016}}
+```

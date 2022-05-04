@@ -1,5 +1,7 @@
-_site
-.sass-cache
 .Rproj.user
-.DS_Store
 .Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+/.quarto/

@@ -1,0 +1,47 @@
+---
+title: "The Dynamics of Party Relabeling: Why Do Parties Change Names?"
+date: 2017-06-30
+cite: >
+    Kim, Mi-son, and **Frederick Solt**. 2017. "The Dynamics of Party Relabeling: Why Do Parties Change Names?" _Party Politics_ 23(4):437-447.
+author:
+  - name: Mi-son Kim
+  - name: Frederick Solt
+links:
+  - name: Final version
+    url: /papers/kimsolt2017
+    icon: fas fa-scroll
+  - name: Preprint
+    url: /papers/kimsolt2017_pre
+    icon: far fa-file-pdf
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/NZQIWM
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - parties
+---
+
+:::{#cite}
+:::
+
+## Abstract
+Contrary to longstanding arguments that equate parties with durable, information-rich brand names, relabeling of parties is not rare, and in many countries it is not even very unusual.  This paper provides the first effort to document this neglected phenomenon.  It finds that across European democracies, roughly a third of all parties have relabeled themselves at least once since 1945, and a similar proportion of elections include at least one party running under a new name.  It then presents analyses of why parties change names more frequently in some circumstances, finding support for three explanations derived from the existing literature: parties with longer-standing brands are less likely to shed them, but relabeling is more likely for parties that suffer electoral setbacks and for parties in weaker party systems.  Finally, it presents evidence that the end of Soviet communism made left parties more likely to rename themselves.
+
+## Important Figures
+
+![Figure 1. Party relabeling across European democracies](sum_plot-1.png)
+
+## BibTeX Citation
+```bibtex
+@article{Kim2017,
+    author = {Mi-son Kim and Frederick Solt},
+	journal = {Party Politics},
+	number = {4},
+	pages = {437--447},
+	title = {The Dynamics of Party Relabeling: Why Do Parties Change Names?},
+	volume = {23},
+	year = {2017}}
+```

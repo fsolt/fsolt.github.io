@@ -1,0 +1,368 @@
+[
+  {
+    "listing": "/res/index.html",
+    "items": [
+      "/res/published/woogoldbergsolt2022/index.html",
+      "/res/published/taihusolt2022/index.html",
+      "/res/published/solt2020/index.html",
+      "/res/published/rittersolt2019/index.html",
+      "/res/published/kimsolt2017/index.html",
+      "/res/published/solthuhudsonsongyu2017/index.html",
+      "/res/published/solt2016/index.html",
+      "/res/published/solthuhudsonsongyu2016/index.html",
+      "/res/published/solt2015b/index.html",
+      "/res/published/solt2015a/index.html",
+      "/res/published/solt2014/index.html",
+      "/res/published/soltkimleewillardsonkim2014/index.html",
+      "/res/published/solt2012/index.html",
+      "/res/published/solt2011/index.html",
+      "/res/published/solthabelgrant2011/index.html",
+      "/res/published/solt2010/index.html",
+      "/res/published/solt2009/index.html",
+      "/res/published/solt2008/index.html",
+      "/res/published/searingsoltconovercrewe2007/index.html",
+      "/res/published/hubersolt2004/index.html",
+      "/res/published/solt2004bjps/index.html",
+      "/res/published/solt2004larr/index.html",
+      "/res/published/solt2001/index.html",
+      "/res/working-papers/dcpo_article/index.html"
+    ]
+  },
+  {
+    "listing": "/res/working-papers/dcpo_article/short.html",
+    "items": [
+      "/res/working-papers/dcpo_article/index.html"
+    ]
+  },
+  {
+    "listing": "/res/working-papers/dcpo_article/index.html",
+    "items": [
+      "/res/working-papers/dcpo_article/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2010/short.html",
+    "items": [
+      "/res/published/solt2010/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2010/index.html",
+    "items": [
+      "/res/published/solt2010/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/hubersolt2004/short.html",
+    "items": [
+      "/res/published/hubersolt2004/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/hubersolt2004/index.html",
+    "items": [
+      "/res/published/hubersolt2004/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2016/short.html",
+    "items": [
+      "/res/published/solt2016/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2016/index.html",
+    "items": [
+      "/res/published/solt2016/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2011/short.html",
+    "items": [
+      "/res/published/solt2011/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2011/index.html",
+    "items": [
+      "/res/published/solt2011/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2020/short.html",
+    "items": [
+      "/res/published/solt2020/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2020/index.html",
+    "items": [
+      "/res/published/solt2020/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/rittersolt2019/short.html",
+    "items": [
+      "/res/published/rittersolt2019/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/rittersolt2019/index.html",
+    "items": [
+      "/res/published/rittersolt2019/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2004larr/short.html",
+    "items": [
+      "/res/published/solt2004larr/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2004larr/index.html",
+    "items": [
+      "/res/published/solt2004larr/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2015a/short.html",
+    "items": [
+      "/res/published/solt2015a/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2015a/index.html",
+    "items": [
+      "/res/published/solt2015a/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/taihusolt2022/short.html",
+    "items": [
+      "/res/published/taihusolt2022/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/taihusolt2022/index.html",
+    "items": [
+      "/res/published/taihusolt2022/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/soltkimleewillardsonkim2014/short.html",
+    "items": [
+      "/res/published/soltkimleewillardsonkim2014/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/soltkimleewillardsonkim2014/index.html",
+    "items": [
+      "/res/published/soltkimleewillardsonkim2014/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/searingsoltconovercrewe2007/short.html",
+    "items": [
+      "/res/published/searingsoltconovercrewe2007/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/searingsoltconovercrewe2007/index.html",
+    "items": [
+      "/res/published/searingsoltconovercrewe2007/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solthuhudsonsongyu2017/short.html",
+    "items": [
+      "/res/published/solthuhudsonsongyu2017/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solthuhudsonsongyu2017/index.html",
+    "items": [
+      "/res/published/solthuhudsonsongyu2017/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solthuhudsonsongyu2016/short.html",
+    "items": [
+      "/res/published/solthuhudsonsongyu2016/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solthuhudsonsongyu2016/index.html",
+    "items": [
+      "/res/published/solthuhudsonsongyu2016/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2004bjps/short.html",
+    "items": [
+      "/res/published/solt2004bjps/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2004bjps/index.html",
+    "items": [
+      "/res/published/solt2004bjps/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2014/short.html",
+    "items": [
+      "/res/published/solt2014/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2014/index.html",
+    "items": [
+      "/res/published/solt2014/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2012/short.html",
+    "items": [
+      "/res/published/solt2012/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2012/index.html",
+    "items": [
+      "/res/published/solt2012/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/kimsolt2017/short.html",
+    "items": [
+      "/res/published/kimsolt2017/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/kimsolt2017/index.html",
+    "items": [
+      "/res/published/kimsolt2017/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2015b/short.html",
+    "items": [
+      "/res/published/solt2015b/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2015b/index.html",
+    "items": [
+      "/res/published/solt2015b/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solthabelgrant2011/short.html",
+    "items": [
+      "/res/published/solthabelgrant2011/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solthabelgrant2011/index.html",
+    "items": [
+      "/res/published/solthabelgrant2011/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2001/short.html",
+    "items": [
+      "/res/published/solt2001/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2001/index.html",
+    "items": [
+      "/res/published/solt2001/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2008/short.html",
+    "items": [
+      "/res/published/solt2008/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2008/index.html",
+    "items": [
+      "/res/published/solt2008/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2009/short.html",
+    "items": [
+      "/res/published/solt2009/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/solt2009/index.html",
+    "items": [
+      "/res/published/solt2009/short.html"
+    ]
+  },
+  {
+    "listing": "/res/published/woogoldbergsolt2022/short.html",
+    "items": [
+      "/res/published/woogoldbergsolt2022/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/woogoldbergsolt2022/index.html",
+    "items": [
+      "/res/published/woogoldbergsolt2022/short.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/swiid-version-9-2-is-available/index.html",
+      "/blog/posts/swiid-version-9-0-is-available/index.html",
+      "/blog/posts/swiid-version-8-3-is-available/index.html",
+      "/blog/posts/swiid-version-8-0-is-available/index.html",
+      "/blog/posts/cross-validation-for-swiid/index.html",
+      "/blog/posts/switch-to-r/index.html",
+      "/blog/posts/swiid-version-7-1-now-available/index.html",
+      "/blog/posts/swiid-version-6-2-now-available/index.html",
+      "/blog/posts/swiid-version-6-1-is-available/index.html",
+      "/blog/posts/the-swiid-source-data/index.html",
+      "/blog/posts/swiid-version-6-0-is-available/index.html",
+      "/blog/posts/reviewing-workshop/index.html",
+      "/blog/posts/swiid-version-5_1/index.html",
+      "/blog/posts/icpsrdata/index.html",
+      "/blog/posts/pewdata/index.html",
+      "/blog/posts/nsf-swiid/index.html",
+      "/blog/posts/dotwhisker-for-apsa/index.html",
+      "/blog/posts/now-on-cran-interplot/index.html",
+      "/blog/posts/imf-china/index.html",
+      "/blog/posts/swiid-version-5_0/index.html",
+      "/blog/posts/swiid-version-4_0/index.html",
+      "/blog/posts/my-un-talk/index.html",
+      "/blog/posts/swiid-version-3_1/index.html",
+      "/blog/posts/swiid-version-3_0/index.html",
+      "/blog/posts/using-swiid-ses/index.html",
+      "/blog/posts/swiid-version-2_0/index.html",
+      "/blog/posts/swiid-version-1_1/index.html",
+      "/blog/posts/swiid-version-1_0/index.html",
+      "/blog/posts/swiid-version-0_9/index.html"
+    ]
+  },
+  {
+    "listing": "/swiid/swiid_faq/index.html",
+    "items": [
+      "/swiid/swiid_faq/posts/how-to/download-swiid.html",
+      "/swiid/swiid_faq/posts/how-to/mean-and-std-err.html",
+      "/swiid/swiid_faq/posts/how-to/not-a-stata-file.html",
+      "/swiid/swiid_faq/posts/how-to/country-codes.html",
+      "/swiid/swiid_faq/posts/how-to/stata-time-series.html",
+      "/swiid/swiid_faq/posts/how-to/csv-format.html",
+      "/swiid/swiid_faq/posts/data/changes-between-versions.html",
+      "/swiid/swiid_faq/posts/data/germany.html",
+      "/swiid/swiid_faq/posts/data/partition-and-successors.html",
+      "/swiid/swiid_faq/posts/data/redistribution-observations.html"
+    ]
+  }
+]

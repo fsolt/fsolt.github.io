@@ -1,0 +1,44 @@
+---
+title: "On the Assessment and Use of Cross-National Income Inequality Datasets"
+date: 2015-06-30
+cite: >
+    **Solt, Frederick**. 2015. "On the Assessment and Use of Cross-National Income Inequality Datasets." _Journal of Economic Inequality_ 13(4):683-691.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: /papers/solt2015b
+    icon: fas fa-scroll
+  - name: Preprint
+    url: /papers/solt2015b_pre
+    icon: far fa-file-pdf
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/LJD8CQ
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - swiid
+    - inequality
+    - measurement
+---
+
+:::{#cite}
+:::
+
+## Abstract
+Researchers should ensure the data they employ are fit for their purpose, and they should maximize the quality of the data they choose. In this paper, I review how this advice applies to broadly cross-national research on income inequality. I demonstrate that the guidance offered in Jenkins (2015) to those pursuing cross-national research runs completely counter to the recommendations found in Atkinson and Brandolini (2001, 2009), the source of the aforementioned advice and the works upon which Jenkins (2015) claims its own is based. I then show how the Standardized World Income Inequality Database (SWIID) incorporates Atkinson and Brandolini&rsquo;s recommendations to provide the most comparable data available for those engaged in broadly cross-national research on income inequality.
+
+## BibTeX Citation
+```bibtex
+@article{Solt2015a,
+	author = {Solt, Frederick},
+	journal = {Journal of Economic Inequality},
+	number = {4},
+	pages = {683-691},
+	title = {On the Assessment and Use of Cross-National Income Inequality Datasets},
+	volume = {13},
+	year = {2015}}
+```

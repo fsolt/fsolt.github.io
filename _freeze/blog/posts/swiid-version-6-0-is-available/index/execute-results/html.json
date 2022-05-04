@@ -1,0 +1,16 @@
+{
+  "hash": "3c4be9fb158f62a74c4cb3f4a8d267df",
+  "result": {
+    "markdown": "---\ntitle: SWIID Version 6.0 is available!\nauthor: Frederick Solt\nslug: swiid-version-6_0\ndate: '2017-07-27'\ncategories:\n  - update\n  - r\n  - swiid\nbibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib\ncsl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl\noutput:\n    html_document:\n        self_contained: true\n---\n\nVersion 6.0 of the SWIID is [now available](/swiid/swiid_downloads/)!  It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting [now done using #rstats and Stan](https://github.com/fsolt/swiid/).\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\nAs always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

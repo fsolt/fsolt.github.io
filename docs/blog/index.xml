@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Frederick Solt</title>
+<link>https://fsolt.org/blog/index.html</link>
+<atom:link href="https://fsolt.org/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
+<image>
+<url>https://fsolt.org/fsolt.png</url>
+<title>Frederick Solt</title>
+<link>https://fsolt.org/blog/index.html</link>
+<height>144</height>
+<width>144</width>
+</image>
+<generator>quarto-0.9.305</generator>
+<lastBuildDate>Wed, 22 Dec 2021 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>SWIID Version 9.2 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+
+</div>
+<p>Hi everyone! Version 9.2 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 3834 new Ginis since version 9.1, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2021-summer-data-splash/">Egypt, Germany, Lithuania, Mexico, the Netherlands, Russia, Slovenia, Spain, the United States</a>, <a href="https://www.lisdatacenter.org/news-and-events/2021-autumn-data-splash/">Georgia, Switzerland</a>, <a href="https://www.lisdatacenter.org/news-and-events/2021-winter-data-splash/">Australia, Austria, Colombia, Paraguay, Poland, and Vietnam</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 121 more country-years than version 9.1.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index.html</guid>
+  <pubDate>Wed, 22 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Version 9.0 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+
+</div>
+<p>Version 9.0 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 947 new Ginis since version 8.3, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2020-summer-data-release/">Greece, Lithuania, Russia, South Africa, the United States,</a> <a href="https://www.lisdatacenter.org/news-and-events/2020-autumn-data-splash/">Ireland, Panama, and Switzerland</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 72 more country-years than version 8.3;</p></li>
+<li><p>and, justifying the whole-number revision, it incorporates the <a href="http://www.lisdatacenter.org/wps/techwps/9.pdf">LIS’ new guidance on topcoding</a> (and so minimizes the extent to which income inequality is underestimated). Yay!</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index.html</guid>
+  <pubDate>Wed, 21 Oct 2020 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Version 8.3 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-8-3-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+
+</div>
+<p>Version 8.3 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 4759 new Ginis since version 8.2, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2019-winter-data-release/">Chile, Denmark, Germany, Mexico, Peru, Slovenia,</a> <a href="http://www.lisdatacenter.org/news-and-events/2020-spring-data-release/">Belgium, Canada, the Czech Republic, Italy, and—for the first time—Palestine</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 188 more country-years than version 8.2.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-8-3-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-8-3-is-available/index.html</guid>
+  <pubDate>Tue, 19 May 2020 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Version 8.0 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Version 8.0 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! In addition to important behind-the-scenes improvements to the estimation routine, this new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 692 new Ginis since version 7.1, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2018-fall-data-release/">Australia, Georgia, Serbia,</a> <a href="http://www.lisdatacenter.org/news-and-events/2018-winter-data-release/">Russia, and the United Kingdom</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 129 more country-years than version 7.1.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index_files/figure-html/swiid_v80-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index.html</guid>
+  <pubDate>Thu, 28 Feb 2019 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/cross-validation-for-swiid/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>From its origins now over ten years ago, the goal of the <a href="../../../swiid/">Standardized World Income Inequality Database</a> has been to provide estimates of income inequality for as many countries and years as possible while ensuring that these estimates are as comparable as the available data allow. That is to say, the SWIID’s first priority is breadth of coverage, and its second is comparability. The starting point for the SWIID estimates is a dataset with the complementary priorities: the <a href="https://www.lisdatacenter.org">Luxembourg Income Study</a>, which aims to maximize comparability and, given that primary concern, to include as many countries and years as possible.<sup>1</sup> Then the SWIID routine estimates the relationships between Gini indices based on the LIS and <a href="../../../blog/2017/07/28/the-swiid-source-data/">all of the other Ginis available</a> for the same country-years, and it uses these relationships to estimate what the LIS Gini <em>would be</em> in country-years not included in the LIS but available from other sources.</p>
+<p>How can we know if the SWIID’s approach works? <a href="../../../papers/solt2016/">In previous work</a>, I provided the most stringent test I could come up with:<sup>2</sup> I examined LIS data on country-years that had been included in previously-released versions of the SWIID. The results were reassuring in some ways–only seven percent of the differences between new LIS and old SWIID observations were statistically significant and larger than two Gini points, a far better record than that achieved by data carefully selected from <a href="https://www.wider.unu.edu/project/wiid-world-income-inequality-database">the UNU-WIDER database</a> or the <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets"><em>All the Ginis</em> dataset</a> adjusted in accordance with <a href="https://www.gc.cuny.edu/CUNY_GC/media/CUNY-Graduate-Center/PDF/Centers/LIS/Milanovic/Description-of-the-dataset_16.pdf">its instructions</a>–but less so in others. Most disappointingly, only 72% of the differences had 95% confidence intervals that included zero, suggesting that the SWIID’s standard errors were often too small. I’ve been working hard on the SWIID’s estimation routine to fix these issues since I conducted that test back in 2014, but the LIS doesn’t release new data frequently enough to allow for continuous testing of these revisions. So, instead, I’ve drawn on a technique developed in data science and machine learning, <em>k</em>-fold cross-validation, to assess the SWIID’s progress.</p>
+<p>To get how <em>k</em>-fold cross-validation works, it helps to first understand the simpler form of cross-validation in which the available data are first divided into two groups of observations: the <em>training</em> set and the <em>testing</em> set. The model parameters are then estimated on only the training set. Finally, these results are used to predict the values of the testing set (that is, again, observations that were not used to estimate the model’s parameters). By comparing the model’s predictions against the test set, we avoid overfitting and get a good sense of how well the model performs in predicting other, as yet unknown, data.</p>
+<p>Still, that sense may be biased by the exact observations that happened to be assigned to each set. We can reduce this bias by performing the process repeatedly: this is <em>k</em>-fold cross-validation. The available data are divided into some number <em>k</em> groups. One at a time, each of the <em>k</em> groups is treated as the testing data, with all other groups forming the training data for estimating the model. The model’s performance is then evaluated by considering how well it predicts <em>all</em> of the groups, and because every observation is included in the testing data at some point, the process allows us to check whether and for which observations the model is doing particularly poorly.</p>
+<p>To provide a first assessment of the SWIID’s ability to predict the LIS, I randomly assigned the available LIS observations into groups of three, with an added check to ensure that no group included two observations from the same country.<sup>3</sup> (Because the SWIID routine relies only on relationships observed within-country for the countries included in the LIS, the check that only a single observation from a country be assigned to the test data at a time means that the exact size of the group doesn’t really matter.)<sup>4</sup> The figure below plots the difference between the SWIID prediction generated from this <em>k</em>-fold cross-validation and the LIS data for each country-year included in the LIS. Observations for which the 95% credible interval for this difference includes zero are gray; those for which it doesn’t are highlighted in blue.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/cross-validation-for-swiid/index_files/figure-html/kfold_output-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>The results show that the SWIID does a very good job of predicting the LIS: the 95% credible interval for the difference between the two includes zero for 92% of these observations. The point estimates for these differences are generally small, with 85% less than 2 Gini points and 62% less than a single Gini point. It’s true that there are a few observations for which the estimated difference is quite large–on the far left of the plot, the SWIID routine underestimated the LIS Gini for Hungary in 1991 by 6 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 4 points, and on the extreme right the SWIID routine overestimated that for Guatemala in 2014 by 7 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 4 points–but there doesn’t really seem to me to be much pattern in which countries and years are estimated poorly.</p>
+<p>This test, though, really only assesses how well the SWIID predicts LIS-comparable inequality figures in years without LIS data in the (now fifty) countries that are <em>included in the LIS</em>. We can get a better sense of how well the SWIID does predicting countries not covered by the LIS with another cross-validation that, one country at a time, excludes <em>all</em> of the LIS observations for that country. The results of just such a test are plotted below.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/cross-validation-for-swiid/index_files/figure-html/kfold_output_by_country-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Overall, the plot looks very similar to the one above. With each country’s entire run of LIS data taking a turn being excluded, the 95% credible interval for the difference between the resulting SWIID estimate and the excluded LIS data contains zero 91% of the time. And here, too, most of the point estimates for these differences are small: 76% are less than 2 Gini points, and 51% are less than one Gini point.</p>
+<p>This analysis, though, does point to a few rough spots in need of future attention. The first appears on the far left of the plot above. There we find that the largest difference is for the sole country-year for Egypt in the LIS–for 2012–which the SWIID routine underestimates by 16(!) <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 6 Gini points. Egypt is currently the only country in the LIS with just a single country-year observation; given that excluding the one observation is equivalent to excluding all of the country’s observations, I skipped omitting it in the first cross-validation. LIS researchers <a href="https://www.wider.unu.edu/sites/default/files/Publications/Working-paper/PDF/wp2018-149.pdf">Checchi et al.&nbsp;report</a> in a footnote that Egyptian income surveys before 2012 did not include any questions to capture self-employment income, and it’s also true that most of the available Ginis for Egypt are based on the distribution of consumption expenditure, which sometimes only loosely track those for the distribution of income (see, e.g., India). These factors, however, are present in many non-LIS countries as well, so I’ll continue working to come up with ways to improve the SWIID routine for such cases.</p>
+<p>The second is that there are two other countries for which the 95% credible interval for the differences between the LIS data and the SWIID routine’s estimates for those countries when all of their LIS data are excluded does not contain zero in <em>any</em> of the country’s observations: Brazil and Peru. For Brazil, the cross-validation’s estimates of the country’s four LIS observations are all too high—by 2.5 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 2.0 Gini points to 3.7 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 2.1 Gini points. The cross-validation’s estimates for Peru’s four LIS observations, on the other hand, are all too low—by between 5.0 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 2.9 and 5.4 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 3.0 Gini points. So there is some room for improvement here too, and I’ll keep working on it also.</p>
+<p>All in all, though, these <em>k</em>-fold cross-validation exercises show that the SWIID does a very good job of predicting the LIS, which inspires confidence that the SWIID is indeed maximizing the comparability of income inequality data across countries and over time.</p>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Checchi2018" class="csl-entry">
+Checchi, Daniele, Andrej Cupak, Teresa Munzi, and Janet Gornick. 2018. <span>“Empirical Challenges Comparing Inequality Across Countries: The Case of Middle-Income Countries from the <span>LIS</span> Database.”</span> <em>WIDER Working Paper</em> 2018/149.
+</div>
+<div id="ref-Solt2016" class="csl-entry">
+Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Database.”</span> <em>Social Science Quarterly</em> 97(5): 1267–81.
+</div>
+</div></section><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Still, even for the LIS perfect comparability has given way to the desire to cover more middle-income countries. <a href="https://www.lisdatacenter.org/newsletter/nl-2018-8-h-2/">Teresa Munzi and Andrej Cupak recently wrote</a> about the difficulties the LIS team encountered including middle-income countries due to the greater importance of non-monetary and self-employment income as well as the differences in direct taxation and social security contributions in these countries in comparison to high-income countries. Despite these issues, the LIS remains the most comparable income inequality data available.↩︎</p></li>
+<li id="fn2"><p>For the initial kernel of this idea, I remain grateful to participants in the Expert Group Meeting on Reducing Inequalities in the Context of Sustainable Development, Department of Economic and Social Affairs, United Nations, New York, October 24–25, 2013.↩︎</p></li>
+<li id="fn3"><p>The goal of this exercise is really to assess how well the SWIID works within the LIS countries, so Egypt 2012, the only LIS observation for that country, is excluded from the analysis. This is because holding out that observation makes Egypt a <em>non</em>-LIS country. What happens when the SWIID is used to predict all of a country’s LIS observations at once is discussed below.↩︎</p></li>
+<li id="fn4"><p>My experiments with groups sized from just one observation each up to six observations each confirmed this. Three observations per group struck a nice balance between the time it takes to randomly generate the groups (which increases with group size because it becomes more likely for a group to be rejected for containing two observations from a single country) and the demand the work puts on <a href="https://wiki.uiowa.edu/display/hpcdocs/Argon+Cluster">UI’s high performance computing cluster</a> (which increases with the number of groups–which is also the number of times the SWIID routine is re-run). I probably don’t really need to worry about the latter, but whatever—like I said, it doesn’t actually matter.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>note</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/cross-validation-for-swiid/index.html</guid>
+  <pubDate>Wed, 16 Jan 2019 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Switch Your Workflow from Stata to R, One Bit at a Time</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/switch-to-r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>A <a href="https://twitter.com/RyanDEnos/status/1029443132084105221">recent exchange on Twitter</a> reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I had way more than the proverbial 10,000 in-seat hours in Stata, and I knew all the tricks to make it do just what I wanted. I was even Stata Corp.’s on-campus rep at my university. Still, I’d started dabbling in R. Then as now, there were specific things R could do that Stata couldn’t.<sup>1</sup> But how to get those advantages without throwing out my hard-earned skills and starting over as a complete n00b? The answer was: a little bit at a time.</p>
+<p>Fortunately, it’s not difficult to switch back and forth within a given project, so you can start bringing some R to your Stata-based workflow while leaving it mostly intact. Then, if and when you find yourself doing more in R than in Stata, you can flip and start using Stata from within R.</p>
+<p>So, <a href="https://cloud.r-project.org">install R</a> and let’s get you started.</p>
+<section id="running-r-from-stata" class="level2">
+<h2 class="anchored" data-anchor-id="running-r-from-stata">Running R from Stata</h2>
+<p>The trick to running R from within your do-file is first to save the data you want to pass to R, then call the <code>.R</code> file with the commands you want to run in R (the “R script”), then—if necessary—reload the R output into Stata.</p>
+<p>While it’s also possible to use Stata’s <code>shell</code> command to run an R script (for illustrative purposes, let’s pretend it’s called <code>my_script.R</code>), <a href="https://www.imperial.ac.uk/people/r.newson">Roger Newson</a>’s <code>rsource</code> module makes it particularly easy. Install it as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb1-1"> <span class="kw" style="color: #003B4F;">ssc</span> install rsource, <span class="kw" style="color: #003B4F;">replace</span></span></code></pre></div>
+</div>
+<p>Unfortunately, the information <code>rsource</code> needs about your R installation is a bit different depending on your OS, but once installed, adding this platform-independent code to your do-file will run the script:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb2-1"><span class="kw" style="color: #003B4F;">if</span> <span class="st" style="color: #20794D;">"`c(os)'"</span>==<span class="st" style="color: #20794D;">"MacOSX"</span> | <span class="st" style="color: #20794D;">"`c(os)'"</span>==<span class="st" style="color: #20794D;">"UNIX"</span> {</span>
+<span id="cb2-2">    rsource <span class="kw" style="color: #003B4F;">using</span> my_script.R, rpath(<span class="st" style="color: #20794D;">"/usr/local/bin/R"</span>) roptions(<span class="st" style="color: #20794D;">`"</span>--vanilla<span class="st" style="color: #20794D;">"')</span></span>
+<span id="cb2-3"><span class="st" style="color: #20794D;">}</span></span>
+<span id="cb2-4"><span class="st" style="color: #20794D;">else {  // windows</span></span>
+<span id="cb2-5"><span class="st" style="color: #20794D;">    rsource using my_script.R, rpath(`"</span>c:\<span class="fu" style="color: #4758AB;">r</span>\R-3.5.1\<span class="bn" style="color: #AD0000;">bin</span>\Rterm.exe<span class="st" style="color: #20794D;">"') roptions(`"</span>--vanilla<span class="st" style="color: #20794D;">"')  // change version number, if necessary</span></span>
+<span id="cb2-6"><span class="st" style="color: #20794D;">}</span></span></code></pre></div>
+</div>
+<p>Of course, you could choose to skip the whole if-else and just include the line that runs on <em>your</em> machine, but that’s not doing any favors to your collaborators or anyone else trying to reproduce your results. You might also just prefer to specify the <code>rpath</code> and <code>roptions</code> in your profile do-file,<sup>2</sup> but again, then you’ll need to let others know to do the same or they won’t be able to run your do-file.</p>
+<p>Note, too, that if you don’t have much R code to run, it might be easiest to just keep it in your do-file rather than using a separate script. You can do this using the <code>terminator</code> option to <code>rsource</code>, though a downside to this approach is that it doesn’t allow you to if-else the <code>rsource</code> command by your OS. In the do-file below, I also use the <code>regsave</code> module to save my results to pass them to R; install it using <code>ssc install regsave, replace</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb3-1"><span class="kw" style="color: #003B4F;">clear</span></span>
+<span id="cb3-2"><span class="kw" style="color: #003B4F;">set</span> <span class="kw" style="color: #003B4F;">more</span> <span class="kw" style="color: #003B4F;">off</span></span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="kw" style="color: #003B4F;">sysuse</span> auto, <span class="kw" style="color: #003B4F;">clear</span></span>
+<span id="cb3-5"><span class="kw" style="color: #003B4F;">gen</span> wt = <span class="kw" style="color: #003B4F;">weight</span>/1000</span>
+<span id="cb3-6"><span class="kw" style="color: #003B4F;">regress</span> mpg wt displacement foreign trunk headroom <span class="fu" style="color: #4758AB;">length</span></span>
+<span id="cb3-7">regsave <span class="kw" style="color: #003B4F;">using</span> <span class="st" style="color: #20794D;">"~/Desktop/R_Stata/auto_results.dta"</span>, <span class="kw" style="color: #003B4F;">replace</span></span>
+<span id="cb3-8"></span>
+<span id="cb3-9">rsource, terminator(END_OF_R) rpath(<span class="st" style="color: #20794D;">"/usr/local/bin/R"</span>) roptions(<span class="st" style="color: #20794D;">`"</span>--vanilla<span class="st" style="color: #20794D;">"')</span></span>
+<span id="cb3-10"><span class="st" style="color: #20794D;">// rsource using my_script.R, rpath(`"</span>c:\<span class="fu" style="color: #4758AB;">r</span>\R-3.5.1\<span class="bn" style="color: #AD0000;">bin</span>\Rterm.exe<span class="st" style="color: #20794D;">"') roptions(`"</span>--vanilla<span class="st" style="color: #20794D;">"')  // use this line instead if you run a windows box</span></span>
+<span id="cb3-11"></span>
+<span id="cb3-12"><span class="st" style="color: #20794D;">library(tidyverse);     # collection of all-around useful R packages</span></span>
+<span id="cb3-13"><span class="st" style="color: #20794D;">library(haven);         # for importing Stata datasets</span></span>
+<span id="cb3-14"><span class="st" style="color: #20794D;">library(dotwhisker);    # easy and beautiful regression plots, imho</span></span>
+<span id="cb3-15"></span>
+<span id="cb3-16"><span class="st" style="color: #20794D;">auto_results &lt;- read_dta("</span>~/Desktop/R_Stata/auto_results.dta<span class="st" style="color: #20794D;">") %&gt;% </span></span>
+<span id="cb3-17"><span class="st" style="color: #20794D;">    rename(term = var,</span></span>
+<span id="cb3-18"><span class="st" style="color: #20794D;">    estimate = coef,</span></span>
+<span id="cb3-19"><span class="st" style="color: #20794D;">    std.error = stderr) %&gt;% </span></span>
+<span id="cb3-20"><span class="st" style="color: #20794D;">    filter(term != "</span>_cons<span class="st" style="color: #20794D;">");</span></span>
+<span id="cb3-21"><span class="st" style="color: #20794D;">dwplot(auto_results);</span></span>
+<span id="cb3-22"><span class="st" style="color: #20794D;">ggsave("</span>~/Desktop/R_Stata/auto_results.png<span class="st" style="color: #20794D;">", width = 5, height = 4);</span></span>
+<span id="cb3-23"></span>
+<span id="cb3-24"><span class="st" style="color: #20794D;">END_OF_R</span></span></code></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/switch-to-r/images/auto_results.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="running-stata-from-r" class="level2">
+<h2 class="anchored" data-anchor-id="running-stata-from-r">Running Stata from R</h2>
+<p>So maybe you’ve gotten to the point where you spend more of your time in R than in Stata, but there’s still a few parts of your work that you just want (or need!) to keep in Stata. Running a do-file (<code>my_do_file.do</code>) from inside your R script is easy with <a href="https://github.com/lbraglia">Luca Braglia</a>’s <code>RStata</code> package:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="cf" style="color: #003B4F;">if</span> (<span class="sc" style="color: #5E5E5E;">!</span><span class="fu" style="color: #4758AB;">require</span>(RStata)) <span class="fu" style="color: #4758AB;">install.packages</span>(<span class="st" style="color: #20794D;">"RStata"</span>); <span class="fu" style="color: #4758AB;">library</span>(RStata) <span class="co" style="color: #5E5E5E;"># this will install RStata if not already installed</span></span>
+<span id="cb4-2"></span>
+<span id="cb4-3"><span class="fu" style="color: #4758AB;">stata</span>(<span class="st" style="color: #20794D;">"my_do_file.do"</span>, </span>
+<span id="cb4-4">      <span class="at" style="color: #657422;">stata.path =</span> <span class="st" style="color: #20794D;">"/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp"</span>, <span class="co" style="color: #5E5E5E;"># yours probably differs: use the chooseStataBin() command on windows or linux machines; on Macs, right click on the Stata app, select "Show Package Contents", then see what's in the Contents/MacOS/ directory</span></span>
+<span id="cb4-5">      <span class="at" style="color: #657422;">stata.version =</span> <span class="dv" style="color: #AD0000;">13</span>)  <span class="co" style="color: #5E5E5E;"># again, specify what _you_ have</span></span></code></pre></div>
+</div>
+<p>On this side as well, it’s possible to set the arguments just once, in your <code>.Rprofile</code> file. In my case, these two lines do the trick:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">    <span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"RStata.StataPath"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp"</span>)</span>
+<span id="cb5-2">    <span class="fu" style="color: #4758AB;">options</span>(<span class="st" style="color: #20794D;">"RStata.StataVersion"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">13</span>)</span></code></pre></div>
+</div>
+<p>Since Stata isn’t free and open-source, it’s even more likely that others will have different setups anyway, so this may make the most sense. Be sure to comment your code to clue people in, though.</p>
+<p>If you just want to use a single Stata command <code>RStata::stata</code><sup>3</sup> will do that for you, too, with no need for a do-file. From the <a href="https://www.rdocumentation.org/packages/RStata/versions/1.1.1">RStata package documentation</a>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;">library</span>(<span class="st" style="color: #20794D;">"RStata"</span>)</span>
+<span id="cb6-2"><span class="co" style="color: #5E5E5E;"># remember to set RStata.StataPath &amp; RStata.StataVersion in your .Rprofile first!  See https://www.rdocumentation.org/packages/RStata/</span></span>
+<span id="cb6-3"></span>
+<span id="cb6-4"><span class="do" style="color: #5E5E5E;
+font-style: italic;">## Data input to Stata</span></span>
+<span id="cb6-5">x <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">data.frame</span>(<span class="at" style="color: #657422;">a =</span> <span class="fu" style="color: #4758AB;">rnorm</span>(<span class="dv" style="color: #AD0000;">3</span>), <span class="at" style="color: #657422;">b =</span> letters[<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>])</span>
+<span id="cb6-6"><span class="fu" style="color: #4758AB;">stata</span>(<span class="st" style="color: #20794D;">"sum a"</span>, <span class="at" style="color: #657422;">data.in =</span> x)                         </span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. sum a
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+           a |          3   -.1888825    .8789378  -1.164719   .5405706</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="do" style="color: #5E5E5E;
+font-style: italic;">## Data output from Stata (e.g., obtain 'auto' dataset)</span></span>
+<span id="cb8-2">auto <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">stata</span>(<span class="st" style="color: #20794D;">"sysuse auto"</span>, <span class="at" style="color: #657422;">data.out =</span> <span class="cn" style="color: #8f5902;">TRUE</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. sysuse auto
+(1978 Automobile Data)</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><span class="fu" style="color: #4758AB;">head</span>(auto)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           make price mpg rep78 headroom trunk weight length turn displacement
+1   AMC Concord  4099  22     3      2.5    11   2930    186   40          121
+2     AMC Pacer  4749  17     3      3.0    11   3350    173   40          258
+3    AMC Spirit  3799  22    NA      3.0    12   2640    168   35          121
+4 Buick Century  4816  20     3      4.5    16   3250    196   40          196
+5 Buick Electra  7827  15     4      4.0    20   4080    222   43          350
+6 Buick LeSabre  5788  18     3      4.0    21   3670    218   43          231
+  gear_ratio  foreign
+1       3.58 Domestic
+2       2.53 Domestic
+3       3.08 Domestic
+4       2.93 Domestic
+5       2.41 Domestic
+6       2.73 Domestic</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><span class="do" style="color: #5E5E5E;
+font-style: italic;">## Data input/output</span></span>
+<span id="cb12-2">(y <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">stata</span>(<span class="st" style="color: #20794D;">"replace a = 2"</span>, <span class="at" style="color: #657422;">data.in =</span> x, <span class="at" style="color: #657422;">data.out =</span> <span class="cn" style="color: #8f5902;">TRUE</span>))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. replace a = 2
+(3 real changes made)</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  a b
+1 2 a
+2 2 b
+3 2 c</code></pre>
+</div>
+</div>
+<p>And you can embed several Stata commands in your R code as well:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1">data <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">data.frame</span>(<span class="at" style="color: #657422;">y =</span> <span class="fu" style="color: #4758AB;">rnorm</span>(<span class="dv" style="color: #AD0000;">100</span>), <span class="at" style="color: #657422;">x1 =</span> <span class="fu" style="color: #4758AB;">rnorm</span>(<span class="dv" style="color: #AD0000;">100</span>), <span class="at" style="color: #657422;">x2 =</span> <span class="fu" style="color: #4758AB;">rnorm</span>(<span class="dv" style="color: #AD0000;">100</span>))</span>
+<span id="cb15-2"><span class="fu" style="color: #4758AB;">stata</span>(<span class="st" style="color: #20794D;">"</span></span>
+<span id="cb15-3"><span class="st" style="color: #20794D;">    sum y x1 x2</span></span>
+<span id="cb15-4"><span class="st" style="color: #20794D;">    reg y x1 x2</span></span>
+<span id="cb15-5"><span class="st" style="color: #20794D;">    "</span>, <span class="at" style="color: #657422;">data.in =</span> data)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>. 
+.     sum y x1 x2
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+           y |        100    .0236265     1.03123  -3.268936    2.58725
+          x1 |        100   -.1016676    1.002768  -2.997756   2.139994
+          x2 |        100    .0404716     .934101  -4.258553   2.231875
+.     reg y x1 x2
+
+      Source |       SS           df       MS      Number of obs   =       100
+-------------+----------------------------------   F(2, 97)        =      2.01
+       Model |  4.19911148         2  2.09955574   Prob &gt; F        =    0.1389
+    Residual |  101.080895        97  1.04207108   R-squared       =    0.0399
+-------------+----------------------------------   Adj R-squared   =    0.0201
+       Total |  105.280006        99   1.0634344   Root MSE        =    1.0208
+
+------------------------------------------------------------------------------
+           y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          x1 |  -.1795877   .1023142    -1.76   0.082    -.3826531    .0234778
+          x2 |  -.1060174   .1098355    -0.97   0.337    -.3240104    .1119756
+       _cons |   .0096589    .102709     0.09   0.925      -.19419    .2135078
+------------------------------------------------------------------------------
+.     </code></pre>
+</div>
+</div>
+</section>
+<section id="summing-up" class="level2">
+<h2 class="anchored" data-anchor-id="summing-up">Summing Up</h2>
+<p>Moving parts of your work from Stata to R is totally feasible. Lots of people (for example, in the thread that touched this post off, <a href="https://twitter.com/SteveRogersinfo/status/1029444547930148866">Steve Rodgers</a>) really want to take advantage of the superior graphics capabilities of R, especially the <code>ggplot</code> ecosystem, even while sticking to Stata for most of their work. Once your feet are wet, you may then decide R’s many other benefits (the free part, the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it’s in Stata, the way <a href="https://www.rstudio.com">RStudio</a> makes it dead easy to do reproducible research through <a href="https://rmarkdown.rstudio.com">dynamic documents</a> and <a href="http://happygitwithr.com">version control</a>, and, once again, the free part) make switching over all the way to be worth the additional marginal effort. Or you may not.</p>
+<p>I completed the transition in three or four years, at my own pace: when I felt comfortable moving another chunk of my workflow over to R, I did, but not before. If I were doing it over right now, with <a href="https://www.tidyverse.org">the tidyverse packages</a> dramatically reducing the slope of the learning curve, I might move faster, but there’s no rush, really. Do what works for you.</p>
+</section>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes">Additional Notes</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20171026174224/http://johnricco.github.io/2016/06/14/stata-dplyr/">This post by John Ricco</a> describing how to translate Stata data cleaning commands to the <code>dplyr</code> idiom will likely be helpful to those new to tidyverse-style R and wanting to move quickly.</li>
+<li><a href="http://www.matthieugomez.com/statar/">Matthieu Gomez’s R for Stata Users</a> is a more detailed phrasebook that will also be useful to new switchers (H/T <a href="https://twitter.com/arthurhcyip">Arthur Yip</a>).<sup>4</sup></li>
+<li>I also ran across the <a href="http://www.haghish.com/resources/pdf/Haghish_Rcall.pdf">Rcall package</a> while writing this up, but I haven’t tried it. You may find it useful.</li>
+<li>OTOH, <a href="https://dss.princeton.edu/training/RStata.pdf">these 2010 slides by Oscar Torres-Reyna</a> were definitely useful to me back in the day, but as they pre-date both the tidyverse and RStudio—the wonders of which really cannot be overstated—they’re now more likely to cause you unnecessary confusion than help you if you’re a new switcher. Better to steer clear.</li>
+<li>Great complete treatments on how to do stuff in R:
+<ul>
+<li><a href="https://moderndive.com">Modern Dive</a>, by Chester Ismay and Albert Y. Kim</li>
+<li><a href="http://r4ds.had.co.nz">R for Data Science</a>, by Hadley Wickham and Garrett Grolemund</li>
+<li>A bit older, but I still love Winston Chang’s <a href="http://www.cookbook-r.com">Cookbook for R</a> as a reference, especially the <a href="http://www.cookbook-r.com/Graphs/">Graphs chapter</a></li>
+</ul></li>
+<li><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio’s Cheat Sheets</a> are also great references.</li>
+<li>When you’re ready to take the step to using R more than Stata, you’ll want to get fully set up on <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a>, which provides a front end for running R and can integrate with git and GitHub for version control (you will want this). The best resource that I’ve found for this process is <a href="http://happygitwithr.com">Jenny Bryan’s Happy Git and GitHub for the UseR</a>.</li>
+<li>The R community on <a href="https://stackoverflow.com">StackOverflow</a> is full of helpful people. As your Google-fu develops, you’ll find that links to StackOverflow are most likely to get you where you need to go.</li>
+<li>There are <em>so many</em> fantastic <a href="https://twitter.com/search?q=%23rstats">#rstats</a> (dozens? hundreds?) follows on Twitter. With apologies to the—seriously—hundreds of others who’ve taught me tons of stuff over the years, I’m going to grit my teeth and rec just five to get you started: <a href="https://twitter.com/dataandme">Mara Averick</a>, <a href="https://twitter.com/JennyBryan">Jenny Bryan</a>, <a href="https://twitter.com/drob">David Robinson</a>, <a href="https://twitter.com/juliasilge">Julia Silge</a>, and <a href="https://twitter.com/hadleywickham">Hadley Wickham</a>.</li>
+</ul>
+</section>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Bryan2018" class="csl-entry">
+Bryan, Jenny. 2018. <span>“Happy Git and GitHub for the useR.”</span> <a href="http://happygitwithr.com/">http://happygitwithr.com/</a>.
+</div>
+<div id="ref-Chang2015" class="csl-entry">
+Chang, Winston. <span>“Cookbook for r.”</span> <a href="http://www.cookbook-r.com">http://www.cookbook-r.com</a>.
+</div>
+<div id="ref-Ismay2018" class="csl-entry">
+Ismay, Chester, and Albert Y. Kim. 2018. <span>“Modern Dive: An Introduction to Statistical and Data Sciences via r.”</span> <a href="https://moderndive.com/">https://moderndive.com/</a>.
+</div>
+<div id="ref-Kastellec2007" class="csl-entry">
+Kastellec, Jonathan P., and Eduardo L. Leoni. 2007. <span>“<a href="https://doi.org/10.1017/S1537592707072209">Using Graphs Instead of Tables in Political Science</a>.”</span> <em>Perspectives on Politics</em> 5(4): 755–71.
+</div>
+<div id="ref-Wickham2017" class="csl-entry">
+Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’Reilly. <a href="http://r4ds.had.co.nz">http://r4ds.had.co.nz</a>.
+</div>
+</div></section><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Then, for me, it was multiple imputation, parallel computation, <a href="https://www.princeton.edu/~jkastell/tables2graphs.html">and the dot-and-whisker plots of regression coefficients introduced to political science by Kastellec and Lioni (2007)</a>. On this last one, see also <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/kl2007_examples.html">the dotwhisker package</a>. Now my list is different, but even longer. That’s not what I want to get into in this post, though. This post is how, not why.↩︎</p></li>
+<li id="fn2"><p>See the technical note to <a href="http://fmwww.bc.edu/RePEc/bocode/r/rsource.html">the help file for rsource</a> for details.↩︎</p></li>
+<li id="fn3"><p>In the argot (heh), this means the <code>stata</code> command in the <code>RStata</code> package.↩︎</p></li>
+<li id="fn4"><p>Arthur also recommends vikjam’s <a href="https://github.com/vikjam/mostly-harmless-replication">Mostly Harmless Replication</a>, which replicates most of the figures and tables of <a href="http://www.mostlyharmlesseconometrics.com/">Mostly Harmless Econometrics</a> in both Stata and R (and many in Python and Julia as well). Though not intended as a guide for switchers, the site will be helpful to fans of the book looking for ways to implement its advice in R.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>note</category>
+  <category>r</category>
+  <guid>https://fsolt.org/blog/posts/switch-to-r/index.html</guid>
+  <pubDate>Wed, 15 Aug 2018 05:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//blog/posts/switch-to-r/images/auto_results.png" medium="image" type="image/png" height="115" width="144"/>
+</item>
+<item>
+  <title>SWIID Version 7.1 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Version 7.1 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! In addition to important behind-the-scenes improvements to the estimation routine, this new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 627 new Ginis since version 6.2, including <a href="http://www.lisdatacenter.org/news-and-events/2018-summer-data-release/">newly available LIS data on Chile, Germany, Hungary, Poland, and Israel</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 80 more country-years than version 6.2.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index_files/figure-html/swiid_v71-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index.html</guid>
+  <pubDate>Tue, 14 Aug 2018 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Version 6.2 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Version 6.2 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! Building on the end-to-end revision accomplished in Version 6.0 last July and the update Version 6.1 last October, this new release:</p>
+<ul>
+<li><p>incorporates in <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 560 new Ginis, including <a href="http://www.lisdatacenter.org/news-and-events/2018-spring-data-release/">newly available LIS data on China, Germany, Paraguay, Taiwan, the United States</a>, <a href="http://www.lisdatacenter.org/news-and-events/winter-data-releases/">and Uruguay</a>;</p></li>
+<li><p>includes estimates of market and disposable income inequality for 27 new country-years;</p></li>
+<li><p>calculates estimates of absolute and relative redistribution for one additional country, Latvia, for a total of sixty-seven—all of the countries for which there is source data available <a href="../../../blog/2015/10/05/redistribution-observations/">on both the distribution of market income and the distribution of disposable income or consumption</a>.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index.html</guid>
+  <pubDate>Mon, 26 Mar 2018 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Version 6.1 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Version 6.1 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! Building on the end-to-end revision accomplished in Version 6.0 last July, this new release:</p>
+<ul>
+<li><p>incorporates in <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 280 new Ginis, including <a href="http://www.lisdatacenter.org/news-and-events/fall-data-release/">newly available LIS data on Canada and Lithuania</a>;</p></li>
+<li><p>includes estimates of disposable income inequality for 83 new country-years;</p></li>
+<li><p>expands estimates of market income inequality to <em>all</em> country-years (version 6.0 only estimated market income inequality for countries included in the LIS, about a third of the total country-years);</p></li>
+<li><p>calculates estimates of absolute and relative redistribution for twenty additional countries, for a total of sixty-six—all of the countries for which there is source data available <a href="../../../blog/2015/10/05/redistribution-observations/">on both the distribution of market income and the distribution of disposable income or consumption</a>.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index.html</guid>
+  <pubDate>Fri, 27 Oct 2017 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The SWIID Source Data</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/the-swiid-source-data/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><em>Saturday, 9 February 2019: Updated with information on the source data for SWIID Version 8.0</em></p>
+<p>I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the Gini index of income inequality<sup>1</sup> for as many countries and years as possible and—given the primary goal of maximizing spatial and temporal coverage—these estimates are as comparable as the available data allow. The dataset has been used widely by academics, journalists, and policymakers. It’s been successful way beyond all my hopes.<sup>2</sup> I’ve been <a href="../../../swiid/swiid_downloads/">adding to it, revising it, improving on it</a> pretty much the entire time since its launch. Now, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746">with the support of the NSF</a>, I am scrapping all of that work and starting fresh. From scratch.</p>
+<p>This is the first in a series of posts on how I did it. It focuses on an unheralded but foundational part of the SWIID project, the source data. The basic idea behind the SWIID is to start with the data that has been most carefully picked over to ensure its utmost cross-national comparability: the data of the fantastic <a href="http://www.lisdatacenter.org">Luxembourg Income Study</a>. I’ve heard that generating a single country-year of LIS data takes an average of ten person-months of work. <em>That’s</em> dedication to comparability. ❤️ But the flipside of maximizing comparability is that the LIS’s coverage is pretty sparse: at last count, it includes just 351 country-years.<sup>3</sup> To address this weakness, the SWIID routine estimates the relationships between Gini indices based on the LIS and all of the other Ginis available for the same country-years, then uses these relationships to estimate what the LIS Gini <em>would be</em> in country-years not included in the LIS but available from other sources.<sup>4</sup> The critical first step to making this work is getting <em>a lot</em> of other, non-LIS Ginis. I call these other Ginis the SWIID’s source data. Over the years, I and my research assistants built up a big spreadsheet of data collected from international organizations, national statistical offices, and scholarly books and articles. But it seemed like whenever I checked over these source data, I would find that at least a few figures had been recently revised, or their source was seemingly no longer available, or (worst of all) they evidently had been entered incorrectly. So again: it’s time to start over from scratch.</p>
+<p>To be included in the SWIID’s source data, observations need to encompass the entire population of a country without regard to age, location,<sup>5</sup> or employment status.<sup>6</sup> They need to have an identifiable welfare definition and equivalence scale (more on these below). Finally, because I want to be able to direct users to sources they can easily peruse themselves, observations need to be available online.<sup>7</sup></p>
+<p>Hand-entering data is tedious and error-prone work, so I <a href="https://github.com/fsolt/swiid/blob/master/R/data_setup.R">automated as much of the process of data collection</a> as practicable. Most international organizations and a few national statistical offices use APIs that facilitate downloading their data, and often the <a href="https://twitter.com/search?q=%23rstats">#rstats</a> community has built R packages using these APIs to make the task even easier. I took as much advantage of these resources as possible.<sup>8</sup> In the absence of an API, I scripted downloads of any available spreadsheets, preferring clean csv files to excel-formatted ones. If there was no spreadsheet, but data were available in pdf files, I automated downloading these files and then used <a href="http://thomasleeper.com">Thomas Leeper</a>’s <a href="https://github.com/ropensci/tabulizer"><code>tabulizer</code> package</a> to read the tables into R. In the absence of a file to download, I scripted the process of scraping the data from the web. Still, for a variety of reasons, a source’s data may have been consigned to being entered in a <a href="https://github.com/fsolt/swiid/raw/master/data-raw/fs_added_data.csv">separate spreadsheet</a>. Many sources contain just a handful or fewer observations, making the payoff to the often laborious process of data cleaning too small to justify the effort. Some sources–including most academic articles–are behind paywalls, making reproducibility a hassle anyway (though I still often used tabulizer to read the data from the pdf before cutting-and-pasting it into the spreadsheet). Finally, at least <a href="https://wdronline.worldbank.org/bitstream/handle/10986/9269/wps4007.pdf?sequence=1">one source</a> contains crucial information encoded in the typeface(!!) of its tables, information lost when the tables are scanned into R. All of the entries in this spreadsheet were checked repeatedly for errors,<sup>9</sup> and I excluded repeated reports of the exact same observation from different sources. In the end, I was able to automate the collection of more than three quarters of the source data and a much higher percentage of the series that will be updated or are subject to revision, facilitating incorporating these changes in future versions.</p>
+<p>The resulting dataset comprises 15549(!) Gini coefficients from 2951 country-years in 196 countries or territories, making the coverage of the SWIID source data broader than that of any other income inequality dataset. This isn’t surprising given that, with the exceptions of the <a href="https://www.wider.unu.edu/database/world-income-inequality-database-wiid4">WIID</a> (which, since it provides no original data, isn’t drawn on at all anymore) and the <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets">All the Ginis</a> database (which provides little original data, and so isn’t drawn on much), the SWIID source data incorporates all of the data in these other datasets.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/data_by_coverage-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>So, let’s check out what the source data look like. There is much more data available about the income distribution in some countries than in others. Which countries are most data-rich? The plot below shows the top dozen countries by the count of observations. Canada, by virtue of the excellent <a href="http://www.statcan.gc.ca">Statistics Canada</a> as well as longstanding membership in the OECD and LIS, has 736 observations, many more than any other country. The United Kingdom, Germany, and the United States are next, followed by an interesting mix of countries from around the world with not surprisingly a sizable European representation. All are members of the LIS. On the other hand, eleven countries have only a single observation.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_country-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>As we’ll see in later posts in this series, observations for the same country in the same year, but with different welfare definitions and equivalence scales or from different sources, are important to generating the SWIID’s cross-nationally comparable estimates. Still, we might be interested to know which countries have the most coverage of the years in the SWIID’s current 57-year timeframe, from 1960 to 2017, because the SWIID’s inequality estimates for countries with fewer country-year observations will include more interpolated values, which in turn will have more uncertainty.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/years_by_country-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>The source data includes observations for Sweden and the United Kingdom in all but one of these years and for the United States in all but five. Iran and Argentina—two countries not included in the LIS—make the top 12, with 43 and 42 country-year observations respectively. The median country has observations in 16 different country-years.</p>
+<p>We can also get a sense of the available inequality data by turning the question around and asking about coverage across countries over time. There are observations for 123 countries in 2005. Coverage is relatively good in the years from 2000 to 2015, at least 80 countries per year, before dropping to 75 countries for 2016 and just 25 for 2017. Country coverage is pretty thin each year through the 1960s and 1970s and still isn’t all that great until the late 1980s.<sup>10</sup></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/countries_by_year-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Earlier I mentioned that to be included in the SWIID source data observations need to have an identifiable welfare definition and equivalence scale. A welfare definition is an answer to the question, this Gini measures the distribution of what? The four welfare definitions employed in the SWIID source data are market income, gross income, disposable income, and consumption. Market income is defined as the amount of money coming into the household, excluding any government cash or near-cash benefits, the so-called ‘pre-tax, pre-transfer income.’<sup>11</sup> Gross income is the sum of market income and government transfer payments; it is ‘pre-tax, post-transfer income.’ Disposable income, in turn, is gross income minus direct taxes: ‘post-tax, post-transfer income.’<sup>12</sup> Consumption does not refer to the money coming into the household at all but rather to the money going out.<sup>13</sup> In the source data, Ginis of disposable income are much more common than those using other welfare definitions.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_wd-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Equivalence scales are the ways in which the size and composition of a household is incorporated into the calculation of its members’ welfare. On the one hand, these factors can simply be ignored, with all households with the same amount of income or consumption treated as if they enjoy the same level of welfare, regardless of their size. One can improve on this household ‘scale’<sup>14</sup> by dividing the household’s income by its number of members, that is, by using a per capita scale. But a household of two members and an income of $100,000 is better off than one with a single member and $50,000 due to economies of scale—that’s a big reason why people look for roommates. There are a variety of ways to try to account for these economies by calculating the number of “equivalent adults” in the household. Of the most commonly used adult-equivalent scales, the square-root scale is the most straightforward: one simply divides the household income by the square root of the number of members. The “OECD-modified” scale for the number of adult equivalents (<a href="http://www.oecd.org/eco/growth/OECD-Note-EquivalenceScales.pdf">which the OECD itself actually never used</a>) counts the first adult as 1, all other adults as .5, and each child as .3. And there are plenty of other adult-equivalent scales, from the “old OECD” scale (1 for the first adult, 0.7 for each additional adult, and 0.5 for each child) to caloric-requirement-based scales (which are actually very nearly per capita, as it turns out) to a number of country-specific scales. In previous versions of the SWIID, all adult-equivalent scales were considered a single category. Now, the square-root scale and the OECD-modified scale have both been split out, leaving the remaining catch-all adult-equivalent category much smaller.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_es-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Differences in the welfare definition and the equivalence scale employed constitute the biggest source of incomparability across observations in the source data, and all twenty of the possible combinations are represented. I’ll take up how we get from these incomparable observations to the SWIID estimates in the next post. In the meantime, if you’d like to see the source data, you can <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">download it from here</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_wdes-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<section id="references" class="level1">
+<h1>References</h1>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Jesuit2010" class="csl-entry">
+Jesuit, David K., and Vincent A. Mahler. 2010. <span>“Comparing Government Redistribution Across Countries: The Problem of Second-Order Effects.”</span> <em>Social Science Quarterly</em> 91(5): 1390–1404.
+</div>
+<div id="ref-Morgan2013" class="csl-entry">
+Morgan, Jana, and Nathan J. Kelly. 2013. <span>“Market Inequality and Redistribution in Latin America and the Caribbean.”</span> <em>Journal of Politics</em> 75(3): 672–85.
+</div>
+<div id="ref-Solt2016" class="csl-entry">
+Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Database.”</span> <em>Social Science Quarterly</em> 97(5): 1267–81.
+</div>
+</div></section><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I think the clearest explanation of the Gini index is that it is half the average difference in income between all pairs of units—say, households—as a percentage of the mean income of those units. Okay, I said “clearest,” not necessarily “clear.” Anyway, it has a theoretical range of 0 (all households have the same income) to 100 (one household has all the income and the rest have none), but Ginis below 20 or above 60 are rare in the real world. There are good reasons to prefer other measures of inequality, and there are many options, but the Gini is by far the most widely available.↩︎</p></li>
+<li id="fn2"><p>At the time, those hopes were admittedly concerned mostly with getting <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a> off my back so I could publish a <a href="../../../papers/solt2011">series</a> <a href="../../../papers/solthabelgrant2011">of</a> <a href="../../../papers/solt2012">manuscripts</a> I had on how the context of inequality is related to people’s political attitudes.↩︎</p></li>
+<li id="fn3"><p>Which is what #Reviewer2 always complained about. R2: Shouldn’t you include <a href="https://en.wikipedia.org/wiki/Ruritania#In_academia">Ruritania and Megalomania</a> in your sample, given the broad applicability of your theory? Me: Yes, sure, but like I wrote in the paper, there’s no LIS data for those countries, and the other available data just isn’t comparable. R2: Well then, I recommend rejection. Me: Grr.↩︎</p></li>
+<li id="fn4"><p>If you’re thinking, “hey, multiple imputation for missing data,” cool, that’s what I was thinking too. If you’re thinking of <a href="https://projects.fivethirtyeight.com/congress-generic-ballot-polls/">poll aggregators and house effects</a>, yep, it’s very similar. If you’re thinking of inequality as a latent variable, with a number of indicators of varying discrimination, that also works. If you’re thinking you need to look at some cat gifs right about meow, <a href="https://giphy.com/search/cat">click here</a>.↩︎</p></li>
+<li id="fn5"><p>The requirement for complete territorial coverage was relaxed for minor deviations such as data on Portugal that excludes Madeira and the Azores. It was relaxed somewhat further for early series that covered only the urban population of three highly urbanized countries: Uruguay, Argentina, and South Korea. The general rule, however, is that data is excluded if it measures the income distribution of only urban or rural populations, or of only selected cities, or some other such incomplete territory.↩︎</p></li>
+<li id="fn6"><p>This last requirement is new; it means nearly 600 observations on the distribution of wages across employed individuals that were included in the source data of previous versions of the SWIID are now excluded. Between the lack of information on those out of the workforce and on how workers formed households, these data weren’t very strongly related to the LIS anyway.↩︎</p></li>
+<li id="fn7"><p>For scholarly articles, I preferred DOIs or JSTOR stable URLs, but if those were unavailable I used the publisher website or another repository. For books, I provide the link to the relevant page in Google Books. There were <a href="https://books.google.com/books?id=zaL4CGdjOkUC">two</a> <a href="https://books.google.com/books?id=_aapAgAAQBAJ">books</a> that I decided I had to include for which Google Books wouldn’t show the relevant pages (at least not to me); in those two cases, the links I provide just go to the entire volume. I confirmed that the cited pages can be found using Amazon’s “Look Inside” feature, so I consider my “must be available online” rule only badly bent rather than completely broken.↩︎</p></li>
+<li id="fn8"><p>Although the sources with APIs were relatively few, they contained the most data: nearly half of the observations were collected this way.↩︎</p></li>
+<li id="fn9"><p>Which, of course, is not to say that they are error-free. If you spot any problems, or better still, know of sources I might have missed, <em>please</em> <a href="https://github.com/fsolt/swiid/issues/6">let me know</a>!↩︎</p></li>
+<li id="fn10"><p>This is partly a result of my decision to insist on sources that are available online, but it’s just as well: so little information is available about many of the so-excluded observations on that era that I find it hard to have much confidence in them.↩︎</p></li>
+<li id="fn11"><p>It’s important, though, to not think of the distribution of market income as ‘pre-government.’ Beyond taxes and transfers, governments seeking to shape the distribution of income have a wide array of ‘market-conditioning’ or ‘predistribution’ policy options, with minimum wage regulation and labor policy two obvious examples <span class="citation" data-cites="Morgan2013">(see, e.g., Morgan and Kelly 2013)</span>. Further, even taxes and transfers can profoundly shape the distribution of <em>market</em> income through ‘second-order effects.’ Where robust public pension programs exist, for example, people save less for retirement, leaving many of the elderly without market income in old age and so raising the level of market-income inequality <span class="citation" data-cites="Jesuit2010">(see, e.g., Jesuit and Mahler 2010)</span>.↩︎</p></li>
+<li id="fn12"><p>Note that disposable income still does not take into account, on the one hand, indirect taxes like sales taxes and VAT, or, on the other, public services and indirect government transfers such as price subsidies. There is very little information available about the distribution of such ‘final income,’ pretty much only that generated by the <a href="http://www.commitmentoequity.org">Commitment to Equity Institute</a>, so I exclude it from the SWIID source data at least for the time being.↩︎</p></li>
+<li id="fn13"><p>In previous versions of the SWIID, market and gross income were treated as a single welfare definition, and I am glad to finally be able to split them apart <span class="citation" data-cites="Solt2016">(c.f., Solt 2016, 1272)</span>. The consumption welfare definition <em>might</em> now be the most heterogeneous within the SWIID source data, varying considerably in whether and how observations treat expenditures on durable goods. Another source of differences within a single welfare definition is the extent to which nonmonetary income—such as the value of food grown for the household’s own consumption or of housing that the owner occupies—is included. The SWIID source data include the variable <code>monetary</code> that indicates whether any nonmonetary income is taken into account, but at present this information is not incorporated into the classification of welfare definitions.↩︎</p></li>
+<li id="fn14"><p>Scare quotes because, strictly speaking, nothing is being scaled at all; it’s simply treating the household as the unit of analysis.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>note</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/the-swiid-source-data/index.html</guid>
+  <pubDate>Fri, 28 Jul 2017 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Version 6.0 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Version 6.0 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting <a href="https://github.com/fsolt/swiid/">now done using #rstats and Stan</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>r</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index.html</guid>
+  <pubDate>Thu, 27 Jul 2017 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Notes for Those New to Writing Peer Reviews</title>
+  <link>https://fsolt.org/blog/posts/reviewing-workshop/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Today we had a workshop for our graduate students on writing peer reviews. Here are the notes I spoke from:</p>
+<p>I get asked to do a lot of reviews. At the beginning of this semester, I got seven requests within two or three weeks. I used to always say yes, but doing 35 or 40 reviews a year just took too much time. When I was first starting out, I’d take something like six or eight hours on each review, though that pretty quickly got down to four or so. Nowadays it might even be a touch less, spread over two days. I like to give the paper a close read on one day, while taking notes and maybe doing a bit of research. Then the next day, I write up my review, after my thoughts have had a chance to percolate. Anyway, now I have a two-per-month rule to protect my time, though I sometimes break it: I took four out of those seven requests back in January.</p>
+<p>I always start my reviews with a quick summary of the piece, but as reviewers, our focus should be on theory, data, and method. For the big-three journals, the old saw is that the standard is “new theory, new data, new method—choose any two,” but regardless of the journal that has asked you to review, for a work to make a contribution, it has to be sound—not new, not super-great, just sound—on all three. Here are a couple of quick notes on each, mostly of the points I find myself most often making:</p>
+<ol type="1">
+<li><p>Theory: if you think that the authors<sup>1</sup> have overlooked some plausible rival theory, be sure to explain and include specific citations. You don’t have to have a full bibliographic entry; author and year are probably enough, though I usually throw the journal abbreviation in too just to be sure. Reviews aren’t the place to develop your own new rival theory. If you’re <em>really</em> tempted to do so, plan instead on responding to this paper when it comes out in print.</p></li>
+<li><p>Data: do the authors take advantage of all available data? Probably not—we can’t all look at everything all the time—but if they’ve neglected obvious things: using, for example, just that oddball third wave of <a href="http://worldvaluessurvey.org">the WVS</a> instead of all the waves, or if they have very little data and you know of other sources they can draw on, say so. Of course, if they use some source and you know that there’s other, better data available, point that out to them.</p></li>
+<li><p>Methods: First, are the methods appropriate? In answering this, you have to judge the methods on their own terms: <a href="https://twitter.com/PoliticalApe13/status/820390342759419910">NOT, oh, this study uses survey data, so tells us nothing about causality! OR this study just reports an experiment, so it has no external validity!</a></p></li>
+</ol>
+<ul>
+<li><p>Are interaction terms properly constructed and interpreted?<sup>2</sup> There’s software that makes this super-easy. Recommend it by name: “There’s <a href="http://myweb.uiowa.edu/fboehmke/methods.html"><code>grinter</code> for Stata</a> and <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html"><code>interplot</code> for R</a>.” Include cites to <a href="https://www.cambridge.org/core/journals/international-organization/article/hypothesis-testing-and-multiplicative-interaction-terms/5AE39EABAA8F26582C65F0D3FAD153D8">Braumoeller’s (2004) <em>IO</em> article</a> and/or <a href="http://www.jstor.org/stable/25791835">Brambor, Clark, and Golder (2006) in <em>PA</em></a>, too.</p></li>
+<li><p>Are the included controls appropriate? Do the authors include controls that are plausibly causally downstream from their IVs? <a href="https://books.google.com/books?id=lV3DIdV0F9AC&amp;printsec=frontcover&amp;dq=gelman+and+hill&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjZyJHgoqXTAhWF6oMKHRS2Ay8Q6AEIJDAA#v=onepage&amp;q=messes+up&amp;f=false">That messes up results.</a> Include citations. Conversely, do they <em>exclude</em> variables that would plausibly confound the relationship between the IV and the DV? It’s not enough to say that “oh, they didn’t control for X.” You have to explain why including X as a control is important. And again, include citations. You should also suggest a source of data for X. Btw, at least in my book, omitting a control—even one you’re totally sure is a source of spuriousness—is an R&amp;R-able offense, not one that condemns the perpetrating manuscript to rejection. Give the authors a chance to show you you’re mistaken on this.</p></li>
+<li><p>Are the coefficients and statistical significance interpreted correctly? <a href="http://www.jstor.org/stable/2669316">Are the quantities of substantive interest, such as predicted probabilities, estimated and plotted?</a> With their associated uncertainty?</p></li>
+<li><p>Can any included tables be made into graphs? Probably, so be specific about what you have in mind, cite to <a href="http://www.jstor.org/stable/20446574">Kastellec and Leoni’s (2007) <em>Perspectives</em> article</a>, and maybe even give the <a href="https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html"><code>dotwhisker</code> package</a> a shout-out if you think it’d help.</p></li>
+</ul>
+<ol start="4" type="1">
+<li>Note what you’re NOT evaluating: the results themselves. Don’t filter on statistical significance: we need to avoid contributing <a href="http://www.jstor.org/stable/25791658">to publication bias</a> and the pressure way too many people apparently feel <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">to p-hack their way to publication</a>. And this should go without saying, but be sure to check your own presuppositions about what the results ‘should’ show at the door.</li>
+</ol>
+<ul>
+<li><p>Nor the question asked. Don’t suggest that authors “reframe” their work around some similar (or not so similar) question. Don’t say that the question just isn’t important enough for the AJPS.<sup>3</sup> If you’ve been in my classes, you’ve probably had me push you to ask <em>important</em> questions; you know I totally think that’s a big deal. But as a reviewer, as Justin Esarey <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf">argued in the <em>TPM</em> Special Issue on Peer Review</a>, deciding whether the question asked was sufficiently important for publication isn’t your job. That’s for the editor maybe, but really it is for us all as a discipline, as readers.</p></li>
+<li><p>Nor typos, grammar, or citation formatting. If it’s <em>really, really</em> bad, I’ll point out that it’s something the author should be sure to work on. But <a href="https://twitter.com/thosjleeper/status/849726360922849280">don’t send in a bunch of line edits</a>. I <em>will</em> always note if I see that cited works are not included in the bibliography. BibTeX is your friend, people!</p></li>
+</ul>
+<p>Finally and above all: take a considerate, <em>helpful</em> tone. Research is hard, and the peer-review process is difficult and frustrating for all of us. Contribute to the collective good by pitching your comments in a constructive tone that you would be happy to read in reviews of your own work. In other words, <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a>.<sup>4</sup> Even if just about everything is going to need to be redone before the manuscript has any shot at publication—and you know, sometimes it really does—write that in a sympathetic way, remembering that there’s another person who will read your words about their work. And always find at least one good quality of the paper to highlight. Be sure to return to that point at the end of your review.</p>
+<hr>
+<p><sup>1</sup> I’ve settled on always writing reviews with the assumption that the piece is co-authored and that the appropriate pronoun is therefore “they.”</p>
+<p><sup>2</sup> This is point number one on <a href="https://twitter.com/BrendanNyhan">Brendan Nyhan</a>’s “Checklist Manifesto for Peer Review” in <a href="https://thepoliticalmethodologist.files.wordpress.com/2016/02/tpm_v23_n1.pdf"><em>The Political Methodologist</em>’s Special Issue on Peer Review</a>. Read the whole issue!</p>
+<p><sup>3</sup> OTOH, you <em>should</em> <a href="https://twitter.com/DToshkov/status/826705971124830209">give people credit when they take on hard questions</a> with less-than-ideal data and methods if those data and methods are (approximately) the best available.</p>
+<p><sup>4</sup> Not that jerk, <a href="https://twitter.com/search?q=%23reviewer2&amp;src=typd">#Reviewer2</a>. In addition to checking out <a href="https://twitter.com/search?q=%23BeReviewer1&amp;src=tyah">#BeReviewer1</a> on Twitter, you should also be sure to read <a href="https://twitter.com/thosjleeper">Thomas Leeper</a>’s <a href="http://thomasleeper.com/2016/08/be-reviewer-one/">manifesto that started it all</a>.</p>
+
+
+
+ ]]></description>
+  <category>note</category>
+  <guid>https://fsolt.org/blog/posts/reviewing-workshop/index.html</guid>
+  <pubDate>Fri, 14 Apr 2017 19:27:31 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Version 5.1 is available!</title>
+  <link>https://fsolt.org/blog/posts/swiid-version-5_1/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Version 5.1 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! It revises and updates the SWIID’s source data and estimates. It also includes expanded training modules explaining how to take into account the uncertainty in the estimates in both R and Stata.</p>
+<p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-5_1/index.html</guid>
+  <pubDate>Thu, 21 Jul 2016 06:12:01 GMT</pubDate>
+</item>
+<item>
+  <title>icpsrdata makes your ICPSR downloads reproducible!</title>
+  <link>https://fsolt.org/blog/posts/icpsrdata/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>If you download data from the <a href="http://www.icpsr.umich.edu">Inter-university Consortium for Political and Social Research archive</a> archive, you can make your research reproducible with the <a href="https://cran.r-project.org/web/packages/icpsrdata/index.html"><code>icpsrdata</code> package, now available on CRAN</a>.</p>
+
+
+
+ ]]></description>
+  <category>note</category>
+  <category>icpsrdata</category>
+  <category>r</category>
+  <guid>https://fsolt.org/blog/posts/icpsrdata/index.html</guid>
+  <pubDate>Sat, 21 May 2016 03:00:01 GMT</pubDate>
+</item>
+<item>
+  <title>Try pewdata!</title>
+  <link>https://fsolt.org/blog/posts/pewdata/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>If you use <a href="http://www.pewresearch.org">Pew Research Center</a> surveys, you can make your research reproducible with the <a href="https://cran.r-project.org/web/packages/pewdata/index.html"><code>pewdata</code> package now available on CRAN</a>.</p>
+
+
+
+ ]]></description>
+  <category>note</category>
+  <category>pewdata</category>
+  <category>r</category>
+  <guid>https://fsolt.org/blog/posts/pewdata/index.html</guid>
+  <pubDate>Fri, 13 May 2016 10:28:01 GMT</pubDate>
+</item>
+<item>
+  <title>SWIID Wins NSF Support!</title>
+  <link>https://fsolt.org/blog/posts/nsf-swiid/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>The National Science Foundation <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746">has awarded three years of support</a> to update and improve the SWIID! Yay!</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/nsf-swiid/index.html</guid>
+  <pubDate>Mon, 10 Aug 2015 15:40:01 GMT</pubDate>
+</item>
+<item>
+  <title>Use dotwhisker for your APSA slides!</title>
+  <link>https://fsolt.org/blog/posts/dotwhisker-for-apsa/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>With the APSA coming up, and in the interest of minimizing the number of times we hear “sorry, I know you won’t really be able to see these regression coefficients,” I thought I’d point R users to dotwhisker, a package UI Ph.D.&nbsp;student Yue HU and I just published to CRAN. dotwhisker makes regression plots in the style of <a href="http://dx.doi.org/10.1017/S1537592707072209">Kastellec and Leoni’s (2007) <em>Perspectives</em> article</a> quick and easy: after data entry, just two lines of R code produced the easy-to-read-even-from-the-back-of-the-room plot attached to this post. I hope you’ll find it useful, and if you have any suggestions for us, that you’ll file an issue at <a href="https://github.com/fsolt/dotwhisker" class="uri">https://github.com/fsolt/dotwhisker</a>, tweet to me <span class="citation" data-cites="fredericksolt">@fredericksolt</span>, or just send me an email <a href="mailto:frederick-solt@uiowa.edu" class="email">frederick-solt@uiowa.edu</a>.</p>
+<p><img class="imageStyle" alt="Download" src="https://fsolt.org/blog/dotwhisker1.jpg" width="650"></p>
+
+
+
+ ]]></description>
+  <category>note</category>
+  <category>dotwhisker</category>
+  <category>r</category>
+  <guid>https://fsolt.org/blog/posts/dotwhisker-for-apsa/index.html</guid>
+  <pubDate>Thu, 30 Jul 2015 15:15:01 GMT</pubDate>
+</item>
+<item>
+  <title>Now on CRAN: interplot</title>
+  <link>https://fsolt.org/blog/posts/now-on-cran-interplot/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Hu Yue and I just published <a href="https://cran.r-project.org/web/packages/interplot"><code>interplot</code> on CRAN</a>, our first R package. <code>interplot</code> makes graphing the coefficients of variables in interaction terms easy. It outputs <code>ggplot</code> objects, so further customization is simple. Check out <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html">the vignette</a> and give it a try!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/now-on-cran-interplot/images/interplot1.png" class="imageStyle img-fluid figure-img"></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>note</category>
+  <category>interplot</category>
+  <category>r</category>
+  <guid>https://fsolt.org/blog/posts/now-on-cran-interplot/index.html</guid>
+  <pubDate>Fri, 26 Jun 2015 14:40:01 GMT</pubDate>
+  <media:content url="https://fsolt.org//blog/posts/now-on-cran-interplot/images/interplot1.png" medium="image" type="image/png" height="90" width="144"/>
+</item>
+<item>
+  <title>Inequality in China</title>
+  <link>https://fsolt.org/blog/posts/imf-china/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>A <a href="http://www.imf.org/external/pubs/ft/wp/2015/wp1568.pdf">new working paper</a> by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most unequal countries in the world. Here’s a graph of SWIIDv5.0 data that illustrates their point.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/imf-china/images/china.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>note</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/imf-china/index.html</guid>
+  <pubDate>Fri, 27 Mar 2015 15:40:01 GMT</pubDate>
+  <media:content url="https://fsolt.org//blog/posts/imf-china/images/china.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>SWIID Version 5.0 is available!</title>
+  <link>https://fsolt.org/blog/posts/swiid-version-5_0/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Version 5.0 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>, and it is a major update. A new article of record (currently available as a working paper while under peer review) reviews the problem of comparability in cross-national income inequality data, explains how the SWIID addresses the issue, assesses the SWIID’s performance in comparison to the available alternatives, and explains how to use the SWIID data in cross-national analyses.</p>
+<p>The new version also marks the debut of the SWIID web application. The web application allows users to graph the SWIID estimates of any of net-income income, market-income inequality, relative redistribution, or absolute redistribution in as many as four countries or to compare these measures within a single country. Its output can be downloaded with a click for use in reports or articles. I hope that it will be of particular value to policymakers, journalists, students, and others who need to make straightforward comparisons of levels and trends in income inequality.</p>
+<p>As always, I encourage users of the SWIID to email me with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-5_0/index.html</guid>
+  <pubDate>Thu, 02 Oct 2014 15:40:01 GMT</pubDate>
+</item>
+</channel>
+</rss>

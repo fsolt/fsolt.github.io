@@ -1,0 +1,40 @@
+---
+title: "Public Discussion in the Deliberative System: Does It Make Better Citizens?"
+date: 2007-06-30
+cite: >
+    Searing, Donald, **Frederick Solt**, Pamela Johnston Conover, and Ivor Crewe. 2007. "Public Discussion in the Deliberative System: Does It Make Better Citizens?" _British Journal of Political Science_ 37(4):587-618.
+author:
+  - name: Donald Searing
+  - name: Frederick Solt
+  - name: Pamela Johnston Conover
+  - name: Ivor Crewe
+links:
+  - name: Final version
+    url: /papers/searingsoltconovercrewe2007
+    icon: fas fa-scroll
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - participation
+---
+
+:::{#cite}
+:::
+
+## Abstract
+In democratic theory, the practice of discussing public affairs has been associated with desirable consequences for citizenship and democracy.  We use Anglo-American survey data to examine twelve hypotheses about psychological foundations for four general conditions that such discussions might promote: autonomous citizens, political legitimacy, good representation and democratic communities.  Our data combine detailed measures of public discussion with measures of more of its hypothesized civic consequences than have heretofore been available.  They also enable us to probe, using specialized samples, causal inferences suggested by our analyses of random samples in our British and American communities.  Six of the hypotheses are supported, including at least one regarding each of the four general liberal democratic conditions we investigate.
+
+## BibTeX Citation
+```bibtex
+@article{SearingSoltConoverCrew2007,
+	author = {Searing, Donald D. and Solt, Frederick and Conover, Pamela Johnston and Crewe, Ivor},
+	journal = {British Journal of Political Science},
+	month = {October},
+	number = {4},
+	pages = {587--618},
+	title = {Public Discussion in the Deliberative System: Does It Make Better Citizens?},
+	volume = {37},
+	year = {2007}}
+```

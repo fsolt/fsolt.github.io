@@ -1,0 +1,49 @@
+---
+title: SWIID Version 6.1 is available!
+author: Frederick Solt
+slug: swiid-version-6_1
+date: '2017-10-27'
+categories:
+  - update
+  - r
+  - swiid
+bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
+csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
+output:
+    html_document:
+        self_contained: true
+---
+
+Version 6.1 of the SWIID is [now available](/swiid/swiid_downloads/)!  Building on the end-to-end revision accomplished in Version 6.0 last July, this new release:
+
+- incorporates in [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) 280 new Ginis, including [newly available LIS data on Canada and Lithuania](http://www.lisdatacenter.org/news-and-events/fall-data-release/);
+
+- includes estimates of disposable income inequality for 83 new country-years;
+
+- expands estimates of market income inequality to _all_ country-years (version 6.0 only estimated market income inequality for countries included in the LIS, about a third of the total country-years);
+
+- calculates estimates of absolute and relative redistribution for twenty additional countries, for a total of sixty-six---all of the countries for which there is source data available [on both the distribution of market income and the distribution of disposable income or consumption](/blog/2015/10/05/redistribution-observations/).
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+load("~/Documents/projects/swiid/data/swiid6_1.rda")
+
+brics <- swiid_summary %>% 
+  filter(country=="Brazil" | country=="Russia" | 
+                 country=="India" | country=="China")
+
+ggplot(data=brics, aes(x=year, y=gini_disp, colour=country)) +
+  geom_line() +
+  theme_bw() +
+  theme(legend.position="none") +    
+  coord_cartesian(xlim = c(1975, 2016), ylim = c(20, 60)) +
+  labs(x = "Year", y = "SWIID Gini Index, Disposable Income") +
+  geom_ribbon(aes(ymin = gini_disp-1.96*gini_disp_se, ymax = gini_disp+1.96*gini_disp_se, 
+                  fill=country, linetype=NA), alpha = .25) +
+  geom_text(aes(1977, 56, label = "Brazil", colour="Brazil"), size=4.5) +
+  geom_text(aes(1980, 46.5, label = "India", colour="India"), size=4.5) +
+  geom_text(aes(1985, 37, label = "China", colour="China"), size=4.5) +
+  geom_text(aes(1992.2, 32.5, label = "Russia", colour="Russia"), size=4.5)
+```
+
+For more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid).  As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.

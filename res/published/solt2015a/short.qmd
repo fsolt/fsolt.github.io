@@ -1,0 +1,46 @@
+---
+title: "Economic Inequality and Nonviolent Protest"
+date: 2015-06-30
+cite: >
+    **Solt, Frederick**. 2015. "Economic Inequality and Nonviolent Protest." _Social Science Quarterly_ 96(5):1314-1327.
+author:
+  - Frederick Solt
+links:
+  - name: Final version
+    url: /papers/solt2015a
+    icon: fas fa-scroll
+  - name: Preprint
+    url: /papers/solt2015a_pre
+    icon: far fa-file-pdf
+  - name: Dataverse
+    url: http://dx.doi.org/10.7910/DVN/DHP7WF
+    icon: fas fa-table
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+    - inequality
+    - participation
+---
+
+:::{#cite}
+:::
+
+## Abstract
+*Objective.* Despite substantial theorizing, the relationship between economic inequality and participation in nonviolent protests has not been satisfactorily examined empirically.   *Methods.* Using multilevel models of data from four waves of the European Social Survey, this article examines whether differences in inequality across countries and over time help explain people's engagement in peaceful protest.  *Results.*  It finds that greater inequality reduces protest participation for all those with incomes below the top quintile.  *Conclusions.*  This result provides strong support for the relative power theory of political participation; the predictions of grievance and resource theories regarding inequality's effects on protest are not supported.
+
+## Important Figure
+
+![Figure 1: Predicting Nonviolent Protest Activity](fig1.png)
+## BibTeX Citation
+```bibtex
+@article{Solt2015,
+	author = {Solt, Frederick},
+	journal = {Social Science Quarterly},
+	number = {5},
+	pages = {1314--1327},
+	title = {Economic Inequality and Nonviolent Protest},
+	volume = {96},
+	year = {2015}}
+```
