@@ -19,7 +19,7 @@ links:
       url: "https://github.com/fsolt/swiid/tree/master/paper"
       icon: fa-brands fa-github
     - name: SWIID Database
-      url: "../swiid/"
+      url: "/swiid/"
       icon: fa-solid fa-database
 listing:
   - id: cite
