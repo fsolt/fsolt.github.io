@@ -15,7 +15,7 @@ website:
     site: "@fredericksolt"
   site-url: https://fsolt.org
   description: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
-  repo-url: https://github.com/fsolt/fsolt_quarto
+  repo-url: https://github.com/fsolt/fsolt.github.io
   repo-actions: [edit, issue]
   navbar:
     background: "#13294B"
