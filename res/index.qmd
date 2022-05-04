@@ -15,6 +15,10 @@ listing:
     filter-ui: false
     categories: cloud
     feed: true
+
+format:
+  html:
+    include-in-header: ../templates/fa.html
 ---
 
 ## Publications

@@ -20,7 +20,7 @@ links:
 #   url: ""
 #   icon: fas fa-scroll
 - name: Preprint
-  url: "https://osf.io/preprints/socarxiv/y5fdv/"
+  url: /papers/taihusolt2022_pre
   icon: far fa-file-pdf
 - name: Code
   url: "https://github.com/fsolt/dcpo_dem_mood"

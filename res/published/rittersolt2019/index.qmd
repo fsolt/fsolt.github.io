@@ -11,7 +11,7 @@ links:
     url: /papers/rittersolt2019
     icon: fas fa-scroll
   - name: Preprint
-    url: https://osf.io/zzwq2/
+    url: /papers/rittersolt2019_pre
     icon: far fa-file-pdf
   - name: Code
     url: https://github.com/fsolt/campaign_participation
