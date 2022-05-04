@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Frederick Solt</title>
+    <link>http://fsolt.org/tags/</link>
+    <description>Recent content in Tags on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://fsolt.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>note</title>
+      <link>http://fsolt.org/tags/note/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r</title>
+      <link>http://fsolt.org/tags/r/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swiid</title>
+      <link>http://fsolt.org/tags/swiid/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/swiid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>update</title>
+      <link>http://fsolt.org/tags/update/</link>
+      <pubDate>Thu, 21 Jul 2016 01:12:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>icpsrdata</title>
+      <link>http://fsolt.org/tags/icpsrdata/</link>
+      <pubDate>Fri, 20 May 2016 22:00:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/icpsrdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pewdata</title>
+      <link>http://fsolt.org/tags/pewdata/</link>
+      <pubDate>Fri, 13 May 2016 05:28:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/pewdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sfaq_howto</title>
+      <link>http://fsolt.org/tags/sfaq_howto/</link>
+      <pubDate>Tue, 06 Oct 2015 06:32:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/sfaq_howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sfaq_data</title>
+      <link>http://fsolt.org/tags/sfaq_data/</link>
+      <pubDate>Mon, 05 Oct 2015 12:31:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/sfaq_data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotwhisker</title>
+      <link>http://fsolt.org/tags/dotwhisker/</link>
+      <pubDate>Thu, 30 Jul 2015 10:15:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/dotwhisker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interplot</title>
+      <link>http://fsolt.org/tags/interplot/</link>
+      <pubDate>Fri, 26 Jun 2015 09:40:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/tags/interplot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

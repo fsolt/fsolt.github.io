@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interplot on Frederick Solt</title>
+    <link>http://fsolt.org/tags/interplot/</link>
+    <description>Recent content in interplot on Frederick Solt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jun 2015 09:40:01 +0000</lastBuildDate><atom:link href="http://fsolt.org/tags/interplot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Now on CRAN: interplot</title>
+      <link>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot/</link>
+      <pubDate>Fri, 26 Jun 2015 09:40:01 +0000</pubDate>
+      
+      <guid>http://fsolt.org/blog/2015/06/26/now-on-cran-interplot/</guid>
+      <description>Hu Yue and I just published interplot on CRAN, our first R package. interplot makes graphing the coefficients of variables in interaction terms easy. It outputs ggplot objects, so further customization is simple. Check out the vignette and give it a try!</description>
+    </item>
+    
+  </channel>
+</rss>
