@@ -53,7 +53,7 @@ website:
     title: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
     contents:
       - text: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
-        file: "/res/"
+        file: "/res/res/"
   # subtitle: string
   #   contents: 
   #     - title: ""
