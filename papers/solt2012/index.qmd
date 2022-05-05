@@ -1,4 +1,5 @@
 ---
+title: solt2012
 header-includes: |
   <meta http-equiv="Refresh" content="0; URL=http://prq.sagepub.com/content/65/4/703">
 ---
