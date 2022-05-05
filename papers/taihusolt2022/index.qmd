@@ -1,0 +1,5 @@
+---
+title: taihusolt2022
+header-includes: |
+  <meta http-equiv="Refresh" content="0; URL=https://www.doi.org/10.1017/S0003055422000429">
+---

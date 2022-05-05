@@ -125,10 +125,16 @@ No matching items
 </div>
 <ul class="project-links">
 <li class="project-link">
+<a href="https://www.doi.org/10.1017/S0003055422000429"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
 <a href="../../../papers/taihusolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 <li class="project-link">
 <a href="https://github.com/fsolt/dcpo_dem_mood"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="https://doi.org/10.7910/DVN/XAUF3H"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 <li class="project-link">
 <a href="https://dcpo.org/data/dsd/"><i class="fa-solid fa-database"></i> DSD Database</a>

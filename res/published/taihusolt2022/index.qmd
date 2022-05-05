@@ -16,18 +16,18 @@ extra: >
     Presented at the annual meeting of the 
     Midwest Political Science Association (MPSA), April 2022.
 links:
-# - name: Final version
-#   url: ""
-#   icon: fas fa-scroll
+- name: Final version
+  url: "https://www.doi.org/10.1017/S0003055422000429"
+  icon: fas fa-scroll
 - name: Preprint
   url: /papers/taihusolt2022_pre
   icon: far fa-file-pdf
 - name: Code
   url: "https://github.com/fsolt/dcpo_dem_mood"
   icon: fa-brands fa-github
-# - name: Data
-#   url: ""
-#   icon: fas fa-table
+- name: Dataverse
+  url: "https://doi.org/10.7910/DVN/XAUF3H"
+  icon: fas fa-table
 - name: DSD Database
   url: https://dcpo.org/data/dsd/
   icon: fa-solid fa-database
