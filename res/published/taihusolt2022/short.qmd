@@ -2,7 +2,7 @@
 title: "Democracy, Public Support, and Measurement Uncertainty"
 date: 2022-03-25
 cite: >
-  [Tai, Yuehong 'Cassandra'](https://github.com/Tyhcass/),
+  [Tai, Yuehong 'Cassandra'](https://cassyuehtai.netlify.app),
   [Yue Hu](https://sammo3182.github.io), and
   **Frederick Solt**. 
   Forthcoming.
