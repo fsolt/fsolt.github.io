@@ -17,7 +17,7 @@ extra: >
     Midwest Political Science Association (MPSA), April 2022.
 links:
 - name: Final version
-  url: "https://www.doi.org/10.1017/S0003055422000429"
+  url: /papers/taihusolt2022
   icon: fas fa-scroll
 - name: Preprint
   url: /papers/taihusolt2022_pre
