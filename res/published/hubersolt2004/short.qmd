@@ -8,7 +8,7 @@ author:
   - Frederick Solt 
 links:
   - name: Final version
-    url: "https://fsolt.org/papers/hubersolt2004"
+    url: ../../../papers/hubersolt2004
     icon: fas fa-scroll
 categories:
     - inequality

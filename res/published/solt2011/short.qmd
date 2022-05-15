@@ -7,7 +7,7 @@ author:
   - Frederick Solt
 links:
   - name: Final version
-    url: "https://fsolt.org/papers/solt2011"
+    url: ../../../papers/solt2011
     icon: fas fa-scroll
   - name: Dataverse
     url: http://hdl.handle.net/1902.1/17098

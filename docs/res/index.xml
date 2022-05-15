@@ -13,8 +13,6 @@
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
 <link>https://fsolt.org/res/index.html</link>
-<height>144</height>
-<width>144</width>
 </image>
 <generator>quarto-0.9.351</generator>
 <lastBuildDate>Fri, 01 Apr 2022 05:00:00 GMT</lastBuildDate>
@@ -40,7 +38,7 @@
 </div>
 <ul class="project-links">
 <li class="project-link">
-<a href="../papers/woogoldbergsolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+<a href="../../../papers/woogoldbergsolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 <li class="project-link">
 <a href="https://github.com/fsolt/dcpo_gender_roles"><i class="fa-brands fa-github"></i> Code</a>
@@ -204,10 +202,10 @@ No matching items
 </div>
 <ul class="project-links">
 <li class="project-link">
-<a href="../papers/solt2020"><i class="fas fa-scroll"></i> Final version</a>
+<a href="../../../papers/solt2020"><i class="fas fa-scroll"></i> Final version</a>
 </li>
 <li class="project-link">
-<a href="../papers/solt2020_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+<a href="../../../papers/solt2020_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 <li class="project-link">
 <a href="https://github.com/fsolt/swiid/tree/master/paper"><i class="fa-brands fa-github"></i> Code</a>

@@ -7,10 +7,10 @@ author:
   - Frederick Solt
 links:
   - name: Final version
-    url: "https://fsolt.org/papers/solt2009"
+    url: ../../../papers/solt2009
     icon: fas fa-scroll
   - name: Preprint
-    url: /papers/solt2009pre
+    url: ../../../papers/solt2009pre
     icon: far fa-file-pdf
   - name: SWIID Database
     url: ../../../swiid/

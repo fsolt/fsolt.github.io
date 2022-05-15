@@ -7,10 +7,10 @@ author:
   - Frederick Solt
 links:
   - name: Final version
-    url: "https://fsolt.org/papers/solt2008/"
+    url: ../../../papers/solt2008/
     icon: fas fa-scroll
   - name: Preprint
-    url: "https://fsolt.org/papers/solt2008_pre/"
+    url: ../../../papers/solt2008_pre/
     icon: far fa-file-pdf
 listing:
   - id: cite
