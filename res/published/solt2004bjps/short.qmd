@@ -7,7 +7,7 @@ author:
   - Frederick Solt
 links:
   - name: Final version
-    url: "/papers/solt2004bjps"
+    url: "https://fsolt.org/papers/solt2004bjps"
     icon: fas fa-scroll
 listing:
   - id: cite

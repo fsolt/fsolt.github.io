@@ -9,7 +9,7 @@ author:
   - J. Tobin Grant
 links:
   - name: Final version
-    url: "/papers/solthabelgrant2011"
+    url: "https://fsolt.org/papers/solthabelgrant2011"
     icon: fas fa-scroll
   - name: Preprint
     url: NA

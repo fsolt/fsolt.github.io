@@ -10,10 +10,10 @@ author:
     - name: Frederick Solt
 links:
     - name: Final version
-      url: "../papers/solt2020"
+      url: "https://fsolt.org/papers/solt2020"
       icon: fas fa-scroll
     - name: Preprint
-      url: "../papers/solt2020_pre"
+      url: "https://fsolt.org/papers/solt2020_pre"
       icon: far fa-file-pdf
     - name: Code
       url: "https://github.com/fsolt/swiid/tree/master/paper"

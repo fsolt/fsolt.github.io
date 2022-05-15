@@ -10,7 +10,7 @@ links:
     url: https://books.google.com/books?id=eBlvAwAAQBAJ&pg=337
     icon: fas fa-scroll
   - name: Preprint
-    url: "/papers/solt2014_pre/"
+    url: "https://fsolt.org/papers/solt2014_pre/"
     icon: far fa-file-pdf
   - name: Dataverse
     url: http://dx.doi.org/10.7910/DVN/X0AOON
