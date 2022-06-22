@@ -25,6 +25,7 @@
       "/res/published/solt2004bjps/index.html",
       "/res/published/solt2004larr/index.html",
       "/res/published/solt2001/index.html",
+      "/res/working-papers/hutaisolt2022/index.html",
       "/res/working-papers/dcpo_article/index.html"
     ]
   },
@@ -38,6 +39,16 @@
     "listing": "/res/working-papers/dcpo_article/index.html",
     "items": [
       "/res/working-papers/dcpo_article/short.html"
+    ]
+  },
+  {
+    "listing": "/res/working-papers/hutaisolt2022/short.html",
+    "items": []
+  },
+  {
+    "listing": "/res/working-papers/hutaisolt2022/index.html",
+    "items": [
+      "/res/working-papers/hutaisolt2022/short.html"
     ]
   },
   {

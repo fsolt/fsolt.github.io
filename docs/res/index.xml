@@ -13,9 +13,99 @@
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
 <link>https://fsolt.org/res/index.html</link>
+<height>144</height>
+<width>144</width>
 </image>
 <generator>quarto-0.9.351</generator>
-<lastBuildDate>Fri, 01 Apr 2022 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 20 Jun 2022 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy</title>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Yuehong Cassandra Tai</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <a href="https://fsolt.org">Frederick Solt</a>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="https://osf.io/preprints/socarxiv/kd7mu/"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dem_mood"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Data ‘janitor work’, the task of getting data into a format appropriate for analysis, has grown increasingly important as political science research has come to depend on data drawn from hundreds and thousands of sources. One tempting solution is to simply enter the data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, the 2020 study by Claassen that examines the effect of changes in democracy on public support for democracy. We then show that when these errors are corrected, the work’s models provide no support for its conclusion that publics react thermostatically to changes in democracy. Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig1.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig2.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig3.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">HuTaiSolt2022</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;">title</span>={On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;">year</span>={2022},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;">month</span>={June}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;">url</span>={osf.io/preprints/socarxiv/kd7mu},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;">doi</span>={10.31235/osf.io/kd7mu}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</guid>
+  <pubDate>Mon, 20 Jun 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://fsolt.org//res/working-papers/hutaisolt2022/dem_mood_fig1.png" medium="image" type="image/png" height="113" width="144"/>
+</item>
 <item>
   <title>Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere</title>
   <dc:creator>Byung-Deuk Woo</dc:creator>
@@ -27,7 +117,6 @@
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -50,6 +139,11 @@
 <a href="https://dcpo.org/data/pge/"><i class="fa-solid fa-database"></i> PGE Database</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+<strong>Other details:</strong> Presented at the annual meeting of the Midwest Political Science Association (MPSA), April 2022.
+</p>
 </div>
 </li>
 </div>
@@ -98,7 +192,7 @@ No matching items
   <category>attitudes</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</guid>
-  <pubDate>Fri, 01 Apr 2022 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 31 Mar 2022 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/woogoldbergsolt2022/pge_fig3.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
@@ -112,7 +206,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -138,6 +231,11 @@ No matching items
 <a href="https://dcpo.org/data/dsd/"><i class="fa-solid fa-database"></i> DSD Database</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+<strong>Other details:</strong> Presented at the annual meeting of the Midwest Political Science Association (MPSA), April 2022.
+</p>
 </div>
 </li>
 </div>
@@ -179,7 +277,7 @@ No matching items
   <category>attitudes</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/taihusolt2022/index.html</guid>
-  <pubDate>Fri, 25 Mar 2022 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 24 Mar 2022 23:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/taihusolt2022/dem_support_fig1.png" medium="image" type="image/png" height="288" width="144"/>
 </item>
 <item>
@@ -191,7 +289,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -214,6 +311,10 @@ No matching items
 <a href="../../../swiid/"><i class="fa-solid fa-database"></i> SWIID Database</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -254,7 +355,7 @@ No matching items
   <category>inequality</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solt2020/index.html</guid>
-  <pubDate>Sun, 03 May 2020 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 02 May 2020 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solt2020/kfold_obs.png" medium="image" type="image/png" height="89" width="144"/>
 </item>
 <item>
@@ -266,7 +367,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -283,6 +383,11 @@ No matching items
 <a href="https://github.com/fsolt/dcpo_article"><i class="fa-brands fa-github"></i> Code</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+<strong>Other details:</strong> Previous versions of this project were presented at the 2014 meetings of the European Political Science Association and American Political Science Association, the 2016 meeting of the Midwest Political Science Association, the 2019 St.&nbsp;Louis Area Methods Meeting, the 2020 meeting of the Southern Political Science Association, and at Princeton University, Oxford University, the University of Tennessee, the University of Iowa, Central European University, and the Polish Academy of Sciences.
+</p>
 </div>
 </li>
 </div>
@@ -324,7 +429,7 @@ No matching items
   <category>attitudes</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/working-papers/dcpo_article/index.html</guid>
-  <pubDate>Sun, 12 Jan 2020 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 11 Jan 2020 23:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/working-papers/dcpo_article/dcpo_article_fig1.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
@@ -337,7 +442,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -357,6 +461,10 @@ Ritter, Michael, and <strong>Frederick Solt</strong>. 2019. “Economic Inequali
 <a href="https://github.com/fsolt/campaign_participation"><i class="fa-brands fa-github"></i> Code</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -398,7 +506,7 @@ No matching items
   <category>inequality</category>
   <category>participation</category>
   <guid>https://fsolt.org/res/published/rittersolt2019/index.html</guid>
-  <pubDate>Sun, 30 Jun 2019 05:00:00 GMT</pubDate>
+  <pubDate>Sat, 29 Jun 2019 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/rittersolt2019/Fig4.png" medium="image" type="image/png" height="60" width="144"/>
 </item>
 <item>
@@ -411,7 +519,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -431,6 +538,10 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 <a href="http://dx.doi.org/10.7910/DVN/NZQIWM"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -469,7 +580,7 @@ No matching items
  ]]></description>
   <category>parties</category>
   <guid>https://fsolt.org/res/published/kimsolt2017/index.html</guid>
-  <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 29 Jun 2017 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/kimsolt2017/sum_plot-1.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -485,7 +596,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -505,6 +615,10 @@ No matching items
 <a href="https://github.com/fsolt/class_consciousness"><i class="fa-brands fa-github"></i> Code</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -550,7 +664,7 @@ No matching items
   <category>inequality</category>
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</guid>
-  <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 29 Jun 2017 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2017/t3_pooled.png" medium="image" type="image/png" height="120" width="144"/>
 </item>
 <item>
@@ -562,7 +676,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -585,6 +698,10 @@ No matching items
 <a href="../../../swiid/"><i class="fa-solid fa-database"></i> SWIID Database</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -616,7 +733,7 @@ No matching items
   <category>inequality</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solt2016/index.html</guid>
-  <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 29 Jun 2016 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Economic Inequality and Belief in Meritocracy in the United States.</title>
@@ -631,7 +748,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -651,6 +767,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/YWO87E"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -697,7 +817,7 @@ No matching items
   <category>attitudes</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</guid>
-  <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 29 Jun 2016 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2016/Figure2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -709,7 +829,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -729,6 +848,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/LJD8CQ"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -760,7 +883,7 @@ No matching items
   <category>inequality</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solt2015b/index.html</guid>
-  <pubDate>Tue, 30 Jun 2015 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 29 Jun 2015 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Economic Inequality and Nonviolent Protest</title>
@@ -771,7 +894,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -791,6 +913,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/DHP7WF"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -822,7 +948,7 @@ No matching items
   <category>inequality</category>
   <category>participation</category>
   <guid>https://fsolt.org/res/published/solt2015a/index.html</guid>
-  <pubDate>Thu, 30 Apr 2015 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 29 Apr 2015 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solt2015a/fig1.png" medium="image" type="image/png" height="172" width="144"/>
 </item>
 <item>
@@ -834,7 +960,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -854,6 +979,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/X0AOON"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -884,7 +1013,7 @@ No matching items
   <category>religiosity</category>
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solt2014/index.html</guid>
-  <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
+  <pubDate>Sun, 29 Jun 2014 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction</title>
@@ -899,7 +1028,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -916,6 +1044,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/26391"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -956,7 +1088,7 @@ No matching items
   <category>participation</category>
   <category>neoliberalism</category>
   <guid>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</guid>
-  <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
+  <pubDate>Sun, 29 Jun 2014 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/soltkimleewillardsonkim2014/fig4.png" medium="image" type="image/png" height="39" width="144"/>
 </item>
 <item>
@@ -968,7 +1100,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -985,6 +1116,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/WQV7PZ"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -1025,7 +1160,7 @@ No matching items
   <category>inequality</category>
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solt2012/index.html</guid>
-  <pubDate>Sat, 30 Jun 2012 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 29 Jun 2012 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solt2012/pp_combined.png" medium="image" type="image/png" height="221" width="144"/>
 </item>
 <item>
@@ -1037,7 +1172,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -1054,6 +1188,10 @@ No matching items
 <a href="http://hdl.handle.net/1902.1/17098"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -1094,7 +1232,7 @@ No matching items
   <category>inequality</category>
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solt2011/index.html</guid>
-  <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 29 Jun 2011 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solt2011/combined.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
@@ -1108,7 +1246,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -1131,6 +1268,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/27479"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -1171,7 +1312,7 @@ No matching items
   <category>religiosity</category>
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solthabelgrant2011/index.html</guid>
-  <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 29 Jun 2011 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solthabelgrant2011/Figure2.png" medium="image" type="image/png" height="209" width="144"/>
 </item>
 <item>
@@ -1183,7 +1324,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -1200,6 +1340,10 @@ No matching items
 <a href="http://dx.doi.org/10.7910/DVN/27475"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -1237,7 +1381,7 @@ No matching items
   <category>inequality</category>
   <category>participation</category>
   <guid>https://fsolt.org/res/published/solt2010/index.html</guid>
-  <pubDate>Wed, 30 Jun 2010 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 29 Jun 2010 22:00:00 GMT</pubDate>
   <media:content url="https://fsolt.org//res/published/solt2010/figure1.png" medium="image" type="image/png" height="104" width="144"/>
 </item>
 <item>
@@ -1249,7 +1393,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -1269,6 +1412,10 @@ No matching items
 <a href="../../../swiid/"><i class="fa-solid fa-database"></i> SWIID Database</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -1301,7 +1448,7 @@ No matching items
   <category>inequality</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solt2009/index.html</guid>
-  <pubDate>Tue, 30 Jun 2009 05:00:00 GMT</pubDate>
+  <pubDate>Mon, 29 Jun 2009 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Economic Inequality and Democratic Political Engagement</title>
@@ -1312,7 +1459,6 @@ No matching items
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
 <li class="project">
 <div class="project-details">
@@ -1329,6 +1475,10 @@ No matching items
 <a href="../../../papers/solt2008_pre/"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 </ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
 </div>
 </li>
 </div>
@@ -1360,65 +1510,7 @@ No matching items
   <category>inequality</category>
   <category>participation</category>
   <guid>https://fsolt.org/res/published/solt2008/index.html</guid>
-  <pubDate>Mon, 30 Jun 2008 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Public Discussion in the Deliberative System: Does It Make Better Citizens?</title>
-  <dc:creator>Donald Searing</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <dc:creator>Pamela Johnston Conover</dc:creator>
-  <dc:creator>Ivor Crewe</dc:creator>
-  <link>https://fsolt.org/res/published/searingsoltconovercrewe2007/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-Searing, Donald, <strong>Frederick Solt</strong>, Pamela Johnston Conover, and Ivor Crewe. 2007. “Public Discussion in the Deliberative System: Does It Make Better Citizens?” <em>British Journal of Political Science</em> 37(4):587-618.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/searingsoltconovercrewe2007"><i class="fas fa-scroll"></i> Final version</a>
-</li>
-</ul>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In democratic theory, the practice of discussing public affairs has been associated with desirable consequences for citizenship and democracy. We use Anglo-American survey data to examine twelve hypotheses about psychological foundations for four general conditions that such discussions might promote: autonomous citizens, political legitimacy, good representation and democratic communities. Our data combine detailed measures of public discussion with measures of more of its hypothesized civic consequences than have heretofore been available. They also enable us to probe, using specialized samples, causal inferences suggested by our analyses of random samples in our British and American communities. Six of the hypotheses are supported, including at least one regarding each of the four general liberal democratic conditions we investigate.</p>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SearingSoltConoverCrew2007</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Searing, Donald D. and Solt, Frederick and Conover, Pamela Johnston and Crewe, Ivor},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {British Journal of Political Science},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">month</span> = {October},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {587--618},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Public Discussion in the Deliberative System: Does It Make Better Citizens?},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {37},</span>
-<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2007}}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>participation</category>
-  <guid>https://fsolt.org/res/published/searingsoltconovercrewe2007/index.html</guid>
-  <pubDate>Sat, 30 Jun 2007 05:00:00 GMT</pubDate>
+  <pubDate>Sun, 29 Jun 2008 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,76 @@
+---
+title: "On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy"
+date: 2022-06-21
+cite: >
+  [Hu, Yue](https://sammo3182.github.io),
+  [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), and
+  [Frederick Solt](https://fsolt.org). 
+  2022.
+  "On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy."
+  _SocArXiv_.
+author:
+    - name: Yue Hu
+    - name: Yuehong Cassandra Tai
+    - name: Frederick Solt
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: "https://osf.io/preprints/socarxiv/kd7mu/"
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dem_mood"
+  icon: fa-brands fa-github
+# - name: Data
+#   url: ""
+#   icon: fas fa-table
+# pub_status:
+#   status: Forthcoming
+#   class: warning
+#   icon: pencil-square
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# #   status: Revising
+# #   class: info
+# #   icon: fas fa-sync
+status: Under review
+status_class: success
+status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+# draft: true
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Data 'janitor work', the task of getting data into a format appropriate for analysis, has grown increasingly important as political science research has come to depend on data drawn from hundreds and thousands of sources. One tempting solution is to simply enter the data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, the 2020 study by Claassen that examines the effect of changes in democracy on public support for democracy. We then show that when these errors are corrected, the work's models provide no support for its conclusion that publics react thermostatically to changes in democracy. Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors.
+
+## Important figures
+
+![Figure 1: Comparing Democracy-Supporting Responses in the Publication Data and the Corrected Data](dem_mood_fig1.png)
+
+![Figure 2: The Effect of Democracy on Change in Public Support](dem_mood_fig2.png)
+
+![Figure 3: Simulated Effects of Change in Democracy on Public Support](dem_mood_fig3.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{HuTaiSolt2022,
+ author={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},
+ title={On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy},
+ publisher={SocArXiv},
+ year={2022},
+ month={June}, 
+ url={osf.io/preprints/socarxiv/kd7mu},
+ doi={10.31235/osf.io/kd7mu}
+}
+```
