@@ -6,11 +6,13 @@ categories:
 bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
 csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
 editor: source
+draft: TRUE
 ---
 
 Today I spoke with the early-career researchers at the Politics of Inequality Cluster of Excellence at the University of Konstanz about my workflow.
 I was excited for the invitation, because I think how we do our work is important: having a good workflow helps us to be more efficient and [to minimize errors](https://fsolt.org/res/working-papers/hutaisolt2022/), which are both things to strive for.
 Here's what I talked about.
+
 
 ## Backup
 Sometime in 2007 or 2008, I had a hard drive fail in my main work machine.
@@ -18,7 +20,7 @@ I bought some software to recover the information on the drive, which seemed to 
 Only months (maybe even years) later did I realize that virtually all of my files for a big project had been lost.
 On the one hand, the paper was already forthcoming, so the years of effort weren't entirely in vain.
 On the other, all that stuff was _gone_, and I'd never be able to build on it.
-Here well over a decade later, it still makes my skin creep.
+Here well over a decade later, it still makes me shudder.
 
 So I got serious about backup.
 First, I use [Resilio Sync](https://www.resilio.com/individuals/) to keep copies of all the files in my Documents directory on my laptop on another machine that's in a closet at home.
@@ -67,8 +69,8 @@ RStudio recently released [Quarto](https://quarto.org), which is a super-powered
 ## Version Control
 Version control is used to track changes in documents over time, particularly documents that are code-heavy.
 I use git and [GitHub](https://github.com) for this purpose.
-Like backups, version control is a very good thing, and because all of your work is in the cloud, it facilitates collaboration, too.
-RStudio [makes this super easy](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN); see [Jenny Bryan](https://jennybryan.org/)'s http://happygitwithr.com/ to get set up.
+Like backups, version control is a very good thing, and because all of your work is in the cloud, it facilitates collaboration, too---I work with [a team](https://dcpo.org/team/) spread over eleven time zones, and GitHub makes it easy to have conversations about what we are doing and to keep our work integrated.^[In fairness, we also meet weekly on Zoom for a couple of hours.]
+RStudio [makes all of this super easy](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN); see [Jenny Bryan](https://jennybryan.org/)'s [_Happy Git with R_](http://happygitwithr.com/) for how to get set up.
 
 
 ## Large Dataset Storage
@@ -79,7 +81,7 @@ As long as the project is public, you can store even really big files there for 
 
 ## Slides
 For a while a decade or more ago now, I used [Beamer](https://latex-beamer.com) to write my presentation slides in $\LaTeX$, but I had always used [Apple's Keynote](https://www.apple.com/keynote/) for teaching, and I eventually came back to the idea that Keynote was the way to go for everything.
-I love the [fun things that Xaringan made possible](http://svmiller.com/miscelanea/svm-xaringan-example.html#1) for RMarkdown slides, and now Quarto offers similar capabilities, and I sometimes wish for the ease-of-updating that comes with literate programming, but given that most of my slide decks are used just once, the advantages of drag-and-drop and WYSIWYG formatting have won.
+I love the [fun things that Xaringan made possible](http://svmiller.com/miscelanea/svm-xaringan-example.html#1) for RMarkdown slides, and now Quarto offers similar capabilities, and I sometimes wish for the ease-of-updating that comes with literate programming, but given that most of my presentation slide decks are used just once, the advantages of drag-and-drop image positioning and WYSIWYG formatting have won.
 For now.
 
 
@@ -96,6 +98,7 @@ Having a website is a crucial part of getting yourself and your work known by th
 [My very first website](https://web.archive.org/web/20021123042649/http://www.unc.edu/~fredsolt/) is recorded for posterity at the [Internet Archive's Wayback Machine](https://web.archive.org), which is also a tool I end up using pretty often to prevent link rot in scripts and course assignments.
 Anyway, after using [Jekyll](https://jekyllrb.com) and then [blogdown](http://cmcr-class.rbind.io/blog/2019/01/29/blogdown-for-academics/), I now use Quarto to write my website and [GitHub Pages](https://quarto.org/docs/websites/publishing-websites.html#github-pages) to publish it.
 
+
 ## Preprints
 When I finish a draft and it's ready to send out for review, right at the same time I upload the paper to the [Open Science Foundation](https://osf.io) and submit it to [SocArXiv](https://osf.io/preprints/socarxiv/).
 Having this preprint on SocArXiv makes the paper really easy for me to share (and for others to find and read and use) while it is under review.
@@ -109,4 +112,6 @@ I also use the Dataverse to host the twice-annual updates to [the SWIID](https:/
 
 
 ## Social Networking
-Twitter
+For me, the last step is then to announce the publication [on Twitter](http://twitter.com/fredericksolt).
+Some people are really good at using Twitter to collect and test research ideas and intermediate products (e.g., [Alice Evans](https://twitter.com/_alice_evans))---real time and continuous peer review---and you should consider trying that, too.
+
