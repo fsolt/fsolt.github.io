@@ -330,6 +330,8 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/posts/my-workflow/index.html",
+      "/blog/posts/swiid-version-9-3-is-available/index.html",
       "/blog/posts/swiid-version-9-2-is-available/index.html",
       "/blog/posts/swiid-version-9-0-is-available/index.html",
       "/blog/posts/swiid-version-8-3-is-available/index.html",
