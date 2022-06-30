@@ -1,7 +1,7 @@
 ---
-title: "SWIID Version 9.2 is available!"
+title: "SWIID Version 9.3 is available!"
 author: Frederick Solt
-date: '2021-12-22'
+date: '2022-06-24'
 categories:
   - update
   - swiid
@@ -52,6 +52,8 @@ ggplot(data=brics, aes(x=year, y=gini_disp, colour=country)) +
  	geom_text(aes(1993, 24,label = "Russia", colour="Russia"), size=4.5) +
 	geom_text(aes(1980, 32,label = "China", colour="China"), size=4.5) +
   annotate("text", x = 2015, y = 21, size = 4, color="gray40", label="SWIID Version 9.3")
+
+ggsave("/Users/fredsolt/Documents/Projects/swiid/vignette/bric.pdf")
 ```
 
 ```{r highest, echo=FALSE, message=FALSE, warning=FALSE}
@@ -91,6 +93,7 @@ ggplot(swiid_last) +
   annotate("text", x = 13, y = 68, size=4, color="gray40", label=highest_country_lab) +
   annotate("text", x = 44, y = 31, size=4, color="gray40", label="SWIID Version 9.3")
 
+ggsave("/Users/fredsolt/Documents/Projects/swiid/vignette/highest_ineq.pdf")
 ```
 
 For more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid). As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.

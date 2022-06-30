@@ -19,6 +19,7 @@ listing:
 categories:
     - inequality
     - participation
+    - democracy
 ---
 
 :::{#cite}
