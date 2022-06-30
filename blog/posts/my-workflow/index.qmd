@@ -10,8 +10,8 @@ draft: FALSE
 ---
 
 Today there was a workshop on at the [Cluster of Excellence Politics of Inequality](https://www.exc.uni-konstanz.de/en/inequality/) on research workflows with presentations by [Maarten Buis](http://www.maartenbuis.nl) and me.
-I was excited for the invitation to speak at the workshop, because I think how we do our work is important: having a good workflow helps us to be more efficient, [to minimize errors](https://fsolt.org/res/working-papers/hutaisolt2022/), and so make our work more credible, which are all things to strive for.
-Here are the notes I spoke from.
+I was excited for the invitation to speak at the workshop, because I think how we do our work is important: having a good workflow helps us to be more efficient, [minimize errors](https://fsolt.org/res/working-papers/hutaisolt2022/), and so make our work more credible, which are all things to strive for.
+Here are the elements of my workflow that I talked about.
 
 
 ## Automated Backup
@@ -66,7 +66,7 @@ I adopted the [tidyverse](https://www.tidyverse.org) as it grew and [teach it to
 - Wrangling data: the [tidyverse](https://www.tidyverse.org) is my starting point. The [janitor](https://cran.r-project.org/web/packages/janitor/index.html) package has the `clean_names()` function which I use all the time. The [countrycode](https://vincentarelbundock.github.io/countrycode/) package provides standardized country names; imo, it is indispensable for broadly cross-national work.  I wrote [DCPOtools](https://github.com/fsolt/DCPOtools) for working with large numbers of survey datasets to estimate [dynamic comparative public opinion](https://dcpo.org), and now I use it all the time.
 - Presenting raw data: I use `ggplot` which is part of the tidyverse for this; my favorite guide is the [Cookbook for R](http://www.cookbook-r.com/)'s [chapter on graphs](http://www.cookbook-r.com/Graphs/) 
 - Analysis: many of my projects have used multi-level models, and the [lme4 package](https://cran.r-project.org/package=lme4) is the key tool for that.
-- Presenting results: As soon as I read it, I was sold on the argument of @Kastellec2009 that we should always use plots instead of tables, and [Hu Yue](https://sammo3182.github.io/) and I wrote [dotwhisker](https://sammo3182.github.io/software/dotwhisker/) back in 2015 to make that easy. 
+- Presenting results: As soon as I read it, I was sold on the argument of [Kastellec and Leoni's 2009 _Perspectives on Politics_ article](https://doi.org/10.1017/S1537592707072209) that we should always use plots instead of tables, and [Hu Yue](https://sammo3182.github.io/) and I wrote [dotwhisker](https://sammo3182.github.io/software/dotwhisker/) back in 2015 to make that easy. 
 - Presenting quantities of interest: [Hu Yue](https://sammo3182.github.io/) and I also wrote the ([interplot](https://sammo3182.github.io/interplot/)) package to present the marginal effects plots needed to understand interaction terms.
 
 
