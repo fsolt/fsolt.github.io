@@ -102,7 +102,8 @@ As long as the project is public, you can store even really big files there for 
 ## Slides
 For a while a decade or more ago now, I used [Beamer](https://latex-beamer.com) to write my presentation slides in $\LaTeX$, but I had always used [Apple's Keynote](https://www.apple.com/keynote/) for teaching, and I eventually came back to the idea that Keynote was the way to go for everything.
 I love the [fun things that Xaringan made possible](http://svmiller.com/miscelanea/svm-xaringan-example.html#1) for RMarkdown slides, and now Quarto offers similar capabilities, and I sometimes wish for the ease-of-updating that comes with literate programming, but given that most of my presentation slide decks are used just once, the advantages of drag-and-drop image positioning and WYSIWYG formatting have won.
-For now.
+For now.  
+(Perhaps ironically, I used Quarto to write the slides I presented at the workshop, because it was so easy to trim down a copy of this blog post and have Quarto turn it into slides.)
 
 
 ## Course Management

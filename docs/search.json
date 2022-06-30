@@ -1404,7 +1404,7 @@
     "href": "blog/posts/my-workflow/index.html#slides",
     "title": "My Workflow",
     "section": "Slides",
-    "text": "Slides\nFor a while a decade or more ago now, I used Beamer to write my presentation slides in \\(\\LaTeX\\), but I had always used Apple’s Keynote for teaching, and I eventually came back to the idea that Keynote was the way to go for everything. I love the fun things that Xaringan made possible for RMarkdown slides, and now Quarto offers similar capabilities, and I sometimes wish for the ease-of-updating that comes with literate programming, but given that most of my presentation slide decks are used just once, the advantages of drag-and-drop image positioning and WYSIWYG formatting have won. For now."
+    "text": "Slides\nFor a while a decade or more ago now, I used Beamer to write my presentation slides in \\(\\LaTeX\\), but I had always used Apple’s Keynote for teaching, and I eventually came back to the idea that Keynote was the way to go for everything. I love the fun things that Xaringan made possible for RMarkdown slides, and now Quarto offers similar capabilities, and I sometimes wish for the ease-of-updating that comes with literate programming, but given that most of my presentation slide decks are used just once, the advantages of drag-and-drop image positioning and WYSIWYG formatting have won. For now.\n(Perhaps ironically, I used Quarto to write the slides I presented at the workshop, because it was so easy to trim down a copy of this blog post and have Quarto turn it into slides.)"
   },
   {
     "objectID": "blog/posts/my-workflow/index.html#course-management",
