@@ -1348,14 +1348,14 @@
     "href": "blog/posts/my-workflow/index.html",
     "title": "My Workflow",
     "section": "",
-    "text": "Today I spoke with the early-career researchers at the Politics of Inequality Cluster of Excellence at the University of Konstanz about my workflow. I was excited for the invitation, because I think how we do our work is important: having a good workflow helps us to be more efficient, to minimize errors, and so make our work more credible, which are all things to strive for. Here are the notes I spoke from."
+    "text": "Today there was a workshop on at the Cluster of Excellence Politics of Inequality on research workflows with presentations by Maarten Buis and me. I was excited for the invitation to speak at the workshop, because I think how we do our work is important: having a good workflow helps us to be more efficient, to minimize errors, and so make our work more credible, which are all things to strive for. Here are the notes I spoke from."
   },
   {
-    "objectID": "blog/posts/my-workflow/index.html#backup",
-    "href": "blog/posts/my-workflow/index.html#backup",
+    "objectID": "blog/posts/my-workflow/index.html#automated-backup",
+    "href": "blog/posts/my-workflow/index.html#automated-backup",
     "title": "My Workflow",
-    "section": "Backup",
-    "text": "Backup\nSometime in 2007 or 2008, I had a hard drive fail in my main work machine. I bought some software to recover the information on the drive, which seemed to work perfectly. Only months—maybe even years—later did I realize that virtually all of my files for a big project had been lost. On the one hand, the paper was already forthcoming, so the years of effort weren’t entirely in vain. On the other, all that stuff was gone, and I’d never be able to build on it. Here well over a decade later, it still makes me shudder.\nSo I got serious about backup. First, I use Resilio Sync to keep copies of all the files in my Documents directory on my laptop on another machine that’s in a closet at home. That machine uses Apple’s Time Machine to back up those files again to an external drive and it uses Acq Backup to also back them up to Amazon Glacier Storage.1\nDrives are much more robust today, but bad things—fires, floods, a lost computer bag—can still happen. Back your stuff up! There are lots of options in this space; choose one (or, like me, a couple) and set them up to run automatically. Then you can check in on those processes once in a while (the weak point in mine is that the flaky power grid ends up shutting down the closet computer once in a while) but mostly never worry about it again. Your career deserves this insurance policy."
+    "section": "Automated Backup",
+    "text": "Automated Backup\nSometime in 2007 or 2008, I had a hard drive fail in my main work machine. I bought some software to recover the information on the drive, which seemed to work perfectly. Only months—maybe even years—later did I realize that virtually all of my files for a big project had been lost. On the one hand, the paper was already forthcoming, so the years of effort weren’t entirely in vain. On the other, all that stuff was gone, and I’d never be able to build on it. Here well over a decade later, it still makes me shudder.\nSo I got serious about backup. First, I use Resilio Sync to keep copies of all the files in my Documents directory on my laptop on another machine that’s in a closet at home. That machine uses Apple’s Time Machine to back up those files again to an external drive and it uses Acq Backup to also back them up to Amazon Glacier Storage.1\nDrives are much more robust today, but bad things—fires, floods, a lost computer bag—can still happen. Back your stuff up! There are lots of options in this space; choose one (or, like me, a couple) and set them up to run automatically. Then you can check in on those processes once in a while (the weak point in mine is that the flaky power grid ends up shutting down the closet computer once in a while) but mostly never worry about it again. Your career deserves this insurance policy."
   },
   {
     "objectID": "blog/posts/my-workflow/index.html#discovery",
@@ -1440,6 +1440,13 @@
     "title": "My Workflow",
     "section": "Social Networking",
     "text": "Social Networking\nFor me, the last step is then to announce the publication on Twitter. Some people are really good at using Twitter to collect and test research ideas and intermediate products (e.g., Alice Evans)—real time and continuous peer review—and you should consider trying that, too. It’s amazing. The closest I personally come to that, though, is tweeting about a presentation I gave."
+  },
+  {
+    "objectID": "blog/posts/my-workflow/index.html#afterward",
+    "href": "blog/posts/my-workflow/index.html#afterward",
+    "title": "My Workflow",
+    "section": "Afterward",
+    "text": "Afterward\nOne of the best of the excellent questions we were asked after our presentations is where to start. Maarten replied that the first step is having all of your work for a given project in a single directory, and having a consistent structure that you use for all such directories. I agreed entirely—RStudio projects do that for you by default, but you have to use them—and added that next is having automated backups and using reference management software. Other pieces you may want can be added over time, as you find need for—and grow more comfortable with—the tools used for them."
   },
   {
     "objectID": "blog/posts/swiid-version-6-2-now-available/index.html",

@@ -9,12 +9,12 @@ editor: source
 draft: FALSE
 ---
 
-Today I spoke with the early-career researchers at the Politics of Inequality Cluster of Excellence at the University of Konstanz about my workflow.
-I was excited for the invitation, because I think how we do our work is important: having a good workflow helps us to be more efficient, [to minimize errors](https://fsolt.org/res/working-papers/hutaisolt2022/), and so make our work more credible, which are all things to strive for.
+Today there was a workshop on at the [Cluster of Excellence Politics of Inequality](https://www.exc.uni-konstanz.de/en/inequality/) on research workflows with presentations by [Maarten Buis](http://www.maartenbuis.nl) and me.
+I was excited for the invitation to speak at the workshop, because I think how we do our work is important: having a good workflow helps us to be more efficient, [to minimize errors](https://fsolt.org/res/working-papers/hutaisolt2022/), and so make our work more credible, which are all things to strive for.
 Here are the notes I spoke from.
 
 
-## Backup
+## Automated Backup
 Sometime in 2007 or 2008, I had a hard drive fail in my main work machine.
 I bought some software to recover the information on the drive, which seemed to work perfectly.
 Only months---maybe even years---later did I realize that virtually all of my files for a big project had been lost.
@@ -146,3 +146,8 @@ It's amazing.
 The closest I personally come to that, though, is tweeting about a presentation I gave.
 
 
+## Afterward
+One of the best of the excellent questions we were asked after our presentations is where to start.
+Maarten replied that the first step is having all of your work for a given project in a single directory, and having a consistent structure that you use for all such directories.
+I agreed entirely---RStudio projects do that for you by default, but you have to use them---and added that next is having automated backups and using reference management software.
+Other pieces you may want can be added over time, as you find need for---and grow more comfortable with---the tools used for them.
