@@ -6,18 +6,18 @@ categories:
 bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
 csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
 editor: source
-draft: TRUE
+draft: FALSE
 ---
 
 Today I spoke with the early-career researchers at the Politics of Inequality Cluster of Excellence at the University of Konstanz about my workflow.
-I was excited for the invitation, because I think how we do our work is important: having a good workflow helps us to be more efficient and [to minimize errors](https://fsolt.org/res/working-papers/hutaisolt2022/), which are both things to strive for.
-Here's what I talked about.
+I was excited for the invitation, because I think how we do our work is important: having a good workflow helps us to be more efficient, [to minimize errors](https://fsolt.org/res/working-papers/hutaisolt2022/), and so make our work more credible, which are all things to strive for.
+Here are the notes I spoke from.
 
 
 ## Backup
 Sometime in 2007 or 2008, I had a hard drive fail in my main work machine.
 I bought some software to recover the information on the drive, which seemed to work perfectly.
-Only months (maybe even years) later did I realize that virtually all of my files for a big project had been lost.
+Only months---maybe even years---later did I realize that virtually all of my files for a big project had been lost.
 On the one hand, the paper was already forthcoming, so the years of effort weren't entirely in vain.
 On the other, all that stuff was _gone_, and I'd never be able to build on it.
 Here well over a decade later, it still makes me shudder.
@@ -34,6 +34,10 @@ Then you can check in on those processes once in a while (the weak point in mine
 Your career deserves this insurance policy.
 
 
+## Discovery
+Finding out about work that will help in your research is an important step.  I subscribe to a bunch of journals' email lists so I get their tables of contents in my inbox.  And of course I use [Google Scholar](https://scholar.google.com) both to search by keyword and to snowball from a work I have already found---that is, to look through the works that have cited that first piece since it was published.
+
+
 ## Reference Management
 Your absolute quickest workflow payoff is to adopt reference management software for bibliographies.
 Hand typing bibliographies takes a lot of time, it's no fun, you're going to make mistakes, and the computer is happy to do it for you.
@@ -47,23 +51,39 @@ I have used [BibDesk](https://bibdesk.sourceforge.io) as my Bib$\TeX$ front end 
 I keep thinking about shifting to [Zotero](https://www.zotero.org/download/) for this.
 Maybe someday that will happen.
 
-Anyway, whenever I read anything I think I might use, I download its Bib$\TeX$ file from the journal^[If it's a book, I use BibDesk's search of the U.S. Library of Congress] and the pdf.
+Anyway, whenever I read anything I think I might use, I download its Bib$\TeX$ file from the journal^[If it's a book, I use BibDesk's search of the U.S. Library of Congress.] and the pdf.
 I take a second right then to double-check that all of the information is accurate---that the authors' full first names are there rather than just an initial, etc.---and then I never have to even think of typing that stuff ever again.
 
 
 ## Statistical Analysis
-I was trained in Stata and was totally into it for many years (and I mean totally: I repeatedly paid the seriously big bucks for the 8MP version, and I was campus rep for the company at my university).
-But since maybe 2012, [after three or four years of transition](https://fsolt.org/blog/posts/switch-to-r/), I have used [R](https://cran.r-project.org) more or less exclusively, and I use [RStudio Desktop](https://www.rstudio.com/products/rstudio/) as an IDE.
-As I've [written elsewhere](https://fsolt.org/blog/posts/switch-to-r/), I'd say R's advantages are that R is free and open source, it has superior graphical capabilities, "the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it’s in Stata, the way RStudio makes it dead easy to do reproducible research through dynamic documents and version control, and, once again, the free part."
-I adopted the [tidyverse](https://www.tidyverse.org) as it grew and [teach it to my students, too](http://varianceexplained.org/r/teach-tidyverse/)---in my opinion, it really makes R easier to learn and use.
-Other packages that seemingly make it into everything I write are [countrycode](https://vincentarelbundock.github.io/countrycode/), which makes merging cross-national datasets much easier, [dotwhisker](https://sammo3182.github.io/software/dotwhisker/), which I wrote with [Hu Yue](https://sammo3182.github.io/) to draw regression plots along the lines proposed by @Kastellec2007, and more recently, [DCPOtools](https://github.com/fsolt/DCPOtools), for working with large numbers of survey datasets to estimate [dynamic comparative public opinion](https://dcpo.org).
+I was trained in Stata and was totally into it for many years (and I mean totally: I repeatedly paid the seriously big bucks for the 8MP version, and I was campus representative for the company at my university).
+But since maybe 2012, [after three or four years of slowly moving my workflow over](https://fsolt.org/blog/posts/switch-to-r/), I have used [R](https://cran.r-project.org) more or less exclusively, and I use [RStudio Desktop](https://www.rstudio.com/products/rstudio/) as my IDE.
+As I've [written elsewhere](https://fsolt.org/blog/posts/switch-to-r/), I'd say R's advantages include being free and open source, superior graphical capabilities, "the super-helpful community, the transferable job skills you can teach your students, the free part, the cutting-edge stuff available years before it’s in Stata, the way RStudio makes it dead easy to do reproducible research through dynamic documents and version control, and, once again, the free part."
+I adopted the [tidyverse](https://www.tidyverse.org) as it grew and [teach it to my students, too](http://varianceexplained.org/r/teach-tidyverse/)---in my experience, it really does make R *much* easier to learn and use.  Here's an outline of my data analysis workflow and what I use to get it done:
+
+- Scraping data: the general tools are [rvest](https://rvest.tidyverse.org) ([see my how-to here](http://cmcr-class.rbind.io/blog/2019/03/14/scraping-data/)), and [rselenium](https://docs.ropensci.org/RSelenium/index.html), but always look for a specialized package first, like [icprsrdata](https://cran.r-project.org/web/packages/icpsrdata/index.html)
+- Loading data: [rio](https://cran.r-project.org/package=rio) is my go-to---it will load almost anything with minimal configuration
+- Wrangling data: the [tidyverse](https://www.tidyverse.org) is my starting point. The [janitor](https://cran.r-project.org/web/packages/janitor/index.html) package has the `clean_names()` function which I use all the time. The [countrycode](https://vincentarelbundock.github.io/countrycode/) package provides standardized country names; imo, it is indispensable for broadly cross-national work.  I wrote [DCPOtools](https://github.com/fsolt/DCPOtools) for working with large numbers of survey datasets to estimate [dynamic comparative public opinion](https://dcpo.org), and now I use it all the time.
+- Presenting raw data: I use `ggplot` which is part of the tidyverse for this; my favorite guide is the [Cookbook for R](http://www.cookbook-r.com/)'s [chapter on graphs](http://www.cookbook-r.com/Graphs/) 
+- Analysis: many of my projects have used multi-level models, and the [lme4 package](https://cran.r-project.org/package=lme4) is the key tool for that.
+- Presenting results: As soon as I read it, I was sold on the argument of @Kastellec2009 that we should always use plots instead of tables, and [Hu Yue](https://sammo3182.github.io/) and I wrote [dotwhisker](https://sammo3182.github.io/software/dotwhisker/) back in 2015 to make that easy. 
+- Presenting quantities of interest: [Hu Yue](https://sammo3182.github.io/) and I also wrote the ([interplot](https://sammo3182.github.io/interplot/)) package to present the marginal effects plots needed to understand interaction terms.
 
 
-## Literate Programming
-Literate programming refers to having all of your statistical analysis and all of your writing together in a single document that re-runs your analyses every time you compile the document, so that any changes in, say, your data get automatically reflected into changes in your figures, tables, and even descriptions in the text.
+I also do a lot of work using a Bayesian approach to estimate latent variables with models coded up [in Stan](https://mc-stan.org).
+For a while I used [the RStan package](https://mc-stan.org/users/interfaces/rstan.html) to interface with Stan, but I recently switched to [CmdStanR](https://mc-stan.org/cmdstanr): it's a lot faster.
+Between CmdStanR and Apple's M1 Max chip, I can do most of my jobs quickly locally rather than sending everything out to [the high-performance cluster](https://hpc.uiowa.edu/).
+HPC is still undeniably handy for running [k-fold cross-validations](https://fsolt.org/blog/posts/cross-validation-for-swiid/), though.
+
+
+## Dynamic Documents
+Writing dynamic documents refers to having all of your statistical analysis and all of your writing together in a single document that re-runs your analyses every time you compile the document, so that any changes in, say, your data get automatically reflected into changes in your figures, tables, and even descriptions in the text.
 I'm a huge fan---it's super efficient and, done well, it ensures your work is always reproducible.
-To take advantage of this, I moved from straight $\LaTeX$ to [Sweave](https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr), which embeds R code in $\LaTeX$, and then switched to [RMarkdown](https://rmarkdown.rstudio.com), which as the name suggests is R code in the much simpler and more intuitive [Markdown](https://www.markdownguide.org) language, when it came out.
-RStudio recently released [Quarto](https://quarto.org), which is a super-powered update to RMarkdown, and I guess I'll make that switch for my next new paper.
+To take advantage of this, I moved from straight $\LaTeX$ to [Sweave](https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr), which embeds R code in $\LaTeX$, and then switched to [RMarkdown](https://rmarkdown.rstudio.com), which as the name suggests is R code embedded in the much simpler and more intuitive [Markdown](https://www.markdownguide.org) language, when it came out.
+RStudio recently released [Quarto](https://quarto.org), which is like a thoroughgoing revision and update to RMarkdown, and I'll probably make that switch for some new project coming up soon.
+
+My practice is to have just one document that starts by downloading the raw data, then does all the data wrangling, descriptive plots, analyses, [results plots](https://sammo3182.github.io/software/dotwhisker/), and plotted [simulations of quantities of interest](https://www.jstor.org/stable/2669316) right there, together with the text.
+Admittedly, using the HPC breaks this model a bit, and once in a while my coauthors overrule me, but this is how I vastly prefer to work: having everything in a single document ensures that everything fits together correctly and reproducibly.
 
 
 ## Version Control
@@ -74,7 +94,7 @@ RStudio [makes all of this super easy](https://support.rstudio.com/hc/en-us/arti
 
 
 ## Large Dataset Storage
-Sometimes I need to save datasets somewhere online so that they can be downloaded by my literately-programmed papers.
+Sometimes I need to save datasets somewhere online so that they can be downloaded by my dynamic papers.
 That's when I turn to the [Open Science Foundation](https://osf.io) and start a public project for the paper.
 As long as the project is public, you can store even really big files there for free.
 
@@ -87,16 +107,24 @@ For now.
 
 ## Course Management
 The University of Iowa is now a [Canvas](https://www.instructure.com/canvas) shop, and so I use Canvas for almost all of my teaching more or less by default.
-I recorded all of my lectures in [Panopto](https://www.panopto.com), but I sometimes think I should have just put everything on YouTube to avoid being locked into that company's format.
+I use the [rcanvas](https://github.com/daranzolin/rcanvas) package in a script that downloads and combines all of the assignment grades into final grades at the end of the semester and generates csv files for uploading to the university's grading system so I don't have to do all that data entry by hand.
+
+I recorded all of my lectures in [Panopto](https://www.panopto.com), but I sometimes think I should have just put everything on YouTube to avoid being locked into Panopto's format---that format leaves me wondering how hard it will be to edit things (which I haven't really tried) rather than just replacing an entire clip (which of course I've done).
 That was a decision made in the heat of the pandemic, so it may be revisited at some point.
-I also have one graduate course, on [Computational Methods for Comparative Politics](http://cmcr-class.rbind.io), that I teach with [Github Education](https://education.github.com/teachers), which I like a lot.
-I'd be tempted to move more of my teaching there, but Canvas integration with the university's enrollment system and so on win out.
+One trick that is part of my workflow for recording lectures comes from the vlogging/livestream world: always wear the same shirt.  
+It makes you instantly recognizable---like a cartoon character---and builds comfort.
+(It also, potentially, makes edits less jarring.)
+
+I have a graduate course on [Computational Methods for Comparative Politics](http://cmcr-class.rbind.io) that I teach with [Github Education](https://education.github.com/teachers), which I like a lot.
+I'd be tempted to move more of my teaching to that platform, but Canvas integration with the university's enrollment system and so on wins out most of the time.
 
 
 ## Websites
 Having a website is a crucial part of getting yourself and your work known by the broader scholarly community.
-[My very first website](https://web.archive.org/web/20021123042649/http://www.unc.edu/~fredsolt/) is recorded for posterity at the [Internet Archive's Wayback Machine](https://web.archive.org), which is also a tool I end up using pretty often to prevent link rot in scripts and course assignments.
+[My very first website](https://web.archive.org/web/20021123042649/http://www.unc.edu/~fredsolt/), from back when I was in graduate school, is recorded for posterity at the [Internet Archive's Wayback Machine](https://web.archive.org), which is also a tool I end up using pretty often to prevent link rot in scripts and course assignments.
 Anyway, after using [Jekyll](https://jekyllrb.com) and then [blogdown](http://cmcr-class.rbind.io/blog/2019/01/29/blogdown-for-academics/), I now use Quarto to write my website and [GitHub Pages](https://quarto.org/docs/websites/publishing-websites.html#github-pages) to publish it.
+
+Since I generate and publish [a lot](https://fsolt.org/swiid/) of data that I want people to discover, explore, and use, I include interactive graphics of these datasets on my websites.  There are other options, of course, but I use [Shiny](https://shiny.rstudio.com) to build these because it allows all the work to be done in R.
 
 
 ## Preprints
@@ -114,4 +142,7 @@ I also use the Dataverse to host the twice-annual updates to [the SWIID](https:/
 ## Social Networking
 For me, the last step is then to announce the publication [on Twitter](http://twitter.com/fredericksolt).
 Some people are really good at using Twitter to collect and test research ideas and intermediate products (e.g., [Alice Evans](https://twitter.com/_alice_evans))---real time and continuous peer review---and you should consider trying that, too.
+It's amazing.
+The closest I personally come to that, though, is tweeting about a presentation I gave.
+
 
