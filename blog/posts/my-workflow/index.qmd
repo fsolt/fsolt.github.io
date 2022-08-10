@@ -1,6 +1,7 @@
 ---
 title: "My Workflow"
 author: "Frederick Solt"
+date: '2022-07-01'
 categories:
   - note
 bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
