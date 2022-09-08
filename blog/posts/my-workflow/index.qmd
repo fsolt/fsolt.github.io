@@ -19,7 +19,7 @@ Here are the elements of my workflow that I talked about.
 Sometime in 2007 or 2008, I had a hard drive fail in my main work machine.
 I bought some software to recover the information on the drive, which seemed to work perfectly.
 Only months---maybe even years---later did I realize that virtually all of my files for a big project had been lost.
-On the one hand, the paper was already forthcoming, so the years of effort weren't entirely in vain.
+On the one hand, the paper was already out, so the years of effort weren't entirely in vain.
 On the other, all that stuff was _gone_, and I'd never be able to build on it.
 Here well over a decade later, it still makes me shudder.
 
