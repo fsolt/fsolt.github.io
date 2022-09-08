@@ -25,3 +25,6 @@ Powered by [RStudio](http://shiny.rstudio.com).
 Please cite the SWIID as follows:
 
 Solt, Frederick. 2020. "Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database." _Social Science Quarterly_ 101(3):1183-1199.  SWIID Version 9.3, June 2022.  <br />[Download BibTeX citation](/papers/solt2020/solt2020.bib).
+<br />
+
+I gratefully acknowledge the support for the SWIID provided by the [U.S. National Science Foundation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746), the University of Konstanz [Cluster of Excellence Politics of Inequality](https://www.exc.uni-konstanz.de/en/inequality/), the [Department of Political Science](http://clas.uiowa.edu/polisci/) and [College of Liberal Arts and Sciences](http://clas.uiowa.edu/) at the University of Iowa, and the [Department of Political Science](https://academics.siu.edu/public-policy/political-science/) and [College of Liberal Arts](https://cola.siu.edu) of Southern Illinois University, Carbondale.
