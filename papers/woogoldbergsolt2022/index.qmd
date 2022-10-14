@@ -1,0 +1,5 @@
+---
+title: woogoldbergsolt2022
+header-includes: |
+  <meta http-equiv="Refresh" content="0; URL=https://doi.org/10.1017/S0007123422000436">
+---
