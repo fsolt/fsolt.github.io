@@ -17,9 +17,9 @@ extra: >
     Presented at the annual meeting of the 
     Midwest Political Science Association (MPSA), April 2022.
 links:
-# - name: Final version
-#   url: ""
-#   icon: fas fa-scroll
+- name: Final version
+  url: /papers/woogoldbergsolt2022
+  icon: fas fa-scroll
 - name: Preprint
   url: /papers/woogoldbergsolt2022_pre
   icon: far fa-file-pdf
