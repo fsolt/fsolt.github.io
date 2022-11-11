@@ -11,12 +11,12 @@ links:
   - name: Final version
     url: ../../../papers/solthabelgrant2011
     icon: fas fa-scroll
-  - name: Preprint
-    url: NA
-    icon: far fa-file-pdf
-  - name: Code
-    url: NA
-    icon: fa-brands fa-github
+  # - name: Preprint
+  #   url: NA
+  #   icon: far fa-file-pdf
+  # - name: Code
+  #   url: NA
+  #   icon: fa-brands fa-github
   - name: Dataverse
     url: http://dx.doi.org/10.7910/DVN/27479
     icon: fas fa-table
