@@ -28,9 +28,9 @@ links:
 - name: Dataverse
   url: "https://doi.org/10.7910/DVN/XAUF3H"
   icon: fas fa-table
-- name: DSD Database
-  url: https://dcpo.org/data/dsd/
-  icon: fa-solid fa-database
+# - name: DSD Database
+#   url: https://dcpo.org/data/dsd/
+#   icon: fa-solid fa-database
 status: Forthcoming
 status_class: warning
 status_icon: fa-regular fa-clock

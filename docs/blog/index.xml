@@ -129,6 +129,42 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
   <pubDate>Fri, 01 Jul 2022 05:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>SWIID Version 9.4 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+
+</div>
+<p>Hi everyone! Version 9.4 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 5494 new Ginis since version 9.3, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2022-autumn-data-splash/">Austria, China, Norway, Peru, the United Kingdom, Canada, and Chile</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 54 more country-years than version 9.3.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</guid>
+  <pubDate>Fri, 24 Jun 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
   <title>SWIID Version 9.3 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
   <link>https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index.html</link>
@@ -933,30 +969,6 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
   <category>r</category>
   <guid>https://fsolt.org/blog/posts/dotwhisker-for-apsa/index.html</guid>
   <pubDate>Thu, 30 Jul 2015 15:15:01 GMT</pubDate>
-</item>
-<item>
-  <title>Now on CRAN: interplot</title>
-  <link>https://fsolt.org/blog/posts/now-on-cran-interplot/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Hu Yue and I just published <a href="https://cran.r-project.org/web/packages/interplot"><code>interplot</code> on CRAN</a>, our first R package. <code>interplot</code> makes graphing the coefficients of variables in interaction terms easy. It outputs <code>ggplot</code> objects, so further customization is simple. Check out <a href="https://cran.r-project.org/web/packages/interplot/vignettes/interplot-vignette.html">the vignette</a> and give it a try!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/blog/posts/now-on-cran-interplot/images/interplot1.png" class="imageStyle img-fluid figure-img"></p>
-</figure>
-</div>
-
-
-
- ]]></description>
-  <category>note</category>
-  <category>interplot</category>
-  <category>r</category>
-  <guid>https://fsolt.org/blog/posts/now-on-cran-interplot/index.html</guid>
-  <pubDate>Fri, 26 Jun 2015 14:40:01 GMT</pubDate>
-  <media:content url="https://fsolt.org//blog/posts/now-on-cran-interplot/images/interplot1.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 </channel>
 </rss>
