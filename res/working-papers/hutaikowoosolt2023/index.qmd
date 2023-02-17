@@ -1,0 +1,86 @@
+---
+title: "Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid"
+date: 2023-02-16
+cite: >
+  [Hu, Yue](https://sammo3182.github.io),
+  [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), 
+  [Hyein Ko](https://www.heyikon.com),
+  [Byung-Deuk Woo](https://www.byung-deuk-woo.org), and
+  **Frederick Solt**. 
+  2023.
+  "Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid."
+  _SocArXiv_.
+author:
+    - name: Yue Hu
+    - name: Yuehong Cassandra Tai
+    - name: Hyein Ko
+    - name: Byung-Deuk Woo
+    - name: Frederick Solt
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: "https://osf.io/preprints/socarxiv/rym8g/"
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dcpo_demsupport_data"
+  icon: fa-brands fa-github
+# - name: Data
+#   url: ""
+#   icon: fas fa-table
+# pub_status:
+#   status: Forthcoming
+#   class: warning
+#   icon: pencil-square
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# #   status: Revising
+# #   class: info
+# #   icon: fas fa-sync
+status: Under review
+status_class: success
+status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - attitudes
+  - democracy
+  - measurement
+  - dcpo
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Measuring democratic support as a single latent variable requires assuming that it falls along a single dimension from steadfast opposition to wholehearted support. This ignores ample evidence that support for democracy is complex and multidimensional. Here we provide a series of validation tests of the sort of cross-national time-series latent variable measures employed in recent research by reference to questions on support for liberal democracy and opposition to its erosion from multiwave surveys conducted around the world. These tests show that, across countries and years, this latent variable is nearly orthogonal to measures of support for contestation and participation; civil liberties; institutional constraints on executive power; and prioritizing democracy over the economy, economic equality, or order. We conclude that support for democracy in any robust sense is simply not well captured by a unidimensional latent variable. Such measures are powerful but researchers must be mindful of their limitations.
+
+## Important figures
+
+![Figure 1: Correlations Between Democratic Support as a Unidimensional Latent Variable and Polyarchy Survey Items](demsupport_data_fig1.png)
+
+![Figure 2: Correlations Between Democratic Support as a Unidimensional Latent Variable and Civil Liberties Survey Items](demsupport_data_fig2.png)
+
+![Figure 3: Correlations Between Democratic Support as a Unidimensional Latent Variable and Democratic Institutions Survey Items](demsupport_data_fig3.png)
+
+![Figure 4: Correlations Between Democratic Support as a Unidimensional Latent Variable and Prioritization Survey Items](demsupport_data_fig4.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{HuTaiSolt2022,
+ author={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},
+ title={Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid},
+ publisher={SocArXiv},
+ year={2023},
+ month={February}, 
+ url={osf.io/preprints/socarxiv/rym8g/},
+ doi={10.31235/osf.io/rym8g/}
+}
+```

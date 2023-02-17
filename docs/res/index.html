@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.351">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,19 +11,25 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
+
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
-<meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
 <link href="../fs.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
@@ -32,10 +38,10 @@ ul.task-list{list-style: none;}
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link id="quarto-text-highlighting-styles" href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,6 +83,12 @@ ul.task-list{list-style: none;}
       window['quarto-listing-loaded']();
     }
   });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
@@ -99,6 +111,12 @@ ul.task-list{list-style: none;}
       window['quarto-listing-loaded']();
     }
   });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
 <!-- Default Statcounter code -->
@@ -117,6 +135,7 @@ var sc_security="da58688a";
 <link rel="alternate" type="application/rss+xml" title="Frederick Solt" href="index.xml"><meta property="og:title" content="Frederick Solt - Research">
 <meta property="og:site-name" content="Frederick Solt">
 <meta name="twitter:title" content="Frederick Solt - Research">
+<meta name="twitter:site" content="@fredericksolt">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -126,57 +145,68 @@ var sc_security="da58688a";
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../index.html">
-    <img src="../fsolt.png" alt="">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../fsolt.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Frederick Solt</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../swiid/">SWIID</a>
+    <a class="nav-link" href="../swiid/">
+ <span class="menu-text">SWIID</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://dcpo.org">DCPO</a>
+    <a class="nav-link" href="https://dcpo.org">
+ <span class="menu-text">DCPO</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../res/">Research</a>
+    <a class="nav-link" href="../res/">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teach/">Teaching</a>
+    <a class="nav-link" href="../teach/">
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sw/">Software</a>
+    <a class="nav-link" href="../sw/">
+ <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/">Blog</a>
+    <a class="nav-link" href="../blog/">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/">CV</a>
+    <a class="nav-link" href="../cv/">
+ <span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="mailto:frederick-solt@uiowa.edu"><i class="bi bi-envelope" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/fredericksolt"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fsolt/"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ"><i class="bi bi-mortarboard" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -209,7 +239,7 @@ var sc_security="da58688a";
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="attitudes"><span class="quarto-category-count category-cloud-4">attitudes</span></div><div class="category" data-category="dcpo"><span class="quarto-category-count category-cloud-2">dcpo</span></div><div class="category" data-category="democracy"><span class="quarto-category-count category-cloud-4">democracy</span></div><div class="category" data-category="inequality"><span class="quarto-category-count category-cloud-7">inequality</span></div><div class="category" data-category="measurement"><span class="quarto-category-count category-cloud-4">measurement</span></div><div class="category" data-category="neoliberalism"><span class="quarto-category-count category-cloud-1">neoliberalism</span></div><div class="category" data-category="participation"><span class="quarto-category-count category-cloud-3">participation</span></div><div class="category" data-category="parties"><span class="quarto-category-count category-cloud-1">parties</span></div><div class="category" data-category="religiosity"><span class="quarto-category-count category-cloud-1">religiosity</span></div><div class="category" data-category="swiid"><span class="quarto-category-count category-cloud-2">swiid</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="attitudes"><span class="quarto-category-count category-cloud-5">attitudes</span></div><div class="category" data-category="dcpo"><span class="quarto-category-count category-cloud-2">dcpo</span></div><div class="category" data-category="democracy"><span class="quarto-category-count category-cloud-5">democracy</span></div><div class="category" data-category="inequality"><span class="quarto-category-count category-cloud-7">inequality</span></div><div class="category" data-category="measurement"><span class="quarto-category-count category-cloud-4">measurement</span></div><div class="category" data-category="neoliberalism"><span class="quarto-category-count category-cloud-1">neoliberalism</span></div><div class="category" data-category="participation"><span class="quarto-category-count category-cloud-3">participation</span></div><div class="category" data-category="parties"><span class="quarto-category-count category-cloud-1">parties</span></div><div class="category" data-category="religiosity"><span class="quarto-category-count category-cloud-1">religiosity</span></div><div class="category" data-category="swiid"><span class="quarto-category-count category-cloud-2">swiid</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -220,11 +250,10 @@ var sc_security="da58688a";
 
 
 
-
-
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -741,7 +770,27 @@ No matching items
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
 <div id="listing-working-papers" class="quarto-listing quarto-listing-container-custom">
 <div class="list project-list">
-<li class="project" data-index="0" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1655787600000" data-listing-file-modified-sort="1669060522605" data-listing-reading-time-sort="1.025">
+<li class="project" data-index="0" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1676527200000" data-listing-file-modified-sort="1676675069156" data-listing-reading-time-sort="1.23">
+<div class="project-content">
+<p>
+<span class="status btn-success"><i class="fa-solid fa-glasses"></i> Under review</span> <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2023. “Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid.” <em>SocArXiv</em>.
+</p>
+</div>
+<div class="project-details">
+<ul class="project-links">
+<li class="project-link details">
+<a href="../res/working-papers/hutaikowoosolt2023/index.html"><i class="bi bi-info-circle-fill"></i> Full details »</a>
+</li>
+<li class="project-link">
+<a href="https://osf.io/preprints/socarxiv/rym8g/"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_demsupport_data"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="project" data-index="1" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1655787600000" data-listing-file-modified-sort="1669060522605" data-listing-reading-time-sort="1.025">
 <div class="project-content">
 <p>
 <span class="status btn-success"><i class="fa-solid fa-glasses"></i> Under review</span> <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
@@ -761,7 +810,7 @@ No matching items
 </ul>
 </div>
 </li>
-<li class="project" data-index="1" data-categories="dcpo,attitudes,measurement" data-listing-date-sort="1578808800000" data-listing-file-modified-sort="1669141617978" data-listing-reading-time-sort="0.955">
+<li class="project" data-index="2" data-categories="dcpo,attitudes,measurement" data-listing-date-sort="1578808800000" data-listing-file-modified-sort="1669141617978" data-listing-reading-time-sort="0.955">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2020. “Modeling Dynamic Comparative Public Opinion.” <em>SocArXiv</em>.
@@ -794,6 +843,24 @@ No matching items
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -815,7 +882,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -843,31 +927,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
