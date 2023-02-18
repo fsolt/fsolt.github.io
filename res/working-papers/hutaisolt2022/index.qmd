@@ -17,7 +17,7 @@ links:
 #   url: ""
 #   icon: fas fa-scroll
 - name: Preprint
-  url: "https://osf.io/preprints/socarxiv/kd7mu/"
+  url: /papers/hutaisolt2022_pre
   icon: far fa-file-pdf
 - name: Code
   url: "https://github.com/fsolt/dem_mood"

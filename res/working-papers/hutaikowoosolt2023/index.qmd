@@ -21,7 +21,7 @@ links:
 #   url: ""
 #   icon: fas fa-scroll
 - name: Preprint
-  url: "https://osf.io/preprints/socarxiv/rym8g/"
+  url: /papers/hutaikowoosolt2023_pre
   icon: far fa-file-pdf
 - name: Code
   url: "https://github.com/fsolt/dcpo_demsupport_data"

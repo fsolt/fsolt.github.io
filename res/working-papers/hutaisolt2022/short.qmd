@@ -4,7 +4,7 @@ date: 2022-06-21
 cite: >
   [Hu, Yue](https://sammo3182.github.io),
   [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), and
-  [Frederick Solt](https://fsolt.org). 
+  **Frederick Solt**. 
   2022.
   "On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy."
   _SocArXiv_.
@@ -17,7 +17,7 @@ links:
 #   url: ""
 #   icon: fas fa-scroll
 - name: Preprint
-  url: "https://osf.io/preprints/socarxiv/kd7mu/"
+  url: /papers/hutaisolt2022_pre
   icon: far fa-file-pdf
 - name: Code
   url: "https://github.com/fsolt/dem_mood"

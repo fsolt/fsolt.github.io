@@ -8,13 +8,15 @@
 <title>Frederick Solt</title>
 <link>https://fsolt.org/res/index.html</link>
 <atom:link href="https://fsolt.org/res/index.xml" rel="self" type="application/rss+xml"/>
-<description>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
+<description>Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
 <image>
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
 <link>https://fsolt.org/res/index.html</link>
+<height>144</height>
+<width>144</width>
 </image>
-<generator>quarto-1.2.269</generator>
+<generator>quarto-0.9.351</generator>
 <lastBuildDate>Thu, 16 Feb 2023 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid</title>
@@ -40,7 +42,7 @@
 </div>
 <ul class="project-links">
 <li class="project-link">
-<a href="https://osf.io/preprints/socarxiv/rym8g/"><i class="far fa-file-pdf"></i> Preprint</a>
+<a href="../../../papers/hutaikowoosolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 <li class="project-link">
 <a href="https://github.com/fsolt/dcpo_demsupport_data"><i class="fa-brands fa-github"></i> Code</a>
@@ -111,7 +113,7 @@ No matching items
   <category>dcpo</category>
   <guid>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</guid>
   <pubDate>Thu, 16 Feb 2023 06:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig1.png" medium="image" type="image/png" height="62" width="144"/>
+  <media:content url="https://fsolt.org//res/working-papers/hutaikowoosolt2023/demsupport_data_fig1.png" medium="image" type="image/png" height="62" width="144"/>
 </item>
 <item>
   <title>On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy</title>
@@ -130,12 +132,12 @@ No matching items
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <a href="https://fsolt.org">Frederick Solt</a>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
 </p>
 </div>
 <ul class="project-links">
 <li class="project-link">
-<a href="https://osf.io/preprints/socarxiv/kd7mu/"><i class="far fa-file-pdf"></i> Preprint</a>
+<a href="../../../papers/hutaisolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 <li class="project-link">
 <a href="https://github.com/fsolt/dem_mood"><i class="fa-brands fa-github"></i> Code</a>
@@ -200,7 +202,7 @@ No matching items
   <category>dcpo</category>
   <guid>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</guid>
   <pubDate>Tue, 21 Jun 2022 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig1.png" medium="image" type="image/png" height="113" width="144"/>
+  <media:content url="https://fsolt.org//res/working-papers/hutaisolt2022/dem_mood_fig1.png" medium="image" type="image/png" height="113" width="144"/>
 </item>
 <item>
   <title>Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere</title>
@@ -293,11 +295,11 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</guid>
   <pubDate>Fri, 01 Apr 2022 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/woogoldbergsolt2022/pge_fig3.png" medium="image" type="image/png" height="72" width="144"/>
+  <media:content url="https://fsolt.org//res/published/woogoldbergsolt2022/pge_fig3.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>Democracy, Public Support, and Measurement Uncertainty</title>
-  <dc:creator>Yuehong &#39;Cassandra&#39; Tai</dc:creator>
+  <dc:creator>Yuehong 'Cassandra' Tai</dc:creator>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
   <link>https://fsolt.org/res/published/taihusolt2022/index.html</link>
@@ -376,7 +378,7 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/taihusolt2022/index.html</guid>
   <pubDate>Fri, 25 Mar 2022 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/taihusolt2022/dem_support_fig1.png" medium="image" type="image/png" height="288" width="144"/>
+  <media:content url="https://fsolt.org//res/published/taihusolt2022/dem_support_fig1.png" medium="image" type="image/png" height="288" width="144"/>
 </item>
 <item>
   <title>Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database</title>
@@ -455,7 +457,7 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solt2020/index.html</guid>
   <pubDate>Sun, 03 May 2020 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solt2020/kfold_obs.png" medium="image" type="image/png" height="89" width="144"/>
+  <media:content url="https://fsolt.org//res/published/solt2020/kfold_obs.png" medium="image" type="image/png" height="89" width="144"/>
 </item>
 <item>
   <title>Modeling Dynamic Comparative Public Opinion</title>
@@ -530,7 +532,7 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/working-papers/dcpo_article/index.html</guid>
   <pubDate>Sun, 12 Jan 2020 06:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/working-papers/dcpo_article/dcpo_article_fig1.png" medium="image" type="image/png" height="72" width="144"/>
+  <media:content url="https://fsolt.org//res/working-papers/dcpo_article/dcpo_article_fig1.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>Economic Inequality and Campaign Participation</title>
@@ -609,7 +611,7 @@ No matching items
   <category>democracy</category>
   <guid>https://fsolt.org/res/published/rittersolt2019/index.html</guid>
   <pubDate>Sun, 30 Jun 2019 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/rittersolt2019/Fig4.png" medium="image" type="image/png" height="60" width="144"/>
+  <media:content url="https://fsolt.org//res/published/rittersolt2019/Fig4.png" medium="image" type="image/png" height="60" width="144"/>
 </item>
 <item>
   <title>The Dynamics of Party Relabeling: Why Do Parties Change Names?</title>
@@ -684,7 +686,7 @@ No matching items
   <category>parties</category>
   <guid>https://fsolt.org/res/published/kimsolt2017/index.html</guid>
   <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/kimsolt2017/sum_plot-1.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://fsolt.org//res/published/kimsolt2017/sum_plot-1.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Economic Inequality and Class Consciousness</title>
@@ -692,7 +694,7 @@ No matching items
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Kevan Hudson</dc:creator>
   <dc:creator>Jungmin Song</dc:creator>
-  <dc:creator>Dong &#39;Erico&#39; Yu</dc:creator>
+  <dc:creator>Dong 'Erico' Yu</dc:creator>
   <link>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</link>
   <description><![CDATA[ 
 
@@ -769,7 +771,7 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</guid>
   <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solthuhudsonsongyu2017/t3_pooled.png" medium="image" type="image/png" height="120" width="144"/>
+  <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2017/t3_pooled.png" medium="image" type="image/png" height="120" width="144"/>
 </item>
 <item>
   <title>The Standardized World Income Inequality Database</title>
@@ -846,7 +848,7 @@ No matching items
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Kevan Hudson</dc:creator>
   <dc:creator>Jungmin Song</dc:creator>
-  <dc:creator>Dong &#39;Erico&#39; Yu</dc:creator>
+  <dc:creator>Dong 'Erico' Yu</dc:creator>
   <link>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</link>
   <description><![CDATA[ 
 
@@ -924,7 +926,7 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</guid>
   <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solthuhudsonsongyu2016/Figure2.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2016/Figure2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>On the Assessment and Use of Cross-National Income Inequality Datasets</title>
@@ -1057,7 +1059,7 @@ No matching items
   <category>participation</category>
   <guid>https://fsolt.org/res/published/solt2015a/index.html</guid>
   <pubDate>Thu, 30 Apr 2015 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solt2015a/fig1.png" medium="image" type="image/png" height="172" width="144"/>
+  <media:content url="https://fsolt.org//res/published/solt2015a/fig1.png" medium="image" type="image/png" height="172" width="144"/>
 </item>
 <item>
   <title>Reversing the Arrow? Economic Inequality’s Effect on Religiosity</title>
@@ -1199,7 +1201,7 @@ No matching items
   <category>neoliberalism</category>
   <guid>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</guid>
   <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/soltkimleewillardsonkim2014/fig4.png" medium="image" type="image/png" height="39" width="144"/>
+  <media:content url="https://fsolt.org//res/published/soltkimleewillardsonkim2014/fig4.png" medium="image" type="image/png" height="39" width="144"/>
 </item>
 <item>
   <title>The Social Origins of Authoritarianism</title>
@@ -1272,7 +1274,7 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solt2012/index.html</guid>
   <pubDate>Sat, 30 Jun 2012 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solt2012/pp_combined.png" medium="image" type="image/png" height="221" width="144"/>
+  <media:content url="https://fsolt.org//res/published/solt2012/pp_combined.png" medium="image" type="image/png" height="221" width="144"/>
 </item>
 <item>
   <title>Diversionary Nationalism: Economic Inequality and the Formation of National Pride</title>
@@ -1345,7 +1347,7 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solt2011/index.html</guid>
   <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solt2011/combined.png" medium="image" type="image/png" height="105" width="144"/>
+  <media:content url="https://fsolt.org//res/published/solt2011/combined.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>Economic Inequality, Relative Power, and Religiosity.</title>
@@ -1420,7 +1422,7 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solthabelgrant2011/index.html</guid>
   <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solthabelgrant2011/Figure2.png" medium="image" type="image/png" height="209" width="144"/>
+  <media:content url="https://fsolt.org//res/published/solthabelgrant2011/Figure2.png" medium="image" type="image/png" height="209" width="144"/>
 </item>
 <item>
   <title>Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis</title>
@@ -1491,7 +1493,7 @@ No matching items
   <category>democracy</category>
   <guid>https://fsolt.org/res/published/solt2010/index.html</guid>
   <pubDate>Wed, 30 Jun 2010 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org/res/published/solt2010/figure1.png" medium="image" type="image/png" height="104" width="144"/>
+  <media:content url="https://fsolt.org//res/published/solt2010/figure1.png" medium="image" type="image/png" height="104" width="144"/>
 </item>
 <item>
   <title>Standardizing the World Income Inequality Database</title>
