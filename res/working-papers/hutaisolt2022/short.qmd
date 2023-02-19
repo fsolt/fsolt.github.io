@@ -9,9 +9,18 @@ cite: >
   "On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy."
   _SocArXiv_.
 author:
-    - name: Yue Hu
-    - name: Yuehong Cassandra Tai
-    - name: Frederick Solt
+  - name: Yue Hu
+    affiliation: Tsinghua University
+    url: https://sammo3182.github.io
+    orcid: 0000-0002-2829-3971
+  - name: Yuehong Cassandra Tai
+    affiliation: Pennsylvania State University
+    url: https://cassyuehtai.netlify.app/
+    orcid: 0000-0001-7303-7443
+  - name: Frederick Solt
+    affiliation: University of Iowa
+    url: https://fsolt.org
+    orcid: 0000-0002-3154-6132
 links:
 # - name: Final version
 #   url: ""

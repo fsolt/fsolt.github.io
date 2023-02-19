@@ -12,10 +12,25 @@ cite: >
   _SocArXiv_.
 author:
     - name: Yue Hu
+      affiliation: Tsinghua University
+      url: https://sammo3182.github.io
+      orcid: 0000-0002-2829-3971
     - name: Yuehong Cassandra Tai
+      affiliation: Pennsylvania State University
+      url: https://cassyuehtai.netlify.app/
+      orcid: 0000-0001-7303-7443
     - name: Hyein Ko
+      affiliation: University of Iowa
+      url: https://heyikon.com
+      orcid: 0000-0002-9497-9656
     - name: Byung-Deuk Woo
+      affiliation: Pohang University of Science and Technology
+      url: https://www.byung-deuk-woo.org
+      orcid: 0000-0001-6902-7576
     - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
 links:
 # - name: Final version
 #   url: ""

@@ -9,9 +9,18 @@ cite: >
   "Democracy, Public Support, and Measurement Uncertainty." 
   _American Political Science Review_.
 author:
-    - name: Yuehong 'Cassandra' Tai
+    - name: Yuehong Cassandra Tai
+      affiliation: Pennsylvania State University
+      url: https://cassyuehtai.netlify.app/
+      orcid: 0000-0001-7303-7443
     - name: Yue Hu
+      affiliation: Tsinghua University
+      url: https://sammo3182.github.io
+      orcid: 0000-0002-2829-3971
     - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
 extra: >
     Presented at the annual meeting of the 
     Midwest Political Science Association (MPSA), April 2022.

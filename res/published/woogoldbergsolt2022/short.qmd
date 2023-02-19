@@ -11,8 +11,17 @@ cite: >
   _British Journal of Political Science_.
 author:
     - name: Byung-Deuk Woo
+      affiliation: Pohang University of Science and Technology
+      url: https://www.byung-deuk-woo.org
+      orcid: 0000-0001-6902-7576
     - name: Lindsey A. Goldberg
+      affiliation: University of Florida
+      url: https://www.lindsey-allemang-goldberg.com
+      orcid: 0000-0002-0060-0562
     - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
 extra: >
     Presented at the annual meeting of the 
     Midwest Political Science Association (MPSA), April 2022.
