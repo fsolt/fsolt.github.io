@@ -17,7 +17,43 @@
 <width>144</width>
 </image>
 <generator>quarto-0.9.351</generator>
-<lastBuildDate>Fri, 01 Jul 2022 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 22 Nov 2022 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>SWIID Version 9.4 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+
+</div>
+<p>Hi everyone! Version 9.4 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 5494 new Ginis since version 9.3, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2022-autumn-data-splash/">Austria, China, Norway, Peru, the United Kingdom, Canada, and Chile</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 54 more country-years than version 9.3.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</guid>
+  <pubDate>Tue, 22 Nov 2022 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>My Workflow</title>
   <dc:creator>Frederick Solt</dc:creator>
@@ -127,42 +163,6 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
   <category>note</category>
   <guid>https://fsolt.org/blog/posts/my-workflow/index.html</guid>
   <pubDate>Fri, 01 Jul 2022 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>SWIID Version 9.4 is available!</title>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div class="cell">
-
-</div>
-<p>Hi everyone! Version 9.4 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
-<ul>
-<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 5494 new Ginis since version 9.3, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2022-autumn-data-splash/">Austria, China, Norway, Peru, the United Kingdom, Canada, and Chile</a>; and</p></li>
-<li><p>includes estimates of market and disposable income inequality for 54 more country-years than version 9.3.</p></li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
-
-
-
- ]]></description>
-  <category>update</category>
-  <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</guid>
-  <pubDate>Fri, 24 Jun 2022 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 9.3 is available!</title>
