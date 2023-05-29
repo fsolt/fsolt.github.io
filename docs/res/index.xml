@@ -17,7 +17,113 @@
 <width>144</width>
 </image>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Mon, 29 May 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 30 May 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy</title>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Yuehong Cassandra Tai</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/hutaisolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dem_mood"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Data ‘janitor work’, the task of getting data into a format appropriate for analysis, has grown increasingly important as political science research has come to depend on data drawn from hundreds and thousands of sources. One tempting solution is to simply enter the data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, the 2020 study by Claassen that examines the effect of changes in democracy on public support for democracy. We then show that when these errors are corrected, the work’s models provide no support for its conclusion that publics react thermostatically to changes in democracy. Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 1: Comparing Democracy-Supporting Responses in the Publication Data and the Corrected Data</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 2: The Effect of Democracy on Change in Public Support</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 3: Simulated Effects of Change in Democracy on Public Support</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">HuTaiSolt2022</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2022},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={June}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={osf.io/preprints/socarxiv/kd7mu},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/kd7mu}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</guid>
+  <pubDate>Tue, 30 May 2023 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Democracy, Public Support, and Measurement Uncertainty</title>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
@@ -444,112 +550,6 @@ font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
   <category>dcpo</category>
   <guid>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</guid>
   <pubDate>Thu, 16 Feb 2023 06:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy</title>
-  <dc:creator>Yue Hu</dc:creator>
-  <dc:creator>Yuehong Cassandra Tai</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/hutaisolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dem_mood"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Data ‘janitor work’, the task of getting data into a format appropriate for analysis, has grown increasingly important as political science research has come to depend on data drawn from hundreds and thousands of sources. One tempting solution is to simply enter the data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, the 2020 study by Claassen that examines the effect of changes in democracy on public support for democracy. We then show that when these errors are corrected, the work’s models provide no support for its conclusion that publics react thermostatically to changes in democracy. Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig1.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 1: Comparing Democracy-Supporting Responses in the Publication Data and the Corrected Data</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig2.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 2: The Effect of Democracy on Change in Public Support</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig3.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 3: Simulated Effects of Change in Democracy on Public Support</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">HuTaiSolt2022</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span>={On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span>={2022},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span>={June}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span>={osf.io/preprints/socarxiv/kd7mu},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span>={10.31235/osf.io/kd7mu}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>attitudes</category>
-  <category>democracy</category>
-  <category>measurement</category>
-  <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</guid>
-  <pubDate>Tue, 21 Jun 2022 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database</title>
