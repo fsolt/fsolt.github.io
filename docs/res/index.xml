@@ -8,7 +8,7 @@
 <title>Frederick Solt</title>
 <link>https://fsolt.org/res/index.html</link>
 <atom:link href="https://fsolt.org/res/index.xml" rel="self" type="application/rss+xml"/>
-<description>Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
+<description>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
 <image>
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
@@ -16,287 +16,8 @@
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-0.9.351</generator>
-<lastBuildDate>Thu, 16 Feb 2023 06:00:00 GMT</lastBuildDate>
-<item>
-  <title>Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid</title>
-  <dc:creator>Yue Hu</dc:creator>
-  <dc:creator>Yuehong Cassandra Tai</dc:creator>
-  <dc:creator>Hyein Ko</dc:creator>
-  <dc:creator>Byung-Deuk Woo</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2023. “Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid.” <em>SocArXiv</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/hutaikowoosolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dcpo_demsupport_data"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Measuring democratic support as a single latent variable requires assuming that it falls along a single dimension from steadfast opposition to wholehearted support. This ignores ample evidence that support for democracy is complex and multidimensional. Here we provide a series of validation tests of the sort of cross-national time-series latent variable measures employed in recent research by reference to questions on support for liberal democracy and opposition to its erosion from multiwave surveys conducted around the world. These tests show that, across countries and years, this latent variable is nearly orthogonal to measures of support for contestation and participation; civil liberties; institutional constraints on executive power; and prioritizing democracy over the economy, economic equality, or order. We conclude that support for democracy in any robust sense is simply not well captured by a unidimensional latent variable. Such measures are powerful but researchers must be mindful of their limitations.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig1.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig2.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig3.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig4.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">HuTaiSolt2022</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;">title</span>={Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;">year</span>={2023},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;">month</span>={February}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;">url</span>={osf.io/preprints/socarxiv/rym8g/},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;">doi</span>={10.31235/osf.io/rym8g/}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>attitudes</category>
-  <category>democracy</category>
-  <category>measurement</category>
-  <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</guid>
-  <pubDate>Thu, 16 Feb 2023 06:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/working-papers/hutaikowoosolt2023/demsupport_data_fig1.png" medium="image" type="image/png" height="62" width="144"/>
-</item>
-<item>
-  <title>On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy</title>
-  <dc:creator>Yue Hu</dc:creator>
-  <dc:creator>Yuehong Cassandra Tai</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/hutaisolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dem_mood"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Data ‘janitor work’, the task of getting data into a format appropriate for analysis, has grown increasingly important as political science research has come to depend on data drawn from hundreds and thousands of sources. One tempting solution is to simply enter the data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, the 2020 study by Claassen that examines the effect of changes in democracy on public support for democracy. We then show that when these errors are corrected, the work’s models provide no support for its conclusion that publics react thermostatically to changes in democracy. Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig1.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig2.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig3.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">HuTaiSolt2022</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;">title</span>={On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;">year</span>={2022},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;">month</span>={June}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;">url</span>={osf.io/preprints/socarxiv/kd7mu},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;">doi</span>={10.31235/osf.io/kd7mu}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>attitudes</category>
-  <category>democracy</category>
-  <category>measurement</category>
-  <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</guid>
-  <pubDate>Tue, 21 Jun 2022 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/working-papers/hutaisolt2022/dem_mood_fig1.png" medium="image" type="image/png" height="113" width="144"/>
-</item>
-<item>
-  <title>Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere</title>
-  <dc:creator>Byung-Deuk Woo</dc:creator>
-  <dc:creator>Lindsey A. Goldberg</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.lindsey-allemang-goldberg.com">Lindsey A. Goldberg</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere.” <em>British Journal of Political Science</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/woogoldbergsolt2022"><i class="fas fa-scroll"></i> Final version</a>
-</li>
-<li class="project-link">
-<a href="../../../papers/woogoldbergsolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dcpo_gender_roles"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-<li class="project-link">
-<a href="https://doi.org/10.7910/DVN/T3UP6R"><i class="fas fa-table"></i> Dataverse</a>
-</li>
-<li class="project-link">
-<a href="https://dcpo.org/data/pge/"><i class="fa-solid fa-database"></i> PGE Database</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-<strong>Other details:</strong> Presented at the annual meeting of the Midwest Political Science Association (MPSA), April 2022.
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Societal attitudes toward gender roles in the workplace and politics play a central part in theorizing on the difficulty women face in achieving political equality, but shortcomings in the available data have prevented direct examination of many implications of these theories. Drawing on recent advances in latent variable modeling of public opinion and a comprehensive collection of survey data, we present the Public Gender Egalitarianism dataset to address this need: comparable estimates of the public’s attitudes on gender equality in the public sphere across more than one hundred countries over time. These PGE scores are strongly correlated with responses to individual survey items and with women’s rates of participation in the labor force and corporate boards. We expect that the PGE data will become an invaluable source for broadly cross-national and longitudinal research on the causes and consequences of collective attitudes toward gender equality in politics and the economy.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/published/woogoldbergsolt2022/pge_fig3.png" class="preview-image img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/published/woogoldbergsolt2022/pge_fig6.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">WooAllemangSolt2022</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Woo, Byung-Deuk, and Goldberg, Lindsey A., and Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">year</span> = {2022},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">doi</span> = {10.31235/osf.io/37dq9},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">month</span> = {Feb},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">publisher</span> = {SocArXiv},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Public {{Gender Egalitarianism}}: {{A Dataset}} of {{Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles}} in the {{Public Sphere}}},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">url</span> = {https://osf.io/preprints/socarxiv/37dq9},</span>
-<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2022}}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>dcpo</category>
-  <category>inequality</category>
-  <category>attitudes</category>
-  <category>measurement</category>
-  <guid>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</guid>
-  <pubDate>Fri, 01 Apr 2022 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/woogoldbergsolt2022/pge_fig3.png" medium="image" type="image/png" height="72" width="144"/>
-</item>
+<generator>quarto-1.3.353</generator>
+<lastBuildDate>Mon, 29 May 2023 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Democracy, Public Support, and Measurement Uncertainty</title>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
@@ -352,20 +73,35 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/taihusolt2022/dem_support_fig1.png" class="preview-image img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 1: The Effect of Public Support on Democracy with Uncertainty</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">TaiHuSolt2022</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;">author</span>={Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;">title</span>={Democracy, Public Support, and Measurement Uncertainty},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;">url</span>={osf.io/preprints/socarxiv/y5fdv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;">doi</span>={10.31235/osf.io/y5fdv},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;">publisher</span>={SocArXiv},</span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;">year</span>={2022},</span>
-<span id="cb1-8">}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">TaiHuSolt2022</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2022},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {American Political Science Review},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Democracy, Public Support, and Measurement Uncertainty},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {FirstView},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span> = {doi.org/10.1017/S0003055422000429}}</span></code></pre></div>
 
 
 
@@ -377,8 +113,443 @@ No matching items
   <category>attitudes</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/taihusolt2022/index.html</guid>
-  <pubDate>Fri, 25 Mar 2022 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/taihusolt2022/dem_support_fig1.png" medium="image" type="image/png" height="288" width="144"/>
+  <pubDate>Mon, 29 May 2023 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere</title>
+  <dc:creator>Byung-Deuk Woo</dc:creator>
+  <dc:creator>Lindsey A. Goldberg</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.lindsey-allemang-goldberg.com">Lindsey A. Goldberg</a>, and <strong>Frederick Solt</strong>. 2023. “Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere.” <em>British Journal of Political Science</em> 53(2), 766-775.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/woogoldbergsolt2022"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/woogoldbergsolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_gender_roles"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="https://doi.org/10.7910/DVN/T3UP6R"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+<li class="project-link">
+<a href="https://dcpo.org/data/pge/"><i class="fa-solid fa-database"></i> PGE Database</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+<strong>Other details:</strong> Presented at the annual meeting of the Midwest Political Science Association (MPSA), April 2022.
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Societal attitudes toward gender roles in the workplace and politics play a central part in theorizing on the difficulty women face in achieving political equality, but shortcomings in the available data have prevented direct examination of many implications of these theories. Drawing on recent advances in latent variable modeling of public opinion and a comprehensive collection of survey data, we present the Public Gender Egalitarianism dataset to address this need: comparable estimates of the public’s attitudes on gender equality in the public sphere across more than one hundred countries over time. These PGE scores are strongly correlated with responses to individual survey items and with women’s rates of participation in the labor force and corporate boards. We expect that the PGE data will become an invaluable source for broadly cross-national and longitudinal research on the causes and consequences of collective attitudes toward gender equality in politics and the economy.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/woogoldbergsolt2022/pge_fig3.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 3: PGE Scores Over Time Within Selected Countries</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/woogoldbergsolt2022/pge_fig6.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 6: Construct Validation: Correlations Between PGE Scores and Indicators of Workplace Gender Equality</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">WooAllemangSolt2022</span>,</span>
+<span id="cb1-2">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Woo, Byung-Deuk, and Goldberg, Lindsey A., and Solt, Frederick},</span>
+<span id="cb1-3">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2023},</span>
+<span id="cb1-4">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Public {{Gender Egalitarianism}}: {{A Dataset}} of {{Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles}} in the {{Public Sphere}}},</span>
+<span id="cb1-5">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span>={British Journal of Political Science},</span>
+<span id="cb1-6">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span>={53},</span>
+<span id="cb1-7">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span>={2},</span>
+<span id="cb1-8">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span>={766–775},</span>
+<span id="cb1-9">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>dcpo</category>
+  <category>inequality</category>
+  <category>attitudes</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/woogoldbergsolt2022/index.html</guid>
+  <pubDate>Sun, 28 May 2023 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Macrointerest Across Countries</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/solt2023/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://fsolt.org">Solt, Frederick</a>. 2023. “Macrointerest Across Countries.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_macrointerest"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The extent to which the public takes an interest in politics has long been argued to be foundational to democracy, but the want of appropriate data has prevented cross- national and longitudinal analysis. This letter takes advantage of recent advances in latent-variable modeling of aggregate survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of macrointerest, that is, aggregate political interest, for over a hundred countries over the past four decades. These macrointerest scores are validated with other aggregate measures of political interest and of other types of political engagement. A cross-national and longitudinal analysis of macrointerest in advanced democracies reveals that along with election campaigns and inclusive institutions, it is good times, not bad, that spur publics to greater interest in politics.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/solt2023/macrointerest_fig2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 2: Internal Convergent Validation: Correlations Between Macrointerest and Individual Source-Data Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/solt2023/macrointerest_fig3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 3: Construct Validation: Correlations Between Macrointerest and Other Aspects of Political Engagement</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/solt2023/macrointerest_fig5.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 5: Predicting Macrointerest in OECD Democracies</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2023</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Macrointerest Across Countries},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2023},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={May}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={osf.io/preprints/socarxiv/nkgdy/},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/nkgdy}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/working-papers/solt2023/index.html</guid>
+  <pubDate>Wed, 10 May 2023 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid</title>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Yuehong Cassandra Tai</dc:creator>
+  <dc:creator>Hyein Ko</dc:creator>
+  <dc:creator>Byung-Deuk Woo</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2023. “Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/hutaikowoosolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_demsupport_data"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Measuring democratic support as a single latent variable requires assuming that it falls along a single dimension from steadfast opposition to wholehearted support. This ignores ample evidence that support for democracy is complex and multidimensional. Here we provide a series of validation tests of the sort of cross-national time-series latent variable measures employed in recent research by reference to questions on support for liberal democracy and opposition to its erosion from multiwave surveys conducted around the world. These tests show that, across countries and years, this latent variable is nearly orthogonal to measures of support for contestation and participation; civil liberties; institutional constraints on executive power; and prioritizing democracy over the economy, economic equality, or order. We conclude that support for democracy in any robust sense is simply not well captured by a unidimensional latent variable. Such measures are powerful but researchers must be mindful of their limitations.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 1: Correlations Between Democratic Support as a Unidimensional Latent Variable and Polyarchy Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 2: Correlations Between Democratic Support as a Unidimensional Latent Variable and Civil Liberties Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 3: Correlations Between Democratic Support as a Unidimensional Latent Variable and Democratic Institutions Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig4.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 4: Correlations Between Democratic Support as a Unidimensional Latent Variable and Prioritization Survey Items</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">HuTaiSolt2022</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2023},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={February}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={osf.io/preprints/socarxiv/rym8g/},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</guid>
+  <pubDate>Thu, 16 Feb 2023 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy</title>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Yuehong Cassandra Tai</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/hutaisolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dem_mood"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Data ‘janitor work’, the task of getting data into a format appropriate for analysis, has grown increasingly important as political science research has come to depend on data drawn from hundreds and thousands of sources. One tempting solution is to simply enter the data by hand, but this approach raises serious risks of data-entry error, a difficult-to-catch problem with the potential to fatally undermine our conclusions. Underscoring these points, we identify data-entry errors in a prominent recent article, the 2020 study by Claassen that examines the effect of changes in democracy on public support for democracy. We then show that when these errors are corrected, the work’s models provide no support for its conclusion that publics react thermostatically to changes in democracy. Researchers should refrain from hand-entering data as much as possible, and we offer additional suggestions for avoiding errors.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 1: Comparing Democracy-Supporting Responses in the Publication Data and the Corrected Data</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 2: The Effect of Democracy on Change in Public Support</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 3: Simulated Effects of Change in Democracy on Public Support</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">HuTaiSolt2022</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2022},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={June}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={osf.io/preprints/socarxiv/kd7mu},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/kd7mu}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</guid>
+  <pubDate>Tue, 21 Jun 2022 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database</title>
@@ -432,20 +603,38 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solt2020/kfold_obs.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 7: k-fold By-Observation Cross-Validation Results</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2020</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1183-1199},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {101},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2020}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2020</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {3},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {1183-1199},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {101},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2020}}</span></code></pre></div>
 
 
 
@@ -457,7 +646,6 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solt2020/index.html</guid>
   <pubDate>Sun, 03 May 2020 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solt2020/kfold_obs.png" medium="image" type="image/png" height="89" width="144"/>
 </item>
 <item>
   <title>Modeling Dynamic Comparative Public Opinion</title>
@@ -506,20 +694,38 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/working-papers/dcpo_article/dcpo_article_fig1.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 1: Probability of an Affirmative Response in the 2PL IRT Model</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@misc</span>{<span class="ot" style="color: #003B4F;">Solt2020</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;">author</span>={Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;">title</span>={Modeling Dynamic Comparative Public Opinion},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;">year</span>={2020},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;">month</span>={Jan}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;">url</span>={osf.io/preprints/socarxiv/d5n9p},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;">doi</span>={10.31235/osf.io/d5n9p}</span>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2020</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Modeling Dynamic Comparative Public Opinion},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2020},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={Jan}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={osf.io/preprints/socarxiv/d5n9p},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/d5n9p}</span>
 <span id="cb1-9">}</span></code></pre></div>
 
 
@@ -532,7 +738,6 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/working-papers/dcpo_article/index.html</guid>
   <pubDate>Sun, 12 Jan 2020 06:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/working-papers/dcpo_article/dcpo_article_fig1.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>Economic Inequality and Campaign Participation</title>
@@ -584,22 +789,44 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/rittersolt2019/Fig4.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 4: Predicted Probability of Campaign Participation by Income and Level of Inequality</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">RitterSolt2019</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Ritter, Michael and Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">doi</span> = {https://doi.org/10.1111/ssqu.12605},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {678-688},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Campaign Participation},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.12605},</span>
-<span id="cb1-9">    <span class="dt" style="color: #AD0000;">volume</span> = {100},</span>
-<span id="cb1-10">    <span class="dt" style="color: #AD0000;">year</span> = {2019}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">RitterSolt2019</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Ritter, Michael and Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span> = {https://doi.org/10.1111/ssqu.12605},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {3},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {678-688},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Economic Inequality and Campaign Participation},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.12605},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {100},</span>
+<span id="cb1-10">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2019}}</span></code></pre></div>
 
 
 
@@ -611,7 +838,6 @@ No matching items
   <category>democracy</category>
   <guid>https://fsolt.org/res/published/rittersolt2019/index.html</guid>
   <pubDate>Sun, 30 Jun 2019 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/rittersolt2019/Fig4.png" medium="image" type="image/png" height="60" width="144"/>
 </item>
 <item>
   <title>The Dynamics of Party Relabeling: Why Do Parties Change Names?</title>
@@ -663,20 +889,38 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/kimsolt2017/sum_plot-1.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 1. Party relabeling across European democracies</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Kim2017</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Mi-son Kim and Frederick Solt},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Party Politics},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {437--447},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {The Dynamics of Party Relabeling: Why Do Parties Change Names?},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {23},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2017}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Kim2017</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Mi-son Kim and Frederick Solt},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Party Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {4},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {437--447},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {The Dynamics of Party Relabeling: Why Do Parties Change Names?},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {23},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2017}}</span></code></pre></div>
 
 
 
@@ -686,7 +930,6 @@ No matching items
   <category>parties</category>
   <guid>https://fsolt.org/res/published/kimsolt2017/index.html</guid>
   <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/kimsolt2017/sum_plot-1.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Economic Inequality and Class Consciousness</title>
@@ -694,7 +937,7 @@ No matching items
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Kevan Hudson</dc:creator>
   <dc:creator>Jungmin Song</dc:creator>
-  <dc:creator>Dong 'Erico' Yu</dc:creator>
+  <dc:creator>Dong &#39;Erico&#39; Yu</dc:creator>
   <link>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</link>
   <description><![CDATA[ 
 
@@ -741,26 +984,44 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2017/t3_pooled.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 3: Local Inequality and Self-Identification as a ‘Have-Not’: Results Using All Available Data</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2017/t3_multi.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 4: Conditional Effects of Income and Local Inequality on Self-Identification as a ‘Have-Not’</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SoltHuHudsonSongYu2017</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Journal of Politics},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1079-1083},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Class Consciousness},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {79},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2017}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">SoltHuHudsonSongYu2017</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Journal of Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {3},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {1079-1083},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Economic Inequality and Class Consciousness},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {79},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2017}}</span></code></pre></div>
 
 
 
@@ -771,7 +1032,6 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</guid>
   <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2017/t3_pooled.png" medium="image" type="image/png" height="120" width="144"/>
 </item>
 <item>
   <title>The Standardized World Income Inequality Database</title>
@@ -822,14 +1082,32 @@ No matching items
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2016</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {5},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1267-1281},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {The Standardized World Income Inequality Database},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {97},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2016}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2016</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {5},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {1267-1281},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {The Standardized World Income Inequality Database},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {97},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2016}}</span></code></pre></div>
 
 
 
@@ -848,7 +1126,7 @@ No matching items
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Kevan Hudson</dc:creator>
   <dc:creator>Jungmin Song</dc:creator>
-  <dc:creator>Dong 'Erico' Yu</dc:creator>
+  <dc:creator>Dong &#39;Erico&#39; Yu</dc:creator>
   <link>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</link>
   <description><![CDATA[ 
 
@@ -895,26 +1173,46 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2016/Figure2.jpg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 2. Comparing the three measures of rejection of meritocracy pooled by Newman et al.&nbsp;(2015a)</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solthuhudsonsongyu2016/Figure5.jpg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 5. Predicted probability of rejecting meritocracy by income and level of inequality</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2016b</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Research <span class="ch" style="color: #20794D;">\&amp;</span> Politics},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1-7},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Belief in Meritocracy in the United States},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {3},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2016}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2016b</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick and Hu, Yue and Hudson, Kevan and Song, Jungmin and Yu, Dong `Erico'},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Research <span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\&amp;</span> Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {4},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {1-7},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Economic Inequality and Belief in Meritocracy in the United States},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {3},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2016}}</span></code></pre></div>
 
 
 
@@ -926,7 +1224,6 @@ No matching items
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</guid>
   <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solthuhudsonsongyu2016/Figure2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>On the Assessment and Use of Cross-National Income Inequality Datasets</title>
@@ -974,14 +1271,32 @@ No matching items
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2015a</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Journal of Economic Inequality},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {683-691},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {On the Assessment and Use of Cross-National Income Inequality Datasets},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {13},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2015}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2015a</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Journal of Economic Inequality},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {4},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {683-691},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {On the Assessment and Use of Cross-National Income Inequality Datasets},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {13},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2015}}</span></code></pre></div>
 
 
 
@@ -1041,14 +1356,32 @@ No matching items
 <section id="important-figure" class="level2">
 <h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
 <p><img src="https://fsolt.org/res/published/solt2015a/fig1.png" class="img-fluid" alt="Figure 1: Predicting Nonviolent Protest Activity"> ## BibTeX Citation</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2015</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {5},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1314--1327},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality and Nonviolent Protest},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {96},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2015}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2015</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {5},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {1314--1327},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Economic Inequality and Nonviolent Protest},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {96},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2015}}</span></code></pre></div>
 
 
 
@@ -1059,7 +1392,6 @@ No matching items
   <category>participation</category>
   <guid>https://fsolt.org/res/published/solt2015a/index.html</guid>
   <pubDate>Thu, 30 Apr 2015 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solt2015a/fig1.png" medium="image" type="image/png" height="172" width="144"/>
 </item>
 <item>
   <title>Reversing the Arrow? Economic Inequality’s Effect on Religiosity</title>
@@ -1107,13 +1439,29 @@ No matching items
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@incollection</span>{<span class="ot" style="color: #003B4F;">Solt2014</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">booktitle</span> = {Religion and Inequality in America: Research and Theory on Religion's Role in Stratification},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">pages</span> = {337-353},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">publisher</span> = {Cambridge University Press},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Reversing the Arrow? Economic Inequality's Effect on Religiosity},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">year</span> = {2014}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@incollection</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2014</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">booktitle</span> = {Religion and Inequality in America: Research and Theory on Religion's Role in Stratification},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {337-353},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span> = {Cambridge University Press},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Reversing the Arrow? Economic Inequality's Effect on Religiosity},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2014}}</span></code></pre></div>
 
 
 
@@ -1176,20 +1524,40 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/soltkimleewillardsonkim2014/fig4.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 4. Predicted protests over the observed range of liberal economic reform by regime type</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SoltKimLeeWilliardsonKim2014</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Kim, Dongkyu and Lee, Kyu Young and Williardson, Spencer and Kim, Seokdong},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Research <span class="ch" style="color: #20794D;">\&amp;</span> Politics},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {1-13},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {1},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2014}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">SoltKimLeeWilliardsonKim2014</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick and Kim, Dongkyu and Lee, Kyu Young and Williardson, Spencer and Kim, Seokdong},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Research <span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\&amp;</span> Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {2},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {1-13},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {1},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2014}}</span></code></pre></div>
 
 
 
@@ -1201,7 +1569,6 @@ No matching items
   <category>neoliberalism</category>
   <guid>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</guid>
   <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/soltkimleewillardsonkim2014/fig4.png" medium="image" type="image/png" height="39" width="144"/>
 </item>
 <item>
   <title>The Social Origins of Authoritarianism</title>
@@ -1249,21 +1616,41 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solt2012/pp_combined.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 2: Predicted Probabilities of Authoritarian Responses by Level of Economic Inequality</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2012</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Political Research Quarterly},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">month</span> = {December},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {4},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {703-713},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {The Social Origins of Authoritarianism},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {65},</span>
-<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2012}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2012</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Political Research Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span> = {December},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {4},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {703-713},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {The Social Origins of Authoritarianism},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {65},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2012}}</span></code></pre></div>
 
 
 
@@ -1274,7 +1661,6 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solt2012/index.html</guid>
   <pubDate>Sat, 30 Jun 2012 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solt2012/pp_combined.png" medium="image" type="image/png" height="221" width="144"/>
 </item>
 <item>
   <title>Diversionary Nationalism: Economic Inequality and the Formation of National Pride</title>
@@ -1322,21 +1708,41 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solt2011/combined.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 1: Nationalism by Income Inequality: Predicted Probabilities</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2011</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Journal of Politics},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">month</span> = {7},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {3},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {821-830},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Diversionary Nationalism: Economic Inequality and the Formation of National Pride},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {73},</span>
-<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2011}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2011</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Journal of Politics},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span> = {7},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {3},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {821-830},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Diversionary Nationalism: Economic Inequality and the Formation of National Pride},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {73},</span>
+<span id="cb1-9">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2011}}</span></code></pre></div>
 
 
 
@@ -1347,7 +1753,6 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solt2011/index.html</guid>
   <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solt2011/combined.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>Economic Inequality, Relative Power, and Religiosity.</title>
@@ -1397,20 +1802,38 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solthabelgrant2011/Figure2.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 2: Hierarchical Models of Religiosity</figcaption>
 </figure>
 </div>
 </section>
 <section id="bibtex-citation" class="level2">
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">SoltHabelGrant2011</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick and Habel, Philip and Grant, J. Tobin},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {447--465},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Economic Inequality, Relative Power, and Religiosity},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {92},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2011}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">SoltHabelGrant2011</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick and Habel, Philip and Grant, J. Tobin},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Social Science Quarterly},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {2},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {447--465},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Economic Inequality, Relative Power, and Religiosity},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {92},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2011}}</span></code></pre></div>
 
 
 
@@ -1422,7 +1845,6 @@ No matching items
   <category>attitudes</category>
   <guid>https://fsolt.org/res/published/solthabelgrant2011/index.html</guid>
   <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solthabelgrant2011/Figure2.png" medium="image" type="image/png" height="209" width="144"/>
 </item>
 <item>
   <title>Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis</title>
@@ -1470,18 +1892,36 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/solt2010/figure1.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Figure 1: Predicted Probability of Voting by Level of Income Inequality</figcaption>
 </figure>
 </div>
 <p><img src="https://fsolt.org/res/published/solt2010/figure2.png" class="img-fluid" alt="Figure 2: Estimated Income Bias by Level of Income Inequality"> ## BibTeX Citation</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2010</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Political Behavior},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">pages</span> = {285-301},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">title</span> = {Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">volume</span> = {32},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">year</span> = {2010}}</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2010</span>,</span>
+<span id="cb1-2">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Political Behavior},</span>
+<span id="cb1-4">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {2},</span>
+<span id="cb1-5">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {285-301},</span>
+<span id="cb1-6">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis},</span>
+<span id="cb1-7">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {32},</span>
+<span id="cb1-8">    <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2010}}</span></code></pre></div>
 
 
 
@@ -1493,74 +1933,6 @@ No matching items
   <category>democracy</category>
   <guid>https://fsolt.org/res/published/solt2010/index.html</guid>
   <pubDate>Wed, 30 Jun 2010 05:00:00 GMT</pubDate>
-  <media:content url="https://fsolt.org//res/published/solt2010/figure1.png" medium="image" type="image/png" height="104" width="144"/>
-</item>
-<item>
-  <title>Standardizing the World Income Inequality Database</title>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2009/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<strong>Solt, Frederick</strong>. 2009. “Standardizing the World Income Inequality Database.” <em>Social Science Quarterly</em> 90(2):231-242.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/solt2009"><i class="fas fa-scroll"></i> Final version</a>
-</li>
-<li class="project-link">
-<a href="../../../papers/solt2009pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="../../../swiid/"><i class="fa-solid fa-database"></i> SWIID Database</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p><em>Objective</em>. Cross-national research on the causes and consequences of income inequality has been hindered by the limitations of existing inequality datasets: greater coverage across countries and over time is available from these sources only at the cost of significantly reduced comparability across observations. The goal of the Standardized World Income Inequality Database (SWIID) is to overcome these limitations. <em>Methods</em>. A custom missing-data algorithm was used to standardize the United Nations University’s World Income Inequality Database; data collected by the Luxembourg Income Study served as the standard. <em>Results</em>. The SWIID provides comparable Gini indices of gross and net income inequality for 153 countries for as many years as possible from 1960 to the present along with estimates of uncertainty in these statistics. <em>Conclusions</em>. By maximizing comparability for the largest possible sample of countries and years, the SWIID is better suited to broadly cross-national research on income inequality than previously available sources.</p>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTex Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;">@article</span>{<span class="ot" style="color: #003B4F;">Solt2009</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;">journal</span> = {Social Science Quarterly},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;">keywords</span> = {Inequality},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;">number</span> = {2},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;">pages</span> = {231-242},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;">title</span> = {Standardizing the World Income Inequality Database},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;">volume</span> = {90},</span>
-<span id="cb1-9">    <span class="dt" style="color: #AD0000;">year</span> = {2009}}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>swiid</category>
-  <category>inequality</category>
-  <category>measurement</category>
-  <guid>https://fsolt.org/res/published/solt2009/index.html</guid>
-  <pubDate>Tue, 30 Jun 2009 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,79 @@
+---
+title: "Macrointerest Across Countries"
+date: 2023-05-10
+cite: >
+  [Solt, Frederick](https://fsolt.org). 
+  2023.
+  "Macrointerest Across Countries."
+  _SocArXiv_.
+author:
+    - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: /papers/solt2023_pre
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dcpo_macrointerest"
+  icon: fa-brands fa-github
+# - name: Data
+#   url: ""
+#   icon: fas fa-table
+# pub_status:
+#   status: Forthcoming
+#   class: warning
+#   icon: pencil-square
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# #   status: Revising
+# #   class: info
+# #   icon: fas fa-sync
+status: Under review
+status_class: success
+status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - attitudes
+  - democracy
+  - measurement
+  - dcpo
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+The extent to which the public takes an interest in politics has long been argued to be foundational to democracy, but the want of appropriate data has prevented cross- national and longitudinal analysis. This letter takes advantage of recent advances in latent-variable modeling of aggregate survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of macrointerest, that is, aggregate political interest, for over a hundred countries over the past four decades. These macrointerest scores are validated with other aggregate measures of political interest and of other types of political engagement. A cross-national and longitudinal analysis of macrointerest in advanced democracies reveals that along with election campaigns and inclusive institutions, it is good times, not bad, that spur publics to greater interest in politics.
+
+## Important figures
+
+![Figure 2: Internal Convergent Validation: Correlations Between Macrointerest and Individual Source-Data Survey Items](macrointerest_fig2.png)
+
+![Figure 3: Construct Validation: Correlations Between Macrointerest and Other Aspects of Political Engagement](macrointerest_fig3.png)
+
+![Figure 5: Predicting Macrointerest in OECD Democracies](macrointerest_fig5.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{Solt2023,
+ author={Solt, Frederick},
+ title={Macrointerest Across Countries},
+ publisher={SocArXiv},
+ year={2023},
+ month={May}, 
+ url={osf.io/preprints/socarxiv/nkgdy/},
+ doi={10.31235/osf.io/nkgdy}
+}
+```

@@ -1,6 +1,6 @@
 ---
 title: "Democracy, Public Support, and Measurement Uncertainty"
-date: 2022-03-25
+date: 2023-05-29
 cite: >
   [Tai, Yuehong 'Cassandra'](https://cassyuehtai.netlify.app),
   [Yue Hu](https://sammo3182.github.io), and
@@ -81,12 +81,11 @@ Do democratic regimes depend on public support to avoid backsliding? Does public
 ## BibTeX Citation
 
 ```bibtex
-@misc{TaiHuSolt2022,
- author={Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},
- title={Democracy, Public Support, and Measurement Uncertainty},
- url={osf.io/preprints/socarxiv/y5fdv},
- doi={10.31235/osf.io/y5fdv},
- publisher={SocArXiv},
- year={2022},
-}
+@article{TaiHuSolt2022,
+	author = {Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},
+	year = {2022},
+	journal = {American Political Science Review},
+	title = {Democracy, Public Support, and Measurement Uncertainty},
+	volume = {FirstView},
+	doi = {doi.org/10.1017/S0003055422000429}}
 ```
