@@ -1,14 +1,14 @@
 ---
 title: "Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere"
-date: 2022-04-01
+date: 2023-05-28
 cite: >
   [Woo, Byung-Deuk](https://www.byung-deuk-woo.org),
   [Lindsey A. Goldberg](https://www.lindsey-allemang-goldberg.com), and
   **Frederick Solt**. 
-  Forthcoming.
+  2023.
   "Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward
   Egalitarian Gender Roles in the Public Sphere." 
-  _British Journal of Political Science_.
+  _British Journal of Political Science_ 53(2), 766-775.
 author:
     - name: Byung-Deuk Woo
       affiliation: Pohang University of Science and Technology
@@ -41,9 +41,9 @@ links:
 - name: PGE Database
   url: https://dcpo.org/data/pge/
   icon: fa-solid fa-database
-status: Forthcoming
-status_class: warning
-status_icon: fa-regular fa-clock
+# status: Forthcoming
+# status_class: warning
+# status_icon: fa-regular fa-clock
 # #   status: Writing
 # #   status_class: warning
 # #   status_icon: fa-regular fa-pen-to-square
@@ -81,13 +81,13 @@ Societal attitudes toward gender roles in the workplace and politics play a cent
 ## BibTeX citation
 
 ```bibtex
-@misc{WooAllemangSolt2022,
-    author = {Woo, Byung-Deuk, and Goldberg, Lindsey A., and Solt, Frederick},
-    year = {2022},
-    doi = {10.31235/osf.io/37dq9},
-    month = {Feb},
-    publisher = {SocArXiv},
-    title = {Public {{Gender Egalitarianism}}: {{A Dataset}} of {{Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles}} in the {{Public Sphere}}},
-    url = {https://osf.io/preprints/socarxiv/37dq9},
-    year = {2022}}
+@article{WooAllemangSolt2022,
+  author = {Woo, Byung-Deuk, and Goldberg, Lindsey A., and Solt, Frederick},
+  year = {2023},
+  title = {Public {{Gender Egalitarianism}}: {{A Dataset}} of {{Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles}} in the {{Public Sphere}}},
+  journal={British Journal of Political Science},
+  volume={53},
+  number={2},
+  pages={766–775},
+  doi = {10.1017/S0007123422000436}}
 ```
