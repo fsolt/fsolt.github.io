@@ -80,7 +80,7 @@ We recommend installing the [proper version](https://cran.r-project.org/web/chec
 ## Reproducible Data Retrieval
 
 ### ropercenter
-Solt, Frederick.  2017.  ropercenter: Reproducible Data Retrieval from the Roper Center Data Archive.  The Comprehensive R Archive Network (CRAN).
+[Solt, Frederick.  2017.  ropercenter: Reproducible Data Retrieval from the Roper Center Data Archive.  The Comprehensive R Archive Network (CRAN).](https://fsolt.org/ropercenter/)
 
 [<img src="https://www.r-pkg.org/badges/version/ropercenter">](https://cran.r-project.org/web/packages/ropercenter/index.html)
 <img src="https://cranlogs.r-pkg.org/badges/grand-total/ropercenter"> <img src="https://cranlogs.r-pkg.org/badges/ropercenter?color=orange">
