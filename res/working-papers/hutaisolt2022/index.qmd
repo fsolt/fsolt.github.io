@@ -1,6 +1,6 @@
 ---
 title: "On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy"
-date: 2023-05-30
+date: 2022-05-30
 cite: >
   [Hu, Yue](https://sammo3182.github.io),
   [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), and

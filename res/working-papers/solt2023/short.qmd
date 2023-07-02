@@ -2,7 +2,7 @@
 title: "Macrointerest Across Countries"
 date: 2023-05-10
 cite: >
-  [Solt, Frederick](https://fsolt.org). 
+  **Solt, Frederick**. 
   2023.
   "Macrointerest Across Countries."
   _SocArXiv_.
