@@ -134,7 +134,7 @@ Please note that by downloading data from the Pew Research Center, you accept th
 
 
 ### gesisdata
-Solt, Frederick. 2020. gesisdata: Reproducible Retrieval from the GESIS Data Archive. The Comprehensive R Archive Network (CRAN).
+[Solt, Frederick. 2020. gesisdata: Reproducible Retrieval from the GESIS Data Archive. The Comprehensive R Archive Network (CRAN).](https://fsolt.org/gesisdata/)
 
 [<img src="https://www.r-pkg.org/badges/version/gesisdata">](https://cran.r-project.org/web/packages/gesisdata/index.html)
 <img src="https://cranlogs.r-pkg.org/badges/grand-total/gesisdata"> <img src="https://cranlogs.r-pkg.org/badges/gesisdata?color=orange">
