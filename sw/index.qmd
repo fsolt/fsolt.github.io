@@ -98,7 +98,7 @@ Please recall that by using Roper Center services, you accept the Center's [Term
 
 
 ### icpsrdata
-Solt, Frederick, and Kellen Gracey.  2016. icpsrdata: Reproducible Data Retrieval from the ICPSR Archive. The Comprehensive R Archive Network (CRAN).
+[Solt, Frederick, and Kellen Gracey.  2016. icpsrdata: Reproducible Data Retrieval from the ICPSR Archive. The Comprehensive R Archive Network (CRAN).](https://fsolt.org/icpsrdata/)
 
 [<img src="https://www.r-pkg.org/badges/version/icpsrdata">](https://cran.r-project.org/web/packages/icpsrdata/index.html)
 <img src="https://cranlogs.r-pkg.org/badges/grand-total/icpsrdata"> <img src="https://cranlogs.r-pkg.org/badges/icpsrdata?color=orange">
