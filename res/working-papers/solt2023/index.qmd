@@ -2,11 +2,16 @@
 title: "Macrointerest Across Countries"
 date: 2023-05-10
 cite: >
+  [Hu, Yue](https://sammo3182.github.io) and
   **Solt, Frederick**. 
   2023.
   "Macrointerest Across Countries."
   _SocArXiv_.
 author:
+    - name: Yue Hu
+      affiliation: Tsinghua University
+      url: https://sammo3182.github.io
+      orcid: 0000-0002-2829-3971
     - name: Frederick Solt
       affiliation: University of Iowa
       url: https://fsolt.org
@@ -31,12 +36,12 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-# #   status: Revising
-# #   class: info
-# #   icon: fas fa-sync
-status: Under review
-status_class: success
-status_icon: fa-solid fa-glasses
+status: Revising for Resubmission
+status_class: info
+status_icon: fa-solid fa-arrows-rotate
+# status: Under review
+# status_class: success
+# status_icon: fa-solid fa-glasses
 listing:
   - id: cite
     contents: "short.qmd"
@@ -68,7 +73,7 @@ The extent to which the public takes an interest in politics has long been argue
 
 ```bibtex
 @misc{Solt2023,
- author={Solt, Frederick},
+ author={Hu, Yue and Solt, Frederick},
  title={Macrointerest Across Countries},
  publisher={SocArXiv},
  year={2023},
