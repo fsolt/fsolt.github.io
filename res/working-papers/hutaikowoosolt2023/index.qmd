@@ -51,9 +51,9 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-# #   status: Revising
-# #   class: info
-# #   icon: fas fa-sync
+#   status: Revising
+#   class: info
+#   icon: fas fa-sync
 status: Under review
 status_class: success
 status_icon: fa-solid fa-glasses
@@ -89,7 +89,7 @@ Measuring democratic support as a single latent variable requires assuming that 
 ## BibTeX citation
 
 ```bibtex
-@misc{HuTaiSolt2022,
+@misc{HuTaiKoWooSolt2023,
  author={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},
  title={Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid},
  publisher={SocArXiv},
