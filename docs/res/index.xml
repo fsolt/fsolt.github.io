@@ -349,6 +349,7 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
 </item>
 <item>
   <title>Macrointerest Across Countries</title>
+  <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
   <link>https://fsolt.org/res/working-papers/solt2023/index.html</link>
   <description><![CDATA[ 
@@ -362,7 +363,7 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
 <div class="project-details">
 <div class="project-content">
 <p>
-<strong>Solt, Frederick</strong>. 2023. “Macrointerest Across Countries.” <em>SocArXiv</em>.
+<a href="https://sammo3182.github.io">Hu, Yue</a> and <strong>Solt, Frederick</strong>. 2023. “Macrointerest Across Countries.” <em>SocArXiv</em>.
 </p>
 </div>
 <ul class="project-links">
@@ -418,7 +419,7 @@ background-color: null;
 font-style: inherit;">Solt2023</span>,</span>
 <span id="cb1-2"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">author</span>={Solt, Frederick},</span>
+font-style: inherit;">author</span>={Hu, Yue and Solt, Frederick},</span>
 <span id="cb1-3"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">title</span>={Macrointerest Across Countries},</span>
@@ -529,7 +530,7 @@ No matching items
 background-color: null;
 font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">HuTaiSolt2022</span>,</span>
+font-style: inherit;">HuTaiKoWooSolt2023</span>,</span>
 <span id="cb1-2"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},</span>
