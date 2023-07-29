@@ -242,7 +242,7 @@
     "href": "res/working-papers/solt2023/short.html#bibtex-citation",
     "title": "Macrointerest Across Countries",
     "section": "BibTeX citation",
-    "text": "BibTeX citation\n@misc{Solt2023,\n author={Hu, Yue and Solt, Frederick},\n title={Macrointerest Across Countries},\n publisher={SocArXiv},\n year={2023},\n month={May}, \n url={osf.io/preprints/socarxiv/nkgdy/},\n doi={10.31235/osf.io/nkgdy}\n}"
+    "text": "BibTeX citation\n@misc{HuSolt2023,\n author={Hu, Yue, and Solt, Frederick},\n title={Macrointerest Across Countries},\n publisher={SocArXiv},\n year={2023},\n month={May}, \n url={osf.io/preprints/socarxiv/nkgdy/},\n doi={10.31235/osf.io/nkgdy}\n}"
   },
   {
     "objectID": "res/working-papers/solt2023/index.html",
@@ -270,7 +270,7 @@
     "href": "res/working-papers/solt2023/index.html#bibtex-citation",
     "title": "Macrointerest Across Countries",
     "section": "BibTeX citation",
-    "text": "BibTeX citation\n@misc{Solt2023,\n author={Hu, Yue and Solt, Frederick},\n title={Macrointerest Across Countries},\n publisher={SocArXiv},\n year={2023},\n month={May}, \n url={osf.io/preprints/socarxiv/nkgdy/},\n doi={10.31235/osf.io/nkgdy}\n}"
+    "text": "BibTeX citation\n@misc{HuSolt2023,\n author={Hu, Yue, and Solt, Frederick},\n title={Macrointerest Across Countries},\n publisher={SocArXiv},\n year={2023},\n month={May}, \n url={osf.io/preprints/socarxiv/nkgdy/},\n doi={10.31235/osf.io/nkgdy}\n}"
   },
   {
     "objectID": "res/working-papers/hutaikowoosolt2023/short.html",
