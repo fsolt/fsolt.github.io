@@ -13,11 +13,42 @@
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
 <link>https://fsolt.org/blog/index.html</link>
-<height>144</height>
-<width>144</width>
 </image>
-<generator>quarto-1.3.353</generator>
-<lastBuildDate>Tue, 27 Jun 2023 05:00:00 GMT</lastBuildDate>
+<generator>quarto-1.3.433</generator>
+<lastBuildDate>Wed, 20 Dec 2023 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>SWIID Version 9.6 is available!</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Hi everyone! Version 9.6 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
+<ul>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 8181 new Ginis since version 9.5, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2023-autumn-data-splash/">Georgia, Lithuania, Mexico, Norway, Romania, Sweden, Taiwan, and Uruguay</a> and on <a href="https://www.lisdatacenter.org/news-and-events/2023-winter-data-splash/">Belgium, Brazil, Israel, Italy, Luxembourg, Romania (again!), Switzerland, and the United Kingdom</a>; and</p></li>
+<li><p>includes estimates of market and disposable income inequality for 64 more country-years than version 9.5.</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
+
+
+
+ ]]></description>
+  <category>update</category>
+  <category>swiid</category>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</guid>
+  <pubDate>Wed, 20 Dec 2023 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>SWIID Version 9.5 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
@@ -1195,23 +1226,6 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
   <category>r</category>
   <guid>https://fsolt.org/blog/posts/pewdata/index.html</guid>
   <pubDate>Fri, 13 May 2016 10:28:01 GMT</pubDate>
-</item>
-<item>
-  <title>SWIID Wins NSF Support!</title>
-  <link>https://fsolt.org/blog/posts/nsf-swiid/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>The National Science Foundation <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1533746">has awarded three years of support</a> to update and improve the SWIID! Yay!</p>
-
-
-
- ]]></description>
-  <category>update</category>
-  <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/nsf-swiid/index.html</guid>
-  <pubDate>Mon, 10 Aug 2015 15:40:01 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -530,7 +530,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/index.html</loc>
-    <lastmod>2023-07-29T20:32:13.495Z</lastmod>
+    <lastmod>2023-12-20T15:39:00.090Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/2017/04/14/reviewing-workshop/index.html</loc>
@@ -550,7 +550,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/swiid/index.html</loc>
-    <lastmod>2023-07-29T20:32:14.896Z</lastmod>
+    <lastmod>2023-12-20T15:26:23.864Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/swiid/swiid_source/index.html</loc>
@@ -615,5 +615,9 @@
   <url>
     <loc>https://fsolt.org/cv/index.html</loc>
     <lastmod>2023-07-29T20:32:19.908Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</loc>
+    <lastmod>2023-12-20T15:38:57.641Z</lastmod>
   </url>
 </urlset>
