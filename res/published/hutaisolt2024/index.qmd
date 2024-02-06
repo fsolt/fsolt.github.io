@@ -1,0 +1,83 @@
+---
+title: "Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?"
+date: 2024-02-06
+cite: >
+  [Hu, Yue](https://sammo3182.github.io),
+  [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), and
+  **Frederick Solt**. 
+  Forthcoming.
+  "Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?"
+  _Political Science Research and Methods_.
+author:
+  - name: Yue Hu
+    affiliation: Tsinghua University
+    url: https://sammo3182.github.io
+    orcid: 0000-0002-2829-3971
+  - name: Yuehong Cassandra Tai
+    affiliation: Pennsylvania State University
+    url: https://cassyuehtai.netlify.app/
+    orcid: 0000-0001-7303-7443
+  - name: Frederick Solt
+    affiliation: University of Iowa
+    url: https://fsolt.org
+    orcid: 0000-0002-3154-6132
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: /papers/hutaisolt2024_pre
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dem_mood"
+  icon: fa-brands fa-github
+# - name: Data
+#   url: ""
+#   icon: fas fa-table
+# pub_status:
+status: Forthcoming
+class: warning
+icon: fa-regular fa-clock
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# status: Revised & Resubmitted
+# status_class: info
+# status_icon: fa-solid fa-arrows-rotate
+# status: Under review
+# status_class: success
+# status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - attitudes
+  - democracy
+  - measurement
+  - dcpo
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Prominent recent work argues that support for democracy behaves thermostatically---that democratic erosion boosts democratic support while deepening democracy yields public backlash---and further contends that there is no evidence for the classic argument that democracy itself increases democratic support over time. Here, we document how these conclusions depend on subtle choices in measurement coding that constitute 'researcher degrees of freedom': analyses employing alternative reasonable choices provide little or no support for the original conclusions. The fragility of the statistical results demonstrates that researcher degrees of freedom in measurement must be taken seriously and that the question of the relationship between democratic institutions and democratic support remains unsettled.
+
+## Important figures
+
+![Figure 1: The Effects of Democracy on the Change in Public Support](dem_mood_fig1.png)
+
+![Figure 2: Simulated Effects of Democracy on Changes in Public Democratic Support](dem_mood_fig2.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{HuTaiSolt2024,
+author={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},
+title={Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?},
+journal = {Political Science Research and Methods},
+year = {Forthcoming}}
+```

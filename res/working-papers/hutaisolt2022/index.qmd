@@ -29,7 +29,7 @@ links:
   url: /papers/hutaisolt2022_pre
   icon: far fa-file-pdf
 - name: Code
-  url: "https://github.com/fsolt/dem_mood"
+  url: "https://github.com/fsolt/janitor_work"
   icon: fa-brands fa-github
 # - name: Data
 #   url: ""
@@ -41,9 +41,9 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-status: Revised & Resubmitted
-status_class: info
-status_icon: fa-solid fa-arrows-rotate
+# status: Revised & Resubmitted
+# status_class: info
+# status_icon: fa-solid fa-arrows-rotate
 # status: Under review
 # status_class: success
 # status_icon: fa-solid fa-glasses

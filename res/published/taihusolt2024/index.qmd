@@ -5,22 +5,22 @@ cite: >
   [Tai, Yuehong 'Cassandra'](https://cassyuehtai.netlify.app),
   [Yue Hu](https://sammo3182.github.io), and
   **Frederick Solt**. 
-  Forthcoming.
+  2024.
   "Democracy, Public Support, and Measurement Uncertainty." 
-  _American Political Science Review_.
+  _American Political Science Review_ 118(1):512-518.
 author:
-    - name: Yuehong Cassandra Tai
-      affiliation: Pennsylvania State University
-      url: https://cassyuehtai.netlify.app/
-      orcid: 0000-0001-7303-7443
-    - name: Yue Hu
-      affiliation: Tsinghua University
-      url: https://sammo3182.github.io
-      orcid: 0000-0002-2829-3971
-    - name: Frederick Solt
-      affiliation: University of Iowa
-      url: https://fsolt.org
-      orcid: 0000-0002-3154-6132
+  - name: Yuehong Cassandra Tai
+    affiliation: Pennsylvania State University
+    url: https://cassyuehtai.netlify.app/
+    orcid: 0000-0001-7303-7443
+  - name: Yue Hu
+    affiliation: Tsinghua University
+    url: https://sammo3182.github.io
+    orcid: 0000-0002-2829-3971
+  - name: Frederick Solt
+    affiliation: University of Iowa
+    url: https://fsolt.org
+    orcid: 0000-0002-3154-6132
 extra: >
     Presented at the annual meeting of the 
     Midwest Political Science Association (MPSA), April 2022.
@@ -40,9 +40,9 @@ links:
 # - name: DSD Database
 #   url: https://dcpo.org/data/dsd/
 #   icon: fa-solid fa-database
-status: Forthcoming
-status_class: warning
-status_icon: fa-regular fa-clock
+# status: Forthcoming
+# status_class: warning
+# status_icon: fa-regular fa-clock
 # #   status: Writing
 # #   status_class: warning
 # #   status_icon: fa-regular fa-pen-to-square
@@ -81,11 +81,13 @@ Do democratic regimes depend on public support to avoid backsliding? Does public
 ## BibTeX Citation
 
 ```bibtex
-@article{TaiHuSolt2022,
+@article{TaiHuSolt2024,
 	author = {Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},
-	year = {2022},
+	year = {2024},
 	journal = {American Political Science Review},
 	title = {Democracy, Public Support, and Measurement Uncertainty},
-	volume = {FirstView},
+	volume = {118},
+	number = {1},
+	pages = {512-518},
 	doi = {doi.org/10.1017/S0003055422000429}}
 ```
