@@ -41,8 +41,6 @@ website:
     right:
       - icon: envelope
         href: mailto:frederick-solt@uiowa.edu
-      - icon: twitter
-        href: https://twitter.com/fredericksolt
       - icon: github
         href: https://github.com/fsolt/
       - icon: mortarboard
