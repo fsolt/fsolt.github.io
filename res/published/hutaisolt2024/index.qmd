@@ -36,8 +36,8 @@ links:
 #   icon: fas fa-table
 # pub_status:
 status: Forthcoming
-class: warning
-icon: fa-regular fa-clock
+status_class: warning
+status_icon: fa-regular fa-clock
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
