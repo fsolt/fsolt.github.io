@@ -48,7 +48,6 @@ website:
   sidebar:
     style: "docked"
     border: false
-    title: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
     contents:
       - text: "Income Inequality & Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion"
         file: "/res/res/"

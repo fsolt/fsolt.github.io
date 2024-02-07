@@ -7,8 +7,8 @@ categories:
   - r
   - swiid
 slug: the-swiid-source-data
-bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
-csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
+bibliography: /Users/fsolt/Library/texmf/bibtex/bib/FSLibrary.bib
+csl: "/Users/fsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl"
 output:
     html_document:
         self_contained: true

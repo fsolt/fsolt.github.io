@@ -4,8 +4,8 @@ author: "Frederick Solt"
 date: '2022-07-01'
 categories:
   - note
-bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
-csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
+bibliography: /Users/fsolt/Library/texmf/bibtex/bib/FSLibrary.bib
+csl: /Users/fsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
 editor: source
 draft: FALSE
 ---
@@ -124,7 +124,7 @@ I'd be tempted to move more of my teaching to that platform, but Canvas integrat
 
 ## Websites
 Having a website is a crucial part of getting yourself and your work known by the broader scholarly community.
-[My very first website](https://web.archive.org/web/20021123042649/http://www.unc.edu/~fredsolt/), from back when I was in graduate school, is recorded for posterity at the [Internet Archive's Wayback Machine](https://web.archive.org), which is also a tool I end up using pretty often to prevent link rot in scripts and course assignments.
+[My very first website](https://web.archive.org/web/20021123042649/http://www.unc.edu/~fsolt/), from back when I was in graduate school, is recorded for posterity at the [Internet Archive's Wayback Machine](https://web.archive.org), which is also a tool I end up using pretty often to prevent link rot in scripts and course assignments.
 Anyway, after using [Jekyll](https://jekyllrb.com) and then [blogdown](http://cmcr-class.rbind.io/blog/2019/01/29/blogdown-for-academics/), I [now use Quarto](https://quarto.org/docs/websites/) to write my website and [GitHub Pages](https://quarto.org/docs/websites/publishing-websites.html#github-pages) to publish it.
 
 Since I generate and publish [a lot](https://fsolt.org/swiid/) of data that I want people to discover, explore, and use, I include interactive graphics of these datasets on my websites.

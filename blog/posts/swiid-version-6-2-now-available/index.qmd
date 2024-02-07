@@ -7,8 +7,6 @@ categories:
   - update
   - r
   - swiid
-bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
-csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
 output:
     html_document:
         self_contained: true

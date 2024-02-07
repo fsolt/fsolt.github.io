@@ -6,8 +6,8 @@ date: '2018-08-15'
 categories:
   - note
   - r
-bibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib
-csl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
+bibliography: /Users/fsolt/Library/texmf/bibtex/bib/FSLibrary.bib
+csl: /Users/fsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
 nocite: |
     @Bryan2018, @Ismay2018, @Chang2015, @Kastellec2007, @Wickham2017
 output:

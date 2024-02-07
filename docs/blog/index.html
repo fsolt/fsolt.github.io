@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -104,21 +111,50 @@ var sc_security="da58688a";
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../templates/styles.css">
-<link rel="alternate" type="application/rss+xml" title="Frederick Solt" href="index.xml"><meta property="og:title" content="Frederick Solt - Updates and Working Notes">
-<meta property="og:site-name" content="Frederick Solt">
+<link rel="alternate" type="application/rss+xml" title="Frederick Solt" href="index.xml" data-external="1"><meta property="og:title" content="Frederick Solt - Updates and Working Notes">
+<meta property="og:image" content="https://fsolt.org/blog/fsolt.png">
+<meta property="og:site_name" content="Frederick Solt">
 <meta name="twitter:title" content="Frederick Solt - Updates and Working Notes">
+<meta name="twitter:image" content="https://fsolt.org/blog/fsolt.png">
 <meta name="twitter:site" content="@fredericksolt">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../fsolt.png" alt="" class="navbar-logo">
     </a>
@@ -133,76 +169,71 @@ var sc_security="da58688a";
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../swiid/" rel="" target="">
- <span class="menu-text">SWIID</span></a>
+    <a class="nav-link" href="../swiid/"> 
+<span class="menu-text">SWIID</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://dcpo.org" rel="" target="">
- <span class="menu-text">DCPO</span></a>
+    <a class="nav-link" href="https://dcpo.org"> 
+<span class="menu-text">DCPO</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../res/" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../res/"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teach/" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../teach/"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sw/" rel="" target="">
- <span class="menu-text">Software</span></a>
+    <a class="nav-link" href="../sw/"> 
+<span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/" rel="" target="">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../blog/"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../cv/"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:frederick-solt@uiowa.edu" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:frederick-solt@uiowa.edu"> <i class="bi bi-envelope" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/fredericksolt" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://github.com/fsolt/"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/fsolt/" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ"> <i class="bi bi-mortarboard" role="img">
 </i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ" rel="" target=""><i class="bi bi-mortarboard" role="img">
-</i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Updates and Working Notes</li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Updates and Working Notes</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -214,7 +245,7 @@ var sc_security="da58688a";
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -237,23 +268,25 @@ var sc_security="da58688a";
   </div>
   
 
+
 </header>
+
 
 <div id="listing-blog" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="update,swiid" data-listing-date-sort="1703052000000" data-listing-file-modified-sort="1703086057447" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="0" data-categories="update,swiid" data-listing-date-sort="1703052000000" data-listing-file-modified-sort="1703086057447" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="795">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-9-6-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-9-6-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-9-6-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-9-6-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-9-6-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-9-6-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-9-6-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 9.6 is available!
+<a href="../blog/posts/swiid-version-9-6-is-available/index.html" class="no-external">SWIID Version 9.6 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-9-6-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -262,14 +295,12 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-9-6-is-available/index.html">
 <div class="listing-description">
-<p>Hi everyone! Version 9.6 of the SWIID is now available! This new release adds to its source data over eight thousand new Ginis since version 9.5…</p>
+<a href="../blog/posts/swiid-version-9-6-is-available/index.html" class="no-external">Hi everyone! Version 9.6 of the SWIID is now available! This new release adds to its source data over eight thousand new Ginis since version 9.5…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-9-6-is-available/index.html">
+<a href="../blog/posts/swiid-version-9-6-is-available/index.html" class="no-external">
 <div class="listing-date">
 Dec 20, 2023
 </div>
@@ -279,19 +310,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="update,swiid" data-listing-date-sort="1687842000000" data-listing-file-modified-sort="1687915437000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="1" data-categories="update,swiid" data-listing-date-sort="1687842000000" data-listing-file-modified-sort="1707336075515" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="787">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-9-5-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-9-5-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-9-5-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-9-5-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-9-5-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-9-5-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-9-5-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 9.5 is available!
+<a href="../blog/posts/swiid-version-9-5-is-available/index.html" class="no-external">SWIID Version 9.5 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-9-5-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -300,14 +331,12 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-9-5-is-available/index.html">
 <div class="listing-description">
-<p>Hi everyone! Version 9.5 of the SWIID is now available! This new release adds to its source data 169 new Ginis since version 9.4…</p>
+<a href="../blog/posts/swiid-version-9-5-is-available/index.html" class="no-external">Hi everyone! Version 9.5 of the SWIID is now available! This new release adds to its source data 169 new Ginis since version 9.4…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-9-5-is-available/index.html">
+<a href="../blog/posts/swiid-version-9-5-is-available/index.html" class="no-external">
 <div class="listing-date">
 Jun 27, 2023
 </div>
@@ -317,19 +346,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="update,swiid" data-listing-date-sort="1669096800000" data-listing-file-modified-sort="1676819891000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="2" data-categories="update,swiid" data-listing-date-sort="1669096800000" data-listing-file-modified-sort="1707336072950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="782">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-9-4-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-9-4-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-9-4-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-9-4-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-9-4-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-9-4-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-9-4-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 9.4 is available!
+<a href="../blog/posts/swiid-version-9-4-is-available/index.html" class="no-external">SWIID Version 9.4 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-9-4-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -338,14 +367,12 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-9-4-is-available/index.html">
 <div class="listing-description">
-<p>Hi everyone! Version 9.4 of the SWIID is now available! This new release adds to its source data 5494 new Ginis since version 9.3…</p>
+<a href="../blog/posts/swiid-version-9-4-is-available/index.html" class="no-external">Hi everyone! Version 9.4 of the SWIID is now available! This new release adds to its source data 5494 new Ginis since version 9.3…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-9-4-is-available/index.html">
+<a href="../blog/posts/swiid-version-9-4-is-available/index.html" class="no-external">
 <div class="listing-date">
 Nov 22, 2022
 </div>
@@ -355,32 +382,30 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="note" data-listing-date-sort="1656651600000" data-listing-file-modified-sort="1662644693000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
+<div class="quarto-post image-right" data-index="3" data-categories="note" data-listing-date-sort="1656651600000" data-listing-file-modified-sort="1707335604375" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2294">
 <div class="thumbnail">
-<p><a href="../blog/posts/my-workflow/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/my-workflow/index.html" class="no-external"></a></p><a href="../blog/posts/my-workflow/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/my-workflow/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/my-workflow/index.html">
 <h3 class="no-anchor listing-title">
-My Workflow
+<a href="../blog/posts/my-workflow/index.html" class="no-external">My Workflow</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/my-workflow/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
 </div>
 </div>
-<a href="../blog/posts/my-workflow/index.html">
 <div class="listing-description">
-Today there was a workshop on at the Cluster of Excellence Politics of Inequality on research workflows with presentations by Maarten Buis and me. I was excited for the invitation to speak at the workshop, because I think how we do our work is important: having a good workflow helps us…
+<a href="../blog/posts/my-workflow/index.html" class="no-external">Today there was a workshop on at the Cluster of Excellence Politics of Inequality on research workflows with presentations by Maarten Buis and me. I…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/my-workflow/index.html">
+<a href="../blog/posts/my-workflow/index.html" class="no-external">
 <div class="listing-date">
 Jul 1, 2022
 </div>
@@ -390,19 +415,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="update,swiid" data-listing-date-sort="1656046800000" data-listing-file-modified-sort="1656315441000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="4" data-categories="update,swiid" data-listing-date-sort="1656046800000" data-listing-file-modified-sort="1707336077736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="788">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-9-3-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-9-3-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-9-3-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-9-3-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-9-3-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-9-3-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-9-3-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 9.3 is available!
+<a href="../blog/posts/swiid-version-9-3-is-available/index.html" class="no-external">SWIID Version 9.3 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-9-3-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -411,14 +436,12 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-9-3-is-available/index.html">
 <div class="listing-description">
-<p>Hi everyone! Version 9.3 of the SWIID is now available! This new release adds to its source data 3834 new Ginis since version 9.2…</p>
+<a href="../blog/posts/swiid-version-9-3-is-available/index.html" class="no-external">Hi everyone! Version 9.3 of the SWIID is now available! This new release adds to its source data 3834 new Ginis since version 9.2…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-9-3-is-available/index.html">
+<a href="../blog/posts/swiid-version-9-3-is-available/index.html" class="no-external">
 <div class="listing-date">
 Jun 24, 2022
 </div>
@@ -428,19 +451,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="update,swiid" data-listing-date-sort="1640152800000" data-listing-file-modified-sort="1651281549000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="5" data-categories="update,swiid" data-listing-date-sort="1640152800000" data-listing-file-modified-sort="1651281549000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="793">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-9-2-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-9-2-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-9-2-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-9-2-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-9-2-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-9-2-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-9-2-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 9.2 is available!
+<a href="../blog/posts/swiid-version-9-2-is-available/index.html" class="no-external">SWIID Version 9.2 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-9-2-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -449,14 +472,12 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-9-2-is-available/index.html">
 <div class="listing-description">
-<p>Hi everyone! Version 9.2 of the SWIID is now available! This new release adds to its source data 3834 new Ginis since version 9.1…</p>
+<a href="../blog/posts/swiid-version-9-2-is-available/index.html" class="no-external">Hi everyone! Version 9.2 of the SWIID is now available! This new release adds to its source data 3834 new Ginis since version 9.1…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-9-2-is-available/index.html">
+<a href="../blog/posts/swiid-version-9-2-is-available/index.html" class="no-external">
 <div class="listing-date">
 Dec 22, 2021
 </div>
@@ -466,19 +487,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="update,r,swiid" data-listing-date-sort="1603256400000" data-listing-file-modified-sort="1651281761000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="6" data-categories="update,r,swiid" data-listing-date-sort="1603256400000" data-listing-file-modified-sort="1651281761000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="799">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-9-0-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-9-0-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-9-0-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-9-0-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-9-0-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-9-0-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-9-0-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 9.0 is available!
+<a href="../blog/posts/swiid-version-9-0-is-available/index.html" class="no-external">SWIID Version 9.0 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-9-0-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -490,14 +511,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-9-0-is-available/index.html">
 <div class="listing-description">
-<p>Hi everyone! Version 9.0 of the SWIID is now available! This new release adds to its source data 947 new Ginis since version 8.3…</p>
+<a href="../blog/posts/swiid-version-9-0-is-available/index.html" class="no-external">Hi everyone! Version 9.0 of the SWIID is now available! This new release adds to its source data 947 new Ginis since version 8.3…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-9-0-is-available/index.html">
+<a href="../blog/posts/swiid-version-9-0-is-available/index.html" class="no-external">
 <div class="listing-date">
 Oct 21, 2020
 </div>
@@ -507,19 +526,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="update,r,swiid" data-listing-date-sort="1589864400000" data-listing-file-modified-sort="1651281778000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="7" data-categories="update,r,swiid" data-listing-date-sort="1589864400000" data-listing-file-modified-sort="1651281778000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-8-3-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-8-3-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-8-3-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-8-3-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-8-3-is-available/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-8-3-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-8-3-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 8.3 is available!
+<a href="../blog/posts/swiid-version-8-3-is-available/index.html" class="no-external">SWIID Version 8.3 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-8-3-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -531,14 +550,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-8-3-is-available/index.html">
 <div class="listing-description">
-<p>Version 8.3 of the SWIID is now available! This new release adds to its source data 4759 new Ginis since version 8.2…</p>
+<a href="../blog/posts/swiid-version-8-3-is-available/index.html" class="no-external">Version 8.3 of the SWIID is now available! This new release adds to its source data 4759 new Ginis since version 8.2…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-8-3-is-available/index.html">
+<a href="../blog/posts/swiid-version-8-3-is-available/index.html" class="no-external">
 <div class="listing-date">
 May 19, 2020
 </div>
@@ -548,19 +565,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="update,r,swiid" data-listing-date-sort="1551333600000" data-listing-file-modified-sort="1651281794000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="8" data-categories="update,r,swiid" data-listing-date-sort="1551333600000" data-listing-file-modified-sort="1651281794000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-8-0-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-8-0-is-available/index_files/figure-html/swiid_v80-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-8-0-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-8-0-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-8-0-is-available/index_files/figure-html/swiid_v80-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-8-0-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-8-0-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 8.0 is available!
+<a href="../blog/posts/swiid-version-8-0-is-available/index.html" class="no-external">SWIID Version 8.0 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-8-0-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -572,14 +589,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-8-0-is-available/index.html">
 <div class="listing-description">
-Version 8.0 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:
+<a href="../blog/posts/swiid-version-8-0-is-available/index.html" class="no-external">Version 8.0 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-8-0-is-available/index.html">
+<a href="../blog/posts/swiid-version-8-0-is-available/index.html" class="no-external">
 <div class="listing-date">
 Feb 28, 2019
 </div>
@@ -589,19 +604,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="note,r,swiid" data-listing-date-sort="1547618400000" data-listing-file-modified-sort="1651280170000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
+<div class="quarto-post image-right" data-index="9" data-categories="note,r,swiid" data-listing-date-sort="1547618400000" data-listing-file-modified-sort="1707335570004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2172">
 <div class="thumbnail">
-<p><a href="../blog/posts/cross-validation-for-swiid/index.html"> <p class="card-img-top"><img src="posts/cross-validation-for-swiid/index_files/figure-html/kfold_output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/cross-validation-for-swiid/index.html" class="no-external"></a></p><a href="../blog/posts/cross-validation-for-swiid/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/cross-validation-for-swiid/index_files/figure-html/kfold_output-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/cross-validation-for-swiid/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/cross-validation-for-swiid/index.html">
 <h3 class="no-anchor listing-title">
-Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates
+<a href="../blog/posts/cross-validation-for-swiid/index.html" class="no-external">Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/cross-validation-for-swiid/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -613,14 +628,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/cross-validation-for-swiid/index.html">
 <div class="listing-description">
-<p>From its origins now over ten years ago, the goal of the Standardized World Income Inequality Database has been to provide estimates of income…</p>
+<a href="../blog/posts/cross-validation-for-swiid/index.html" class="no-external">From its origins now over ten years ago, the goal of the Standardized World Income Inequality Database has been to provide estimates of income…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/cross-validation-for-swiid/index.html">
+<a href="../blog/posts/cross-validation-for-swiid/index.html" class="no-external">
 <div class="listing-date">
 Jan 16, 2019
 </div>
@@ -630,19 +643,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="note,r" data-listing-date-sort="1534309200000" data-listing-file-modified-sort="1651325723000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="10" data-categories="note,r" data-listing-date-sort="1534309200000" data-listing-file-modified-sort="1707335385762" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1632">
 <div class="thumbnail">
-<p><a href="../blog/posts/switch-to-r/index.html"> <p class="card-img-top"><img src="posts/switch-to-r/images/auto_results.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/switch-to-r/index.html" class="no-external"></a></p><a href="../blog/posts/switch-to-r/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/switch-to-r/images/auto_results.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/switch-to-r/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/switch-to-r/index.html">
 <h3 class="no-anchor listing-title">
-How to Switch Your Workflow from Stata to R, One Bit at a Time
+<a href="../blog/posts/switch-to-r/index.html" class="no-external">How to Switch Your Workflow from Stata to R, One Bit at a Time</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/switch-to-r/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -651,14 +664,12 @@ note
 r
 </div>
 </div>
-<a href="../blog/posts/switch-to-r/index.html">
 <div class="listing-description">
-A recent exchange on Twitter reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained exclusively in Stata. By 2008, I…<sup></sup>
+<a href="../blog/posts/switch-to-r/index.html" class="no-external">A recent exchange on Twitter reminded me of my switch to R from Stata. I’d started grad school in 1999, before R hit 1.0.0, so I’d been trained…<sup></sup></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/switch-to-r/index.html">
+<a href="../blog/posts/switch-to-r/index.html" class="no-external">
 <div class="listing-date">
 Aug 15, 2018
 </div>
@@ -668,19 +679,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="update,r,swiid" data-listing-date-sort="1534222800000" data-listing-file-modified-sort="1651281839000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="11" data-categories="update,r,swiid" data-listing-date-sort="1534222800000" data-listing-file-modified-sort="1707335536824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-7-1-now-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-7-1-now-available/index_files/figure-html/swiid_v71-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-7-1-now-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-7-1-now-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-7-1-now-available/index_files/figure-html/swiid_v71-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-7-1-now-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-7-1-now-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 7.1 is available!
+<a href="../blog/posts/swiid-version-7-1-now-available/index.html" class="no-external">SWIID Version 7.1 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-7-1-now-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -692,14 +703,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-7-1-now-available/index.html">
 <div class="listing-description">
-Version 7.1 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:
+<a href="../blog/posts/swiid-version-7-1-now-available/index.html" class="no-external">Version 7.1 of the SWIID is now available! In addition to important behind-the-scenes improvements to the estimation routine, this new release:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-7-1-now-available/index.html">
+<a href="../blog/posts/swiid-version-7-1-now-available/index.html" class="no-external">
 <div class="listing-date">
 Aug 14, 2018
 </div>
@@ -709,19 +718,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="update,r,swiid" data-listing-date-sort="1522040400000" data-listing-file-modified-sort="1651281852000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="12" data-categories="update,r,swiid" data-listing-date-sort="1522040400000" data-listing-file-modified-sort="1707335506069" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-6-2-now-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-6-2-now-available/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-6-2-now-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-6-2-now-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-6-2-now-available/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-6-2-now-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-6-2-now-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 6.2 is available!
+<a href="../blog/posts/swiid-version-6-2-now-available/index.html" class="no-external">SWIID Version 6.2 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-6-2-now-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -733,14 +742,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-6-2-now-available/index.html">
 <div class="listing-description">
-Version 6.2 of the SWIID is now available! Building on the…
+<a href="../blog/posts/swiid-version-6-2-now-available/index.html" class="no-external">Version 6.2 of the SWIID is now available! Building on the end-to-end revision accomplished in Version 6.0 last July and the update Version 6.1 last…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-6-2-now-available/index.html">
+<a href="../blog/posts/swiid-version-6-2-now-available/index.html" class="no-external">
 <div class="listing-date">
 Mar 26, 2018
 </div>
@@ -750,19 +757,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="update,r,swiid" data-listing-date-sort="1509080400000" data-listing-file-modified-sort="1651281870000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="13" data-categories="update,r,swiid" data-listing-date-sort="1509080400000" data-listing-file-modified-sort="1707336070423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-6-1-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-6-1-is-available/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-6-1-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-6-1-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-6-1-is-available/index_files/figure-html/unnamed-chunk-1-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-6-1-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-6-1-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 6.1 is available!
+<a href="../blog/posts/swiid-version-6-1-is-available/index.html" class="no-external">SWIID Version 6.1 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-6-1-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -774,14 +781,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-6-1-is-available/index.html">
 <div class="listing-description">
-Version 6.1 of the SWIID is now available! Building on the end-to-end revision accomplished in Version 6.0 last July, this new release:
+<a href="../blog/posts/swiid-version-6-1-is-available/index.html" class="no-external">Version 6.1 of the SWIID is now available! Building on the end-to-end revision accomplished in Version 6.0 last July, this new release:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-6-1-is-available/index.html">
+<a href="../blog/posts/swiid-version-6-1-is-available/index.html" class="no-external">
 <div class="listing-date">
 Oct 27, 2017
 </div>
@@ -791,19 +796,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="note,r,swiid" data-listing-date-sort="1501218000000" data-listing-file-modified-sort="1651280669000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23">
+<div class="quarto-post image-right" data-index="14" data-categories="note,r,swiid" data-listing-date-sort="1501218000000" data-listing-file-modified-sort="1707337770458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4443">
 <div class="thumbnail">
-<p><a href="../blog/posts/the-swiid-source-data/index.html"> <p class="card-img-top"><img src="posts/the-swiid-source-data/index_files/figure-html/data_by_coverage-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/the-swiid-source-data/index.html" class="no-external"></a></p><a href="../blog/posts/the-swiid-source-data/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/the-swiid-source-data/index_files/figure-html/data_by_coverage-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/the-swiid-source-data/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/the-swiid-source-data/index.html">
 <h3 class="no-anchor listing-title">
-The SWIID Source Data
+<a href="../blog/posts/the-swiid-source-data/index.html" class="no-external">The SWIID Source Data</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/the-swiid-source-data/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -815,14 +820,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/the-swiid-source-data/index.html">
 <div class="listing-description">
-<p>I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the…</p>
+<a href="../blog/posts/the-swiid-source-data/index.html" class="no-external">I have been producing the Standardized World Income Inequality Database for nearly a decade. Since 2008, the SWIID has provided estimates of the…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/the-swiid-source-data/index.html">
+<a href="../blog/posts/the-swiid-source-data/index.html" class="no-external">
 <div class="listing-date">
 Jul 28, 2017
 </div>
@@ -832,19 +835,19 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="update,r,swiid" data-listing-date-sort="1501131600000" data-listing-file-modified-sort="1651281891000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="15" data-categories="update,r,swiid" data-listing-date-sort="1501131600000" data-listing-file-modified-sort="1707335593533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-6-0-is-available/index.html"> <p class="card-img-top"><img src="posts/swiid-version-6-0-is-available/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/swiid-version-6-0-is-available/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-6-0-is-available/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/swiid-version-6-0-is-available/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/swiid-version-6-0-is-available/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-6-0-is-available/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 6.0 is available!
+<a href="../blog/posts/swiid-version-6-0-is-available/index.html" class="no-external">SWIID Version 6.0 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-6-0-is-available/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -856,14 +859,12 @@ r
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-6-0-is-available/index.html">
 <div class="listing-description">
-Version 6.0 of the SWIID is now available! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting now done using…
+<a href="../blog/posts/swiid-version-6-0-is-available/index.html" class="no-external">Version 6.0 of the SWIID is now available! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting now done…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-6-0-is-available/index.html">
+<a href="../blog/posts/swiid-version-6-0-is-available/index.html" class="no-external">
 <div class="listing-date">
 Jul 27, 2017
 </div>
@@ -873,51 +874,49 @@ Frederick Solt
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="note" data-listing-date-sort="1492198051000" data-listing-file-modified-sort="1651188927000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="16" data-categories="note" data-listing-date-sort="1492198051000" data-listing-file-modified-sort="1651188927000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1206">
 <div class="thumbnail">
-<p><a href="../blog/posts/reviewing-workshop/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/reviewing-workshop/index.html" class="no-external"></a></p><a href="../blog/posts/reviewing-workshop/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/reviewing-workshop/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/reviewing-workshop/index.html">
 <h3 class="no-anchor listing-title">
-Notes for Those New to Writing Peer Reviews
+<a href="../blog/posts/reviewing-workshop/index.html" class="no-external">Notes for Those New to Writing Peer Reviews</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/reviewing-workshop/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
 </div>
 </div>
-<a href="../blog/posts/reviewing-workshop/index.html">
 <div class="listing-description">
-Today we had a workshop for our graduate students on writing peer reviews. Here are the notes I spoke from:
+<a href="../blog/posts/reviewing-workshop/index.html" class="no-external">Today we had a workshop for our graduate students on writing peer reviews. Here are the notes I spoke from:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/reviewing-workshop/index.html">
+<a href="../blog/posts/reviewing-workshop/index.html" class="no-external">
 <div class="listing-date">
 Apr 14, 2017
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="update,swiid" data-listing-date-sort="1469081521000" data-listing-file-modified-sort="1651188922000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="17" data-categories="update,swiid" data-listing-date-sort="1469081521000" data-listing-file-modified-sort="1651188922000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-5_1/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-5_1/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-5_1/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-5_1/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-5_1/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 5.1 is available!
+<a href="../blog/posts/swiid-version-5_1/index.html" class="no-external">SWIID Version 5.1 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-5_1/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -926,33 +925,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-5_1/index.html">
 <div class="listing-description">
-Version 5.1 of the SWIID is now available! It revises and updates the SWIID’s source data and estimates. It also includes…
+<a href="../blog/posts/swiid-version-5_1/index.html" class="no-external">Version 5.1 of the SWIID is now available! It revises and updates the SWIID’s source data and estimates. It also includes expanded training modules…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-5_1/index.html">
+<a href="../blog/posts/swiid-version-5_1/index.html" class="no-external">
 <div class="listing-date">
 Jul 21, 2016
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="note,icpsrdata,r" data-listing-date-sort="1463799601000" data-listing-file-modified-sort="1651188917000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="18" data-categories="note,icpsrdata,r" data-listing-date-sort="1463799601000" data-listing-file-modified-sort="1651188917000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
 <div class="thumbnail">
-<p><a href="../blog/posts/icpsrdata/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/icpsrdata/index.html" class="no-external"></a></p><a href="../blog/posts/icpsrdata/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/icpsrdata/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/icpsrdata/index.html">
 <h3 class="no-anchor listing-title">
-icpsrdata makes your ICPSR downloads reproducible!
+<a href="../blog/posts/icpsrdata/index.html" class="no-external">icpsrdata makes your ICPSR downloads reproducible!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/icpsrdata/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -964,33 +961,31 @@ icpsrdata
 r
 </div>
 </div>
-<a href="../blog/posts/icpsrdata/index.html">
 <div class="listing-description">
-If you download data from the Inter-university Consortium for Political and Social Research archive archiv…<code></code>
+<a href="../blog/posts/icpsrdata/index.html" class="no-external">If you download data from the Inter-university Consortium for Political and Social Research archive archive, you can make your research reproducible…<code></code></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/icpsrdata/index.html">
+<a href="../blog/posts/icpsrdata/index.html" class="no-external">
 <div class="listing-date">
 May 20, 2016
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="note,pewdata,r" data-listing-date-sort="1463135281000" data-listing-file-modified-sort="1651280597000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="19" data-categories="note,pewdata,r" data-listing-date-sort="1463135281000" data-listing-file-modified-sort="1651280597000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
 <div class="thumbnail">
-<p><a href="../blog/posts/pewdata/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/pewdata/index.html" class="no-external"></a></p><a href="../blog/posts/pewdata/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/pewdata/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/pewdata/index.html">
 <h3 class="no-anchor listing-title">
-Try pewdata!
+<a href="../blog/posts/pewdata/index.html" class="no-external">Try pewdata!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/pewdata/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -1002,33 +997,31 @@ pewdata
 r
 </div>
 </div>
-<a href="../blog/posts/pewdata/index.html">
 <div class="listing-description">
-<p>If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available…</p>
+<a href="../blog/posts/pewdata/index.html" class="no-external">If you use Pew Research Center surveys, you can make your research reproducible with the pewdata package now available…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/pewdata/index.html">
+<a href="../blog/posts/pewdata/index.html" class="no-external">
 <div class="listing-date">
 May 13, 2016
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="update,swiid" data-listing-date-sort="1439221201000" data-listing-file-modified-sort="1651188907000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="20" data-categories="update,swiid" data-listing-date-sort="1439221201000" data-listing-file-modified-sort="1651188907000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <div class="thumbnail">
-<p><a href="../blog/posts/nsf-swiid/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/nsf-swiid/index.html" class="no-external"></a></p><a href="../blog/posts/nsf-swiid/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/nsf-swiid/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/nsf-swiid/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Wins NSF Support!
+<a href="../blog/posts/nsf-swiid/index.html" class="no-external">SWIID Wins NSF Support!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/nsf-swiid/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1037,33 +1030,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/nsf-swiid/index.html">
 <div class="listing-description">
-The National Science Foundation has awarded three years of support to update and improve the SWIID! Yay!
+<a href="../blog/posts/nsf-swiid/index.html" class="no-external">The National Science Foundation has awarded three years of support to update and improve the SWIID! Yay!</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/nsf-swiid/index.html">
+<a href="../blog/posts/nsf-swiid/index.html" class="no-external">
 <div class="listing-date">
 Aug 10, 2015
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="note,dotwhisker,r" data-listing-date-sort="1438269301000" data-listing-file-modified-sort="1651188902000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="21" data-categories="note,dotwhisker,r" data-listing-date-sort="1438269301000" data-listing-file-modified-sort="1651188902000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
 <div class="thumbnail">
-<p><a href="../blog/posts/dotwhisker-for-apsa/index.html"> <p class="card-img-top"><img src="dotwhisker1.jpg" alt="Download"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/dotwhisker-for-apsa/index.html" class="no-external"></a></p><a href="../blog/posts/dotwhisker-for-apsa/index.html" class="no-external">
+<p class="card-img-top"><img src="dotwhisker1.jpg" alt="Download"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/dotwhisker-for-apsa/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/dotwhisker-for-apsa/index.html">
 <h3 class="no-anchor listing-title">
-Use dotwhisker for your APSA slides!
+<a href="../blog/posts/dotwhisker-for-apsa/index.html" class="no-external">Use dotwhisker for your APSA slides!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/dotwhisker-for-apsa/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -1075,33 +1066,31 @@ dotwhisker
 r
 </div>
 </div>
-<a href="../blog/posts/dotwhisker-for-apsa/index.html">
 <div class="listing-description">
-With the APSA coming up, and in the interest of minimizing the number of times we hear “sorry, I know you won’t really be able to see these…<em></em><span class="citation" data-cites="fredericksolt"></span>
+<a href="../blog/posts/dotwhisker-for-apsa/index.html" class="no-external">With the APSA coming up, and in the interest of minimizing the number of times we hear “sorry, I know you won’t really be able to see these…<em></em><span class="citation" data-cites="fredericksolt"></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/dotwhisker-for-apsa/index.html">
+<a href="../blog/posts/dotwhisker-for-apsa/index.html" class="no-external">
 <div class="listing-date">
 Jul 30, 2015
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="note,interplot,r" data-listing-date-sort="1435329601000" data-listing-file-modified-sort="1651280513000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="22" data-categories="note,interplot,r" data-listing-date-sort="1435329601000" data-listing-file-modified-sort="1651280513000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
 <div class="thumbnail">
-<p><a href="../blog/posts/now-on-cran-interplot/index.html"> <p class="card-img-top"><img src="posts/now-on-cran-interplot/images/interplot1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/now-on-cran-interplot/index.html" class="no-external"></a></p><a href="../blog/posts/now-on-cran-interplot/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/now-on-cran-interplot/images/interplot1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/now-on-cran-interplot/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/now-on-cran-interplot/index.html">
 <h3 class="no-anchor listing-title">
-Now on CRAN: interplot
+<a href="../blog/posts/now-on-cran-interplot/index.html" class="no-external">Now on CRAN: interplot</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/now-on-cran-interplot/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -1113,33 +1102,31 @@ interplot
 r
 </div>
 </div>
-<a href="../blog/posts/now-on-cran-interplot/index.html">
 <div class="listing-description">
-<p>Hu Yue and I just published interplot on CRAN, our first R package…</p>
+<a href="../blog/posts/now-on-cran-interplot/index.html" class="no-external">Hu Yue and I just published interplot on CRAN, our first R package…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/now-on-cran-interplot/index.html">
+<a href="../blog/posts/now-on-cran-interplot/index.html" class="no-external">
 <div class="listing-date">
 Jun 26, 2015
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="note,swiid" data-listing-date-sort="1427470801000" data-listing-file-modified-sort="1651280074000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="23" data-categories="note,swiid" data-listing-date-sort="1427470801000" data-listing-file-modified-sort="1651280074000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <div class="thumbnail">
-<p><a href="../blog/posts/imf-china/index.html"> <p class="card-img-top"><img src="posts/imf-china/images/china.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="../blog/posts/imf-china/index.html" class="no-external"></a></p><a href="../blog/posts/imf-china/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/imf-china/images/china.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posts/imf-china/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/imf-china/index.html">
 <h3 class="no-anchor listing-title">
-Inequality in China
+<a href="../blog/posts/imf-china/index.html" class="no-external">Inequality in China</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/imf-china/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -1148,33 +1135,31 @@ note
 swiid
 </div>
 </div>
-<a href="../blog/posts/imf-china/index.html">
 <div class="listing-description">
-A new working paper by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising…
+<a href="../blog/posts/imf-china/index.html" class="no-external">A new working paper by IMF researchers Serhan Cevik and Carolina Correa-Caro observes that sharply rising inequality has made China one of the most…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/imf-china/index.html">
+<a href="../blog/posts/imf-china/index.html" class="no-external">
 <div class="listing-date">
 Mar 27, 2015
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="update,swiid" data-listing-date-sort="1412264401000" data-listing-file-modified-sort="1651188886000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="24" data-categories="update,swiid" data-listing-date-sort="1412264401000" data-listing-file-modified-sort="1651188886000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-5_0/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-5_0/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-5_0/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-5_0/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-5_0/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 5.0 is available!
+<a href="../blog/posts/swiid-version-5_0/index.html" class="no-external">SWIID Version 5.0 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-5_0/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1183,33 +1168,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-5_0/index.html">
 <div class="listing-description">
-Version 5.0 of the SWIID is now available, and it is a major update. A new article of record (currently available as a working paper while under peer review) reviews the problem of…
+<a href="../blog/posts/swiid-version-5_0/index.html" class="no-external">Version 5.0 of the SWIID is now available, and it is a major update. A new article of record (currently available as a working paper while under…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-5_0/index.html">
+<a href="../blog/posts/swiid-version-5_0/index.html" class="no-external">
 <div class="listing-date">
 Oct 2, 2014
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="update,swiid" data-listing-date-sort="1380567841000" data-listing-file-modified-sort="1651188880000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="25" data-categories="update,swiid" data-listing-date-sort="1380567841000" data-listing-file-modified-sort="1651188880000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="291">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-4_0/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-4_0/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-4_0/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-4_0/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-4_0/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 4.0 is available!
+<a href="../blog/posts/swiid-version-4_0/index.html" class="no-external">SWIID Version 4.0 is available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-4_0/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1218,33 +1201,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-4_0/index.html">
 <div class="listing-description">
-Version 4.0 of the SWIID is now available here. Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version…
+<a href="../blog/posts/swiid-version-4_0/index.html" class="no-external">Version 4.0 of the SWIID is now available here. Drawing on nearly 14,000 Gini observations in more than 3100 country-years, this version provides…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-4_0/index.html">
+<a href="../blog/posts/swiid-version-4_0/index.html" class="no-external">
 <div class="listing-date">
 Sep 30, 2013
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="note,swiid" data-listing-date-sort="1380473101000" data-listing-file-modified-sort="1651604218000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="26" data-categories="note,swiid" data-listing-date-sort="1380473101000" data-listing-file-modified-sort="1651604218000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
 <div class="thumbnail">
-<p><a href="../blog/posts/my-un-talk/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/my-un-talk/index.html" class="no-external"></a></p><a href="../blog/posts/my-un-talk/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/my-un-talk/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/my-un-talk/index.html">
 <h3 class="no-anchor listing-title">
-My talk at the UN
+<a href="../blog/posts/my-un-talk/index.html" class="no-external">My talk at the UN</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/my-un-talk/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -1253,33 +1234,31 @@ note
 swiid
 </div>
 </div>
-<a href="../blog/posts/my-un-talk/index.html">
 <div class="listing-description">
-<p>Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Division of the…</p>
+<a href="../blog/posts/my-un-talk/index.html" class="no-external">Earlier this month, I gave a talk previewing Version 4.0 of the SWIID to the Development Policy and Analysis Division of the…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/my-un-talk/index.html">
+<a href="../blog/posts/my-un-talk/index.html" class="no-external">
 <div class="listing-date">
 Sep 29, 2013
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="update,swiid" data-listing-date-sort="1325519761000" data-listing-file-modified-sort="1651278663000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="27" data-categories="update,swiid" data-listing-date-sort="1325519761000" data-listing-file-modified-sort="1651278663000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-3_1/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-3_1/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-3_1/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-3_1/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-3_1/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 3.1 now available!
+<a href="../blog/posts/swiid-version-3_1/index.html" class="no-external">SWIID Version 3.1 now available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-3_1/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1288,33 +1267,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-3_1/index.html">
 <div class="listing-description">
-Version 3.1 of the SWIID is now available here. The primary difference introduced in Version 3.1 is that the data on which the SWIID is based have again been expanded. Now nearly 4500 Gini…<code></code><code></code>
+<a href="../blog/posts/swiid-version-3_1/index.html" class="no-external">Version 3.1 of the SWIID is now available here. The primary difference introduced in Version 3.1 is that the data on which the SWIID is based have…<code></code><code></code></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-3_1/index.html">
+<a href="../blog/posts/swiid-version-3_1/index.html" class="no-external">
 <div class="listing-date">
 Jan 2, 2012
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="update,swiid" data-listing-date-sort="1278884761000" data-listing-file-modified-sort="1651188864000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="28" data-categories="update,swiid" data-listing-date-sort="1278884761000" data-listing-file-modified-sort="1651188864000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="441">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-3_0/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-3_0/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-3_0/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-3_0/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-3_0/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 3.0 is now available!
+<a href="../blog/posts/swiid-version-3_0/index.html" class="no-external">SWIID Version 3.0 is now available!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-3_0/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1323,33 +1300,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-3_0/index.html">
 <div class="listing-description">
-Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.
+<a href="../blog/posts/swiid-version-3_0/index.html" class="no-external">Version 3.0 of the SWIID is now available, with expanded coverage and improved estimates.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-3_0/index.html">
+<a href="../blog/posts/swiid-version-3_0/index.html" class="no-external">
 <div class="listing-date">
 Jul 11, 2010
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="note,swiid" data-listing-date-sort="1277053501000" data-listing-file-modified-sort="1651188858000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="29" data-categories="note,swiid" data-listing-date-sort="1277053501000" data-listing-file-modified-sort="1651188858000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="718">
 <div class="thumbnail">
-<p><a href="../blog/posts/using-swiid-ses/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/using-swiid-ses/index.html" class="no-external"></a></p><a href="../blog/posts/using-swiid-ses/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/using-swiid-ses/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/using-swiid-ses/index.html">
 <h3 class="no-anchor listing-title">
-Using the SWIID Standard Errors
+<a href="../blog/posts/using-swiid-ses/index.html" class="no-external">Using the SWIID Standard Errors</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/using-swiid-ses/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('note'); return false;">
 note
@@ -1358,33 +1333,31 @@ note
 swiid
 </div>
 </div>
-<a href="../blog/posts/using-swiid-ses/index.html">
 <div class="listing-description">
-Incorporating the standard errors in the SWIID estimates into one’s analyses is the right thing to do, but it is not a trivial exercise. I myself…
+<a href="../blog/posts/using-swiid-ses/index.html" class="no-external">Incorporating the standard errors in the SWIID estimates into one’s analyses is the right thing to do, but it is not a trivial exercise. I myself…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/using-swiid-ses/index.html">
+<a href="../blog/posts/using-swiid-ses/index.html" class="no-external">
 <div class="listing-date">
 Jun 20, 2010
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="update,swiid" data-listing-date-sort="1249046461000" data-listing-file-modified-sort="1651188845000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="30" data-categories="update,swiid" data-listing-date-sort="1249046461000" data-listing-file-modified-sort="1651188845000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-2_0/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-2_0/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-2_0/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-2_0/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-2_0/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 2.0
+<a href="../blog/posts/swiid-version-2_0/index.html" class="no-external">SWIID Version 2.0</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-2_0/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1393,33 +1366,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-2_0/index.html">
 <div class="listing-description">
-Ve…<em></em>
+<a href="../blog/posts/swiid-version-2_0/index.html" class="no-external">Version 2.0 of the SWIID is now available, and it is a major upgrade. It introduces two important changes from Version 1.1 (the version described in…<em></em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-2_0/index.html">
+<a href="../blog/posts/swiid-version-2_0/index.html" class="no-external">
 <div class="listing-date">
 Jul 31, 2009
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="update,swiid" data-listing-date-sort="1223838421000" data-listing-file-modified-sort="1651188850000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="31" data-categories="update,swiid" data-listing-date-sort="1223838421000" data-listing-file-modified-sort="1651188850000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-1_1/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-1_1/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-1_1/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-1_1/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-1_1/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 1.1
+<a href="../blog/posts/swiid-version-1_1/index.html" class="no-external">SWIID Version 1.1</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-1_1/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1428,33 +1399,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-1_1/index.html">
 <div class="listing-description">
-S…
+<a href="../blog/posts/swiid-version-1_1/index.html" class="no-external">So much for version control. With apologies to v1.0 users, Version 1.1 is the SWIID as reported in “Standardizing the World Income Inequality…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-1_1/index.html">
+<a href="../blog/posts/swiid-version-1_1/index.html" class="no-external">
 <div class="listing-date">
 Oct 12, 2008
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="update,swiid" data-listing-date-sort="1221330841000" data-listing-file-modified-sort="1651188836000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="32" data-categories="update,swiid" data-listing-date-sort="1221330841000" data-listing-file-modified-sort="1651188836000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-1_0/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-1_0/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-1_0/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-1_0/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-1_0/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 1.0
+<a href="../blog/posts/swiid-version-1_0/index.html" class="no-external">SWIID Version 1.0</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-1_0/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1463,33 +1432,31 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-1_0/index.html">
 <div class="listing-description">
-“Standardizing the World Income Inequality…
+<a href="../blog/posts/swiid-version-1_0/index.html" class="no-external">“Standardizing the World Income Inequality Database” has been accepted for publication in the Social Science Quarterly. Version 0.9 of the SWIID is…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-1_0/index.html">
+<a href="../blog/posts/swiid-version-1_0/index.html" class="no-external">
 <div class="listing-date">
 Sep 13, 2008
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="update,swiid" data-listing-date-sort="1217952301000" data-listing-file-modified-sort="1651188839000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="33" data-categories="update,swiid" data-listing-date-sort="1217952301000" data-listing-file-modified-sort="1651188839000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="thumbnail">
-<p><a href="../blog/posts/swiid-version-0_9/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="../blog/posts/swiid-version-0_9/index.html" class="no-external"></a></p><a href="../blog/posts/swiid-version-0_9/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/swiid-version-0_9/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../blog/posts/swiid-version-0_9/index.html">
 <h3 class="no-anchor listing-title">
-SWIID Version 0.9
+<a href="../blog/posts/swiid-version-0_9/index.html" class="no-external">SWIID Version 0.9</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../blog/posts/swiid-version-0_9/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
 update
@@ -1498,14 +1465,12 @@ update
 swiid
 </div>
 </div>
-<a href="../blog/posts/swiid-version-0_9/index.html">
 <div class="listing-description">
-The SWIID is currently undergoing peer review for publication.
+<a href="../blog/posts/swiid-version-0_9/index.html" class="no-external">The SWIID is currently undergoing peer review for publication.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../blog/posts/swiid-version-0_9/index.html">
+<a href="../blog/posts/swiid-version-0_9/index.html" class="no-external">
 <div class="listing-date">
 Aug 5, 2008
 </div>
@@ -1601,10 +1566,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1614,8 +1578,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1628,6 +1601,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1671,6 +1763,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1696,6 +1789,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1759,4 +1878,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/fsolt/fsolt.github.io/edit/main/blog/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/fsolt/fsolt.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/fsolt/fsolt.github.io/edit/main/blog/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fsolt/fsolt.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

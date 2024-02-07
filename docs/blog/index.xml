@@ -6,21 +6,22 @@
       version="2.0">
 <channel>
 <title>Frederick Solt</title>
-<link>https://fsolt.org/blog/index.html</link>
+<link>https://fsolt.org/blog/</link>
 <atom:link href="https://fsolt.org/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
 <image>
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
-<link>https://fsolt.org/blog/index.html</link>
+<link>https://fsolt.org/blog/</link>
 </image>
-<generator>quarto-1.3.433</generator>
+<generator>quarto-1.4.549</generator>
 <lastBuildDate>Wed, 20 Dec 2023 06:00:00 GMT</lastBuildDate>
 <item>
   <title>SWIID Version 9.6 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -31,12 +32,20 @@
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index_files/figure-html/plot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index_files/figure-html/highest-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -46,14 +55,15 @@
  ]]></description>
   <category>update</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/</guid>
   <pubDate>Wed, 20 Dec 2023 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 9.5 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-9-5-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-5-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -64,12 +74,20 @@
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-5-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-5-is-available/index_files/figure-html/plot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-5-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-5-is-available/index_files/figure-html/highest-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -79,14 +97,15 @@
  ]]></description>
   <category>update</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-9-5-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-5-is-available/</guid>
   <pubDate>Tue, 27 Jun 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 9.4 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -97,12 +116,20 @@
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/plot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index_files/figure-html/highest-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -112,14 +139,15 @@
  ]]></description>
   <category>update</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/</guid>
   <pubDate>Tue, 22 Nov 2022 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My Workflow</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/my-workflow/index.html</link>
+  <link>https://fsolt.org/blog/posts/my-workflow/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -179,7 +207,7 @@
 </section>
 <section id="websites" class="level2">
 <h2 class="anchored" data-anchor-id="websites">Websites</h2>
-<p>Having a website is a crucial part of getting yourself and your work known by the broader scholarly community. <a href="https://web.archive.org/web/20021123042649/http://www.unc.edu/~fredsolt/">My very first website</a>, from back when I was in graduate school, is recorded for posterity at the <a href="https://web.archive.org">Internet Archive’s Wayback Machine</a>, which is also a tool I end up using pretty often to prevent link rot in scripts and course assignments. Anyway, after using <a href="https://jekyllrb.com">Jekyll</a> and then <a href="http://cmcr-class.rbind.io/blog/2019/01/29/blogdown-for-academics/">blogdown</a>, I <a href="https://quarto.org/docs/websites/">now use Quarto</a> to write my website and <a href="https://quarto.org/docs/websites/publishing-websites.html#github-pages">GitHub Pages</a> to publish it.</p>
+<p>Having a website is a crucial part of getting yourself and your work known by the broader scholarly community. <a href="https://web.archive.org/web/20021123042649/http://www.unc.edu/~fsolt/">My very first website</a>, from back when I was in graduate school, is recorded for posterity at the <a href="https://web.archive.org">Internet Archive’s Wayback Machine</a>, which is also a tool I end up using pretty often to prevent link rot in scripts and course assignments. Anyway, after using <a href="https://jekyllrb.com">Jekyll</a> and then <a href="http://cmcr-class.rbind.io/blog/2019/01/29/blogdown-for-academics/">blogdown</a>, I <a href="https://quarto.org/docs/websites/">now use Quarto</a> to write my website and <a href="https://quarto.org/docs/websites/publishing-websites.html#github-pages">GitHub Pages</a> to publish it.</p>
 <p>Since I generate and publish <a href="https://fsolt.org/swiid/">a lot</a> of data that I want people to discover, explore, and use, I include interactive graphics of these datasets on my websites. There are other options, of course, but I use <a href="https://shiny.rstudio.com">Shiny</a> to build these because it allows all the work to be done in R.</p>
 </section>
 <section id="preprints" class="level2">
@@ -203,7 +231,7 @@
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Kastellec2007" class="csl-entry">
 Kastellec, Jonathan P., and Eduardo L. Leoni. 2007. <span>“<a href="https://doi.org/10.1017/S1537592707072209">Using Graphs Instead of Tables in Political Science</a>.”</span> <em>Perspectives on Politics</em> 5(4): 755–71.
 </div>
@@ -222,14 +250,15 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 </ol>
 </section></div> ]]></description>
   <category>note</category>
-  <guid>https://fsolt.org/blog/posts/my-workflow/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/my-workflow/</guid>
   <pubDate>Fri, 01 Jul 2022 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 9.3 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-3-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -240,12 +269,20 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index_files/figure-html/plot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index_files/figure-html/highest-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -255,14 +292,15 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
  ]]></description>
   <category>update</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-3-is-available/</guid>
   <pubDate>Fri, 24 Jun 2022 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 9.2 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-2-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -273,12 +311,20 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index_files/figure-html/plot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index_files/figure-html/highest-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -288,14 +334,15 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
  ]]></description>
   <category>update</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-9-2-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-2-is-available/</guid>
   <pubDate>Wed, 22 Dec 2021 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 9.0 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -307,12 +354,20 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index_files/figure-html/plot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index_files/figure-html/highest-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index_files/figure-html/highest-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -323,14 +378,15 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
   <category>update</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/</guid>
   <pubDate>Wed, 21 Oct 2020 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 8.3 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-8-3-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-8-3-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -341,7 +397,11 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-8-3-is-available/index_files/figure-html/plot-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-8-3-is-available/index_files/figure-html/plot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -352,14 +412,15 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
   <category>update</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-8-3-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-8-3-is-available/</guid>
   <pubDate>Tue, 19 May 2020 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 8.0 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -370,7 +431,11 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index_files/figure-html/swiid_v80-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index_files/figure-html/swiid_v80-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -381,14 +446,15 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
   <category>update</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/</guid>
   <pubDate>Thu, 28 Feb 2019 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Using Cross-Validation to Evaluate the Comparability of the SWIID’s Estimates</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/cross-validation-for-swiid/index.html</link>
+  <link>https://fsolt.org/blog/posts/cross-validation-for-swiid/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -399,14 +465,22 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 <p>To provide a first assessment of the SWIID’s ability to predict the LIS, I randomly assigned the available LIS observations into groups of three, with an added check to ensure that no group included two observations from the same country.<sup>3</sup> (Because the SWIID routine relies only on relationships observed within-country for the countries included in the LIS, the check that only a single observation from a country be assigned to the test data at a time means that the exact size of the group doesn’t really matter.)<sup>4</sup> The figure below plots the difference between the SWIID prediction generated from this <em>k</em>-fold cross-validation and the LIS data for each country-year included in the LIS. Observations for which the 95% credible interval for this difference includes zero are gray; those for which it doesn’t are highlighted in blue.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/cross-validation-for-swiid/index_files/figure-html/kfold_output-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/cross-validation-for-swiid/index_files/figure-html/kfold_output-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>The results show that the SWIID does a very good job of predicting the LIS: the 95% credible interval for the difference between the two includes zero for 92% of these observations. The point estimates for these differences are generally small, with 85% less than 2 Gini points and 62% less than a single Gini point. It’s true that there are a few observations for which the estimated difference is quite large–on the far left of the plot, the SWIID routine underestimated the LIS Gini for Hungary in 1991 by 6 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 4 points, and on the extreme right the SWIID routine overestimated that for Guatemala in 2014 by 7 <img src="https://latex.codecogs.com/png.latex?%5Cpm"> 4 points–but there doesn’t really seem to me to be much pattern in which countries and years are estimated poorly.</p>
 <p>This test, though, really only assesses how well the SWIID predicts LIS-comparable inequality figures in years without LIS data in the (now fifty) countries that are <em>included in the LIS</em>. We can get a better sense of how well the SWIID does predicting countries not covered by the LIS with another cross-validation that, one country at a time, excludes <em>all</em> of the LIS observations for that country. The results of just such a test are plotted below.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/cross-validation-for-swiid/index_files/figure-html/kfold_output_by_country-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/cross-validation-for-swiid/index_files/figure-html/kfold_output_by_country-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Overall, the plot looks very similar to the one above. With each country’s entire run of LIS data taking a turn being excluded, the 95% credible interval for the difference between the resulting SWIID estimate and the excluded LIS data contains zero 91% of the time. And here, too, most of the point estimates for these differences are small: 76% are less than 2 Gini points, and 51% are less than one Gini point.</p>
@@ -421,7 +495,7 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Checchi2018" class="csl-entry">
 Checchi, Daniele, Andrej Cupak, Teresa Munzi, and Janet Gornick. 2018. <span>“Empirical Challenges Comparing Inequality Across Countries: The Case of Middle-Income Countries from the <span>LIS</span> Database.”</span> <em>WIDER Working Paper</em> 2018/149.
 </div>
@@ -440,14 +514,15 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
   <category>note</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/cross-validation-for-swiid/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/cross-validation-for-swiid/</guid>
   <pubDate>Wed, 16 Jan 2019 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How to Switch Your Workflow from Stata to R, One Bit at a Time</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/switch-to-r/index.html</link>
+  <link>https://fsolt.org/blog/posts/switch-to-r/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -608,7 +683,7 @@ font-style: inherit;">END_OF_R</span></span></code></pre></div>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/blog/posts/switch-to-r/images/auto_results.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/blog/posts/switch-to-r/images/auto_results.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 </section>
@@ -719,7 +794,7 @@ font-style: inherit;">data.in =</span> x)                         </span></code>
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
-           a |          3   -.1888825    .8789378  -1.164719   .5405706</code></pre>
+           a |          3   -.8754719    1.620706  -2.635372   .5556138</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="do" style="color: #5E5E5E;
 background-color: null;
@@ -832,24 +907,24 @@ font-style: inherit;">data.in =</span> data)</span></code></pre></div>
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
-           y |        100    .0236265     1.03123  -3.268936    2.58725
-          x1 |        100   -.1016676    1.002768  -2.997756   2.139994
-          x2 |        100    .0404716     .934101  -4.258553   2.231875
+           y |        100    .1028134    1.077763  -2.751298   3.759768
+          x1 |        100    .0111719    1.045379  -2.197057   2.819847
+          x2 |        100    .0528816     1.03582  -1.989761   2.750403
 .     reg y x1 x2
 
       Source |       SS           df       MS      Number of obs   =       100
--------------+----------------------------------   F(2, 97)        =      2.01
-       Model |  4.19911148         2  2.09955574   Prob &gt; F        =    0.1389
-    Residual |  101.080895        97  1.04207108   R-squared       =    0.0399
--------------+----------------------------------   Adj R-squared   =    0.0201
-       Total |  105.280006        99   1.0634344   Root MSE        =    1.0208
+-------------+----------------------------------   F(2, 97)        =      1.67
+       Model |  3.83183903         2  1.91591952   Prob &gt; F        =    0.1933
+    Residual |  111.163799        97  1.14601855   R-squared       =    0.0333
+-------------+----------------------------------   Adj R-squared   =    0.0134
+       Total |  114.995638        99  1.16157211   Root MSE        =    1.0705
 
 ------------------------------------------------------------------------------
            y |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 -------------+----------------------------------------------------------------
-          x1 |  -.1795877   .1023142    -1.76   0.082    -.3826531    .0234778
-          x2 |  -.1060174   .1098355    -0.97   0.337    -.3240104    .1119756
-       _cons |   .0096589    .102709     0.09   0.925      -.19419    .2135078
+          x1 |   -.052345   .1040429    -0.50   0.616    -.2588414    .1541514
+          x2 |  -.1748659   .1050031    -1.67   0.099    -.3832679    .0335362
+       _cons |   .1126454   .1071937     1.05   0.296    -.1001044    .3253951
 ------------------------------------------------------------------------------
 .     </code></pre>
 </div>
@@ -887,7 +962,7 @@ font-style: inherit;">data.in =</span> data)</span></code></pre></div>
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Bryan2018" class="csl-entry">
 Bryan, Jenny. 2018. <span>“Happy Git and GitHub for the useR.”</span> <a href="http://happygitwithr.com/">http://happygitwithr.com/</a>.
 </div>
@@ -914,14 +989,15 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
 </section></div> ]]></description>
   <category>note</category>
   <category>r</category>
-  <guid>https://fsolt.org/blog/posts/switch-to-r/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/switch-to-r/</guid>
   <pubDate>Wed, 15 Aug 2018 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 7.1 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -932,7 +1008,11 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index_files/figure-html/swiid_v71-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index_files/figure-html/swiid_v71-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -943,14 +1023,15 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
   <category>update</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/</guid>
   <pubDate>Tue, 14 Aug 2018 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 6.2 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -962,7 +1043,11 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -973,14 +1058,15 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
   <category>update</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/</guid>
   <pubDate>Mon, 26 Mar 2018 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 6.1 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -993,7 +1079,11 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>For more details, you can check out the all the R and Stan code used to generate the estimates <a href="https://github.com/fsolt/swiid">in the SWIID GitHub repository</a>. As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -1004,14 +1094,15 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
   <category>update</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/</guid>
   <pubDate>Fri, 27 Oct 2017 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The SWIID Source Data</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/the-swiid-source-data/index.html</link>
+  <link>https://fsolt.org/blog/posts/the-swiid-source-data/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1023,44 +1114,72 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
 <p>The resulting dataset comprises 15549(!) Gini coefficients from 2951 country-years in 196 countries or territories, making the coverage of the SWIID source data broader than that of any other income inequality dataset. This isn’t surprising given that, with the exceptions of the <a href="https://www.wider.unu.edu/database/world-income-inequality-database-wiid4">WIID</a> (which, since it provides no original data, isn’t drawn on at all anymore) and the <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets">All the Ginis</a> database (which provides little original data, and so isn’t drawn on much), the SWIID source data incorporates all of the data in these other datasets.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/data_by_coverage-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/data_by_coverage-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>So, let’s check out what the source data look like. There is much more data available about the income distribution in some countries than in others. Which countries are most data-rich? The plot below shows the top dozen countries by the count of observations. Canada, by virtue of the excellent <a href="http://www.statcan.gc.ca">Statistics Canada</a> as well as longstanding membership in the OECD and LIS, has 736 observations, many more than any other country. The United Kingdom, Germany, and the United States are next, followed by an interesting mix of countries from around the world with not surprisingly a sizable European representation. All are members of the LIS. On the other hand, eleven countries have only a single observation.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_country-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_country-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>As we’ll see in later posts in this series, observations for the same country in the same year, but with different welfare definitions and equivalence scales or from different sources, are important to generating the SWIID’s cross-nationally comparable estimates. Still, we might be interested to know which countries have the most coverage of the years in the SWIID’s current 57-year timeframe, from 1960 to 2017, because the SWIID’s inequality estimates for countries with fewer country-year observations will include more interpolated values, which in turn will have more uncertainty.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/years_by_country-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/years_by_country-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>The source data includes observations for Sweden and the United Kingdom in all but one of these years and for the United States in all but five. Iran and Argentina—two countries not included in the LIS—make the top 12, with 43 and 42 country-year observations respectively. The median country has observations in 16 different country-years.</p>
 <p>We can also get a sense of the available inequality data by turning the question around and asking about coverage across countries over time. There are observations for 123 countries in 2005. Coverage is relatively good in the years from 2000 to 2015, at least 80 countries per year, before dropping to 75 countries for 2016 and just 25 for 2017. Country coverage is pretty thin each year through the 1960s and 1970s and still isn’t all that great until the late 1980s.<sup>10</sup></p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/countries_by_year-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/countries_by_year-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Earlier I mentioned that to be included in the SWIID source data observations need to have an identifiable welfare definition and equivalence scale. A welfare definition is an answer to the question, this Gini measures the distribution of what? The four welfare definitions employed in the SWIID source data are market income, gross income, disposable income, and consumption. Market income is defined as the amount of money coming into the household, excluding any government cash or near-cash benefits, the so-called ‘pre-tax, pre-transfer income.’<sup>11</sup> Gross income is the sum of market income and government transfer payments; it is ‘pre-tax, post-transfer income.’ Disposable income, in turn, is gross income minus direct taxes: ‘post-tax, post-transfer income.’<sup>12</sup> Consumption does not refer to the money coming into the household at all but rather to the money going out.<sup>13</sup> In the source data, Ginis of disposable income are much more common than those using other welfare definitions.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_wd-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_wd-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Equivalence scales are the ways in which the size and composition of a household is incorporated into the calculation of its members’ welfare. On the one hand, these factors can simply be ignored, with all households with the same amount of income or consumption treated as if they enjoy the same level of welfare, regardless of their size. One can improve on this household ‘scale’<sup>14</sup> by dividing the household’s income by its number of members, that is, by using a per capita scale. But a household of two members and an income of $100,000 is better off than one with a single member and $50,000 due to economies of scale—that’s a big reason why people look for roommates. There are a variety of ways to try to account for these economies by calculating the number of “equivalent adults” in the household. Of the most commonly used adult-equivalent scales, the square-root scale is the most straightforward: one simply divides the household income by the square root of the number of members. The “OECD-modified” scale for the number of adult equivalents (<a href="http://www.oecd.org/eco/growth/OECD-Note-EquivalenceScales.pdf">which the OECD itself actually never used</a>) counts the first adult as 1, all other adults as .5, and each child as .3. And there are plenty of other adult-equivalent scales, from the “old OECD” scale (1 for the first adult, 0.7 for each additional adult, and 0.5 for each child) to caloric-requirement-based scales (which are actually very nearly per capita, as it turns out) to a number of country-specific scales. In previous versions of the SWIID, all adult-equivalent scales were considered a single category. Now, the square-root scale and the OECD-modified scale have both been split out, leaving the remaining catch-all adult-equivalent category much smaller.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_es-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_es-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>Differences in the welfare definition and the equivalence scale employed constitute the biggest source of incomparability across observations in the source data, and all twenty of the possible combinations are represented. I’ll take up how we get from these incomparable observations to the SWIID estimates in the next post. In the meantime, if you’d like to see the source data, you can <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">download it from here</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_wdes-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/the-swiid-source-data/index_files/figure-html/obs_by_wdes-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <section id="references" class="level1">
@@ -1071,7 +1190,7 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Jesuit2010" class="csl-entry">
 Jesuit, David K., and Vincent A. Mahler. 2010. <span>“Comparing Government Redistribution Across Countries: The Problem of Second-Order Effects.”</span> <em>Social Science Quarterly</em> 91(5): 1390–1404.
 </div>
@@ -1103,21 +1222,26 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
   <category>note</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/the-swiid-source-data/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/the-swiid-source-data/</guid>
   <pubDate>Fri, 28 Jul 2017 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 6.0 is available!</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/</link>
   <description><![CDATA[ 
+
 
 
 
 <p>Version 6.0 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting <a href="https://github.com/fsolt/swiid/">now done using #rstats and Stan</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 <p>As always, I encourage users of the SWIID to <a href="mailto:frederick-solt@uiowa.edu">email me</a> with their comments, questions, and suggestions.</p>
@@ -1128,13 +1252,14 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
   <category>update</category>
   <category>r</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/</guid>
   <pubDate>Thu, 27 Jul 2017 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Notes for Those New to Writing Peer Reviews</title>
-  <link>https://fsolt.org/blog/posts/reviewing-workshop/index.html</link>
+  <link>https://fsolt.org/blog/posts/reviewing-workshop/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1170,13 +1295,14 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
 
  ]]></description>
   <category>note</category>
-  <guid>https://fsolt.org/blog/posts/reviewing-workshop/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/reviewing-workshop/</guid>
   <pubDate>Fri, 14 Apr 2017 19:27:31 GMT</pubDate>
 </item>
 <item>
   <title>SWIID Version 5.1 is available!</title>
-  <link>https://fsolt.org/blog/posts/swiid-version-5_1/index.html</link>
+  <link>https://fsolt.org/blog/posts/swiid-version-5_1/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1188,13 +1314,14 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
  ]]></description>
   <category>update</category>
   <category>swiid</category>
-  <guid>https://fsolt.org/blog/posts/swiid-version-5_1/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/swiid-version-5_1/</guid>
   <pubDate>Thu, 21 Jul 2016 06:12:01 GMT</pubDate>
 </item>
 <item>
   <title>icpsrdata makes your ICPSR downloads reproducible!</title>
-  <link>https://fsolt.org/blog/posts/icpsrdata/index.html</link>
+  <link>https://fsolt.org/blog/posts/icpsrdata/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1206,13 +1333,14 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
   <category>note</category>
   <category>icpsrdata</category>
   <category>r</category>
-  <guid>https://fsolt.org/blog/posts/icpsrdata/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/icpsrdata/</guid>
   <pubDate>Sat, 21 May 2016 03:00:01 GMT</pubDate>
 </item>
 <item>
   <title>Try pewdata!</title>
-  <link>https://fsolt.org/blog/posts/pewdata/index.html</link>
+  <link>https://fsolt.org/blog/posts/pewdata/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1224,7 +1352,7 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
   <category>note</category>
   <category>pewdata</category>
   <category>r</category>
-  <guid>https://fsolt.org/blog/posts/pewdata/index.html</guid>
+  <guid>https://fsolt.org/blog/posts/pewdata/</guid>
   <pubDate>Fri, 13 May 2016 10:28:01 GMT</pubDate>
 </item>
 </channel>

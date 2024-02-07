@@ -59,7 +59,7 @@ status_class: success
 status_icon: fa-solid fa-glasses
 listing:
   - id: cite
-    contents: "short.qmd"
+    contents: "*.qmd"
     template: "../../../templates/single-cite.ejs"
 # draft: true
 ---
