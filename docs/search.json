@@ -46,7 +46,7 @@
     "href": "res/index.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\n\n\n\n\n Under review Woo, Byung-Deuk, Hyein Ko, Yuehong Cassandra Tai, Yue Hu, and Frederick Solt. 2023. “Measuring Tolerance of Homosexuality in the Mass Public Across Countries and Over Time.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\n Revised & Resubmitted Hu, Yue and Solt, Frederick. 2024. “Macrointerest Across Countries.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\n Under review Hu, Yue, Yuehong Cassandra Tai, Hyein Ko, Byung-Deuk Woo, and Frederick Solt. 2023. “Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\nHu, Yue, Yuehong Cassandra Tai, and Frederick Solt. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\nSolt, Frederick. 2020. “Modeling Dynamic Comparative Public Opinion.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\nNo matching items"
+    "text": "Working Papers\n\n\n\n\n\n Revised & Resubmitted Hu, Yue and Solt, Frederick. 2024. “Macrointerest Across Countries.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\n Under review Woo, Byung-Deuk, Hyein Ko, Yuehong Cassandra Tai, Yue Hu, and Frederick Solt. 2023. “Measuring Tolerance of Homosexuality in the Mass Public Across Countries and Over Time.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\n Under review Hu, Yue, Yuehong Cassandra Tai, Hyein Ko, Byung-Deuk Woo, and Frederick Solt. 2023. “Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\nHu, Yue, Yuehong Cassandra Tai, and Frederick Solt. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\nSolt, Frederick. 2020. “Modeling Dynamic Comparative Public Opinion.” SocArXiv.\n\n\n\n\n\n Full details »\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "res/working-papers/dcpo_article/short.html",
@@ -109,7 +109,7 @@
     "href": "res/working-papers/hutaisolt2022/short.html",
     "title": "On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy",
     "section": "",
-    "text": "No matching items"
+    "text": "Hu, Yue, Yuehong Cassandra Tai, and Frederick Solt. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” SocArXiv.\n\n\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "res/working-papers/hutaisolt2022/short.html#abstract",
@@ -137,7 +137,7 @@
     "href": "res/working-papers/hutaisolt2022/index.html",
     "title": "On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy",
     "section": "",
-    "text": "No matching items"
+    "text": "Hu, Yue, Yuehong Cassandra Tai, and Frederick Solt. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” SocArXiv.\n\n\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "res/working-papers/hutaisolt2022/index.html#abstract",
@@ -2049,5 +2049,89 @@
     "title": "Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere",
     "section": "BibTeX citation",
     "text": "BibTeX citation\n@article{WooAllemangSolt2022,\n  author = {Woo, Byung-Deuk, and Goldberg, Lindsey A., and Solt, Frederick},\n  year = {2023},\n  title = {Public {{Gender Egalitarianism}}: {{A Dataset}} of {{Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles}} in the {{Public Sphere}}},\n  journal={British Journal of Political Science},\n  volume={53},\n  number={2},\n  pages={766–775},\n  doi = {10.1017/S0007123422000436}}"
+  },
+  {
+    "objectID": "res/published/taihusolt2024/short.html",
+    "href": "res/published/taihusolt2024/short.html",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "",
+    "text": "Tai, Yuehong ‘Cassandra’, Yue Hu, and Frederick Solt. 2024. “Democracy, Public Support, and Measurement Uncertainty.” American Political Science Review 118(1):512-518.\n\n\n\n\n Final version\n\n\n Preprint\n\n\n Code\n\n\n Dataverse\n\n\n\n\n\nOther details: Presented at the annual meeting of the Midwest Political Science Association (MPSA), April 2022.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "res/published/taihusolt2024/short.html#abstract",
+    "href": "res/published/taihusolt2024/short.html#abstract",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "Abstract",
+    "text": "Abstract\nDo democratic regimes depend on public support to avoid backsliding? Does public support, in turn, respond thermostatically to changes in democracy? Two prominent recent studies (Claassen 2020a, 2020b) reinvigorated the classic hypothesis on the positive relationship between public support for democracy and regime survival—and challenged its reciprocal counterpart—by using a latent variable approach to measure mass democratic support from cross-national survey data. Both studies, however, used only the point estimates of democratic support; we show that incorporating the concomitant measurement uncertainty into these analyses reveals that there is no support for either study’s conclusion. Efforts to minimize the uncertainty by incorporating additional survey data still fail to yield evidence in support of either hypothesis. These results underscore the need both for more nuanced analyses of the relationships between public support and democracy and for taking measurement uncertainty into account when working with latent variables."
+  },
+  {
+    "objectID": "res/published/taihusolt2024/short.html#important-figure",
+    "href": "res/published/taihusolt2024/short.html#important-figure",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "Important Figure",
+    "text": "Important Figure\n\n\n\nFigure 1: The Effect of Public Support on Democracy with Uncertainty"
+  },
+  {
+    "objectID": "res/published/taihusolt2024/short.html#bibtex-citation",
+    "href": "res/published/taihusolt2024/short.html#bibtex-citation",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "BibTeX Citation",
+    "text": "BibTeX Citation\n@article{TaiHuSolt2024,\n    author = {Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},\n    year = {2024},\n    journal = {American Political Science Review},\n    title = {Democracy, Public Support, and Measurement Uncertainty},\n    volume = {118},\n    number = {1},\n    pages = {512-518},\n    doi = {doi.org/10.1017/S0003055422000429}}"
+  },
+  {
+    "objectID": "res/published/taihusolt2024/index.html",
+    "href": "res/published/taihusolt2024/index.html",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "",
+    "text": "Tai, Yuehong ‘Cassandra’, Yue Hu, and Frederick Solt. 2024. “Democracy, Public Support, and Measurement Uncertainty.” American Political Science Review 118(1):512-518.\n\n\n\n\n Final version\n\n\n Preprint\n\n\n Code\n\n\n Dataverse\n\n\n\n\n\nOther details: Presented at the annual meeting of the Midwest Political Science Association (MPSA), April 2022.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "res/published/taihusolt2024/index.html#abstract",
+    "href": "res/published/taihusolt2024/index.html#abstract",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "Abstract",
+    "text": "Abstract\nDo democratic regimes depend on public support to avoid backsliding? Does public support, in turn, respond thermostatically to changes in democracy? Two prominent recent studies (Claassen 2020a, 2020b) reinvigorated the classic hypothesis on the positive relationship between public support for democracy and regime survival—and challenged its reciprocal counterpart—by using a latent variable approach to measure mass democratic support from cross-national survey data. Both studies, however, used only the point estimates of democratic support; we show that incorporating the concomitant measurement uncertainty into these analyses reveals that there is no support for either study’s conclusion. Efforts to minimize the uncertainty by incorporating additional survey data still fail to yield evidence in support of either hypothesis. These results underscore the need both for more nuanced analyses of the relationships between public support and democracy and for taking measurement uncertainty into account when working with latent variables."
+  },
+  {
+    "objectID": "res/published/taihusolt2024/index.html#important-figure",
+    "href": "res/published/taihusolt2024/index.html#important-figure",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "Important Figure",
+    "text": "Important Figure\n\n\n\nFigure 1: The Effect of Public Support on Democracy with Uncertainty"
+  },
+  {
+    "objectID": "res/published/taihusolt2024/index.html#bibtex-citation",
+    "href": "res/published/taihusolt2024/index.html#bibtex-citation",
+    "title": "Democracy, Public Support, and Measurement Uncertainty",
+    "section": "BibTeX Citation",
+    "text": "BibTeX Citation\n@article{TaiHuSolt2024,\n    author = {Tai, Yuehong 'Cassandra' and Hu, Yue and Solt, Frederick},\n    year = {2024},\n    journal = {American Political Science Review},\n    title = {Democracy, Public Support, and Measurement Uncertainty},\n    volume = {118},\n    number = {1},\n    pages = {512-518},\n    doi = {doi.org/10.1017/S0003055422000429}}"
+  },
+  {
+    "objectID": "res/working-papers/husolt2024/index.html",
+    "href": "res/working-papers/husolt2024/index.html",
+    "title": "Macrointerest Across Countries",
+    "section": "",
+    "text": "Hu, Yue and Solt, Frederick. 2023. “Macrointerest Across Countries.” SocArXiv.\n\n\n\n\n Preprint\n\n\n Code\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "res/working-papers/husolt2024/index.html#abstract",
+    "href": "res/working-papers/husolt2024/index.html#abstract",
+    "title": "Macrointerest Across Countries",
+    "section": "Abstract",
+    "text": "Abstract\nThe extent to which the public takes an interest in politics has long been argued to be foundational to democracy, but the want of appropriate data has prevented cross- national and longitudinal analysis. This letter takes advantage of recent advances in latent-variable modeling of aggregate survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of macrointerest, that is, aggregate political interest, for over a hundred countries over the past four decades. These macrointerest scores are validated with other aggregate measures of political interest and of other types of political engagement. A cross-national and longitudinal analysis of macrointerest in advanced democracies reveals that along with election campaigns and inclusive institutions, it is good times, not bad, that spur publics to greater interest in politics."
+  },
+  {
+    "objectID": "res/working-papers/husolt2024/index.html#important-figures",
+    "href": "res/working-papers/husolt2024/index.html#important-figures",
+    "title": "Macrointerest Across Countries",
+    "section": "Important figures",
+    "text": "Important figures\n\n\n\nFigure 2: Internal Convergent Validation: Correlations Between Macrointerest and Individual Source-Data Survey Items\n\n\n\n\n\nFigure 3: Construct Validation: Correlations Between Macrointerest and Other Aspects of Political Engagement\n\n\n\n\n\nFigure 5: Predicting Macrointerest in OECD Democracies"
+  },
+  {
+    "objectID": "res/working-papers/husolt2024/index.html#bibtex-citation",
+    "href": "res/working-papers/husolt2024/index.html#bibtex-citation",
+    "title": "Macrointerest Across Countries",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@misc{HuSolt2024,\n author={Hu, Yue, and Solt, Frederick},\n title={Macrointerest Across Countries},\n publisher={SocArXiv},\n year={2024},\n month={February}, \n url={osf.io/preprints/socarxiv/nkgdy/},\n doi={10.31235/osf.io/nkgdy}\n}"
   }
 ]

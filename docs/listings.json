@@ -26,8 +26,8 @@
       "/res/published/solt2004bjps/index.html",
       "/res/published/solt2004larr/index.html",
       "/res/published/solt2001/index.html",
-      "/res/working-papers/wookotaihusolt2023/index.html",
       "/res/working-papers/husolt2024/index.html",
+      "/res/working-papers/wookotaihusolt2023/index.html",
       "/res/working-papers/hutaikowoosolt2023/index.html",
       "/res/working-papers/hutaisolt2022/index.html",
       "/res/working-papers/dcpo_article/index.html"
@@ -47,11 +47,15 @@
   },
   {
     "listing": "/res/working-papers/hutaisolt2022/short.html",
-    "items": []
+    "items": [
+      "/res/working-papers/hutaisolt2022/index.html"
+    ]
   },
   {
     "listing": "/res/working-papers/hutaisolt2022/index.html",
-    "items": []
+    "items": [
+      "/res/working-papers/hutaisolt2022/short.html"
+    ]
   },
   {
     "listing": "/res/working-papers/wookotaihusolt2023/short.html",
@@ -433,6 +437,24 @@
     "listing": "/res/published/woogoldbergsolt2023/short.html",
     "items": [
       "/res/published/woogoldbergsolt2023/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/taihusolt2024/short.html",
+    "items": [
+      "/res/published/taihusolt2024/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/taihusolt2024/index.html",
+    "items": [
+      "/res/published/taihusolt2024/short.html"
+    ]
+  },
+  {
+    "listing": "/res/working-papers/husolt2024/index.html",
+    "items": [
+      "/res/working-papers/husolt2024/short.html"
     ]
   }
 ]

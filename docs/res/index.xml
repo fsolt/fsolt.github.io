@@ -6,22 +6,22 @@
       version="2.0">
 <channel>
 <title>Frederick Solt</title>
-<link>https://fsolt.org/res/index.html</link>
+<link>https://fsolt.org/res/</link>
 <atom:link href="https://fsolt.org/res/index.xml" rel="self" type="application/rss+xml"/>
 <description>Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</description>
 <image>
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
-<link>https://fsolt.org/res/index.html</link>
+<link>https://fsolt.org/res/</link>
 </image>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.549</generator>
 <lastBuildDate>Tue, 06 Feb 2024 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?</title>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/hutaisolt2024/index.html</link>
+  <link>https://fsolt.org/res/published/hutaisolt2024/</link>
   <description><![CDATA[ 
 
 
@@ -103,7 +103,113 @@ font-style: inherit;">year</span> = {Forthcoming}}</span></code></pre></div>
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
-  <guid>https://fsolt.org/res/published/hutaisolt2024/index.html</guid>
+  <guid>https://fsolt.org/res/published/hutaisolt2024/</guid>
+  <pubDate>Tue, 06 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Macrointerest Across Countries</title>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/husolt2024/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a> and <strong>Solt, Frederick</strong>. 2023. “Macrointerest Across Countries.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_macrointerest"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The extent to which the public takes an interest in politics has long been argued to be foundational to democracy, but the want of appropriate data has prevented cross- national and longitudinal analysis. This letter takes advantage of recent advances in latent-variable modeling of aggregate survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of macrointerest, that is, aggregate political interest, for over a hundred countries over the past four decades. These macrointerest scores are validated with other aggregate measures of political interest and of other types of political engagement. A cross-national and longitudinal analysis of macrointerest in advanced democracies reveals that along with election campaigns and inclusive institutions, it is good times, not bad, that spur publics to greater interest in politics.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig2.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2: Internal Convergent Validation: Correlations Between Macrointerest and Individual Source-Data Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig3.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3: Construct Validation: Correlations Between Macrointerest and Other Aspects of Political Engagement</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig5.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5: Predicting Macrointerest in OECD Democracies</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">HuSolt2024</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Hu, Yue, and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Macrointerest Across Countries},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2024},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={February}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={osf.io/preprints/socarxiv/nkgdy/},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/nkgdy}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/working-papers/husolt2024/</guid>
   <pubDate>Tue, 06 Feb 2024 06:00:00 GMT</pubDate>
 </item>
 <item>
@@ -113,7 +219,7 @@ font-style: inherit;">year</span> = {Forthcoming}}</span></code></pre></div>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/wookotaihusolt2023/index.html</link>
+  <link>https://fsolt.org/res/working-papers/wookotaihusolt2023/</link>
   <description><![CDATA[ 
 
 
@@ -223,7 +329,7 @@ font-style: inherit;">month</span>={Jun}</span>
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/wookotaihusolt2023/index.html</guid>
+  <guid>https://fsolt.org/res/working-papers/wookotaihusolt2023/</guid>
   <pubDate>Fri, 30 Jun 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -231,8 +337,9 @@ font-style: inherit;">month</span>={Jun}</span>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/taihusolt2024/index.html</link>
+  <link>https://fsolt.org/res/published/taihusolt2024/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -281,7 +388,7 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/published/taihusolt2024/dem_support_fig1.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 1: The Effect of Public Support on Democracy with Uncertainty</figcaption>
+<figcaption>Figure 1: The Effect of Public Support on Democracy with Uncertainty</figcaption>
 </figure>
 </div>
 </section>
@@ -326,7 +433,7 @@ font-style: inherit;">doi</span> = {doi.org/10.1017/S0003055422000429}}</span></
   <category>democracy</category>
   <category>attitudes</category>
   <category>measurement</category>
-  <guid>https://fsolt.org/res/published/taihusolt2024/index.html</guid>
+  <guid>https://fsolt.org/res/published/taihusolt2024/</guid>
   <pubDate>Mon, 29 May 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -334,7 +441,7 @@ font-style: inherit;">doi</span> = {doi.org/10.1017/S0003055422000429}}</span></
   <dc:creator>Byung-Deuk Woo</dc:creator>
   <dc:creator>Lindsey A. Goldberg</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/woogoldbergsolt2023/index.html</link>
+  <link>https://fsolt.org/res/published/woogoldbergsolt2023/</link>
   <description><![CDATA[ 
 
 
@@ -438,113 +545,8 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
   <category>inequality</category>
   <category>attitudes</category>
   <category>measurement</category>
-  <guid>https://fsolt.org/res/published/woogoldbergsolt2023/index.html</guid>
+  <guid>https://fsolt.org/res/published/woogoldbergsolt2023/</guid>
   <pubDate>Sun, 28 May 2023 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Macrointerest Across Countries</title>
-  <dc:creator>Yue Hu</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/husolt2024/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://sammo3182.github.io">Hu, Yue</a> and <strong>Solt, Frederick</strong>. 2023. “Macrointerest Across Countries.” <em>SocArXiv</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/solt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dcpo_macrointerest"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>The extent to which the public takes an interest in politics has long been argued to be foundational to democracy, but the want of appropriate data has prevented cross- national and longitudinal analysis. This letter takes advantage of recent advances in latent-variable modeling of aggregate survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of macrointerest, that is, aggregate political interest, for over a hundred countries over the past four decades. These macrointerest scores are validated with other aggregate measures of political interest and of other types of political engagement. A cross-national and longitudinal analysis of macrointerest in advanced democracies reveals that along with election campaigns and inclusive institutions, it is good times, not bad, that spur publics to greater interest in politics.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig2.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 2: Internal Convergent Validation: Correlations Between Macrointerest and Individual Source-Data Survey Items</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig3.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 3: Construct Validation: Correlations Between Macrointerest and Other Aspects of Political Engagement</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig5.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 5: Predicting Macrointerest in OECD Democracies</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">HuSolt2024</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span>={Hu, Yue, and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span>={Macrointerest Across Countries},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span>={2024},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span>={February}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span>={osf.io/preprints/socarxiv/nkgdy/},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span>={10.31235/osf.io/nkgdy}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>attitudes</category>
-  <category>democracy</category>
-  <category>measurement</category>
-  <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/husolt2024/index.html</guid>
-  <pubDate>Wed, 10 May 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid</title>
@@ -553,7 +555,7 @@ font-style: inherit;">doi</span>={10.31235/osf.io/nkgdy}</span>
   <dc:creator>Hyein Ko</dc:creator>
   <dc:creator>Byung-Deuk Woo</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</link>
+  <link>https://fsolt.org/res/working-papers/hutaikowoosolt2023/</link>
   <description><![CDATA[ 
 
 
@@ -657,7 +659,7 @@ font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</guid>
+  <guid>https://fsolt.org/res/working-papers/hutaikowoosolt2023/</guid>
   <pubDate>Thu, 16 Feb 2023 06:00:00 GMT</pubDate>
 </item>
 <item>
@@ -665,15 +667,36 @@ font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</link>
+  <link>https://fsolt.org/res/working-papers/hutaisolt2022/</link>
   <description><![CDATA[ 
+
 
 
 
 <div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
 <script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
 <div class="research-page">
-
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/hutaisolt2022_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/janitor_work"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -688,19 +711,19 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig1.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 1: Comparing Democracy-Supporting Responses in the Publication Data and the Corrected Data</figcaption>
+<figcaption>Figure 1: Comparing Democracy-Supporting Responses in the Publication Data and the Corrected Data</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig2.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 2: The Effect of Democracy on Change in Public Support</figcaption>
+<figcaption>Figure 2: The Effect of Democracy on Change in Public Support</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fsolt.org/res/working-papers/hutaisolt2022/dem_mood_fig3.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure 3: Simulated Effects of Change in Democracy on Public Support</figcaption>
+<figcaption>Figure 3: Simulated Effects of Change in Democracy on Public Support</figcaption>
 </figure>
 </div>
 </section>
@@ -743,13 +766,13 @@ font-style: inherit;">doi</span>={10.31235/osf.io/kd7mu}</span>
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</guid>
+  <guid>https://fsolt.org/res/working-papers/hutaisolt2022/</guid>
   <pubDate>Mon, 30 May 2022 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2020/index.html</link>
+  <link>https://fsolt.org/res/published/solt2020/</link>
   <description><![CDATA[ 
 
 
@@ -839,13 +862,13 @@ font-style: inherit;">year</span> = {2020}}</span></code></pre></div>
   <category>swiid</category>
   <category>inequality</category>
   <category>measurement</category>
-  <guid>https://fsolt.org/res/published/solt2020/index.html</guid>
+  <guid>https://fsolt.org/res/published/solt2020/</guid>
   <pubDate>Sun, 03 May 2020 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Modeling Dynamic Comparative Public Opinion</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/dcpo_article/index.html</link>
+  <link>https://fsolt.org/res/working-papers/dcpo_article/</link>
   <description><![CDATA[ 
 
 
@@ -931,14 +954,14 @@ font-style: inherit;">doi</span>={10.31235/osf.io/d5n9p}</span>
   <category>dcpo</category>
   <category>attitudes</category>
   <category>measurement</category>
-  <guid>https://fsolt.org/res/working-papers/dcpo_article/index.html</guid>
+  <guid>https://fsolt.org/res/working-papers/dcpo_article/</guid>
   <pubDate>Sun, 12 Jan 2020 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Economic Inequality and Campaign Participation</title>
   <dc:creator>Michael Ritter</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/rittersolt2019/index.html</link>
+  <link>https://fsolt.org/res/published/rittersolt2019/</link>
   <description><![CDATA[ 
 
 
@@ -1031,14 +1054,14 @@ font-style: inherit;">year</span> = {2019}}</span></code></pre></div>
   <category>inequality</category>
   <category>participation</category>
   <category>democracy</category>
-  <guid>https://fsolt.org/res/published/rittersolt2019/index.html</guid>
+  <guid>https://fsolt.org/res/published/rittersolt2019/</guid>
   <pubDate>Sun, 30 Jun 2019 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Dynamics of Party Relabeling: Why Do Parties Change Names?</title>
   <dc:creator>Mi-son Kim</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/kimsolt2017/index.html</link>
+  <link>https://fsolt.org/res/published/kimsolt2017/</link>
   <description><![CDATA[ 
 
 
@@ -1123,7 +1146,7 @@ font-style: inherit;">year</span> = {2017}}</span></code></pre></div>
 
  ]]></description>
   <category>parties</category>
-  <guid>https://fsolt.org/res/published/kimsolt2017/index.html</guid>
+  <guid>https://fsolt.org/res/published/kimsolt2017/</guid>
   <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1133,7 +1156,7 @@ font-style: inherit;">year</span> = {2017}}</span></code></pre></div>
   <dc:creator>Kevan Hudson</dc:creator>
   <dc:creator>Jungmin Song</dc:creator>
   <dc:creator>Dong &#39;Erico&#39; Yu</dc:creator>
-  <link>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</link>
+  <link>https://fsolt.org/res/published/solthuhudsonsongyu2017/</link>
   <description><![CDATA[ 
 
 
@@ -1225,13 +1248,13 @@ font-style: inherit;">year</span> = {2017}}</span></code></pre></div>
  ]]></description>
   <category>inequality</category>
   <category>attitudes</category>
-  <guid>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</guid>
+  <guid>https://fsolt.org/res/published/solthuhudsonsongyu2017/</guid>
   <pubDate>Fri, 30 Jun 2017 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Standardized World Income Inequality Database</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2016/index.html</link>
+  <link>https://fsolt.org/res/published/solt2016/</link>
   <description><![CDATA[ 
 
 
@@ -1312,7 +1335,7 @@ font-style: inherit;">year</span> = {2016}}</span></code></pre></div>
   <category>swiid</category>
   <category>inequality</category>
   <category>measurement</category>
-  <guid>https://fsolt.org/res/published/solt2016/index.html</guid>
+  <guid>https://fsolt.org/res/published/solt2016/</guid>
   <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1322,7 +1345,7 @@ font-style: inherit;">year</span> = {2016}}</span></code></pre></div>
   <dc:creator>Kevan Hudson</dc:creator>
   <dc:creator>Jungmin Song</dc:creator>
   <dc:creator>Dong &#39;Erico&#39; Yu</dc:creator>
-  <link>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</link>
+  <link>https://fsolt.org/res/published/solthuhudsonsongyu2016/</link>
   <description><![CDATA[ 
 
 
@@ -1417,13 +1440,13 @@ font-style: inherit;">year</span> = {2016}}</span></code></pre></div>
   <category>inequality</category>
   <category>attitudes</category>
   <category>measurement</category>
-  <guid>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</guid>
+  <guid>https://fsolt.org/res/published/solthuhudsonsongyu2016/</guid>
   <pubDate>Thu, 30 Jun 2016 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>On the Assessment and Use of Cross-National Income Inequality Datasets</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2015b/index.html</link>
+  <link>https://fsolt.org/res/published/solt2015b/</link>
   <description><![CDATA[ 
 
 
@@ -1501,13 +1524,13 @@ font-style: inherit;">year</span> = {2015}}</span></code></pre></div>
   <category>swiid</category>
   <category>inequality</category>
   <category>measurement</category>
-  <guid>https://fsolt.org/res/published/solt2015b/index.html</guid>
+  <guid>https://fsolt.org/res/published/solt2015b/</guid>
   <pubDate>Tue, 30 Jun 2015 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Economic Inequality and Nonviolent Protest</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2015a/index.html</link>
+  <link>https://fsolt.org/res/published/solt2015a/</link>
   <description><![CDATA[ 
 
 
@@ -1585,13 +1608,13 @@ font-style: inherit;">year</span> = {2015}}</span></code></pre></div>
  ]]></description>
   <category>inequality</category>
   <category>participation</category>
-  <guid>https://fsolt.org/res/published/solt2015a/index.html</guid>
+  <guid>https://fsolt.org/res/published/solt2015a/</guid>
   <pubDate>Thu, 30 Apr 2015 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Reversing the Arrow? Economic Inequality’s Effect on Religiosity</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2014/index.html</link>
+  <link>https://fsolt.org/res/published/solt2014/</link>
   <description><![CDATA[ 
 
 
@@ -1666,7 +1689,7 @@ font-style: inherit;">year</span> = {2014}}</span></code></pre></div>
   <category>inequality</category>
   <category>religiosity</category>
   <category>attitudes</category>
-  <guid>https://fsolt.org/res/published/solt2014/index.html</guid>
+  <guid>https://fsolt.org/res/published/solt2014/</guid>
   <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1676,7 +1699,7 @@ font-style: inherit;">year</span> = {2014}}</span></code></pre></div>
   <dc:creator>Kyu Young Lee</dc:creator>
   <dc:creator>Spencer Willardson</dc:creator>
   <dc:creator>Seokdong Kim</dc:creator>
-  <link>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</link>
+  <link>https://fsolt.org/res/published/soltkimleewillardsonkim2014/</link>
   <description><![CDATA[ 
 
 
@@ -1762,13 +1785,13 @@ font-style: inherit;">year</span> = {2014}}</span></code></pre></div>
   <category>democracy</category>
   <category>participation</category>
   <category>neoliberalism</category>
-  <guid>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</guid>
+  <guid>https://fsolt.org/res/published/soltkimleewillardsonkim2014/</guid>
   <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Social Origins of Authoritarianism</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2012/index.html</link>
+  <link>https://fsolt.org/res/published/solt2012/</link>
   <description><![CDATA[ 
 
 
@@ -1854,13 +1877,13 @@ font-style: inherit;">year</span> = {2012}}</span></code></pre></div>
  ]]></description>
   <category>inequality</category>
   <category>attitudes</category>
-  <guid>https://fsolt.org/res/published/solt2012/index.html</guid>
+  <guid>https://fsolt.org/res/published/solt2012/</guid>
   <pubDate>Sat, 30 Jun 2012 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Diversionary Nationalism: Economic Inequality and the Formation of National Pride</title>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2011/index.html</link>
+  <link>https://fsolt.org/res/published/solt2011/</link>
   <description><![CDATA[ 
 
 
@@ -1946,7 +1969,7 @@ font-style: inherit;">year</span> = {2011}}</span></code></pre></div>
  ]]></description>
   <category>inequality</category>
   <category>attitudes</category>
-  <guid>https://fsolt.org/res/published/solt2011/index.html</guid>
+  <guid>https://fsolt.org/res/published/solt2011/</guid>
   <pubDate>Thu, 30 Jun 2011 05:00:00 GMT</pubDate>
 </item>
 </channel>

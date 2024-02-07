@@ -1,6 +1,6 @@
 ---
 title: "Macrointerest Across Countries"
-date: 2023-05-10
+date: 2024-02-06
 cite: >
   [Hu, Yue](https://sammo3182.github.io) and
   **Solt, Frederick**. 
@@ -44,7 +44,7 @@ status_icon: fa-solid fa-arrows-rotate
 # status_icon: fa-solid fa-glasses
 listing:
   - id: cite
-    contents: "short.qmd"
+    contents: "*.qmd"
     template: "../../../templates/single-cite.ejs"
 # draft: true
 ---

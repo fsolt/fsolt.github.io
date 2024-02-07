@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -72,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-links','listing-categories','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-status','listing-class','listing-icon','listing-extra',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-links','listing-categories','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-status','listing-class','listing-icon','listing-extra',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-links","listing-categories","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-status","listing-class","listing-icon","listing-extra"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-links","listing-categories","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-status","listing-class","listing-icon","listing-extra"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -100,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-extra','listing-links','listing-listing','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-status','listing-status_class','listing-status_icon',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-extra','listing-links','listing-listing','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-status','listing-status_class','listing-status_icon',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-extra","listing-links","listing-listing","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-status","listing-status_class","listing-status_icon"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-extra","listing-links","listing-listing","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-status","listing-status_class","listing-status_icon"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -133,21 +140,50 @@ var sc_security="da58688a";
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../templates/styles.css">
-<link rel="alternate" type="application/rss+xml" title="Frederick Solt" href="index.xml"><meta property="og:title" content="Frederick Solt - Research">
-<meta property="og:site-name" content="Frederick Solt">
+<link rel="alternate" type="application/rss+xml" title="Frederick Solt" href="index.xml" data-external="1"><meta property="og:title" content="Frederick Solt - Research">
+<meta property="og:image" content="https://fsolt.org/res/fsolt.png">
+<meta property="og:site_name" content="Frederick Solt">
 <meta name="twitter:title" content="Frederick Solt - Research">
+<meta name="twitter:image" content="https://fsolt.org/res/fsolt.png">
 <meta name="twitter:site" content="@fredericksolt">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../fsolt.png" alt="" class="navbar-logo">
     </a>
@@ -162,83 +198,60 @@ var sc_security="da58688a";
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../swiid/" rel="" target="">
- <span class="menu-text">SWIID</span></a>
+    <a class="nav-link" href="../swiid/"> 
+<span class="menu-text">SWIID</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://dcpo.org" rel="" target="">
- <span class="menu-text">DCPO</span></a>
+    <a class="nav-link" href="https://dcpo.org"> 
+<span class="menu-text">DCPO</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../res/" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../res/"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teach/" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../teach/"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sw/" rel="" target="">
- <span class="menu-text">Software</span></a>
+    <a class="nav-link" href="../sw/"> 
+<span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/" rel="" target="">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../blog/"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../cv/"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:frederick-solt@uiowa.edu" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:frederick-solt@uiowa.edu"> <i class="bi bi-envelope" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/fsolt/" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/fsolt/"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ" rel="" target=""><i class="bi bi-mortarboard" role="img">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=PNwjYEAAAAAJ"> <i class="bi bi-mortarboard" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Research</li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../res/res/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Income Inequality &amp; Its Consequences, Comparative Political Behavior, and Dynamic Comparative Public Opinion</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -261,13 +274,15 @@ var sc_security="da58688a";
   </div>
   
 
+
 </header>
+
 
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <div id="listing-published" class="quarto-listing quarto-listing-container-custom">
 <div class="list project-list">
-<li class="project" data-index="0" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1707199200000" data-listing-file-modified-sort="1707251905346" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="0" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1707199200000" data-listing-file-modified-sort="1707251905346" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <div class="project-content">
 <p>
 <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?” <em>Political Science Research and Methods</em>.
@@ -287,7 +302,7 @@ var sc_security="da58688a";
 </ul>
 </div>
 </li>
-<li class="project" data-index="1" data-categories="dcpo,democracy,attitudes,measurement" data-listing-date-sort="1685336400000" data-listing-file-modified-sort="1707250538458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="1" data-categories="dcpo,democracy,attitudes,measurement" data-listing-date-sort="1685336400000" data-listing-file-modified-sort="1707250538458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
 <div class="project-content">
 <p>
 <a href="https://cassyuehtai.netlify.app">Tai, Yuehong ‘Cassandra’</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. 2024. “Democracy, Public Support, and Measurement Uncertainty.” <em>American Political Science Review</em> 118(1):512-518.
@@ -313,7 +328,7 @@ var sc_security="da58688a";
 </ul>
 </div>
 </li>
-<li class="project" data-index="2" data-categories="dcpo,inequality,attitudes,measurement" data-listing-date-sort="1685250000000" data-listing-file-modified-sort="1685388545000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<li class="project" data-index="2" data-categories="dcpo,inequality,attitudes,measurement" data-listing-date-sort="1685250000000" data-listing-file-modified-sort="1685388545000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
 <div class="project-content">
 <p>
 <a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.lindsey-allemang-goldberg.com">Lindsey A. Goldberg</a>, and <strong>Frederick Solt</strong>. 2023. “Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere.” <em>British Journal of Political Science</em> 53(2), 766-775.
@@ -342,7 +357,7 @@ var sc_security="da58688a";
 </ul>
 </div>
 </li>
-<li class="project" data-index="3" data-categories="swiid,inequality,measurement" data-listing-date-sort="1588482000000" data-listing-file-modified-sort="1651686241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="3" data-categories="swiid,inequality,measurement" data-listing-date-sort="1588482000000" data-listing-file-modified-sort="1651686241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <div class="project-content">
 <p>
 <strong>Frederick Solt</strong>. 2020. “Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database.” <em>Social Science Quarterly</em> 101(3):1183-1199.
@@ -368,7 +383,7 @@ var sc_security="da58688a";
 </ul>
 </div>
 </li>
-<li class="project" data-index="4" data-categories="inequality,participation,democracy" data-listing-date-sort="1561870800000" data-listing-file-modified-sort="1656330270000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="4" data-categories="inequality,participation,democracy" data-listing-date-sort="1561870800000" data-listing-file-modified-sort="1656330270000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="198">
 <div class="project-content">
 <p>
 Ritter, Michael, and <strong>Frederick Solt</strong>. 2019. “Economic Inequality and Campaign Participation.” <em>Social Science Quarterly</em> 100(3):678-688
@@ -391,7 +406,7 @@ Ritter, Michael, and <strong>Frederick Solt</strong>. 2019. “Economic Inequali
 </ul>
 </div>
 </li>
-<li class="project" data-index="5" data-categories="parties" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651611897000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="5" data-categories="parties" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651611897000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="project-content">
 <p>
 Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party Relabeling: Why Do Parties Change Names?” <em>Party Politics</em> 23(4):437-447.
@@ -414,7 +429,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="6" data-categories="inequality,attitudes" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651526807000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="6" data-categories="inequality,attitudes" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651526807000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Yue Hu, Kevan Hudson, Jungmin Song, and Dong ‘Erico’ Yu. 2017. “Economic Inequality and Class Consciousness.” <em>Journal of Politics</em> 79(3):1079-1083.
@@ -437,7 +452,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="7" data-categories="swiid,inequality,measurement" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452633000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="7" data-categories="swiid,inequality,measurement" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452633000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2016. “The Standardized World Income Inequality Database.” <em>Social Science Quarterly</em>. 97(5):1267-1281.
@@ -463,7 +478,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="8" data-categories="inequality,attitudes,measurement" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452116000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<li class="project" data-index="8" data-categories="inequality,attitudes,measurement" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452116000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Yue Hu, Kevan Hudson, Jungmin Song, and Dong ‘Erico’ Yu. 2016. “Economic Inequality and Belief in Meritocracy in the United States.” <em>Research &amp; Politics</em> 3(4):1-7.
@@ -486,7 +501,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="9" data-categories="swiid,inequality,measurement" data-listing-date-sort="1435640400000" data-listing-file-modified-sort="1651611952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="9" data-categories="swiid,inequality,measurement" data-listing-date-sort="1435640400000" data-listing-file-modified-sort="1651611952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2015. “On the Assessment and Use of Cross-National Income Inequality Datasets.” <em>Journal of Economic Inequality</em> 13(4):683-691.
@@ -509,7 +524,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="10" data-categories="inequality,participation" data-listing-date-sort="1430370000000" data-listing-file-modified-sort="1651526771000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="10" data-categories="inequality,participation" data-listing-date-sort="1430370000000" data-listing-file-modified-sort="1651526771000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2015. “Economic Inequality and Nonviolent Protest.” <em>Social Science Quarterly</em> 96(5):1314-1327.
@@ -532,7 +547,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="11" data-categories="inequality,religiosity,attitudes" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651621328000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="11" data-categories="inequality,religiosity,attitudes" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651621328000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2014. “Reversing the Arrow? Economic Inequality’s Effect on Religiosity.” In <em>Religion and Inequality in America: Research and Theory on Religion’s Role in Stratification</em>, L. Keister and D. Sherkat, eds., Cambridge: Cambridge University Press.
@@ -555,7 +570,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="12" data-categories="democracy,participation,neoliberalism" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651503248000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<li class="project" data-index="12" data-categories="democracy,participation,neoliberalism" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651503248000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Dongkyu Kim, Kyu Young Lee, Spencer Willardson, and Seokdong Kim. 2014. “Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction.” <em>Research and Politics</em> 1(2):1-13.
@@ -575,7 +590,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="13" data-categories="inequality,attitudes" data-listing-date-sort="1341032400000" data-listing-file-modified-sort="1651496670000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="13" data-categories="inequality,attitudes" data-listing-date-sort="1341032400000" data-listing-file-modified-sort="1651496670000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2012. “The Social Origins of Authoritarianism.” <em>Political Research Quarterly</em> 65(4):703-713.
@@ -595,7 +610,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="14" data-categories="inequality,attitudes" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1651496881000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="14" data-categories="inequality,attitudes" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1651496881000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2011. “Diversionary Nationalism: Economic Inequality and the Formation of National Pride.” <em>Journal of Politics</em> 73(3):821-830.
@@ -615,7 +630,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="15" data-categories="inequality,religiosity,attitudes" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1668190845000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="15" data-categories="inequality,religiosity,attitudes" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1668190845000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Philip Habel, and J. Tobin Grant. 2011. “Economic Inequality, Relative Power, and Religiosity.” <em>Social Science Quarterly</em> 92(2):447-465.
@@ -635,7 +650,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="16" data-categories="inequality,participation,democracy" data-listing-date-sort="1277874000000" data-listing-file-modified-sort="1656330202000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="16" data-categories="inequality,participation,democracy" data-listing-date-sort="1277874000000" data-listing-file-modified-sort="1656330202000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2010. “Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis.” <em>Political Behavior</em> 32(2):285-301.
@@ -655,7 +670,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="17" data-categories="swiid,inequality,measurement" data-listing-date-sort="1246338000000" data-listing-file-modified-sort="1651496789000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="17" data-categories="swiid,inequality,measurement" data-listing-date-sort="1246338000000" data-listing-file-modified-sort="1651496789000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2009. “Standardizing the World Income Inequality Database.” <em>Social Science Quarterly</em> 90(2):231-242.
@@ -678,7 +693,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="18" data-categories="inequality,participation,democracy" data-listing-date-sort="1214802000000" data-listing-file-modified-sort="1656330234000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="18" data-categories="inequality,participation,democracy" data-listing-date-sort="1214802000000" data-listing-file-modified-sort="1656330234000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2008. “Economic Inequality and Democratic Political Engagement.” <em>American Journal of Political Science</em> 52(1):48-60. <em>American Journal of Political Science</em> 52(1):48-60.
@@ -698,7 +713,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="19" data-categories="participation" data-listing-date-sort="1183179600000" data-listing-file-modified-sort="1651502241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="19" data-categories="participation" data-listing-date-sort="1183179600000" data-listing-file-modified-sort="1651502241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
 <div class="project-content">
 <p>
 Searing, Donald, <strong>Frederick Solt</strong>, Pamela Johnston Conover, and Ivor Crewe. 2007. “Public Discussion in the Deliberative System: Does It Make Better Citizens?” <em>British Journal of Political Science</em> 37(4):587-618.
@@ -715,7 +730,7 @@ Searing, Donald, <strong>Frederick Solt</strong>, Pamela Johnston Conover, and I
 </ul>
 </div>
 </li>
-<li class="project" data-index="20" data-categories="inequality,democracy,neoliberalism" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651609792000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="20" data-categories="inequality,democracy,neoliberalism" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651609792000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
 <div class="project-content">
 <p>
 Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Failures of Neoliberalism in Latin America.” <em>Latin American Research Review</em> 39(3):150-164.
@@ -732,7 +747,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="21" data-categories="inequality,participation,democracy" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651497147000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="21" data-categories="inequality,participation,democracy" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651497147000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2004. “Civics or Structure? Revisiting the Origins of Democratic Quality in the Italian Regions.” <em>British Journal of Political Science</em> 34(1):123-135.
@@ -749,7 +764,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="22" data-categories="democracy" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651502939000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="22" data-categories="democracy" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651502939000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2004. “Electoral Competition, Legislative Pluralism, and Institutional Development: Evidence from Mexico’s States.” <em>Latin American Research Review</em> 39(1):155-167.
@@ -766,7 +781,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="23" data-categories="democracy" data-listing-date-sort="993877200000" data-listing-file-modified-sort="1651612008000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="23" data-categories="democracy" data-listing-date-sort="993877200000" data-listing-file-modified-sort="1651612008000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2001. “Institutional Effects on Democratic Transitions: Neo-Patrimonial Regimes in Africa, 1989-1994.” <em>Studies in Comparative International Development</em> 36(2):82-91.
@@ -793,27 +808,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
 <div id="listing-working-papers" class="quarto-listing quarto-listing-container-custom">
 <div class="list project-list">
-<li class="project" data-index="0" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1688101200000" data-listing-file-modified-sort="1688220932000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="project-content">
-<p>
-<span class="status btn-success"><i class="fa-solid fa-glasses"></i> Under review</span> <a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. 2023. “Measuring Tolerance of Homosexuality in the Mass Public Across Countries and Over Time.” <em>SocArXiv</em>.
-</p>
-</div>
-<div class="project-details">
-<ul class="project-links">
-<li class="project-link details">
-<a href="../res/working-papers/wookotaihusolt2023/index.html"><i class="bi bi-info-circle-fill"></i> Full details »</a>
-</li>
-<li class="project-link">
-<a href="../papers/wookotaihusolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dcpo_gayrights"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="project" data-index="1" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1683694800000" data-listing-file-modified-sort="1707248622434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="0" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1707199200000" data-listing-file-modified-sort="1707329193495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
 <div class="project-content">
 <p>
 <span class="status btn-info"><i class="fa-solid fa-arrows-rotate"></i> Revised &amp; Resubmitted</span> <a href="https://sammo3182.github.io">Hu, Yue</a> and <strong>Solt, Frederick</strong>. 2024. “Macrointerest Across Countries.” <em>SocArXiv</em>.
@@ -833,7 +828,27 @@ No matching items
 </ul>
 </div>
 </li>
-<li class="project" data-index="2" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1676527200000" data-listing-file-modified-sort="1690647692000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<li class="project" data-index="1" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1688101200000" data-listing-file-modified-sort="1688220932000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
+<div class="project-content">
+<p>
+<span class="status btn-success"><i class="fa-solid fa-glasses"></i> Under review</span> <a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. 2023. “Measuring Tolerance of Homosexuality in the Mass Public Across Countries and Over Time.” <em>SocArXiv</em>.
+</p>
+</div>
+<div class="project-details">
+<ul class="project-links">
+<li class="project-link details">
+<a href="../res/working-papers/wookotaihusolt2023/index.html"><i class="bi bi-info-circle-fill"></i> Full details »</a>
+</li>
+<li class="project-link">
+<a href="../papers/wookotaihusolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_gayrights"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="project" data-index="2" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1676527200000" data-listing-file-modified-sort="1690647692000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
 <div class="project-content">
 <p>
 <span class="status btn-success"><i class="fa-solid fa-glasses"></i> Under review</span> <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2023. “Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid.” <em>SocArXiv</em>.
@@ -853,7 +868,7 @@ No matching items
 </ul>
 </div>
 </li>
-<li class="project" data-index="3" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1653886800000" data-listing-file-modified-sort="1707252523183" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<li class="project" data-index="3" data-categories="attitudes,democracy,measurement,dcpo" data-listing-date-sort="1653886800000" data-listing-file-modified-sort="1707328951628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
 <div class="project-content">
 <p>
 <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
@@ -873,7 +888,7 @@ No matching items
 </ul>
 </div>
 </li>
-<li class="project" data-index="4" data-categories="dcpo,attitudes,measurement" data-listing-date-sort="1578808800000" data-listing-file-modified-sort="1669141617000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<li class="project" data-index="4" data-categories="dcpo,attitudes,measurement" data-listing-date-sort="1578808800000" data-listing-file-modified-sort="1669141617000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2020. “Modeling Dynamic Comparative Public Opinion.” <em>SocArXiv</em>.
@@ -983,10 +998,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -996,8 +1010,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1010,6 +1033,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1053,6 +1195,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1078,6 +1221,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1141,4 +1310,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/fsolt/fsolt.github.io/edit/main/res/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/fsolt/fsolt.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/fsolt/fsolt.github.io/edit/main/res/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fsolt/fsolt.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

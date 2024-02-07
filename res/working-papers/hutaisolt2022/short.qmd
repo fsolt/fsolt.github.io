@@ -1,6 +1,6 @@
 ---
 title: "On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy"
-date: 2022-05-30
+date: 2023-05-29
 cite: >
   [Hu, Yue](https://sammo3182.github.io),
   [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), and
@@ -9,18 +9,18 @@ cite: >
   "On Data 'Janitor Work' in Political Science: The Case of Thermostatic Support for Democracy."
   _SocArXiv_.
 author:
-  - name: Yue Hu
-    affiliation: Tsinghua University
-    url: https://sammo3182.github.io
-    orcid: 0000-0002-2829-3971
-  - name: Yuehong Cassandra Tai
-    affiliation: Pennsylvania State University
-    url: https://cassyuehtai.netlify.app/
-    orcid: 0000-0001-7303-7443
-  - name: Frederick Solt
-    affiliation: University of Iowa
-    url: https://fsolt.org
-    orcid: 0000-0002-3154-6132
+    - name: Yue Hu
+      affiliation: Tsinghua University
+      url: https://sammo3182.github.io
+      orcid: 0000-0002-2829-3971
+    - name: Yuehong Cassandra Tai
+      affiliation: Pennsylvania State University
+      url: https://cassyuehtai.netlify.app/
+      orcid: 0000-0001-7303-7443
+    - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
 links:
 # - name: Final version
 #   url: ""
@@ -41,7 +41,7 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-# status: Revised & Resubmitted
+# status: Revising
 # status_class: info
 # status_icon: fa-solid fa-arrows-rotate
 # status: Under review
@@ -51,11 +51,7 @@ listing:
   - id: cite
     contents: "*.qmd"
     template: "../../../templates/single-cite.ejs"
-categories:
-  - attitudes
-  - democracy
-  - measurement
-  - dcpo
+# draft: true
 ---
 
 :::{#cite}
