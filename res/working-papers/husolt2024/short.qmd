@@ -36,7 +36,7 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-status: Revising for Resubmission
+status: Revised & Resubmitted
 status_class: info
 status_icon: fa-solid fa-arrows-rotate
 # status: Under review
