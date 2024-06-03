@@ -22,9 +22,9 @@ author:
     url: https://fsolt.org
     orcid: 0000-0002-3154-6132
 links:
-# - name: Final version
-#   url: ""
-#   icon: fas fa-scroll
+- name: Final version
+  url: /papers/hutaisolt2024
+  icon: fas fa-scroll
 - name: Preprint
   url: /papers/hutaisolt2024_pre
   icon: far fa-file-pdf
