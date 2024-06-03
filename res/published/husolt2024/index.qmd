@@ -3,10 +3,10 @@ title: "Macrointerest Across Countries"
 date: 2024-02-06
 cite: >
   [Hu, Yue](https://sammo3182.github.io) and
-  **Solt, Frederick**. 
-  2023.
+  **Frederick Solt**. 
+  Forthcoming.
   "Macrointerest Across Countries."
-  _SocArXiv_.
+  _British Journal of Political Science_.
 author:
     - name: Yue Hu
       affiliation: Tsinghua University
@@ -30,15 +30,15 @@ links:
 #   url: ""
 #   icon: fas fa-table
 # pub_status:
-#   status: Forthcoming
-#   class: warning
-#   icon: pencil-square
+status: Forthcoming
+status_class: warning
+icon: fa-regular fa-clock
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-status: Revised & Resubmitted
-status_class: info
-status_icon: fa-solid fa-arrows-rotate
+# status: Revised & Resubmitted
+# status_class: info
+# status_icon: fa-solid fa-arrows-rotate
 # status: Under review
 # status_class: success
 # status_icon: fa-solid fa-glasses
@@ -46,7 +46,11 @@ listing:
   - id: cite
     contents: "*.qmd"
     template: "../../../templates/single-cite.ejs"
-# draft: true
+categories:
+  - attitudes
+  - democracy
+  - measurement
+  - dcpo
 ---
 
 :::{#cite}
@@ -68,13 +72,10 @@ The extent to which the public takes an interest in politics has long been argue
 ## BibTeX citation
 
 ```bibtex
-@misc{HuSolt2024,
+@article{HuSolt2024,
  author={Hu, Yue, and Solt, Frederick},
  title={Macrointerest Across Countries},
- publisher={SocArXiv},
- year={2024},
- month={February}, 
- url={osf.io/preprints/socarxiv/nkgdy/},
- doi={10.31235/osf.io/nkgdy}
+ journal={British Journal of Political Science},
+ year={Forthcoming}
 }
 ```
