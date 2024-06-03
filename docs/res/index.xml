@@ -19,6 +19,103 @@
 <generator>quarto-1.4.549</generator>
 <lastBuildDate>Tue, 06 Feb 2024 06:00:00 GMT</lastBuildDate>
 <item>
+  <title>Macrointerest Across Countries</title>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/husolt2024/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a> and <strong>Frederick Solt</strong>. Forthcoming. “Macrointerest Across Countries.” <em>British Journal of Political Science</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_macrointerest"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The extent to which the public takes an interest in politics has long been argued to be foundational to democracy, but the want of appropriate data has prevented cross- national and longitudinal analysis. This letter takes advantage of recent advances in latent-variable modeling of aggregate survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of macrointerest, that is, aggregate political interest, for over a hundred countries over the past four decades. These macrointerest scores are validated with other aggregate measures of political interest and of other types of political engagement. A cross-national and longitudinal analysis of macrointerest in advanced democracies reveals that along with election campaigns and inclusive institutions, it is good times, not bad, that spur publics to greater interest in politics.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/husolt2024/macrointerest_fig2.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2: Internal Convergent Validation: Correlations Between Macrointerest and Individual Source-Data Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/husolt2024/macrointerest_fig3.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3: Construct Validation: Correlations Between Macrointerest and Other Aspects of Political Engagement</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/husolt2024/macrointerest_fig5.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5: Predicting Macrointerest in OECD Democracies</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">HuSolt2024</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Hu, Yue, and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Macrointerest Across Countries},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span>={British Journal of Political Science},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={Forthcoming}</span>
+<span id="cb1-6">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/published/husolt2024/</guid>
+  <pubDate>Tue, 06 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?</title>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
@@ -40,6 +137,9 @@
 </p>
 </div>
 <ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/hutaisolt2024"><i class="fas fa-scroll"></i> Final version</a>
+</li>
 <li class="project-link">
 <a href="../../../papers/hutaisolt2024_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
@@ -81,7 +181,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">HuTaiSolt2024</span>,</span>
 <span id="cb1-2"><span class="dt" style="color: #AD0000;
@@ -95,7 +195,11 @@ background-color: null;
 font-style: inherit;">journal</span> = {Political Science Research and Methods},</span>
 <span id="cb1-5"><span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">year</span> = {Forthcoming}}</span></code></pre></div>
+font-style: inherit;">year</span> = {Forthcoming},</span>
+<span id="cb1-6"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.1017/psrm.2024.16},</span>
+<span id="cb1-7">}</span></code></pre></div>
 
 
 
@@ -107,112 +211,6 @@ font-style: inherit;">year</span> = {Forthcoming}}</span></code></pre></div>
   <category>measurement</category>
   <category>dcpo</category>
   <guid>https://fsolt.org/res/published/hutaisolt2024/</guid>
-  <pubDate>Tue, 06 Feb 2024 06:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Macrointerest Across Countries</title>
-  <dc:creator>Yue Hu</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/husolt2024/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://sammo3182.github.io">Hu, Yue</a> and <strong>Solt, Frederick</strong>. 2023. “Macrointerest Across Countries.” <em>SocArXiv</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/solt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dcpo_macrointerest"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>The extent to which the public takes an interest in politics has long been argued to be foundational to democracy, but the want of appropriate data has prevented cross- national and longitudinal analysis. This letter takes advantage of recent advances in latent-variable modeling of aggregate survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of macrointerest, that is, aggregate political interest, for over a hundred countries over the past four decades. These macrointerest scores are validated with other aggregate measures of political interest and of other types of political engagement. A cross-national and longitudinal analysis of macrointerest in advanced democracies reveals that along with election campaigns and inclusive institutions, it is good times, not bad, that spur publics to greater interest in politics.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig2.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 2: Internal Convergent Validation: Correlations Between Macrointerest and Individual Source-Data Survey Items</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig3.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 3: Construct Validation: Correlations Between Macrointerest and Other Aspects of Political Engagement</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/husolt2024/macrointerest_fig5.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 5: Predicting Macrointerest in OECD Democracies</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">HuSolt2024</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span>={Hu, Yue, and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span>={Macrointerest Across Countries},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span>={2024},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span>={February}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span>={osf.io/preprints/socarxiv/nkgdy/},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span>={10.31235/osf.io/nkgdy}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>attitudes</category>
-  <category>democracy</category>
-  <category>measurement</category>
-  <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/husolt2024/</guid>
   <pubDate>Tue, 06 Feb 2024 06:00:00 GMT</pubDate>
 </item>
 <item>
