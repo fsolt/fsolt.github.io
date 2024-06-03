@@ -80,6 +80,6 @@ author={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},
 title={Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?},
 journal = {Political Science Research and Methods},
 year = {Forthcoming},
-doi={10.1017/psrm.2024.16},
+doi={10.1017/psrm.2024.16}
 }
 ```
