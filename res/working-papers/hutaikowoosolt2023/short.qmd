@@ -51,12 +51,12 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-# #   status: Revising
-# #   class: info
-# #   icon: fas fa-sync
-status: Under review
-status_class: success
-status_icon: fa-solid fa-glasses
+status: Revise & Resubmit
+status_class: info
+status_icon: fa-solid fa-arrows-rotate
+# status: Under review
+# status_class: success
+# status_icon: fa-solid fa-glasses
 listing:
   - id: cite
     contents: "*.qmd"
