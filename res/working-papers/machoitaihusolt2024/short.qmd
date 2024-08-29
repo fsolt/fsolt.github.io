@@ -1,0 +1,96 @@
+---
+title: "Macrodiscontent Across Countries"
+date: 2024-08-28
+cite: >
+  [Ma, Haofeng](https://haofengma.org/),
+  [Jeongho Choi](https://jeongho-choi.github.io/),
+  [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), 
+  [Yue Hu](https://sammo3182.github.io), and
+  [Frederick Solt](https://fsolt.org). 
+  2024.
+  "Macrodiscontent Across Countries."
+  _SocArXiv_.
+author:
+    - name: Haofeng Ma
+      affiliation: University of Iowa
+      url: https://haofengma.org/
+      orcid: 0000-0003-4379-8449
+    - name: Jeongho Choi
+      affiliation: University of Iowa
+      url: https://jeongho-choi.github.io/
+      orcid: 0000-0002-8060-7907
+    - name: Yuehong Cassandra Tai
+      affiliation: Pennsylvania State University
+      url: https://cassyuehtai.netlify.app/
+      orcid: 0000-0001-7303-7443
+    - name: Yue Hu
+      affiliation: Tsinghua University
+      url: https://sammo3182.github.io
+      orcid: 0000-0002-2829-3971
+    - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: /papers/machoitaihusolt2024_pre
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dcpo_discontent"
+  icon: fa-brands fa-github
+# - name: Dataverse
+#   url: ""
+#   icon: fas fa-table
+# - name: TOL-H Database
+#   url: https://dcpo.org/data/tol-h/
+#   icon: fa-solid fa-database
+# pub_status:
+#   status: Forthcoming
+#   class: warning
+#   icon: pencil-square
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# status: Revise & Resubmit
+# status_class: info
+# status_icon: fas fa-sync
+status: Under review
+status_class: success
+status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+# draft: true
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Public discontent with the political system has become an increasingly salient concern in recent years, with the argument that it undermines democratic stability and effective governance. Nevertheless, the understanding of the nature, trends, and drivers of political discontent remains debated, largely reflecting the constraints from available survey data and items in the construction of measurement. This article takes advantage of the state-of-the-art latent-variable modeling to aggregat survey responses and a comprehensive collection of survey data to generate dynamic comparative estimates of public political discontent (PPD) for over a hundred countries over the past four decades. These PPD scores are validated with responses to the individual source-data survey items that were used to generate them as well as the democratic evaluation survey item that was not used in our estimation. Next, a cross-national and longitudinal analysis of PPD in advanced democracies (i.e., OECD countries) highlights that public political discontent has been on a rising trend, rather than merely “trendless fluctuations” as @norris2011democratic claimed. Our results reveal that these increased discontents are largely attributable to worsening economic conditions, including low average income, slow growth, and high unemployment rates.
+
+## Important figures
+
+![Figure 5: Political Discontent Scores Over Time Within OECD Democracies](discontent_fig5.png)
+
+![Figure 6: Predicting Public Political Discontent in OECD Countries](discontent_fig6.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{MaChoiTaiHuSolt2024,
+ title={Macrodiscontent Across Countries},
+ url={osf.io/preprints/socarxiv/z9a3n},
+ DOI={10.31235/osf.io/a9a3n},
+ publisher={SocArXiv},
+ author={Ma, Haofeng and Choi, Jeongho and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},
+ year={2024},
+ month={Aug}
+}
+```

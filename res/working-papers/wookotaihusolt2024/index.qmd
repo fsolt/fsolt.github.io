@@ -1,0 +1,104 @@
+---
+title: "Public Support for Gay Rights Across Countries and Over Time"
+date: 2024-05-15
+cite: >
+  [Woo, Byung-Deuk](https://www.byung-deuk-woo.org),
+  [Hyein Ko](https://www.heyikon.com),
+  [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), 
+  [Yue Hu](https://sammo3182.github.io), and
+  **Frederick Solt**. 
+  2024.
+  "Public Support for Gay Rights Across Countries and Over Time."
+  _SocArXiv_.
+author:
+    - name: Byung-Deuk Woo
+      affiliation: Pohang University of Science and Technology
+      url: https://www.byung-deuk-woo.org
+      orcid: 0000-0001-6902-7576 
+    - name: Hyein Ko
+      affiliation: University of Iowa
+      url: https://heyikon.com
+      orcid: 0000-0002-9497-9656      
+    - name: Yuehong Cassandra Tai
+      affiliation: Pennsylvania State University
+      url: https://cassyuehtai.netlify.app/
+      orcid: 0000-0001-7303-7443
+    - name: Yue Hu
+      affiliation: Tsinghua University
+      url: https://sammo3182.github.io
+      orcid: 0000-0002-2829-3971
+    - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: /papers/wookotaihusolt2024_pre
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dcpo_gayrights"
+  icon: fa-brands fa-github
+# - name: Dataverse
+#   url: ""
+#   icon: fas fa-table
+# - name: TOL-H Database
+#   url: https://dcpo.org/data/tol-h/
+#   icon: fa-solid fa-database
+# pub_status:
+#   status: Forthcoming
+#   class: warning
+#   icon: pencil-square
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+status: Revise & Resubmit
+status_class: info
+status_icon: fas fa-sync
+# status: Under review
+# status_class: success
+# status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - attitudes
+  - democracy
+  - measurement
+  - dcpo
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Support for gay rights has increased in the publics of many countries over recent decades, but the scholarship on the topic has been hindered by the limited available data on these trends in public opinion. To overcome this problem, we present the Support for Gay Rights (SGR) dataset, which combines a comprehensive collection of survey data with a latent-variable model to provide annual time-series estimates of public support for gay rights across 118 countries and over as many as 51 years that are comparable across space and time. We show these data perform well in validation tests and demonstrate their potential by replicating the influential but recently questioned finding of Andersen and Fetner (2008) that more income inequality yields less tolerant and supportive attitudes toward gay people. We anticipate that the SGR data will become a crucial source for cross-regional, cross-national, and longitudinal research that improves our understanding of the sources and consequences of public support for gay rights.
+
+## Important figures
+
+![Figure 1: Countries and Mean Years Observed in Survey Datasets](gayrights_fig1.png)
+
+![Figure 2: Countries and Mean Years Observed in Prominent Research](gayrights_fig2.png)
+
+![Figure 4: SGR Scores, Most Recent Available Year](gayrights_fig4.png)
+
+![Figure 8: Predicting Support for Gay Rights](gayrights_fig8.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{WooKoTaiHuSolt2024,
+ title={Public Support for Gay Rights Across Countries and Over Time},
+ url={osf.io/preprints/socarxiv/74hym},
+ DOI={10.31235/osf.io/74hym},
+ publisher={SocArXiv},
+ author={Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},
+ year={2024},
+ month={Apr}
+}
+```
