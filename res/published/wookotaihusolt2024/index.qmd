@@ -6,10 +6,10 @@ cite: >
   [Hyein Ko](https://www.heyikon.com),
   [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), 
   [Yue Hu](https://sammo3182.github.io), and
-  [Frederick Solt](https://fsolt.org). 
-  2023.
+  **Frederick Solt**. 
+  Forthcoming.
   "Public Support for Gay Rights Across Countries and Over Time."
-  _SocArXiv_.
+  _Social Science Quarterly_.
 author:
     - name: Byung-Deuk Woo
       affiliation: Pohang University of Science and Technology
@@ -36,7 +36,7 @@ links:
 #   url: ""
 #   icon: fas fa-scroll
 - name: Preprint
-  url: /papers/wookotaihusolt2023_pre
+  url: /papers/wookotaihusolt2024_pre
   icon: far fa-file-pdf
 - name: Code
   url: "https://github.com/fsolt/dcpo_gayrights"
@@ -44,35 +44,40 @@ links:
 # - name: Dataverse
 #   url: ""
 #   icon: fas fa-table
-# - name: TOL-H Database
-#   url: https://dcpo.org/data/tol-h/
+# - name: SGR Database
+#   url: https://dcpo.org/data/sgr/
 #   icon: fa-solid fa-database
 # pub_status:
-#   status: Forthcoming
-#   class: warning
-#   icon: pencil-square
+status: Forthcoming
+status_class: warning
+status_icon: pencil-square
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-status: Revise & Resubmit
-status_class: info
-status_icon: fas fa-sync
+# status: Revise & Resubmit
+# status_class: info
+# status_icon: fas fa-sync
 # status: Under review
 # status_class: success
 # status_icon: fa-solid fa-glasses
 listing:
   - id: cite
-    contents: "*.qmd"
+    contents: "short.qmd"
     template: "../../../templates/single-cite.ejs"
-# draft: true
+categories:
+  - attitudes
+  - democracy
+  - measurement
+  - dcpo
 ---
 
-::: {#cite}
+:::{#cite}
 :::
+
 
 ## Abstract
 
-Support for gay rights has increased in the publics of many countries over recent decades, but the scholarship on the topic has been hindered by the limited available data on these trends in public opinion. To overcome this problem, we present the Support for Gay Rights (SGR) dataset, which combines a comprehensive collection of survey data with a latent-variable model to provide annual time-series estimates of public support for gay rights across 118 countries and over as many as 51 years that are comparable across space and time. We show these data perform well in validation tests and demonstrate their potential by replicating the influential but recently questioned finding of Andersen and Fetner (2008) that more income inequality yields less tolerant and supportive attitudes toward gay people. We anticipate that the SGR data will become a crucial source for cross-regional, cross-national, and longitudinal research that improves our understanding of the sources and consequences of public support for gay rights.
+_Objective_. Support for gay rights has increased in the publics of many countries over recent decades, but the scholarship on the topic has been hindered by the limited available data on these trends in public opinion. The goal of the Support for Gay Rights (SGR) dataset is to overcome this problem. _Method_. The SGR dataset is constructed by combining a comprehensive collection of survey data with a latent-variable model to provide annual time-series estimates of public support for gay rights across 118 countries and over as many as 51 years that are comparable across space and time. _Results_. We show these data perform well in validation tests and demonstrate their potential by replicating the influential but recently questioned finding of Andersen and Fetner (2008) that more income inequality yields less tolerant and supportive attitudes toward gay people. _Conclusion_. We anticipate that the SGR data will become a crucial source for cross-national, cross-regional, and longitudinal research that improves our understanding of the sources and consequences of public support for gay rights.
 
 ## Important figures
 

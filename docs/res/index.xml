@@ -13,8 +13,6 @@
 <url>https://fsolt.org/fsolt.png</url>
 <title>Frederick Solt</title>
 <link>https://fsolt.org/res/</link>
-<height>144</height>
-<width>144</width>
 </image>
 <generator>quarto-1.4.549</generator>
 <lastBuildDate>Wed, 28 Aug 2024 05:00:00 GMT</lastBuildDate>
@@ -128,7 +126,7 @@ font-style: inherit;">month</span>={Aug}</span>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/wookotaihusolt2024/</link>
+  <link>https://fsolt.org/res/published/wookotaihusolt2024/</link>
   <description><![CDATA[ 
 
 
@@ -141,7 +139,7 @@ font-style: inherit;">month</span>={Aug}</span>
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <a href="https://fsolt.org">Frederick Solt</a>. 2023. “Public Support for Gay Rights Across Countries and Over Time.” <em>SocArXiv</em>.
+<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Public Support for Gay Rights Across Countries and Over Time.” <em>Social Science Quarterly</em>.
 </p>
 </div>
 <ul class="project-links">
@@ -165,31 +163,31 @@ No matching items
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Support for gay rights has increased in the publics of many countries over recent decades, but the scholarship on the topic has been hindered by the limited available data on these trends in public opinion. To overcome this problem, we present the Support for Gay Rights (SGR) dataset, which combines a comprehensive collection of survey data with a latent-variable model to provide annual time-series estimates of public support for gay rights across 118 countries and over as many as 51 years that are comparable across space and time. We show these data perform well in validation tests and demonstrate their potential by replicating the influential but recently questioned finding of Andersen and Fetner (2008) that more income inequality yields less tolerant and supportive attitudes toward gay people. We anticipate that the SGR data will become a crucial source for cross-regional, cross-national, and longitudinal research that improves our understanding of the sources and consequences of public support for gay rights.</p>
+<p><em>Objective</em>. Support for gay rights has increased in the publics of many countries over recent decades, but the scholarship on the topic has been hindered by the limited available data on these trends in public opinion. The goal of the Support for Gay Rights (SGR) dataset is to overcome this problem. <em>Method</em>. The SGR dataset is constructed by combining a comprehensive collection of survey data with a latent-variable model to provide annual time-series estimates of public support for gay rights across 118 countries and over as many as 51 years that are comparable across space and time. <em>Results</em>. We show these data perform well in validation tests and demonstrate their potential by replicating the influential but recently questioned finding of Andersen and Fetner (2008) that more income inequality yields less tolerant and supportive attitudes toward gay people. <em>Conclusion</em>. We anticipate that the SGR data will become a crucial source for cross-national, cross-regional, and longitudinal research that improves our understanding of the sources and consequences of public support for gay rights.</p>
 </section>
 <section id="important-figures" class="level2">
 <h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/wookotaihusolt2024/gayrights_fig1.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/wookotaihusolt2024/gayrights_fig1.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 1: Countries and Mean Years Observed in Survey Datasets</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/wookotaihusolt2024/gayrights_fig2.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/wookotaihusolt2024/gayrights_fig2.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 2: Countries and Mean Years Observed in Prominent Research</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/wookotaihusolt2024/gayrights_fig4.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/wookotaihusolt2024/gayrights_fig4.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 4: SGR Scores, Most Recent Available Year</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/wookotaihusolt2024/gayrights_fig8.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/wookotaihusolt2024/gayrights_fig8.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 8: Predicting Support for Gay Rights</figcaption>
 </figure>
 </div>
@@ -233,7 +231,7 @@ font-style: inherit;">month</span>={Apr}</span>
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/wookotaihusolt2024/</guid>
+  <guid>https://fsolt.org/res/published/wookotaihusolt2024/</guid>
   <pubDate>Wed, 15 May 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
