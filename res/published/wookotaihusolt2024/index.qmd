@@ -50,7 +50,7 @@ links:
 # pub_status:
 status: Forthcoming
 status_class: warning
-status_icon: pencil-square
+status_icon: fa-regular fa-clock
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
