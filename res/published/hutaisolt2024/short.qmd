@@ -31,7 +31,7 @@ links:
 - name: Code
   url: "https://github.com/fsolt/dem_mood"
   icon: fa-brands fa-github
-- name: Data
+- name: Dataverse
   url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JHE1YF"
   icon: fas fa-table
 # pub_status:

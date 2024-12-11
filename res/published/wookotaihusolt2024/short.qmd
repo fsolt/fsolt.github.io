@@ -25,7 +25,7 @@ author:
       orcid: 0000-0001-7303-7443
     - name: Yue Hu
       affiliation: Tsinghua University
-      url: https://sammo3182.github.io
+      url: http://www.drhuyue.site
       orcid: 0000-0002-2829-3971
     - name: Frederick Solt
       affiliation: University of Iowa
@@ -41,12 +41,12 @@ links:
 - name: Code
   url: "https://github.com/fsolt/dcpo_gayrights"
   icon: fa-brands fa-github
-# - name: Dataverse
-#   url: ""
-#   icon: fas fa-table
-# - name: SGR Database
-#   url: https://dcpo.org/data/sgr/
-#   icon: fa-solid fa-database
+- name: Dataverse
+  url: "https://doi.org/10.7910/DVN/2LHNGJ"
+  icon: fas fa-table
+- name: SGR Database
+  url: https://dcpo.org/data/sgr/
+  icon: fa-solid fa-database
 # pub_status:
 status: Forthcoming
 status_class: warning

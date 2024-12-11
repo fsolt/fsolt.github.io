@@ -151,6 +151,12 @@ font-style: inherit;">month</span>={Aug}</span>
 <li class="project-link">
 <a href="https://github.com/fsolt/dcpo_gayrights"><i class="fa-brands fa-github"></i> Code</a>
 </li>
+<li class="project-link">
+<a href="https://doi.org/10.7910/DVN/2LHNGJ"><i class="fas fa-table"></i> Dataverse</a>
+</li>
+<li class="project-link">
+<a href="https://dcpo.org/data/sgr/"><i class="fa-solid fa-database"></i> SGR Database</a>
+</li>
 </ul>
 </div>
 <div class="publication-extra">
@@ -365,7 +371,7 @@ font-style: inherit;">year</span>={Forthcoming}</span>
 <a href="https://github.com/fsolt/dem_mood"><i class="fa-brands fa-github"></i> Code</a>
 </li>
 <li class="project-link">
-<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JHE1YF"><i class="fas fa-table"></i> Data</a>
+<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JHE1YF"><i class="fas fa-table"></i> Dataverse</a>
 </li>
 </ul>
 </div>
