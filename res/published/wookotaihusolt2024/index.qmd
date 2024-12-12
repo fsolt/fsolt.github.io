@@ -42,7 +42,7 @@ links:
   url: "https://github.com/fsolt/dcpo_gayrights"
   icon: fa-brands fa-github
 - name: Dataverse
-  url: "https://doi.org/10.7910/DVN/2LHNGJ"
+  url: "https://doi.org/10.7910/DVN/I5LMTO"
   icon: fas fa-table
 - name: SGR Database
   url: https://dcpo.org/data/sgr/
