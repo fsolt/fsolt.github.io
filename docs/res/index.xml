@@ -17,7 +17,102 @@
 <width>144</width>
 </image>
 <generator>quarto-1.4.549</generator>
-<lastBuildDate>Wed, 28 Aug 2024 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 04 Dec 2024 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
+  <dc:creator>Chrisendo, Daniel</dc:creator>
+  <dc:creator>Venla Niva</dc:creator>
+  <dc:creator>Roman Hoffmann</dc:creator>
+  <dc:creator>Sina Masoumzadeh Sayyar</dc:creator>
+  <dc:creator>Juan Rocha</dc:creator>
+  <dc:creator>Vilma Sandström</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Matti Kummu</dc:creator>
+  <link>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://www.aalto.fi/en/people/daniel-chrisendo">Chrisendo, Daniel</a>, <a href="https://research.aalto.fi/en/persons/venla-niva">Venla Niva</a>, <a href="http://wittgensteincentre.org/en/staff/member/hoffmann.htm">Roman Hoffmann</a>, <a href="https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar">Sina Masoumzadeh Sayyar</a>, <a href="https://www.juanrocha.se">Juan Rocha</a>, <a href="https://researchportal.helsinki.fi/en/persons/vilma-sandström">Vilma Sandström</a>, <strong>Frederick Solt</strong>, and <a href="https://www.aalto.fi/en/people/matti-kummu">Matti Kummu</a>. 2024. “Income Inequality Has Increased For Over Two-Thirds of the Global Population.” <em>ResearchSquare</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="https://www.researchsquare.com/article/rs-5548291/v1"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on the distribution of incomes is widely missing. Such data is essential to assess patterns in inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for 1990-2021 and used these to assess the status and trends of income inequality and income as well as their interplay. We show that while gross national income has increased for most (96%) people globally, inequality has also increased for around 68% of the global population. We illustrate heterogeneities in inequality trends between and within countries and analyse plausible confounding factors related to inequality. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, regional or national level and providing comprehensive evidence for policymakers to make informed decisions.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/global_inequality_fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1: Gini coefficient and GNI (gross national income) per capita for 1990 and 2021. a. Gini coefficient for 1221990, b. gross national income (GNI) per capita PPP for 1990, c.&nbsp;Gini coefficient for 2021, and d.&nbsp;GNI per capita 123PPP for 2021. Note: log10 scale for GNI per capita.</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2020</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Income Inequality Has Increased For Over Two-Thirds of the Global Population},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={ResearchSquare},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2024},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={Dec}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={https://doi.org/10.21203/rs.3.rs-5548291/v1},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.21203/rs.3.rs-5548291/v1}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</guid>
+  <pubDate>Wed, 04 Dec 2024 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Macrodiscontent Across Countries</title>
   <dc:creator>Haofeng Ma</dc:creator>
@@ -1914,99 +2009,6 @@ font-style: inherit;">year</span> = {2014}}</span></code></pre></div>
   <category>neoliberalism</category>
   <guid>https://fsolt.org/res/published/soltkimleewillardsonkim2014/</guid>
   <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The Social Origins of Authoritarianism</title>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2012/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<strong>Solt, Frederick</strong>. 2012. “The Social Origins of Authoritarianism.” <em>Political Research Quarterly</em> 65(4):703-713.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/solt2012"><i class="fas fa-scroll"></i> Final version</a>
-</li>
-<li class="project-link">
-<a href="http://dx.doi.org/10.7910/DVN/WQV7PZ"><i class="fas fa-table"></i> Dataverse</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Despite much attention to the problematic consequences of authoritarianism, little research focuses on the causes of such unquestioning respect for ‘proper’ authority. Elaborating on the social learning approach to authoritarianism, this paper argues that economic inequality within countries shapes individuals’ feelings towards authority. As differences in condition among members of a society increase, so does the relative power of the wealthy. As a result, regardless of their incomes, individuals’ experiences are more likely to lead them to view hierarchical relations as natural and, in turn, to hold greater respect for authority. Multilevel models of authoritarianism in countries around the world over three decades support this relative power theory.</p>
-</section>
-<section id="important-figure" class="level2">
-<h2 class="anchored" data-anchor-id="important-figure">Important Figure</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/published/solt2012/pp_combined.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 2: Predicted Probabilities of Authoritarian Responses by Level of Economic Inequality</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">Solt2012</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">journal</span> = {Political Research Quarterly},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span> = {December},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">number</span> = {4},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">pages</span> = {703-713},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span> = {The Social Origins of Authoritarianism},</span>
-<span id="cb1-8">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">volume</span> = {65},</span>
-<span id="cb1-9">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span> = {2012}}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>inequality</category>
-  <category>attitudes</category>
-  <guid>https://fsolt.org/res/published/solt2012/</guid>
-  <pubDate>Sat, 30 Jun 2012 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

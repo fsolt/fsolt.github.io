@@ -1,0 +1,109 @@
+---
+title: "Income Inequality Has Increased For Over Two-Thirds of the Global Population"
+date: 2024-12-04
+cite: >
+  [Chrisendo, Daniel](https://www.aalto.fi/en/people/daniel-chrisendo),
+  [Venla Niva](https://research.aalto.fi/en/persons/venla-niva),
+  [Roman Hoffmann](http://wittgensteincentre.org/en/staff/member/hoffmann.htm),
+  [Sina Masoumzadeh Sayyar](https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar),
+  [Juan Rocha](https://www.juanrocha.se),
+  [Vilma Sandström](https://researchportal.helsinki.fi/en/persons/vilma-sandström),
+  **Frederick Solt**, and
+  [Matti Kummu](https://www.aalto.fi/en/people/matti-kummu).
+  2024.
+  "Income Inequality Has Increased For Over Two-Thirds of the Global Population."
+  _ResearchSquare_.
+author:
+    - name: Chrisendo, Daniel
+      affiliation: Aalto University
+      url: https://www.aalto.fi/en/people/daniel-chrisendo
+      orcid: 0000-0002-4941-8606
+    - name: Venla Niva
+      affiliation: Aalto University
+      url: https://research.aalto.fi/en/persons/venla-niva
+      orcid: 0000-0002-1456-4881
+    - name: Roman Hoffmann
+      affiliation: International Institute for Applied Systems Analysis
+      url: http://wittgensteincentre.org/en/staff/member/hoffmann.htm
+      orcid: 0000-0003-3512-1737
+    - name: Sina Masoumzadeh Sayyar
+      affiliation: Aalto University
+      url: https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar
+      orcid: 0000-0002-5951-5573
+    - name: Juan Rocha
+      affiliation: Stockholm Resilience Center
+      url: https://www.juanrocha.se
+      orcid: 0000-0003-2322-5459
+    - name: Vilma Sandström
+      affiliation: University of Helsinki
+      url: https://researchportal.helsinki.fi/en/persons/vilma-sandström
+      orcid: 0000-0002-0475-7487
+    - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
+    - name: Matti Kummu
+      affiliation: Aalto University
+      url: https://www.aalto.fi/en/people/matti-kummu
+      orcid: 0000-0001-5096-0163
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: "https://www.researchsquare.com/article/rs-5548291/v1"
+  icon: far fa-file-pdf
+# - name: Code
+#   url: "https://github.com/fsolt/dcpo_article"
+#   icon: fa-brands fa-github
+# - name: Data
+#   url: ""
+#   icon: fas fa-table
+# pub_status:
+# status: Forthcoming
+# status_class: warning
+# status_icon: fa-regular fa-clock
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# status: Revised & Resubmitted
+# status_class: info
+# status_icon: fa-solid fa-arrows-rotate
+status: Under Review
+status_class: success
+status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - inequality
+  - measurement
+# draft: true
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on the distribution of incomes is widely missing. Such data is essential to assess patterns in inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for 1990-2021 and used these to assess the status and trends of income inequality and income as well as their interplay. We show that while gross national income has increased for most (96%) people globally, inequality has also increased for around 68% of the global population. We illustrate heterogeneities in inequality trends between and within countries and analyse plausible confounding factors related to inequality. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, regional or national level and providing comprehensive evidence for policymakers to make informed decisions.
+
+## Important figure
+
+![Figure 1: Gini coefficient and GNI (gross national income) per capita for 1990 and 2021.  a. Gini coefficient for 1221990, b. gross national income (GNI) per capita PPP for 1990, c. Gini coefficient for 2021, and d. GNI per capita 123PPP for 2021. Note: log10 scale for GNI per capita.](global_inequality_fig1.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{Solt2020,
+ author={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},
+ title={Income Inequality Has Increased For Over Two-Thirds of the Global Population},
+ publisher={ResearchSquare},
+ year={2024},
+ month={Dec}, 
+ url={https://doi.org/10.21203/rs.3.rs-5548291/v1},
+ doi={10.21203/rs.3.rs-5548291/v1}
+}
+```
