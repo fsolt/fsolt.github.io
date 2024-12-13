@@ -26,10 +26,12 @@ links:
 - name: Code
   url: "https://github.com/fsolt/dcpo_macrointerest"
   icon: fa-brands fa-github
-# - name: Data
-#   url: ""
-#   icon: fas fa-table
-# pub_status:
+- name: Dataverse
+  url: "https://doi.org/10.7910/DVN/TWPM9X"
+  icon: fas fa-table
+- name: CNM Database
+  url: https://dcpo.org/data/cnm/
+  icon: fa-solid fa-database
 status: Forthcoming
 status_class: warning
 status_icon: fa-regular fa-clock
