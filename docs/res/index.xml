@@ -79,7 +79,7 @@ No matching items
 background-color: null;
 font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">Solt2020</span>,</span>
+font-style: inherit;">Chrisendo2024</span>,</span>
 <span id="cb1-2"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">author</span>={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},</span>
@@ -241,6 +241,9 @@ font-style: inherit;">month</span>={Aug}</span>
 </div>
 <ul class="project-links">
 <li class="project-link">
+<a href="../../../papers/hutaikowoosolt2024"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
 <a href="../../../papers/wookotaihusolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 <li class="project-link">
@@ -354,7 +357,7 @@ font-style: inherit;">month</span>={Apr}</span>
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://sammo3182.github.io">Hu, Yue</a> and <strong>Frederick Solt</strong>. Forthcoming. “Macrointerest Across Countries.” <em>British Journal of Political Science</em>.
+<a href="https://sammo3182.github.io">Hu, Yue</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Macrointerest Across Countries.” <em>British Journal of Political Science</em>.
 </p>
 </div>
 <ul class="project-links">
@@ -759,7 +762,7 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
   <pubDate>Sun, 28 May 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid</title>
+  <title>An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support</title>
   <dc:creator>Yue Hu</dc:creator>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
   <dc:creator>Hyein Ko</dc:creator>
@@ -778,7 +781,7 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2023. “Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid.” <em>SocArXiv</em>.
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2023. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>SocArXiv</em>.
 </p>
 </div>
 <ul class="project-links">
@@ -843,7 +846,7 @@ background-color: null;
 font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},</span>
 <span id="cb1-3"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">title</span>={Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid},</span>
+font-style: inherit;">title</span>={An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support},</span>
 <span id="cb1-4"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">publisher</span>={SocArXiv},</span>

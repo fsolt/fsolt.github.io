@@ -1,5 +1,5 @@
 ---
-title: "Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid"
+title: "An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support"
 date: 2023-02-16
 cite: >
   [Hu, Yue](https://sammo3182.github.io),
@@ -8,7 +8,7 @@ cite: >
   [Byung-Deuk Woo](https://www.byung-deuk-woo.org), and
   **Frederick Solt**. 
   2023.
-  "Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid."
+  "An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support."
   _SocArXiv_.
 author:
     - name: Yue Hu
@@ -87,7 +87,7 @@ Measuring democratic support as a single latent variable requires assuming that 
 ```bibtex
 @misc{HuTaiKoWooSolt2023,
  author={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},
- title={Support for Democracy Is Multidimensional: Why Unidimensional Latent Variable Measures of Democratic Support Are Invalid},
+ title={An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support},
  publisher={SocArXiv},
  year={2023},
  month={February}, 

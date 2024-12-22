@@ -97,7 +97,7 @@ Income inequality is one of the most important measures to indicate economic hea
 ## BibTeX citation
 
 ```bibtex
-@misc{Solt2020,
+@misc{Chrisendo2024,
  author={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},
  title={Income Inequality Has Increased For Over Two-Thirds of the Global Population},
  publisher={ResearchSquare},
