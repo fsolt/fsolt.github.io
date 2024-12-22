@@ -1,5 +1,5 @@
 ---
-title: hutaikowoosolt2024
+title: wookotaihusolt2024
 header-includes: |
   <meta http-equiv="Refresh" content="0; URL=https://doi.org/10.1111/ssqu.13478">
 ---

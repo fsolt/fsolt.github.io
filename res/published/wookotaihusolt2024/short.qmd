@@ -33,7 +33,7 @@ author:
       orcid: 0000-0002-3154-6132
 links:
 - name: Final version
-  url: /papers/hutaikowoosolt2024
+  url: /papers/wookotaihusolt2024
   icon: fas fa-scroll
 - name: Preprint
   url: /papers/wookotaihusolt2023_pre
@@ -87,13 +87,14 @@ _Objective_. Support for gay rights has increased in the publics of many countri
 ## BibTeX citation
 
 ```bibtex
-@misc{WooKoTaiHuSolt2024,
- title={Public Support for Gay Rights Across Countries and Over Time},
- url={osf.io/preprints/socarxiv/74hym},
- DOI={10.31235/osf.io/74hym},
- publisher={SocArXiv},
- author={Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},
- year={2024},
- month={Apr}
+@article{WooKoTaiHuSolt2024,
+ author = {Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},
+ title = {Public Support for Gay Rights Across Countries and Over Time},
+ journal = {Social Science Quarterly},
+ volume = {Early View},
+ number = {},
+ pages = {},
+ doi = {https://doi.org/10.1111/ssqu.13478},
+ url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.13478}
 }
 ```

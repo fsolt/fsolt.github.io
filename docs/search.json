@@ -620,7 +620,7 @@
     "href": "res/published/wookotaihusolt2024/short.html#bibtex-citation",
     "title": "Public Support for Gay Rights Across Countries and Over Time",
     "section": "BibTeX citation",
-    "text": "BibTeX citation\n@misc{WooKoTaiHuSolt2024,\n title={Public Support for Gay Rights Across Countries and Over Time},\n url={osf.io/preprints/socarxiv/74hym},\n DOI={10.31235/osf.io/74hym},\n publisher={SocArXiv},\n author={Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},\n year={2024},\n month={Apr}\n}"
+    "text": "BibTeX citation\n@article{WooKoTaiHuSolt2024,\n author = {Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},\n title = {Public Support for Gay Rights Across Countries and Over Time},\n journal = {Social Science Quarterly},\n volume = {Early View},\n number = {},\n pages = {},\n doi = {https://doi.org/10.1111/ssqu.13478},\n url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.13478}\n}"
   },
   {
     "objectID": "res/published/solthuhudsonsongyu2017/short.html",
@@ -1600,7 +1600,7 @@
     "href": "res/published/wookotaihusolt2024/index.html#bibtex-citation",
     "title": "Public Support for Gay Rights Across Countries and Over Time",
     "section": "BibTeX citation",
-    "text": "BibTeX citation\n@misc{WooKoTaiHuSolt2024,\n title={Public Support for Gay Rights Across Countries and Over Time},\n url={osf.io/preprints/socarxiv/74hym},\n DOI={10.31235/osf.io/74hym},\n publisher={SocArXiv},\n author={Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},\n year={2024},\n month={Apr}\n}"
+    "text": "BibTeX citation\n@article{WooKoTaiHuSolt2024,\n author = {Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},\n title = {Public Support for Gay Rights Across Countries and Over Time},\n journal = {Social Science Quarterly},\n volume = {Early View},\n number = {},\n pages = {},\n doi = {https://doi.org/10.1111/ssqu.13478},\n url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.13478}\n}"
   },
   {
     "objectID": "res/published/solthuhudsonsongyu2016/index.html",

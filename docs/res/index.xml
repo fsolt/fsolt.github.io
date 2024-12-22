@@ -241,7 +241,7 @@ font-style: inherit;">month</span>={Aug}</span>
 </div>
 <ul class="project-links">
 <li class="project-link">
-<a href="../../../papers/hutaikowoosolt2024"><i class="fas fa-scroll"></i> Final version</a>
+<a href="../../../papers/wookotaihusolt2024"><i class="fas fa-scroll"></i> Final version</a>
 </li>
 <li class="project-link">
 <a href="../../../papers/wookotaihusolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
@@ -302,31 +302,34 @@ No matching items
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">WooKoTaiHuSolt2024</span>,</span>
 <span id="cb1-2"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">title</span>={Public Support for Gay Rights Across Countries and Over Time},</span>
+font-style: inherit;">author</span> = {Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},</span>
 <span id="cb1-3"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">url</span>={osf.io/preprints/socarxiv/74hym},</span>
+font-style: inherit;">title</span> = {Public Support for Gay Rights Across Countries and Over Time},</span>
 <span id="cb1-4"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">DOI</span>={10.31235/osf.io/74hym},</span>
+font-style: inherit;">journal</span> = {Social Science Quarterly},</span>
 <span id="cb1-5"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">publisher</span>={SocArXiv},</span>
+font-style: inherit;">volume</span> = {Early View},</span>
 <span id="cb1-6"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">author</span>={Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},</span>
+font-style: inherit;">number</span> = {},</span>
 <span id="cb1-7"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">year</span>={2024},</span>
+font-style: inherit;">pages</span> = {},</span>
 <span id="cb1-8"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">month</span>={Apr}</span>
-<span id="cb1-9">}</span></code></pre></div>
+font-style: inherit;">doi</span> = {https://doi.org/10.1111/ssqu.13478},</span>
+<span id="cb1-9"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.13478}</span>
+<span id="cb1-10">}</span></code></pre></div>
 
 
 
