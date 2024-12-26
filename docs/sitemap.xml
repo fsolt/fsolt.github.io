@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/swiid/index.html</loc>
-    <lastmod>2024-09-13T20:56:55.716Z</lastmod>
+    <lastmod>2024-12-26T23:31:24.838Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/2018/08/15/switch-to-r/index.html</loc>
@@ -77,203 +77,315 @@
     <lastmod>2022-04-28T23:34:05.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/imf-china/index.html</loc>
-    <lastmod>2022-04-30T00:54:34.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/nsf-swiid/index.html</loc>
+    <lastmod>2022-04-28T23:35:07.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-3_0/index.html</loc>
-    <lastmod>2022-04-28T23:34:24.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/pewdata/index.html</loc>
+    <lastmod>2022-04-30T01:03:17.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/dotwhisker-for-apsa/index.html</loc>
-    <lastmod>2022-04-28T23:35:02.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-3_1/index.html</loc>
+    <lastmod>2022-04-30T00:31:03.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index.html</loc>
-    <lastmod>2024-02-07T19:51:46.069Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</loc>
+    <lastmod>2023-12-20T15:27:37.447Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/my-workflow/index.html</loc>
-    <lastmod>2024-02-07T19:53:24.375Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index.html</loc>
+    <lastmod>2022-04-30T01:23:14.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index.html</loc>
-    <lastmod>2024-02-07T20:01:10.423Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index.html</loc>
+    <lastmod>2024-02-07T19:52:16.824Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/cross-validation-for-swiid/index.html</loc>
-    <lastmod>2024-02-07T19:52:50.004Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/now-on-cran-interplot/index.html</loc>
+    <lastmod>2022-04-30T01:01:53.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-0_9/index.html</loc>
-    <lastmod>2022-04-28T23:33:59.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index.html</loc>
+    <lastmod>2022-04-30T01:22:41.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-9-7-is-available/index.html</loc>
-    <lastmod>2024-09-14T12:53:43.410Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index.html</loc>
+    <lastmod>2024-02-07T19:53:13.533Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-4_0/index.html</loc>
-    <lastmod>2022-04-28T23:34:40.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/switch-to-r/index.html</loc>
+    <lastmod>2024-02-07T19:49:45.762Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/index.html</loc>
-    <lastmod>2024-06-03T19:33:23.219Z</lastmod>
+    <loc>https://fsolt.org/papers/hutaisolt2022_pre/index.html</loc>
+    <lastmod>2023-02-18T14:34:48.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/woogoldbergsolt2022/index.html</loc>
-    <lastmod>2022-10-14T14:44:17.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2008/index.html</loc>
+    <lastmod>2022-05-05T22:05:38.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2009/index.html</loc>
-    <lastmod>2022-05-05T22:05:05.000Z</lastmod>
+    <loc>https://fsolt.org/papers/wookotaihusolt2024_pre/index.html</loc>
+    <lastmod>2024-08-29T17:37:20.374Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2001/index.html</loc>
-    <lastmod>2022-05-05T23:27:36.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solthabelgrant2011/index.html</loc>
+    <lastmod>2022-05-05T21:56:58.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/hutaisolt2024_pre/index.html</loc>
-    <lastmod>2024-02-06T20:40:37.172Z</lastmod>
+    <loc>https://fsolt.org/papers/swiid_un_talk/index.html</loc>
+    <lastmod>2022-05-05T21:56:28.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/woogoldbergsolt2022_pre/index.html</loc>
-    <lastmod>2022-05-05T21:55:38.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2015b/index.html</loc>
+    <lastmod>2022-05-05T22:02:22.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/machoitaihusolt2024_pre/index.html</loc>
-    <lastmod>2024-08-29T16:26:03.717Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2014_pre/index.html</loc>
+    <lastmod>2022-05-05T22:03:28.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/kimsolt2017/index.html</loc>
-    <lastmod>2022-05-05T23:30:05.000Z</lastmod>
+    <loc>https://fsolt.org/papers/soltetal2014/index.html</loc>
+    <lastmod>2022-05-05T21:58:47.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2012/index.html</loc>
-    <lastmod>2022-05-05T22:03:47.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2016_pre/index.html</loc>
+    <lastmod>2022-05-05T22:00:01.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/kimsolt2017_pre/index.html</loc>
-    <lastmod>2022-05-05T23:29:30.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2003/index.html</loc>
+    <lastmod>2022-05-05T23:27:16.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/rittersolt2019_pre/index.html</loc>
-    <lastmod>2022-05-05T23:29:09.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2004bjps/index.html</loc>
+    <lastmod>2022-05-05T22:17:01.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/hutaisolt2024/index.html</loc>
-    <lastmod>2024-06-03T15:54:04.567Z</lastmod>
+    <loc>https://fsolt.org/papers/wookotaihusolt2024/index.html</loc>
+    <lastmod>2024-12-22T20:48:47.074Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/hutaikowoosolt2023_pre/index.html</loc>
-    <lastmod>2023-02-18T14:35:06.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2020_pre/index.html</loc>
+    <lastmod>2022-05-05T21:59:19.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/searingsoltconovercrewe2007/index.html</loc>
-    <lastmod>2022-05-05T23:28:15.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2023_pre/index.html</loc>
+    <lastmod>2023-05-29T20:11:39.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2008_pre/index.html</loc>
-    <lastmod>2022-05-05T22:05:23.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2015b_pre/index.html</loc>
+    <lastmod>2022-05-05T22:01:51.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/soltetal2016a/index.html</loc>
-    <lastmod>2022-05-05T21:57:52.000Z</lastmod>
+    <loc>https://fsolt.org/papers/taihusolt2022_pre/index.html</loc>
+    <lastmod>2022-05-05T21:56:02.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/taihusolt2022/index.html</loc>
-    <lastmod>2022-05-05T14:10:41.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2015a/index.html</loc>
+    <lastmod>2022-05-05T22:03:09.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2015a_pre/index.html</loc>
-    <lastmod>2022-05-05T22:02:52.000Z</lastmod>
+    <loc>https://fsolt.org/papers/soltetal2017/index.html</loc>
+    <lastmod>2022-05-05T21:57:26.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2004larr/index.html</loc>
-    <lastmod>2022-05-05T22:06:40.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2020/index.html</loc>
+    <lastmod>2022-05-05T21:59:36.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/rittersolt2019/index.html</loc>
-    <lastmod>2022-05-05T23:28:35.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2016/index.html</loc>
+    <lastmod>2022-05-05T22:00:23.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2011/index.html</loc>
-    <lastmod>2022-05-05T22:03:59.000Z</lastmod>
+    <loc>https://fsolt.org/papers/hubersolt2004/index.html</loc>
+    <lastmod>2022-05-05T23:30:26.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2009pre/index.html</loc>
-    <lastmod>2022-05-05T22:04:47.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2009/index.html</loc>
+    <lastmod>2022-05-02T13:06:29.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2010/index.html</loc>
-    <lastmod>2022-05-05T22:04:27.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/woogoldbergsolt2023/index.html</loc>
+    <lastmod>2023-05-29T19:29:05.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2009/short.html</loc>
-    <lastmod>2022-05-15T16:46:09.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2008/index.html</loc>
+    <lastmod>2022-06-27T11:43:54.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/woogoldbergsolt2023/short.html</loc>
-    <lastmod>2023-05-29T19:28:40.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2001/index.html</loc>
+    <lastmod>2022-05-03T21:06:48.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2008/short.html</loc>
-    <lastmod>2022-06-27T11:44:04.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solthabelgrant2011/index.html</loc>
+    <lastmod>2022-11-11T18:20:45.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2001/short.html</loc>
+    <loc>https://fsolt.org/res/published/solt2015b/index.html</loc>
+    <lastmod>2022-05-03T21:05:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/kimsolt2017/index.html</loc>
+    <lastmod>2022-05-03T21:04:57.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2012/index.html</loc>
+    <lastmod>2022-05-02T13:04:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2014/index.html</loc>
+    <lastmod>2022-05-03T23:42:08.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/hutaisolt2024/index.html</loc>
+    <lastmod>2024-12-11T20:02:12.367Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2004bjps/index.html</loc>
+    <lastmod>2022-05-02T13:12:27.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</loc>
+    <lastmod>2022-05-02T00:41:56.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/wookotaihusolt2024/index.html</loc>
+    <lastmod>2024-12-22T20:54:59.275Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</loc>
+    <lastmod>2022-05-02T21:26:47.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/husolt2024/index.html</loc>
+    <lastmod>2024-12-13T21:59:15.509Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/searingsoltconovercrewe2007/index.html</loc>
+    <lastmod>2022-05-02T14:37:21.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</loc>
+    <lastmod>2022-05-02T14:54:08.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/taihusolt2024/index.html</loc>
+    <lastmod>2024-02-06T20:15:38.458Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2015a/index.html</loc>
+    <lastmod>2022-05-02T21:26:11.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2004larr/index.html</loc>
+    <lastmod>2022-05-02T14:48:59.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/rittersolt2019/index.html</loc>
+    <lastmod>2022-06-27T11:44:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2020/index.html</loc>
+    <lastmod>2022-05-04T17:44:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2011/index.html</loc>
+    <lastmod>2022-05-02T13:08:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2016/index.html</loc>
+    <lastmod>2022-05-02T00:50:33.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/hubersolt2004/index.html</loc>
+    <lastmod>2022-05-03T20:29:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2010/index.html</loc>
+    <lastmod>2022-06-27T11:43:22.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</loc>
+    <lastmod>2024-12-22T15:58:30.262Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html</loc>
+    <lastmod>2024-12-13T17:03:18.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</loc>
+    <lastmod>2024-02-07T18:02:31.628Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/machoitaihusolt2024/index.html</loc>
+    <lastmod>2024-12-13T16:04:25.407Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/dcpo_article/index.html</loc>
+    <lastmod>2022-11-22T18:26:57.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/index.html</loc>
+    <lastmod>2022-06-22T08:07:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/sw/index.html</loc>
+    <lastmod>2023-07-05T00:06:47.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/res/index.html</loc>
+    <lastmod>2022-05-04T18:17:57.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/dcpo_article/short.html</loc>
+    <lastmod>2022-11-22T18:27:23.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/machoitaihusolt2024/short.html</loc>
+    <lastmod>2024-12-13T16:04:33.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/hutaisolt2022/short.html</loc>
+    <lastmod>2024-02-07T18:01:23.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/short.html</loc>
+    <lastmod>2024-12-13T16:13:47.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/working-papers/hutaikowoosolt2023/short.html</loc>
+    <lastmod>2024-12-22T15:58:22.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2010/short.html</loc>
+    <lastmod>2022-06-27T11:43:34.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/hubersolt2004/short.html</loc>
+    <lastmod>2022-05-15T16:44:07.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2016/short.html</loc>
     <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solthabelgrant2011/short.html</loc>
-    <lastmod>2022-11-11T18:20:54.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2011/short.html</loc>
+    <lastmod>2022-05-15T16:46:53.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2015b/short.html</loc>
+    <loc>https://fsolt.org/res/published/solt2020/short.html</loc>
+    <lastmod>2022-05-15T16:47:41.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/rittersolt2019/short.html</loc>
+    <lastmod>2022-06-27T11:44:40.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/res/published/solt2004larr/short.html</loc>
     <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/kimsolt2017/short.html</loc>
-    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/solt2012/short.html</loc>
-    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/solt2014/short.html</loc>
-    <lastmod>2022-05-15T16:47:08.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/hutaisolt2024/short.html</loc>
-    <lastmod>2024-12-11T20:02:09.362Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/solt2004bjps/short.html</loc>
-    <lastmod>2022-05-15T16:45:07.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2016/short.html</loc>
-    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/wookotaihusolt2024/short.html</loc>
-    <lastmod>2024-12-22T20:55:26.123Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2017/short.html</loc>
-    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/husolt2024/short.html</loc>
-    <lastmod>2024-12-13T21:59:22.428Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/searingsoltconovercrewe2007/short.html</loc>
-    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/soltkimleewillardsonkim2014/short.html</loc>
+    <loc>https://fsolt.org/res/published/solt2015a/short.html</loc>
     <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
@@ -281,316 +393,208 @@
     <lastmod>2024-02-06T20:17:15.422Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2015a/short.html</loc>
+    <loc>https://fsolt.org/res/published/soltkimleewillardsonkim2014/short.html</loc>
     <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2004larr/short.html</loc>
+    <loc>https://fsolt.org/res/published/searingsoltconovercrewe2007/short.html</loc>
     <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/rittersolt2019/short.html</loc>
-    <lastmod>2022-06-27T11:44:40.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/husolt2024/short.html</loc>
+    <lastmod>2024-12-13T21:59:22.428Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2020/short.html</loc>
-    <lastmod>2022-05-15T16:47:41.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/solt2011/short.html</loc>
-    <lastmod>2022-05-15T16:46:53.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/res/published/solt2016/short.html</loc>
+    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2017/short.html</loc>
     <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/hubersolt2004/short.html</loc>
-    <lastmod>2022-05-15T16:44:07.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/wookotaihusolt2024/short.html</loc>
+    <lastmod>2024-12-22T20:55:26.123Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2010/short.html</loc>
-    <lastmod>2022-06-27T11:43:34.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2016/short.html</loc>
+    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/hutaikowoosolt2023/short.html</loc>
-    <lastmod>2024-12-22T15:58:22.143Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2004bjps/short.html</loc>
+    <lastmod>2022-05-15T16:45:07.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/short.html</loc>
-    <lastmod>2024-12-13T16:13:47.330Z</lastmod>
+    <loc>https://fsolt.org/res/published/hutaisolt2024/short.html</loc>
+    <lastmod>2024-12-11T20:02:09.362Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/hutaisolt2022/short.html</loc>
-    <lastmod>2024-02-07T18:01:23.581Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2014/short.html</loc>
+    <lastmod>2022-05-15T16:47:08.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/machoitaihusolt2024/short.html</loc>
-    <lastmod>2024-12-13T16:04:33.726Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2012/short.html</loc>
+    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/dcpo_article/short.html</loc>
-    <lastmod>2022-11-22T18:27:23.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/kimsolt2017/short.html</loc>
+    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/res/index.html</loc>
-    <lastmod>2022-05-04T18:17:57.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2015b/short.html</loc>
+    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/sw/index.html</loc>
-    <lastmod>2023-07-05T00:06:47.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solthabelgrant2011/short.html</loc>
+    <lastmod>2022-11-11T18:20:54.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/index.html</loc>
-    <lastmod>2022-06-22T08:07:20.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2001/short.html</loc>
+    <lastmod>2022-05-15T15:41:20.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/dcpo_article/index.html</loc>
-    <lastmod>2022-11-22T18:26:57.000Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2008/short.html</loc>
+    <lastmod>2022-06-27T11:44:04.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/machoitaihusolt2024/index.html</loc>
-    <lastmod>2024-12-13T16:04:25.407Z</lastmod>
+    <loc>https://fsolt.org/res/published/woogoldbergsolt2023/short.html</loc>
+    <lastmod>2023-05-29T19:28:40.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</loc>
-    <lastmod>2024-02-07T18:02:31.628Z</lastmod>
+    <loc>https://fsolt.org/res/published/solt2009/short.html</loc>
+    <lastmod>2022-05-15T16:46:09.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html</loc>
-    <lastmod>2024-12-13T17:03:18.056Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2010/index.html</loc>
+    <lastmod>2022-05-05T22:04:27.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</loc>
-    <lastmod>2024-12-22T15:58:30.262Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2009pre/index.html</loc>
+    <lastmod>2022-05-05T22:04:47.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2010/index.html</loc>
-    <lastmod>2022-06-27T11:43:22.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2011/index.html</loc>
+    <lastmod>2022-05-05T22:03:59.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/hubersolt2004/index.html</loc>
-    <lastmod>2022-05-03T20:29:52.000Z</lastmod>
+    <loc>https://fsolt.org/papers/rittersolt2019/index.html</loc>
+    <lastmod>2022-05-05T23:28:35.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2016/index.html</loc>
-    <lastmod>2022-05-02T00:50:33.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2004larr/index.html</loc>
+    <lastmod>2022-05-05T22:06:40.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2011/index.html</loc>
-    <lastmod>2022-05-02T13:08:01.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2015a_pre/index.html</loc>
+    <lastmod>2022-05-05T22:02:52.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2020/index.html</loc>
-    <lastmod>2022-05-04T17:44:01.000Z</lastmod>
+    <loc>https://fsolt.org/papers/taihusolt2022/index.html</loc>
+    <lastmod>2022-05-05T14:10:41.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/rittersolt2019/index.html</loc>
-    <lastmod>2022-06-27T11:44:30.000Z</lastmod>
+    <loc>https://fsolt.org/papers/soltetal2016a/index.html</loc>
+    <lastmod>2022-05-05T21:57:52.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2004larr/index.html</loc>
-    <lastmod>2022-05-02T14:48:59.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2008_pre/index.html</loc>
+    <lastmod>2022-05-05T22:05:23.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2015a/index.html</loc>
-    <lastmod>2022-05-02T21:26:11.000Z</lastmod>
+    <loc>https://fsolt.org/papers/searingsoltconovercrewe2007/index.html</loc>
+    <lastmod>2022-05-05T23:28:15.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/taihusolt2024/index.html</loc>
-    <lastmod>2024-02-06T20:15:38.458Z</lastmod>
+    <loc>https://fsolt.org/papers/hutaikowoosolt2023_pre/index.html</loc>
+    <lastmod>2023-02-18T14:35:06.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</loc>
-    <lastmod>2022-05-02T14:54:08.000Z</lastmod>
+    <loc>https://fsolt.org/papers/hutaisolt2024/index.html</loc>
+    <lastmod>2024-06-03T15:54:04.567Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/searingsoltconovercrewe2007/index.html</loc>
-    <lastmod>2022-05-02T14:37:21.000Z</lastmod>
+    <loc>https://fsolt.org/papers/rittersolt2019_pre/index.html</loc>
+    <lastmod>2022-05-05T23:29:09.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/husolt2024/index.html</loc>
-    <lastmod>2024-12-13T21:59:15.509Z</lastmod>
+    <loc>https://fsolt.org/papers/kimsolt2017_pre/index.html</loc>
+    <lastmod>2022-05-05T23:29:30.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</loc>
-    <lastmod>2022-05-02T21:26:47.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2012/index.html</loc>
+    <lastmod>2022-05-05T22:03:47.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/wookotaihusolt2024/index.html</loc>
-    <lastmod>2024-12-22T20:54:59.275Z</lastmod>
+    <loc>https://fsolt.org/papers/kimsolt2017/index.html</loc>
+    <lastmod>2022-05-05T23:30:05.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</loc>
-    <lastmod>2022-05-02T00:41:56.000Z</lastmod>
+    <loc>https://fsolt.org/papers/machoitaihusolt2024_pre/index.html</loc>
+    <lastmod>2024-08-29T16:26:03.717Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2004bjps/index.html</loc>
-    <lastmod>2022-05-02T13:12:27.000Z</lastmod>
+    <loc>https://fsolt.org/papers/woogoldbergsolt2022_pre/index.html</loc>
+    <lastmod>2022-05-05T21:55:38.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/hutaisolt2024/index.html</loc>
-    <lastmod>2024-12-11T20:02:12.367Z</lastmod>
+    <loc>https://fsolt.org/papers/hutaisolt2024_pre/index.html</loc>
+    <lastmod>2024-02-06T20:40:37.172Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2014/index.html</loc>
-    <lastmod>2022-05-03T23:42:08.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2001/index.html</loc>
+    <lastmod>2022-05-05T23:27:36.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2012/index.html</loc>
-    <lastmod>2022-05-02T13:04:30.000Z</lastmod>
+    <loc>https://fsolt.org/papers/solt2009/index.html</loc>
+    <lastmod>2022-05-05T22:05:05.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/kimsolt2017/index.html</loc>
-    <lastmod>2022-05-03T21:04:57.000Z</lastmod>
+    <loc>https://fsolt.org/papers/woogoldbergsolt2022/index.html</loc>
+    <lastmod>2022-10-14T14:44:17.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2015b/index.html</loc>
-    <lastmod>2022-05-03T21:05:52.000Z</lastmod>
+    <loc>https://fsolt.org/index.html</loc>
+    <lastmod>2024-06-03T19:33:23.219Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solthabelgrant2011/index.html</loc>
-    <lastmod>2022-11-11T18:20:45.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-4_0/index.html</loc>
+    <lastmod>2022-04-28T23:34:40.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2001/index.html</loc>
-    <lastmod>2022-05-03T21:06:48.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-9-7-is-available/index.html</loc>
+    <lastmod>2024-09-14T12:53:43.410Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2008/index.html</loc>
-    <lastmod>2022-06-27T11:43:54.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-0_9/index.html</loc>
+    <lastmod>2022-04-28T23:33:59.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/woogoldbergsolt2023/index.html</loc>
-    <lastmod>2023-05-29T19:29:05.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/cross-validation-for-swiid/index.html</loc>
+    <lastmod>2024-02-07T19:52:50.004Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/res/published/solt2009/index.html</loc>
-    <lastmod>2022-05-02T13:06:29.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index.html</loc>
+    <lastmod>2024-02-07T20:01:10.423Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/hubersolt2004/index.html</loc>
-    <lastmod>2022-05-05T23:30:26.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/my-workflow/index.html</loc>
+    <lastmod>2024-02-07T19:53:24.375Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2016/index.html</loc>
-    <lastmod>2022-05-05T22:00:23.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index.html</loc>
+    <lastmod>2024-02-07T19:51:46.069Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2020/index.html</loc>
-    <lastmod>2022-05-05T21:59:36.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/dotwhisker-for-apsa/index.html</loc>
+    <lastmod>2022-04-28T23:35:02.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/soltetal2017/index.html</loc>
-    <lastmod>2022-05-05T21:57:26.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-3_0/index.html</loc>
+    <lastmod>2022-04-28T23:34:24.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/solt2015a/index.html</loc>
-    <lastmod>2022-05-05T22:03:09.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/imf-china/index.html</loc>
+    <lastmod>2022-04-30T00:54:34.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fsolt.org/papers/taihusolt2022_pre/index.html</loc>
-    <lastmod>2022-05-05T21:56:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2015b_pre/index.html</loc>
-    <lastmod>2022-05-05T22:01:51.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2023_pre/index.html</loc>
-    <lastmod>2023-05-29T20:11:39.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2020_pre/index.html</loc>
-    <lastmod>2022-05-05T21:59:19.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/wookotaihusolt2024/index.html</loc>
-    <lastmod>2024-12-22T20:48:47.074Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2004bjps/index.html</loc>
-    <lastmod>2022-05-05T22:17:01.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2003/index.html</loc>
-    <lastmod>2022-05-05T23:27:16.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2016_pre/index.html</loc>
-    <lastmod>2022-05-05T22:00:01.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/soltetal2014/index.html</loc>
-    <lastmod>2022-05-05T21:58:47.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2014_pre/index.html</loc>
-    <lastmod>2022-05-05T22:03:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2015b/index.html</loc>
-    <lastmod>2022-05-05T22:02:22.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/swiid_un_talk/index.html</loc>
-    <lastmod>2022-05-05T21:56:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solthabelgrant2011/index.html</loc>
-    <lastmod>2022-05-05T21:56:58.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/wookotaihusolt2024_pre/index.html</loc>
-    <lastmod>2024-08-29T17:37:20.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/solt2008/index.html</loc>
-    <lastmod>2022-05-05T22:05:38.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/papers/hutaisolt2022_pre/index.html</loc>
-    <lastmod>2023-02-18T14:34:48.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/switch-to-r/index.html</loc>
-    <lastmod>2024-02-07T19:49:45.762Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index.html</loc>
-    <lastmod>2024-02-07T19:53:13.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-9-0-is-available/index.html</loc>
-    <lastmod>2022-04-30T01:22:41.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/now-on-cran-interplot/index.html</loc>
-    <lastmod>2022-04-30T01:01:53.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index.html</loc>
-    <lastmod>2024-02-07T19:52:16.824Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index.html</loc>
-    <lastmod>2022-04-30T01:23:14.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</loc>
-    <lastmod>2023-12-20T15:27:37.447Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/swiid-version-3_1/index.html</loc>
-    <lastmod>2022-04-30T00:31:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/pewdata/index.html</loc>
-    <lastmod>2022-04-30T01:03:17.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fsolt.org/blog/posts/nsf-swiid/index.html</loc>
-    <lastmod>2022-04-28T23:35:07.000Z</lastmod>
+    <loc>https://fsolt.org/blog/posts/swiid-version-9-8-is-available/index.html</loc>
+    <lastmod>2024-12-26T23:43:54.021Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/reviewing-workshop/index.html</loc>
