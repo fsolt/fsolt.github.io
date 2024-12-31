@@ -39,9 +39,9 @@ links:
 # status: Revised & Resubmitted
 # status_class: info
 # status_icon: fa-solid fa-arrows-rotate
-# status: Under review
-# status_class: success
-# status_icon: fa-solid fa-glasses
+status: Under review
+status_class: success
+status_icon: fa-solid fa-glasses
 listing:
   - id: cite
     contents: "*.qmd"
@@ -67,6 +67,8 @@ Trust in civil servants is essential for effective governance, enabling policy i
 ![Figure 3: TCS Scores Over Time Within Selected Countries](trust_bureaucracy_fig3.png)
 
 ![Figure 6: Construct Validation: Correlations Between TCS Scores and Corruption of Public Servants Survey Items](trust_bureaucracy_fig6.png)
+
+![Figure 7: Predicting Trust in Civil Servants Across Countries Over Time](trust_bureaucracy_fig7.png)
 
 ## BibTeX citation
 

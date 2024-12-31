@@ -65,6 +65,8 @@ Trust in civil servants is essential for effective governance, enabling policy i
 
 ![Figure 6: Construct Validation: Correlations Between TCS Scores and Corruption of Public Servants Survey Items](trust_bureaucracy_fig6.png)
 
+![Figure 7: Predicting Trust in Civil Servants Across Countries Over Time](trust_bureaucracy_fig7.png)
+
 ## BibTeX citation
 
 ```bibtex
