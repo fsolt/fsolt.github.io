@@ -1,0 +1,83 @@
+---
+title: "Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022"
+date: 2023-05-29
+cite: >
+  [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), and
+  **Frederick Solt**. 
+  2024.
+  "Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022."
+  _SocArXiv_.
+author:
+    - name: Yuehong Cassandra Tai
+      affiliation: Pennsylvania State University
+      url: https://cassyuehtai.netlify.app/
+      orcid: 0000-0001-7303-7443
+    - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
+links:
+# - name: Final version
+#   url: ""
+#   icon: fas fa-scroll
+- name: Preprint
+  url: /papers/taisolt2024_pre
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/dcpo_trust_bureaucracy"
+  icon: fa-brands fa-github
+# - name: Data
+#   url: ""
+#   icon: fas fa-table
+# pub_status:
+#   status: Forthcoming
+#   class: warning
+#   icon: pencil-square
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# status: Revised & Resubmitted
+# status_class: info
+# status_icon: fa-solid fa-arrows-rotate
+# status: Under review
+# status_class: success
+# status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "*.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - attitudes
+  - measurement
+  - dcpo
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+Trust in civil servants is essential for effective governance, enabling policy implementation, public service delivery, and compliance. However, the lack of comparable cross-national data on trust in bureaucracy has limited our ability to systematically examine these relationships. To address this gap, we develop the Trust in Civil Servants (TCS) dataset using an advanced latent-variable modeling technique, using 132 national and cross-national surveys from 98 countries (1986-2022). Our measures reveal variations in trust both within and between countries. We find that economic performance and public security enhance trust in the short term, whereas government quality and effectiveness have more enduring, long-term impacts on trust in civil service. The TCS dataset opens new avenues for examining connections between trust, governance quality, and complex policy challenges across different contexts.
+
+## Important figures
+
+![Figure 2: TCS Scores, Most Recent Available Year](trust_bureaucracy_fig2.png)
+
+![Figure 3: TCS Scores Over Time Within Selected Countries](trust_bureaucracy_fig3.png)
+
+![Figure 6: Construct Validation: Correlations Between TCS Scores and Corruption of Public Servants Survey Items](trust_bureaucracy_fig6.png)
+
+## BibTeX citation
+
+```bibtex
+@misc{TaiSolt2024,
+ author={Tai, Yuehong Cassandra and Solt, Frederick},
+ title={Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022},
+ publisher={SocArXiv},
+ year={2024},
+ month={December}, 
+ url={https://osf.io/preprints/socarxiv/vjuah},
+ doi={10.31235/osf.io/vjuah}
+}
+```
