@@ -17,7 +17,118 @@
 <width>144</width>
 </image>
 <generator>quarto-1.4.549</generator>
-<lastBuildDate>Wed, 04 Dec 2024 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 31 Dec 2024 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022</title>
+  <dc:creator>Yuehong Cassandra Tai</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/taisolt2024/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2024. “Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/taisolt2024_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_trust_bureaucracy"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Trust in civil servants is essential for effective governance, enabling policy implementation, public service delivery, and compliance. However, the lack of comparable cross-national data on trust in bureaucracy has limited our ability to systematically examine these relationships. To address this gap, we develop the Trust in Civil Servants (TCS) dataset using an advanced latent-variable modeling technique, using 132 national and cross-national surveys from 98 countries (1986-2022). Our measures reveal variations in trust both within and between countries. We find that economic performance and public security enhance trust in the short term, whereas government quality and effectiveness have more enduring, long-term impacts on trust in civil service. The TCS dataset opens new avenues for examining connections between trust, governance quality, and complex policy challenges across different contexts.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig2.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2: TCS Scores, Most Recent Available Year</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig3.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3: TCS Scores Over Time Within Selected Countries</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig6.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 6: Construct Validation: Correlations Between TCS Scores and Corruption of Public Servants Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig7.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 7: Predicting Trust in Civil Servants Across Countries Over Time</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">TaiSolt2024</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Tai, Yuehong Cassandra and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2024},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={December}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={https://osf.io/preprints/socarxiv/vjuah},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/vjuah}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/working-papers/taisolt2024/</guid>
+  <pubDate>Tue, 31 Dec 2024 06:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
   <dc:creator>Chrisendo, Daniel</dc:creator>
@@ -649,117 +760,6 @@ font-style: inherit;">doi</span> = {doi.org/10.1017/S0003055422000429}}</span></
   <category>attitudes</category>
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/taihusolt2024/</guid>
-  <pubDate>Mon, 29 May 2023 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022</title>
-  <dc:creator>Yuehong Cassandra Tai</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/taisolt2024/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2024. “Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022.” <em>SocArXiv</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/taisolt2024_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dcpo_trust_bureaucracy"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Trust in civil servants is essential for effective governance, enabling policy implementation, public service delivery, and compliance. However, the lack of comparable cross-national data on trust in bureaucracy has limited our ability to systematically examine these relationships. To address this gap, we develop the Trust in Civil Servants (TCS) dataset using an advanced latent-variable modeling technique, using 132 national and cross-national surveys from 98 countries (1986-2022). Our measures reveal variations in trust both within and between countries. We find that economic performance and public security enhance trust in the short term, whereas government quality and effectiveness have more enduring, long-term impacts on trust in civil service. The TCS dataset opens new avenues for examining connections between trust, governance quality, and complex policy challenges across different contexts.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig2.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 2: TCS Scores, Most Recent Available Year</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig3.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 3: TCS Scores Over Time Within Selected Countries</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig6.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 6: Construct Validation: Correlations Between TCS Scores and Corruption of Public Servants Survey Items</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/taisolt2024/trust_bureaucracy_fig7.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 7: Predicting Trust in Civil Servants Across Countries Over Time</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">TaiSolt2024</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span>={Tai, Yuehong Cassandra and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span>={Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span>={2024},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span>={December}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span>={https://osf.io/preprints/socarxiv/vjuah},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span>={10.31235/osf.io/vjuah}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>attitudes</category>
-  <category>measurement</category>
-  <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/taisolt2024/</guid>
   <pubDate>Mon, 29 May 2023 05:00:00 GMT</pubDate>
 </item>
 <item>

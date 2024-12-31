@@ -1,6 +1,6 @@
 ---
 title: "Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022"
-date: 2023-05-29
+date: 2024-12-31
 cite: >
   [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), and
   **Frederick Solt**. 
@@ -39,9 +39,9 @@ links:
 # status: Revising
 # status_class: info
 # status_icon: fa-solid fa-arrows-rotate
-# status: Under review
-# status_class: success
-# status_icon: fa-solid fa-glasses
+status: Under Review
+status_class: success
+status_icon: fa-solid fa-glasses
 listing:
   - id: cite
     contents: "*.qmd"
