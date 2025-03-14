@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fsolt.org/cv/index.html</loc>
-    <lastmod>2024-12-22T21:34:25.858Z</lastmod>
+    <lastmod>2024-12-22T21:34:25.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/swiid/null.html</loc>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/swiid/index.html</loc>
-    <lastmod>2024-12-26T23:31:24.838Z</lastmod>
+    <lastmod>2024-12-26T23:31:24.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/2018/08/15/switch-to-r/index.html</loc>
@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-9-3-is-available/index.html</loc>
-    <lastmod>2024-02-07T20:01:17.736Z</lastmod>
+    <lastmod>2024-02-07T20:01:17.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/my-un-talk/index.html</loc>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-9-6-is-available/index.html</loc>
-    <lastmod>2023-12-20T15:27:37.447Z</lastmod>
+    <lastmod>2023-12-20T15:27:37.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-8-0-is-available/index.html</loc>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-7-1-now-available/index.html</loc>
-    <lastmod>2024-02-07T19:52:16.824Z</lastmod>
+    <lastmod>2024-02-07T19:52:16.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/now-on-cran-interplot/index.html</loc>
@@ -110,15 +110,15 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index.html</loc>
-    <lastmod>2024-02-07T19:53:13.533Z</lastmod>
+    <lastmod>2024-02-07T19:53:13.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/switch-to-r/index.html</loc>
-    <lastmod>2024-02-07T19:49:45.762Z</lastmod>
+    <lastmod>2024-02-07T19:49:45.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/hutaisolt2022_pre/index.html</loc>
-    <lastmod>2023-02-18T14:34:48.000Z</lastmod>
+    <lastmod>2025-03-14T20:02:55.023Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/solt2008/index.html</loc>
@@ -126,7 +126,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/papers/wookotaihusolt2024_pre/index.html</loc>
-    <lastmod>2024-08-29T17:37:20.374Z</lastmod>
+    <lastmod>2025-03-14T20:10:35.970Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/solthabelgrant2011/index.html</loc>
@@ -162,15 +162,15 @@
   </url>
   <url>
     <loc>https://fsolt.org/papers/wookotaihusolt2024/index.html</loc>
-    <lastmod>2024-12-22T20:48:47.074Z</lastmod>
+    <lastmod>2024-12-22T20:48:47.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/solt2020_pre/index.html</loc>
-    <lastmod>2022-05-05T21:59:19.000Z</lastmod>
+    <lastmod>2025-03-14T20:09:39.935Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/solt2023_pre/index.html</loc>
-    <lastmod>2023-05-29T20:11:39.000Z</lastmod>
+    <lastmod>2025-03-14T20:09:47.783Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/solt2015b_pre/index.html</loc>
@@ -178,7 +178,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/papers/taihusolt2022_pre/index.html</loc>
-    <lastmod>2022-05-05T21:56:02.000Z</lastmod>
+    <lastmod>2025-03-14T20:10:01.972Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/solt2015a/index.html</loc>
@@ -202,7 +202,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/papers/taisolt2024_pre/index.html</loc>
-    <lastmod>2024-12-31T20:30:17.578Z</lastmod>
+    <lastmod>2025-03-14T20:10:15.102Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solt2009/short.html</loc>
@@ -242,7 +242,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/hutaisolt2024/short.html</loc>
-    <lastmod>2024-12-11T20:02:09.362Z</lastmod>
+    <lastmod>2024-12-11T20:02:09.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solt2004bjps/short.html</loc>
@@ -254,7 +254,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/wookotaihusolt2024/short.html</loc>
-    <lastmod>2024-12-22T20:55:26.123Z</lastmod>
+    <lastmod>2024-12-22T20:55:26.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solthuhudsonsongyu2017/short.html</loc>
@@ -262,7 +262,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/husolt2024/short.html</loc>
-    <lastmod>2024-12-13T21:59:22.428Z</lastmod>
+    <lastmod>2024-12-13T21:59:22.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/searingsoltconovercrewe2007/short.html</loc>
@@ -274,7 +274,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/taihusolt2024/short.html</loc>
-    <lastmod>2024-02-06T20:17:15.422Z</lastmod>
+    <lastmod>2024-02-06T20:17:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solt2015a/short.html</loc>
@@ -310,23 +310,23 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/hutaikowoosolt2023/short.html</loc>
-    <lastmod>2024-12-22T15:58:22.143Z</lastmod>
+    <lastmod>2024-12-22T15:58:22.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/short.html</loc>
-    <lastmod>2024-12-13T16:13:47.330Z</lastmod>
+    <lastmod>2024-12-13T16:13:47.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/hutaisolt2022/short.html</loc>
-    <lastmod>2024-02-07T18:01:23.581Z</lastmod>
+    <lastmod>2024-02-07T18:01:23.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/machoitaihusolt2024/short.html</loc>
-    <lastmod>2024-12-13T16:04:33.726Z</lastmod>
+    <lastmod>2024-12-13T16:04:33.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/taisolt2024/short.html</loc>
-    <lastmod>2024-12-31T20:58:24.070Z</lastmod>
+    <lastmod>2024-12-31T20:58:24.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/dcpo_article/short.html</loc>
@@ -350,23 +350,23 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/taisolt2024/index.html</loc>
-    <lastmod>2024-12-31T20:58:18.338Z</lastmod>
+    <lastmod>2024-12-31T20:58:18.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/machoitaihusolt2024/index.html</loc>
-    <lastmod>2024-12-13T16:04:25.407Z</lastmod>
+    <lastmod>2024-12-13T16:04:25.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/hutaisolt2022/index.html</loc>
-    <lastmod>2024-02-07T18:02:31.628Z</lastmod>
+    <lastmod>2024-02-07T18:02:31.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html</loc>
-    <lastmod>2024-12-13T17:03:18.056Z</lastmod>
+    <lastmod>2024-12-13T17:03:18.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/working-papers/hutaikowoosolt2023/index.html</loc>
-    <lastmod>2024-12-22T15:58:30.262Z</lastmod>
+    <lastmod>2024-12-22T15:58:30.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solt2010/index.html</loc>
@@ -402,7 +402,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/taihusolt2024/index.html</loc>
-    <lastmod>2024-02-06T20:15:38.458Z</lastmod>
+    <lastmod>2024-02-06T20:15:38.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/soltkimleewillardsonkim2014/index.html</loc>
@@ -414,7 +414,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/husolt2024/index.html</loc>
-    <lastmod>2024-12-13T21:59:15.509Z</lastmod>
+    <lastmod>2024-12-13T21:59:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solthuhudsonsongyu2017/index.html</loc>
@@ -422,7 +422,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/wookotaihusolt2024/index.html</loc>
-    <lastmod>2024-12-22T20:54:59.275Z</lastmod>
+    <lastmod>2024-12-22T20:54:59.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solthuhudsonsongyu2016/index.html</loc>
@@ -434,7 +434,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/res/published/hutaisolt2024/index.html</loc>
-    <lastmod>2024-12-11T20:02:12.367Z</lastmod>
+    <lastmod>2024-12-11T20:02:12.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/res/published/solt2014/index.html</loc>
@@ -514,15 +514,15 @@
   </url>
   <url>
     <loc>https://fsolt.org/papers/hutaikowoosolt2023_pre/index.html</loc>
-    <lastmod>2023-02-18T14:35:06.000Z</lastmod>
+    <lastmod>2025-03-14T20:02:26.670Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/hutaisolt2024/index.html</loc>
-    <lastmod>2024-06-03T15:54:04.567Z</lastmod>
+    <lastmod>2024-06-03T15:54:04.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/rittersolt2019_pre/index.html</loc>
-    <lastmod>2022-05-05T23:29:09.000Z</lastmod>
+    <lastmod>2025-03-14T20:05:16.009Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/kimsolt2017_pre/index.html</loc>
@@ -538,15 +538,15 @@
   </url>
   <url>
     <loc>https://fsolt.org/papers/machoitaihusolt2024_pre/index.html</loc>
-    <lastmod>2024-08-29T16:26:03.717Z</lastmod>
+    <lastmod>2025-03-14T20:03:51.149Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/woogoldbergsolt2022_pre/index.html</loc>
-    <lastmod>2022-05-05T21:55:38.000Z</lastmod>
+    <lastmod>2025-03-14T20:10:25.128Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/hutaisolt2024_pre/index.html</loc>
-    <lastmod>2024-02-06T20:40:37.172Z</lastmod>
+    <lastmod>2025-03-14T20:03:03.261Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/papers/solt2001/index.html</loc>
@@ -562,7 +562,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/index.html</loc>
-    <lastmod>2024-06-03T19:33:23.219Z</lastmod>
+    <lastmod>2024-06-03T19:33:23.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-4_0/index.html</loc>
@@ -570,7 +570,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-9-7-is-available/index.html</loc>
-    <lastmod>2024-09-14T12:53:43.410Z</lastmod>
+    <lastmod>2024-09-14T12:53:43.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-0_9/index.html</loc>
@@ -578,19 +578,19 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/cross-validation-for-swiid/index.html</loc>
-    <lastmod>2024-02-07T19:52:50.004Z</lastmod>
+    <lastmod>2024-02-07T19:52:50.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-6-1-is-available/index.html</loc>
-    <lastmod>2024-02-07T20:01:10.423Z</lastmod>
+    <lastmod>2024-02-07T20:01:10.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/my-workflow/index.html</loc>
-    <lastmod>2024-02-07T19:53:24.375Z</lastmod>
+    <lastmod>2024-02-07T19:53:24.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index.html</loc>
-    <lastmod>2024-02-07T19:51:46.069Z</lastmod>
+    <lastmod>2024-02-07T19:51:46.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/dotwhisker-for-apsa/index.html</loc>
@@ -606,7 +606,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-9-8-is-available/index.html</loc>
-    <lastmod>2024-12-26T23:43:54.021Z</lastmod>
+    <lastmod>2024-12-26T23:43:54.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/reviewing-workshop/index.html</loc>
@@ -614,7 +614,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/the-swiid-source-data/index.html</loc>
-    <lastmod>2024-02-07T20:29:30.458Z</lastmod>
+    <lastmod>2024-02-07T20:29:30.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-5_0/index.html</loc>
@@ -622,7 +622,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-9-4-is-available/index.html</loc>
-    <lastmod>2024-02-07T20:01:12.950Z</lastmod>
+    <lastmod>2024-02-07T20:01:12.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-5_1/index.html</loc>
@@ -634,7 +634,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/blog/posts/swiid-version-9-5-is-available/index.html</loc>
-    <lastmod>2024-02-07T20:01:15.515Z</lastmod>
+    <lastmod>2024-02-07T20:01:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/index.html</loc>

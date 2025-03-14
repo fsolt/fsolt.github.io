@@ -1,0 +1,414 @@
+---
+title: "Estimating Public Opinion in Mexico's States With MRP"
+author: "Frederick Solt"
+date: '2024-10-10'
+categories:
+  - note
+bibliography: /Users/fsolt/Library/texmf/bibtex/bib/FSLibrary.bib
+csl: /Users/fsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl
+editor: source
+draft: TRUE
+output:
+  html_document:
+    self_contained: yes
+description: "..."
+---
+
+[Before 2021, when it switched to RDD](https://www.vanderbilt.edu/lapop/ab2021/AB2021-Technical-Report-v1.0-FINAL-eng-030722.pdf), the AmericasBarometer used cluster sampling, ["stratified by major regions of the country, size of municipality and by urban and rural areas within municipalities"](https://www.vanderbilt.edu/lapop/ab2018/AmericasBarometer_2018-19_Technical_Report_W_102919.pdf).
+This means that [the standard MRP approach doesn't work very well](https://osf.io/preprints/socarxiv/gmyjh): it assumes that respondents are randomly selected from the state, not clustered within just one or a few locations.
+For example, in the 2019 AmericasBarometer, not only were just 12 respondents surveyed in Aguascalientes, but they all lived in within the urban areas of two municipalities with fewer than 25,000 residents.
+Although MRP is designed to take into account the unrepresentativeness of a state's survey sample, clustering makes this unrepresentativeness particularly extreme.
+The solution is to add the strata to the MRP model [@Auslen2024].
+
+So, okay, we need demographics of the respondents and those same demographics for the states
+
+
+I start with the [2019 AmericasBarometer file for Mexico](http://datasets.americasbarometer.org/database/files/Mexico%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta) and the [2020 Census](https://www.inegi.org.mx/programas/ccpv/2020/#microdatos) microdata file.
+
+```{r setup}
+library(tidyverse)
+```
+
+```{r get_amb, eval=FALSE}
+temp_dir <- tempdir()
+download.file("http://datasets.americasbarometer.org/database/files/Mexico%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta",
+              destfile = file.path(temp_dir, "amb_mexico2018.dta"))
+
+amb_mexico2018_raw <- rio::import(file.path(temp_dir, "amb_mexico2018.dta"),
+                              trust = TRUE)
+```
+
+```{r get_amb_local, include=FALSE}
+amb_mexico2018_raw <- rio::import("~/Documents/Projects/Data/dcpo_surveys/misc_files/amb_files/amb_mexico2018/Mexico%20LAPOP%20AmericasBarometer%202019%20v1.0_W.dta",
+                              trust = TRUE)
+```
+
+Ugh.
+The national microdata file for the 2020 census seems broken, so that means getting each of the 32 state files and then combining them.
+That's okay; it gives us a chance to have some fun with `purrr::map`.
+
+```{r state_files, eval=FALSE}
+walk(16:32 %>% sprintf("%02.0f", .), function(state) {
+  options(timeout = 300)
+  download.file(paste0("https://www.inegi.org.mx/contenidos/programas/ccpv/2010/microdatos/mpv/MC2010_", state, "_sav.zip"),
+                       destfile = file.path(temp_dir, paste0(state, ".zip")))
+  unzip(file.path(temp_dir, paste0(state, ".zip")),
+        exdir = file.path(temp_dir, state))
+})
+
+censo2010 <- map(1:32 %>% sprintf("%02.0f", .), function(state) {
+  options(timeout = 300)
+  
+  sav_file <- list.files(file.path(temp_dir, state), 
+                         pattern = "[pP]ersonas_\\d+\\.(SAV|sav)")
+  
+  rio::import(file.path(temp_dir, 
+                        state,
+                        sav_file))
+}) %>% 
+  list_rbind()
+
+save(censo2010, file = file.path(temp_dir, "censo2010.rda"))
+
+
+state_abbs <- c("ags", "bc", "bcs", "cam", "chs", "chh",
+                "cdmx", "coa", "col", "dgo", "mex", "gto",
+                "gro", "hgo", "jal", "mich", "mor", "nay", 
+                "nl", "oax", "pue", "qro", "qroo", "slp",
+                "sin", "son", "tab", "tam", "tla", "ver",
+                "yuc", "zac")
+
+censo2020 <- map(state_abbs, function(state) {
+  options(timeout = 300)
+  download.file(paste0("http://en.www.inegi.org.mx/contenidos/programas/ccpv/2020/microdatos/Censo2020_CA_", state, "_sav.zip"),
+                       destfile = file.path(temp_dir, paste0(state, ".zip")))
+  unzip(file.path(temp_dir, paste0(state, ".zip")),
+        exdir = file.path(temp_dir, state))
+  
+  sav_file <- list.files(file.path(temp_dir, state), 
+                         pattern = "Personas\\d+\\.(SAV|sav)")
+  
+  rio::import(file.path(temp_dir, 
+                        state,
+                        sav_file))
+}) %>% 
+  list_rbind()
+
+save(censo2020, file = file.path(temp_dir, "censo2020.rda"))
+
+#
+download.file("https://www.inegi.org.mx/contenidos/programas/ccpv/2020/microdatos/iter/ITER_NAL_2020_csv.zip",
+              destfile = file.path(temp_dir, "ITER_NAL_2020_csv.zip"))
+
+unzip(file.path(temp_dir, "ITER_NAL_2020_csv.zip")),
+        exdir = file.path(temp_dir))
+```
+
+```{r}
+as_factor_stata <- function(x) {
+  x %>% 
+    labelled::labelled(., attr(., "labels")) %>%
+    labelled::to_factor(levels = "labels", sort_levels = "values")
+}
+
+amb_mexico2018 <- amb_mexico2018_raw %>% 
+  mutate(region = as_factor_stata(estratopri),
+         state = as_factor_stata(prov),
+         state = case_when(state == "Distrito Federal" ~ "Ciudad de México",
+                           state == "Estado de México" ~ "México",
+                           TRUE ~ state),
+         muni_size = as_factor_stata(estratosec),
+         rural = as_factor_stata(ur),
+         stratum = as.factor(paste(muni_size, rural)),
+         polileader4 = vb50,
+         politicianecon3 = vb52,
+         female = q1 - 1,
+         agegrp = cut(q2, 
+                      breaks = c(17, 24, 44, 64, 150),
+                      labels = c("18 to 24", "25 to 44", "45 to 64", "65+")),
+         educ = case_when(ed == 0 ~ 0,
+                          ed < 6 ~ 1,
+                          between(ed, 6, 8) ~ 2,
+                          between(ed, 9, 11) ~ 3,
+                          ed == 12 ~ 4,
+                          ed > 12 ~ 5),
+         indig = etid == 3) 
+
+```
+
+Mexico's "major regions" are originally recorded in the variable `estratopri`; for this purpose I convert them to factors using the value labels from the Stata file.
+The states in each region are shown in @tbl-states-region.
+
+```{r, echo=FALSE}
+#| label: tbl-states-region
+#| tbl-cap: Mexican States By Region
+#| tbl-colwidths: [20,70]
+
+amb_mexico2018 %>%
+  group_by(region) %>% 
+  summarize(states = paste(sort(unique(state)), collapse = ", ")) %>% 
+  knitr::kable()
+```
+
+Within each region, samples were chosen from six strata defined by the combination of three municipality sizes (less than 25,000 residents, between 25,000 and 100,000 residents, and more than 100,000 residents) and urban/rural locations.
+The result is a sample ("representative at the national level and of the 4 regions [and] at the primary stratum level, by urban/rural areas, and by size of the
+municipalities")[https://www.vanderbilt.edu/lapop/Mexico_AmericasBarometer_2018-19_Technical_Report_W_100919.pdf] but not at the state level.
+
+## Multilevel Regression
+```{r mr}
+library(brms)
+
+cmr <- brm(polileader4 ~ (1|indig) + (1|female) + (1|indig:female) +
+             (1|agegrp) + (1|educ) + (1|region) + (1|stratum) + 
+             (1|stratum:region) + (1|state) + (1|stratum:state),
+           family = "cumulative",
+           data = amb_mexico2018,
+           chains = 4, 
+           cores = 4, 
+           control = list(adapt_delta = 0.99, max_treedepth = 14),
+           backend = "cmdstanr")
+
+deep_cmr <- brm(polileader4 ~ (1|indig) +  (1|female) + (1|indig:female) +
+                  (1|agegrp) + (1|region) + (1|educ) + (1|state) + (1|stratum) +
+                  (1|stratum:region) + (1|stratum:state) + (1|indig:agegrp) +
+                  (1|indig:educ) + (1|female:agegrp) + (1|agegrp:educ) +
+                  (1|indig:female:agegrp) + (1|indig:female:educ) +
+                  (1|female:agegrp:educ) + (1|indig:state) +
+                  (1|female:state) + (1|educ:state) + (1|agegrp:state) +
+                  (1|indig:region) + (1|female:region) + (1|educ:region) +
+                  (1|agegrp:region) + (1|indig:stratum) + (1|female:stratum) +
+                  (1|educ:stratum) + (1|agegrp:stratum),
+                family = "cumulative",
+                data = amb_mexico2018,
+                chains = 4, 
+                cores = 4, 
+                control = list(adapt_delta = 0.99, max_treedepth = 14),
+                backend = "cmdstanr")
+```
+
+## Poststratification
+
+```{r}
+amb_regions <- amb_mexico2018 %>% 
+  group_by(state) %>% 
+  summarize(region = first(region))
+
+censo_states <- tibble(ENT = 1:32 %>%
+                         sprintf("%02.0f", .), #2020
+                       ent = c(1:4, 7:8, 5:6, 9:32) %>%
+                         sprintf("%02.0f", .), #2010
+                       state_abb = c("ags", "bc", "bcs", "cam",
+                                     "coa", "col", "chs", "chh",
+                                     "cdmx", "dgo", "gto", "gro",
+                                     "hgo", "jal",  "mex", "mich",
+                                     "mor", "nay", "nl", "oax", 
+                                     "pue", "qro", "qroo", "slp",
+                                     "sin", "son", "tab", "tam", 
+                                     "tla", "ver", "yuc", "zac"),
+                       state = c("Aguascalientes",
+                                 "Baja California",
+                                 "Baja California Sur",
+                                 "Campeche",
+                                 "Chiapas",
+                                 "Chihuahua",
+                                 "Coahuila",
+                                 "Colima",
+                                 "Ciudad de México",
+                                 "Durango",
+                                 "Guanajuato",
+                                 "Guerrero",
+                                 "Hidalgo",
+                                 "Jalisco",
+                                 "México",
+                                 "Michoacán",
+                                 "Morelos",
+                                 "Nayarit",
+                                 "Nuevo León",
+                                 "Oaxaca",
+                                 "Puebla",
+                                 "Querétaro",
+                                 "Quintana Roo",
+                                 "San Luis Potosí",
+                                 "Sinaloa",
+                                 "Sonora",
+                                 "Tabasco",
+                                 "Tamaulipas",
+                                 "Tlaxcala",
+                                 "Veracruz",
+                                 "Yucatán",
+                                 "Zacatecas")) %>% 
+  left_join(amb_regions, by = "state")
+
+iter_censo2020_raw <- read_csv(file.path(temp_dir, "ITER_NALCSV20.csv"),
+                               show_col_types = FALSE)
+
+ital_censo2020_raw <- read_csv("~/Documents/Projects/gender_equality/paper/mexico/data-raw/censo2020/ITER_NALCSV20.csv")
+
+ital_censo2020 <- ital_censo2020_raw %>% 
+  filter(LOC == "0000") %>% 
+  transmute(ENT = ENTIDAD,
+            MUN,
+            NOM_MUN,
+            POBTOT) %>% 
+  left_join(censo_states, by = c("ENT"))
+
+# censo2020_raw <- rio::import(file.path(temp_dir,
+#                                    "censo2020.rda"),
+#                              trust = TRUE) 
+
+censo2020_raw <- rio::import("~/Documents/Projects/gender_equality/paper/mexico/data-raw/censo2020/censo2020.rda",
+                             trust = TRUE)
+
+censo2020 <- censo2020_raw %>%
+  filter(EDAD >= 18) %>% 
+  select(ENT, MUN, TAMLOC,
+         SEXO, EDAD, NIVACAD, PERTE_INDIGENA) %>% 
+  left_join(ital_censo2020, by = join_by(ENT, MUN)) %>% 
+  transmute(muni_size = case_when(POBTOT > 100000 ~ "Grande (más de 100,000)",
+                                  between(POBTOT, 25000, 100000) ~ "Mediana (entre 25,000 y 100,000)",
+                                  POBTOT < 25000 ~ "Pequeña (menos de 25,000)") %>% 
+              factor(levels = c("Grande (más de 100,000)",
+                                "Mediana (entre 25,000 y 100,000)",
+                                "Pequeña (menos de 25,000)")),
+            state,
+            region,
+            rural = if_else(TAMLOC == 1, "Rural", "Urbano") %>% 
+              factor(levels = c("Urbano", "Rural")),
+            stratum = as.factor(paste(muni_size, rural)),
+            pop = POBTOT,
+            indig = PERTE_INDIGENA == 1,
+            female = if_else(SEXO==3, 1, 0),
+         agegrp = cut(EDAD, 
+                      breaks = c(17, 24, 44, 64, 150),
+                      labels = c("18 to 24", "25 to 44", "45 to 64", "65+")),
+         educ = case_when(NIVACAD == "00" ~ 0,
+                          NIVACAD == "01" ~ 1,
+                          NIVACAD %in% c("02", "06") ~ 2, # complete primary
+                          NIVACAD %in% c("03", "07") ~ 3, # complete secondary
+                          NIVACAD %in% c("04", "05", "08") ~ 4, # complete high school
+                          as.numeric(NIVACAD) >= 9 ~ 5))
+
+poststrat_df <- censo2020 %>%
+  group_by(state, region, indig, female, agegrp, educ, stratum) %>%
+  summarize(n = sum(pop))
+
+epred_mat <- posterior_epred(cmr, 
+                             newdata = poststrat_df,
+                             draws = 1000,
+                             allow_new_levels = TRUE)
+
+mrp_estimates_vector <- epred_mat[,,4] %*% {poststrat_df$n / sum(poststrat_df$n)}
+mrp_estimate <- c(mean = mean(mrp_estimates_vector),
+                  sd = sd(mrp_estimates_vector))
+cat("MRP estimate mean, sd: ", round(mrp_estimate, 3))
+
+```
+
+Generate _state_ estimates by poststratifying:
+
+```{r, warning=FALSE, echo=FALSE, message=FALSE, fig.height=3.5, fig.width=10, fig.align = "center"}
+# Create empty dataframe
+states_df <- data.frame(
+  state = censo_states$state,
+  mrp_estimate = NA,
+  mrp_estimate_se = NA,
+  n_sample = NA
+)
+
+# Loop to populate the dataframe
+for(i in 1:nrow(states_df)) {
+  # Currently, the matrix epred_mat and the poststratification table contain 12,000
+  # rows. We need to filter the ones that correspond to state in row i. We do so 
+  # by defining the following condition:
+  filtering_condition <- which(poststrat_df$state == states_df$state[i])
+  
+  # Filtering matrix epred_mat with filtering_condition
+  state_epred_mat <- epred_mat[ ,filtering_condition,4]
+  
+  # Filtering poststratification table with filtering_condition
+  k_filtered <- poststrat_df[filtering_condition, ]$n
+
+  # Poststratification step
+  mrp_estimates_vector_sub <- state_epred_mat %*% k_filtered / sum(k_filtered)
+  
+  # MRP estimate for state in row i 
+  states_df$mrp_estimate[i] <- mean(mrp_estimates_vector_sub)
+  states_df$mrp_estimate_se[i] <- sd(mrp_estimates_vector_sub)
+  states_df$n_sample[i] <- nrow(filter(amb_mexico2018,
+                                       state==states_df$state[i]))
+}
+```
+
+Okay, but we have lots of different questions that have to do with the extent to which people support gender equality in the public sphere: in addition to the item we've already looked at, `polileader4`, there's also "If a politician is responsible for running the national economy, who would do a better job, a man, or a woman or does it not matter?"
+This question should also give us insight.
+
+```{r}
+
+amb_mexico_combo <- rio::import("/Users/fsolt/Documents/Projects/Data/dcpo_surveys/misc_files/amb_files/amb_mexico_combo/MEX_merge_2004-2023_LAPOP_AmericasBarometer_v1.0_w.RData",
+                                trust = TRUE) %>% 
+  filter(year < 2023) %>% 
+  transmute(Intercept = 1,
+            caseid = row_number(),
+            year,
+            region = as_factor_stata(estratopri),
+            state = as_factor_stata(prov),
+            state = case_when(state == "Distrito Federal" ~ "Ciudad de México",
+                              state == "Estado de México" ~ "México",
+                              TRUE ~ state),
+            muni = case_when(year == 2004 ~ municipio04,
+                             year == 2008 ~ municipio08,
+                             year == 2021 ~ municipio1t,
+                             TRUE ~ municipio),
+            muni_miss = is.na(muni),
+            muni_size = as_factor_stata(estratosec),
+            rural = as_factor_stata(ur),
+            stratum = as.factor(paste(muni_size, rural)),
+            polileader4 = vb50,
+            politicianecon3 = case_when(vb52 == 1 ~ 1,
+                                        vb52 == 3 ~ 2,
+                                        vb52 == 2 ~ 3),
+            jobs7 = 8 - gen1,
+            quota8 = eref1,
+            quota7 = gen6,
+            female = q1 - 1,
+            agegrp = cut(q2, 
+                         breaks = c(17, 24, 44, 64, 150),
+                         labels = c("18 to 24", "25 to 44", "45 to 64", "65+")),
+            educ = case_when(ed == 0 ~ "none",
+                             ed < 6 ~ "< primary",
+                             between(ed, 6, 8) ~ "primary",
+                             between(ed, 9, 11) ~ "middle",
+                             ed == 12 ~ "high school",
+                             ed > 12 ~ "some college+"),
+            indig = etid == 3) %>% 
+  pivot_longer(cols = polileader4:quota7,
+               names_to = "item",
+               values_to = "pge") %>% 
+  group_by(caseid) %>% 
+  mutate(all_sum = sum(pge, na.rm = TRUE)) %>% 
+  filter(!is.na(pge))
+
+m1 <- brm(
+  pge | thres(thres, gr = item) ~ Intercept +
+    factor(item) +  
+    (1 | caseid) + 
+    s(year) +
+    s(year, agegrp, bs="fs") +
+    s(year, female, bs="fs") +
+    s(year, educ, bs="fs"),
+  data = amb_mexico_combo,
+  family = cumulative("probit", threshold = "sum_to_zero"),
+  prior = prior(normal(0, 1.5), class = "b") +
+    prior(normal(0, 2), class = "sds") +
+    prior(normal(0, 1.5), class = "Intercept"),
+  chains = 4,
+  cores = 4,
+  iter = 1000,
+  warmup = 500,
+  inits = 0,
+  file = "models/at"
+)
+
+
+
+```

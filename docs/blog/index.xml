@@ -16,7 +16,7 @@
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-1.4.549</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Thu, 26 Dec 2024 06:00:00 GMT</lastBuildDate>
 <item>
   <title>SWIID Version 9.8 is available!</title>
@@ -622,14 +622,17 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb1-1"> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">ssc</span> install rsource, <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">replace</span></span></code></pre></div>
 </div>
 <p>Unfortunately, the information <code>rsource</code> needs about your R installation is a bit different depending on your OS, but once installed, adding this platform-independent code to your do-file will run the script:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb2-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"`c(os)'"</span>==<span class="st" style="color: #20794D;
@@ -641,6 +644,7 @@ background-color: null;
 font-style: inherit;">"UNIX"</span> {</span>
 <span id="cb2-2">    rsource <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">using</span> my_script.R, rpath(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"/usr/local/bin/R"</span>) roptions(<span class="st" style="color: #20794D;
@@ -674,36 +678,47 @@ font-style: inherit;">}</span></span></code></pre></div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">clear</span></span>
 <span id="cb3-2"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">set</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">more</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">off</span></span>
 <span id="cb3-3"></span>
 <span id="cb3-4"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">sysuse</span> auto, <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">clear</span></span>
 <span id="cb3-5"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">gen</span> wt = <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">weight</span>/1000</span>
 <span id="cb3-6"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">regress</span> mpg wt displacement foreign trunk headroom <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">length</span></span>
 <span id="cb3-7">regsave <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">using</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"~/Desktop/R_Stata/auto_results.dta"</span>, <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">replace</span></span>
 <span id="cb3-8"></span>
 <span id="cb3-9">rsource, terminator(END_OF_R) rpath(<span class="st" style="color: #20794D;
@@ -779,6 +794,7 @@ font-style: inherit;">END_OF_R</span></span></code></pre></div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> (<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span><span class="fu" style="color: #4758AB;

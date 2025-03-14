@@ -1,5 +1,5 @@
 ---
 title: solt2023_pre
 header-includes: |
-  <meta http-equiv="Refresh" content="0; URL=https://osf.io/preprints/socarxiv/nkgdy/">
+  <meta http-equiv="Refresh" content="0; URL=https://doi.org/10.31235/osf.io/nkgdy">
 ---

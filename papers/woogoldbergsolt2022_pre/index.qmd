@@ -1,5 +1,5 @@
 ---
 title: woogoldbergsolt2022_pre
 header-includes: |
-  <meta http-equiv="Refresh" content="0; URL=https://osf.io/preprints/socarxiv/37dq9">
+  <meta http-equiv="Refresh" content="0; URL=https://doi.org/10.31235/osf.io/37dq9">
 ---
