@@ -69,6 +69,7 @@ categories:
   - democracy
   - measurement
   - dcpo
+  - inequality
 ---
 
 :::{#cite}
