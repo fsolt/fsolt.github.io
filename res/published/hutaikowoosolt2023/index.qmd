@@ -41,9 +41,9 @@ links:
 - name: Code
   url: "https://github.com/fsolt/dcpo_demsupport_data"
   icon: fa-brands fa-github
-# - name: Data
-#   url: ""
-#   icon: fas fa-table
+- name: Data
+  url: "https://doi.org/10.7910/dvn/kybycs"
+  icon: fas fa-table
 # pub_status:
 #   status: Forthcoming
 #   class: warning
@@ -51,9 +51,9 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-status: Revise & Resubmit
-status_class: info
-status_icon: fa-solid fa-arrows-rotate
+# status: Revise & Resubmit
+# status_class: info
+# status_icon: fa-solid fa-arrows-rotate
 # status: Under review
 # status_class: success
 # status_icon: fa-solid fa-glasses
