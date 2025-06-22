@@ -9,7 +9,7 @@ cite: >
   **Frederick Solt**. 
   2025.
   "An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support."
-  _SocArXiv_.
+  _Research and Politics_ 12(2).
 author:
     - name: Yue Hu
       affiliation: Tsinghua University
