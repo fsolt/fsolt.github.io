@@ -6,7 +6,7 @@ cite: >
   **Frederick Solt**. 
   Forthcoming.
   "Macrointerest Across Countries."
-  _British Journal of Political Science_.
+  _British Journal of Political Science_ 55(e71):1-10.
 author:
     - name: Yue Hu
       affiliation: Tsinghua University
@@ -17,9 +17,9 @@ author:
       url: https://fsolt.org
       orcid: 0000-0002-3154-6132
 links:
-# - name: Final version
-#   url: ""
-#   icon: fas fa-scroll
+- name: Final version
+  url: /papers/husolt2025
+  icon: fas fa-scroll
 - name: Preprint
   url: /papers/solt2023_pre
   icon: far fa-file-pdf
@@ -32,9 +32,9 @@ links:
 - name: CNM Database
   url: https://dcpo.org/data/cnm/
   icon: fa-solid fa-database
-status: Forthcoming
-status_class: warning
-status_icon: fa-regular fa-clock
+# status: Forthcoming
+# status_class: warning
+# status_icon: fa-regular fa-clock
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
