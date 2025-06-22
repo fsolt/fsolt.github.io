@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://fsolt.org/swiid/index.html</loc>
-    <lastmod>2024-12-26T23:31:24.000Z</lastmod>
+    <lastmod>2025-06-22T17:55:19.211Z</lastmod>
   </url>
   <url>
     <loc>https://fsolt.org/blog/2018/08/15/switch-to-r/index.html</loc>
@@ -679,5 +679,9 @@
   <url>
     <loc>https://fsolt.org/teach/index.html</loc>
     <lastmod>2023-02-19T15:59:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fsolt.org/blog/posts/swiid-version-9-9-is-available/index.html</loc>
+    <lastmod>2025-06-22T18:09:52.331Z</lastmod>
   </url>
 </urlset>
