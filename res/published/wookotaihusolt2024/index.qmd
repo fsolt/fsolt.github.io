@@ -9,7 +9,7 @@ cite: >
   **Frederick Solt**. 
   Forthcoming.
   "Public Support for Gay Rights Across Countries and Over Time."
-  _Social Science Quarterly_.
+  _Social Science Quarterly_ 106(1):1-11.
 author:
     - name: Byung-Deuk Woo
       affiliation: Pohang University of Science and Technology
@@ -48,9 +48,9 @@ links:
   url: https://dcpo.org/data/sgr/
   icon: fa-solid fa-database
 # pub_status:
-status: Forthcoming
-status_class: warning
-status_icon: fa-regular fa-clock
+# status: Forthcoming
+# status_class: warning
+# status_icon: fa-regular fa-clock
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
