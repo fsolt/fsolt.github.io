@@ -1,6 +1,6 @@
 ---
 title: "Income Inequality Has Increased For Over Two-Thirds of the Global Population"
-date: 2024-12-04
+date: 2025-06-04
 cite: >
   [Chrisendo, Daniel](https://www.aalto.fi/en/people/daniel-chrisendo),
   [Venla Niva](https://research.aalto.fi/en/persons/venla-niva),
@@ -66,12 +66,12 @@ links:
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-# status: Revised & Resubmitted
-# status_class: info
-# status_icon: fa-solid fa-arrows-rotate
-status: Under Review
-status_class: success
-status_icon: fa-solid fa-glasses
+status: Revised & Resubmit
+status_class: info
+status_icon: fa-solid fa-arrows-rotate
+# status: Under Review
+# status_class: success
+# status_icon: fa-solid fa-glasses
 listing:
   - id: cite
     contents: "*.qmd"
