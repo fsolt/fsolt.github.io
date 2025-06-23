@@ -17,7 +17,126 @@
 <width>144</width>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 04 Jun 2025 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 16 Jun 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support</title>
+  <dc:creator>Yue Hu</dc:creator>
+  <dc:creator>Yuehong Cassandra Tai</dc:creator>
+  <dc:creator>Hyein Ko</dc:creator>
+  <dc:creator>Byung-Deuk Woo</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/published/hutaikowoosolt2023/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2025. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>Research &amp; Politics</em> 12(2).
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/hutaikowoosolt2025"><i class="fas fa-scroll"></i> Final version</a>
+</li>
+<li class="project-link">
+<a href="../../../papers/hutaikowoosolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/dcpo_demsupport_data"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="https://doi.org/10.7910/dvn/kybycs"><i class="fas fa-table"></i> Data</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Prominent recent works have measured democratic support using a single latent variable that purports to span a single dimension from steadfast opposition to whole-hearted support. This ignores ample evidence that support for democracy is complex and multidimensional. Here we provide a series of validation tests of the sort of cross-national time-series latent variable measures employed in recent research by reference to questions on support for liberal democracy and opposition to its erosion from multi-wave surveys conducted around the world. These tests show that, across countries and years, this latent variable is nearly orthogonal to measures of support for contestation and participation; civil liberties; institutional constraints on executive power; and prioritizing democracy over the economy, economic equality, or order. We conclude that support for democracy in any robust sense is simply not well captured by one-dimensional latent variable. Such measures are powerful but researchers must be mindful of their limitations.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1: Correlations Between Democratic Support as a Unidimensional Latent Variable and Polyarchy Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig2.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2: Correlations Between Democratic Support as a Unidimensional Latent Variable and Civil Liberties Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig3.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3: Correlations Between Democratic Support as a Unidimensional Latent Variable and Democratic Institutions Survey Items</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig4.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4: Correlations Between Democratic Support as a Unidimensional Latent Variable and Prioritization Survey Items</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">HuTaiKoWooSolt2023</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2023},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={February}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={osf.io/preprints/socarxiv/rym8g/},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>democracy</category>
+  <category>measurement</category>
+  <category>dcpo</category>
+  <guid>https://fsolt.org/res/published/hutaikowoosolt2023/</guid>
+  <pubDate>Mon, 16 Jun 2025 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
   <dc:creator>Chrisendo, Daniel</dc:creator>
@@ -341,7 +460,7 @@ font-style: inherit;">month</span>={Aug}</span>
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Public Support for Gay Rights Across Countries and Over Time.” <em>Social Science Quarterly</em> 106(1):1-11.
+<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. 2025. “Public Support for Gay Rights Across Countries and Over Time.” <em>Social Science Quarterly</em> 106(1):1-11.
 </p>
 </div>
 <ul class="project-links">
@@ -464,7 +583,7 @@ font-style: inherit;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Macrointerest Across Countries.” <em>British Journal of Political Science</em> 55(e71):1-10.
+<a href="https://sammo3182.github.io">Hu, Yue</a>, and <strong>Frederick Solt</strong>. 2025. “Macrointerest Across Countries.” <em>British Journal of Political Science</em> 55(e71):1-10.
 </p>
 </div>
 <ul class="project-links">
@@ -863,125 +982,6 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
   <category>measurement</category>
   <guid>https://fsolt.org/res/published/woogoldbergsolt2023/</guid>
   <pubDate>Sun, 28 May 2023 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support</title>
-  <dc:creator>Yue Hu</dc:creator>
-  <dc:creator>Yuehong Cassandra Tai</dc:creator>
-  <dc:creator>Hyein Ko</dc:creator>
-  <dc:creator>Byung-Deuk Woo</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/hutaikowoosolt2023/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2025. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>Research and Politics</em> 12(2).
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="../../../papers/hutaikowoosolt2025"><i class="fas fa-scroll"></i> Final version</a>
-</li>
-<li class="project-link">
-<a href="../../../papers/hutaikowoosolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="https://github.com/fsolt/dcpo_demsupport_data"><i class="fa-brands fa-github"></i> Code</a>
-</li>
-<li class="project-link">
-<a href="https://doi.org/10.7910/dvn/kybycs"><i class="fas fa-table"></i> Data</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Prominent recent works have measured democratic support using a single latent variable that purports to span a single dimension from steadfast opposition to whole-hearted support. This ignores ample evidence that support for democracy is complex and multidimensional. Here we provide a series of validation tests of the sort of cross-national time-series latent variable measures employed in recent research by reference to questions on support for liberal democracy and opposition to its erosion from multi-wave surveys conducted around the world. These tests show that, across countries and years, this latent variable is nearly orthogonal to measures of support for contestation and participation; civil liberties; institutional constraints on executive power; and prioritizing democracy over the economy, economic equality, or order. We conclude that support for democracy in any robust sense is simply not well captured by one-dimensional latent variable. Such measures are powerful but researchers must be mindful of their limitations.</p>
-</section>
-<section id="important-figures" class="level2">
-<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig1.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 1: Correlations Between Democratic Support as a Unidimensional Latent Variable and Polyarchy Survey Items</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig2.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 2: Correlations Between Democratic Support as a Unidimensional Latent Variable and Civil Liberties Survey Items</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig3.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 3: Correlations Between Democratic Support as a Unidimensional Latent Variable and Democratic Institutions Survey Items</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig4.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 4: Correlations Between Democratic Support as a Unidimensional Latent Variable and Prioritization Survey Items</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">HuTaiKoWooSolt2023</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span>={An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span>={SocArXiv},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span>={2023},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span>={February}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span>={osf.io/preprints/socarxiv/rym8g/},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>attitudes</category>
-  <category>democracy</category>
-  <category>measurement</category>
-  <category>dcpo</category>
-  <guid>https://fsolt.org/res/published/hutaikowoosolt2023/</guid>
-  <pubDate>Thu, 16 Feb 2023 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy</title>

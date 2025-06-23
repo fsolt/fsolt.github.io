@@ -1,6 +1,6 @@
 ---
 title: "An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support"
-date: 2023-02-16
+date: 2025-06-16
 cite: >
   [Hu, Yue](https://sammo3182.github.io),
   [Yuehong Cassandra Tai](https://cassyuehtai.netlify.app), 
@@ -9,7 +9,7 @@ cite: >
   **Frederick Solt**. 
   2025.
   "An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support."
-  _Research and Politics_ 12(2).
+  _Research & Politics_ 12(2).
 author:
     - name: Yue Hu
       affiliation: Tsinghua University

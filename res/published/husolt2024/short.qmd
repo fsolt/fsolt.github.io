@@ -4,7 +4,7 @@ date: 2024-02-06
 cite: >
   [Hu, Yue](https://sammo3182.github.io), and
   **Frederick Solt**. 
-  Forthcoming.
+  2025.
   "Macrointerest Across Countries."
   _British Journal of Political Science_ 55(e71):1-10.
 author:
