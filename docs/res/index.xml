@@ -16,8 +16,101 @@
 <height>144</height>
 <width>144</width>
 </image>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Tue, 31 Dec 2024 06:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 04 Jun 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
+  <dc:creator>Chrisendo, Daniel</dc:creator>
+  <dc:creator>Venla Niva</dc:creator>
+  <dc:creator>Roman Hoffmann</dc:creator>
+  <dc:creator>Sina Masoumzadeh Sayyar</dc:creator>
+  <dc:creator>Juan Rocha</dc:creator>
+  <dc:creator>Vilma Sandström</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Matti Kummu</dc:creator>
+  <link>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://www.aalto.fi/en/people/daniel-chrisendo">Chrisendo, Daniel</a>, <a href="https://research.aalto.fi/en/persons/venla-niva">Venla Niva</a>, <a href="http://wittgensteincentre.org/en/staff/member/hoffmann.htm">Roman Hoffmann</a>, <a href="https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar">Sina Masoumzadeh Sayyar</a>, <a href="https://www.juanrocha.se">Juan Rocha</a>, <a href="https://researchportal.helsinki.fi/en/persons/vilma-sandström">Vilma Sandström</a>, <strong>Frederick Solt</strong>, and <a href="https://www.aalto.fi/en/people/matti-kummu">Matti Kummu</a>. 2024. “Income Inequality Has Increased For Over Two-Thirds of the Global Population.” <em>ResearchSquare</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="https://www.researchsquare.com/article/rs-5548291/v1"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on the distribution of incomes is widely missing. Such data is essential to assess patterns in inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for 1990-2021 and used these to assess the status and trends of income inequality and income as well as their interplay. We show that while gross national income has increased for most (96%) people globally, inequality has also increased for around 68% of the global population. We illustrate heterogeneities in inequality trends between and within countries and analyse plausible confounding factors related to inequality. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, regional or national level and providing comprehensive evidence for policymakers to make informed decisions.</p>
+</section>
+<section id="important-figure" class="level2">
+<h2 class="anchored" data-anchor-id="important-figure">Important figure</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/global_inequality_fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1: Gini coefficient and GNI (gross national income) per capita for 1990 and 2021. a. Gini coefficient for 1221990, b. gross national income (GNI) per capita PPP for 1990, c.&nbsp;Gini coefficient for 2021, and d.&nbsp;GNI per capita 123PPP for 2021. Note: log10 scale for GNI per capita.</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Chrisendo2024</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Income Inequality Has Increased For Over Two-Thirds of the Global Population},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={ResearchSquare},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2024},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={Dec}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={https://doi.org/10.21203/rs.3.rs-5548291/v1},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.21203/rs.3.rs-5548291/v1}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</guid>
+  <pubDate>Wed, 04 Jun 2025 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022</title>
   <dc:creator>Yuehong Cassandra Tai</dc:creator>
@@ -35,7 +128,7 @@
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2024. “Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022.” <em>SocArXiv</em>.
+<a href="https://cassyuehtai.netlify.app">Tai, Yuehong Cassandra</a>, and <strong>Frederick Solt</strong>. 2024. “Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022.” <em>SocArXiv</em>.
 </p>
 </div>
 <ul class="project-links">
@@ -53,9 +146,7 @@
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -130,101 +221,6 @@ font-style: inherit;">doi</span>={10.31235/osf.io/vjuah}</span>
   <pubDate>Tue, 31 Dec 2024 06:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
-  <dc:creator>Chrisendo, Daniel</dc:creator>
-  <dc:creator>Venla Niva</dc:creator>
-  <dc:creator>Roman Hoffmann</dc:creator>
-  <dc:creator>Sina Masoumzadeh Sayyar</dc:creator>
-  <dc:creator>Juan Rocha</dc:creator>
-  <dc:creator>Vilma Sandström</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <dc:creator>Matti Kummu</dc:creator>
-  <link>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://www.aalto.fi/en/people/daniel-chrisendo">Chrisendo, Daniel</a>, <a href="https://research.aalto.fi/en/persons/venla-niva">Venla Niva</a>, <a href="http://wittgensteincentre.org/en/staff/member/hoffmann.htm">Roman Hoffmann</a>, <a href="https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar">Sina Masoumzadeh Sayyar</a>, <a href="https://www.juanrocha.se">Juan Rocha</a>, <a href="https://researchportal.helsinki.fi/en/persons/vilma-sandström">Vilma Sandström</a>, <strong>Frederick Solt</strong>, and <a href="https://www.aalto.fi/en/people/matti-kummu">Matti Kummu</a>. 2024. “Income Inequality Has Increased For Over Two-Thirds of the Global Population.” <em>ResearchSquare</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="https://www.researchsquare.com/article/rs-5548291/v1"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on the distribution of incomes is widely missing. Such data is essential to assess patterns in inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for 1990-2021 and used these to assess the status and trends of income inequality and income as well as their interplay. We show that while gross national income has increased for most (96%) people globally, inequality has also increased for around 68% of the global population. We illustrate heterogeneities in inequality trends between and within countries and analyse plausible confounding factors related to inequality. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, regional or national level and providing comprehensive evidence for policymakers to make informed decisions.</p>
-</section>
-<section id="important-figure" class="level2">
-<h2 class="anchored" data-anchor-id="important-figure">Important figure</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/global_inequality_fig1.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 1: Gini coefficient and GNI (gross national income) per capita for 1990 and 2021. a. Gini coefficient for 1221990, b. gross national income (GNI) per capita PPP for 1990, c.&nbsp;Gini coefficient for 2021, and d.&nbsp;GNI per capita 123PPP for 2021. Note: log10 scale for GNI per capita.</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">Chrisendo2024</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span>={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span>={Income Inequality Has Increased For Over Two-Thirds of the Global Population},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span>={ResearchSquare},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span>={2024},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span>={Dec}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span>={https://doi.org/10.21203/rs.3.rs-5548291/v1},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span>={10.21203/rs.3.rs-5548291/v1}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>inequality</category>
-  <category>measurement</category>
-  <guid>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</guid>
-  <pubDate>Wed, 04 Dec 2024 06:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Macrodiscontent Across Countries</title>
   <dc:creator>Haofeng Ma</dc:creator>
   <dc:creator>Jeongho Choi</dc:creator>
@@ -262,9 +258,7 @@ font-style: inherit;">doi</span>={10.21203/rs.3.rs-5548291/v1}</span>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -347,7 +341,7 @@ font-style: inherit;">month</span>={Aug}</span>
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Public Support for Gay Rights Across Countries and Over Time.” <em>Social Science Quarterly</em>.
+<a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Public Support for Gay Rights Across Countries and Over Time.” <em>Social Science Quarterly</em> 106(1):1-11.
 </p>
 </div>
 <ul class="project-links">
@@ -374,9 +368,7 @@ font-style: inherit;">month</span>={Aug}</span>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -451,6 +443,7 @@ font-style: inherit;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
+  <category>inequality</category>
   <guid>https://fsolt.org/res/published/wookotaihusolt2024/</guid>
   <pubDate>Wed, 15 May 2024 05:00:00 GMT</pubDate>
 </item>
@@ -471,10 +464,13 @@ font-style: inherit;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Macrointerest Across Countries.” <em>British Journal of Political Science</em>.
+<a href="https://sammo3182.github.io">Hu, Yue</a>, and <strong>Frederick Solt</strong>. Forthcoming. “Macrointerest Across Countries.” <em>British Journal of Political Science</em> 55(e71):1-10.
 </p>
 </div>
 <ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/husolt2025"><i class="fas fa-scroll"></i> Final version</a>
+</li>
 <li class="project-link">
 <a href="../../../papers/solt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
@@ -495,9 +491,7 @@ font-style: inherit;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -554,6 +548,7 @@ font-style: inherit;">year</span>={Forthcoming}</span>
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
+  <category>inequality</category>
   <guid>https://fsolt.org/res/published/husolt2024/</guid>
   <pubDate>Tue, 06 Feb 2024 06:00:00 GMT</pubDate>
 </item>
@@ -599,9 +594,7 @@ font-style: inherit;">year</span>={Forthcoming}</span>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -701,9 +694,7 @@ font-style: inherit;">doi</span>={10.1017/psrm.2024.16}</span>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -808,9 +799,7 @@ font-style: inherit;">doi</span> = {doi.org/10.1017/S0003055422000429}}</span></
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -882,7 +871,7 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
   <dc:creator>Hyein Ko</dc:creator>
   <dc:creator>Byung-Deuk Woo</dc:creator>
   <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/working-papers/hutaikowoosolt2023/</link>
+  <link>https://fsolt.org/res/published/hutaikowoosolt2023/</link>
   <description><![CDATA[ 
 
 
@@ -895,15 +884,21 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2023. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>SocArXiv</em>.
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2025. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>Research and Politics</em> 12(2).
 </p>
 </div>
 <ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/hutaikowoosolt2025"><i class="fas fa-scroll"></i> Final version</a>
+</li>
 <li class="project-link">
 <a href="../../../papers/hutaikowoosolt2023_pre"><i class="far fa-file-pdf"></i> Preprint</a>
 </li>
 <li class="project-link">
 <a href="https://github.com/fsolt/dcpo_demsupport_data"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+<li class="project-link">
+<a href="https://doi.org/10.7910/dvn/kybycs"><i class="fas fa-table"></i> Data</a>
 </li>
 </ul>
 </div>
@@ -913,37 +908,35 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Measuring democratic support as a single latent variable requires assuming that it falls along a single dimension from steadfast opposition to wholehearted support. This ignores ample evidence that support for democracy is complex and multidimensional. Here we provide a series of validation tests of the sort of cross-national time-series latent variable measures employed in recent research by reference to questions on support for liberal democracy and opposition to its erosion from multiwave surveys conducted around the world. These tests show that, across countries and years, this latent variable is nearly orthogonal to measures of support for contestation and participation; civil liberties; institutional constraints on executive power; and prioritizing democracy over the economy, economic equality, or order. We conclude that support for democracy in any robust sense is simply not well captured by a unidimensional latent variable. Such measures are powerful but researchers must be mindful of their limitations.</p>
+<p>Prominent recent works have measured democratic support using a single latent variable that purports to span a single dimension from steadfast opposition to whole-hearted support. This ignores ample evidence that support for democracy is complex and multidimensional. Here we provide a series of validation tests of the sort of cross-national time-series latent variable measures employed in recent research by reference to questions on support for liberal democracy and opposition to its erosion from multi-wave surveys conducted around the world. These tests show that, across countries and years, this latent variable is nearly orthogonal to measures of support for contestation and participation; civil liberties; institutional constraints on executive power; and prioritizing democracy over the economy, economic equality, or order. We conclude that support for democracy in any robust sense is simply not well captured by one-dimensional latent variable. Such measures are powerful but researchers must be mindful of their limitations.</p>
 </section>
 <section id="important-figures" class="level2">
 <h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig1.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig1.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 1: Correlations Between Democratic Support as a Unidimensional Latent Variable and Polyarchy Survey Items</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig2.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig2.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 2: Correlations Between Democratic Support as a Unidimensional Latent Variable and Civil Liberties Survey Items</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig3.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig3.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 3: Correlations Between Democratic Support as a Unidimensional Latent Variable and Democratic Institutions Survey Items</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/hutaikowoosolt2023/demsupport_data_fig4.png" class="img-fluid figure-img"></p>
+<p><img src="https://fsolt.org/res/published/hutaikowoosolt2023/demsupport_data_fig4.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 4: Correlations Between Democratic Support as a Unidimensional Latent Variable and Prioritization Survey Items</figcaption>
 </figure>
 </div>
@@ -987,7 +980,7 @@ font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
   <category>democracy</category>
   <category>measurement</category>
   <category>dcpo</category>
-  <guid>https://fsolt.org/res/working-papers/hutaikowoosolt2023/</guid>
+  <guid>https://fsolt.org/res/published/hutaikowoosolt2023/</guid>
   <pubDate>Thu, 16 Feb 2023 06:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1026,9 +1019,7 @@ font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1137,9 +1128,7 @@ font-style: inherit;">doi</span>={10.31235/osf.io/kd7mu}</span>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1229,9 +1218,7 @@ font-style: inherit;">year</span> = {2020}}</span></code></pre></div>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1325,9 +1312,7 @@ Ritter, Michael, and <strong>Frederick Solt</strong>. 2019. “Economic Inequali
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1426,9 +1411,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1522,9 +1505,7 @@ font-style: inherit;">year</span> = {2017}}</span></code></pre></div>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1624,9 +1605,7 @@ font-style: inherit;">year</span> = {2017}}</span></code></pre></div>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1713,9 +1692,7 @@ font-style: inherit;">year</span> = {2016}}</span></code></pre></div>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1815,9 +1792,7 @@ font-style: inherit;">year</span> = {2016}}</span></code></pre></div>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1900,9 +1875,7 @@ font-style: inherit;">year</span> = {2015}}</span></code></pre></div>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
@@ -1985,9 +1958,7 @@ font-style: inherit;">year</span> = {2015}}</span></code></pre></div>
 </div>
 </li>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
