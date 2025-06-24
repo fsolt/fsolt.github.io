@@ -75,12 +75,12 @@ The extent to which the public takes an interest in politics has long been argue
 ## BibTeX citation
 
 ```bibtex
-@article{HuSolt2024,
- author={Hu, Yue, and Solt, Frederick},
+@article{HuSolt2025,
+ author={Hu, Yue and Solt, Frederick},
  title={Macrointerest Across Countries},
  journal={British Journal of Political Science},
  year={2025},
- volumen={55},
+ volume={55},
  number={e71},
  pages={1-10}
 }
