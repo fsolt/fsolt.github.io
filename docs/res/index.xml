@@ -38,7 +38,7 @@
 <div class="project-details">
 <div class="project-content">
 <p>
-<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2025. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>Research &amp; Politics</em> 12(2).
+<a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2025. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>Research &amp; Politics</em> 12(2):1-7.
 </p>
 </div>
 <ul class="project-links">
@@ -99,9 +99,9 @@
 <h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">HuTaiKoWooSolt2023</span>,</span>
+font-style: inherit;">HuTaiKoWooSolt2025</span>,</span>
 <span id="cb1-2"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">author</span>={Hu, Yue and Tai, Yuehong Cassandra and Ko, Hyein and Woo, Byung-Deuk and Solt, Frederick},</span>
@@ -110,20 +110,22 @@ background-color: null;
 font-style: inherit;">title</span>={An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support},</span>
 <span id="cb1-4"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">publisher</span>={SocArXiv},</span>
+font-style: inherit;">journal</span>={Research <span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\&amp;</span> Politics},</span>
 <span id="cb1-5"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">year</span>={2023},</span>
+font-style: inherit;">year</span>={2025},</span>
 <span id="cb1-6"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">month</span>={February}, </span>
+font-style: inherit;">volume</span>={12},</span>
 <span id="cb1-7"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">url</span>={osf.io/preprints/socarxiv/rym8g/},</span>
+font-style: inherit;">number</span>={2},</span>
 <span id="cb1-8"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">doi</span>={10.31235/osf.io/rym8g/}</span>
-<span id="cb1-9">}</span></code></pre></div>
+font-style: inherit;">pages</span>={1-7}</span>
+<span id="cb1-9"> }</span></code></pre></div>
 
 
 
@@ -538,13 +540,13 @@ background-color: null;
 font-style: inherit;">journal</span> = {Social Science Quarterly},</span>
 <span id="cb1-5"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">volume</span> = {Early View},</span>
+font-style: inherit;">volume</span> = {106},</span>
 <span id="cb1-6"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">number</span> = {},</span>
+font-style: inherit;">number</span> = {1},</span>
 <span id="cb1-7"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">pages</span> = {},</span>
+font-style: inherit;">pages</span> = {1-11},</span>
 <span id="cb1-8"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">doi</span> = {https://doi.org/10.1111/ssqu.13478},</span>
@@ -655,8 +657,17 @@ background-color: null;
 font-style: inherit;">journal</span>={British Journal of Political Science},</span>
 <span id="cb1-5"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">year</span>={Forthcoming}</span>
-<span id="cb1-6">}</span></code></pre></div>
+font-style: inherit;">year</span>={2025},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volumen</span>={55},</span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span>={e71},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span>={1-10}</span>
+<span id="cb1-9">}</span></code></pre></div>
 
 
 
@@ -752,11 +763,17 @@ background-color: null;
 font-style: inherit;">journal</span> = {Political Science Research and Methods},</span>
 <span id="cb1-5"><span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">year</span> = {Forthcoming},</span>
+font-style: inherit;">year</span> = {2025},</span>
 <span id="cb1-6"><span class="dt" style="color: #AD0000;
 background-color: null;
+font-style: inherit;">volume</span> = {13},</span>
+<span id="cb1-7"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">issue</span> = {1},</span>
+<span id="cb1-8"><span class="dt" style="color: #AD0000;
+background-color: null;
 font-style: inherit;">doi</span>={10.1017/psrm.2024.16}</span>
-<span id="cb1-7">}</span></code></pre></div>
+<span id="cb1-9">}</span></code></pre></div>
 
 
 

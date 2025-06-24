@@ -7,7 +7,7 @@ cite: >
   **Frederick Solt**. 
   2025.
   "Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?"
-  _Political Science Research and Methods_ 13(1):237-243..
+  _Political Science Research and Methods_ 13(1):237-243.
 author:
   - name: Yue Hu
     affiliation: Tsinghua University
@@ -79,7 +79,9 @@ Prominent recent work argues that support for democracy behaves thermostatically
 author={Hu, Yue and Tai, Yuehong Cassandra and Solt, Frederick},
 title={Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?},
 journal = {Political Science Research and Methods},
-year = {Forthcoming},
+year = {2025},
+volume = {13},
+issue = {1},
 doi={10.1017/psrm.2024.16}
 }
 ```

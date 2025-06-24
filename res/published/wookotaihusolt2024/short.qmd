@@ -91,9 +91,9 @@ _Objective_. Support for gay rights has increased in the publics of many countri
  author = {Woo, Byung-Deuk and Ko, Hyein and Tai, Yuehong Cassandra and Hu, Yue and Solt, Frederick},
  title = {Public Support for Gay Rights Across Countries and Over Time},
  journal = {Social Science Quarterly},
- volume = {Early View},
- number = {},
- pages = {},
+ volume = {106},
+ number = {1},
+ pages = {1-11},
  doi = {https://doi.org/10.1111/ssqu.13478},
  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.13478}
 }
