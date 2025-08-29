@@ -17,7 +17,98 @@
 <width>144</width>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Thu, 28 Aug 2025 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 29 Aug 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Facing Change Again: Meta-Analyses of Gender and Climate Change Attitudes Worldwide</title>
+  <dc:creator>Frederick Solt</dc:creator>
+  <link>https://fsolt.org/res/working-papers/solt2025/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<strong>Frederick Solt</strong>. 2025. “Facing Change Again: Meta-Analyses of Gender and Climate Change Attitudes Worldwide.” <em>SocArXiv</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="../../../papers/solt2025_pre"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+<li class="project-link">
+<a href="https://github.com/fsolt/climate_facing"><i class="fa-brands fa-github"></i> Code</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>As the need to address climate change grows increasingly pressing, so does the need for understanding the factors that undermine public support for mitigation. One prominent recent analysis of three cross-national surveys argues that people—especially men—in richer countries express less concern for climate change and see more costs and fewer benefits to mitigation, pointing to compensation as a potential solution. Drawing on hundreds of surveys, this reassessment employs a series of meta-analyses to reveal that while gender differences in climate concern are indeed larger in richer countries, both men and women express more concern in such settings relative to poorer countries, and there is no relationship between economic development and gender differences in mitigation’s perceived costs and benefits. Instead, gender differences in climate concern are mirrored in differences in concern across a wide array of risks, consistent with more widespread masculine performative fearlessness in richer countries.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/working-papers/solt2025/climate_facing_fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1: In Richer Countries, Women Generally Express More Concern Than Men About Climate Change</figcaption>
+</figure>
+</div>
+<p><img src="https://fsolt.org/res/working-papers/solt2025/climate_facing_fig2.png" class="img-fluid" alt="Figure 2: Both Men and Women Tend to Express More Concern About Climate Change in Richer Countries Than in Poorer Countries"> <img src="https://fsolt.org/res/working-papers/solt2025/climate_facing_fig3.png" class="img-fluid" alt="Figure 3: In Richer (and Poorer) Countries, Women and Men Generally Perceive the Benefits and Costs of Mitigation No Differently"> <img src="https://fsolt.org/res/working-papers/solt2025/climate_facing_fig4.png" class="img-fluid" alt="Figure 4: In Richer Countries, Women Generally Express More Concern Than Men Regardless of the Source of Risk"></p>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Solt2025</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Solt, Frederick},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Facing Change Again: Meta-Analyses of Gender and Climate Change Attitudes Worldwide},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={SocArXiv},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2025},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={July}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span> = {https://doi.org/10.31235/osf.io/ka2tm_v1},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span> = {https://osf.io/preprints/socarxiv/ka2tm_v1}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>attitudes</category>
+  <category>climate</category>
+  <category>gender</category>
+  <guid>https://fsolt.org/res/working-papers/solt2025/</guid>
+  <pubDate>Fri, 29 Aug 2025 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
   <dc:creator>Chrisendo, Daniel</dc:creator>
@@ -1003,6 +1094,7 @@ font-style: inherit;">doi</span> = {10.1017/S0007123422000436}}</span></code></p
   <category>inequality</category>
   <category>attitudes</category>
   <category>measurement</category>
+  <category>gender</category>
   <guid>https://fsolt.org/res/published/woogoldbergsolt2023/</guid>
   <pubDate>Sun, 28 May 2023 05:00:00 GMT</pubDate>
 </item>
@@ -1943,86 +2035,6 @@ font-style: inherit;">year</span> = {2015}}</span></code></pre></div>
   <category>participation</category>
   <guid>https://fsolt.org/res/published/solt2015a/</guid>
   <pubDate>Thu, 30 Apr 2015 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Reversing the Arrow? Economic Inequality’s Effect on Religiosity</title>
-  <dc:creator>Frederick Solt</dc:creator>
-  <link>https://fsolt.org/res/published/solt2014/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<strong>Solt, Frederick</strong>. 2014. “Reversing the Arrow? Economic Inequality’s Effect on Religiosity.” In <em>Religion and Inequality in America: Research and Theory on Religion’s Role in Stratification</em>, L. Keister and D. Sherkat, eds., Cambridge: Cambridge University Press.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="https://books.google.com/books?id=eBlvAwAAQBAJ&amp;pg=337"><i class="fas fa-scroll"></i> Final version</a>
-</li>
-<li class="project-link">
-<a href="../../../papers/solt2014_pre/"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-<li class="project-link">
-<a href="http://dx.doi.org/10.7910/DVN/X0AOON"><i class="fas fa-table"></i> Dataverse</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>As other contributions to this volume document, there is considerable evidence that religious beliefs and practices shape stratification processes, working to maintain and perhaps even increase economic inequality. But what effect does the extent of inequality within a society have on the religiosity of the people who live there? In this chapter, I present time-series cross-sectional analyses of reported attendance at religious services in more than thirty countries over the past half century. These analyses indicate that rising levels of income inequality are soon followed by rising levels of religiosity. These results support relative power theory, which maintains that greater inequality yields more religiosity by increasing the degree to which wealthy people are attracted to religion and have the power to shape the attitudes and beliefs of those with fewer means.</p>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX Citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@incollection</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">Solt2014</span>,</span>
-<span id="cb1-2">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span> = {Solt, Frederick},</span>
-<span id="cb1-3">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">booktitle</span> = {Religion and Inequality in America: Research and Theory on Religion's Role in Stratification},</span>
-<span id="cb1-4">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">pages</span> = {337-353},</span>
-<span id="cb1-5">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span> = {Cambridge University Press},</span>
-<span id="cb1-6">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span> = {Reversing the Arrow? Economic Inequality's Effect on Religiosity},</span>
-<span id="cb1-7">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span> = {2014}}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>inequality</category>
-  <category>religiosity</category>
-  <category>attitudes</category>
-  <guid>https://fsolt.org/res/published/solt2014/</guid>
-  <pubDate>Mon, 30 Jun 2014 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

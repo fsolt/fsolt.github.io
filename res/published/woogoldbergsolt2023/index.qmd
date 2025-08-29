@@ -58,6 +58,7 @@ categories:
   - inequality
   - attitudes
   - measurement
+  - gender
 listing:
   - id: cite
     contents: "*.qmd"

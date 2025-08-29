@@ -1,0 +1,82 @@
+---
+title: "Facing Change Again: Meta-Analyses of Gender and Climate Change Attitudes Worldwide"
+date: 2025-08-29
+cite: >
+  **Frederick Solt**. 
+  2025.
+  "Facing Change Again: Meta-Analyses of Gender and Climate Change Attitudes Worldwide."
+  _SocArXiv_.
+author:
+    - name: Frederick Solt
+      affiliation: University of Iowa
+      url: https://fsolt.org
+      orcid: 0000-0002-3154-6132
+links:
+# - name: Final version
+#   url: /papers/wookotaihusolt2024
+#   icon: fas fa-scroll
+- name: Preprint
+  url: /papers/solt2025_pre
+  icon: far fa-file-pdf
+- name: Code
+  url: "https://github.com/fsolt/climate_facing"
+  icon: fa-brands fa-github
+# - name: Dataverse
+#   url: "https://doi.org/10.7910/DVN/I5LMTO"
+#   icon: fas fa-table
+# - name: SGR Database
+#   url: https://dcpo.org/data/sgr/
+#   icon: fa-solid fa-database
+# pub_status:
+# status: Forthcoming
+# status_class: warning
+# status_icon: fa-regular fa-clock
+# #   status: Writing
+# #   class: warning
+# #   icon: fas fa-edit
+# status: Revise & Resubmit
+# status_class: info
+# status_icon: fas fa-sync
+status: Under review
+status_class: success
+status_icon: fa-solid fa-glasses
+listing:
+  - id: cite
+    contents: "short.qmd"
+    template: "../../../templates/single-cite.ejs"
+categories:
+  - attitudes
+  - climate
+  - gender
+---
+
+:::{#cite}
+:::
+
+
+## Abstract
+
+As the need to address climate change grows increasingly pressing, so does the need for understanding the factors that undermine public support for mitigation.  One prominent recent analysis of three cross-national surveys argues that people---especially men---in richer countries express less concern for climate change and see more costs and fewer benefits to mitigation, pointing to compensation as a potential solution.  Drawing on hundreds of surveys, this reassessment employs a series of meta-analyses to reveal that while gender differences in climate concern are indeed larger in richer countries, both men and women express more concern in such settings relative to poorer countries, and there is no relationship between economic development and gender differences in mitigation's perceived costs and benefits.  Instead, gender differences in climate concern are mirrored in differences in concern across a wide array of risks, consistent with more widespread masculine performative fearlessness in richer countries.
+
+## Important figures
+
+![Figure 1: In Richer Countries, Women Generally Express More Concern Than Men About Climate Change](climate_facing_fig1.png)
+
+![Figure 2: Both Men and Women Tend to Express More Concern About Climate Change in Richer Countries Than in Poorer Countries](climate_facing_fig2.png)
+![Figure 3: In Richer (and Poorer) Countries, Women and Men Generally Perceive the Benefits and Costs of Mitigation No Differently](climate_facing_fig3.png)
+![Figure 4: In Richer Countries, Women Generally Express More Concern Than Men _Regardless of the Source of Risk_](climate_facing_fig4.png)
+
+
+## BibTeX citation
+
+```bibtex
+@misc{Solt2025,
+ author = {Solt, Frederick},
+ title = {Facing Change Again: Meta-Analyses of Gender and Climate Change Attitudes Worldwide},
+ publisher={SocArXiv},
+ year={2025},
+ month={July}, 
+ doi = {https://doi.org/10.31235/osf.io/ka2tm_v1},
+ url = {https://osf.io/preprints/socarxiv/ka2tm_v1}
+}
+```
