@@ -51,24 +51,24 @@ links:
 #   url: ""
 #   icon: fas fa-scroll
 - name: Preprint
-  url: "https://www.researchsquare.com/article/rs-5548291/v1"
+  url: /papers/chrisendonivahoffmannrochasandstromsoltkummu2024_pre
   icon: far fa-file-pdf
-# - name: Code
-#   url: "https://github.com/fsolt/dcpo_article"
-#   icon: fa-brands fa-github
-# - name: Data
-#   url: ""
-#   icon: fas fa-table
+- name: Code
+  url: "https://github.com/mattikummu/gini_gni_analyses"
+  icon: fa-brands fa-github
+- name: SubNGini Dataset
+  url: "https://zenodo.org/records/16410778"
+  icon: fas fa-table
 # pub_status:
-# status: Forthcoming
-# status_class: warning
-# status_icon: fa-regular fa-clock
+status: Forthcoming
+status_class: warning
+status_icon: fa-regular fa-clock
 # #   status: Writing
 # #   class: warning
 # #   icon: fas fa-edit
-status: Revise & Resubmit
-status_class: info
-status_icon: fa-solid fa-arrows-rotate
+# status: Revise & Resubmit
+# status_class: info
+# status_icon: fa-solid fa-arrows-rotate
 # status: Under Review
 # status_class: success
 # status_icon: fa-solid fa-glasses
