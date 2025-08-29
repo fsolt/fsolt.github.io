@@ -1,6 +1,6 @@
 ---
 title: "Income Inequality Has Increased For Over Two-Thirds of the Global Population"
-date: 2025-06-04
+date: 2025-08-28
 cite: >
   [Chrisendo, Daniel](https://www.aalto.fi/en/people/daniel-chrisendo),
   [Venla Niva](https://research.aalto.fi/en/persons/venla-niva),
@@ -10,9 +10,9 @@ cite: >
   [Vilma Sandström](https://researchportal.helsinki.fi/en/persons/vilma-sandström),
   **Frederick Solt**, and
   [Matti Kummu](https://www.aalto.fi/en/people/matti-kummu).
-  2024.
+  Forthcoming.
   "Income Inequality Has Increased For Over Two-Thirds of the Global Population."
-  _ResearchSquare_.
+  _Nature Sustainability_.
 author:
     - name: Chrisendo, Daniel
       affiliation: Aalto University
@@ -88,11 +88,14 @@ categories:
 
 ## Abstract
 
-Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on the distribution of incomes is widely missing. Such data is essential to assess patterns in inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for 1990-2021 and used these to assess the status and trends of income inequality and income as well as their interplay. We show that while gross national income has increased for most (96%) people globally, inequality has also increased for around 68% of the global population. We illustrate heterogeneities in inequality trends between and within countries and analyse plausible confounding factors related to inequality. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, regional or national level and providing comprehensive evidence for policymakers to make informed decisions.
+Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on income distribution are widely missing. Such data are essential for assessing patterns of inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for the period 1990-2023 and used these to assess the status and trends of income inequality and income, as well as their interplay. We show that while gross national income has increased for most people globally (96%), inequality has also increased for around 46-59% (depending on the national dataset used) of the global population, while it has decreased for 31-36% and has not shown significant trend for 10-18%. We illustrate heterogeneities in inequality trends between and within countries, analyse plausible confounding factors related to inequality, and highlight the broad utility of the datasets through a case study that investigates correlations with terrestrial ecological diversity. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, national, and subnational levels and providing comprehensive evidence for policymakers to make informed decisions.
 
-## Important figure
+## Important figures
 
 ![Figure 1: Gini coefficient and GNI (gross national income) per capita for 1990 and 2021.  a. Gini coefficient for 1221990, b. gross national income (GNI) per capita PPP for 1990, c. Gini coefficient for 2021, and d. GNI per capita 123PPP for 2021. Note: log10 scale for GNI per capita.](global_inequality_fig1.png)
+
+![Figure 5. The interplay of ecological diversity, income, and income equality. a. a map showing the combinations of trends in ecological diversity, income, and income equality (1 – Gini coefficient) over 1990-2023. Bright spots (all trends positive) and dark spots (all trends negative) are highlighted. b. the distributions of average values (over 1990-2023) of each indicator in each trend combination class. In the last column, the n corresponds to the number of admin 1 areas in each trend combination class. Slopes were calculated with Siegel repeated medians (mblm R package), and only statistically significant slopes (p < 0.1) are reported. Note: The subnational Gini coefficient data based on SWIID national data are used here.](global_inequality_fig5.png)
+
 
 ## BibTeX citation
 

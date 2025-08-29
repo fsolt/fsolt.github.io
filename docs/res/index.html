@@ -80,10 +80,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-links','listing-categories','listing-listing','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-extra',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-links','listing-status','listing-status_class','listing-status_icon','listing-listing','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-extra',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-links","listing-categories","listing-listing","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-extra"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-links","listing-status","listing-status_class","listing-status_icon","listing-listing","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-extra"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -109,9 +109,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-links','listing-status','listing-status_class','listing-status_icon','listing-listing','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-extra',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title','listing-date','listing-cite','listing-author','listing-extra','listing-links','listing-listing','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-status','listing-status_class','listing-status_icon',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-links","listing-status","listing-status_class","listing-status_icon","listing-listing","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-extra"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title","listing-date","listing-cite","listing-author","listing-extra","listing-links","listing-listing","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-status","listing-status_class","listing-status_icon"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -307,7 +307,24 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <div id="listing-published" class="quarto-listing quarto-listing-container-custom">
 <div class="list project-list">
-<li class="project" data-index="0" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1750050000000" data-listing-file-modified-sort="1750778674003" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<li class="project" data-index="0" data-categories="aW5lcXVhbGl0eSUyQ21lYXN1cmVtZW50" data-listing-date-sort="1756357200000" data-listing-file-modified-sort="1756478649416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="410">
+<div class="project-content">
+<p>
+<span class="status btn-warning"><i class="fa-regular fa-clock"></i> Forthcoming</span> <a href="https://www.aalto.fi/en/people/daniel-chrisendo">Chrisendo, Daniel</a>, <a href="https://research.aalto.fi/en/persons/venla-niva">Venla Niva</a>, <a href="http://wittgensteincentre.org/en/staff/member/hoffmann.htm">Roman Hoffmann</a>, <a href="https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar">Sina Masoumzadeh Sayyar</a>, <a href="https://www.juanrocha.se">Juan Rocha</a>, <a href="https://researchportal.helsinki.fi/en/persons/vilma-sandström">Vilma Sandström</a>, <strong>Frederick Solt</strong>, and <a href="https://www.aalto.fi/en/people/matti-kummu">Matti Kummu</a>. Forthcoming. “Income Inequality Has Increased For Over Two-Thirds of the Global Population.” <em>Nature Sustainability</em>.
+</p>
+</div>
+<div class="project-details">
+<ul class="project-links">
+<li class="project-link details">
+<a href="../res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html"><i class="bi bi-info-circle-fill"></i> Full details »</a>
+</li>
+<li class="project-link">
+<a href="https://www.researchsquare.com/article/rs-5548291/v1"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="project" data-index="1" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1750050000000" data-listing-file-modified-sort="1750778674003" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
 <div class="project-content">
 <p>
 <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://www.byung-deuk-woo.org">Byung-Deuk Woo</a>, and <strong>Frederick Solt</strong>. 2025. “An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support.” <em>Research &amp; Politics</em> 12(2):1-7.
@@ -333,7 +350,7 @@ window.Quarto = {
 </ul>
 </div>
 </li>
-<li class="project" data-index="1" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3BvJTJDaW5lcXVhbGl0eQ==" data-listing-date-sort="1715749200000" data-listing-file-modified-sort="1750779034546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
+<li class="project" data-index="2" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3BvJTJDaW5lcXVhbGl0eQ==" data-listing-date-sort="1715749200000" data-listing-file-modified-sort="1750779034546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
 <div class="project-content">
 <p>
 <a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.heyikon.com">Hyein Ko</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. 2025. “Public Support for Gay Rights Across Countries and Over Time.” <em>Social Science Quarterly</em> 106(1):1-11.
@@ -362,7 +379,7 @@ window.Quarto = {
 </ul>
 </div>
 </li>
-<li class="project" data-index="2" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3BvJTJDaW5lcXVhbGl0eQ==" data-listing-date-sort="1707199200000" data-listing-file-modified-sort="1750778727317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
+<li class="project" data-index="3" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3BvJTJDaW5lcXVhbGl0eQ==" data-listing-date-sort="1707199200000" data-listing-file-modified-sort="1750784698750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
 <div class="project-content">
 <p>
 <a href="https://sammo3182.github.io">Hu, Yue</a>, and <strong>Frederick Solt</strong>. 2025. “Macrointerest Across Countries.” <em>British Journal of Political Science</em> 55(e71):1-10.
@@ -391,7 +408,7 @@ window.Quarto = {
 </ul>
 </div>
 </li>
-<li class="project" data-index="3" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1707199200000" data-listing-file-modified-sort="1750783356488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<li class="project" data-index="4" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1707199200000" data-listing-file-modified-sort="1750783356488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
 <div class="project-content">
 <p>
 <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2025. “Revisiting the Evidence on Thermostatic Response to Democratic Change: Degrees of Democratic Support or Researcher Degrees of Freedom?” <em>Political Science Research and Methods</em> 13(1):237-243.
@@ -417,7 +434,7 @@ window.Quarto = {
 </ul>
 </div>
 </li>
-<li class="project" data-index="4" data-categories="ZGNwbyUyQ2RlbW9jcmFjeSUyQ2F0dGl0dWRlcyUyQ21lYXN1cmVtZW50" data-listing-date-sort="1685336400000" data-listing-file-modified-sort="1707250538000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+<li class="project" data-index="5" data-categories="ZGNwbyUyQ2RlbW9jcmFjeSUyQ2F0dGl0dWRlcyUyQ21lYXN1cmVtZW50" data-listing-date-sort="1685336400000" data-listing-file-modified-sort="1707250538000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
 <div class="project-content">
 <p>
 <a href="https://cassyuehtai.netlify.app">Tai, Yuehong ‘Cassandra’</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. 2024. “Democracy, Public Support, and Measurement Uncertainty.” <em>American Political Science Review</em> 118(1):512-518.
@@ -443,7 +460,7 @@ window.Quarto = {
 </ul>
 </div>
 </li>
-<li class="project" data-index="5" data-categories="ZGNwbyUyQ2luZXF1YWxpdHklMkNhdHRpdHVkZXMlMkNtZWFzdXJlbWVudA==" data-listing-date-sort="1685250000000" data-listing-file-modified-sort="1685388545000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
+<li class="project" data-index="6" data-categories="ZGNwbyUyQ2luZXF1YWxpdHklMkNhdHRpdHVkZXMlMkNtZWFzdXJlbWVudA==" data-listing-date-sort="1685250000000" data-listing-file-modified-sort="1685388545000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
 <div class="project-content">
 <p>
 <a href="https://www.byung-deuk-woo.org">Woo, Byung-Deuk</a>, <a href="https://www.lindsey-allemang-goldberg.com">Lindsey A. Goldberg</a>, and <strong>Frederick Solt</strong>. 2023. “Public Gender Egalitarianism: A Dataset of Dynamic Comparative Public Opinion Toward Egalitarian Gender Roles in the Public Sphere.” <em>British Journal of Political Science</em> 53(2), 766-775.
@@ -472,7 +489,7 @@ window.Quarto = {
 </ul>
 </div>
 </li>
-<li class="project" data-index="6" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1588482000000" data-listing-file-modified-sort="1651686241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<li class="project" data-index="7" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1588482000000" data-listing-file-modified-sort="1651686241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <div class="project-content">
 <p>
 <strong>Frederick Solt</strong>. 2020. “Measuring Income Inequality Across Countries and Over Time: The Standardized World Income Inequality Database.” <em>Social Science Quarterly</em> 101(3):1183-1199.
@@ -498,7 +515,7 @@ window.Quarto = {
 </ul>
 </div>
 </li>
-<li class="project" data-index="7" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1561870800000" data-listing-file-modified-sort="1656330270000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="198">
+<li class="project" data-index="8" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1561870800000" data-listing-file-modified-sort="1656330270000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="198">
 <div class="project-content">
 <p>
 Ritter, Michael, and <strong>Frederick Solt</strong>. 2019. “Economic Inequality and Campaign Participation.” <em>Social Science Quarterly</em> 100(3):678-688
@@ -521,7 +538,7 @@ Ritter, Michael, and <strong>Frederick Solt</strong>. 2019. “Economic Inequali
 </ul>
 </div>
 </li>
-<li class="project" data-index="8" data-categories="cGFydGllcw==" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651611897000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<li class="project" data-index="9" data-categories="cGFydGllcw==" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651611897000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="project-content">
 <p>
 Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party Relabeling: Why Do Parties Change Names?” <em>Party Politics</em> 23(4):437-447.
@@ -544,7 +561,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="9" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcw==" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651526807000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<li class="project" data-index="10" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcw==" data-listing-date-sort="1498798800000" data-listing-file-modified-sort="1651526807000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Yue Hu, Kevan Hudson, Jungmin Song, and Dong ‘Erico’ Yu. 2017. “Economic Inequality and Class Consciousness.” <em>Journal of Politics</em> 79(3):1079-1083.
@@ -567,7 +584,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="10" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452633000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<li class="project" data-index="11" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452633000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2016. “The Standardized World Income Inequality Database.” <em>Social Science Quarterly</em>. 97(5):1267-1281.
@@ -593,7 +610,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="11" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcyUyQ21lYXN1cmVtZW50" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452116000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+<li class="project" data-index="12" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcyUyQ21lYXN1cmVtZW50" data-listing-date-sort="1467262800000" data-listing-file-modified-sort="1651452116000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Yue Hu, Kevan Hudson, Jungmin Song, and Dong ‘Erico’ Yu. 2016. “Economic Inequality and Belief in Meritocracy in the United States.” <em>Research &amp; Politics</em> 3(4):1-7.
@@ -616,7 +633,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="12" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1435640400000" data-listing-file-modified-sort="1651611952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<li class="project" data-index="13" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1435640400000" data-listing-file-modified-sort="1651611952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2015. “On the Assessment and Use of Cross-National Income Inequality Datasets.” <em>Journal of Economic Inequality</em> 13(4):683-691.
@@ -639,7 +656,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="13" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24=" data-listing-date-sort="1430370000000" data-listing-file-modified-sort="1651526771000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<li class="project" data-index="14" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24=" data-listing-date-sort="1430370000000" data-listing-file-modified-sort="1651526771000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2015. “Economic Inequality and Nonviolent Protest.” <em>Social Science Quarterly</em> 96(5):1314-1327.
@@ -662,7 +679,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="14" data-categories="aW5lcXVhbGl0eSUyQ3JlbGlnaW9zaXR5JTJDYXR0aXR1ZGVz" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651621328000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
+<li class="project" data-index="15" data-categories="aW5lcXVhbGl0eSUyQ3JlbGlnaW9zaXR5JTJDYXR0aXR1ZGVz" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651621328000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2014. “Reversing the Arrow? Economic Inequality’s Effect on Religiosity.” In <em>Religion and Inequality in America: Research and Theory on Religion’s Role in Stratification</em>, L. Keister and D. Sherkat, eds., Cambridge: Cambridge University Press.
@@ -685,7 +702,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="15" data-categories="ZGVtb2NyYWN5JTJDcGFydGljaXBhdGlvbiUyQ25lb2xpYmVyYWxpc20=" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651503248000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
+<li class="project" data-index="16" data-categories="ZGVtb2NyYWN5JTJDcGFydGljaXBhdGlvbiUyQ25lb2xpYmVyYWxpc20=" data-listing-date-sort="1404104400000" data-listing-file-modified-sort="1651503248000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Dongkyu Kim, Kyu Young Lee, Spencer Willardson, and Seokdong Kim. 2014. “Neoliberal Reform and Protest in Latin American Democracies: A Replication and Correction.” <em>Research and Politics</em> 1(2):1-13.
@@ -705,7 +722,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="16" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcw==" data-listing-date-sort="1341032400000" data-listing-file-modified-sort="1651496670000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<li class="project" data-index="17" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcw==" data-listing-date-sort="1341032400000" data-listing-file-modified-sort="1651496670000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2012. “The Social Origins of Authoritarianism.” <em>Political Research Quarterly</em> 65(4):703-713.
@@ -725,7 +742,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="17" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcw==" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1651496881000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
+<li class="project" data-index="18" data-categories="aW5lcXVhbGl0eSUyQ2F0dGl0dWRlcw==" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1651496881000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2011. “Diversionary Nationalism: Economic Inequality and the Formation of National Pride.” <em>Journal of Politics</em> 73(3):821-830.
@@ -745,7 +762,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="18" data-categories="aW5lcXVhbGl0eSUyQ3JlbGlnaW9zaXR5JTJDYXR0aXR1ZGVz" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1668190845000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
+<li class="project" data-index="19" data-categories="aW5lcXVhbGl0eSUyQ3JlbGlnaW9zaXR5JTJDYXR0aXR1ZGVz" data-listing-date-sort="1309410000000" data-listing-file-modified-sort="1668190845000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>, Philip Habel, and J. Tobin Grant. 2011. “Economic Inequality, Relative Power, and Religiosity.” <em>Social Science Quarterly</em> 92(2):447-465.
@@ -765,7 +782,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="19" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1277874000000" data-listing-file-modified-sort="1656330202000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<li class="project" data-index="20" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1277874000000" data-listing-file-modified-sort="1656330202000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2010. “Does Economic Inequality Depress Electoral Participation? Testing the Schattschneider Hypothesis.” <em>Political Behavior</em> 32(2):285-301.
@@ -785,7 +802,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="20" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1246338000000" data-listing-file-modified-sort="1651496789000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<li class="project" data-index="21" data-categories="c3dpaWQlMkNpbmVxdWFsaXR5JTJDbWVhc3VyZW1lbnQ=" data-listing-date-sort="1246338000000" data-listing-file-modified-sort="1651496789000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2009. “Standardizing the World Income Inequality Database.” <em>Social Science Quarterly</em> 90(2):231-242.
@@ -808,7 +825,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="21" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1214802000000" data-listing-file-modified-sort="1656330234000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
+<li class="project" data-index="22" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1214802000000" data-listing-file-modified-sort="1656330234000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2008. “Economic Inequality and Democratic Political Engagement.” <em>American Journal of Political Science</em> 52(1):48-60. <em>American Journal of Political Science</em> 52(1):48-60.
@@ -828,7 +845,7 @@ Kim, Mi-son, and <strong>Frederick Solt</strong>. 2017. “The Dynamics of Party
 </ul>
 </div>
 </li>
-<li class="project" data-index="22" data-categories="cGFydGljaXBhdGlvbg==" data-listing-date-sort="1183179600000" data-listing-file-modified-sort="1651502241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+<li class="project" data-index="23" data-categories="cGFydGljaXBhdGlvbg==" data-listing-date-sort="1183179600000" data-listing-file-modified-sort="1651502241000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
 <div class="project-content">
 <p>
 Searing, Donald, <strong>Frederick Solt</strong>, Pamela Johnston Conover, and Ivor Crewe. 2007. “Public Discussion in the Deliberative System: Does It Make Better Citizens?” <em>British Journal of Political Science</em> 37(4):587-618.
@@ -845,7 +862,7 @@ Searing, Donald, <strong>Frederick Solt</strong>, Pamela Johnston Conover, and I
 </ul>
 </div>
 </li>
-<li class="project" data-index="23" data-categories="aW5lcXVhbGl0eSUyQ2RlbW9jcmFjeSUyQ25lb2xpYmVyYWxpc20=" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651609792000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
+<li class="project" data-index="24" data-categories="aW5lcXVhbGl0eSUyQ2RlbW9jcmFjeSUyQ25lb2xpYmVyYWxpc20=" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651609792000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
 <div class="project-content">
 <p>
 Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Failures of Neoliberalism in Latin America.” <em>Latin American Research Review</em> 39(3):150-164.
@@ -862,7 +879,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="24" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651497147000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
+<li class="project" data-index="25" data-categories="aW5lcXVhbGl0eSUyQ3BhcnRpY2lwYXRpb24lMkNkZW1vY3JhY3k=" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651497147000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2004. “Civics or Structure? Revisiting the Origins of Democratic Quality in the Italian Regions.” <em>British Journal of Political Science</em> 34(1):123-135.
@@ -879,7 +896,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="25" data-categories="ZGVtb2NyYWN5" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651502939000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<li class="project" data-index="26" data-categories="ZGVtb2NyYWN5" data-listing-date-sort="1088571600000" data-listing-file-modified-sort="1651502939000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2004. “Electoral Competition, Legislative Pluralism, and Institutional Development: Evidence from Mexico’s States.” <em>Latin American Research Review</em> 39(1):155-167.
@@ -896,7 +913,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="26" data-categories="ZGVtb2NyYWN5" data-listing-date-sort="993877200000" data-listing-file-modified-sort="1651612008000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
+<li class="project" data-index="27" data-categories="ZGVtb2NyYWN5" data-listing-date-sort="993877200000" data-listing-file-modified-sort="1651612008000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2001. “Institutional Effects on Democratic Transitions: Neo-Patrimonial Regimes in Africa, 1989-1994.” <em>Studies in Comparative International Development</em> 36(2):82-91.
@@ -924,24 +941,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
 <div id="listing-working-papers" class="quarto-listing quarto-listing-container-custom">
 <div class="list project-list">
-<li class="project" data-index="0" data-categories="aW5lcXVhbGl0eSUyQ21lYXN1cmVtZW50" data-listing-date-sort="1749013200000" data-listing-file-modified-sort="1750642242894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
-<div class="project-content">
-<p>
-<span class="status btn-info"><i class="fa-solid fa-arrows-rotate"></i> Revise &amp; Resubmit</span> <a href="https://www.aalto.fi/en/people/daniel-chrisendo">Chrisendo, Daniel</a>, <a href="https://research.aalto.fi/en/persons/venla-niva">Venla Niva</a>, <a href="http://wittgensteincentre.org/en/staff/member/hoffmann.htm">Roman Hoffmann</a>, <a href="https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar">Sina Masoumzadeh Sayyar</a>, <a href="https://www.juanrocha.se">Juan Rocha</a>, <a href="https://researchportal.helsinki.fi/en/persons/vilma-sandström">Vilma Sandström</a>, <strong>Frederick Solt</strong>, and <a href="https://www.aalto.fi/en/people/matti-kummu">Matti Kummu</a>. 2024. “Income Inequality Has Increased For Over Two-Thirds of the Global Population.” <em>ResearchSquare</em>.
-</p>
-</div>
-<div class="project-details">
-<ul class="project-links">
-<li class="project-link details">
-<a href="../res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html"><i class="bi bi-info-circle-fill"></i> Full details »</a>
-</li>
-<li class="project-link">
-<a href="https://www.researchsquare.com/article/rs-5548291/v1"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="project" data-index="1" data-categories="YXR0aXR1ZGVzJTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1735624800000" data-listing-file-modified-sort="1750628523146" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<li class="project" data-index="0" data-categories="YXR0aXR1ZGVzJTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1735624800000" data-listing-file-modified-sort="1750628523146" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <div class="project-content">
 <p>
 <span class="status btn-success"><i class="fa-solid fa-glasses"></i> Under Review</span> <a href="https://cassyuehtai.netlify.app">Tai, Yuehong Cassandra</a>, and <strong>Frederick Solt</strong>. 2024. “Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022.” <em>SocArXiv</em>.
@@ -961,7 +961,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="2" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1724821200000" data-listing-file-modified-sort="1734105865000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
+<li class="project" data-index="1" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1724821200000" data-listing-file-modified-sort="1734105865000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
 <div class="project-content">
 <p>
 <span class="status btn-success"><i class="fa-solid fa-glasses"></i> Under Review</span> <a href="https://haofengma.org/">Ma, Haofeng</a>, <a href="https://jeongho-choi.github.io/">Jeongho Choi</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, <a href="https://sammo3182.github.io">Yue Hu</a>, and <strong>Frederick Solt</strong>. 2024. “Macrodiscontent Across Countries.” <em>SocArXiv</em>.
@@ -981,7 +981,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="3" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1653886800000" data-listing-file-modified-sort="1707328951000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<li class="project" data-index="2" data-categories="YXR0aXR1ZGVzJTJDZGVtb2NyYWN5JTJDbWVhc3VyZW1lbnQlMkNkY3Bv" data-listing-date-sort="1653886800000" data-listing-file-modified-sort="1707328951000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
 <div class="project-content">
 <p>
 <a href="https://sammo3182.github.io">Hu, Yue</a>, <a href="https://cassyuehtai.netlify.app">Yuehong Cassandra Tai</a>, and <strong>Frederick Solt</strong>. 2022. “On Data ‘Janitor Work’ in Political Science: The Case of Thermostatic Support for Democracy.” <em>SocArXiv</em>.
@@ -1001,7 +1001,7 @@ Huber, Evelyne, and <strong>Frederick Solt</strong>. 2004. “Successes and Fail
 </ul>
 </div>
 </li>
-<li class="project" data-index="4" data-categories="ZGNwbyUyQ2F0dGl0dWRlcyUyQ21lYXN1cmVtZW50" data-listing-date-sort="1578808800000" data-listing-file-modified-sort="1669141617000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<li class="project" data-index="3" data-categories="ZGNwbyUyQ2F0dGl0dWRlcyUyQ21lYXN1cmVtZW50" data-listing-date-sort="1578808800000" data-listing-file-modified-sort="1669141617000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="project-content">
 <p>
 <strong>Solt, Frederick</strong>. 2020. “Modeling Dynamic Comparative Public Opinion.” <em>SocArXiv</em>.

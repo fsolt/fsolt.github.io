@@ -17,7 +17,106 @@
 <width>144</width>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Mon, 16 Jun 2025 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 28 Aug 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
+  <dc:creator>Chrisendo, Daniel</dc:creator>
+  <dc:creator>Venla Niva</dc:creator>
+  <dc:creator>Roman Hoffmann</dc:creator>
+  <dc:creator>Sina Masoumzadeh Sayyar</dc:creator>
+  <dc:creator>Juan Rocha</dc:creator>
+  <dc:creator>Vilma Sandström</dc:creator>
+  <dc:creator>Frederick Solt</dc:creator>
+  <dc:creator>Matti Kummu</dc:creator>
+  <link>https://fsolt.org/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
+<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
+<div class="research-page">
+<li class="project">
+<div class="project-details">
+<div class="project-content">
+<p>
+<a href="https://www.aalto.fi/en/people/daniel-chrisendo">Chrisendo, Daniel</a>, <a href="https://research.aalto.fi/en/persons/venla-niva">Venla Niva</a>, <a href="http://wittgensteincentre.org/en/staff/member/hoffmann.htm">Roman Hoffmann</a>, <a href="https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar">Sina Masoumzadeh Sayyar</a>, <a href="https://www.juanrocha.se">Juan Rocha</a>, <a href="https://researchportal.helsinki.fi/en/persons/vilma-sandström">Vilma Sandström</a>, <strong>Frederick Solt</strong>, and <a href="https://www.aalto.fi/en/people/matti-kummu">Matti Kummu</a>. Forthcoming. “Income Inequality Has Increased For Over Two-Thirds of the Global Population.” <em>Nature Sustainability</em>.
+</p>
+</div>
+<ul class="project-links">
+<li class="project-link">
+<a href="https://www.researchsquare.com/article/rs-5548291/v1"><i class="far fa-file-pdf"></i> Preprint</a>
+</li>
+</ul>
+</div>
+<div class="publication-extra">
+<p>
+</p>
+</div>
+</li>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on income distribution are widely missing. Such data are essential for assessing patterns of inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for the period 1990-2023 and used these to assess the status and trends of income inequality and income, as well as their interplay. We show that while gross national income has increased for most people globally (96%), inequality has also increased for around 46-59% (depending on the national dataset used) of the global population, while it has decreased for 31-36% and has not shown significant trend for 10-18%. We illustrate heterogeneities in inequality trends between and within countries, analyse plausible confounding factors related to inequality, and highlight the broad utility of the datasets through a case study that investigates correlations with terrestrial ecological diversity. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, national, and subnational levels and providing comprehensive evidence for policymakers to make informed decisions.</p>
+</section>
+<section id="important-figures" class="level2">
+<h2 class="anchored" data-anchor-id="important-figures">Important figures</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/global_inequality_fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1: Gini coefficient and GNI (gross national income) per capita for 1990 and 2021. a. Gini coefficient for 1221990, b. gross national income (GNI) per capita PPP for 1990, c.&nbsp;Gini coefficient for 2021, and d.&nbsp;GNI per capita 123PPP for 2021. Note: log10 scale for GNI per capita.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fsolt.org/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/global_inequality_fig5.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. The interplay of ecological diversity, income, and income equality. a. a map showing the combinations of trends in ecological diversity, income, and income equality (1 – Gini coefficient) over 1990-2023. Bright spots (all trends positive) and dark spots (all trends negative) are highlighted. b. the distributions of average values (over 1990-2023) of each indicator in each trend combination class. In the last column, the n corresponds to the number of admin 1 areas in each trend combination class. Slopes were calculated with Siegel repeated medians (mblm R package), and only statistically significant slopes (p &lt; 0.1) are reported. Note: The subnational Gini coefficient data based on SWIID national data are used here.</figcaption>
+</figure>
+</div>
+</section>
+<section id="bibtex-citation" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Chrisendo2024</span>,</span>
+<span id="cb1-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span>={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},</span>
+<span id="cb1-3"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span>={Income Inequality Has Increased For Over Two-Thirds of the Global Population},</span>
+<span id="cb1-4"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">publisher</span>={ResearchSquare},</span>
+<span id="cb1-5"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span>={2024},</span>
+<span id="cb1-6"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span>={Dec}, </span>
+<span id="cb1-7"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">url</span>={https://doi.org/10.21203/rs.3.rs-5548291/v1},</span>
+<span id="cb1-8"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span>={10.21203/rs.3.rs-5548291/v1}</span>
+<span id="cb1-9">}</span></code></pre></div>
+
+
+
+</section>
+
+ ]]></description>
+  <category>inequality</category>
+  <category>measurement</category>
+  <guid>https://fsolt.org/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/</guid>
+  <pubDate>Thu, 28 Aug 2025 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>An Incomplete Recipe: One-Dimensional Latent Variables Do Not Capture the Full Flavor of Democratic Support</title>
   <dc:creator>Yue Hu</dc:creator>
@@ -138,99 +237,6 @@ font-style: inherit;">pages</span>={1-7}</span>
   <category>dcpo</category>
   <guid>https://fsolt.org/res/published/hutaikowoosolt2023/</guid>
   <pubDate>Mon, 16 Jun 2025 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Income Inequality Has Increased For Over Two-Thirds of the Global Population</title>
-  <dc:creator>Chrisendo, Daniel</dc:creator>
-  <dc:creator>Venla Niva</dc:creator>
-  <dc:creator>Roman Hoffmann</dc:creator>
-  <dc:creator>Sina Masoumzadeh Sayyar</dc:creator>
-  <dc:creator>Juan Rocha</dc:creator>
-  <dc:creator>Vilma Sandström</dc:creator>
-  <dc:creator>Frederick Solt</dc:creator>
-  <dc:creator>Matti Kummu</dc:creator>
-  <link>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div id="listing-cite" class="quarto-listing quarto-listing-container-custom">
-<script src="https://kit.fontawesome.com/b9466c47ef.js" crossorigin="anonymous"></script>
-<div class="research-page">
-<li class="project">
-<div class="project-details">
-<div class="project-content">
-<p>
-<a href="https://www.aalto.fi/en/people/daniel-chrisendo">Chrisendo, Daniel</a>, <a href="https://research.aalto.fi/en/persons/venla-niva">Venla Niva</a>, <a href="http://wittgensteincentre.org/en/staff/member/hoffmann.htm">Roman Hoffmann</a>, <a href="https://www.aalto.fi/en/people/sina-masoumzadeh-sayyar">Sina Masoumzadeh Sayyar</a>, <a href="https://www.juanrocha.se">Juan Rocha</a>, <a href="https://researchportal.helsinki.fi/en/persons/vilma-sandström">Vilma Sandström</a>, <strong>Frederick Solt</strong>, and <a href="https://www.aalto.fi/en/people/matti-kummu">Matti Kummu</a>. 2024. “Income Inequality Has Increased For Over Two-Thirds of the Global Population.” <em>ResearchSquare</em>.
-</p>
-</div>
-<ul class="project-links">
-<li class="project-link">
-<a href="https://www.researchsquare.com/article/rs-5548291/v1"><i class="far fa-file-pdf"></i> Preprint</a>
-</li>
-</ul>
-</div>
-<div class="publication-extra">
-<p>
-</p>
-</div>
-</li>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Income inequality is one of the most important measures to indicate economic health, social justice, and quality of life. Yet, especially at the subnational level, comprehensive global data on the distribution of incomes is widely missing. Such data is essential to assess patterns in inequality within countries and their development over time. We created seamless global subnational Gini coefficient and gross national income (GNI) PPP per capita datasets for 1990-2021 and used these to assess the status and trends of income inequality and income as well as their interplay. We show that while gross national income has increased for most (96%) people globally, inequality has also increased for around 68% of the global population. We illustrate heterogeneities in inequality trends between and within countries and analyse plausible confounding factors related to inequality. Our dataset and analyses reveal new insights into the issue, opening novel research avenues at the global, regional or national level and providing comprehensive evidence for policymakers to make informed decisions.</p>
-</section>
-<section id="important-figure" class="level2">
-<h2 class="anchored" data-anchor-id="important-figure">Important figure</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/global_inequality_fig1.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 1: Gini coefficient and GNI (gross national income) per capita for 1990 and 2021. a. Gini coefficient for 1221990, b. gross national income (GNI) per capita PPP for 1990, c.&nbsp;Gini coefficient for 2021, and d.&nbsp;GNI per capita 123PPP for 2021. Note: log10 scale for GNI per capita.</figcaption>
-</figure>
-</div>
-</section>
-<section id="bibtex-citation" class="level2">
-<h2 class="anchored" data-anchor-id="bibtex-citation">BibTeX citation</h2>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">@misc</span>{<span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">Chrisendo2024</span>,</span>
-<span id="cb1-2"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">author</span>={Chrisendo, Daniel and Niva, Venla and Hoffmann, Roman and Masoumzadeh Sayyar, Sina and Rocha, Juan and Sandström, Vilma and Solt, Frederick and Kummu, Matti},</span>
-<span id="cb1-3"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">title</span>={Income Inequality Has Increased For Over Two-Thirds of the Global Population},</span>
-<span id="cb1-4"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">publisher</span>={ResearchSquare},</span>
-<span id="cb1-5"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">year</span>={2024},</span>
-<span id="cb1-6"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">month</span>={Dec}, </span>
-<span id="cb1-7"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">url</span>={https://doi.org/10.21203/rs.3.rs-5548291/v1},</span>
-<span id="cb1-8"> <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">doi</span>={10.21203/rs.3.rs-5548291/v1}</span>
-<span id="cb1-9">}</span></code></pre></div>
-
-
-
-</section>
-
- ]]></description>
-  <category>inequality</category>
-  <category>measurement</category>
-  <guid>https://fsolt.org/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/</guid>
-  <pubDate>Wed, 04 Jun 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Trust in Civil Servants: A Cross-National Dataset for Public Policy Research, 1986–2022</title>
@@ -645,10 +651,10 @@ font-style: inherit;">url</span> = {https://onlinelibrary.wiley.com/doi/abs/10.1
 background-color: null;
 font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">HuSolt2024</span>,</span>
+font-style: inherit;">HuSolt2025</span>,</span>
 <span id="cb1-2"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">author</span>={Hu, Yue, and Solt, Frederick},</span>
+font-style: inherit;">author</span>={Hu, Yue and Solt, Frederick},</span>
 <span id="cb1-3"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">title</span>={Macrointerest Across Countries},</span>
@@ -660,7 +666,7 @@ background-color: null;
 font-style: inherit;">year</span>={2025},</span>
 <span id="cb1-6"> <span class="dt" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">volumen</span>={55},</span>
+font-style: inherit;">volume</span>={55},</span>
 <span id="cb1-7"> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">number</span>={e71},</span>

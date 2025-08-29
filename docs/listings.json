@@ -45,6 +45,12 @@
     ]
   },
   {
+    "listing": "/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html",
+    "items": [
+      "/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/short.html"
+    ]
+  },
+  {
     "listing": "/res/published/solthabelgrant2011/index.html",
     "items": [
       "/res/published/solthabelgrant2011/short.html"
@@ -177,12 +183,6 @@
     ]
   },
   {
-    "listing": "/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html",
-    "items": [
-      "/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/short.html"
-    ]
-  },
-  {
     "listing": "/res/working-papers/hutaisolt2022/index.html",
     "items": [
       "/res/working-papers/hutaisolt2022/short.html"
@@ -209,6 +209,7 @@
   {
     "listing": "/res/index.html",
     "items": [
+      "/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html",
       "/res/published/hutaikowoosolt2023/index.html",
       "/res/published/wookotaihusolt2024/index.html",
       "/res/published/husolt2024/index.html",
@@ -236,7 +237,6 @@
       "/res/published/solt2004bjps/index.html",
       "/res/published/solt2004larr/index.html",
       "/res/published/solt2001/index.html",
-      "/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html",
       "/res/working-papers/taisolt2024/index.html",
       "/res/working-papers/machoitaihusolt2024/index.html",
       "/res/working-papers/hutaisolt2022/index.html",
@@ -265,12 +265,6 @@
     "listing": "/res/working-papers/hutaisolt2022/short.html",
     "items": [
       "/res/working-papers/hutaisolt2022/index.html"
-    ]
-  },
-  {
-    "listing": "/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/short.html",
-    "items": [
-      "/res/working-papers/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html"
     ]
   },
   {
@@ -403,6 +397,12 @@
     "listing": "/res/published/solthabelgrant2011/short.html",
     "items": [
       "/res/published/solthabelgrant2011/index.html"
+    ]
+  },
+  {
+    "listing": "/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/short.html",
+    "items": [
+      "/res/published/chrisendonivahoffmannrochasandstromsoltkummu2024/index.html"
     ]
   },
   {
