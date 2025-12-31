@@ -1,0 +1,17 @@
+{
+  "hash": "95cd27f20993b9efdccefbd67be2322f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"SWIID Version 9.91 is available!\"\nauthor: Frederick Solt\ndate: '2025-12-29'\ncategories:\n  - update\n  - swiid\ndescription: \"Hi everyone! Version 9.91 of the SWIID is now available! This new release adds to its source data nearly four thousand new Ginis since version 9.9...\"\n---\n\n\n::: {.cell}\n\n:::\n\n\nHi everyone! Version 9.91 of the SWIID is [now available](/swiid/swiid_downloads/)! This new release:\n\n-   adds to [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) 4000 new Ginis since version 9.9, including newly available LIS data on [France, Germany, Luxembourg, Switzerland, and Uruguay](https://www.lisdatacenter.org/news-and-events/2025-autumn-data-splash/) and \non [Austria, Canada, Chile, Czechia, Ireland, Israel, Panama, the United States, and Switzerland (again!)](https://www.lisdatacenter.org/news-and-events/2025-winter-data-splash/); and\n\n-   includes estimates of market and disposable income inequality for 63 more country-years than version 9.9.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/plot-1.png){width=672}\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/highest-1.png){width=672}\n:::\n:::\n\n\nFor more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid). As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
