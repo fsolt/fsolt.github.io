@@ -239,7 +239,7 @@
 
 <p>Hi everyone! Version 9.5 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
 <ul>
-<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 7391 new Ginis since version 9.4, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2023-spring-data-splash/">Canada, Luxembourg, and Spain</a> and on <a href="https://www.lisdatacenter.org/news-and-events/2023-summer-data-splash/">Austria, Canada (again!), Italy, Sweden, and the United States</a>; and</p></li>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 11391 new Ginis since version 9.4, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2023-spring-data-splash/">Canada, Luxembourg, and Spain</a> and on <a href="https://www.lisdatacenter.org/news-and-events/2023-summer-data-splash/">Austria, Canada (again!), Italy, Sweden, and the United States</a>; and</p></li>
 <li><p>includes estimates of market and disposable income inequality for 169 more country-years than version 9.4.</p></li>
 </ul>
 <div class="cell">
@@ -281,7 +281,7 @@
 
 <p>Hi everyone! Version 9.4 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
 <ul>
-<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 5494 new Ginis since version 9.3, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2022-autumn-data-splash/">Austria, China, Norway, Peru, the United Kingdom, Canada, and Chile</a>; and</p></li>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 11391 new Ginis since version 9.3, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2022-autumn-data-splash/">Austria, China, Norway, Peru, the United Kingdom, Canada, and Chile</a>; and</p></li>
 <li><p>includes estimates of market and disposable income inequality for 54 more country-years than version 9.3.</p></li>
 </ul>
 <div class="cell">
@@ -434,7 +434,7 @@ King, Gary, Michael Tomz, and Jason Wittenberg. 2000. <span>“Making the Most o
 
 <p>Hi everyone! Version 9.3 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! This new release:</p>
 <ul>
-<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 5139 new Ginis since version 9.2, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2022-spring-data-splash/">Canada, France, Ireland, Mali, Norway, Uruguay, Poland</a>, <a href="https://www.lisdatacenter.org/news-and-events/2022-summer-data-splash/">Germany, Luxembourg, Mali (again!), Peru, and the United States</a>; and</p></li>
+<li><p>adds to <a href="https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv">its source data</a> 11391 new Ginis since version 9.2, including newly available LIS data on <a href="https://www.lisdatacenter.org/news-and-events/2022-spring-data-splash/">Canada, France, Ireland, Mali, Norway, Uruguay, Poland</a>, <a href="https://www.lisdatacenter.org/news-and-events/2022-summer-data-splash/">Germany, Luxembourg, Mali (again!), Peru, and the United States</a>; and</p></li>
 <li><p>includes estimates of market and disposable income inequality for 62 more country-years than version 9.2.</p></li>
 </ul>
 <div class="cell">
@@ -1231,7 +1231,7 @@ Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’R
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-2-now-available/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1422,10 +1422,30 @@ Solt, Frederick. 2016. <span>“The Standardized World Income Inequality Databas
 
 <p>Version 6.0 of the SWIID is <a href="../../../swiid/swiid_downloads/">now available</a>! It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting <a href="https://github.com/fsolt/swiid/">now done using #rstats and Stan</a>.</p>
 <div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in geom_text(aes(1977, 56, label = "Brazil", colour = "Brazil"), : All aesthetics have length 1, but the data has 158 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in geom_text(aes(1980, 46.5, label = "India", colour = "India"), : All aesthetics have length 1, but the data has 158 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in geom_text(aes(1985, 37, label = "China", colour = "China"), size = 4.5): All aesthetics have length 1, but the data has 158 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in geom_text(aes(1992.2, 30, label = "Russia", colour = "Russia"), : All aesthetics have length 1, but the data has 158 rows.
+ℹ Please consider using `annotate()` or provide this layer with data containing
+  a single row.</code></pre>
+</div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://fsolt.org/blog/posts/swiid-version-6-0-is-available/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>

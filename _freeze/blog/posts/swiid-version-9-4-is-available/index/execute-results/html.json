@@ -1,7 +1,8 @@
 {
-  "hash": "1cb2c64bc467db1f823ee174bf9bb9ad",
+  "hash": "b8bb196d2ebb75a85b537fdb36e8f074",
   "result": {
-    "markdown": "---\ntitle: \"SWIID Version 9.4 is available!\"\nauthor: Frederick Solt\ndate: '2022-06-24'\ncategories:\n  - update\n  - swiid\ndescription: \"Hi everyone! Version 9.4 of the SWIID is now available! This new release adds to its source data 5494 new Ginis since version 9.3...\"\n---\n\n::: {.cell}\n\n:::\n\n\nHi everyone! Version 9.4 of the SWIID is [now available](/swiid/swiid_downloads/)! This new release:\n\n-   adds to [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) 5494 new Ginis since version 9.3, including newly available LIS data on [Austria, China, Norway, Peru, the United Kingdom, Canada, and Chile](https://www.lisdatacenter.org/news-and-events/2022-autumn-data-splash/); and\n\n-   includes estimates of market and disposable income inequality for 54 more country-years than version 9.3.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/plot-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/highest-1.png){width=672}\n:::\n:::\n\n\nFor more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid). As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.\n",
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"SWIID Version 9.4 is available!\"\nauthor: Frederick Solt\ndate: '2022-11-22'\ncategories:\n  - update\n  - swiid\ndescription: \"Hi everyone! Version 9.4 of the SWIID is now available! This new release adds to its source data 5494 new Ginis since version 9.3...\"\n---\n\n\n::: {.cell}\n\n:::\n\n\nHi everyone! Version 9.4 of the SWIID is [now available](/swiid/swiid_downloads/)! This new release:\n\n-   adds to [its source data](https://github.com/fsolt/swiid/blob/master/data/swiid_source.csv) 11391 new Ginis since version 9.3, including newly available LIS data on [Austria, China, Norway, Peru, the United Kingdom, Canada, and Chile](https://www.lisdatacenter.org/news-and-events/2022-autumn-data-splash/); and\n\n-   includes estimates of market and disposable income inequality for 54 more country-years than version 9.3.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/plot-1.png){width=672}\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/highest-1.png){width=672}\n:::\n:::\n\n\nFor more details, you can check out the all the R and Stan code used to generate the estimates [in the SWIID GitHub repository](https://github.com/fsolt/swiid). As always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.\n",
     "supporting": [
       "index_files"
     ],
@@ -11,6 +12,6 @@
     "includes": {},
     "engineDependencies": {},
     "preserve": {},
-    "postProcess": null
+    "postProcess": true
   }
 }

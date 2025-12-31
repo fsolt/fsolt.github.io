@@ -1,7 +1,8 @@
 {
-  "hash": "3c4be9fb158f62a74c4cb3f4a8d267df",
+  "hash": "3949677ebf0217ac7f9db20d81b52ef1",
   "result": {
-    "markdown": "---\ntitle: SWIID Version 6.0 is available!\nauthor: Frederick Solt\nslug: swiid-version-6_0\ndate: '2017-07-27'\ncategories:\n  - update\n  - r\n  - swiid\nbibliography: /Users/fredsolt/Library/texmf/bibtex/bib/FSLibrary.bib\ncsl: /Users/fredsolt/Library/texmf/bibtex/csl/american-political-science-association2.csl\noutput:\n    html_document:\n        self_contained: true\n---\n\nVersion 6.0 of the SWIID is [now available](/swiid/swiid_downloads/)!  It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting [now done using #rstats and Stan](https://github.com/fsolt/swiid/).\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\nAs always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.",
+    "engine": "knitr",
+    "markdown": "---\ntitle: SWIID Version 6.0 is available!\nauthor: Frederick Solt\nslug: swiid-version-6_0\ndate: '2017-07-27'\ncategories:\n  - update\n  - r\n  - swiid\noutput:\n    html_document:\n        self_contained: true\n---\n\nVersion 6.0 of the SWIID is [now available](/swiid/swiid_downloads/)!  It represents a complete, starting from scratch, end-to-end revision, with all the heavy lifting [now done using #rstats and Stan](https://github.com/fsolt/swiid/).\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning in geom_text(aes(1977, 56, label = \"Brazil\", colour = \"Brazil\"), : All aesthetics have length 1, but the data has 158 rows.\nℹ Please consider using `annotate()` or provide this layer with data containing\n  a single row.\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning in geom_text(aes(1980, 46.5, label = \"India\", colour = \"India\"), : All aesthetics have length 1, but the data has 158 rows.\nℹ Please consider using `annotate()` or provide this layer with data containing\n  a single row.\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning in geom_text(aes(1985, 37, label = \"China\", colour = \"China\"), size = 4.5): All aesthetics have length 1, but the data has 158 rows.\nℹ Please consider using `annotate()` or provide this layer with data containing\n  a single row.\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning in geom_text(aes(1992.2, 30, label = \"Russia\", colour = \"Russia\"), : All aesthetics have length 1, but the data has 158 rows.\nℹ Please consider using `annotate()` or provide this layer with data containing\n  a single row.\n```\n\n\n:::\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\nAs always, I encourage users of the SWIID to [email me](mailto:frederick-solt@uiowa.edu) with their comments, questions, and suggestions.\n",
     "supporting": [
       "index_files"
     ],
@@ -11,6 +12,6 @@
     "includes": {},
     "engineDependencies": {},
     "preserve": {},
-    "postProcess": null
+    "postProcess": true
   }
 }

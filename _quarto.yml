@@ -103,6 +103,6 @@ format:
     css: templates/styles.css
     include-in-header: templates/sc.html
 
-freeze: true
+freeze: auto
 
 
