@@ -5,7 +5,7 @@ date: '2026-04-08'
 categories:
   - update
   - swiid
-description: "Hi everyone! Version 9.92 of the SWIID is now available! This new release adds to its source data nearly four thousand new Ginis since version 9.91..."
+description: "Hi everyone! Version 9.92 of the SWIID is now available! This new release adds to its source data nearly five thousand new Ginis since version 9.91..."
 ---
 
 ```{r version_comparison, echo=FALSE, message=FALSE, warning=FALSE}
